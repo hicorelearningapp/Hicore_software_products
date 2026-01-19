@@ -1,0 +1,1141 @@
+[
+  {
+    "id": 1,
+    "topic": "Vertex AI Training",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "When training large deep learning models on Vertex AI, which compute type is most suitable for maximizing performance?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "TPU-enabled training nodes" },
+      { "label": "B", "type": "text", "value": "Shared-core CPU instances" },
+      { "label": "C", "type": "text", "value": "Cloud Functions instances" },
+      { "label": "D", "type": "text", "value": "Cloud Run containers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TPUs provide massive acceleration for deep learning workloads." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "Vertex AI Pipelines",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you use Vertex AI Pipelines for ML workflows?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To automate, version, and track each stage of the ML process" },
+      { "label": "B", "type": "text", "value": "To automatically tune BigQuery performance" },
+      { "label": "C", "type": "text", "value": "To reduce GPU memory consumption" },
+      { "label": "D", "type": "text", "value": "To auto-label all datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipelines ensure repeatability, automation, and full lineage tracking." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "Dataflow & Apache Beam",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is Dataflow preferred for preprocessing large ML datasets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It supports distributed processing and autoscaling through Apache Beam" },
+      { "label": "B", "type": "text", "value": "It automatically trains ML models" },
+      { "label": "C", "type": "text", "value": "It provides GPU acceleration for batch inference" },
+      { "label": "D", "type": "text", "value": "It is cheaper than Cloud Functions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dataflow handles scalable data transformation, ideal for ML pipelines." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "BigQuery ML",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which model type can be trained directly inside BigQuery using BigQuery ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Linear regression and logistic regression" },
+      { "label": "B", "type": "text", "value": "Reinforcement learning agents" },
+      { "label": "C", "type": "text", "value": "Generative adversarial networks" },
+      { "label": "D", "type": "text", "value": "3D CNN models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "BigQuery ML supports SQL-based training for common ML models." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Hyperparameter Tuning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Vertex AI Vizier uses which technique to optimize hyperparameters efficiently?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bayesian optimization" },
+      { "label": "B", "type": "text", "value": "Exhaustive grid search only" },
+      { "label": "C", "type": "text", "value": "Manual tuning" },
+      { "label": "D", "type": "text", "value": "Random deletion" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Vizier uses Bayesian optimization for intelligent tuning." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Model Monitoring",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What type of drift can Vertex AI Model Monitoring automatically detect?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Feature distribution drift" },
+      { "label": "B", "type": "text", "value": "GPU temperature drift" },
+      { "label": "C", "type": "text", "value": "Storage bucket drift" },
+      { "label": "D", "type": "text", "value": "IAM role drift" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Monitoring compares serving data to training data distributions." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Explainable AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Integrated Gradients are used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Feature attribution for deep neural networks" },
+      { "label": "B", "type": "text", "value": "Clustering unlabeled data" },
+      { "label": "C", "type": "text", "value": "Reducing model size" },
+      { "label": "D", "type": "text", "value": "Hyperparameter search" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Integrated Gradients helps identify which features influence model output." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Model Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why use multiple deployed model versions on a single Vertex AI endpoint?" }
+    ]
+    ,
+    "options": [
+      { "label": "A", "type": "text", "value": "To perform A/B testing and gradual rollouts" },
+      { "label": "B", "type": "text", "value": "To reduce billing costs" },
+      { "label": "C", "type": "text", "value": "To remove data drift fully" },
+      { "label": "D", "type": "text", "value": "To avoid training" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Multiple versions allow controlled testing and traffic splitting." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Data Governance",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which GCP service helps enforce fine-grained access controls on data?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cloud IAM + BigQuery column-level security" },
+      { "label": "B", "type": "text", "value": "Cloud Functions" },
+      { "label": "C", "type": "text", "value": "Cloud CDN" },
+      { "label": "D", "type": "text", "value": "Artifact Registry" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "IAM with column-level security restricts access at a granular level." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "TFX Components",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "The TFX 'Trainer' component is responsible for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training the ML model using user-defined code" },
+      { "label": "B", "type": "text", "value": "Creating storage buckets" },
+      { "label": "C", "type": "text", "value": "Managing Pub/Sub messages" },
+      { "label": "D", "type": "text", "value": "Generating IAM permissions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The Trainer component orchestrates model training in TFX pipelines." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Feature Store",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why are online and offline feature stores both important?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Offline for training, online for low-latency predictions" },
+      { "label": "B", "type": "text", "value": "Online stores encrypt data, offline stores do not" },
+      { "label": "C", "type": "text", "value": "Only online stores support model monitoring" },
+      { "label": "D", "type": "text", "value": "Offline stores remove PII automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Consistency between training and serving improves accuracy and avoids drift." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "CI/CD for ML",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which GCP service is commonly used for CI/CD in ML workflows?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cloud Build" },
+      { "label": "B", "type": "text", "value": "Cloud DNS" },
+      { "label": "C", "type": "text", "value": "Data Catalog" },
+      { "label": "D", "type": "text", "value": "Cloud Armor" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cloud Build automates pipelines for container builds and ML workflows." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Model Compression",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Quantization helps improve ML model performance by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reducing model size and increasing inference speed" },
+      { "label": "B", "type": "text", "value": "Adding extra neurons" },
+      { "label": "C", "type": "text", "value": "Automatically improving training accuracy" },
+      { "label": "D", "type": "text", "value": "Encrypting model weights" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Quantization reduces precision to optimize edge inference." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Edge ML (Coral TPU)",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Edge TPU devices are typically used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Running lightweight models locally with very low latency" },
+      { "label": "B", "type": "text", "value": "Executing SQL queries faster" },
+      { "label": "C", "type": "text", "value": "Managing IAM permissions" },
+      { "label": "D", "type": "text", "value": "Rendering dashboards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Edge TPUs accelerate inference on small devices." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Data Validation (TFDV)",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "TFDV (TensorFlow Data Validation) helps detect:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data schema anomalies and drift" },
+      { "label": "B", "type": "text", "value": "GPU overheating" },
+      { "label": "C", "type": "text", "value": "IAM policy mismatches" },
+      { "label": "D", "type": "text", "value": "Slow SQL queries" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TFDV ensures training-serving consistency by validating data." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Model Validation",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "A good validation strategy for small datasets is:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "k-fold cross-validation" },
+      { "label": "B", "type": "text", "value": "Using the test set as training" },
+      { "label": "C", "type": "text", "value": "Removing the validation set" },
+      { "label": "D", "type": "text", "value": "Shuffling only the labels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cross-validation maximizes limited data." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Distributed Training",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which TensorFlow distribution strategy is recommended for multi-GPU training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "MirroredStrategy" },
+      { "label": "B", "type": "text", "value": "OneDeviceStrategy" },
+      { "label": "C", "type": "text", "value": "TPUStrategy" },
+      { "label": "D", "type": "text", "value": "CentralizedStrategy" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MirroredStrategy synchronizes variables across multiple GPUs." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Responsible AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "To reduce algorithmic bias during training, one recommended approach is:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Collecting diverse, balanced datasets" },
+      { "label": "B", "type": "text", "value": "Relying entirely on AutoML" },
+      { "label": "C", "type": "text", "value": "Increasing model depth" },
+      { "label": "D", "type": "text", "value": "Reducing validation size" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Diverse data helps reduce demographic and conceptual bias." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Model Artifacts",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Where should trained model artifacts be stored for production use?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Artifact Registry or Cloud Storage" },
+      { "label": "B", "type": "text", "value": "Local laptop storage" },
+      { "label": "C", "type": "text", "value": "Cloud Shell" },
+      { "label": "D", "type": "text", "value": "Pub/Sub topics" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Artifact Registry and Cloud Storage are reliable, scalable solutions." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "ML APIs vs Custom Models",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "When should a custom-trained model be used instead of a pre-trained Google ML API?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "When domain-specific behavior is required that prebuilt APIs cannot handle" },
+      { "label": "B", "type": "text", "value": "When simple image labeling is needed" },
+      { "label": "C", "type": "text", "value": "When using a small dataset" },
+      { "label": "D", "type": "text", "value": "When building SQL indexes" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom models are needed for specialized tasks not covered by generic APIs." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Model Serving Latency",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which approach helps reduce latency for real-time inference on Vertex AI endpoints?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Using GPUs or scaling machine replicas" },
+      { "label": "B", "type": "text", "value": "Using only batch prediction" },
+      { "label": "C", "type": "text", "value": "Compressing training data" },
+      { "label": "D", "type": "text", "value": "Using shared-core CPUs only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GPUs and autoscaling reduce latency for real-time inference." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "BigQuery Feature Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which BigQuery feature simplifies feature engineering for ML models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SQL-based transformations using SELECT statements" },
+      { "label": "B", "type": "text", "value": "Cloud DNS" },
+      { "label": "C", "type": "text", "value": "Cloud VPN" },
+      { "label": "D", "type": "text", "value": "Cloud CDN" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SQL makes feature engineering easy and scalable in BigQuery." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Data Leakage",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Data leakage occurs when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Information from validation/test data influences model training" },
+      { "label": "B", "type": "text", "value": "Dataset size is too small" },
+      { "label": "C", "type": "text", "value": "Hyperparameters are poorly tuned" },
+      { "label": "D", "type": "text", "value": "Training takes too long" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Leakage leads to inflated training performance but poor generalization." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Custom Training Containers",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why use custom training containers on Vertex AI?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To use custom dependencies, frameworks, and training logic" },
+      { "label": "B", "type": "text", "value": "To reduce Cloud Storage costs" },
+      { "label": "C", "type": "text", "value": "To automate IAM role creation" },
+      { "label": "D", "type": "text", "value": "To eliminate preprocessing needs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom containers provide full control over the training environment." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Time Series Forecasting",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which model type is commonly used in time series forecasting on GCP?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "ARIMA or AutoML Forecasting" },
+      { "label": "B", "type": "text", "value": "GANs" },
+      { "label": "C", "type": "text", "value": "Reinforcement learning agents" },
+      { "label": "D", "type": "text", "value": "DBSCAN" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":="text","value":"AutoML Forecasting and ARIMA are best suited for sequential prediction." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Dataflow Streaming",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":="text","value":"Why use Dataflow for streaming ML pipelines?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It processes real-time data streams with autoscaling" },
+      { "label":"B","type":"text","value":"It converts models to TPUs" },
+      { "label":"C","type":"text","value":"It writes IAM policies" },
+      { "label":"D","type":"text","value":"It deploys GPU clusters automatically" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Dataflow enables real-time feature processing for ML use cases." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Feature Scaling",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":="text","value":"Standardization is recommended when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Features have different scales and follow a normal distribution" },
+      { "label":"B","type":"text","value":"All features are categorical" },
+      { "label":"C","type":"text","value":"Target variable is binary" },
+      { "label":"D","type":"text","value":"Training data is extremely small" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Standardization stabilizes training when features vary significantly." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Clustering Algorithms",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"K-Means clustering performs poorly when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Clusters have irregular shapes or different densities" },
+      { "label":"B","type":"text","value":"Data is numeric" },
+      { "label":"C","type":"text","value":"Cluster count is known" },
+      { "label":"D","type":"text","value":"Features are scaled" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"K-Means assumes spherical clusters of similar sizes." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "NLP Models",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Which model architecture is used by BERT-based models in Vertex AI?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Transformer architecture" },
+      { "label":"B","type":"text","value":"CNN" },
+      { "label":"C","type":"text","value":"RNN only" },
+      { "label":"D","type":"text","value":"GANs" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"BERT relies on transformer attention mechanisms." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Model Explainability",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"SHAP values help explain model predictions by:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Attributing contribution of each feature" },
+      { "label":"B","type":"text","value":"Improving GPU speed" },
+      { "label":"C","type":"text","value":"Reducing data drift" },
+      { "label":"D","type":"text","value":"Monitoring logs" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"SHAP provides consistent feature attribution scores." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Evaluation Metrics",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Which metric is best for imbalanced classification?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"F1 Score" },
+      { "label":"B","type":"text","value":"Accuracy" },
+      { "label":"C","type":"text","value":"MSE" },
+      { "label":"D","type":"text","value":"RMSE" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"F1 balances precision and recall on imbalanced datasets." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Precision vs Recall",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"High precision means:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Few false positives" },
+      { "label":"B","type":"text","value":"Few false negatives" },
+      { "label":"C","type":"text","value":"Model is overfitting" },
+      { "label":"D","type":"text","value":"Model has perfect recall" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Precision measures correctness of positive predictions." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Batch vs Online Prediction",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Batch prediction is preferred when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Large datasets need to be processed periodically" },
+      { "label":"B","type":"text","value":"Immediate results are required" },
+      { "label":"C","type":"text","value":"Latency must be <50 ms" },
+      { "label":"D","type":"text","value":"Autoscaling must stay off" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Batch jobs are ideal for high-volume offline inference." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Data Preprocessing",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Why convert categorical variables into embeddings?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"To capture semantic relationships in compact form" },
+      { "label":"B","type":"text","value":"To remove noise from images" },
+      { "label":"C","type":"text","value":"To detect anomalies" },
+      { "label":"D","type":"text","value":"To compress Cloud Storage" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Embeddings map categories to meaningful vector spaces." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "Neural Networks",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Dropout helps prevent overfitting by:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Randomly disabling neurons during training" },
+      { "label":"B","type":"text","value":"Increasing learning rate" },
+      { "label":"C","type":"text","value":"Adding more layers" },
+      { "label":"D","type":"text","value":"Decreasing batch size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Dropout improves generalization by reducing co-dependency among neurons." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "Optimization Techniques",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"The Adam optimizer is preferred because:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It adapts learning rates per parameter" },
+      { "label":"B","type":"text","value":"It ignores gradients" },
+      { "label":"C","type":"text","value":"It requires no tuning" },
+      { "label":"D","type":"text","value":"It reduces dataset size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Adam combines momentum and adaptive learning rates." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "Data Storage",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Why store training data in Avro/TFRecord format?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"They support efficient serialization for distributed training" },
+      { "label":"B","type":"text","value":"They reduce BigQuery cost" },
+      { "label":"C","type":"text","value":"They improve IAM policies" },
+      { "label":"D","type":"text","value":"They guarantee perfect model accuracy" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"TFRecord/Avro are optimized for ML pipelines and large datasets." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "Object Detection",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Mean Average Precision (mAP) is used to evaluate:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Object detection model performance" },
+      { "label":"B","type":"text","value":"Regression outputs" },
+      { "label":"C","type":"text","value":"Clustering performance" },
+      { "label":"D","type":"text","value":"Learning rate tuning" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"mAP measures precision-recall across IoU thresholds." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Computer Vision",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"CNNs are best suited for:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Image feature extraction" },
+      { "label":"B","type":"text","value":"Pure sequence modeling" },
+      { "label":"C","type":"text","value":"Graph problems only" },
+      { "label":"D","type":"text","value":"Sorting operations" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"CNNs capture spatial patterns in images." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Sequence Models",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"LSTM networks are mainly used for:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Handling sequential or time-dependent data" },
+      { "label":"B","type":"text","value":"Static image classification" },
+      { "label":"C","type":"text","value":"Container deployment" },
+      { "label":"D","type":"text","value":"Schema validation" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"LSTMs capture long-term temporal dependencies." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Attention Mechanisms",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why are attention mechanisms used in modern NLP models like Transformers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To focus on relevant parts of the input sequence dynamically" },
+      { "label": "B", "type": "text", "value": "To increase GPU temperature" },
+      { "label": "C", "type": "text", "value": "To cluster words automatically" },
+      { "label": "D", "type": "text", "value": "To remove the need for tokenization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Attention assigns importance scores to input tokens." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Transformer Models",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Transformers outperform RNNs primarily because they:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Process all tokens in parallel using self-attention" },
+      { "label": "B", "type": "text", "value": "Have fewer parameters always" },
+      { "label": "C", "type": "text", "value": "Require no training data" },
+      { "label": "D", "type": "text", "value": "Do not need GPUs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"Transformers remove sequential bottlenecks found in RNNs." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Reinforcement Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "In reinforcement learning, the agent learns by maximizing:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cumulative reward over time" },
+      { "label": "B", "type": "text", "value": "Dataset size" },
+      { "label": "C", "type": "text", "value": "Model file size" },
+      { "label": "D", "type": "text", "value": "Random exploration only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RL aims to maximize total reward across episodes." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Data Augmentation",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Data augmentation is useful in image modeling because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It increases dataset diversity and reduces overfitting" },
+      { "label": "B", "type": "text", "value": "It replaces training" },
+      { "label": "C", "type": "text", "value": "It increases GPU count" },
+      { "label": "D", "type": "text", "value": "It reduces the number of classes" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Augmentation creates new samples by altering existing images." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Anomaly Detection",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which technique is commonly used for anomaly detection?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Isolation Forest" },
+      { "label": "B", "type": "text", "value": "K-Means" },
+      { "label": "C", "type": "text", "value": "Linear Regression" },
+      { "label": "D", "type": "text", "value": "DBSCAN only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"Isolation Forest isolates anomalies using random partitioning." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "GPU vs TPU",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "GPUs are preferred over TPUs when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training models with custom operations or non-TensorFlow frameworks" },
+      { "label": "B", "type": "text", "value": "Running AutoML only" },
+      { "label": "C", "type": "text", "value": "Running SQL queries" },
+      { "label": "D", "type": "text", "value": "Training on tiny datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"GPUs support PyTorch and custom layers more flexibly." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "TPU Core Architecture",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Tensor Processing Units (TPUs) are optimized for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Matrix multiplication workloads in deep learning" },
+      { "label": "B", "type": "text", "value": "Edge device compression" },
+      { "label": "C", "type": "text", "value": "Packet routing" },
+      { "label": "D", "type": "text", "value": "SQL partitioning" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"TPUs are designed for large-scale operations common in neural networks." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Graph Neural Networks",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Graph Neural Networks (GNNs) are ideal for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Modeling relationships in graph-structured data" },
+      { "label": "B", "type": "text", "value": "Pure image classification" },
+      { "label": "C", "type": "text", "value": "Video editing" },
+      { "label": "D", "type": "text", "value": "Sorting operations" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"GNNs capture dependencies in graph-based datasets." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Dimensionality Reduction",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "PCA reduces dimensionality by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Projecting data onto directions of maximum variance" },
+      { "label": "B", "type": "text", "value": "Randomly deleting rows" },
+      { "label": "C", "type": "text", "value": "Reducing image brightness" },
+      { "label": "D", "type": "text", "value": "Creating new labels automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"PCA finds principal components capturing most variation." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Confusion Matrix Interpretation",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "A high number of false negatives indicates:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Low recall" },
+      { "label":"B","type":"text","value":"Low precision" },
+      { "label":"C","type":"text","value":"High accuracy" },
+      { "label":"D","type":"text","value":"Good model performance" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"False negatives reduce recall significantly." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "ROC & AUC",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"AUC measures:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Model's ability to distinguish between classes" },
+      { "label":"B","type":"text","value":"Model's training speed" },
+      { "label":"C","type":"text","value":"Dataset size" },
+      { "label":"D","type":"text","value":"Number of features" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"AUC evaluates classification discrimination capability." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Cloud Run Inference",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Cloud Run is preferred for model inference when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Custom container-based inference is needed with autoscaling" },
+      { "label":"B","type":"text","value":"Training huge models" },
+      { "label":"C","type":"text","value":"BigQuery ML is required" },
+      { "label":"D","type":"text","value":"Data labeling is performed" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Cloud Run scales containerized inference workloads efficiently." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Model Registry Usage",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"A primary benefit of using Vertex AI Model Registry is:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Tracking model versions and lineage centrally" },
+      { "label":"B","type":"text","value":"Scaling Dataflow pipelines" },
+      { "label":"C","type":"text","value":"Improving BigQuery queries" },
+      { "label":"D","type":"text","value":"Automatically labeling datasets" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Registry ensures proper lifecycle and version tracking." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Model Retraining",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Retraining a model is necessary when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Data drift or concept drift occurs" },
+      { "label":"B","type":"text","value":"GPU temperature rises" },
+      { "label":"C","type":"text","value":"Dataset is small" },
+      { "label":"D","type":"text","value":"Storage bucket is full" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Retraining ensures the model matches new data patterns." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "AutoML Tables",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"AutoML Tables is ideal for:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Structured tabular datasets" },
+      { "label":"B","type":"text","value":"Genomics only" },
+      { "label":"C","type":"text","value":"Text translation" },
+      { "label":"D","type":"text","value":"Container deployment" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"AutoML Tables builds ML models for tabular data with minimal code." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Feature Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Feature drift occurs when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Input feature distributions change over time" },
+      { "label":"B","type":"text","value":"GPU count increases" },
+      { "label":"C","type":"text","value":"Training dataset shrinks" },
+      { "label":"D","type":"text","value":"Labels are missing" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Changes in feature statistics indicate drift." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "Concept Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Concept drift means:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"The relationship between input features and labels changes" },
+      { "label":"B","type":"text","value":"File storage location changes" },
+      { "label":"C","type":"text","value":"GPU becomes unavailable" },
+      { "label":"D","type":"text","value":"Streaming job is paused" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Concept drift impacts predictive performance over time." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "Data Quality",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Missing values in ML datasets should be handled by:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Imputation or removal, depending on context" },
+      { "label":"B","type":"text","value":"Ignoring them always" },
+      { "label":"C","type":"text","value":"Converting them to zeros always" },
+      { "label":"D","type":"text","value":"Treating them as separate labels" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Imputation or row removal is standard practice." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "Model Deployment Strategy",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"Canary deployment helps by:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Gradually routing small traffic to new models to detect issues early" },
+      { "label":"B","type":"text","value":"Increasing model size" },
+      { "label":"C","type":"text","value":"Lowering latency automatically" },
+      { "label":"D","type":"text","value":"Reducing training time" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Canary deployment protects user experience." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "MLOps Best Practices",
+    "difficulty": "intermediate",
+    "question": [
+      { "type":"text","value":"A key benefit of ML pipelines in production is:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Automation, reproducibility, and reduced human error" },
+      { "label":"B","type":"text","value":"Guaranteed 100% accuracy" },
+      { "label":"C","type":"text","value":"Free GPU usage" },
+      { "label":"D","type":"text","value":"Replacing monitoring systems" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Pipelines improve reliability and consistency of ML operations." }
+    ]
+  }
+]
+

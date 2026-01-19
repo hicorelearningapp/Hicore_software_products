@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 9,
+    "topic": "Test Case Design Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which technique is most suitable for testing software requirements that have complex business logic?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary Value Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decision Table Testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "State Transition Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Equivalence Partitioning"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decision Table Testing is ideal for situations where different combinations of inputs can produce different outputs, which is common in complex business logic."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Test Data Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the concept of data masking in test data management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A process of deleting old test data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A method for generating synthetic test data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A technique used to protect sensitive data by altering it in a way that is still usable for testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A process for backing up test data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data masking involves altering sensitive data in a way that protects it but still makes it usable for testing, ensuring privacy and compliance with data protection regulations."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Test Case Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the purpose of a test case in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To debug the application code."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To perform user acceptance testing."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To specify the test inputs, execution conditions, and expected results."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To assess the performance of the application."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A test case in manual testing is specifically designed to specify the test inputs, execution conditions, and expected results in order to verify and validate the functionality of a specific part of an application."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the equivalence partitioning test case design technique?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dividing the input data of a software unit into partitions of equivalent data from which test cases can be derived."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing the software at all possible input values."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Applying test cases to all functions of the software."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the maximum and minimum input values only."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence partitioning divides input data into partitions of equivalent values where each partition is expected to behave similarly. Thus, only one condition from each partition needs to be tested."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Test Management Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT typically a feature of test management tools?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Requirement Mapping"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Defect Tracking"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Version Control"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Test Case Execution"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While test management tools often include features for tracking requirements, defects, and test execution, version control is typically handled by separate tools."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In manual testing, Equivalence Partitioning is used to:"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reduce the number of test cases by grouping similar input data that should be treated the same"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Identify different output partitions to increase test coverage"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Execute test cases until the software component fails"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Test the system's response time under high load"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning reduces the total number of test cases by grouping similar input data that should behave similarly, thereby streamlining the testing process."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Defect Tracking Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common feature of defect tracking tools?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Generating automated test scripts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Prioritization of bugs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Tracking bug status"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Assigning bugs to team members"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Defect tracking tools are designed to manage and track the status of defects, prioritize them, and assign them to team members. They do not typically generate automated test scripts, which is usually a feature of separate testing software."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Quality Audit",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of conducting a quality audit in a manufacturing process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To identify opportunities for cost savings"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure compliance with quality standards"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To evaluate the performance of employees"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To redesign the product"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of conducting a quality audit is to ensure that the manufacturing process complies with the defined quality standards and requirements."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Defect Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical stage in a defect lifecycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Verification"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Detection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Resolution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optimization"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Optimization is not a standard phase in the defect lifecycle, which typically includes stages like Detection, Analysis, Fixing, Verification, and Closure."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning is most effective when used in conjunction with which of the following testing techniques?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stress Testing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Boundary Value Analysis"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Performance Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Usability Testing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning and Boundary Value Analysis are often used together. Equivalence Partitioning tests inputs within each partition, while BVA focuses specifically on the edges of these partitions."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Boundary Value Analysis, which of the following statements is true about testing boundaries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only the upper limits should be tested."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only the exact boundary values are considered."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both boundaries and values just inside and outside each boundary are tested."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Boundary Value Analysis is not useful for numeric input values."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary Value Analysis involves testing at the boundaries between partitions, usually values just above and just below each boundary. This method is based on the observation that errors tend to occur at the edges of input ranges."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Boundary Value Analysis, which of the following statements accurately describes how boundary values are selected for test cases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary values are selected only within the range of input values."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Boundary values include both the edge of the input range and values just outside the input range."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boundary values are chosen randomly to ensure unpredictability in testing."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Boundary values are defined by the middle values of the input data set."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary Value Analysis focuses on the values at the edge of the input range, including both the values just inside the boundary and just outside, to ensure that the system handles edge cases correctly."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Statistical Process Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of quality assurance, which statistical tool is primarily used to determine if a process is stable and predictable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Control charts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Histograms"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Pareto charts"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Scatter diagrams"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Control charts are used to monitor whether a process is in a state of control and to identify presence of variations that are systematic or random, thus indicating stability and predictability."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Database Isolation in Testing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Why is it important to maintain database isolation between development and testing environments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To prevent accidental damage to production data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up the development process"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce the cost of additional storage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To improve user interface design"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Maintaining database isolation ensures that actions performed in testing environments do not affect production data, thus preventing accidental damage or loss."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bug Severity and Priority",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the key difference between 'severity' and 'priority' in defect reporting?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Severity relates to the impact on the project, while priority relates to the urgency of fixing the defect."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Severity is determined by the tester, while priority is set by the end-user."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Severity is about how quickly the defect should be addressed, while priority is about the impact on the system."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Severity and priority are essentially the same in defect reporting."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Severity of a defect is its impact on the system, like causing system failure, whereas priority is the urgency of resolving the defect, usually determined by business needs."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements best describes the principle of Equivalence Partitioning in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dividing the input data of a software unit into partitions of equivalent data from which test cases can be derived."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing the application at the top level of the software to identify defects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating test cases based on the frequency of use of certain functions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing only on the boundary values of input partitions."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning involves identifying input data that can be divided into valid and invalid partitions and selecting representative values from each partition to derive test cases."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Test Case Development",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is an essential characteristic of a good test case?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "High complexity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dependence on other tests"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reusability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Specific to one software version"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A good test case should be reusable, which allows it to be used in multiple testing scenarios and reduces the effort required to write new tests."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Test Case Design Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which test design technique focuses on the internal structure of a component or system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary Value Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Equivalence Partitioning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "State Transition Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "White-box Testing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "White-box Testing is focused on evaluating the internal structure or workings of a component or system, rather than just the functionality as seen by the user."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Statistical Process Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statistical tool is most effective for distinguishing between random variations and non-random variations in quality assurance processes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Histogram"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Check Sheet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Control Chart"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Scatter Diagram"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Control charts are specifically designed to help distinguish between the common-cause variation inherent within a process and the special-cause variation which indicates a process change."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Quality Audits",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary goal of conducting quality audits in a manufacturing environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To evaluate how well risks are managed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To assess compliance with quality standards"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To determine the marketing strategy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To calculate the financial statements accuracy"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary goal of quality audits in a manufacturing environment is to assess whether operations comply with the established quality standards and regulations, fostering continuous improvement."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Database Mocking",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using database mocking in a testing environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To speed up the performance of actual databases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To simulate the database interactions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To permanently modify the database schema"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To analyze the database security"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Database mocking is used primarily to simulate the database interactions, allowing for testing of data access without affecting the actual database."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using Boundary Value Analysis in test case design?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To validate the response times of the software."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To detect faults at the extreme edges of input domain boundaries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To check the compatibility of the software with different operating systems."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To ensure that all functional requirements are met."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary Value Analysis is used to find faults at the extreme boundaries of input domains where most of the crucial bugs occur."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Test Execution Monitoring",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "During test execution, which metric is crucial for assessing the progress and quality of testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Number of tests planned vs. executed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Number of developers involved"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Size of the test team"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Budget allocated for testing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Monitoring the number of tests planned versus executed provides direct insight into the test coverage and progress, making it a crucial metric during test execution."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Error Guessing Technique",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about the error guessing technique in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is solely based on formal or detailed analysis of the specification."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It requires automated testing tools to perform."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is based on the tester's intuition and experience."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is the most formalized testing technique."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Error guessing is a technique where the tester uses their intuition and experience to guess the problematic areas of the application without relying on formalized testing methods."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Anonymization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data anonymization technique can directly mask personal identifiers without altering the data format?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Pseudonymization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data scrambling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data shuffling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generalization"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pseudonymization is a technique where personal identifiers are replaced with artificial identifiers, allowing the data format to remain unchanged while ensuring anonymity."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Test Case Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the PRIMARY objective of test case design in software testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To identify software features that are functioning as per the specifications."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure that all requirements are met and bugs are fixed before release."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create and maintain test cases to cover all aspects of software functionality."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To save time in the development process by using automated tools."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary objective of test case design is to systematically create test cases that cover all functional and non-functional aspects of the software to ensure its correctness, efficiency, and usability."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Boundary Value Analysis (BVA), which of the following is a key reason to test boundary values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary values are less likely to cause system errors."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Boundary values are more prone to having defects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boundary values are easier to calculate than other values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Boundary values cover the entire range of input values."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary values are often error-prone as developers might overlook conditions at the boundaries. BVA specifically targets these areas to ensure robustness at the edges of input ranges."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Statistical Process Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tools is NOT typically used in Statistical Process Control (SPC) for quality assurance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Control Charts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fishbone Diagram"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Histogram"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Scatter Diagram"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Fishbone Diagram is primarily used for root cause analysis rather than for Statistical Process Control, which utilizes tools like Control Charts, Histograms, and Scatter Diagrams to monitor the quality."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes boundary value analysis in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Testing the middle values of input domains"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ignoring the input values that are out of specified limits"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Testing the extreme ends of input values, including just inside/outside boundaries"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing only on the typical values users will input"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary value analysis helps identify errors at the boundaries rather than within the ranges themselves by focusing on the extreme ends of input values, including just inside and outside the boundaries."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes Equivalence Partitioning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dividing the input domain into classes of data from which test cases can be derived."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing the system's functionality by simulating multiple users."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Assessing the system's performance under maximum load."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Checking the system's behavior without executing the code."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning involves dividing the input data of a software module into partitions of equivalent data from which test cases are derived."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Test Data Generation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is NOT commonly used for generating test data in a testing environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary value analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Equivalence partitioning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Manual generation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Randomized control trials"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Randomized control trials are not a method used for generating test data; they are used primarily in clinical and research settings to test hypotheses."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Test Case Design Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a benefit of using decision table testing in software test design?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Helps identify combinations of inputs that might not have been considered otherwise"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensures that all possible scenarios are tested"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduces the necessity for tester's intuition and experience"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Guarantees that bugs are fixed before testing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decision table testing helps in identifying different combinations of inputs and conditions but does not guarantee that bugs are fixed. Fixing bugs is dependent on the outcomes of the tests and subsequent actions taken by the development team."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Test Monitoring and Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the PRIMARY purpose of test monitoring in the software testing lifecycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To replace detailed test planning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide feedback on test progress and quality of the system"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To automate defect detection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To finalize software release criteria"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of test monitoring is to provide ongoing feedback regarding the status of testing activities against the planned objectives and test coverage, thereby helping in effective management of test activities and making informed decisions about quality."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Test Case Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary objective of creating test cases in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To automate the testing process"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To document the testing requirements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To ensure that all functional requirements are met"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To speed up the development process"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary objective of test case design in manual testing is to create a set of conditions or variables under which a tester will determine whether an application or software system is working correctly and meets its design specifications."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Anonymization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which technique is commonly used to anonymize sensitive data in a testing database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data replication"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data encryption"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data scrambling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data deletion"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data scrambling is a technique used to anonymize sensitive data, making it suitable for testing environments while ensuring that the original data cannot be reconstructed or retrieved."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best defines the use of Boundary Value Analysis in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Testing at the exact boundaries between partitions"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing only the most frequently used features of a program"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Testing with maximum and minimum possible values"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Conducting stress and performance tests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary Value Analysis involves testing at the exact boundaries between partitions where input values shift between sets, which often leads to unique and valuable testing insights."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Management for Testing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a test data management tool in software testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure data security and compliance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the speed of test execution"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To generate reports on test outcomes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the maintenance cost of testing scripts"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of using a test data management tool is to ensure data security and compliance, especially when dealing with sensitive or regulated data."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Testing Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical task performed during manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Designing test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automating test scripts"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Executing test cases"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reviewing software requirements"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Automating test scripts is not typically a task of manual testing; it pertains to automated testing."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Statistical Process Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is primarily used in Quality Assurance to monitor process behavior over time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fishbone Diagram"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Control Chart"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Histogram"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pareto Chart"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Control Chart is used to monitor process behavior and stability over time, identifying variations."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Test Management Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is not typically used for defect tracking?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JIRA"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bugzilla"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Confluence"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Redmine"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Confluence is mainly used as a collaboration and documentation tool, not specifically for defect tracking."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Equivalence partitioning reduces the number of test cases by grouping input data into partitions that share similar characteristics. If a function accepts input values from -10 to 10, which is NOT a valid equivalence partition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "-10 to 0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 to 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "-9 to 9"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Valid partitions should ideally cover all possible values without overlap and without leaving any values out. The partition -9 to 9 leaves out the values -10 and 10, making it invalid."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bug Life Cycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the next step in the bug life cycle after a defect is identified and reported?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Defect is fixed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Defect is deferred"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Defect is assigned to a developer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Defect is closed"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Once a defect is reported, the next step in the bug life cycle is typically to assign the defect to a developer who will then work on fixing it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Defect Tracking Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tools is primarily used for defect tracking?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jira"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Confluence"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Slack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Trello"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jira is specifically designed for bug tracking and agile project management, whereas the others are more general communication and collaboration tools."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bug Life Cycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which phase directly follows the 'New' status in a typical bug life cycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Assigned"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Resolved"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Closed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reopened"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "After a bug is reported and logged as 'New', it is typically reviewed and then assigned to a developer, changing its status to 'Assigned'."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Continuous Improvement",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which methodology focuses on incremental improvements to work processes and outputs over time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Six Sigma"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Kaizen"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scrum"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Kanban"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kaizen focuses on continuous, incremental process changes and quality improvements."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Types of Manual Testing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of manual testing involves testing an application's interface and ensures that it meets the specified requirements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Performance Testing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UI Testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Security Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Integration Testing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "UI Testing is specifically designed to identify visual and interaction issues in the software's user interface, ensuring it aligns with user requirements."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using equivalence partitioning in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To validate all possible inputs for a given function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce the number of test cases to a manageable level"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To ensure the application performs well under load"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To check the compatibility of the application with different OS"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence partitioning reduces the number of test cases by grouping inputs that are expected to yield similar results, thus managing the testing effort more effectively."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Defect Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of defect lifecycle, what status is assigned to a defect if it is currently being analyzed by a developer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "New"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Assigned"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Open"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Resolved"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a defect is being analyzed by a developer, it is often marked as 'Open', indicating that the issue is recognized and under investigation."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a principle guideline when applying Equivalence Partitioning in test case design?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Divide inputs into sets that have different behaviors and test only one value from each set."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Test every possible input value independently to ensure comprehensive coverage."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Focus primarily on output values rather than input values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use randomly generated input values for each test case."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning simplifies testing by dividing inputs into classes that are expected to exhibit similar behaviors, thereby testing only one representative value from each class."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Test Case Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary goal of boundary value analysis in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure user permissions are correctly set"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To test the extreme output capabilities of a system"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To find bugs in on the edges of input ranges"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To assess the system\u2019s performance under load"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary value analysis is aimed at finding bugs where input values are at the edge of defined input ranges, as these are common error points."
+      }
+    ]
+  }
+]

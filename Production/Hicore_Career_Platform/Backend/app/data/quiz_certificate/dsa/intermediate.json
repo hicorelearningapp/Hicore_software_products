@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "topic": "Binary Search",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of a binary search algorithm in a sorted array of size n?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n^2)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search repeatedly divides the search interval in half, so the time complexity is O(log n)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Sorting Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which sorting algorithm is particularly efficient when the data entries are already substantially sorted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quick sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bubble sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Insertion sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Merge sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Insertion sort is efficient for data that is already substantially sorted because it builds the final sorted array one item at a time and has less work to do if the array is already close to being sorted."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Merge Sort",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the space complexity of the merge sort algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge sort requires additional space proportional to the array size, hence the space complexity is O(n)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following control structures is best suited for executing a block of code multiple times based on a condition at the end of each iteration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while loop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do-while loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if-else statement"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The do-while loop is best suited for this scenario because it ensures the code block is executed at least once and then repeatedly based on a condition checked at the end of each iteration."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Merge Sort",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of Merge Sort in the worst case?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge Sort always divides the array into two halves and takes linear time to merge two halves. It has a time complexity of O(n log n) in all the cases (worst, average, and best) as the mergesort always divides the array into two halves and takes linear time to merge two halves."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Graph Data Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding undirected graphs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Each edge creates a one-way connection between two vertices."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The adjacency matrix is always asymmetric."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An undirected edge is represented twice in an adjacency list."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are primarily used to represent hierarchical data."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In an undirected graph, an edge between two vertices is bidirectional and is represented twice in an adjacency list, once for each vertex."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Array Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of accessing an element in an array if the index of the element is known?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Accessing an element in an array by its index is a direct operation and has a constant time complexity of O(1)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Time Complexity Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of finding the greatest common divisor (GCD) of two numbers using the Euclidean algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n^2)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The time complexity of the Euclidean algorithm for computing the GCD of two numbers is O(log n), where n is the smaller of the two numbers."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Graph Data Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of finding all pairs shortest path in a graph using Floyd-Warshall algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(V^3)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(V^2)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(VE)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(E log V)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Floyd-Warshall algorithm computes the shortest paths between all pairs of vertices in a weighted graph, and the time complexity is O(V^3), where V is the number of vertices."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Algorithm Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the purpose of Big O notation in the context of algorithm analysis?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide an exact count of operations in an algorithm."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To offer a lower bound on the running time of an algorithm."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide an upper limit on the running time concerning the input size."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To measure the memory usage of an algorithm."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Big O notation is used to express the upper limit of the running time of an algorithm as the input size grows, providing a way to discuss the worst-case scenario in terms of time complexity."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Sorting Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following sorting algorithms is not stable by default?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Merge Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Insertion Sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quick Sort is not stable by default because equal elements can be swapped due to partitioning, which doesn't guarantee their original order is preserved. However, stability can be achieved with specific modifications to the basic algorithm."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Algorithm Efficiency",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of algorithm design, which term best describes the maximum time or space required by an algorithm as a function of the size of the input data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Average-case complexity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Worst-case complexity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Best-case complexity"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Amortized complexity"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Worst-case complexity describes the maximum resources an algorithm may require, and hence it is critical for understanding the upper limits of an algorithm's performance under any input."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Merge Sort",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the space complexity of merge sort?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge sort requires additional space proportional to the array size, hence the space complexity is O(n)."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Array Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of inserting an element at the end of a dynamic array which is already filled to its capacity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element at the end of a dynamic array which is already at capacity involves creating a new array of twice the size and copying all elements to the new array, which takes O(n) time."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Binary Search",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which scenario is a binary search algorithm NOT applicable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Searching in a sorted array"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Finding an element in an unsorted array"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Searching for an element in a sorted linked list"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Finding the minimum element in a sorted rotated array"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search requires the data structure to be sorted for it to function correctly. It is not applicable for unsorted arrays as the prerequisite of binary search is that the array should be in a sorted order."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Structures and Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which algorithm is most suitable for dynamically making decisions on the fly and can adjust to processed input?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Merge Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dynamic Programming"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Binary Search"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic Programming is utilized for solving complex problems by breaking them down into simpler subproblems. It is used to make decisions dynamically by considering the current input and the solutions to previously solved subproblems."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Quick Sort",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the worst-case time complexity of Quick Sort?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst-case scenario, when the smallest or largest element is always picked as the pivot, Quick Sort performs at O(n^2)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Merge Sort",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the space complexity of merge sort?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge sort requires additional space proportional to the array size for the temporary arrays, making its space complexity O(n)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Hash Tables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using a hash function in a hash table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure data security by encryption."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To randomly organize the storage of keys."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To distribute keys uniformly across an array."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the computational complexity of searches."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hash functions are used in hash tables to distribute keys uniformly across the array, reducing the likelihood of collision and improving access time."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Array Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of inserting an element at the beginning of an array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element at the beginning of an array requires shifting all other elements to the right, leading to a time complexity of O(n)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Tree Traversal",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tree traversal methods visits the root node before its children?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Preorder"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inorder"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Postorder"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Level order"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Preorder traversal, the nodes are recursively visited in the order: root, left, right. This means the root node is visited before its children."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Algorithm Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a characteristic of dynamic programming algorithms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Does not store the results of subproblems"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Uses a divide and conquer approach without overlapping subproblems"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Solves each subproblem just once and stores its result"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Exponential time complexity is typical"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic programming algorithms solve each subproblem only once and store the result in a table to avoid the work of recomputing the answer every time the subproblem is encountered."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Binary Search",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the complexity of binary search in a sorted array of size n?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search repeatedly divides the search interval in half, so the time complexity is O(log n)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Graph Traversal",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which graph traversal algorithm uses a queue to keep track of the next vertex to visit?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Breadth-First Search (BFS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Depth-First Search (DFS)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Prim's Algorithm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Kruskal's Algorithm"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Breadth-First Search (BFS) uses a queue data structure to explore vertices level by level, ensuring all vertices at the current level are explored before moving to the next level."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Algorithm Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about the space complexity of an iterative deepening depth-first search (IDDFS) algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(b^d)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(bm)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(d)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(log b)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The space complexity of an iterative deepening depth-first search is O(d), where d is the depth of the deepest node. This is because IDDFS uses a depth-first search up to a certain depth limit, and depth-first search has a space complexity of O(d)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Sorting Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of sorting algorithms, which algorithm is generally considered the most efficient for large datasets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Selection Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Insertion Sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quick Sort is generally more efficient for large datasets due to its divide and conquer approach, which on average makes fewer comparisons than Bubble, Selection, or Insertion Sort."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Hash Function",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of a hash function in a hash table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To store values"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To sort keys"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To generate a unique index for each key"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The hash function's primary purpose in a hash table is to compute an index into an array in which an element will be inserted or searched. By using a hash function, hash tables can achieve very efficient average time complexity for insertions, deletions, and searches."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Control Structures in Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which control structure would be most appropriate for processing each element in a list of known size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "For Loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "If-Else Statements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "While Loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Switch Case"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A For Loop is ideal for iterating over a list of known size as you can specify the number of iterations based on the size of the list."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Time Complexity Analysis",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of finding the greatest common divisor (GCD) of two numbers using the Euclidean algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n^2)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Euclidean algorithm repeatedly applies the modulo operation, which reduces the size of the numbers involved at each step logarithmically. Thus, the time complexity is O(log n)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Hash Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using a hash function in hash tables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To encrypt data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To generate unique indexes for storing keys"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the processing time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the storage space"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hash functions are used in hash tables primarily to generate unique indexes where keys can be stored or accessed, which optimizes searching and insertion operations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Hash Tables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a primary advantage of using a hash table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fixed size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data sorted order"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Low memory usage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Fast data retrieval"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary advantage of using a hash table is fast data retrieval, generally achieving average-case constant-time complexity, O(1), for lookups."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Algorithm Complexity",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of a binary search algorithm on a sorted array of n elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(1)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search repeatedly divides the array into halves, leading to a time complexity of O(log n)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Tree Data Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tree traversal strategies lists the nodes of a binary tree in ascending order for a binary search tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Pre-order traversal"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "In-order traversal"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Post-order traversal"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Level-order traversal"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In-order traversal of a binary search tree will always result in a list of nodes sorted in ascending order. This is because in in-order traversal, the left subtree (with smaller values) is visited first, then the current node, and finally the right subtree (with larger values)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Algorithm Complexity",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of a binary search algorithm applied on a sorted array of n elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n^2)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search algorithm repeatedly divides the search interval in half. If the value of the search key is less than the item in the middle of the interval, the interval is narrowed to the lower half. Otherwise, it is narrowed to the upper half. This makes the time complexity O(log n)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Graph Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which graph algorithm would be most suitable for finding the shortest path in a weighted graph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Depth-First Search (DFS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Breadth-First Search (BFS)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dijkstra's Algorithm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Prim's Algorithm"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dijkstra's Algorithm is specifically designed for finding the shortest path in both unweighted and weighted graphs, particularly when all edge weights are non-negative."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Graph Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using Dijkstra\u2019s algorithm over the Bellman-Ford algorithm in a graph with non-negative weights?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dijkstra\u2019s algorithm can handle graphs with negative weight edges."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dijkstra\u2019s algorithm is more complex and thus more accurate."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dijkstra\u2019s algorithm is generally faster in scenarios with non-negative weights."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dijkstra\u2019s algorithm works better with undirected graphs."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dijkstra\u2019s algorithm is typically faster for graphs with non-negative weights as it can utilize priority queues to optimize the selection of the next vertex to process."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Tree Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of tree guarantees that the height of the tree remains logarithmic relative to the number of elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Binary Tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Red-Black Tree"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Splay Tree"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Binary Search Tree"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Red-Black Trees are self-balancing binary search trees where the tree maintains its balance by coloring the nodes and ensuring that certain properties are met, thereby keeping the height proportional to log(n)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Tree Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a binary search tree (BST), what is the worst-case time complexity of finding a node?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst case, all the nodes of a BST might be skewed to one side (left or right), forming a linear chain. In such cases, finding a node would take O(n) time."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Algorithm Efficiency",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best scenario time complexity of QuickSort algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The best-case scenario for QuickSort, when the pivot element divides the list into two equal halves, is O(n log n)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Big O Notation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes Big O notation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It represents the best-case scenario of an algorithm."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It describes the exact running time of an algorithm."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It provides an upper limit on the running time concerning the input size."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It calculates the memory usage of an algorithm."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Big O notation is used to provide an upper limit on the running time of an algorithm in terms of input size, describing how the time to run increases as the size of the input increases."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical use case for a loop structure in programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Repeating a print statement a specific number of times"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executing a block of code until a certain condition is met"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Waiting for a user's input before continuing execution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Iterating through elements in an array"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Loops are primarily used for executing a block of code multiple times, not for pausing execution to wait for user input. This is typically handled by different methods or functions that manage input/output operations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Tree Traversal",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about tree traversal in a binary search tree (BST)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inorder traversal of BST always produces a sorted list of values."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Preorder traversal of BST always produces a sorted list of values."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Postorder traversal of BST always produces a sorted list of values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Level-order traversal of BST always produces a sorted list of values."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inorder traversal of a BST visits nodes in ascending order, thus producing a sorted list of values. This is because in a BST, for any given node, the left subtree has values less than the node and the right subtree has values greater than the node."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Binary Trees",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about a complete binary tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Every level, except possibly the last, is completely filled and all nodes are as left as possible."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All leaf nodes must be at the same depth."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The tree must contain exactly 2^n nodes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Each node has exactly one child node."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A complete binary tree is defined by every level, except possibly the last, being completely filled and all nodes are positioned as left as possible."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Array Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of inserting an element at the beginning of an array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element at the beginning of an array is O(n) because it requires shifting all existing elements one position to the right."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Array Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of inserting an element at the beginning of an array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element at the beginning of an array requires shifting all other elements, resulting in a time complexity of O(n)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Tree Traversal",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tree traversal methods lists the nodes in a binary tree in the order of their hierarchical levels from top to bottom?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "In-order"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Pre-order"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Post-order"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Level-order"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Level-order traversal visits each level of a tree's nodes from top to bottom, which is why it lists nodes in the order of their hierarchical levels."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Algorithm Optimization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following techniques is typically used to reduce the time complexity of a dynamic programming solution?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Memoization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Heuristic Search"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Amortization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Monte Carlo Method"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Memoization is a technique used in dynamic programming to store the results of expensive function calls and reuse them when the same inputs occur again, thereby reducing the time complexity."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Sorting Algorithms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which sorting algorithm is typically implemented using a divide-and-conquer strategy?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Insertion Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selection Sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quick Sort is implemented using a divide-and-conquer strategy where the list is divided into sub-lists that are individually sorted and then merged."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Binary Trees",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a binary search tree (BST), what is the time complexity of finding the maximum value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a BST, the maximum value is found at the rightmost node, which can be reached in O(log n) time in a balanced BST."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Binary Search",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of a binary search algorithm on a sorted array of n elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(1)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search repeatedly divides the search interval in half, leading to a time complexity of O(log n)."
+      }
+    ]
+  }
+]

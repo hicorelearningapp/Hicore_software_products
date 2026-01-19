@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "Routine Database Maintenance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of running VACUUM in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To delete unused databases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To update the PostgreSQL version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To recover disk space and optimize database performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reset user permissions"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The VACUUM command in PostgreSQL is used to reclaim storage occupied by dead tuples. By doing this, it optimizes database performance and recovers disk space."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Permission Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to grant select permission on a table to a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT SELECT ON TABLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALLOW SELECT ON"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENABLE SELECT ON"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET SELECT ON"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'GRANT SELECT ON TABLE' command is used to grant select permission on a specific table to a role in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic SQL Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to return only different values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT DISTINCT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT UNIQUE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT DIFFERENT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT VARY"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT DISTINCT command is used to return only distinct (different) values."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN ANALYZE command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It reverts the last query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It shows the execution plan of a query including the runtime."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It optimizes SQL queries automatically."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It creates a new database index."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "EXPLAIN ANALYZE provides a query execution plan with actual runtime statistics."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Routine Database Maintenance Tasks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of running the VACUUM command in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To repair corrupt database files"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To update the database's statistics for the query planner"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reclaim storage by removing unnecessary data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reset user permissions for security maintenance"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The VACUUM command in PostgreSQL is used to reclaim storage by removing obsolete data or tuples from the database, which helps in preventing transaction ID wraparound issues and optimizes database performance."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Performance Monitoring",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which view in PostgreSQL provides information on currently executing queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_stat_activity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_stat_queries"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_stat_executions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_current_queries"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "pg_stat_activity is the view that shows information about all active processes and their current or last query."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Database Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to change the structure of a PostgreSQL database table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MODIFY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CHANGE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ALTER"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SWITCH"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ALTER command is used to add, delete, or modify columns in an existing table."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Join Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of JOIN returns only the records that have matching values in both tables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FULL JOIN"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An INNER JOIN returns only the records that have matching values in both tables."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Backup Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PostgreSQL command is used to create a backup of the database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_dump"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_backup"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_save"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_store"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "pg_dump is the correct command to create a logical backup of a PostgreSQL database."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Role Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'DROP ROLE' command is used in PostgreSQL to delete or remove an existing database role."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DROP ROLE is the correct command to remove an existing role in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Backup Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the pg_dump utility in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To monitor real-time database performance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To restore data from a backup"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a backup of a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the storage capacity of the database"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_dump utility is primarily used for creating a backup of a database, allowing for data preservation in case of failure or corruption."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, what is the purpose of the EXPLAIN statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To update statistics used by the planner"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To display the execution plan of a query"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To change the configuration settings"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To lock the database during maintenance"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN statement in PostgreSQL is used to display the execution plan of a query, showing how the tables involved in the query will be scanned\u2014by plain sequential scan, index scan, etc.\u2014and if multiple tables are involved, what kind of join algorithms will be used."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Installation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which operating system command is used to install PostgreSQL on Ubuntu?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install postgresql"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install postgresql"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "brew install postgresql"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "install-pgsql.exe"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'sudo apt-get install postgresql' is used for installing PostgreSQL on Ubuntu systems using the apt package manager."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to retrieve data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INSERT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT command is used to query the database and retrieve data, matching the specified criteria."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SELECT Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the SQL SELECT statement do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Modifies data in a database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deletes data from a database"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Retrieves data from a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creates a new database"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to query the database and retrieve selected data that match the criteria that you specify."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing monetary values in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INTEGER"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NUMERIC"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BOOLEAN"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The NUMERIC type is best for storing monetary values as it can handle exact arithmetic without rounding errors."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Initial Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install PostgreSQL on Ubuntu?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install postgresql"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install postgresql"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo install postgresql"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sudo get postgresql"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to install PostgreSQL on Ubuntu is 'sudo apt-get install postgresql'. This uses the apt package manager typical for Debian-based distributions like Ubuntu."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Error Handling and Logging",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which log file contains information about PostgreSQL server start, stop, or restart activities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_log"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_cron.log"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "server.log"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "postgresql.log"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'postgresql.log' file contains all logs related to server start, stop, and restart activities, as well as other significant server events in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Configuration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file must be edited to change the default listening address for PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "network.conf"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'postgresql.conf' file is where you can set the 'listen_addresses' directive to change the IP address(es) on which PostgreSQL will listen for connections."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Performance Monitoring",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command in PostgreSQL can be used to view ongoing queries in real-time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "EXPLAIN ANALYZE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_stat_activity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_dump"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "VACUUM"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_stat_activity command provides information about currently executing queries in PostgreSQL, which is useful for real-time performance monitoring."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Table Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What SQL clause is used with SELECT to filter the records returned by a query in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ORDER BY"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used to filter records and specify conditions for the records that will be selected."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index improves the performance of LIKE queries in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GIST Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "B-tree Index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-tree index is generally suited for LIKE queries unless the pattern starts with a wildcard."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a table in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table. DROP is used to remove tables or databases, and REMOVE and ERASE are not standard SQL commands."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CLEAR"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic SELECT Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to select all columns from a table named 'employees'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM employees;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT all FROM employees;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "EXTRACT ALL FROM employees;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GET * FROM employees;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to select all columns from a table in SQL is 'SELECT * FROM table_name;'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Database Connection Maintenance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command is used in PostgreSQL to test and ensure that your database connection is still active?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT version();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SHOW status;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CONNECT DATABASE;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PING DATABASE;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'SELECT version();' doesn't just return the version of the PostgreSQL server but also serves as a simple query to ensure the connection to the database is still active."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INSERT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to query the database and retrieve selected data meeting the criteria specified in the query."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Initial Configuration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number used by PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5432"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1433"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1521"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PostgreSQL by default uses port 5432 when installed unless configured otherwise."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "SQL Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in SQL is used to store boolean values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BOOLEAN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FLOAT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The BOOLEAN data type is used to store TRUE or FALSE values in SQL."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Where Clause",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract only those records that fulfill a specified condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ORDER BY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GROUP BY"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HAVING"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used in SQL to filter records and extract only those that fulfill a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Routine Database Maintenance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PostgreSQL feature is specifically designed for regular maintenance tasks like vacuuming and reindexing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Scheduled Tasks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pgAdmin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Autovacuum"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cron Jobs"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Autovacuum is an automatic vacuuming feature in PostgreSQL that helps to recover storage occupied by dead tuples (deleted or obsolete data). It is specifically designed to help with routine database maintenance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL provides the fastest retrieval times for inequality queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree Index is the default and most commonly used index in PostgreSQL, which supports not only equality but also ordering and range queries effectively."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using an index in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases data storage requirements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increases query response time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduces the search time for data retrieval"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Allows more connections to the database"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes in PostgreSQL help in locating data without having to scan every row in a table, thereby reducing the search time for data retrieval."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a table in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TRUNCATE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table, whereas DROP and TRUNCATE commands are used to delete the table itself."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It updates the query planner's statistics."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It executes a query and returns the result set."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It shows the execution plan of a query."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It rewrites queries for better performance."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN command in PostgreSQL is used to show the execution plan of a query which includes how the tables involved in the query will be scanned \u2013 by plain sequential scan, index scan, etc., and if multiple tables are involved, what kind of join algorithms will be used."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Initial Configuration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number used by PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5432"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1433"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1521"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PostgreSQL by default listens on port 5432. This is the standard port assigned to it in most installations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "User Privileges",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which privilege must a user have to execute SELECT queries on a table in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "EXECUTE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "READ"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ACCESS"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT privilege is required for a user to perform SELECT queries on a PostgreSQL table."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Configuration Files",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which file is used to configure client authentication in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_client.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_auth.conf"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_hba.conf file is used to control client authentication in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What data type in PostgreSQL is used to store monetary values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MONEY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NUMERIC"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INTEGER"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FLOAT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The MONEY data type is specifically designed to store monetary values, handling fixed fractional precision which is suitable for financial calculations."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Select Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the SELECT statement in SQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To retrieve data from a database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To insert data into a database"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To delete data from a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To update data in a database"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to query or retrieve data from a table in the database."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "User Authentication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file is used to configure client authentication in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_auth.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_client.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_config.conf"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_hba.conf file is used to control client authentication in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of creating indexes in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the database size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To speed up query performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To change data types of columns"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used primarily to enhance database performance (though inappropriate use can result in slower performance). The idea is that indexes help PostgreSQL find rows much faster than it could do without an index."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Role Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "EXCLUDE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to remove an existing role in PostgreSQL is DROP ROLE."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Installation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install PostgreSQL on Ubuntu using the default package repositories?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install postgresql"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install postgresql"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "install-postgresql"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "postgresql-setup"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'sudo apt-get install postgresql' is used on Ubuntu systems to install PostgreSQL from the default package repositories."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ALTER"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table in SQL."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Role Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to create a new role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NEW ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ADD ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SQL command CREATE ROLE is used to create a new role in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Database Connections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number for PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5432"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1433"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1521"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default port number for PostgreSQL is 5432."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Permission Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default role that has access to all the privileges on the PostgreSQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgres"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "administrator"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "root"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "superuser"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'postgres' role is the default administrative role that typically has access to all privileges in the PostgreSQL database."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove data from a PostgreSQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on the specified condition."
+      }
+    ]
+  }
+]

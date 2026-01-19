@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "Types of Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of learning algorithm requires labeled data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Supervised Learning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unsupervised Learning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Semi-supervised Learning"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Supervised learning algorithms require labeled data to train the model, as the model learns to predict outcomes based on provided input-output pairs."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In machine learning, what does 'feature' typically refer to?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An individual measurable property or characteristic of a phenomenon being observed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The algorithm used for processing data."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The result of a clustering algorithm."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A type of machine learning model."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the context of machine learning, a 'feature' refers to an individual measurable property or characteristic of a phenomenon being observed."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Feedforward Neural Networks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a basic feedforward neural network, which direction does the information flow?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "From output to input layer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "From input to output layer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bidirectional between layers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Randomly between all nodes"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a feedforward neural network, the information moves in one direction only, forward, from the input nodes, through the hidden nodes (if any), and to the output nodes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Machine Learning Models",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'train_test_split' function in machine learning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To calculate the accuracy of the model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To split the dataset into training and testing sets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To select the best features for the model"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To train the model on the entire dataset"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'train_test_split' function is used to divide the dataset into two parts: one for training the model and the other for testing its performance to ensure that the model works well with new, unseen data."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Kernel Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which kernel might typically be used to handle non-linear data in Support Vector Machines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear Kernel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Polynomial Kernel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sigmoid Kernel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Chi-square Kernel"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Polynomial Kernel is often used for non-linear data as it can model the interaction between any two given features in the data set."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kernel Functions in SVM",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is commonly used as a kernel function in SVM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear kernel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quadratic equation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cubic function"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear equation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The linear kernel is a common choice for SVM when data is linearly separable. It represents a simple dot product between two vectors."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Feature Engineering",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which technique is primarily used to handle missing data in a dataset?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Principal Component Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data Imputation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Gradient Boosting"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encoding Categorical Variables"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data Imputation is the technique specifically used to handle missing data by replacing missing values with substituted ones."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Supervised Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an example of a supervised learning task?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Classification"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Clustering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dimensionality Reduction"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Classification is a type of supervised learning where the model is trained with labeled data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Margins in SVM",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In SVM, what is the main purpose of using a large margin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To minimize computation time"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To maximize model accuracy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase generalization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To simplify the model"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A large margin increases the generalization ability of the SVM, making it perform better on unseen data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Types of Machine Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of machine learning is primarily used for creating systems that learn from data to make decisions with minimal human intervention?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Supervised Learning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Unsupervised Learning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Semi-supervised Learning"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reinforcement Learning is used for making sequences of decisions. The system learns its behavior based on feedback from the environment to achieve a goal."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Kernel Trick",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which kernel in SVM allows the transformation of data into higher dimensions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear kernel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Polynomial kernel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sigmoid kernel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "RBF (Radial Basis Function) kernel"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Polynomial kernel helps in converting original non-linearly separable data into a higher dimension where it becomes separable."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Characteristics of Supervised Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a defining characteristic of supervised learning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Uses labeled data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Does not use any data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Uses unlabeled data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focuses on data clustering"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Supervised learning is characterized by the use of labeled data, where the model is trained with inputs paired with correct outputs."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basics of Neural Networks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the activation function in a neural network?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To normalize the input features"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To allow the model to learn non-linear patterns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce the dimensionality of the input data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the speed of training"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Activation functions introduce non-linear properties to the network which allows the model to learn more complex patterns in the data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Feedforward Neural Networks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is typically the first layer in a feedforward neural network?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Output layer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hidden layer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Input layer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Convolutional layer"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The input layer is the first layer in a feedforward neural network where initial data is fed into the system."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Random Forest Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key advantage of using a Random Forest model over a single decision tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Easier to compute"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Less prone to overfitting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Requires less data to train"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Faster individual tree training times"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Random Forests reduce the risk of overfitting by averaging multiple decision trees, each trained on different parts of the same training set."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Supervised Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an example of a supervised learning task?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Clustering"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Classification"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Association"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dimensionality Reduction"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Classification is an example of a supervised learning task where the model is trained with labeled data."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Regression Analysis",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main goal of linear regression?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To classify data into categories"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To find the line of best fit through the data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To cluster similar data points together"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To maximize the reward in a given environment"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Linear regression aims to find the line of best fit that minimizes the error between predicted values and actual values."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basics of Decision Trees",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using decision trees in machine learning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To visualize complex datasets"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To process high-level programming languages"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create decision-making models based on data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the storage space used by data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decision trees are used to create models that predict the value of a target variable based on several input variables. They make decisions by learning simple decision rules inferred from the data features."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Understanding Random Forests",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key benefit of using a Random Forest algorithm compared to a single decision tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is computationally less intensive"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It has a simpler structure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It reduces the risk of overfitting"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It requires less data to train"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Random Forests reduce the risk of overfitting by averaging multiple decision trees, which individually may overfit the data."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Stemming and Lemmatization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which process more accurately captures the semantic root of a word?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Tokenization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stemming"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Lemmatization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Vectorization"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lemmatization considers the context and converts the word to its meaningful base form, whereas stemming simply removes the last few characters, often leading to incorrect meanings and spelling errors."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to Machine Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a commonly used supervised learning algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear Regression"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "K-means Clustering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Principal Component Analysis"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Linear Regression is a supervised learning algorithm because it uses input data with known responses to learn how to predict future outputs."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Supervised Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main goal of supervised learning in machine learning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To cluster data into similar groups"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To generate new data based on patterns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To learn a model that can make predictions based on known labels"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the dimensionality of data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In supervised learning, the algorithm learns from a training dataset that includes inputs and the corresponding correct outputs, and uses this learned model to predict outputs for new inputs."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Machine Learning Algorithms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a commonly used machine learning algorithm for classification tasks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear regression"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "K-means clustering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Support Vector Machine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Principal Component Analysis"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Support Vector Machine (SVM) is a powerful and versatile supervised machine learning algorithm that is used especially for classification but also for regression tasks."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Classification of Learning Systems",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of learning algorithm requires labeled data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Supervised Learning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unsupervised Learning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Supervised learning algorithms require labeled data to train the model, where the correct output is known."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Tokenization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the process of tokenization achieve in natural language processing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Breaking text into sentences or words"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Translating text from one language to another"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Correcting grammatical errors in the text"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encrypting the text data"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tokenization is the process of breaking down text into smaller components like words or sentences, which is crucial for further processing in NLP."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Tokenization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the first step in processing text data for NLP tasks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Tokenization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Stemming"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Vectorization"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tokenization is typically the first step in text processing in NLP as it involves breaking down text into smaller units like words or phrases."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Supervised Learning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which algorithm would be most appropriate for a regression task?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear Regression"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "K-means Clustering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Apriori Algorithm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Convolutional Neural Network"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Linear Regression is specifically designed for regression tasks, predicting a continuous output, unlike the other options which serve different purposes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Classifying Learning Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of learning algorithm requires labeled data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Supervised Learning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unsupervised Learning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Supervised learning algorithms require labeled data to train the model, using known input-output pairs."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Concepts of SVM",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main objective of the Support Vector Machine (SVM) algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To classify data into different categories."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To predict continuous values."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To cluster data into groups."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the dimensionality of data."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The main objective of SVM is to classify data into different categories by finding the hyperplane that best divides a dataset into classes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Neural Network Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of neural network is particularly good at handling sequence data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Convolutional Neural Network (CNN)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Recurrent Neural Network (RNN)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Feedforward Neural Network"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Autoencoder"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Recurrent Neural Networks (RNN) are designed to handle sequence data such as time series or natural language by maintaining a memory of previous inputs."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Activation Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which activation function does not suffer from the vanishing gradient problem and is commonly used in the output layer of regression problems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ReLU"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sigmoid"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Tanh"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The linear activation function does not modify the input, thus it does not cause vanishing or exploding gradients and is suitable for output values of any range, which is ideal for regression models."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Algorithm Usage",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which learning paradigm is typically used for clustering tasks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Supervised Learning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unsupervised Learning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Semi-supervised Learning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reinforcement Learning"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Clustering is a common task in unsupervised learning where the model groups a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SVM Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Support Vector Machines, what is the purpose of the regularization parameter C?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To control the width of the margin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To determine the kernel type"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To balance the trade-off between achieving a low training error and a low testing error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To select the optimal hyperplane"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The regularization parameter C is used to balance the trade-off between achieving a low training error and a low testing error, by controlling the penalty for misclassified data points."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Tokenization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tokenization technique is specifically effective for languages like Chinese where there is no clear word boundary?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Whitespace Tokenization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dictionary-based Tokenization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Subword Tokenization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sentence Tokenization"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dictionary-based Tokenization uses a predefined dictionary of words to find and separate tokens, making it suitable for languages without clear delimiters like Chinese."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Overfitting and Underfitting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What technique is commonly used to prevent overfitting in a machine learning model?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increasing the number of epochs"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reducing the learning rate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Applying dropout"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a simpler dataset"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dropout is a regularization technique that involves randomly setting a fraction of input units to 0 at each update during training to prevent overfitting."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Margin Maximization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the margin in a Support Vector Machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To classify new data points"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To maximize the distance between the closest data points of different classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To calculate the kernel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the dimensionality of the feature space"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The purpose of the margin in an SVM is to maximize the distance between the nearest data points of different classes, which helps in achieving a good generalization on unseen data."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Activation Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which activation function would you generally use for the output layer in a neural network model for binary classification?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ReLU"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sigmoid"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Softmax"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tanh"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sigmoid activation function is typically used for binary classification as it outputs probabilities in range between 0 and 1."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Activation Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which activation function would you typically use in the output layer of a neural network for binary classification?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ReLU"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sigmoid"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Softmax"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tanh"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sigmoid function is ideal for binary classification as it outputs values between 0 and 1, clearly categorizing the output into two classes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kernel Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following kernel functions is typically used for transforming data into a higher dimensional space in SVM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear kernel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Polynomial kernel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sigmoid kernel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polynomial kernel is typically used for transforming data into a higher dimensional space because it can handle the interaction between features efficiently."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Model Evaluation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What metric is commonly used to evaluate the performance of a model in a regression task?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Accuracy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Precision"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Recall"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Mean Squared Error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Mean Squared Error (MSE) is a common metric for evaluating the performance of a regression model by calculating the average of the squares of the errors."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Language Model Evaluation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which perplexity score indicates a better language model performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Higher perplexity score"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Lower perplexity score"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Perplexity score close to 100"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Perplexity score close to 1000"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A lower perplexity score typically indicates a better model performance as it represents a lower level of uncertainty in predictions."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "SVM Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of SVMs, what is the primary purpose of the slack variable (\u03be) introduced in the soft margin formulation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maximize the margin between the decision boundary and the nearest data points of each class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To allow misclassification of data points to achieve a better generalizing model."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the computational efficiency of the SVM model."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enforce a strict margin irrespective of the data distribution."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Slack variables (\u03be) are used to allow some misclassifications in the training data, permitting the SVM to have a soft margin. This helps in achieving a model that generalizes better on unseen data by preventing overfitting to the training data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Supervised Learning Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following algorithms inherently performs feature selection during the training process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear Regression"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decision Trees"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "K-Nearest Neighbors"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Support Vector Machines"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decision Trees inherently perform feature selection by choosing the most informative features at each node during the construction of the tree. This helps in reducing the complexity of the model and improve interpretability."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Comparison of Learning Paradigms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios best illustrates the use of unsupervised learning over supervised learning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A model is trained to predict future stock prices based on historical data."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A clustering algorithm groups customers into segments based on purchasing behavior without prior labels."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A neural network is trained to classify images of cats and dogs using a labeled dataset."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An algorithm predicts the likelihood of a patient having a disease based on symptoms and a training set of diagnosed cases."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because unsupervised learning involves finding hidden patterns or intrinsic structures in input data without pre-existing labels, which is exactly what clustering customers based on purchasing behavior represents."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Clustering Algorithms in Unsupervised Learning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following clustering algorithms does NOT require the number of clusters to be specified before running?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "K-means"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hierarchical clustering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DBSCAN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Mean-shift"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DBSCAN does not require the number of clusters to be specified in advance, as it can determine clusters based on density. Options A, B, and D require pre-specification of cluster numbers or have parameters that indirectly imply the number of clusters."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Feature Selection Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of feature selection, which of the following methods correctly describes the use of L1 regularization (Lasso) for feature reduction in a high-dimensional dataset?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "L1 regularization reduces the coefficient of less important features exactly to zero, thus effectively removing them from the model."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "L1 regularization uniformly reduces the coefficients of all features regardless of their importance."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "L1 regularization increases the coefficient of more important features to enhance model accuracy."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "L1 regularization swaps the coefficients of features based on their correlation with the target variable."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "L1 regularization, or Lasso, is particularly useful for feature selection because it can shrink the coefficients of less important features to zero, effectively removing them from the model, thereby simplifying the model and preventing overfitting."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Deep Learning Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In deep learning, what is the primary advantage of using the Adam optimization algorithm over traditional stochastic gradient descent (SGD)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adam automatically adjusts the learning rate and provides an accelerated convergence."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Adam uses a fixed learning rate that simplifies the hyper-parameter tuning process."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Adam solely relies on the first-order gradient, thus it is computationally less intensive than SGD."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Adam requires more memory for computation, which is beneficial for large datasets."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Adam optimization algorithm combines the benefits of two other extensions of stochastic gradient descent: Adaptive Gradient Algorithm (AdaGrad) and Root Mean Square Propagation (RMSProp). It calculates an exponential moving average of the gradient and the squared gradient, and the parameters beta1 and beta2 control the decay rates of these moving averages, thus it provides an adaptive learning rate."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Bias-Variance Tradeoff",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a learning algorithm is suffering from high variance, which of the following strategies is most likely to improve its performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adding more features to the training data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Adding more training examples"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increasing the complexity of the model"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reducing the number of features"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Adding more training examples can help reduce the effect of high variance by improving the algorithm's ability to generalize from the training data to unseen data, thus reducing overfitting."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Ensemble Learning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an ensemble learning scenario using boosting, what is the primary method by which the algorithm minimizes error?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Assigning higher weights to misclassified instances"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Randomly selecting the features for each model"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using the same model for each iteration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reducing dataset size for faster computation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boosting focuses on sequentially improving the learner by focusing more heavily on previously misclassified instances, assigning them higher weights in subsequent iterations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Kernel Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid kernel for transforming data in a SVM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "formula",
+        "value": "K(x, y) = (x^Ty + 1)^2"
+      },
+      {
+        "label": "B",
+        "type": "formula",
+        "value": "K(x, y) = \\exp(-\\gamma \\|x - y\\|^2), \\gamma > 0"
+      },
+      {
+        "label": "C",
+        "type": "formula",
+        "value": "K(x, y) = x^Ty - \\cos(x^Ty)"
+      },
+      {
+        "label": "D",
+        "type": "formula",
+        "value": "K(x, y) = \\tanh(\\alpha x^Ty + \\beta), \\alpha > 0, \\beta > 0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C describes a kernel function that does not satisfy Mercer's condition, as the cosine term can cause the kernel matrix not to be positive semi-definite."
+      }
+    ]
+  }
+]

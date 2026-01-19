@@ -1,0 +1,1139 @@
+[
+  {
+    "id": 1,
+    "topic": "Azure AI Services Overview",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service provides access to Azure Cognitive Services through REST APIs and SDKs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure AI Services" },
+      { "label": "B", "type": "text", "value": "Azure Virtual Machines" },
+      { "label": "C", "type": "text", "value": "Azure DNS" },
+      { "label": "D", "type": "text", "value": "Azure Monitor" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure AI Services provide prebuilt AI capabilities through APIs and SDKs." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "Azure AI Services Overview",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the purpose of Azure AI Studio?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To build, test, and manage AI-powered applications with an integrated environment" },
+      { "label": "B", "type": "text", "value": "To host websites" },
+      { "label": "C", "type": "text", "value": "To create SQL databases" },
+      { "label": "D", "type": "text", "value": "To monitor network traffic" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure AI Studio provides tools for building and managing AI apps end-to-end." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "Computer Vision Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure service extracts text from images and documents?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Read OCR" },
+      { "label": "B", "type": "text", "value": "Face API" },
+      { "label": "C", "type": "text", "value": "Azure Maps" },
+      { "label": "D", "type": "text", "value": "Language Understanding (LUIS)" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Read OCR extracts printed text from images using Azure Computer Vision." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "Computer Vision Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Face API can be used to detect which feature?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Facial landmarks such as eyes and nose" },
+      { "label": "B", "type": "text", "value": "Network speed" },
+      { "label": "C", "type": "text", "value": "Vehicle routes" },
+      { "label": "D", "type": "text", "value": "Database schema" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Face API detects facial attributes and landmarks." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Custom Vision Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Custom Vision allows you to train models for which task?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Image classification and object detection" },
+      { "label": "B", "type": "text", "value": "SQL query optimization" },
+      { "label": "C", "type": "text", "value": "Website rendering" },
+      { "label": "D", "type": "text", "value": "Container orchestration" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom Vision enables training models to classify or detect objects in images." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Custom Vision Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "To improve accuracy in Custom Vision classification, what should you provide?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Multiple labeled images per class" },
+      { "label": "B", "type": "text", "value": "More storage accounts" },
+      { "label": "C", "type": "text", "value": "Higher internet speed" },
+      { "label": "D", "type": "text", "value": "Fewer tags" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "More labeled examples lead to better classification performance." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Form Recognizer Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is Azure Form Recognizer used for?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Extracting key-value pairs and tables from documents" },
+      { "label": "B", "type": "text", "value": "Streaming video content" },
+      { "label": "C", "type": "text", "value": "Building chatbots" },
+      { "label": "D", "type": "text", "value": "Hosting machine learning models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Form Recognizer extracts structured information from documents." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Form Recognizer Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Form Recognizer model works best for common invoice or receipt formats?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Prebuilt models" },
+      { "label": "B", "type": "text", "value": "Custom neural voice" },
+      { "label": "C", "type": "text", "value": "Face classification" },
+      { "label": "D", "type": "text", "value": "Object tracking" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Prebuilt models handle common document types without training." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Language Services Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service performs sentiment analysis and key phrase extraction?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Text Analytics" },
+      { "label": "B", "type": "text", "value": "Custom Vision" },
+      { "label": "C", "type": "text", "value": "Azure Maps" },
+      { "label": "D", "type": "text", "value": "Azure DNS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Text Analytics provides basic NLP tasks such as sentiment analysis." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "Language Services Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which language service is used for translation?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Translator" },
+      { "label": "B", "type": "text", "value": "LUIS" },
+      { "label": "C", "type": "text", "value": "Face API" },
+      { "label": "D", "type": "text", "value": "Custom Vision" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure Translator handles text translation across many languages." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Speech Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Speech-to-Text is used to convert:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Audio into text" },
+      { "label": "B", "type": "text", "value": "Images into text" },
+      { "label": "C", "type": "text", "value": "Videos into JSON" },
+      { "label": "D", "type": "text", "value": "HTML into audio" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Speech-to-Text transcribes audio recordings or real-time speech." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Speech Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Text-to-Speech is commonly used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Generating synthetic spoken audio from text" },
+      { "label": "B", "type": "text", "value": "Detecting objects in videos" },
+      { "label": "C", "type": "text", "value": "Extracting tables" },
+      { "label": "D", "type": "text", "value": "Translating languages" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Text-to-Speech creates audio output using neural or standard voices." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Conversational AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service is used to build chatbots in Azure?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Bot Service" },
+      { "label": "B", "type": "text", "value": "Azure DevOps" },
+      { "label": "C", "type": "text", "value": "Azure Maps" },
+      { "label": "D", "type": "text", "value": "Azure Backup" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure Bot Service provides tools for building conversational bots." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Conversational AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which feature allows chatbots to understand user intent?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Conversational Language Understanding (CLU)" },
+      { "label": "B", "type": "text", "value": "Face detection" },
+      { "label": "C", "type": "text", "value": "Image tagging" },
+      { "label": "D", "type": "text", "value": "Speech synthesis" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU extracts intents and entities from user input." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Azure AI Search Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure AI Search is used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Indexing and searching structured and unstructured data" },
+      { "label": "B", "type": "text", "value": "Managing DNS" },
+      { "label": "C", "type": "text", "value": "Backing up data" },
+      { "label": "D", "type": "text", "value": "Running virtual networks" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AI Search enables text search, semantic search, and document indexing." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Azure AI Search Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which feature in Azure AI Search enhances search accuracy by understanding meaning instead of keywords?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Semantic Search" },
+      { "label": "B", "type": "text", "value": "Face detection" },
+      { "label": "C", "type": "text", "value": "Container indexing" },
+      { "label": "D", "type": "text", "value": "File encryption" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic search improves relevance using AI-based understanding." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Azure OpenAI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure service provides access to GPT and other large language models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure OpenAI Service" },
+      { "label": "B", "type": "text", "value": "Azure Functions" },
+      { "label": "C", "type": "text", "value": "SQL Database" },
+      { "label": "D", "type": "text", "value": "API Management" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure OpenAI exposes GPT, Codex, and Embedding models." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Azure OpenAI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is a common use case for Azure OpenAI text completion?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Generating natural language responses or content" },
+      { "label": "B", "type": "text", "value": "Detecting faces" },
+      { "label": "C", "type": "text", "value": "Image segmentation" },
+      { "label": "D", "type": "text", "value": "Database indexing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Completion models generate human-like text responses." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Responsible AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Responsible AI ensures AI systems are:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Fair, reliable, secure, and transparent" },
+      { "label": "B", "type": "text", "value": "Faster at rendering graphics" },
+      { "label": "C", "type": "text", "value": "Cheaper to maintain" },
+      { "label": "D", "type": "text", "value": "Completely autonomous" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Responsible AI principles guide safe and ethical AI development." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "Responsible AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which aspect of Responsible AI involves protecting user privacy?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Security and privacy" },
+      { "label": "B", "type": "text", "value": "Image rendering" },
+      { "label": "C", "type": "text", "value": "Load balancing" },
+      { "label": "D", "type": "text", "value": "Voice cloning" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Responsible AI ensures user data is secure and protected." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Azure Bot Service Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure Bot Service allows developers to build bots that can:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Understand and respond to user conversations" },
+      { "label": "B", "type": "text", "value": "Render 3D models" },
+      { "label": "C", "type": "text", "value": "Monitor virtual machines" },
+      { "label": "D", "type": "text", "value": "Encrypt storage accounts automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure Bot Service creates conversational agents integrated with AI services." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "Azure Bot Service Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which tool is commonly used to test Azure chatbots locally?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bot Framework Emulator" },
+      { "label": "B", "type": "text", "value": "Azure Maps Viewer" },
+      { "label": "C", "type": "text", "value": "Azure Storage Explorer" },
+      { "label": "D", "type": "text", "value": "Form Recognizer Studio" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Bot Framework Emulator is used to debug and test bots locally." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Conversational AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is an 'intent' in Conversational AI?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The user's goal or purpose in a message" },
+      { "label": "B", "type": "text", "value": "A type of image label" },
+      { "label": "C", "type": "text", "value": "A data storage type" },
+      { "label": "D", "type": "text", "value": "A network protocol" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Intents represent what the user wants to accomplish." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Conversational AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "CLU (Conversational Language Understanding) helps bots by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Identifying intents and extracting entities" },
+      { "label": "B", "type": "text", "value": "Detecting faces" },
+      { "label": "C", "type": "text", "value": "Calculating storage sizes" },
+      { "label": "D", "type": "text", "value": "Monitoring networks" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU extracts meaning from user input to help bots respond correctly." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Azure Search + AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which feature enables Azure Search to automatically extract content from documents?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cognitive Search skillsets" },
+      { "label": "B", "type": "text", "value": "Azure Backup policies" },
+      { "label": "C", "type": "text", "value": "Container registries" },
+      { "label": "D", "type": "text", "value": "Virtual networks" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Skillsets enrich data using AI, enabling searchable content extraction." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Azure Search + AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Skillsets in Cognitive Search commonly use which service to extract text from images?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Computer Vision OCR" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Azure Functions" },
+      { "label": "D", "type": "text", "value": "Speech Synthesis" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "OCR extracts text for indexing in Cognitive Search." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Azure Cognitive Services Setup",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "To use Cognitive Services, developers must create which resource type?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cognitive Services multi-service or single-service resource" },
+      { "label": "B", "type": "text", "value": "Virtual machine scale set" },
+      { "label": "C", "type": "text", "value": "API Management gateway" },
+      { "label": "D", "type": "text", "value": "Blob Archive tier" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cognitive Services require a multi-service or single-service resource to use APIs." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Azure Cognitive Services Setup",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cognitive Services resources require which two pieces of authentication info?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "API key and endpoint URL" },
+      { "label": "B", "type": "text", "value": "Docker file and App Service plan" },
+      { "label": "C", "type": "text", "value": "Network IP and storage account" },
+      { "label": "D", "type": "text", "value": "Firewall rules only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "APIs require a key and endpoint to authenticate and send requests." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Azure Storage Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which storage service is commonly used to store training data like images and documents?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Blob Storage" },
+      { "label": "B", "type": "text", "value": "Azure Key Vault" },
+      { "label": "C", "type": "text", "value": "Azure DNS" },
+      { "label": "D", "type": "text", "value": "Azure Firewall" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Blob Storage is ideal for unstructured data like images, PDFs, and videos." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Azure Storage Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Blob Storage organizes files inside which unit?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Containers" },
+      { "label": "B", "type": "text", "value": "Tables" },
+      { "label": "C", "type": "text", "value": "Queues" },
+      { "label": "D", "type": "text", "value": "Functions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Containers organize blobs just like folders." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Azure Function Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why are Azure Functions commonly used with AI services?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They act as lightweight serverless APIs for calling AI models" },
+      { "label": "B", "type": "text", "value": "They replace all AI models" },
+      { "label": "C", "type": "text", "value": "They host virtual networks" },
+      { "label": "D", "type": "text", "value": "They store large datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Functions let developers build serverless backends for triggering AI operations." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Azure Function Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure Functions are billed primarily based on:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Execution time and number of requests" },
+      { "label": "B", "type": "text", "value": "VM licensing fees" },
+      { "label": "C", "type": "text", "value": "Amount of stored images" },
+      { "label": "D", "type": "text", "value": "Amount of network traffic" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Serverless functions charge only for actual usage." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Azure OpenAI Safety Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why is content filtering important when using Azure OpenAI models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It prevents harmful or unsafe model outputs" },
+      { "label": "B", "type": "text", "value": "It increases model speed" },
+      { "label": "C", "type": "text", "value": "It provides more storage" },
+      { "label": "D", "type": "text", "value": "It adds DNS routing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Content filters ensure AI responses follow safety guidelines." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Azure OpenAI Safety Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "To reduce risks, Azure OpenAI logs API usage for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Monitoring for abuse and policy violations" },
+      { "label": "B", "type": "text", "value": "Billing optimizations" },
+      { "label": "C", "type": "text", "value": "GPU calibration" },
+      { "label": "D", "type": "text", "value": "Image resizing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure tracks OpenAI usage for safety and compliance." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "AI Deployment Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure service can host AI models as scalable REST APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure App Service" },
+      { "label": "B", "type": "text", "value": "Azure Firewall" },
+      { "label": "C", "type": "text", "value": "Azure DevOps" },
+      { "label": "D", "type": "text", "value": "Azure Backup" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "App Service easily hosts AI inference endpoints." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "AI Deployment Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Containerized AI models can be deployed using:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Kubernetes Service (AKS)" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Virtual Desktop" },
+      { "label": "D", "type": "text", "value": "Azure Backup" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AKS supports container deployments for scalable AI workloads." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "AI Security Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure service securely stores API keys for cognitive services?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Key Vault" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Azure Boards" },
+      { "label": "D", "type": "text", "value": "Blob Containers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Key Vault protects secrets such as API keys and tokens." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "AI Security Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why should AI systems avoid exposing API keys in client-side code?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Keys can be stolen and misused by attackers" },
+      { "label": "B", "type": "text", "value": "It reduces image quality" },
+      { "label": "C", "type": "text", "value": "It prevents REST API requests" },
+      { "label": "D", "type": "text", "value": "It slows down chatbots" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Client-exposed keys pose a major security vulnerability." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Azure Machine Learning Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure Machine Learning can be used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Train, track, and deploy machine learning models" },
+      { "label": "B", "type": "text", "value": "Build 5G networks" },
+      { "label": "C", "type": "text", "value": "Host SQL tables automatically" },
+      { "label": "D", "type": "text", "value": "Resize images manually" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure ML provides end-to-end machine learning lifecycle support." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Azure Machine Learning Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure ML Workspaces are used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Organize ML assets like datasets, experiments, and models" },
+      { "label": "B", "type": "text", "value": "Manage WiFi signals" },
+      { "label": "C", "type": "text", "value": "Store website code" },
+      { "label": "D", "type": "text", "value": "Host chatbots directly" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Workspaces are the central hub for Azure ML resources." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Vision Services Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Computer Vision image tagging is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Automatically identify objects or concepts in an image" },
+      { "label": "B", "type": "text", "value": "Detect network security issues" },
+      { "label": "C", "type": "text", "value": "Translate spoken language" },
+      { "label": "D", "type": "text", "value": "Create SQL indexes" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Image tagging labels objects and concepts using AI." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Vision Services Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Face API can detect emotions such as:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Happiness, anger, and sadness" },
+      { "label": "B", "type": "text", "value": "Network latency" },
+      { "label": "C", "type": "text", "value": "Database storage levels" },
+      { "label": "D", "type": "text", "value": "Invoice totals" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Face API recognizes human emotions from facial expressions." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Language Understanding Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Entity extraction in CLU is used to identify:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Specific pieces of information such as dates or names" },
+      { "label": "B", "type": "text", "value": "Faces in images" },
+      { "label": "C", "type": "text", "value": "Video scenes" },
+      { "label": "D", "type": "text", "value": "Storage containers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Entities represent key details extracted from text." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Language Understanding Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure tool helps visualize and test CLU models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Language Studio" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Bot Emulator" },
+      { "label": "D", "type": "text", "value": "DevOps Boards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Language Studio provides a visual interface for language models." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Translation Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure Translator supports translating:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Text between multiple languages" },
+      { "label": "B", "type": "text", "value": "Images into SQL" },
+      { "label": "C", "type": "text", "value": "Audio into 3D models" },
+      { "label": "D", "type": "text", "value": "Emails into spreadsheets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Translator handles multi-language text translation." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Translation Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is one common use case for Azure Translator?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Translating website content to support multiple languages" },
+      { "label": "B", "type": "text", "value": "Managing virtual networks" },
+      { "label": "C", "type": "text", "value": "Tracking application errors" },
+      { "label": "D", "type": "text", "value": "Detecting objects in images" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Translator helps globalize websites with multilingual text." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "Speech Service Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Speech Synthesis converts:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Text into spoken audio" },
+      { "label": "B", "type": "text", "value": "Images into HTML" },
+      { "label": "C", "type": "text", "value": "Text into images" },
+      { "label": "D", "type": "text", "value": "HTML into SQL" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The service reads text aloud using AI-generated voices." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Speech Service Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Azure tool helps test Speech-to-Text and Text-to-Speech features interactively?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Speech Studio" },
+      { "label": "B", "type": "text", "value": "Azure Backup Center" },
+      { "label": "C", "type": "text", "value": "Bot Emulator" },
+      { "label": "D", "type": "text", "value": "Azure Monitor" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Speech Studio provides a GUI for testing and tuning speech models." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Document Intelligence Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Form Recognizer can extract which type of information?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Key-value pairs and tables from documents" },
+      { "label": "B", "type": "text", "value": "Audio transcription" },
+      { "label": "C", "type": "text", "value": "Video face detection" },
+      { "label": "D", "type": "text", "value": "Website hosting content" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Form Recognizer extracts structured data from forms and PDFs." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Document Intelligence Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Prebuilt Form Recognizer models are useful because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They work without requiring custom training" },
+      { "label": "B", "type": "text", "value": "They host chatbots" },
+      { "label": "C", "type": "text", "value": "They translate audio" },
+      { "label": "D", "type": "text", "value": "They detect vehicle plates" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Prebuilt models are ready to use for common document types like invoices." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "AI Development Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which SDK is commonly used to call Azure AI services in applications?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure SDK for Python or C#" },
+      { "label": "B", "type": "text", "value": "Unity Game SDK" },
+      { "label": "C", "type": "text", "value": "Android Graphics SDK" },
+      { "label": "D", "type": "text", "value": "PowerShell DSC" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure SDK provides libraries for calling cognitive services easily." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "AI Development Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "AI services commonly return responses in which format?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "JSON" },
+      { "label": "B", "type": "text", "value": "PSD" },
+      { "label": "C", "type": "text", "value": "MP4" },
+      { "label": "D", "type": "text", "value": "XLSB" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "JSON provides structured output for programming." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "AI Monitoring Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why should AI service usage be monitored?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To track performance, errors, and costs" },
+      { "label": "B", "type": "text", "value": "To increase GPU count" },
+      { "label": "C", "type": "text", "value": "To resize VMs" },
+      { "label": "D", "type": "text", "value": "To change DNS settings" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Monitoring ensures the system runs efficiently and stays within budgets." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "AI Monitoring Basics",
+    "difficulty": "beginner",
+       "question": [
+      { "type": "text", "value": "Which Azure tool helps track logs and alerts for AI applications?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Monitor" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Azure Virtual Desktop" },
+      { "label": "D", "type": "text", "value": "Azure Cache" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure Monitor tracks metrics, logs, and application health." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "AI Ethics & Privacy Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Responsible AI ensures AI systems avoid:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bias and unfair decisions" },
+      { "label": "B", "type": "text", "value": "High storage costs" },
+      { "label": "C", "type": "text", "value": "Fast processing" },
+      { "label": "D", "type": "text", "value": "Accurate predictions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Responsible AI promotes fair and ethical outcomes." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "AI Ethics & Privacy Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "User data should be anonymized to protect:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Privacy" },
+      { "label": "B", "type": "text", "value": "API speed" },
+      { "label": "C", "type": "text", "value": "Image resolution" },
+      { "label": "D", "type": "text", "value": "Document styling" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Anonymization removes identifiable information for safety." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "AI Features & Capabilities",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Azure OpenAI embeddings are used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Convert text into numerical vectors for search and similarity" },
+      { "label": "B", "type": "text", "value": "Render 3D animations" },
+      { "label": "C", "type": "text", "value": "Generate face recognition alerts" },
+      { "label": "D", "type": "text", "value": "Compress images for storage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Embeddings represent meaning mathematically for semantic search." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "AI Features & Capabilities",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Semantic search improves results by understanding:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The meaning behind the search query" },
+      { "label": "B", "type": "text", "value": "Only the exact keywords typed" },
+      { "label": "C", "type": "text", "value": "Image background colors" },
+      { "label": "D", "type": "text", "value": "Storage container names" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic search provides AI-based relevance over keyword matching." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "AI Integration Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "REST APIs allow applications to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Communicate with AI services using HTTP requests" },
+      { "label": "B", "type": "text", "value": "Render video content" },
+      { "label": "C", "type": "text", "value": "Create 3D graphics" },
+      { "label": "D", "type": "text", "value": "Store large databases" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "REST calls link applications with AI functionality." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "AI Integration Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which protocol is most commonly used when calling Azure AI REST APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "HTTPS" },
+      { "label": "B", "type": "text", "value": "FTP" },
+      { "label": "C", "type": "text", "value": "SMTP" },
+      { "label": "D", "type": "text", "value": "POP3" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "HTTPS securely transmits API requests across the internet." }
+    ]
+  }
+]

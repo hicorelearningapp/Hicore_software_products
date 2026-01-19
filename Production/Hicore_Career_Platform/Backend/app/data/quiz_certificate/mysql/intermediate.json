@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 7,
+    "topic": "MySQL Indexing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in MySQL creates a physical copy of the data, sorted by the indexed columns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Clustered Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Secondary Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bitmap Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Primary Index"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A clustered index sorts and stores the data rows in the table based on their key values, thereby creating a physical copy of the data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic SELECT Queries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the following SQL query return: SELECT * FROM Employees WHERE Age > 30 AND Department = 'Sales';"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Returns all records from the Employees table where Age is greater than 30 and Department is Sales."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Returns the first record from the Employees table where Age is greater than 30 and Department is Sales."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Returns all records from the Employees table where Age is less than 30 and Department is Sales."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Returns nothing."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SQL query uses AND logical operator to filter records where both conditions Age greater than 30 and Department being Sales must be true. It will return all matching records, not just the first one."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Using Joins",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of the following SQL query? SELECT a.name FROM employees a INNER JOIN departments b ON a.dept_id = b.id WHERE b.name = 'HR';"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Returns names of all employees who work in the HR department."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Returns names of all departments."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Returns the total number of employees in the HR department."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Returns an error because the query syntax is incorrect."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SQL query correctly uses an INNER JOIN to combine rows from 'employees' and 'departments' where the department ID matches and the department's name is 'HR'. It then selects the names of the employees in this department."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Optimizing with Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index would most efficiently optimize a query that orders results by a non-unique datetime column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Unique index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Clustered index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Non-clustered index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Full-text index"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A non-clustered index would be most effective for this scenario because it allows the database to quickly access and retrieve the data in order without altering the physical order of the entire table, which is ideal for non-unique columns used in sorting."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Connecting to MySQL with PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a new connection to the MySQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_mysql()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysql_connection()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to establish a new connection to a MySQL database using PHP. mysql_connect() was used in older PHP versions and is now deprecated."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL data type would be best for storing an email address?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR(100)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TEXT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CHAR(100)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BLOB"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "VARCHAR(100) is suitable for storing strings with a variable length up to 100 characters, making it ideal for email addresses."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types in MySQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing an object with properties that have varying data types in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BLOB"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TEXT"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JSON data type is the most suitable for storing objects as it allows for a structured format with key-value pairs, supporting nested objects."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of index would most efficiently optimize a query that searches based on the first few characters of a string column in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Full-Text Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Spatial Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree indexes are most suitable for high-performance for queries that involve searching the start of strings because they maintain data in a sorted order and support partial-text matches efficiently."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Query Optimization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using query caching in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases storage space requirements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduces the load on the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically updates indices"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Query caching in MySQL stores the result set of a query in the cache and reuses the result for the same query, which reduces the load on the database by avoiding the need to execute the query again."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Password Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MySQL functions can be used to hash passwords before storage for increased security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "LOAD_FILE()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MD5()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENCRYPT()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PASSWORD()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The PASSWORD() function is specifically designed to hash passwords in MySQL. MD5() is also a hashing function but not as secure as PASSWORD() for password storage."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Password Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is typically used to hash passwords before storing them in MySQL for security purposes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SHA2()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MD5()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENCODE()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AES_ENCRYPT()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SHA2() function is recommended for hashing passwords due to its security features compared to other functions like MD5(), which is considered to be less secure."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Joins",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of JOIN returns only the rows that have a match in both joined tables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FULL JOIN"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An INNER JOIN returns only the rows that have matching values in both tables, satisfying the condition specified in the JOIN clause."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index would be most appropriate for optimizing a query that searches based on range values in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Full-text Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Spatial Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree indexes are best suited for range queries as they store their records in a sorted manner, allowing for quick searches between two bounds."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Manipulation with MySQL and PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to execute a MySQL query in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$mysqli->query('SELECT * FROM users');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$mysqli.execute('SELECT * FROM users');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_query($mysqli, 'SELECT * FROM users');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "execute_mysql_query('SELECT * FROM users');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to execute a query in an object-oriented style is using the query method on a mysqli object, as shown in option A."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Retrieval with SQL and PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PHP function is used to execute a query that does not return a result set, such as an INSERT, UPDATE, or DELETE statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_exec()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_command()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_execute()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_query() is used to perform queries against the database. This includes SELECT, INSERT, UPDATE, DELETE, etc. It returns FALSE on failure. It is not limited to only queries that return a result set."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Transaction Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to start a transaction in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "START TRANSACTION"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BEGIN TRANSACTION"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INITIATE TRANSACTION"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CREATE TRANSACTION"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to start a transaction in MySQL is 'START TRANSACTION'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Password Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in MySQL is recommended for hashing user passwords?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MD5()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SHA1()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENCRYPT()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SHA2()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SHA2() function is recommended for hashing passwords in MySQL as it provides a stronger hash value compared to MD5() and SHA1(), and it is more secure than ENCRYPT()."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Filtering Data",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct SQL syntax to retrieve all the records from a table named 'Students' where the student's age is more than 20?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM Students WHERE age > 20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT * FROM Students WHERE age < 20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT * FROM Students IF age > 20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "EXTRACT * FROM Students WHERE age > 20"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to retrieve records where the age is more than 20 is 'SELECT * FROM Students WHERE age > 20'. The WHERE clause is used for filtering records."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL query correctly calculates the average age of all customers from the 'Customers' table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT AVG(Age) FROM Customers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT COUNT(Age) FROM Customers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT SUM(Age) FROM Customers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT TOTAL(Age) FROM Customers"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "AVG() is an aggregate function specifically used to calculate the average value of a specified column."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Sorting Results",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the SQL query SELECT Name FROM Employees ORDER BY Hiring_Date DESC LIMIT 3;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The names of the first 3 employees when ordered by their hiring date from the earliest to the latest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The names of all employees ordered by their hiring date from the latest to the earliest"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The names of the last 3 employees hired"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The names of the first 3 employees when ordered by their hiring date from the latest to the earliest"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because the query specifies 'ORDER BY Hiring_Date DESC' which sorts the employees by hiring date from latest to earliest, and 'LIMIT 3' picks the top 3 from this sorted list."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Connecting MySQL with PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a new connection to a MySQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to open a new connection to a MySQL server using PHP."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregation Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to return the sum of a numeric column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MAX()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AVG()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SUM() function is used to return the total sum of a numeric column."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "SELECT Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL clause is used to filter the records returned from a SELECT query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ORDER BY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GROUP BY"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used to filter records and specify which records to include in the result set of a SELECT query."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using the EXPLAIN statement in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It modifies the query to run faster."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It shows how MySQL executes a query."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It estimates the query's return data size."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically indexes necessary columns."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "EXPLAIN provides detailed information about how MySQL executes a query, which helps in understanding and optimizing query performance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is NOT supported by MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DATETIME"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BOOLEAN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CURRENCY"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CURRENCY is not a supported data type in MySQL. MySQL supports DATETIME, VARCHAR, and BOOLEAN as data types."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Transaction Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is used to manually commit a transaction in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COMMIT;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SAVEPOINT;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ROLLBACK;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "START TRANSACTION;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The COMMIT statement is used to save all changes made in the current transaction to the database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "MySQL Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL data type is most suitable for storing boolean values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CHAR(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TINYINT(1)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VARCHAR(10)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BIT"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TINYINT(1) is commonly used to store boolean values in MySQL, as it efficiently uses storage and is easy to interpret (0 for false, 1 for true)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing an IP address in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR(15)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CHAR(15)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BINARY(4)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "VARBINARY(16)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "VARCHAR(15) is typically used for storing IP addresses to accommodate the variable length and the dot notation."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Connecting MySQL with PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in PHP would you use to execute a query that does not return a result set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_query()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_exec()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_real_query()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_real_query() is used for executing SQL queries that do not return a result set, such as INSERT, UPDATE, DELETE."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "User Privileges",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to revoke DELETE privilege from a user on a database named 'Sales'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "REVOKE DELETE ON DATABASE Sales FROM user;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE DELETE ON Sales.* FROM user;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE DELETE ON Sales.* FROM user;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DENY DELETE ON DATABASE Sales TO user;"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for revoking a privilege in MySQL is 'REVOKE privilege ON database.table FROM user;'. Thus, 'REVOKE DELETE ON Sales.* FROM user;' is the correct statement."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Manipulation Commands",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL command would you use to remove a specific row from a table named 'employees' where the 'employee_id' is 5?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE FROM employees WHERE employee_id = 5;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE FROM employees WHERE employee_id = 5;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP FROM employees WHERE employee_id = 5;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "EXTRACT FROM employees WHERE employee_id = 5;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on a specific condition. Here, the condition is where the 'employee_id' equals 5."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "When should you consider adding an index to a column in a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the column is frequently used in WHERE clauses"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When the table has fewer than ten rows"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When the column contains primarily NULL values"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "When the column data type is VARCHAR"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Adding an index to a column used frequently in WHERE clauses can significantly speed up the performance of queries by reducing the number of rows to scan."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transaction Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement can be used to undo transactions that have not yet been saved to the database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SAVEPOINT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ROLLBACK"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UNDO"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ROLLBACK' statement is used to undo transactions that have not yet been committed to the database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following techniques helps to reduce lock contention in a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using READ COMMITTED isolation level"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing buffer pool size"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Denormalizing database tables"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing stored procedures"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using READ COMMITTED isolation level can help to reduce lock contention by allowing transactions to only hold locks on rows that they are actively modifying, thereby reducing the time locks are held and improving concurrency."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types in MySQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types would be most appropriate for storing an email address in a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DATE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CHAR(100)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BLOB"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CHAR(100) data type is most suitable for storing a fixed-length string such as an email address, which typically does not exceed 100 characters."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Sorting and Limiting Results",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL query will retrieve the top 3 highest earning employees from the 'Employees' table, sorted by their salary in descending order?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM Employees ORDER BY Salary DESC LIMIT 3;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT * FROM Employees SORT BY Salary DESC TOP 3;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT TOP 3 * FROM Employees ORDER BY Salary DESC;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT * FROM Employees LIMIT 3 ORDER BY Salary;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for retrieving a limited number of records sorted by a specific column in MySQL uses the ORDER BY clause followed by DESC for descending order, and the LIMIT clause to restrict the output to the top 3 records."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Subqueries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is true about correlated subqueries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A correlated subquery can be executed independently of the outer query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A correlated subquery is evaluated once for each row processed by the outer query."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Correlated subqueries cannot use the EXISTS keyword."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Correlated subqueries do not allow the use of JOINs within them."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A correlated subquery is evaluated once for each row processed by the outer query because it refers to a column from the outer query, making it dependent on the outer query's rows."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Indexing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using indexing in a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases storage space"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increases data insertion time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Improves query performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enhances data security"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexing primarily improves query performance by allowing the database engine to find data faster, rather than scanning each row in a table."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using a composite index in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases the storage space used by the database."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can accelerate query performance by allowing the database engine to locate data more efficiently."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows for easier SQL syntax."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically updates data integrity."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Composite indexes improve performance on queries that test all columns in the index or columns that prefix the index, thus making data retrieval faster and more efficient."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types in MySQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in MySQL is used to store boolean values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TINYINT(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BOOLEAN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SMALLINT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "VARCHAR(5)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MySQL, the TINYINT(1) type is often used to store boolean values where 0 represents false and 1 represents true."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "User Privileges",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove specific privileges from a user in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP USER"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DELETE PRIVILEGES"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REMOVE RIGHTS"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The REVOKE command is used in MySQL to remove specific privileges from a user, allowing for fine-grained access control."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Retrieval Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL function is best suited for fetching multiple rows of data in a PHP application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_fetch_row()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_fetch_array()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql_query()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysql_fetch_assoc()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function mysql_fetch_assoc() is particularly useful for fetching multiple rows of data as it returns an associative array that corresponds to the fetched row and moves the internal data pointer ahead."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best practice when using JOIN in SQL queries to optimize performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using RIGHT JOIN instead of LEFT JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Joining tables based on columns without indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Avoiding unnecessary columns in the SELECT statement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Always using NATURAL JOIN"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To optimize JOIN operations, one should avoid selecting unnecessary columns to minimize the amount of data processed and transferred in the query."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "MySQL Data Retrieval",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What SQL clause is primarily used to filter the results of a query based on specific conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ORDER BY"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used in SQL to filter records and fetch only those records that fulfill a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Storage Procedures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of using the MySQL command 'INSERT INTO sales (product_id, quantity) VALUES (101, 3);' assuming the 'sales' table is initially empty?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It inserts a new row with 'product_id' 101 and 'quantity' 3 into the 'sales' table."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It creates a new table named 'sales' with the specified values."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It results in an error because the table is empty."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It updates an existing row in the 'sales' table."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The INSERT INTO command is used to add new rows to a table. In this case, it adds a row with 'product_id' 101 and 'quantity' 3 to the 'sales' table, regardless of whether the table was initially empty or not."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Connecting MySQL with PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to establish a connection with a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to use for establishing a connection to a MySQL database using PHP, especially since mysql_connect() is deprecated."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Keys and Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main purpose of using indexes in databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up data retrieval"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enforce data integrity"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce storage space"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are primarily used to speed up data retrieval operations on a database table, although they can sometimes consume more space and slow down write operations."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "User Privileges",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to provide a user with DELETE privileges on a specific database in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT DELETE ON database_name.* TO 'username'@'localhost';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GRANT REMOVE ON database_name.* TO 'username'@'localhost';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SET DELETE ON database_name.* TO 'username'@'localhost';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ENABLE DELETE ON database_name.* TO 'username'@'localhost';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct SQL command to grant DELETE privileges is 'GRANT DELETE ON database_name.* TO 'username'@'localhost';'. The GRANT statement is used to provide specific privileges to users."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Indexing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main advantage of adding an index to a database column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases storage space"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increases query processing time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Improves the speed of data retrieval"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Allows more data to be stored"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Adding an index on a database column primarily enhances the speed of data retrieval operations by allowing faster traversal of the indexed field, especially in large datasets."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "MySQL Privilege System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the REVOKE command in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "REVOKE command only removes global privileges."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE command can remove specific privileges granted to a user at the database level."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REVOKE command cannot remove privileges granted through roles."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REVOKE command is used to grant privileges, not remove them."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "REVOKE command in MySQL is used to remove specific privileges from a user, including those granted at the database level, making option B correct."
+      }
+    ]
+  }
+]

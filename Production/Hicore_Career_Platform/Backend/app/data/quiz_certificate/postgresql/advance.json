@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 6,
+    "topic": "Transaction Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database transaction in SQL. If a transaction is running that inserts records into a table and at the same time, an attempt is made to execute a SELECT query on that table, what isolation level prevents the SELECT query from reading uncommitted data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "READ UNCOMMITTED"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "READ COMMITTED"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REPEATABLE READ"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SERIALIZABLE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "READ COMMITTED is the isolation level that prevents the SELECT query from seeing uncommitted changes made by other transactions. It ensures that any data read is committed at the moment it is read."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Locking Mechanisms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of lock in PostgreSQL can cause the highest level of lock contention when improperly managed, especially in high transaction environments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Row-level locks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Table-level locks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Advisory locks"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Shared locks"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Table-level locks can cause significant lock contention in high transaction environments as they prevent access to the entire table, blocking a large number of transactions."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Tuning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which configuration setting optimally adjusts the PostgreSQL server to handle 100 concurrent connections effectively?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "max_connections = 100"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "shared_buffers = '256MB'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "max_worker_processes = 100"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "max_connections = 100; shared_buffers = '256MB'; work_mem = '5MB'; effective_cache_size = '768MB'"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'max_connections' alone isn't sufficient. The combination in option D optimizes various memory parameters to support the connections effectively."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Complex Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database with a 'sales' table and a 'products' table. You need to find the names of products that have never been sold. Which SQL query accomplishes this?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT name FROM products WHERE product_id NOT IN (SELECT product_id FROM sales)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT name FROM products WHERE product_id IN (SELECT product_id FROM sales)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT name FROM products INNER JOIN sales ON products.product_id = sales.product_id"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT name FROM products WHERE EXISTS (SELECT product_id FROM sales WHERE products.product_id = sales.product_id)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The subquery 'SELECT product_id FROM sales' finds all product IDs that have been sold. The main query then selects the names of products whose IDs are not in this list, thus identifying products that have never been sold."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the optimal method for improving query performance through index optimization when dealing with large JSONB columns in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creating a GIN index on the JSONB columns"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a BRIN index for the JSONB columns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Applying a B-tree index on the JSONB columns"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creating a Hash index on the JSONB columns"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A GIN (Generalized Inverted Index) index is particularly optimized for handling cases where the key-to-data ratio is very high, such as in large JSONB columns, which makes it the optimal choice for such scenarios in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Backup and Disaster Recovery",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring PostgreSQL Point-in-Time Recovery (PITR), which of the following parameters must be set correctly in the postgresql.conf file to ensure that the logs are stored efficiently for recovery purposes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "checkpoint_timeout and max_wal_size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "wal_level and wal_compression"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "archive_mode and archive_command"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "hot_standby and hot_standby_feedback"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For PITR, 'archive_mode' must be set to 'on', and 'archive_command' must be configured to specify the command to write the WAL file to archive storage. This ensures logs are stored correctly for recovery."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Managing Superuser Privileges",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command correctly removes superuser privileges from a user named 'dbadmin'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER USER dbadmin WITH NOSUPERUSER;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE SUPERUSER FROM dbadmin;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP SUPERUSER dbadmin;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UPDATE pg_user SET issuper = false WHERE usename = 'dbadmin';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command is 'ALTER USER dbadmin WITH NOSUPERUSER;'. This statement revokes superuser privileges from the user 'dbadmin' by modifying the user's role attributes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PostgreSQL feature can be used to automatically analyze and optimize query plans based on the actual runtime statistics?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "EXPLAIN ANALYZE statement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cost-based optimizer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Just-in-time (JIT) compilation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The pg_stat_statements extension"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_stat_statements extension is instrumental in PostgreSQL for tracking execution statistics of all SQL statements executed by a server, allowing for automatic analysis and optimization of queries based on these statistics."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Connection Authentication",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the pg_hba.conf file is used to enforce encrypted connections using client certificates, while also utilizing password authentication?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "trust"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "password"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "md5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "cert"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'cert' method is used to enforce client certificate authentication in conjunction with an SSL connection, which provides an added layer of security."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command is used to manually set the isolation level of a transaction to 'Serializable'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SET ISOLATION LEVEL SERIALIZABLE;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BEGIN TRANSACTION SERIALIZABLE;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "START TRANSACTION WITH SERIALIZABLE;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, 'SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;' is the correct syntax to set the transaction isolation level to 'Serializable'. This ensures that all transactions occur in a completely isolated manner."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which of the following isolation levels prevents phantom reads but not non-repeatable reads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Uncommitted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Serializable"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "At the 'Repeatable Read' isolation level, PostgreSQL prevents phantom reads, which are scenarios where a transaction re-executes a query returning a set of rows that satisfy a search condition and finds that the set of rows satisfying the condition has changed due to another recently-committed transaction. However, it does not entirely prevent non-repeatable reads."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command can you use to alter the default privileges ensuring that only specific roles can access newly created tables in a specific schema?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER DEFAULT PRIVILEGES IN SCHEMA schema_name GRANT SELECT ON TABLES TO specific_role;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GRANT SELECT ON ALL TABLES IN SCHEMA schema_name TO specific_role;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ALTER ROLE specific_role SET DEFAULT PRIVILEGES IN SCHEMA schema_name GRANT SELECT ON TABLES;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET DEFAULT PRIVILEGES FOR ROLE specific_role IN SCHEMA schema_name ALLOW SELECT ON TABLES;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command is 'ALTER DEFAULT PRIVILEGES IN SCHEMA schema_name GRANT SELECT ON TABLES TO specific_role;'. This command modifies default privileges for the specified schema so that the specified role can access tables created in the future."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Complex Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a database with a 'Customers' table and an 'Orders' table, how would you write a SQL query to find the customers who have placed more than 5 orders but less than 10 orders?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT c.customer_name FROM Customers c WHERE (SELECT COUNT(*) FROM Orders o WHERE o.customer_id = c.customer_id) BETWEEN 6 AND 9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) > 5 AND COUNT(*) < 10)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) > 5)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) < 10)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as it uses a subquery to count the number of orders per customer and correctly filters out those who have placed more than 5 but fewer than 10 orders."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SQL Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "An SQL query involves a subquery that selects customer IDs from a Customers table that are not in a Orders table. The appropriate index exists on the Orders table customer_id column. What would be a more performant method than using NOT IN?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using an INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a LEFT OUTER JOIN and checking for NULLs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using EXISTS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using GROUP BY on customer_id"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a LEFT OUTER JOIN on the Orders table and checking for NULL values in the Orders table's customer_id column is more performant. This method efficiently finds customers not present in the Orders table by utilizing the index on customer_id and immediately identifies unmatched rows through the NULL check."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL allows for efficient search queries that are case-insensitive?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GiST indexes support a wide range of queries, including case-insensitive searches, making them the correct choice for this type of task."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Transaction Isolation and Lock Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL production environment, which level of transaction isolation guarantees that all data written during a transaction can be seen by other transactions once it is committed, but not before?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Serializable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Read Uncommitted"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Read Committed isolation level in PostgreSQL ensures that any data written during a transaction is visible to other transactions only after it has been committed, maintaining a balance between consistency and performance."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Index Rebuilding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When experiencing performance degradation due to index bloat in PostgreSQL, which of the following strategies is most effective?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Rebuild indexes during off-peak hours using the REINDEX command"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increase the maintenance_work_mem parameter to improve index performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decrease the fillfactor of the index to prevent page splits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Drop and recreate the database"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Rebuilding indexes using the REINDEX command during off-peak hours effectively addresses index bloat by recreating the index from scratch, which eliminates the bloat and restores index performance without adversely affecting the production workload."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transaction Isolation Levels",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which transaction isolation level in PostgreSQL prevents non-repeatable reads but not phantom reads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Uncommitted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Serializable"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Repeatable Read' isolation level in PostgreSQL prevents non-repeatable reads. However, it does not fully prevent phantom reads, which can occur when new rows are added by another transaction."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Query Plan Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following methods can be used to force PostgreSQL to avoid using a specific index during query execution?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the DISABLE INDEX command"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting the enable_indexscan to OFF"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Rebuilding the index with a different configuration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Running ANALYZE to update the query planner's statistics"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "By setting enable_indexscan to OFF, the PostgreSQL query planner is forced to plan queries without considering the use of indexes, effectively avoiding the use of a specific index."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL can be most efficient when querying ranges of data in a column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BRIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BRIN (Block Range Indexes) are particularly efficient for large tables where data is naturally ordered, making them ideal for range queries where data locality is preserved."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Performance Tuning and Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which combination of the following factors will most likely lead to a reduction in the effectiveness of the index due to index bloat?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Frequent updates and deletions on indexed columns"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Infrequent updates and no deletions on indexed columns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Frequent updates on non-indexed columns only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No operations performed on indexed columns"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Frequent updates and deletions on indexed columns cause changes in the index structure, leading to spaces that are not reclaimed automatically, thus causing index bloat."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL would be most suitable for a column storing an array of text values that vary significantly in length and content?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Generalized Inverted Index (GIN) is particularly effective for indexing columns containing complex data types like arrays or JSONB, especially when the values are non-scalar (e.g., vary in length and content), which is often the case with text arrays."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role-based Access Controls",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command would you use to alter the default privileges ensuring that all future objects created by user 'dev_user' in schema 'app_schema' are not accessible by role 'app_guest'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER DEFAULT PRIVILEGES IN SCHEMA app_schema FOR ROLE dev_user REVOKE ALL ON TABLES FROM app_guest;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALTER ROLE dev_user REVOKE ALL PRIVILEGES IN SCHEMA app_schema FROM app_guest;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REVOKE ALL ON SCHEMA app_schema FROM app_guest;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ALTER DEFAULT PRIVILEGES FOR ROLE dev_user REVOKE ALL ON TABLES FROM ROLE app_guest IN SCHEMA app_schema;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the ALTER DEFAULT PRIVILEGES command is used to set the privileges that will be automatically applied to objects created in the future. The syntax correctly specifies the schema and the role for which the privileges are altered, and it revokes all privileges on tables from the role 'app_guest'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Joins and Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider two tables, 'Orders' and 'Products'. Each 'Order' has a 'ProductID' corresponding to a 'Product'. What would be the result of the following query: SELECT COUNT(DISTINCT Orders.OrderID) FROM Orders INNER JOIN Products ON Orders.ProductID = Products.ProductID WHERE Products.Price > 100;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Number of unique orders for products priced over $100"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Total number of orders"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Average price of products in orders"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Number of products priced over $100"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The query counts unique OrderIDs from the Orders table where the corresponding Product's Price is greater than 100, thanks to the INNER JOIN with the Products table on ProductID."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, when should you consider using a partial index as opposed to a full index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the table is small and query patterns are predictable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When the queries only involve a subset of frequently updated data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When the majority of queries involve full table scans"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "When data is rarely accessed and does not require fast query performance"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Partial indexes are more efficient when only a subset of a table's data is frequently accessed or queried, thereby reducing indexing overhead for data that does not influence performance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact on performance when using a GIN index over a JSONB column containing mostly unique keys?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Significantly improves performance as each key has its own entry in the index."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Performance degrades due to the overhead of maintaining a large index."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No impact, as GIN indexes are not suited for unique keys."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improves write performance but reads remain unaffected."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GIN indexes are optimized for columns containing multiple values per row and can become inefficient and large when indexing columns with predominantly unique keys, leading to performance degradation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Row Level Security Policies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command would you use to enable row-level security on a table 'employee_data' in PostgreSQL without existing policies being applied immediately?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER TABLE employee_data ENABLE ROW LEVEL SECURITY;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALTER TABLE employee_data FORCE ROW LEVEL SECURITY;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CREATE POLICY ON employee_data USING (true);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UPDATE employee_data SET ROW LEVEL SECURITY = TRUE;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command is 'ALTER TABLE employee_data ENABLE ROW LEVEL SECURITY;'. This enables RLS on the table without forcing any existing policies to be applied immediately."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which technique can be applied to execute a sub-optimal plan repeatedly in an efficient manner, especially when the query planner's estimates are off?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a covering index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing work_mem setting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using prepared statements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Setting higher cost parameters for the planner"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because using prepared statements allows PostgreSQL to reuse the execution plan for repeated executions of the same query, which can bypass potentially costly replanning, especially when original estimates are not accurate."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which index type allows for efficient case-insensitive search on character data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GIN Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GiST Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BRIN Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "B-Tree Index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree indexes in PostgreSQL can be created with the 'text_pattern_ops' operator class, which allows for efficient case-insensitive searches."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Replication Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL setup, what is the correct method to configure synchronous replication in the postgresql.conf file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Set synchronous_standby_names to '*' and restart the database."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set synchronous_commit to 'remote_write'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Set synchronous_standby_names to the name of the standby servers separated by commas."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enable wal_level to 'minimal' for synchronous replication."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method is to set synchronous_standby_names to a list of standby servers. This parameter specifies which standby servers are to be considered synchronous."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following actions can lead to increased transaction contention when using a BRIN index in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreasing the pages per range value"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the fillfactor value"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Disabling index-only scans"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enabling synchronous commit"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decreasing the pages per range value for a BRIN index results in a smaller range of table blocks that each index entry points to, increasing the likelihood of multiple transactions modifying the same index entry, thus increasing contention."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When performing a FULL OUTER JOIN on two tables, Table A and Table B, which condition will show results that include all records where there is no match in either Table A or Table B?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WHERE A.ID IS NULL AND B.ID IS NULL"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WHERE A.ID IS NOT NULL AND B.ID IS NOT NULL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WHERE A.ID IS NULL OR B.ID IS NULL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WHERE A.ID = B.ID"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A FULL OUTER JOIN returns all records when there is a match in either Table A or Table B. The records that do not match in either table are returned as NULL on one side. Therefore, condition 'WHERE A.ID IS NULL OR B.ID IS NULL' will include all records with no match in either table."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which clause should be used in PostgreSQL to prevent the planner from choosing a parallel plan for a specific query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET enable_parallel_query = OFF"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SET max_parallel_workers_per_gather = 0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SET force_parallel_mode = OFF"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DISABLE PARALLEL QUERY"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'max_parallel_workers_per_gather' to 0 will prevent the planner from choosing a parallel plan for a specific query."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced JOIN Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider three tables, A, B, and C, which are joined as follows: A INNER JOIN B ON A.id = B.a_id RIGHT OUTER JOIN C ON C.b_id = B.id. If table B has N rows, table C has M rows, and there are no unmatched rows in B for the right outer join, what is the minimum possible number of rows returned by the query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "N"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "M"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Maximum of N and M"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "N + M"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since it is a right outer join with table C, and there are no unmatched rows in B, the minimum rows returned is equal to the number of rows in table C, which is M."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following indexing methods in PostgreSQL does NOT support multicolumn indexes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hash indexing in PostgreSQL does not support multicolumn indexes, whereas B-tree, GIN, and GiST all support multicolumn indexing capabilities."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Troubleshooting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL deployment, you encounter the error 'remaining connection slots are reserved for non-replication superuser connections.' What is the most probable cause?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The server is undergoing maintenance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Connection limit defined by 'max_connections' has been reached"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Incorrect user role permissions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Network issues causing connection timeouts"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The error message indicates that the number of current connections has reached the limit set by the 'max_connections' configuration parameter. This prevents new connections, except by superusers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Maintenance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using the REINDEX command in a PostgreSQL production environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To remove duplicate index entries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To repair corrupted indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To change the index method"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To decrease the storage space"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The REINDEX command in PostgreSQL is primarily used to repair corrupted indexes, which can occur due to various issues such as hardware failures or bugs. This command rebuilds an index to ensure its consistency with the table data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, if a role 'user1' is granted the 'SELECT' privilege on a table 'employees' by 'admin', and later the 'admin' role revokes this privilege, what will happen if 'user1' had already granted 'SELECT' to another role 'user2' before the revocation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'user2' will still have the 'SELECT' privilege on 'employees'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'user2' will lose the 'SELECT' privilege immediately when 'admin' revokes it from 'user1'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'user2' will retain the 'SELECT' privilege until 'user1' explicitly revokes it."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The revoke operation will fail because 'user1' has granted the privilege to 'user2'."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, revoking a privilege from a role does not affect the privileges that role has granted to others unless 'CASCADE' is specified. Thus, 'user2' will retain the 'SELECT' privilege until 'user1' explicitly revokes it."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Security Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, considering a role hierarchy where 'manager' inherits from 'employee' and 'employee' has a LOGIN privilege, which statement is true regarding the LOGIN capability of 'manager'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'manager' can log in as 'employee' does not inherit LOGIN privilege."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'manager' automatically inherits LOGIN privilege and can log in."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'manager' cannot log in as LOGIN is not an inheritable privilege."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The ability for 'manager' to log in must be set independently of 'employee'."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, LOGIN is a non-inheritable privilege. Even if a role inherits from another role with LOGIN privilege, it does not gain the ability to log in unless the LOGIN privilege is explicitly granted to it."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Complex Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of executing a non-correlated subquery in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The subquery is evaluated once and used as a constant throughout the execution of the main query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The subquery is re-executed for each row processed by the main query."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The subquery results are ignored."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The subquery modifies the main query execution plan dynamically."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A non-correlated subquery does not depend on the outer query and is thus evaluated only once, with its result reused as a constant in the main query."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given tables T1 and T2, what would be the result of the following SQL query: SELECT T1.name FROM T1 FULL OUTER JOIN T2 ON T1.id = T2.id WHERE T2.id IS NULL;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Returns names from T1 where there is no corresponding id in T2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Returns all names from both T1 and T2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Returns names from T2 where there is no corresponding id in T1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Returns an error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A FULL OUTER JOIN returns all records when there is a match in either left (T1) or right (T2) table records. The WHERE clause specifies that T2.id must be NULL, which filters the result to only those records in T1 that do not have a corresponding record in T2."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a table 'users' with millions of records, which clause should be used to optimize a PostgreSQL query that frequently updates rows based on the 'last_login' timestamp?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CLUSTER"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PARTITION BY RANGE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VACUUM FULL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INDEX last_login"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Partitioning the 'users' table by a range on the 'last_login' timestamp can greatly improve update performance by limiting the number of rows scanned and locked during frequent updates."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Advanced Indexing Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of index in PostgreSQL would be most efficient for minimum and maximum value queries on a large dataset?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BRIN (Block Range Index)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GIN (Generalized Inverted Index)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BRIN indexes are highly efficient for large datasets where values are physically stored in close proximity and are particularly useful for queries involving minimum and maximum values."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Transaction Isolation Levels",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which transaction isolation level ensures that a transaction will only read committed data and does not allow dirty, non-repeatable reads, or phantom reads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Uncommitted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Serializable"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Serializable' level is the highest isolation level in PostgreSQL and prevents dirty reads, non-repeatable reads, and phantom reads by ensuring transactions operate with a consistent view of the data."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Connection Security",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring host-based authentication in PostgreSQL, which file must be edited to specify that a user connecting from a specific IP should use SSL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_ident.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ssl.conf"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'pg_hba.conf' file is used to control client authentication in PostgreSQL. To enforce SSL for a specific IP, you would specify 'hostssl' in this file."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Transaction Logs",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command is used to force the writing of all in-memory modified buffers to disk without shutting down the server, thus ensuring data durability in case of a crash?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CHECKPOINT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FLUSH"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SAVEPOINT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CHECKPOINT command forces all previously modified buffers to be written to disk, ensuring that the transaction log does not need to be replayed from the beginning in the event of a crash, thus preserving data integrity and speeding up recovery."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Indexing Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which index type would you use to optimize a query that involves a geometric data type and performs frequent distance lookups?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-Tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GiST"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BRIN"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GiST (Generalized Search Tree) indexes support indexing of geometric data types and are efficient for queries involving spatial relationships such as distance lookups."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about Serializable isolation level in PostgreSQL are true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It avoids write skew but allows for phantom reads."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It provides complete isolation from other transactions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It does not prevent any form of concurrency anomalies."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is the default isolation level in PostgreSQL."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Serializable is the highest isolation level and provides complete isolation by ensuring a serial order of transactions, thus preventing dirty reads, non-repeatable reads, and phantom reads."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Row-Level Security Policies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command correctly applies a row-level security policy that restricts users to only access rows in the 'employees' table where the department is 'HR'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE POLICY hr_policy ON employees USING (department = 'HR');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SET POLICY hr_policy ON employees TO (department = 'HR');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "APPLY POLICY hr_policy ON employees FOR (department = 'HR');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CONFIGURE POLICY hr_policy ON employees WHERE (department = 'HR');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to apply a row-level security policy on the 'employees' table for the HR department is 'CREATE POLICY hr_policy ON employees USING (department = 'HR');'. This command sets up a policy that limits row access based on the specified condition."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When should a GiST index be preferred over a B-tree index in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the data type of the column is an integer or short text."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "For full text search and geospatial data querying."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When maximum insert performance is required."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "For columns with a very low number of unique values."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GiST (Generalized Search Tree) indexes are particularly good for indexing complex data types like geometric data and full-text search, as their structure is more flexible than that of B-tree indexes."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2018 @@
+[
+  {
+    "id": 7,
+    "topic": "JDBC Connection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to create a Statement object for sending SQL statements to the database in JDBC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "createStatement()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "createSQL()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "createConnection()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "executeQuery()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The createStatement() method of Connection interface is used to create a Statement object for sending SQL statements to the database."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Java Web Application Deployment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which deployment descriptor file is used in a Java web application to declare servlet specifications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "web.xml"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "application.xml"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "server.xml"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "config.xml"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "web.xml is the standard deployment descriptor for web applications in Java, used to declare servlets, filters, and other configurations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Servlet Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is called by the servlet container to handle a GET request in a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "doGet()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "doPost()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "service()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "handleRequest()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The doGet() method is specifically designed to handle GET requests in a servlet."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of a static member variable of type int in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "undefined"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, static member variables are initialized to default values. For int, the default is 0."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of throwing a RuntimeException in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It must be caught or declared to be thrown"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It does not need to be explicitly caught or declared to be thrown"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically logs to the Java console"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It terminates all threads within the application"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "RuntimeExceptions are unchecked exceptions; they do not need to be declared in a method's throws clause, nor do they need to be caught in a try/catch block. This allows developers flexibility in error handling but requires careful documentation and understanding of the code."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Functional Interfaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about functional interfaces in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They can have more than one abstract method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They must have exactly one abstract method"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They cannot contain default methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are not compatible with lambda expressions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Functional interfaces in Java are interfaces that must have exactly one abstract method. This characteristic allows them to be used for lambda expressions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Java Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing a person's age in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "String"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'int' data type is best for storing whole numbers, which makes it appropriate for storing a person's age."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Encapsulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Why is encapsulation considered a good practice in object-oriented programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the class implementation to be changed without affecting other parts of the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It forces all subclasses to inherit all methods and properties."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows methods to be overridden more easily."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It requires all fields to be public."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation protects an object's state by hiding its attributes and exposing only selected methods. This allows the class to change its internal implementation without negatively affecting other classes that depend on it."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Hierarchy of Exceptions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following code snippet if the number array is {3, 0, 5}?"
+      },
+      {
+        "type": "formula",
+        "value": "try { \\text{int result = 10 / number[i];} \\text{System.out.println(result);} } catch(Exception e) { \\text{System.out.println(\"Generic Exception\");} } catch(ArithmeticException e) { \\text{System.out.println(\"Arithmetic Exception\");} }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10\\nGeneric Exception\\n2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10\\nArithmetic Exception\\n2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Arithmetic Exception only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generic Exception only"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because the catch block for ArithmeticException is never reached. The generic Exception block catches all exceptions, including ArithmeticException."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "JDBC Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to execute a SQL query that expects a result set in JDBC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "executeUpdate()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "executeQuery()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "execute()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "executeResult()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The executeQuery() method of Statement is used to execute SQL queries that return a ResultSet, typically used for SELECT queries."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Generics in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Java generic class definition signify? public class Example<T extends Number>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "T must be a subclass of Number or Number itself."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "T can be any class that implements the Number interface."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The class Example can only handle numeric types."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The class Example is limited to integer values."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <T extends Number> syntax specifies that T must be a subclass of Number or Number itself, ensuring type safety for numeric operations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Primitive Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of a variable of type int in a Java class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Not initialized"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, if you declare an int variable without initializing it in a class, it will be initialized to 0 by default."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Memory Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about Java's Garbage Collection is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The programmer needs to manually trigger garbage collection in Java."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Garbage collection can be predicted and scheduled."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Garbage collection ensures that the program will not run out of memory."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Garbage collection relieves programmers from the burden of manual memory management."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Garbage collection in Java helps manage memory by automatically clearing unused objects, thus relieving programmers from the burden of manual memory management. This feature does not guarantee that a program will not run out of memory, nor can its operation be accurately predicted or scheduled by the programmer."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Java Stream API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a terminal operation in Java Stream API?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "forEach"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "map"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "collect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "reduce"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'map' operation is an intermediate operation which returns a stream consisting of the results of applying the given function to the elements of this stream."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Try-Catch Blocks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if a return statement is executed inside the try block of a try-catch statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The method returns immediately, and the catch block is skipped."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The catch block is executed before the method returns."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation error occurs."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The finally block is executed before the method returns."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If a return statement is executed inside the try block, control will first pass to the finally block before the method returns, assuming a finally block exists. If no finally block is present, the method returns immediately."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variable Initialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code? int x; System.out.println(x);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java will throw a compilation error because local variables need to be initialized before use."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "JavaFX Layouts",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which layout in JavaFX provides the most flexibility by allowing the positioning of children at arbitrary positions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BorderPane"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "StackPane"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GridPane"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pane"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pane layout in JavaFX does not provide any automatic layout features, which allows developers to position children at arbitrary locations by setting their exact coordinates."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Java Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet? \n\n int x = 5;\n int y = ++x + x++ + --x;\n System.out.println(y);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "18"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "17"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "15"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "First, ++x pre-increments x to 6. The expression becomes 6 + x++ (x is 6 but post-increments after this expression, becoming 7) + --x (decrements x to 6). Thus, 6 + 6 + 5 = 17."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "JDK Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command verifies that the JDK was installed correctly and is accessible from the terminal?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java -version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "jdk --check"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java install verify"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "verify -jdk"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'java -version' checks the currently installed Java version and confirms its presence in the system path."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Using Java Stream API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to create a stream from a list in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list.stream();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stream.of(list);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Stream.getList(list);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "list.getStream();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to create a stream from a list in Java is using list.stream(); method. This method returns a sequential stream considering the source list as its source."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code if the method display() is called on an object of subclass?"
+      },
+      {
+        "type": "text",
+        "value": "class SuperClass { int num = 20; public void display() { System.out.println(this.num); } } class SubClass extends SuperClass { int num = 10; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, when a method is called on a subclass object that inherits from a superclass, the properties of the superclass are used unless they are overridden in the subclass. In this case, the display() method in SuperClass uses its own num property, not the num property of SubClass."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the 'super' keyword in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is used to call methods of the parent class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is used to override methods in the derived class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It refers to the current instance of the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It can only be used in static methods."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'super' keyword in Java is used to refer to the parent class objects and is commonly used to invoke constructors of a parent class or to access methods of a parent class that have been overridden by the derived class."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Java SDK Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the standard directory into which the Java Development Kit (JDK) is typically installed on Windows?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "C:\\Program Files\\Java\\jdk-version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "C:\\Java\\jdk-version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C:\\Files\\Java\\jdk-version"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "C:\\Users\\Java\\jdk-version"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The standard installation directory for JDK on Windows is 'C:\\Program Files\\Java\\jdk-version'. This directory is typically chosen by the installer unless specified otherwise."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Servlets in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about the lifecycle methods of a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "init() is called only once, while service() and destroy() can be called multiple times."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "init() and destroy() are called multiple times for each request."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "service() method is called only once during the lifecycle of a servlet."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "destroy() method is called after every response."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The init() method is called once to initialize the servlet, service() handles all requests and can be called multiple times, and destroy() is called once when the servlet is taken out of service."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "List Interface",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the List interface inserts the specified element at the specified position in a list?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "add(int index, E element)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insert(int index, E element)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "set(int index, E element)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "put(int index, E element)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The add(int index, E element) method in the List interface is used to insert the specified element E at the specified position index in a list."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet? \n\nfor(int i = 0; i < 5; i++) {\n  if(i % 2 == 0) continue;\n  System.out.print(i + \" \");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 2 4 "
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 3 "
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 3 5 "
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 3 4 "
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop increments from 0 to 4. The 'continue' statement skips the current iteration for even numbers. Thus, only odd numbers 1 and 3 are printed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Debugging in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Java utility can be used to monitor JVM memory usage and thread statistics in real-time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Java Decompiler"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "System.out.println"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Java VisualVM"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Java Assert"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java VisualVM is a tool that provides detailed visual information about Java applications while they are running on a Java Virtual Machine, which includes monitoring memory usage, thread statistics, and much more."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Java Web Application Deployment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which file format is typically used to deploy a web application to a Java EE server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WAR"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "EXE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ZIP"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A WAR (Web Application Archive) file is specifically designed to package and deploy web applications to Java EE servers."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of an object reference declared as an instance variable in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "false"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, if an object reference is declared but not explicitly initialized, its default value is null."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Java Swing Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Swing component is specifically used for allowing the user to enter a single line of text?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JLabel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JTextField"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JTextArea"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JButton"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JTextField is the Swing component used for inputting a single line of text. JTextArea, in contrast, allows for multiple lines of text input."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Java SDK Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify that the JDK (Java Development Kit) is properly installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java -version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "javac -help"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "jdk -verify"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "java -help"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'java -version' command checks the version of Java installed, which verifies that the JDK is installed and can be accessed from the command line."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Handling in JavaFX",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to handle an event in JavaFX?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "handleEvent()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "addEventListener()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onEvent()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaFX, the 'handle()' method of the EventHandler interface is used to define the actions to be performed when an event occurs."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Try-Catch Blocks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, what will happen if a 'throw' statement is executed inside a try block and there is no corresponding catch block handling that specific exception type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program will compile, but it will throw a runtime error when executed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program will compile and execute successfully, handling the exception with a default catch block."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The exception will propagate up the call stack until it finds a matching catch block or terminates the program."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The compiler will report an error and the program will not compile."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If an exception is thrown inside a try block and is not caught by a corresponding catch block within the same try-catch structure, it will propagate up the call stack. If it isn't caught anywhere, it will eventually cause the program to terminate."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Interface Implementation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following declarations is correct for a Java class implementing an interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class Example implements InterfaceExample {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class Example extents InterfaceExample {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class Example imports InterfaceExample {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "interface Example implements InterfaceExample {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to have a class implement an interface in Java is to use the 'implements' keyword."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Default Methods in Interfaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main advantage of default methods in interfaces from Java 8 onwards?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They allow the implementation of methods within interfaces."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They completely replace abstract methods in interfaces."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They allow multiple inheritance in Java."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They make interfaces obsolete."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Default methods enable us to add new functionalities to interfaces without breaking the classes that implements these interfaces. This is why option A is correct."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Event Handling in JavaFX",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is utilized in JavaFX to handle an event when a button is clicked?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "handleEvent()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "addActionListener()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "setOnAction()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "performAction()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaFX, 'setOnAction()' is used to define the action that will be performed when an event such as a button click occurs."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Exception Handling in API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of trying to compile and run a Java program that uses an unhandled checked exception?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program compiles and runs successfully."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program fails to compile."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program compiles but throws an exception at runtime."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The program compiles, but results in a logical error."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Checked exceptions require handling with a try-catch block or by declaring them with the 'throws' keyword. Failing to handle these will result in a compilation error."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet if the integer array `data` is initialized with values {1, 2, 3} and accessed at index 5?"
+      },
+      {
+        "type": "formula",
+        "value": ""
+      },
+      {
+        "type": "image",
+        "value": ""
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ArrayIndexOutOfBoundsException"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No exception thrown"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Accessing an array at an index that exceeds its size results in ArrayIndexOutOfBoundsException. The correct answer is option C."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default transaction isolation level in JDBC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TRANSACTION_REPEATABLE_READ"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TRANSACTION_SERIALIZABLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TRANSACTION_READ_COMMITTED"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TRANSACTION_READ_UNCOMMITTED"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default transaction isolation level in JDBC is TRANSACTION_READ_COMMITTED, which prevents dirty reads."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Thread Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method transition a thread from the new state to the runnable state in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "run()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "start()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sleep()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "wait()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The start() method causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Try-Catch Block",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if a return statement is executed inside the try block of a try-catch statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The method returns immediately, and the catch block is skipped."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The finally block is executed before the method returns."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The catch block is executed before the method returns."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method does not return until all catch blocks are executed."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If a return statement is used inside the try block, the finally block will still execute before the method actually returns. This ensures that the finally block is executed under all circumstances."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Concurrency in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method signature is correct for ensuring a method does not need to be synchronized in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public static void method()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public synchronized void method()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "private synchronized void method()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public final synchronized void method()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method signature is 'public static void method()' because static methods synchronize on the class object, not on instances of the class."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Variable Initialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following declarations is incorrect in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "double d = 100.04;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "boolean b = false;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "float f = 100.04;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int i = 200;"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct declaration for a float should have an 'f' suffix, like 100.04f, otherwise it is treated as a double."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet?\n\nint x = 5;\nif (x > 4) {\n  x++;\n} else {\n  x--;\n}\nSystem.out.println(x);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x is initially 5, which is greater than 4, the if condition is true. Thus, the code inside the if block executes, incrementing x by 1. Therefore, x becomes 6."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Iterator Interface",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if you try to remove an element from a collection using Iterator's remove() method without calling next() method at least once?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The element will be removed successfully."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The collection will remain unchanged."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An UnsupportedOperationException will be thrown."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An IllegalStateException will be thrown."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Calling remove() without calling next() throws an IllegalStateException because the iterator does not have any current element to remove."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "IDE Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical feature you can configure in a Java Integrated Development Environment (IDE)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Code syntax highlighting"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Project build automation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Operating system kernel settings"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Debugger settings"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Operating system kernel settings are managed at the OS level and are not configurable through Java IDEs, which focus on development-specific settings like syntax highlighting, build automation, and debugging."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In JDBC, which interface is primarily used for transaction management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DriverManager"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Connection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Statement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ResultSet"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Connection interface in JDBC is used for transaction management, allowing operations such as setting auto-commit to false and committing or rolling back a transaction."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "JSP and Servlet Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute would you use in a JSP file to pass an object to a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setAttribute()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getAttribute()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "communicateAttribute()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sendAttribute()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setAttribute() method is used in JSP to pass attributes (objects) to a servlet. getAttribute() is used to retrieve them in the servlet."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Handling Exceptions in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Java class is used to handle both checked and unchecked exceptions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "RuntimeException"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Exception"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Throwable"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Throwable' class is the superclass of all errors and exceptions in the Java language. Both checked and unchecked exceptions can be handled by catching 'Throwable' type."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the switch statement in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It works with byte, short, char, and int primitive data types."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It does not support the string type."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Each switch block requires a default case."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A break statement is optional after each case block."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The switch statement in Java can handle byte, short, char, int, and their Wrapper classes. It also supports enum types, the String class, and several special classes that implement the CharSequence interface."
+      }
+    ]
+  }
+]

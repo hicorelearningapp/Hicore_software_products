@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 2,
+    "topic": "Debugging Async Code in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When debugging asynchronous code in React involving useEffect and state updates, which approach can help identify issues related to stale state or race conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using only synchronous functions within useEffect."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Wrapping all state updates in setTimeout with zero delay."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing cleanup functions in useEffect to manage unsubscribing and canceling operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Replacing useEffect with useMemo for all asynchronous operations."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because implementing cleanup functions helps manage and cancel ongoing asynchronous operations, thus preventing potential issues from stale state or race conditions."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Optimizing React Applications for Production",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended method for optimizing a React application's performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using Immutable data structures to optimize re-rendering processes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing setTimeout to delay state updates"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Applying code-splitting to load only the necessary modules"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing lazy loading for React components"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing setTimeout to delay state updates is not a recommended optimization strategy as it can lead to unpredictable UI states and does not inherently contribute to performance improvements."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Error Boundaries in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if an error boundary component itself throws an error during the rendering phase in a React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The error is handled by the closest parent error boundary up the tree."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The error propagates to the global error handler of the application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "React unmounts the whole component tree for safety."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The application crashes without recovery."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If an error boundary itself fails during rendering, the error will be handled by the next closest error boundary above it in the component tree. This hierarchy ensures that no error goes unhandled, maintaining the application's stability as much as possible."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which lifecycle method should you invoke external data fetching operations when using class components in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is the correct location to perform network requests as it guarantees that the component has been rendered into the DOM before fetching data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Custom Hooks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary reason to implement a custom hook in a React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To interact directly with the DOM."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the rendering performance of components."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reuse stateful logic between different components."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To replace all class components with functional components."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A primary reason to implement a custom hook is to allow for the reuse of stateful logic across multiple components, which helps in avoiding duplication and maintaining cleaner code."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Components and Props",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React, which of the following statements is true when a component receives props?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Props can be internally modified within the component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Props are read-only and cannot be modified."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Props can be set as state directly without using the constructor or state hook."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Props are optional and React components can render without props."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are immutable within a component in React, meaning they are read-only and cannot be changed by the component receiving them."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Dynamic Routing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following components does NOT directly participate in implementing dynamic routing in a React application using React Router v6?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Routes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Link"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BrowserRouter"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useState"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState is a React hook used for state management within components and does not participate in the routing mechanism, which is handled by BrowserRouter, Routes, and Link components in React Router."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Nested Routes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following route configuration in React Router, which component will be rendered at '/app/dashboard/settings'?\n<Route path='/app' element={<App />}><Route path='dashboard' element={<Dashboard />}><Route path='settings' element={<Settings />} /></Route></Route>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "App"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dashboard"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Settings"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The URL '/app/dashboard/settings' matches the nested route path specified for the Settings component. Therefore, the Settings component is the one that will be rendered."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Dynamic Routing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React Router v6, which component is used to construct dynamic routes where the path depends on passed parameters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BrowserRouter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Routes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Route"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Route component is used in React Router v6 to define dynamic paths using parameters like ':id', allowing for the creation of dynamic routes based on these parameters."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "React Hooks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which hook should be used to remember the latest value of a prop or state without triggering a re-render when it changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useState"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useReducer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useEffect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useRef"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The useRef hook can be used to keep track of a value across re-renders without causing additional renders itself, as changes to a ref do not trigger component updates."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a React application using Docker, which of the following statements about optimizing the Dockerfile for production is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the latest tag for the base image ensures the smallest build size."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COPY command should precede RUN npm install to take advantage of Docker's layer caching."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multi-stage builds are recommended to separate the build environment from the runtime environment."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoid using .dockerignore files as they can increase the build context size unnecessarily."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Multi-stage builds allow you to separate your build environment from your runtime environment, which not only reduces the overall size of your image but also secures your application by not including unnecessary build dependencies in the runtime image."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Testing Asynchronous Code in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When testing asynchronous React components, which method is recommended to ensure that state updates linked to resolved promises are accounted for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using setTimeout to delay assertions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly asserting the state after invoking the promise."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Employing waitFor from the testing-library to wait for elements to appear."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilizing async/await syntax to pause execution until the promise resolves."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When testing asynchronous React components, using waitFor from the testing-library is recommended to wait for elements to appear or for state updates to occur following the resolution of promises. This approach ensures that the React component's state is fully updated before assertions are made."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "useState in-depth",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a potential issue when using the useState hook inside a loop for dynamically creating state variables in a React component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "State values might not be bound consistently across re-renders."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The component will re-render infinitely."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "React will throw a syntax error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no issue; it's a common practice."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using useState inside a loop can lead to inconsistencies where state values do not get bound properly across re-renders due to the dynamic nature of hook calls, violating React's rules of hooks."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Testing Hooks in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a recommended approach to isolate and test a custom hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using React Testing Library to render a component that uses the hook"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly invoking the hook in the test file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using Jest mock functions to replace hook functionality"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Testing the hook as part of larger component integration tests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using React Testing Library to render a component that uses the hook allows you to test the hook in a more realistic environment, as hooks are tied to React's lifecycle and state."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "React Build Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following webpack plugins should be used to precompile all the routes of a React application during the build process, optimizing load times and improving user experience on initial loads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HtmlWebpackPlugin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MiniCssExtractPlugin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BundleAnalyzerPlugin"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PreloadWebpackPlugin"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PreloadWebpackPlugin is used to precompile all routes, which preloads key resources for initial routes thereby optimizing the load times."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "React Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct sequence of lifecycle methods when a component is being re-rendered due to state or props change?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, componentDidUpdate"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "shouldComponentUpdate, getDerivedStateFromProps, render, getSnapshotBeforeUpdate, componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getDerivedStateFromProps, render, shouldComponentUpdate, getSnapshotBeforeUpdate, componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getDerivedStateFromProps, componentDidUpdate, shouldComponentUpdate, render, getSnapshotBeforeUpdate"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct sequence of lifecycle methods during a re-render due to state or props change is: getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate, and componentDidUpdate."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React State Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a React component, what does the setState function do when called with an object that only updates a subset of the component's state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Replaces the entire state with the new object"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Throws an error because the state must be updated fully"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Merges the new object with the existing state, only updating the specified properties"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignores any properties not explicitly defined in the new object"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "setState function in React merges the object you provide into the current state. It only updates the properties specified in the object you pass to it, leaving the rest of the state unchanged."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "React Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following lifecycle methods is NOT available in a Class component but is a hook used in Functional components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "shouldComponentUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useEffect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getSnapshotBeforeUpdate"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The useEffect hook is used in Functional components to perform side effects in the component lifecycle, which does not have a direct equivalent as a lifecycle method in Class components."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Advanced React Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a production build of a React application, which HTTP header should be set to ensure that the build files are cached effectively in the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Content-Type"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cache-Control"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Content-Disposition"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Set-Cookie"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Cache-Control' HTTP header is crucial for controlling the caching mechanisms in the browser. Setting this header appropriately ensures that the static files of the React build are served from cache, reducing load times and server requests."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "useEffect dependencies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a useEffect hook that has an object in its dependency array. What could be a potential pitfall of this approach?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The effect runs only once as objects are treated as constant references."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The effect will not run as objects are not valid dependencies."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The effect might run excessively if the object is recreated on each render."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The hook automatically prevents the effect from running if the object has the same properties."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If the object in the dependency array is recreated on every render, it causes the effect to run after every render because the dependency array sees a new object each time, leading to potential performance issues."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "useState Hook",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a potential pitfall when using the useState hook to manage an array of items in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The state does not update if you manipulate the array directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It automatically sorts the array alphabetically."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "You can only store arrays of strings."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It increases the component's rendering time."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Directly manipulating the array (like using push or pop) does not trigger a re-render because it does not create a new array reference, which is necessary for useState to trigger a re-render."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a functional component using hooks, which hook is equivalent to componentDidMount, componentDidUpdate, and componentWillUnmount combined?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useEffect"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useState"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useContext"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useReducer"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useEffect can replicate the behavior of componentDidMount, componentDidUpdate, and componentWillUnmount by setting up and cleaning up an effect."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Error Boundaries in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method is suitable for placing error boundaries in class components for error handling in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidCatch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidUpdate()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shouldComponentUpdate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getDerivedStateFromError()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidCatch() is used in class components to catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Deployment Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a React application using server-side rendering, what must be configured to correctly handle asynchronous data fetching?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A state management tool only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Static routing mechanisms"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data fetching methods inside component lifecycle methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Server-side data fetching mechanisms like getServerSideProps or getInitialProps"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For server-side rendering, the server must handle data fetching during the server's render cycle using specific methods like getServerSideProps or getInitialProps. This ensures that all needed data is fetched before the page is rendered to the client."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "React Router Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a React application, what will happen if a <Switch> component is used inside a <Router>, and two <Route> components with the same path attribute are placed inside the switch?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only the first <Route> component will render."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Both <Route> components will render simultaneously."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The application will throw a routing error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only the second <Route> component will render."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router, the <Switch> component renders the first <Route> or <Redirect> that matches the location. Other routes with the same path will be ignored, hence only the first <Route> component will render."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Route Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to create a nested route in React Router v6 that only renders when the parent route is matched?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Route path='/parent' element={<Parent />}><Route path='child' element={<Child />} /></Route>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Route path='/parent/child' element={<Parent><Child /></Parent>} />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Route path='/parent' element={<Parent />}/><Route path='/parent/child' element={<Child />} />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Route path='/parent' component={Parent}><Route path='child' component={Child} /></Route>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router v6, nested routes are defined using the 'element' prop within the parent Route component. Option A correctly shows a nested route using the element prop."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React Hooks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which React Hook should be used for implementing a component's side-effects, analogous to both componentDidMount and componentDidUpdate in class components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useCallback"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useMemo"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useEffect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useState"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useEffect is the appropriate hook to handle side-effects in functional components, substituting the lifecycle methods from class components."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Optimizing React Build Process",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What webpack plugin should be used to precompile all your dependencies into a single bundle, improving the load time for projects with a large number of small modules?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DllPlugin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ModuleConcatenationPlugin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CommonsChunkPlugin"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ProvidePlugin"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DllPlugin is used to move all the node_modules references into a dll file which can significantly improve the build time and also the browser can cache this dll file to speed up the initial load time."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Nested Routes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you access the parent route's parameters from a nested route in React Router v6?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useParams()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useRouteMatch()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useNavigate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useLocation()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useParams() hook is used in React Router v6 to access the parameters of the current route, which includes the parameters from any parent routes in nested routing scenarios."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "State and Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct sequence of lifecycle methods when a component is being re-rendered due to a state change?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "shouldComponentUpdate, componentWillReceiveProps, componentDidUpdate"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidMount, shouldComponentUpdate, componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getDerivedStateFromProps, shouldComponentUpdate, render, componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillMount, componentWillUpdate, componentWillUnmount"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct sequence during a re-render due to state change starts with getDerivedStateFromProps (if defined), followed by shouldComponentUpdate, then the render method, and finally componentDidUpdate."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Nested Routes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering React Router's nested routing, which component structure correctly represents a nested route setup where 'Dashboard' is the parent route and 'Profile' is a child route?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Routes><Route path='/dashboard' element={<Dashboard />} /><Route path='/dashboard/profile' element={<Profile />} /></Routes>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Route path='/dashboard' element={<Dashboard><Route path='profile' element={<Profile />} /></Dashboard>} />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Route path='/dashboard' element={<Dashboard />}><Route path='profile' element={<Profile />} /></Route>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Route path='/dashboard/profile' element={<Dashboard><Profile /></Dashboard>} />"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C correctly shows the nested route structure where 'Profile' is defined as a child route inside the 'Dashboard' route component, using the more recent syntax of React Router v6."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Effect of Hook Dependencies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the potential impact of specifying an incorrect dependency array in a useEffect hook in a React component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It may lead to memory leaks as unwanted re-renders occur."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The component will unmount prematurely."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It causes the parent component to re-render."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No impact, as React automatically handles dependencies."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Specifying an incorrect dependency array can lead to unnecessary or missing re-renders, potentially causing memory leaks if resources are not cleaned up properly."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Deployment Strategies for React Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Continuous Integration/Continuous Deployment (CI/CD) for React applications, which of the following is true regarding Blue-Green Deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It requires manual intervention for each deployment phase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It involves two identical production environments to reduce downtime and risk"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It only supports stateful applications"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is primarily used for desktop application deployments"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Blue-Green Deployment involves maintaining two identical production environments, where one is live (Green) and the other is a clone (Blue) where all new changes are deployed. This strategy reduces downtime and risk as it allows quick rollback to the stable environment if issues arise in the new version."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "React State Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a functional component using hooks, which statement about the useState and useEffect hooks is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useState can only be initialized with a null or undefined value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useEffect runs synchronously after a component renders and before the browser updates the screen."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useState provides a way to add state to functional components, while useEffect is used to perform side effects in the component."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useEffect can only be used once inside a component, and it does not have access to props or state."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState allows functional components to have state, and useEffect is used for performing side effects (such as data fetching or manual DOM manipulations), making option C correct. The other statements contain inaccuracies about how these hooks function."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Optimizing useEffect Dependencies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the implication of having an empty dependency array in the useEffect hook when making API calls within it?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The API call is made only once, similar to componentDidMount."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The API call is made on every component update."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The API call is skipped entirely."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The API call results in an infinite loop."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An empty dependency array in useEffect means that the enclosed function (such as an API call) is executed only after the initial render, acting like componentDidMount in class components."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method in a React Class Component is called when the component is first inserted into the DOM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillReceiveProps"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is called as soon as the component is mounted and ready. This is where you should initiate API calls, subscriptions, or manually modifying the DOM."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "React Components and Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following lifecycle methods is correctly paired with a scenario where it should be used in a React Class Component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount - Called before the component mounts to the DOM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getDerivedStateFromProps - Used to reset state when props change unconditionally"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shouldComponentUpdate - Used to prevent re-rendering after state changes unless certain conditions are met"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentDidUpdate - Called immediately after updating occurs, not called for the initial render"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidUpdate is correctly described as it is invoked immediately after updating occurs and is not called for the initial render, making it useful for responding to prop or state changes after the first render."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Error Boundaries in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true regarding the propagation of errors in React components using error boundaries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Errors are contained within the component that threw them, without propagating to the parent components."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Errors will always propagate up to the closest error boundary above the one where the error occurred."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error boundaries can catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error boundaries do not catch errors inside event handlers."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Error boundaries do not catch errors inside event handlers. These are caught by the event bubbling mechanism, not by error boundary components."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "React Reducer Hook",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the useReducer hook, what is the correct way to initialize state from a local storage value that could possibly be null?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the initialState argument"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a lazy initializer function"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Directly setting the state after component mounts"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the useEffect hook"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A lazy initializer function is the correct choice for initializing state in useReducer when the initial state is dependent on computations or conditions, such as checking for null values in local storage."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "React Component Mounting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which lifecycle method should you invoke an API call in a class component to ensure data is fetched right after a component mounts?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is the correct location for API calls as it guarantees that the component is mounted in the DOM, ensuring that the component updates are triggered post fetch."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced Deployment Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a React production build, which tool is most effective for ensuring that the smallest possible bundles are served to clients based on their modern or legacy browsers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Lighthouse"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Babel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Browserslist"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Browserslist configures the output of your build scripts to tailor the JavaScript and CSS files to the browsers you specify. This ensures that users receive the smallest possible bundle, enhancing load times and performance."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "React Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true when using the componentDidUpdate method in a React component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is called before the initial render of the component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is invoked immediately after updating occurs."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It can be used to handle exceptions in rendering."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It cannot be used when the component is a pure component."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidUpdate is invoked immediately after updating occurs. This method is not called for the initial render."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Route Matching",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React Router v6, what happens when two routes are defined such that one is a more specific path of the other, and both could match the same URL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Both routes render simultaneously."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only the more specific route renders."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only the less specific route renders."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error is thrown due to ambiguous paths."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router v6, when multiple routes could match the same URL, the router renders the route corresponding to the more specific path, ensuring that the most relevant content is displayed."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Routing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React Router v6, what would be the correct way to programmatically navigate to a new page using a button click, considering hooks are being used?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useNavigate('/new-page')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useHistory().push('/new-page')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useRouter().redirectTo('/new-page')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const navigate = useNavigate(); navigate('/new-page')"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router v6, 'useNavigate' is the correct hook to use for navigation, and it should be called within a function as shown in option D. The 'useHistory' hook is deprecated in version 6."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "React Context API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using the React Context API, what is a potential downside of having many nested contexts in a large application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased risk of prop drilling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreased component reusability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Performance bottlenecks due to frequent re-renders"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All contexts are automatically global"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Nested contexts in a large application can lead to performance bottlenecks due to frequent re-renders as each context change triggers all consumers to re-render."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Redux Toolkit",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Redux Toolkit, which function is responsible for handling asynchronous logic and is part of the Redux Toolkit query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "createAsyncThunk"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "createReducer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "createSlice"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "createEntityAdapter"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "createAsyncThunk is specifically designed for handling asynchronous logic in Redux Toolkit, allowing developers to handle pending, fulfilled, and rejected states of asynchronous calls easily."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "React Component State Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a React component, what is the correct approach to update the state based on previous state when using setState?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Pass an object directly to setState"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly modify this.state and then call setState()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Pass a function to setState that returns the new state"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use forceUpdate after modifying this.state"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Passing a function to setState ensures that the update is applied correctly based on the previous state, avoiding potential errors from asynchronous state updates."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "React Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which lifecycle method should you call setState to avoid triggering an extra rendering?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shouldComponentUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Calling setState in componentDidUpdate will not trigger an extra rendering phase as the update process is already in the update phase. This ensures efficient rendering and performance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "React Context API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the React Context API, what is the primary reason for using a Higher Order Component (HOC) with a Context Consumer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To avoid prop drilling by passing the context deeply into the component tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the re-rendering performance of the consumer components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To expose the context to lifecycle methods in class components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To directly mutate the context value from the consumer components"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a Higher Order Component with Context Consumer allows the context to be accessible in lifecycle methods of class components, enabling more complex state handling scenarios."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "React Context API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true when using the React Context API in a component that renders frequently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Context is less efficient because it causes unnecessary re-renders."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The useContext hook should be avoided because it breaks the component isolation."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using Context will always prevent components from re-rendering."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Context API can lead to optimizations by avoiding prop drilling."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the Context API can actually lead to optimizations in large applications by avoiding prop drilling, which simplifies the code and can reduce the number of re-renders needed as updates are handled more efficiently."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 4,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What symbol is used to denote comments in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "//"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "/* */"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "# "
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both A and B"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, single-line comments start with '//' and multi-line comments start with '/*' and end with '*/'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Concepts of OOP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a principle of Object-Oriented Programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Recursion"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Recursion is a programming concept used for repeated execution and is not a principle of Object-Oriented Programming."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What do lambda expressions primarily provide in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A concise way to represent anonymous methods"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A technique for looping through data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A method for data encryption"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An algorithm for sorting"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions provide a concise way to write anonymous methods, simplifying the code especially for short functions that are not reused elsewhere."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "LINQ Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which LINQ method is used to order items in descending order?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OrderByDescending"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OrderBy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SortByDescending"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SortBy"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "OrderByDescending is the LINQ method used to sort elements in a sequence in descending order based on a key."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "LINQ Query Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following LINQ query do: 'from item in list where item.StartsWith(\"A\") select item'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Selects items from the list that start with the letter 'A'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selects items from the list that contain the letter 'A'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deletes items from the list that start with the letter 'A'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Counts items in the list that start with the letter 'A'."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The query filters and selects only those items from the list where the item's name starts with the letter 'A'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Understanding Delegates",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To handle memory management"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide type-safe function pointers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manage data storage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance graphical user interface"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are type-safe function pointers, allowing methods to be passed as parameters, stored in variables, and invoked dynamically."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a common use of lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To declare variables"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle exceptions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To simplify event handling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To simplify the logic for processing inputs"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions are often used to simplify the logic for processing inputs, especially in scenarios involving GUI applications or complex data manipulation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "LINQ Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the LINQ 'select' keyword correspond to in SQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INSERT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UPDATE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In LINQ, the 'select' keyword is used to specify the elements to retrieve from a sequence, similar to the SELECT statement in SQL."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "UI Development with WinForms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool in WinForms allows developers to design the UI by dragging and dropping controls onto a form?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Designer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Control Palette"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Form Editor"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Layout Manager"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Visual Studio Designer is a feature in WinForms that offers a drag-and-drop interface, enabling easy placement and manipulation of controls on a form."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a value type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "bool"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "string"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, 'string' is a reference type, whereas 'int', 'double', and 'bool' are value types."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Concepts of OOP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT one of the four main principles of Object-Oriented Programming in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Concurrency"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Concurrency is not one of the four main principles of OOP in C#. The four main principles are Inheritance, Encapsulation, Polymorphism, and Abstraction."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Classes and Objects in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'new' keyword do in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creates a new instance of a class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Declares a new variable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updates an existing class"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deletes an existing object"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'new' keyword in C# is used to create a new instance of a class, thereby creating an object."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Variable Declaration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct way to declare an integer variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int number = 100;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "integer number = 100;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "num int = 100;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "number := 100;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, an integer variable is declared using the 'int' keyword followed by the variable name and an optional initialization."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "C# Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in data type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "superint"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "superint is not a built-in data type in C#. Common built-in data types include int, float, and double."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int num = 10;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int 10 = num;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "num = 10 int;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10 = int num;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, variables are declared by specifying the type first, followed by the variable name and an optional initializer. The correct syntax is 'int num = 10;'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Binding in WPF",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key feature of WPF that allows properties of two objects to be linked so that changes to one automatically reflect in the other?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data Binding"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Control Anchoring"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Event Handling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Resource Management"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data Binding in WPF is a mechanism that allows properties of two objects to be linked, ensuring that changes in one are automatically updated in the other."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Delegates in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To broadcast events to multiple subscribers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To hold references to methods with a specific signature"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To perform data encapsulation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To create large scale applications"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are used to hold references to methods with a specific signature, enabling methods to be passed as parameters."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "C# Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int myVar = 100;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "myVar = 100;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "declare myVar = 100;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "variable myVar = 100;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, variables must be declared with a type specifier, followed by an identifier name, and optionally initialized. 'int myVar = 100;' correctly declares an integer variable named myVar and initializes it to 100."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable 'age' of type integer in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int age;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "integer age;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "num age;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "age int;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, variables are declared by specifying the type followed by the variable name. Therefore, 'int age;' is the correct declaration."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "LINQ Query Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the LINQ 'select' keyword do in a query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sorts the collection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Filters the collection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Transforms the collection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Duplicates elements"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'select' keyword in LINQ is used to transform elements in a collection into a new form."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Development Environment for WPF and WinForms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which version of Visual Studio is recommended to develop WPF and WinForms applications for .NET 8.0?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio 2019"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Visual Studio 2022 Preview"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Visual Studio 2015"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio 2010"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Visual Studio 2022 Preview is required to develop and contribute to WPF and WinForms applications for .NET 8.0."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Capabilities of WPF",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What unique feature does WPF have that is emphasized for modern application development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Command line interface"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Drag-and-drop interface"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Support for vector graphics"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF supports vector graphics, which allows for scalable and high-quality visual elements, making it suitable for modern application development."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Development Tools for WPF and WinForms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which version of Visual Studio is recommended to develop WPF and WinForms applications for .NET 8.0?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio 2019"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Visual Studio 2022 Preview"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Visual Studio 2015"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio 2020"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To build WPF applications and contribute features and fixes for .NET 8.0, Visual Studio 2022 Preview is required as per the latest guidelines."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Delegates",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow methods to be passed as parameters"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To declare new variables"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initialize arrays"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To create new classes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are used primarily to allow methods to be passed as parameters, enabling flexible method invocation."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "LINQ Basic Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which LINQ operator is used to filter elements from a collection based on a condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Where"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Select"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OrderBy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GroupBy"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Where' operator is used in LINQ to filter elements based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Encapsulation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does Encapsulation help to achieve in Object-Oriented Programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reuse of code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increase program speed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data hiding"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decrease program size"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation allows the bundling of data with the methods that operate on that data, restricting direct access to some of the object's components, which is known as data hiding."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "LINQ Basic Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which LINQ operator is used to filter collections based on a condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Where"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Select"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OrderBy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GroupBy"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Where' operator is used in LINQ to filter collections based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "LINQ Basic Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which LINQ operator is used to filter collections based on a condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Where"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Select"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OrderBy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GroupBy"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Where' operator is used in LINQ to filter collections based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Lambda Expressions in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a lambda expression in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An anonymous function used to create delegates or expression tree types."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A type of exception handling."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A loop structure."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A data storage format."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions are anonymous functions that provide a concise way to represent an anonymous method."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "C# Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int x = 100;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x = 100;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int 100 = x;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "100 = int x;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to declare a variable in C# is by specifying the type followed by the variable name and an optional initializer. 'int x = 100;' is the correct format."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of the boolean data type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "true"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "false"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the default value of a boolean data type is 'false'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A method to structure databases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A collection of classes and interfaces"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A concise way to represent anonymous methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A protocol for network communication"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions provide a clear and concise way to represent anonymous methods in C#."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Class and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'new' keyword do in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Declares a new variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creates a new object instance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Initializes a new array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Starts a new method"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'new' keyword in C# is used to create a new object instance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int x = 100;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x = 100;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int 100 = x;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "100 = int x;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, a variable is declared by specifying the data type followed by the variable name and optionally initializing it. Option A is the correct format for declaring and initializing an integer variable named x."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Delegates in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a way to pass methods as arguments to other methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To declare variables and data types."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle arithmetic operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To initialize arrays."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are used to reference methods with a particular parameter list and return type, allowing methods to be passed as parameters."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Polymorphism in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which C# feature demonstrates polymorphism?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Interfaces"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data types"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Variables"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Constants"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Interfaces in C# are a way to achieve polymorphism. Through interfaces, C# allows different classes to be treated as implementing the same interface, even if they do so through different methods. This allows methods to use objects of different classes interchangeably."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Concepts of OOP in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a principle of Object-Oriented Programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Concurrency"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Concurrency is not a principle of Object-Oriented Programming. The main principles are Inheritance, Encapsulation, and Polymorphism."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "C# Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'using' directive do in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It creates a new namespace."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It includes a namespace in the program."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It declares a variable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It performs error handling."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'using' directive in C# is used to include a namespace in the program, which allows the programmer to use its classes without referring to the full namespace qualification."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to WPF and WinForms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which framework is known for its rich multimedia capabilities and support for vector graphics?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WPF"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WinForms"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both WPF and WinForms"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF is known for its rich multimedia capabilities and support for vector graphics, making it suitable for more graphically intense applications."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which keyword is used to create a new instance of a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "struct"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "interface"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'new' keyword is used in C# to create a new instance of a class."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "WPF Capabilities",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key feature of WPF that enhances its graphical capabilities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Support for vector graphics"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Support for raster graphics only"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Limited data binding system"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No multimedia support"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF supports vector graphics which allows for scalable and high-quality visuals, enhancing its graphical capabilities."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a principle of Object-Oriented Programming in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compilation is not a principle of Object-Oriented Programming. The main principles are Inheritance, Encapsulation, and Polymorphism."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int x = 10;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x = 10;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int x == 10;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "declare x = 10;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, a variable is declared by specifying the type followed by the variable name and an optional initializer. The correct syntax is 'int x = 10;'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Lambda Expressions in C#",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They replace the need for LINQ queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are used to create asynchronous methods"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They provide a concise way to represent anonymous methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They cannot access variables outside their scope"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions are a concise way to represent anonymous methods in C#, simplifying the syntax for writing these methods."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a value type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "class"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, 'int' is a value type that stores data directly and is stored in the stack."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of an integer type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "-1"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the default value of an integer (int) type is 0 when it is declared but not initialized."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "C# Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in data type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "decimal128"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "decimal128 is not a built-in data type in C#. The built-in types for decimal numbers are 'decimal', 'float', and 'double'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Framework Capabilities",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which framework supports vector graphics and rich multimedia capabilities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WPF"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Windows Forms"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF supports vector graphics and rich multimedia capabilities, which are not supported by Windows Forms."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a data type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "bool"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "real"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, 'real' is not a valid data type. The basic data types include int, float, and bool."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "LINQ Query Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'from' keyword specify in a LINQ query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The data source to query"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The condition for data filtering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The properties to select from the data source"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method to aggregate the data"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In LINQ query syntax, the 'from' keyword is used to specify the data source from which the data will be queried."
+      }
+    ]
+  }
+]

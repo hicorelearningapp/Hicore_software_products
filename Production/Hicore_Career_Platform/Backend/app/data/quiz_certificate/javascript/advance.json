@@ -1,0 +1,2038 @@
+[
+  {
+    "id": 8,
+    "topic": "WebSockets and Server-Sent Events",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of WebSockets, which statement is true regarding the difference between the WebSocket API and Server-Sent Events (SSE)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WebSockets allow for full-duplex communication, whereas SSE only allows half-duplex."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SSE can send data from the server and receive data from the client, but WebSockets cannot."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebSockets require a special protocol, while SSE works over standard HTTP."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both are outdated technologies and no longer used in modern web applications."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WebSockets provide a full-duplex communication channel that allows data to flow in both directions simultaneously, which is not possible with SSE, as Server-Sent Events only support one-way communication from the server to the client."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scope and Lifetime",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet in JavaScript? 'let x = 10; function outer() { let y = 20; function inner() { let z = 30; return x + y + z; } return inner(); } console.log(outer());'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "60"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "undefined"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'inner' adds 'x', 'y', and 'z' which are 10, 20, and 30 respectively, giving a result of 60."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Delegation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a list with numerous dynamically added items, which method is most efficient for attaching an event listener to all list items?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Add an event listener to each list item individually as they are created."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Add an event listener to the document and use event capturing to handle list items."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Add a single event listener to the parent list element and use event delegation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Add an event listener to the window object and check the event target's ID."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using event delegation by attaching a single event listener to the parent list element allows for efficient handling of events from dynamically added child elements, reducing the overhead of multiple event listeners."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Asynchronous Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement correctly handles exceptions in a fetch API call that uses async/await in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "try { await fetch('url'); } catch (error) { console.error('Fetch error:', error); }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fetch('url').then(response => response.json()).catch(error => console.error('Fetch error:', error));"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "async () => { const response = await fetch('url'); response.catch(error => console.error('Fetch error:', error)); }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try { const response = fetch('url'); await response.json(); } finally { console.error('Done'); }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly uses a try-catch block to handle exceptions for asynchronous operations in the fetch API using async/await."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Error Handling in Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet if the fetch operation fails due to a network error?"
+      },
+      {
+        "type": "text",
+        "value": "fetch('https://api.example.com/data').then(data => data.json()).catch(err => console.log('Error:', err)).then(result => console.log('Result:', result));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Error: [Network Error], followed by Result: undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Error: [Network Error], followed by Result: [Network Error]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only Error: [Network Error]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only Result: undefined"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "After the fetch operation fails, the catch block catches the error and logs it. The promise chain then continues, and since the previous then did not return anything, the result in the final then is undefined."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Analyze the expression and determine the result:\n\nresult = 10 + 3 * 2 ** 2"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "22"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "26"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "36"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "30"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Operator precedence in Python: ** is evaluated first resulting in 4, then * with 3 gives 12, and finally + with 10 results in 22."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Hoisting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be logged to the console when the following code is executed?\n\nconsole.log(foo);\nvar foo = 9;\nfunction foo() {\n  return 10;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "function foo() { return 10; }"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to hoisting, the function declaration 'foo()' is hoisted above all other declarations and the variable assignment 'var foo'. Thus, 'foo' references the function, and the function returns 10."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "WebSockets Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WebSocket communication setup, how can you ensure the integrity and confidentiality of the messages being exchanged between the client and the server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using Base64 encoding for the messages."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encrypting messages using symmetric encryption before sending and decrypting at the receiving end."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sending messages in plain text and relying on the WebSocket protocol's built-in security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compression of messages only."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encrypting messages using symmetric encryption ensures that even if the messages are intercepted, they cannot be understood without the encryption key, thus maintaining integrity and confidentiality."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Type Coercion and Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the code snippet in JavaScript: 'var result = \"4\" - \"2\"; console.log(result);', what is the output and why?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2, because both strings are implicitly converted to numbers before subtraction."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "\"42\", because the strings concatenate rather than convert to numbers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "\"undefined\", because subtracting strings is not valid."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "NaN, because strings cannot be converted to numbers."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, when the subtraction operator is used with strings that can be converted to valid numbers, the strings are converted to numbers and then subtraction is performed. Here, both '4' and '2' are valid numbers in string format, thus they are converted to numbers and 4 - 2 results in 2."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Conditional Execution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python code snippet:\nif x > 10:\n    print('x is greater than 10')\nelif x == 10:\n    print('x is exactly 10')\nelse:\n    print('x is less than 10')\nIf x is a floating-point number with the value 10.0, what will the output be?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is exactly 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x is less than 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the floating-point number 10.0 is considered equal to the integer 10. Thus, the condition x == 10 is True when x is 10.0, leading to the output 'x is exactly 10'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Switch-case Statements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet when the input is 3?"
+      },
+      {
+        "type": "text",
+        "value": "public class Main {\n public static void main(String[] args) {\n   int input = new java.util.Scanner(System.in).nextInt();\n   switch(input) {\n     case 1: System.out.println('One');\n     case 3: System.out.println('Three');\n     case 2: System.out.println('Two');\n     default: System.out.println('Default');\n   }\n }\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Three"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ThreeTwoDefault"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OneThreeTwoDefault"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Default"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the switch-case structure does not break automatically after each case. Since there is no 'break' statement after case 3, it continues to execute case 2 and the default case."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Scoping and Hoisting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following JavaScript code snippet?\n\n(function() {\n  var a = b = 5;\n})();\nconsole.log(b);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ReferenceError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'b' is declared without 'var' making it a global variable. Despite the function scope of 'var a', 'b' is accessible outside, thus it logs '5'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Working with Web Storage API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the Web Storage API, what is a potential security issue when using localStorage to store sensitive information?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data in localStorage persists only during the session similar to sessionStorage."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data in localStorage is automatically encrypted by the browser."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data in localStorage can be accessed by any scripts running on the same origin."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "localStorage is fully protected against XSS attacks."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "localStorage data can be accessed by any script running on the same origin, which makes it vulnerable to cross-site scripting (XSS) attacks if the site is susceptible to such attacks. Unlike sessionStorage, localStorage data persists even after the browser window is closed, making long-term attacks feasible."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Function Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a statically typed language, how does function overloading resolve which function to call when multiple signatures match the provided arguments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function with the most specific matching type signature is chosen."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function that was declared last in the source code is chosen."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It results in a compile-time error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The first function declared in the source code is chosen."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In function overloading, when multiple function signatures match the provided arguments, the most specific matching type signature is chosen. This is determined based on the rules of type precedence and specificity defined by the language's type system."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Dynamic Content Creation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a script dynamically adds a new button element to a div with id 'container' using innerHTML, and there is an existing event listener on 'container' for clicks on its button children, why might the newly added button not trigger the event?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The new button does not have an event listener attached directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The innerHTML usage destroys existing child nodes and their attached event listeners."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The 'container' element does not recognize dynamically added children."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Event listeners on the parent do not apply to new child elements."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using innerHTML replaces all existing HTML in the 'container' including any attached event listeners on child elements. Even though the parent has an event listener, replacing innerHTML removes event listeners from existing children, affecting the newly added button."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Handling Multiple Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following JavaScript code snippet when Promise.all is used with three promises, where one promise is rejected?"
+      },
+      {
+        "type": "text",
+        "value": "Promise.all([Promise.resolve('A'), Promise.reject('B'), Promise.resolve('C')]).then(values => console.log('Resolved:', values)).catch(reason => console.log('Rejected:', reason));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Resolved: ['A', 'B', 'C']"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Resolved: ['A', 'C']"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Rejected: 'B'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Nothing is logged"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Promise.all fails fast, meaning if any promise is rejected, Promise.all immediately rejects with that error, ignoring the results of any other promises."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Closure and its Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the JavaScript function below, what will be the output when func1 is invoked?"
+      },
+      {
+        "type": "text",
+        "value": "function outer() {\n  var x = 10;\n  function inner() {\n    console.log(x);\n  }\n  return inner;\n}\nvar func1 = outer();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "null"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The inner function forms a closure that includes the outer function's variables. 'x' is accessible inside the inner function and has a value of 10."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event Loop and Asynchronous Execution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following JavaScript code:\n\nconsole.log('First');\nsetTimeout(function() {console.log('Second');}, 0);\nconsole.log('Third');\nWhat is the order of output in the console?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "First, Second, Third"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "First, Third, Second"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Second, First, Third"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Third, First, Second"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'setTimeout' function places the callback ('Second') into the event queue. However, it will not execute until the call stack is clear. Therefore, 'First' and 'Third' are logged before 'Second', despite the timeout being 0."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Event Propagation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a nested DOM structure where a click event is bound to both a child and its parent element. If the click event uses the 'stopImmediatePropagation' method, what will be the result when the child is clicked?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only the child's event handler will execute, and no further events will propagate."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Both the child's and parent's event handlers will execute, but no other similar event on the child will execute."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only the parent's event handler will execute."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The child's and all other similar events on the child will execute, but the event will not propagate to the parent."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'stopImmediatePropagation' method prevents any further event handlers from executing on the current element and prevents the event from propagating up the DOM tree. Therefore, only the child's handler will execute."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Complex DOM Manipulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following HTML and JavaScript: <div id='container'><button id='add'>Add Item</button></div>, and the JavaScript code: document.getElementById('add').addEventListener('click', function() { var newItem = document.createElement('li'); newItem.innerHTML = 'Item ' + document.querySelectorAll('#container li').length; document.querySelector('#container').appendChild(newItem); }); How many 'li' elements will be in the container after three clicks on the 'Add' button?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Each click triggers the addition of a new 'li' element to the 'container' div. The innerHTML of each new 'li' element is set to 'Item ' followed by the current number of 'li' elements inside the 'container' before the new 'li' is added. After three clicks, there will be three 'li' elements inside the container."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Promise Chaining",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following JavaScript code snippet where multiple promises are chained together. What will be the output of this code?"
+      },
+      {
+        "type": "text",
+        "value": "Promise.resolve(5).then((x) => x * 2).then((x) => Promise.resolve(x * 2)).then((x) => x + 1).then((x) => { throw new Error(x); }).catch((err) => console.log(err.message));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "21"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "11"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because the promise chain multiplies the initial value 5 by 2, then again by 2 making it 20, adds 1 making it 21, and then throws this value as an error which gets logged by the catch block."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Event Bubbling and Capturing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following HTML structure: <div id='parent'><button id='child'>Click!</button></div> and the JavaScript code: document.getElementById('parent').addEventListener('click', () => alert('Parent clicked'), true); document.getElementById('child').addEventListener('click', () => alert('Child clicked'), false); What will be the sequence of alerts when the button is clicked?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Parent clicked, Child clicked"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Child clicked, Parent clicked"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Parent clicked"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Child clicked"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The event listener on the parent is set to capture (third parameter is true), so it fires first during the capturing phase. The event listener on the child is set in the bubbling phase (third parameter is false), so it fires next."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Asynchronous Programming and Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following JavaScript code snippet if the fetch request takes 2 seconds to complete and the setTimeout is set to 1 second?"
+      },
+      {
+        "type": "text",
+        "value": "console.log('Start');\nfetch('https://api.example.com/data').then(res => res.json()).then(data => console.log(data));\nsetTimeout(() => console.log('Timeout'), 1000);\nconsole.log('End');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start, End, Timeout, {data}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Start, Timeout, End, {data}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Start, End, {data}, Timeout"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Start, Timeout, {data}, End"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'console.log('Start')' and 'console.log('End')' are synchronous and execute first. The 'setTimeout' function is asynchronous but completes before the fetch API promise, so 'Timeout' is logged third. Finally, the data from the fetch request is logged last after it resolves."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Hoisting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of console.log(y) in the following JavaScript code snippet? console.log(y); var y = 5;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ReferenceError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to hoisting in JavaScript, the declaration of variable y is moved to the top of its scope. However, its initialization remains at the original place. Thus, at the point of console.log(y), y is declared but not initialized, leading to the output 'undefined'."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Switch Statements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a switch statement that handles cases from 1 to n. If each case statement incrementally increases an integer variable x by 1, starting from x = 0, and there's no break statement in any case except after the nth case, what will be the final value of x when the switch is invoked with the case 1?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "n"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "formula",
+        "value": "n - 1"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Starting at case 1, the lack of break statements means that execution will fall through to every subsequent case, incrementing x each time until it reaches the break after the nth case. Thus, x increments a total of n-1 times (from case 1 to case n, exclusive)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Error Handling in Async/Await",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about error handling in async/await functions in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Errors are automatically caught within the async function."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Errors must be caught using a catch() block attached to the awaited promise."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Errors can be caught using a try/catch block around the await statement."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Async functions prevent all runtime errors."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In async/await functions, errors should be caught using a try/catch block around the await statement, as this allows for more granular error handling."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "DOM Manipulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When dynamically setting the 'innerHTML' of an element in a way that introduces new script elements, which of the following is true regarding the execution of these scripts?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The scripts will execute automatically if they are added using 'innerHTML'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The scripts will not execute, regardless of how they are added to 'innerHTML'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The scripts will only execute if they have the 'defer' attribute set."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The scripts need to be manually executed after being added to the DOM."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Scripts added through 'innerHTML' do not execute when they are dynamically added to the DOM. This is a security feature to prevent potential malicious actions."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Scope Chain",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a programming scenario, a variable 'x' is defined in the global scope, and a function 'foo()' is defined that also declares a variable 'x'. Inside 'foo()', there is a nested function 'bar()' that accesses variable 'x'. Which 'x' does 'bar()' access?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The 'x' inside 'foo()' due to JavaScript's lexical scoping."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The global 'x' because 'bar()' is nested within 'foo()'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A new 'x' variable that is undefined within 'bar()'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above, 'bar()' results in a ReferenceError."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to JavaScript's lexical scoping rules, the 'bar()' function first looks for 'x' within its own scope and the enclosing scope before looking at the global scope. In this case, it accesses the 'x' declared within 'foo()', not the global 'x'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Python Function Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, what is the outcome if a variable is defined inside a function and the same variable name is used in the global scope outside the function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function will modify the global variable during its execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The global variable is hidden by the local variable within the function scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A syntax error occurs due to ambiguous variable naming."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The global variable is deleted and replaced by the local variable after the function call."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, if a variable name is defined locally within a function, it hides any variable with the same name in the global scope within the context of that function. This is due to Python's scoping rules which prioritize local scope over the global scope."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Error Handling with Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of JavaScript Promises, which of the following statements correctly handles errors that might occur both synchronously and asynchronously within a promise chain?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "promise.then(result => { throw new Error('Failed!'); }).catch(error => console.log(error.message));"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "promise.then(result => { throw new Error('Failed!'); }, error => console.log(error.message));"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "try { promise.then(result => { throw new Error('Failed!'); }); } catch (error) { console.log(error.message); }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "promise.then(result => { throw new Error('Failed!'); }).finally(error => console.log(error.message));"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses .catch() which is designed to handle both synchronous and asynchronous errors in promises. The catch block will handle any error thrown within the then block."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following JavaScript code snippet?\n\n(function() {\n  var a = b = 5;\n})();\nconsole.log(b);\nconsole.log(a);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5 and undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5 and 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined and undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ReferenceError and 5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'b' is implicitly declared as a global variable, so it is accessible with a value of 5. However, 'a' is a local variable inside the function scope and is not accessible outside, resulting in 'undefined'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Implicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code snippet? int('7') + float('5.3')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "12.3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "12.3.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "12"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python performs implicit type conversion, converting the integer '7' to a float, and then adds it to the float '5.3', resulting in 12.3."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Promise Chaining",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following promise chain. What will be logged to the console if X > 10?"
+      },
+      {
+        "type": "text",
+        "value": "new Promise((resolve, reject) => { if (X > 10) { resolve('A'); } else { reject('B'); } }).then(res => { console.log(res); return 'C'; }).catch(err => { console.log(err); return 'D'; }).then(result => console.log(result));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'A' followed by 'C'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only 'A'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'B' followed by 'D'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only 'C'"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If X > 10, the initial promise resolves with 'A', which is logged first. The then handler following the resolve returns 'C', which is then logged by the final then handler."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Error Handling in Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet if the fetchData function rejects the Promise with the string 'Error fetching data'?"
+      },
+      {
+        "type": "text",
+        "value": "fetchData().then(data => console.log('Data:', data)).catch(error => console.log('Error:', error)).then(() => console.log('Process completed'));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Error: Error fetching data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Error: Error fetching data\nProcess completed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data: Error fetching data\nProcess completed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Process completed"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the fetchData function rejects the promise, the catch block catches the error, logging 'Error: Error fetching data'. After the catch block handles the error, the final then block runs, logging 'Process completed'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Handling Asynchronous Calls",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How can you ensure that a function utilizing fetch API properly handles errors and prevents memory leaks in a single-page application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using async/await and wrapping the fetch call in a try-catch block."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a while(true) loop around the fetch call to continuously check for success."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Calling fetch without any error handling mechanism."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing fetch inside a setTimeout function to delay execution."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using async/await allows for easier handling of asynchronous operations and the try-catch block effectively handles any errors, preventing the application from crashing and avoiding memory leaks that might occur from unresolved promises."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Nested Loops",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following pseudocode. How many times will the innermost statement 'print(x,y)' execute assuming all loops start from 0?\n\nfor x in range(0, 5):\n    for y in range(x, 5):\n        print(x, y)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "25"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "20"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The outer loop runs 5 times. For each iteration of 'x', the inner loop starts at 'x' and runs up to 4 (inclusive). Hence, it executes 5, 4, 3, 2, and 1 times respectively, adding up to 15."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Async/Await Error Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an async function that awaits a promise which eventually rejects, how should the error be properly caught?"
+      },
+      {
+        "type": "text",
+        "value": "async function fetchData() { try { const data = await fetch('https://api.example.com'); return data.json(); } catch (error) { console.error('Fetch error:', error); } } fetchData();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The error is automatically caught and handled by the async function."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The error should be caught using a .catch() method on fetchData()."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The try/catch block inside the async function is sufficient for catching and handling the error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The error cannot be caught and will cause the program to crash."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The try/catch block within the async function is a proper way to handle errors for awaited promises. This structure allows for synchronous-like error handling, which is one of the advantages of using async/await."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following expression in a Python-like language with standard operator precedence: `4 + 5 * 3 - 2`. What is the value after evaluating this expression?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "19"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "17"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "13"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Following operator precedence, multiplication is evaluated before addition and subtraction. Thus, the expression evaluates as follows: 4 + (5 * 3) - 2 = 4 + 15 - 2 = 17."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following expression in Python: 3 * 2 ** 2 + 1. What is the result?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "9"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to Python's operator precedence, the exponentiation operator '**' has higher precedence than multiplication '*', so 2 ** 2 is evaluated first to give 4, then 3 * 4 + 1 results in 13."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "WebSockets and Real-time Communication",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a WebSocket connection is established and you need to handle backpressure for a high-frequency data stream, which of the following approaches is recommended?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increasing the size of the buffer on the client side"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implementing a message queue to manage data flow"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sending fewer data updates from the server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Closing and reopening the WebSocket connection periodically"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing a message queue is an effective way to handle backpressure by managing the flow of data and ensuring that the client processes messages at its own pace without losing any data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Switch Statement Complexity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a switch statement handling 10 different cases without a 'default' case. If each case contains a return statement, how many exit points does this switch statement have?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Each case in the switch statement has its own return statement, resulting in 10 separate exit points."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, evaluate the expression: 3 * 2 ** 3 / 4 % 5"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2.0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4.0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0.0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the operator precedence dictates that exponentiation (**), multiplication (*), and division (/) take precedence over modulo (%). Thus, 2 ** 3 is evaluated first to 8, then 3 * 8 is evaluated to 24, 24 / 4 is evaluated to 6.0, and finally 6.0 % 5 evaluates to 1.0."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Event Propagation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a scenario where a button element is nested within a div, and both elements have click event listeners attached, which event propagation mode ensures that the event triggered by clicking the button is FIRST handled by the div's listener?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Capturing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bubbling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Target"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In capturing mode, events are first captured by the outermost element and propagated to the inner elements. Since the div is the outer element relative to the button, its listener will handle the event first in capturing mode."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Closure Properties",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a function 'f' defined within another function 'g'. If 'f' uses a variable 'x' defined in 'g', what is 'f' an example of?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Nested function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Closure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Module"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Global function"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A closure is a function that captures the bindings of free variables in its lexical context, in this case, 'x' from 'g'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Closure Properties",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a function `f` defined within another function `g`. If `g` returns `f` and is executed, what will be the scope of the variables declared in `g` that are used by `f`?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They are garbage collected after `g` finishes execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They remain accessible only within `g` and not by `f`."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They are stored in closure and remain accessible to `f` even after `g` has finished execution."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They become global variables."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When `g` returns `f`, the variables used by `f` that are declared in `g` are stored in a closure, allowing `f` to access them even after `g` has finished execution. This is a fundamental property of closures in programming."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Handling Asynchronous Data",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When utilizing the Fetch API to retrieve data asynchronously from a remote endpoint, which of the following is NOT a valid method to handle the returned Promise?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".then()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".catch()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".finally()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".before()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Fetch API Promise does not have a method called '.before()'. The correct methods to handle a Promise are '.then()', '.catch()', and '.finally()'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Closures in JavaScript",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a function defined within another function in JavaScript. When the inner function accesses variables from the outer function, a closure is formed. Given this scenario, what happens to the local variables of the outer function when it returns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They are garbage collected since the outer function has completed execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are still accessible by the inner function through the closure."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They are copied to the global scope automatically."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They cause a runtime error if accessed by the inner function after the outer function returns."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, when an inner function uses variables from an outer function, a closure is created. This closure allows the inner function to continue accessing the outer function's variables even after the outer function has returned, preventing them from being garbage collected."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Handling Multiple Promises",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given three asynchronous operations that return promises, which method would you use to handle them if you need to ensure that all of them resolve, but you also need to capture any rejections as soon as they occur?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Promise.any()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Promise.all()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Promise.allSettled()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Promise.race()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Promise.race() is used because it resolves or rejects as soon as one of the promises in an iterable resolves or rejects, with the value or reason from that promise."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Scope and Hoisting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following JavaScript code snippet: var a = 1; function b() { a = 10; return; function a() {} } b(); console.log(a); What is the output of this code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "function a() {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to JavaScript's hoisting, the function declaration of 'a' inside function 'b' hoists to the top of its scope. Thus, it shadows the outer 'a', and the assignment 'a = 10' refers to the function declaration, not the global 'a'. Therefore, the global 'a' remains unchanged and logs '1'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Nested Loops",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a nested loop structure where the outer loop runs n times and the inner loop runs m times, what is the total number of iterations if the inner loop condition changes to run from 1 to i (where i is the current iteration of the outer loop)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "formula",
+        "value": "\\frac{n(n + 1)}{2}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "n * m"
+      },
+      {
+        "label": "C",
+        "type": "formula",
+        "value": "n^2"
+      },
+      {
+        "label": "D",
+        "type": "formula",
+        "value": "\\frac{m(m + 1)}{2}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The inner loop's iteration count depends on the current iteration of the outer loop, meaning the first iteration of the outer loop runs the inner loop 1 time, the second iteration 2 times, and so on, up to n times. This forms an arithmetic series with n terms, and the sum of the first n natural numbers is given by the formula n(n+1)/2."
+      }
+    ]
+  }
+]

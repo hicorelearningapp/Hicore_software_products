@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 10,
+    "topic": "Scripting Language Selection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of choosing a scripting language for automation testing, which factor should be considered the least impactful?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The popularity of the language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compatibility with the automation framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Performance efficiency of the language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The personal preference of the development team"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While team preference can influence the ease of adoption, it is the least critical factor compared to technical compatibility, performance, and the broader community support and ecosystem of the language."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Types of Test Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of test automation framework is particularly noted for its use of keywords to define test actions, making it accessible for non-programmers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data-Driven Framework"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Keyword-Driven Framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hybrid Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear Automation Framework"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Keyword-Driven Framework utilizes keywords to define test actions, which simplifies the test creation process and makes it accessible for individuals who may not have extensive programming knowledge."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Automation Testing Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tools is NOT primarily used for automation testing but rather for continuous integration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Selenium"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Jenkins"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "QTP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TestComplete"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jenkins is primarily used for continuous integration and not for automation testing, unlike Selenium, QTP, and TestComplete which are dedicated automation testing tools."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Scope of Automation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of defining the scope of automation for a testing project, which factor is LEAST likely to influence the prioritization of test cases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The frequency of test case execution"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The complexity of test scenarios"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The personal preference of the testing team"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Business impact of the test cases"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While frequency, complexity, and business impact are critical factors in test case prioritization, personal preference is generally considered least important and is not a professional criterion for decision-making in automation testing."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Automation Tools Selection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which factor should least influence the choice of an automation tool for a testing project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Popularity of the tool in the industry"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compatibility with the existing testing framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Ability to support various programming languages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cost of the tool"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While the popularity of a tool can be a beneficial factor due to community support and resources, it should not be a primary decision-making factor compared to technical compatibility, language support, and cost considerations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Automation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a complex scenario where multiple automation scripts interact with each other, what is the primary method to ensure data consistency and avoid race conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implementing synchronous execution and shared state monitoring"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using separate databases for each script"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Running scripts at different times to avoid overlap"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Code refactoring to remove interdependencies"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Synchronous execution along with monitoring shared states helps manage and maintain data consistency across interacting scripts, thus preventing race conditions."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Automation Testing Principles",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of test automation, what is the primary purpose of implementing a Continuous Integration (CI) system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage the documentation of test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide real-time user interaction testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To automate the deployment of applications"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To ensure early detection of integration issues"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of a CI system in test automation is to ensure early detection of integration issues by continuously integrating and testing changes made to the codebase."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Automation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of automation testing, what is the primary advantage of implementing a hybrid framework over a data-driven or keyword-driven framework alone?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Faster execution of test scripts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduced need for programming skills"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Enhanced flexibility and scalability in tests"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Simpler debugging and error tracking"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A hybrid framework combines the benefits of both data-driven and keyword-driven frameworks, offering enhanced flexibility and scalability by allowing testers to use data sets and reusable keywords effectively."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Scripting Languages and Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the use of Python in automation scripts, which Python-based tool is specifically designed for cross-browser, cross-platform web application testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PyTest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selenium"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Robot Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Unittest"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Selenium is a Python-based tool that is widely used for automation of web applications for testing purposes, supporting various browsers and platforms."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Integration of Automation Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common integration capability of automation testing tools with CI/CD pipelines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Triggering tests based on code commits"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatic generation of test reports"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Direct modification of the source code"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Rollback deployments based on test results"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Automation testing tools are designed to integrate with CI/CD pipelines primarily for triggering tests, generating reports, and managing deployment based on test outcomes, but they do not directly modify source code; this task is reserved for developers."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Integration of Automation Testing with CI/CD",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary challenge when integrating test automation frameworks such as Selenium with Continuous Integration/Continuous Deployment (CI/CD) pipelines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Managing the version control of test scripts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensuring that the test environments are consistently configured"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deciding the appropriate time for running the tests"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrating test automation with CI/CD involves multiple challenges including managing version control of test scripts, ensuring consistent configuration of test environments, and deciding the optimal timing for test execution to align with the deployment pipeline."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Integration of Automation Testing with CI/CD",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of continuous integration/continuous deployment (CI/CD), what is the primary advantage of implementing automated regression tests directly within the build pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To reduce the dependency on manual testing resources"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure that every build version is deployable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To automatically update test scripts for new features"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the code compile time"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing automated regression tests within the CI/CD pipeline ensures that every build is tested immediately after it is built, thereby confirming that the build version is always in a deployable state."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Automation Testing Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a feature of Selenium, a popular tool for automation testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Support for multiple operating systems"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Native support for image-based testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Capability to execute tests across different browsers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Integration with various programming languages"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Selenium does not natively support image-based testing; this capability is typically extended through integration with other tools such as Sikuli."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Integration of Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes a challenge when integrating automation testing seamlessly into the software development process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Selecting the most colorful user interface for test scripts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensuring compatibility between testing tools and the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Prioritizing aesthetic appeal of reports over functionality"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing solely on manual testing strategies"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Ensuring compatibility between testing tools and the application is a critical challenge when integrating automation testing into the software development process. It ensures that the tools can effectively interact with the application to perform tests accurately. Options A and C are irrelevant, while D reflects a misalignment with the integration of automation."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Test Case Prioritization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of managing automation testing projects, what is the most crucial factor to consider when prioritizing test cases for automation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The complexity of the test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Frequency of test case execution"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The potential for reuse of test scripts"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Business impact and criticality of the test scenarios"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Prioritizing test cases based on business impact and criticality ensures that the most crucial functionalities of the application are tested first, maximizing the effectiveness of the testing effort."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Benefits of Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a direct benefit of automation testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased test coverage"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduced testing costs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Instant feedback to developers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improved customer satisfaction"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Improved customer satisfaction is a secondary benefit that may result from higher quality software due to effective testing, but it is not a direct benefit of automation testing itself."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Automation Script Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common phase in the lifecycle of an automation script?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Script Deployment"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Script Obsolescence"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Script Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Script Post-execution Analysis"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While script deployment, testing, and eventually becoming obsolete are standard phases, 'Script Post-execution Analysis' is not typically considered a standard separate phase in the lifecycle of an automation script."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Advanced Selenium Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When automating a web application using Selenium, what is the primary reason to use the Page Object Model (POM) design pattern?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance the performance of web page loading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce the maintenance of test scripts and improve test script readability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To allow the direct execution of test scripts on multiple browsers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To eliminate the need for manual testing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Page Object Model (POM) is a design pattern in Selenium that promotes code reusability and reduces script maintenance. By encapsulating page-specific elements and behaviors within page objects, POM enhances the readability and robustness of test scripts."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced Automation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering an automated testing environment where the script needs to handle unexpected pop-ups that appear at random intervals, which technique ensures that the testing script can manage these without failing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using hard-coded sleep statements to pause script execution"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employing explicit waits that halt the script until the pop-up is detected"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing a continuous integration system to handle exceptions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Applying exception handling with retry mechanisms"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because implementing exception handling combined with retry mechanisms allows the script to detect the appearance of unexpected pop-ups, manage the interruption, and continue testing. This is more reliable and efficient compared to static waits (option A), which do not adapt to real-time issues, or explicit waits focused only on specified conditions (option B)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Dynamic Elements Handling in Selenium",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Selenium, which method is most appropriate for handling dynamically changing element IDs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using absolute XPath"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing static element attributes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing implicit waits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Employing CSS selectors with attribute sub-string matches"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CSS selectors with attribute sub-string matches are effective in handling dynamic elements where element IDs change. This method allows targeting elements based on partial attribute values, providing flexibility and robustness in identifying elements."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Types of Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which automation framework type uses keywords to define test actions, enhancing accessibility for non-technical testers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data-Driven Framework"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Keyword-Driven Framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hybrid Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear Automation Framework"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Keyword-Driven Framework is designed to use keywords to represent actions in the test scripts, making it easier for non-technical users to understand and participate in writing or modifying tests."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Automation Testing Principles",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice when designing test scripts for automation testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Incorporating hard-coded test data within scripts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using descriptive names for test scripts"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing error handling within scripts"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Maintaining a modular structure of test cases"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Incorporating hard-coded test data within scripts is not recommended because it reduces the flexibility and reusability of the scripts. It's better to externalize test data or use data-driven approaches."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Selecting Automation Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What factor is least important when selecting an automation testing tool for a project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The tool's compatibility with existing software"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The availability of community support for the tool"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The color scheme of the tool's user interface"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The ability of the tool to integrate with other systems"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The color scheme of the tool's user interface is the least important factor as it does not impact the functionality or integration capabilities essential for automation testing."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Benefits of Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which benefit of automation testing best supports its use in a continuous integration and continuous deployment (CI/CD) environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improved accuracy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Faster feedback cycles"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduced testing costs in the long term"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ease of detecting defects in later stages of development"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Faster feedback cycles are critical in CI/CD environments where frequent and quick iterations of code are necessary. Automation testing accelerates these cycles by providing immediate feedback on the impact of recent changes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Integration with CI/CD",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most effective strategy for integrating test automation within a CI/CD pipeline to ensure early detection of defects?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implementing automated tests post-deployment"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Running automated tests only at the end of day"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Triggering automated tests after every commit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Manual testing integration during the CI/CD process"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Triggering automated tests after every commit ensures that any defects introduced by recent changes are detected early in the development cycle. This practice enhances the overall quality of the software and reduces the time and cost associated with fixing bugs later in the development process."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Integration and Scalability of Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a large enterprise-level software development project, which of the following features is MOST critical when choosing an automation testing tool?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ability to generate detailed test reports"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Integration capabilities with CI/CD pipelines and version control systems"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Support for multiple programming languages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "User-friendly interface for manual testers"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integration capabilities with CI/CD pipelines and version control systems are crucial for large projects to ensure streamlined, automated workflows and effective collaboration among different development and testing environments."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Integration of Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a critical consideration when integrating automation testing into the software development process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Choosing a color scheme for the test results dashboard"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensuring compatibility between the automation tools and the application's technology stack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Selecting the geographical location of the testing team"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Planning the social media marketing strategy for the application"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Ensuring compatibility between the automation tools and the application's technology stack is crucial for effective integration of automation testing, as it directly affects the ability to execute tests accurately and efficiently."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Automation Testing Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is NOT typically used for UI automation testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Selenium"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Appium"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JIRA"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TestComplete"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JIRA is primarily a project management and bug tracking tool, not a tool for UI automation testing."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Integration of Automation Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about integrating automation testing tools with CI/CD pipelines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Integration helps in detecting bugs only at the deployment stage."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automation tools cannot be integrated with version control systems."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Integration allows for immediate feedback and faster resolution of issues."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automation tools reduce the need for CI/CD pipelines in software development."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrating automation testing tools with CI/CD pipelines allows for immediate feedback on code commits, helping teams to quickly identify and address issues, thus enhancing the development process and product quality."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Integration of Automation Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a benefit of integrating automation testing tools with CI/CD pipelines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Immediate feedback on system stability"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduced need for manual testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increased time to market"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Facilitated collaboration across teams"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrating automation testing tools with CI/CD pipelines is known for decreasing the time to market by enabling quicker feedback and identification of issues, not increasing it."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Impact of Automation Testing on Software Development",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the principles of automation testing, which of the following IS NOT a direct benefit of incorporating automation into software development life cycles?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased manual testing workload"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Faster feedback on development changes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduced regression testing time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enhanced testing accuracy and consistency"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Automation testing is intended to alleviate the workload of manual testing by automating repetitive and stable test cases, thus not increasing it."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Scope of Automation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of defining the scope of automation for a software project, which of the following factors should NOT be considered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The color scheme of the application interface"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The frequency of execution of test cases"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Business impact of specific functionalities"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Complexity of test scenarios"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The color scheme of the application interface is irrelevant to the scope of automation which should focus on factors like business impact, complexity, and execution frequency of test cases."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Difference between Test Script and Automation Script",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes a fundamental difference between test scripts and automation scripts in the context of software testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Test scripts are manually executed while automation scripts are not"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automation scripts require programming knowledge but test scripts do not"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Test scripts can be used for automated testing but not for manual testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automation scripts are less detailed than test scripts"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the primary distinction lies in the execution method; test scripts can be both manual and automated depending on the context, but automation scripts are specifically designed for automated environments and are executed by automation tools, not manually."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Types of Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of test automation framework utilizes keywords to define test actions, enhancing accessibility for non-programmers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data-Driven Framework"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Keyword-Driven Framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hybrid Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Behavior-Driven Development Framework"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Keyword-Driven Framework is specifically designed to use keywords to define test actions, making the framework more accessible to individuals without extensive programming knowledge."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Fundamentals of Automation Testing Tools",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of automation testing tools, what does the term 'scalability' primarily refer to?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The ability to handle varying sizes of the test data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The ability to increase test coverage with more scripts"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The ability to add more features to the software being tested"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The ability to reduce the cost of testing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Scalability in automation testing tools refers to the ability of the tool to handle larger or smaller volumes of test data effectively."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Defining Scope of Automation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which aspect is NOT a primary consideration when defining the scope of automation for a project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Business impact of the test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Frequency of test case execution"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Personal preferences of the testing team"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Complexity of the test scenarios"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Personal preferences of the testing team should not influence the primary considerations for defining the scope of automation, which should focus on objective criteria such as business impact, complexity, and frequency of execution."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Integration with CI/CD",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a scenario where an automation test suite must be integrated with a Continuous Integration (CI) pipeline. Which of the following is NOT a commonly used practice for integrating test automation into a CI/CD process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Triggering tests based on time intervals."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Running tests in random order to ensure independence."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using hooks to execute tests after a successful build."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Conditional execution of tests based on code changes."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Running tests in random order is not a practice related to CI/CD integration but rather a test design consideration to ensure test case independence and avoid interdependencies."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Integration with CI/CD Pipelines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is TRUE regarding the integration of test automation frameworks with CI/CD pipelines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Test automation frameworks cannot be integrated with CI/CD pipelines due to compatibility issues."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Integration with CI/CD pipelines is optional and typically not recommended due to increased complexity."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Test automation frameworks are often integrated with CI/CD pipelines to enable continuous testing and delivery."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only premium test automation frameworks have the capability to integrate with CI/CD pipelines."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integration of test automation frameworks with CI/CD pipelines is crucial for enabling continuous testing and delivery, which helps in identifying and addressing issues early in the development cycle, thereby enhancing the product quality and deployment speed."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Selenium WebDriver, which of the following statements is true regarding the handling of dynamic web elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "XPath and CSS selectors cannot select dynamic elements without explicit waits."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JavaScript Executor is necessary for interacting with all dynamic elements."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Locators for dynamic elements remain constant throughout the session."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dynamic elements can be managed using implicit or explicit waits to handle their load time and availability."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic elements in Selenium can be effectively managed using implicit or explicit waits, allowing the WebDriver to pause for a specified time until the elements become available or loaded on the webpage."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Scope of Automation in Testing Projects",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the process of defining the scope of an automation testing project, what is NOT a critical factor to consider?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The geographical location of the testing team"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The complexity of test cases"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Business impact of the test cases"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Frequency of test case execution"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The geographical location of the testing team is generally not a critical factor when defining the scope of an automation testing project. Factors like the complexity and business impact of the test cases, and the frequency of test case execution are more significant considerations."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Automation Testing Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a critical factor to ensure the seamless integration of automation testing into the software development process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Frequent code reviews"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Regular stakeholder meetings"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Effective communication between developers and testers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use of the most expensive automation tools"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Effective communication between developers and testers is crucial for integrating automation testing seamlessly into the software development process, ensuring that tests are relevant and up-to-date with the evolving application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Scripting Challenges in Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In automation testing, what is a primary challenge when scripting tests for applications that have highly dynamic user interfaces?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Frequent updates to the UI may require constant updates to the test scripts."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Scripts can be written once and used for any application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dynamic interfaces require less precise scripts."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Scripts are easier to maintain due to the simplicity of the UI elements."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic UIs often change, requiring frequent updates to automation scripts to adapt to new or changed elements, making maintenance challenging."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Types of Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which test automation framework is characterized by the use of keywords to define test actions and is noted for its accessibility to those who may not have strong programming skills?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data-Driven Framework"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Keyword-Driven Framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hybrid Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear Automation Framework"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Keyword-Driven Framework uses keywords to describe test actions, making it accessible for testers without deep programming knowledge, as the keywords abstract the underlying code."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Benefits and Challenges of Automation Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recognized benefit of automation testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reduces human errors"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases test execution time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increases the necessity for manual testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Supports execution of repeated test cases"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Automation testing reduces the necessity for manual testing by automating repetitive tasks, thereby not increasing it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Types of Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of automation framework allows for high reusability of test code and is most suitable for applications with a large number of test scenarios?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear Automation Framework"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Modular Based Testing Framework"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Keyword-Driven Framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data-Driven Framework"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Data-Driven Framework is most suitable for a large number of scenarios as it allows for high reusability of test code by separating test scripts from test data, thereby enabling the same test scenario to be executed with different sets of data."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Scripting Languages in Automation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering Python and JavaScript, which language feature in Python provides a significant advantage for writing automation scripts that require handling various data types dynamically?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Strong typing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dynamic typing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Static typing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Manifest typing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python's dynamic typing allows variables to change their type based on the data they are assigned, which is advantageous in automation scripts where the data type can vary, making the script more flexible and easier to write."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Scripting Tools and Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of automation testing, which tool or framework does NOT support native integration for both Selenium and Cypress?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jenkins"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Travis CI"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GitLab CI"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CircleCI"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While Jenkins, GitLab CI, and CircleCI offer robust native integrations for both Selenium and Cypress, Travis CI does not provide native support for Cypress as seamlessly as the others."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Test Automation Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a direct benefit of using a Page Object Model (POM) in test automation frameworks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves maintainability of the code."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduces the need for duplicate code."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Enhances the performance speed of test execution."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Facilitates better reusability of the code."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While POM can enhance code maintainability, reusability, and reduce duplication, it does not inherently enhance the performance speed of test executions."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Automation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of advanced automation techniques, which of the following is a primary challenge when implementing a multi-threaded automation script for performance testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensuring the script is stateless"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reducing the memory usage of the script"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Synchronizing shared resources among threads"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Minimizing the number of input/output operations"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary challenge in multi-threaded automation scripts for performance testing is synchronizing shared resources among threads to avoid conflicts and ensure accurate test results."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced Selenium Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Selenium, which approach is recommended for handling dynamic web elements that frequently change their attributes like 'id' or 'class'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using static locators such as ID or class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Relying on implicit waits"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Employing XPath with contains(), starts-with(), or text() functions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilizing CSS selectors only"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For dynamic elements, static locators and simple CSS selectors may not be reliable due to frequent attribute changes. Using XPath functions like contains(), starts-with(), or text() provides a more robust way to locate these elements based on partial attribute values or text content."
+      }
+    ]
+  }
+]

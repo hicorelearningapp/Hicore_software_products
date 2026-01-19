@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "XSLT Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary use of the XSLT format-number() function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To convert XML data into JSON format"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To format numbers in different patterns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To calculate mathematical operations in XSLT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To sort data numerically"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The format-number() function in XSLT is used to format numbers into specified patterns."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Using XQuery",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XQuery expression is used to find the text value of a node?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "text()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "value()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "element()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'text()' function in XQuery is specifically designed to retrieve the text content of a node, making it the correct choice for finding the text value."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XSD Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in XML Schema Definition is used for textual data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xs:integer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xs:boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xs:string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xs:decimal"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xs:string is used for textual data, capable of containing any character or sequence of characters allowed by the XML."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic XSLT Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the root element of every XSLT document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:stylesheet>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:template>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:transform>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<html>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The root element of every XSLT document must be <xsl:stylesheet> or <xsl:transform>, which are synonymous and define the document as an XSLT stylesheet."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XML Namespaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names for elements and attributes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the formatting of XML documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their schemas"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the speed of XML processing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces in XML are used to avoid element name conflicts by providing unique names."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XSLT Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT element is used to write text to the output document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:text>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:output>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:template>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xsl:value-of>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <xsl:text> element is used specifically to write text content to the output document in XSLT."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XSLT Output Methods",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'method' attribute in <xsl:output> specify?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The version of XSLT to use"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The formatting style of the output"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The type of output to generate (e.g., XML, HTML, text)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The path where the output file will be saved"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'method' attribute in <xsl:output> determines the type of output document that will be produced, such as XML, HTML, or plain text."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XML Document Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a self-closing XML tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<meta>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<img src='image.png'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<input type='text' />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<div></div>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A self-closing XML tag is indicated by a slash before the closing angle bracket. Among the options, '<input type='text' />' is the correct self-closing tag."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "SOAP in Web Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does SOAP stand for in web services?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Simple Object Access Protocol"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Simple Object Avoidance Protocol"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Server Object Access Protocol"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Simple Orientation Access Protocol"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SOAP stands for Simple Object Access Protocol, which is a protocol used for exchanging structured information in the implementation of web services."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XML Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax for starting an XML element named 'book'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<book>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<book />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{book}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[book]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XML, elements are started with a tag enclosed in angle brackets. The correct syntax for starting an element named 'book' is '<book>'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basics of XML",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "eXtensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "eXecutable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "eXtra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "eXamine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for eXtensible Markup Language, which is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XML Document Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What must be the first line of any XML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<!DOCTYPE html>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<html>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<!-- XML Document -->"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The first line of any XML document should be the XML declaration <?xml version=\"1.0\"?>, which defines the XML version."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XML Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax for an XML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<elementName>Element Content</elementName>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<elementName><Element Content/></elementName>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{elementName}Element Content{/elementName}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "(elementName)Element Content(/elementName)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for an XML element involves opening and closing tags with the element name, and the content in between. For example, <elementName>Element Content</elementName>."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic XML Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "eXtensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "eXecutable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "eXtra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "eXamine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for eXtensible Markup Language, which is used to define document encoding rules in a human- and machine-readable format."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XSLT Template Rules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the <xsl:value-of> element do in an XSLT document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Iterates over each node in a node-set"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Transforms values from the XML input to the output"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creates a new node in the output document"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selects nodes based on conditions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <xsl:value-of> element is used to extract the value of a selected node and adds it to the output stream of the transformation process."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a self-closing XML tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<tag></tag>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<tag/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<\\tag>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<tag><tag/>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XML, a self-closing tag ends with '/>' and does not require an explicit closing tag. Option B, '<tag/>' is the correct format for a self-closing tag."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types in XSD",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in data type in XML Schema Definition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsd:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xsd:integer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsd:date"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsd:customType"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xsd:customType is not a built-in data type in XSD. XSD provides a set of predefined simple data types such as xsd:string, xsd:integer, and xsd:date."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types in XSD",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSD data type is used to define textual data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsd:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xsd:integer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsd:boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsd:decimal"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The xsd:string data type is used in XSD to define an element that contains textual data."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basics of XSLT",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of XSLT?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To transform XML documents into other formats"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To style HTML pages"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the security of XML documents"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To compress XML documents"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XSLT is primarily used to transform XML documents into other formats such as HTML, text, or other XML formats."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XSD Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSD data type is used to define an element that can contain only integer values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xs:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xs:integer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xs:boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xs:date"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xs:integer is the XSD data type used to define elements that should contain integer values only."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Namespaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names and avoid name conflicts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML parsing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their schemas"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt XML documents"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces in XML help avoid element name conflicts by providing a way to qualify names with unique identifiers."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Components of XSD",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the root element of an XML Schema Definition (XSD)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xs:schema>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xs:element>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xs:complexType>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xs:simpleType>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The root element of an XML Schema is <xs:schema>, which contains all the elements that define the schema."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XML Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "eXtensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "eXecutable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "eXtra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "eXamine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for eXtensible Markup Language, which is a markup language designed to store and transport data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic XML Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Extensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Extra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Examine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for Extensible Markup Language, which is used to define set of rules for encoding documents in a format that is both human-readable and machine-readable."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Using XQuery",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the XQuery function 'count()' do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Returns the number of items in a sequence."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Calculates the sum of numerical values in a sequence."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Finds the maximum value in a sequence."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sorts the items in a sequence."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'count()' function is used to return the number of items in a sequence, helping to understand the sequence size."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XML Document Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a purpose of using XML namespaces?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names within an XML document to avoid element name conflicts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML document processing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt XML documents"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To compress XML documents"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML namespaces are used to avoid conflicts in element names by providing a method for qualifying element names to make them unique."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Concepts of XSD",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using XML Schema Definition (XSD)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To style XML documents"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To define the structure and data types of XML documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To transform XML documents into web pages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt XML documents"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XSD is used to define the elements and attributes that can appear in an XML document, as well as their data types and structure."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basics of XML",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "eXtensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "eXecutable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "eXtra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "eXamine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for eXtensible Markup Language, which is used to describe data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XML Namespaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names for elements and attributes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML processing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their schema"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt the XML document"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces are used in XML to avoid element name conflicts by providing unique names."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basics of XSLT",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT element is used to write text to the output file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:value-of>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:output>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:text>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xsl:template>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <xsl:text> element is used to add literal text to the output. Other elements like <xsl:value-of> and <xsl:template> have different purposes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XSLT Output Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which output method in XSLT is used when the output needs to be well-formed XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "html"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xml"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "csv"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'xml' output method is used in XSLT when the output needs to be well-formed XML, as it ensures that the output adheres to XML standards."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XML Namespaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique element names and avoid name conflicts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the styling capabilities of XML documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the parsing speed of XML documents"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt the data within XML tags"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces in XML provide a method to avoid element name conflicts when mixing XML documents from different XML applications. They ensure that element names are unique and can be distinguished from one another."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "XML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does a well-formed XML document imply?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The document adheres to all syntax rules defined by the XML specification."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The document contains a single root element."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The document is validated against a DTD."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The document includes character references."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A well-formed XML document strictly follows the syntax rules, including having one and only one root element, properly nested and closed tags, and case-sensitive element names."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XSLT Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XSLT, what is the result of using the format-number() function with parameters 1234.567 and '###0.##'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1234.57"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1234.56"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1234.5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1235"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The format-number() function formats the number according to the specified pattern. Here, '###0.##' rounds 1234.567 to two decimal places, resulting in 1234.57."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XSLT Basic Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to apply a template in XSLT?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:apply-template select=\"node()\"/>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:template apply=\"node()\"/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:execute-template match=\"node()\"/>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<apply-template node=\"node()\"/>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for applying a template in XSLT is <xsl:apply-template select=\"node()\"/>, which is used to apply the template rule to the selected nodes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XML Schema",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML schema type is used to define an element that can contain only a fixed set of string values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xs:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xs:integer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xs:enumeration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xs:boolean"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The xs:enumeration type is used in XML schema to restrict an element or attribute to a fixed set of values, typically strings."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Document Structure",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the XML declaration in an XML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Defines the version and encoding of the XML document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Specifies the root element of the document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Includes external files into the XML document"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Validates the XML document against a schema"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XML declaration defines the XML version and the character encoding used in the document, which is essential for the XML processor to correctly parse the document."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Syntax and Structure",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the XML declaration in documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Defines the document structure"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Specifies the XML version and character encoding"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Includes external files like CSS and JavaScript"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creates a link to the schema or DTD"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XML declaration defines the XML version being used and the character encoding of the document, not the structure or linking external resources."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which declaration is mandatory at the beginning of any XML document to specify the XML version?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<!DOCTYPE xml>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<?xml version=\"1.1\"?>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xml>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XML declaration <?xml version=\"1.0\"?> is mandatory and specifies that the document is using version 1.0 of XML."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XML Namespaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names for elements and attributes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML processing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their schema definitions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enable the use of XML as a scripting language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces in XML help avoid element name conflicts by providing a method to qualify element and attribute names with a namespace prefix."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "XSLT Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT function can you use to format a number to display as a monetary value, such as converting 1234.56 to $1,234.56?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "format-number()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "number-format()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "format-currency()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "money-format()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'format-number()' function is used in XSLT to format numbers according to a specified pattern. It is the correct choice for displaying numeric values in a monetary format."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Type Facets",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which facet in XML Schema can be used to restrict the XML document to have specific starting characters for string type elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pattern"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "length"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "enumeration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "totalDigits"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'pattern' facet is used to define the regular expression that the string content must match, which can include specific starting characters."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XML Document Type Definition (DTD)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about DTD is incorrect?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DTD allows for the definition of the structure and legal elements and attributes of an XML document."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DTD supports namespaces, allowing for the differentiation between identically named elements within different scopes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DTD can be either internally declared within an XML document or externally referenced through a URI."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DTD does not support data types for elements and attributes, unlike XML Schema."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The statement about DTD supporting namespaces is incorrect. Unlike XML Schema, DTD does not support namespaces, which means it cannot differentiate between identically named elements from different scopes."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced XSLT Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XSLT, which function directly allows the transformation of a node set into a string with a delimiter, without requiring additional templates or recursive calls?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsl:value-of"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fn:string-join"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsl:apply-templates"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsl:for-each"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fn:string-join function in XSLT is designed to concatenate the items of a sequence into a single string, separated by a specified delimiter. This is useful for combining node sets directly into a string without the need for additional XSLT templates or recursive operations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "REST Constraints",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which constraint of REST architectural style disallows the storing of client context on the server between requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Code on demand"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stateless"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cacheable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Uniform Interface"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Stateless' constraint in REST requires that the client context should not be stored on the server between requests. Each request from client to server must contain all the information needed to understand and complete the request."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XQuery FLWOR Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XQuery, what does the following FLWOR expression return given an input of multiple <employee> elements each with a <salary> sub-element? \nfor $x in //employee\nwhere $x/salary > 50000\norder by $x/salary descending\nreturn $x/name"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Names of employees with salaries over 50000 in ascending order."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Names of employees with salaries over 50000 in descending order of their salaries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Names of all employees sorted by their salaries in descending order."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Salaries of employees with salaries over 50000 in descending order."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because the FLWOR expression filters employees by salaries greater than 50000, and orders them by their salary in descending order, finally returning their names."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XML Schema",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an XML schema definition, which of the following is a valid restriction of an XML element named 'age' that should be an integer between 0 and 120?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xs:element name=\"age\" type=\"xs:integer\" minOccurs=\"0\" maxOccurs=\"120\"/>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xs:element name=\"age\"><xs:simpleType><xs:restriction base=\"xs:integer\"><xs:minInclusive value=\"0\"/><xs:maxInclusive value=\"120\"/></xs:restriction></xs:simpleType></xs:element>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xs:element name=\"age\" type=\"xs:integer\"><xs:minInclusive value=\"0\"/><xs:maxInclusive value=\"120\"/></xs:element>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xs:element name=\"age\" type=\"xs:nonNegativeInteger\"/>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as it correctly uses the 'xs:restriction' element to define the bounds for the integer value, ensuring 'age' remains between 0 and 120. Option A misuses 'minOccurs' and 'maxOccurs' which are not applicable to value restrictions but to the frequency of element occurrence. Option C attempts to apply min and max directly under the element, which is syntactically incorrect. Option D only ensures that the age is non-negative but does not restrict the upper boundary to 120."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XSLT Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XSLT, what is the result of using the format-number() function with a non-numeric string as the first argument?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An empty string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The original string unchanged"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An error is thrown"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A zero ('0')"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When the format-number() function in XSLT receives a non-numeric string as the first argument, it throws an error because the function expects a numeric input."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Encoding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML declaration is correct when using an encoding that supports characters not covered by UTF-8?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<?xml version=\"1.1\" encoding=\"UTF-8\"?>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"ASCII\"?>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ISO-8859-1 is a character encoding that supports additional characters not available in UTF-8, making it suitable for documents needing such characters."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XML Schema Definition",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of setting the 'maxOccurs' attribute of an XML element to 'unbounded' in its XSD definition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The element can appear an unlimited number of times within its parent element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The element cannot appear more than once."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The element's occurrence is strictly limited to one."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The element is optional and may not appear at all."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'maxOccurs' to 'unbounded' allows the element to repeat indefinitely within its parent element, as opposed to being restricted to a specified number of times."
+      }
+    ]
+  }
+]

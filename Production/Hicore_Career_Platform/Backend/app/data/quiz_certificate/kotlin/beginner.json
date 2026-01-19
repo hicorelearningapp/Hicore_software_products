@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 10,
+    "topic": "Higher Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function can be used to transform all elements in a collection based on a specified condition in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "map()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "filter()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "reduce()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "collect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The map() function in Kotlin is used to transform elements in a collection based on a specific function or condition applied to each item."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Class Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, which keyword is used to declare a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Class"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "object"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'class' keyword is used to declare classes. The keyword 'new' is not used in Kotlin to create an instance of a class (unlike Java), and 'Class' and 'object' are incorrect in this context."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned to different values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVariable = 42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVariable = 42"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variable myVariable = 42"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const myVariable = 42"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables which can be reassigned to different values. 'val' is used for immutable variables which cannot be reassigned once initialized."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Kotlin Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to define a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'var' is used to declare a mutable variable in Kotlin."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to define a function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "func"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'fun' keyword is used to declare a function."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you define a function in Kotlin that takes an integer and returns its square?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun square(n: Int): Int { return n * n }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function square(n: Int): Int = n * n"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun square(n: Int) => n * n"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun square(n: Int) = n * n"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to define a function in Kotlin is using 'fun' keyword followed by function name, parameter list, return type and the function body enclosed in curly braces."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to inherit a class in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, classes are final by default. To make a class inheritable, it must be declared with the 'open' keyword."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVariable = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVariable = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variable myVariable = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const myVariable = 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables, which means the variable can be reassigned after its initial declaration."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Immutable Collections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a type of immutable collection in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ArrayList"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LinkedList"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "listOf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mutableListOf"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'listOf' creates an immutable list, whereas 'ArrayList', 'LinkedList', and 'mutableListOf' provide mutable collections."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to mark a suspending function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "suspend"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pause"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "delay"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "wait"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'suspend' keyword is used to mark a suspending function in Kotlin, which can be paused and resumed at a later time."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in Kotlin is used to output data to the console?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "print()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "printf()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "console()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "output()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'print()' function is used in Kotlin for printing data to the console."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Kotlin Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val variableName: Int = 42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: Int = 42"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variableName: Int = 42"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int variableName = 42"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables which can be reassigned, while 'val' is used for immutable variables which cannot be reassigned after they are initialized."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kotlin Environment Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Integrated Development Environment (IDE) is recommended by JetBrains for Kotlin development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IntelliJ IDEA"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Eclipse"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sublime Text"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JetBrains, the company that created Kotlin, recommends using IntelliJ IDEA for Kotlin development due to its comprehensive support and integration."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Coroutines",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to start a new coroutine in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "launch"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "run"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "execute"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "start"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'launch' function is used to start a new coroutine in Kotlin and is part of the kotlinx.coroutines library."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Type System",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the type of the variable 'val age = 30' in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Double"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Int"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Float"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin infers the type 'Int' for 'age' since 30 is an integer literal."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kotlin Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is used to represent a character in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Char"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Boolean"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Char' data type is used in Kotlin to store a single character."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Kotlin Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVariable = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVariable = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variable myVariable = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const myVariable = 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'var' is used in Kotlin to declare a mutable variable that can be reassigned, unlike 'val' which is for immutable variables."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable that can hold a null value in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var name: String? = null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var name: String = null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var name = null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var name: String? = 'null'"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, to declare a variable that can hold a null value, you must specify its type and add a '?' after the type. Thus, 'var name: String? = null' is the correct declaration."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you define a function in Kotlin that returns an integer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction(): Int { return 0 }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "def myFunction: Int { return 0 }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun myFunction(): Int { return 0 }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Int myFunction() { return 0 }"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, functions are defined using the 'fun' keyword followed by the function name, parentheses with optional parameters, and the return type."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Kotlin Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the keyword to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'var' is used to declare a mutable variable in Kotlin, which means the variable's value can be changed after it is initially set."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val variableName: Int = 42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: Int = 42"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int variableName = 42"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "variableName: Int = 42"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used to declare a mutable variable which can be reassigned, unlike 'val' which declares an immutable variable."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Kotlin Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct file extension for a Kotlin file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".java"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".kt"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".kotlin"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".android"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct file extension for Kotlin source files is '.kt'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that cannot be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVar: Int = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVar: Int = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "let myVar: Int = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const myVar: Int = 10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'val' is used for declaring read-only variables, which means the variable once assigned cannot be reassigned."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Basic Kotlin Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned to different values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var variableName: DataType"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val variableName: DataType"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variableName: DataType"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DataType variableName"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used to declare a mutable variable which means the variable can be reassigned to different values. 'val' is used to declare an immutable variable, which cannot be reassigned once set."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is true about higher-order functions in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They cannot accept functions as parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They can return functions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They can only modify global variables."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are only available in Kotlin, not in other programming languages."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Higher-order functions in Kotlin can both accept functions as parameters and return functions, making option B correct."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to define a read-only variable in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val myVariable = 42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var myVariable = 42"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const myVariable = 42"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "let myVariable = 42"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'val' is used to declare a read-only variable, which means the reference to the object cannot be changed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to define a function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "func"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, functions are defined using the 'fun' keyword."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used in Kotlin to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, a class must be marked with the 'open' keyword to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used in Kotlin to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, a class must be declared as 'open' to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function type is used in Kotlin for functions that do not return a value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function<Unit>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Function<None>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function<Null>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Function<Void>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, functions that do not return a value use 'Unit' to indicate no meaningful value is returned."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using an inline function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance by eliminating the cost of function call overhead."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Allows for functions to be called with dynamic names."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Permits the function to return multiple values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically converts the function to an abstract class."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inline functions in Kotlin are primarily used to improve performance by inlining the function at the call site, hence eliminating the cost of function call overhead."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable that can be reassigned in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val variableName: Int = 5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: Int = 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int variableName = 5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "variableName := 5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used to declare a mutable variable which means it can be reassigned after its initial declaration."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kotlin File Extensions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the file extension used for Kotlin files?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".java"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".kt"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".kotlin"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".android"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin files use the .kt extension."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Class Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to declare a class in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "object"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'class' keyword is used to declare a class."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Classes and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what keyword is used to create a new object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "obj"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, you don't need a keyword like 'new' to create an object. You directly call the constructor."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Kotlin Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of these is necessary to run Kotlin on a machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adobe Flash"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JDK (Java Development Kit)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Python Interpreter"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Microsoft Silverlight"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin is a JVM language, and to compile and run Kotlin code, you need to have the JDK installed in your system."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid higher-order function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun modifyString(str: String, operation: (String) -> String): String = operation(str)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun modifyString(str: String, operation: String): String = operation(str)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun modifyString(operation: (String) -> String): String = operation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun modifyString(str: String): (String) -> String = str"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A higher-order function takes one or more functions as parameters or returns a function. Option A correctly defines a higher-order function where 'operation' is a function that takes a String and returns a String."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used in Kotlin to inherit from a superclass?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "super"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'open' keyword is used on a class declaration to allow it to be inherited by other classes. Unlike Java, Kotlin does not use the 'extends' keyword for inheritance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to Kotlin",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary construct for creating an immutable list in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listOf()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mutableListOf()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "arrayOf()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "immutableListOf()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function listOf() is used in Kotlin to create an immutable list where elements cannot be added or removed post-creation."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you declare a function in Kotlin that returns an integer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction(): Int { return 0 }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "def myFunction(): Int { return 0 }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun myFunction(): Int { return 0 }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int myFunction() { return 0 }"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, functions are declared using the 'fun' keyword followed by the function name, parentheses with optional parameters, and the return type."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Kotlin Environment Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Integrated Development Environment (IDE) is officially recommended by JetBrains for Kotlin development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "IntelliJ IDEA"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Visual Studio Code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Eclipse"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "NetBeans"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IntelliJ IDEA is the officially recommended IDE by JetBrains for Kotlin development due to its comprehensive integration with the Kotlin language."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Coroutines",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in Kotlin is used to start a coroutine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "launch"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "execute"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "run"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "call"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'launch' function is used to start a coroutine in Kotlin, which is part of the structured concurrency in Kotlin Coroutines library."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct lambda expression in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "{ a: Int, b: Int -> a + b }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function(a, b) { return a + b; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "(a, b) => a + b"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[a, b] -> a + b"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is the correct syntax for a lambda expression in Kotlin, taking two Int parameters and returning their sum."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what keyword is used to declare a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "object"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "func"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'class' keyword is used to declare a class."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is used in Kotlin to declare a variable that holds a true or false value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boolean"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Char"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Boolean data type in Kotlin is used to store logical values, which can be either true or false."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVariable = \"Hello\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVariable = \"Hello\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const myVariable = \"Hello\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "let myVariable = \"Hello\""
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used to declare a mutable variable which means it can be reassigned. 'val' is for immutable variables, while 'const' and 'let' are not used for declaring variables in Kotlin."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to define a function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "func"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'fun' is used to define functions in Kotlin."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable that can hold null values in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var variableName: String?"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: String"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var variableName = null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var variableName: String=null"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, to declare a variable that may hold a null value, you must explicitly mark it as nullable by appending a '?' to the type."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable that can be reassigned in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val variableName: Int = 42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: Int = 42"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int variableName = 42"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "variableName = 42"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used to declare a mutable variable which means the value of the variable can be changed after it is initially set. 'val' is used for declaring read-only or immutable variables."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a higher-order function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A function that takes another function as a parameter or returns a function."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A function that performs high-level operations like file I/O."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A function that cannot be passed as a parameter."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A function that only returns integer values."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A higher-order function is a function that takes functions as parameters, or returns a function."
+      }
+    ]
+  }
+]

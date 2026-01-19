@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "Advanced Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following tables, employees(emp_id, name, manager_id) and projects(proj_id, proj_name, emp_id), which subquery correctly finds the names of employees who manage at least one other employee but are not assigned to any project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT name FROM employees WHERE emp_id IN (SELECT manager_id FROM employees) AND emp_id NOT IN (SELECT emp_id FROM projects)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT name FROM employees WHERE emp_id IN (SELECT manager_id FROM projects) AND emp_id NOT IN (SELECT emp_id FROM employees)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT name FROM employees WHERE manager_id IS NOT NULL AND emp_id NOT IN (SELECT emp_id FROM projects)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT name FROM employees WHERE emp_id IN (SELECT manager_id FROM employees) AND emp_id IN (SELECT emp_id FROM projects)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it selects employees who are listed as a manager of at least one other employee and are not listed in any project. The subqueries correctly check for manager status and absence in the projects table."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Advanced SQL Injection Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following strategies provides the MOST effective protection against SQL injection attacks when integrating MySQL with PHP web applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use regular expressions to filter out malicious input."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employ htmlspecialchars() to encode special characters."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilize prepared statements with parameterized queries."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Rely on MySQL's native input validation mechanisms."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Prepared statements with parameterized queries are the most effective method against SQL injection as they separate SQL logic from the data. This prevents attackers from injecting malicious SQL code."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database table 'Products' with a non-clustered index on the 'ProductID' column. What would be the impact on performance if you frequently update the 'Price' column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "There will be no impact on performance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It will decrease the performance of SELECT queries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It will increase the performance of UPDATE queries."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It will decrease the performance of UPDATE queries."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Frequently updating a column in a table with a non-clustered index leads to additional overhead, as the index must also be updated. This decreases the performance of UPDATE queries."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Query Optimization Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following query optimizations involves restructuring a complex query into a simpler form, which might involve breaking it down into smaller subqueries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Join optimization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Query refactoring"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data normalization"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Query refactoring involves altering the structure of SQL queries to improve database performance, often by simplifying complex queries into smaller, more manageable parts."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "MySQL Password Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to enforce password expiration policy for all accounts in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET GLOBAL default_password_lifetime = 360;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALTER USER user@localhost PASSWORD EXPIRE INTERVAL 360 DAY;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE mysql.user SET password_expired = 'Y' WHERE user = 'user' AND host = 'localhost';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET GLOBAL expire_logs_days = 360;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because 'SET GLOBAL default_password_lifetime = 360;' sets the global password expiration policy for all accounts to 360 days. Other options target specific users or are unrelated settings."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Transactions and Locking",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a transaction, if a deadlock occurs, which of the following actions should be taken to resolve the issue?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increase the transaction isolation level"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decrease the transaction isolation level"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The system automatically detects and resolves deadlocks by rolling back one of the transactions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Manually delete the database logs"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Most modern database management systems, including MySQL, have an in-built mechanism to detect deadlocks. The system automatically resolves these by rolling back one of the transactions involved in the deadlock, thus allowing the other transaction to proceed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "MySQL Connection Pooling in Web Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PHP web application using PDO to manage a MySQL database, which of the following represents the correct way to implement persistent connection pooling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the PDO::ATTR_PERSISTENT attribute in the PDO constructor"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting mysqli.persist_on in the php.ini file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Including persistent=true in the MySQL connection string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enabling session.auto_start in the php.ini file"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to enable persistent connection pooling in PDO is by setting the PDO::ATTR_PERSISTENT attribute to true in the PDO constructor, which maintains a persistent connection to the database across multiple requests."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Join Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider two tables, A and B. Table A has columns id and A_name, and table B has columns id and B_name. You need to retrieve rows from Table A that have no matching id in Table B. Which SQL query would correctly accomplish this task?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM A LEFT JOIN B ON A.id = B.id WHERE B.id IS NULL;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT * FROM A INNER JOIN B ON A.id = B.id WHERE B.id IS NULL;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT * FROM A RIGHT JOIN B ON A.id = B.id WHERE A.id IS NOT NULL;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT A.* FROM A, B WHERE A.id <> B.id;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A uses a LEFT JOIN to include all records from the left table (A) and the matched records from the right table (B). The WHERE clause 'B.id IS NULL' filters the results to include only those rows from A that do not have a corresponding id in B."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Role-based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using roles in MySQL user management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To encrypt user data automatically"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide database backups"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To simplify the management of user privileges"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the speed of database queries"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary reason for using roles in MySQL is to simplify the management of user privileges. Roles allow for the grouping of privileges, which can then be assigned to users, making it easier to manage permissions across a large number of users."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Security in MySQL Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using stored procedures in MySQL to enhance security in a dynamic website, which of the following practices is NOT recommended?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Utilizing prepared statements within stored procedures"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hard-coding sensitive data within the stored procedure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing access control at the database level"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Regularly updating and reviewing privileges and roles"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hard-coding sensitive data within stored procedures exposes the data to security risks and maintenance issues. It is a best practice to keep sensitive data dynamic and secured, and not embedded in the code."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact of using subqueries in the SELECT clause of an SQL query on MySQL performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases performance by increasing read I/O"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Improves performance by limiting data sorting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Improves performance by using indexes more efficiently"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases performance due to increased computational load"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Subqueries in the SELECT clause often result in increased computational load because each subquery may be executed multiple times, once for each row that could be returned by the main query, leading to decreased performance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Managing MySQL User Privileges",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command should be used to revoke all privileges from a user on the 'employees' database, but still allow them to log into MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "REVOKE ALL PRIVILEGES ON employees.* FROM user;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE ALL ON employees.* FROM user;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REVOKE ALL PRIVILEGES ON employees.* TO user;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE PRIVILEGES ON employees.* FROM user;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because REVOKE ALL PRIVILEGES ON database.* FROM user; specifically removes all granted permissions on the specified database for the user, while still allowing database login."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Optimizing MySQL Queries for Web Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When optimizing a MySQL database for high-traffic web applications, which of the following index configurations is LEAST likely to improve query performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adding a full-text index on a VARCHAR column frequently used in search operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating a composite index on columns that are often queried together"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using a hash index on a column primarily used for equality comparisons"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Indexing every column in a table regardless of their usage in queries"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexing every column in a table is inefficient and can degrade performance, as it increases overhead for the database engine without targeted benefits, unlike the other options which are more strategic."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Performance Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a MySQL query is consistently slow, which of the following is the most effective initial approach to diagnose the issue?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increase server RAM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Review and optimize the query's execution plan using EXPLAIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Restart the MySQL server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Convert all tables to use the MyISAM storage engine"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reviewing and optimizing the query's execution plan using EXPLAIN allows the developer to understand how MySQL executes the query and identify potential inefficiencies."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Subqueries in Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database with tables 'employees' (columns: 'id', 'department_id', 'name') and 'departments' (columns: 'id', 'name'). Which SQL query correctly returns the names of employees who work in the same department as 'John' using a subquery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT e.name FROM employees e WHERE e.department_id = (SELECT department_id FROM employees WHERE name = 'John')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT e.name FROM employees e JOIN departments d ON e.department_id = d.id WHERE d.name = 'John'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT e.name FROM employees e WHERE e.department_id IN (SELECT id FROM departments WHERE name = 'John')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT e.name FROM employees e WHERE EXISTS (SELECT department_id FROM employees WHERE name = 'John' AND e.department_id = department_id)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it uses a subquery to find the 'department_id' where 'John' works and then selects names of all employees in that department. Other options incorrectly use department names or incorrect SQL logic."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Security in MySQL Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using prepared statements in PHP to prevent SQL injection, what is a side effect of using the persistent connection feature in PDO (PHP Data Objects)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reduction in memory usage"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increased application performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Potential memory leaks due to connection pooling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreased security due to stored procedures"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Persistent connections are not closed at the end of the script, but are cached by the PDO extension. Overusing persistent connections can lead to memory leaks as scripts hold onto connections longer than necessary."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregate Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "You are analyzing a table named 'sales' with columns 'product_id' and 'amount'. You need to find the maximum sales amount for each product, and also display products with no sales. Which SQL query correctly achieves this?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT product_id, MAX(amount) FROM sales GROUP BY product_id;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT product_id, MAX(amount) AS max_amount FROM sales GROUP BY product_id HAVING max_amount > 0;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT product_id, IFNULL(MAX(amount), 0) AS max_amount FROM sales GROUP BY product_id;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT product_id, COALESCE(MAX(amount), 0) AS max_amount FROM sales LEFT JOIN products ON sales.product_id = products.id GROUP BY product_id;"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D correctly uses a LEFT JOIN to include all products regardless of whether they appear in the sales table. It uses COALESCE to display 0 for products without sales, and aggregates sales using MAX grouped by product_id."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Complex Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a database with tables 'Orders' (order_id, customer_id, order_date) and 'Products' (product_id, product_name, price). You need to find the highest price product ordered by each customer. Which SQL statement correctly achieves this?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT customer_id, MAX(price) FROM Orders JOIN Products ON Orders.product_id = Products.product_id GROUP BY customer_id;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT customer_id, product_name FROM Orders JOIN Products ON Orders.product_id = Products.product_id WHERE price = (SELECT MAX(price) FROM Products);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT customer_id, product_name, price FROM Orders JOIN Products ON Orders.product_id = Products.product_id ORDER BY price DESC LIMIT 1;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT customer_id, MAX(price) AS HighestPrice FROM Orders JOIN Products ON Orders.product_id = Products.product_id GROUP BY customer_id, product_name;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly uses JOIN to combine the tables, GROUP BY to aggregate results per customer, and MAX to find the highest price for each customer."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Advanced JOIN Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given two tables 'Orders' and 'Products', which SQL statement correctly retrieves all orders along with the product name, but only includes orders for products whose stock is below 50?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM Orders INNER JOIN Products ON Orders.product_id = Products.id WHERE Products.stock >= 50"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT Orders.*, Products.name FROM Orders LEFT JOIN Products ON Orders.product_id = Products.id WHERE Products.stock < 50"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT Orders.*, Products.name FROM Orders RIGHT JOIN Products ON Orders.product_id = Products.id"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT Orders.order_id, Products.product_name FROM Orders JOIN Products ON Orders.product_id = Products.id"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because the LEFT JOIN ensures all records from the 'Orders' table are included, and the WHERE clause restricts the included records to those where the associated product's stock is less than 50."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement correctly returns records that appear in both Table A and Table B, excluding rows where 'column_x' is NULL in either table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM A INNER JOIN B ON A.id = B.id WHERE A.column_x IS NOT NULL AND B.column_x IS NOT NULL;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT * FROM A FULL OUTER JOIN B ON A.id = B.id WHERE A.column_x IS NOT NULL AND B.column_x IS NOT NULL;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT * FROM A LEFT JOIN B ON A.id = B.id WHERE A.column_x IS NOT NULL AND B.column_x IS NOT NULL;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT * FROM A RIGHT JOIN B ON A.id = B.id WHERE A.column_x IS NOT NULL AND B.column_x IS NOT NULL;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The INNER JOIN ensures that only records matching the join condition from both tables are selected, and the WHERE clause filters out rows with 'column_x' as NULL."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When might using a composite index be more effective than using multiple single-column indexes in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When queries only involve the first column of the composite index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When queries involve conditions on all the columns of the index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When the table is frequently updated"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "When the indexed columns are not used in WHERE clauses"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A composite index is more effective than multiple single-column indexes when queries involve conditions on all the columns of the index, as it can optimize the query by using one index scan."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Execution Plans",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of MySQL, what effect does using the 'FORCE INDEX' hint have on the execution plan of a query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the MySQL optimizer to select the most appropriate index for a query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It directs the MySQL optimizer to ignore the presence of indexes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It restricts the MySQL optimizer to use only the specified index, even if other indexes might result in a more efficient query plan."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It causes the MySQL optimizer to rebuild the index before executing the query."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because the 'FORCE INDEX' hint limits the optimizer to using only the specified index, potentially overriding a more efficient plan that could have been chosen without the hint."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Database Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an indexed column 'data' in a table 'Records', which of the following queries will NOT efficiently utilize the index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM Records WHERE data LIKE 'Info%';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT * FROM Records WHERE data = 'Information';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT * FROM Records WHERE data > 'Info';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT * FROM Records WHERE data LIKE '%info';"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the '%' wildcard at the beginning of the LIKE pattern ('%info') prevents the database from using the index efficiently as it has to scan the entire index."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Normalization and Anomalies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios best illustrates an Update Anomaly in a non-normalized database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Changing the address of a supplier requires multiple rows to be updated."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deleting a product results in loss of information about its supplier."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inserting a new employee record without a department causes a NULL in the department field."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A new supplier cannot be added unless there is at least one product supplied."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a non-normalized database, the same information is stored in multiple rows. So, if the supplier's address changes, all rows containing that supplier's information must be updated, illustrating an update anomaly."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Transaction Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if a DDL statement is executed in the middle of a transaction in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The transaction is automatically committed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The DDL statement is queued until the transaction is committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The transaction is rolled back"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The DDL statement is ignored"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MySQL, executing a DDL statement (such as CREATE, ALTER, DROP) within a transaction will cause an implicit commit of the transaction."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Privilege Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to revoke all privileges from a user on a specific database in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "REVOKE ALL PRIVILEGES, GRANT OPTION FROM user@localhost;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REVOKE ALL PRIVILEGES ON databasename.* FROM user@localhost;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP USER user@localhost;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ALTER USER user@localhost REVOKE ALL;"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because 'REVOKE ALL PRIVILEGES ON databasename.* FROM user@localhost;' specifically revokes all privileges from the user on the specified database. Other options do not specify a database or incorrectly format the command."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "MySQL Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements correctly describes the process of establishing secure connections in MySQL using SSL certificates, assuming all file paths are correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT ALL PRIVILEGES ON db.* TO 'user'@'%' REQUIRE SSL;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CREATE USER 'user'@'%' IDENTIFIED BY 'password' REQUIRE X509;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GRANT USAGE ON *.* TO 'user'@'%' REQUIRE ISSUER '/C=US/ST=California/L=Menlo Park/O=MySQL/CN=MySQL_Server';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CREATE USER 'user'@'localhost' IDENTIFIED BY 'password' REQUIRE CIPHER 'DHE-RSA-AES256-SHA';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it grants all privileges on the database to the user, specifies that the user must connect from any host, and requires the use of SSL for the connection, which is a commonly used secure connection requirement."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the frequent execution of the query 'SELECT * FROM Employees WHERE department = 'Sales' AND region = 'North America';', what is the most effective indexing strategy to optimize this query performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Create a single-column index on 'department'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Create separate single-column indexes on 'department' and 'region'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Create a multi-column index on 'department, region'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No indexes are needed; modern databases optimize such queries automatically."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because a multi-column index on both 'department' and 'region' will more efficiently filter the rows based on both conditions simultaneously, which is exactly what the query needs."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database with a 'users' table having columns 'id', 'username', and 'email'. If a query frequently involves searching by both 'username' and 'email', what is the most optimized indexing strategy?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Create a separate index for 'username' and 'email'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Create a single composite index on ('username', 'email')."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Create a single index on 'username' and use FULLTEXT on 'email'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No indexing is required for optimal performance."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because a composite index on both 'username' and 'email' optimizes the query performance for searches involving both columns, as it allows the database engine to quickly locate entries by both fields simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Transactional Control Language (TCL) Commands",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands will ONLY undo transactions that have errors and continue to execute the remaining transactions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ROLLBACK TO SAVEPOINT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SET TRANSACTION"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SAVEPOINT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ROLLBACK TO SAVEPOINT only undoes the transactions up to the specified savepoint, allowing for error handling within batches of transactions without affecting all preceding work."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "MySQL Grant Tables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "A MySQL administrator needs to configure user authentication and authorization based on the most specific match of Host, User, and DB columns in the mysql.db table. What is this process commonly referred to as?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Row-level Security"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Wildcard Matching"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scope Resolution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Privilege Resolution"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because Privilege Resolution involves evaluating permissions using a specific order of precedence based on Host, User, and DB in grant tables, ensuring the most precise security controls."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which index type would most effectively optimize a query that involves a LEFT JOIN operation between two large tables, based on the columns that are frequently used in search conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bitmap Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No index needed"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree Index is most suitable for operations involving ranges, which are common in JOIN conditions. This index type allows for efficient search, insertion, and deletion operations."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Securing MySQL Connections in Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating MySQL with a secure web application, which method ensures that MySQL server certificates are validated against a Certificate Authority (CA) during the SSL/TLS handshake?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the --require-secure-transport option"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting the MYSQLI_OPT_SSL_VERIFY_SERVER_CERT option in mysqli"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Enabling the --ssl-mode=VERIFY_IDENTITY option"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Applying the --ssl-ca parameter in the connection string"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The --ssl-mode=VERIFY_IDENTITY option ensures that the MySQL client verifies the server's SSL certificate against the CA certificates specified by --ssl-ca or the system's default CA certificates."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Complex JOIN Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given three tables, TableA, TableB, and TableC, where TableA joins with TableB on column 'id', and TableB joins with TableC on column 'ref_id'. If a LEFT JOIN is used from TableA to TableB and an INNER JOIN is used from TableB to TableC, which type of data from TableA will NOT be displayed in the final output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data in TableA with corresponding keys in TableB but not in TableC"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data in TableA without corresponding keys in TableB"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "All data in TableA will be displayed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data in TableA with corresponding keys in both TableB and TableC"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data from TableA that finds matches in TableB but not in TableC will not appear in the final result because the INNER JOIN on TableB to TableC will exclude rows from TableB that do not have a corresponding match in TableC."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Database Indexes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MySQL, which type of index will most efficiently enforce uniqueness on multiple columns in a table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Primary Key"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unique Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Fulltext Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Spatial Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A unique index can be applied to multiple columns and ensures that the combination of values in these columns is unique across the table, which is the most efficient way to enforce multi-column uniqueness in MySQL."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Asynchronous Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of integrating MySQL with Node.js, which method allows for non-blocking database queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node-mysql2/promise()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql.createConnection()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql.query()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "node-mysql2/execute()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "node-mysql2/promise() allows for asynchronous queries by returning promises. This enables non-blocking execution in Node.js applications, which is crucial for handling I/O heavy operations efficiently."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced JOIN Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given two tables, 'Orders' with columns (OrderID, ProductID, Quantity) and 'Products' with columns (ProductID, ProductName, Price), what SQL query would you use to find the names of products that have been ordered more than 10 times, without using subqueries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT ProductName FROM Products JOIN Orders ON Products.ProductID = Orders.ProductID GROUP BY ProductName HAVING COUNT(Orders.OrderID) > 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT ProductName FROM Products WHERE ProductID IN (SELECT ProductID FROM Orders GROUP BY ProductID HAVING COUNT(OrderID) > 10)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT ProductName FROM Products JOIN Orders ON Products.ProductID = Orders.ProductID WHERE COUNT(Orders.OrderID) > 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT ProductName FROM Products INNER JOIN Orders ON Products.ProductID = Orders.ProductID AND COUNT(Orders.OrderID) > 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly joins the two tables on ProductID, groups the results by ProductName, and uses HAVING to filter groups where the count of OrderIDs exceeds 10, which meets the condition without using subqueries."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregate Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a table 'sales' with columns 'product_id', 'quantity_sold', and 'sale_date', which query will find the product with the highest quantity sold in a single day?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT product_id FROM sales GROUP BY product_id ORDER BY SUM(quantity_sold) DESC LIMIT 1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT product_id FROM sales ORDER BY quantity_sold DESC LIMIT 1"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT product_id FROM (SELECT product_id, quantity_sold FROM sales GROUP BY product_id, sale_date ORDER BY quantity_sold DESC) AS subquery LIMIT 1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT product_id, MAX(quantity_sold) AS max_quantity FROM sales GROUP BY product_id, sale_date ORDER BY max_quantity DESC LIMIT 1"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D correctly identifies the product with the highest quantity sold in a single day by grouping sales data by both 'product_id' and 'sale_date', and ordering by the maximum quantity sold in descending order, selecting the top row."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced JOIN Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following SQL query assuming all tables are properly indexed and 'employees' table has 5000 rows and 'departments' table has 500 rows? SELECT COUNT(*) FROM employees RIGHT JOIN departments ON employees.department_id = departments.id WHERE employees.id IS NULL;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "500"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4500"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5000"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5500"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The RIGHT JOIN includes all records from the 'departments' table and the matched records from the 'employees' table. The condition 'employees.id IS NULL' filters out unmatching rows from the 'employees' table, which refers to departments without any employees. Since there are total 500 departments, and assuming all are not evenly distributed among employees, the returned count (4500) represents departments without employees."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Normalization and Database Schemas",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a relation R(A, B, C, D) and the set of functional dependencies F = {A -> B, B -> C, C -> D}, what is the highest normal form of R?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1NF"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "2NF"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3NF"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BCNF"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "R is in BCNF because for every functional dependency X -> Y in F, X is a superkey."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Optimizing Queries with Indexes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When optimizing a query that involves a WHERE clause on a non-primary key column 'zipcode' which is frequently accessed, what type of index will MOST effectively improve query performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Primary index on 'zipcode'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unique index on 'zipcode'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Composite index including 'zipcode'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Secondary index on 'zipcode'"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A secondary index on 'zipcode' is most effective for improving performance because it allows the database to quickly locate the data associated with non-primary key columns that are used frequently in queries."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a large user database system, if a query is executed to find users by their last names, which type of index would be most efficient to optimize this query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Clustered Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Full-text Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "B-tree Index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A B-tree index is ideal for range queries and searches involving non-exact terms, which is typical when searching by last name, as it allows for quick lookups, range retrievals, and sorted access."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the requirement to perform a join operation between two tables, 'orders' and 'products', on the 'product_id', which SQL clause is best suited to ensure no rows from 'orders' are lost even if there is no corresponding row in 'products'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CROSS JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "LEFT JOIN ensures that all rows from the 'orders' table appear in the joined table. If there is no match with 'products', the result is NULL on the side of the 'products' table."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Complex Data Aggregation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a database with a 'Sales' table that includes 'SaleID', 'ProductID', 'Quantity', and 'Price', which SQL query would allow you to find the total sales revenue per product, displaying only those products with a total revenue greater than $5000?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT ProductID, SUM(Quantity * Price) AS Revenue FROM Sales GROUP BY ProductID HAVING Revenue > 5000;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT ProductID, SUM(Quantity + Price) AS Revenue FROM Sales GROUP BY ProductID HAVING Revenue > 5000;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT ProductID, COUNT(Quantity * Price) AS Revenue FROM Sales WHERE Revenue > 5000 GROUP BY ProductID;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT ProductID, SUM(Quantity * Price) AS Revenue FROM Sales WHERE Revenue > 5000 GROUP BY ProductID;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it correctly calculates the total revenue by multiplying 'Quantity' by 'Price' for each product, sums up these values grouped by 'ProductID', and uses the 'HAVING' clause to filter out those products with a total revenue exceeding $5000."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following SQL statement: SELECT * FROM Employees WHERE EmployeeID IN (SELECT EmployeeID FROM Orders WHERE OrderDate BETWEEN '2020-01-01' AND '2020-12-31'); What type of subquery is utilized?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Scalar subquery"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Correlated subquery"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Non-correlated subquery"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Recursive subquery"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "This is a non-correlated subquery because the inner query can be executed independently of the outer query."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Aggregation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming a 'Users' table with columns (UserID, UserName, UserAge) and a 'Purchases' table with columns (PurchaseID, UserID, Amount), write a SQL query to find the average purchase amount for users over the age of 30."
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT AVG(Amount) FROM Purchases JOIN Users ON Purchases.UserID = Users.UserID WHERE UserAge > 30"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT AVG(Amount) AS AveragePurchase FROM Purchases WHERE UserID IN (SELECT UserID FROM Users WHERE UserAge > 30)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT UserName, AVG(Amount) FROM Users INNER JOIN Purchases ON Users.UserID = Purchases.UserID GROUP BY UserName HAVING UserAge > 30"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT AVG(Purchases.Amount) FROM Users WHERE UserAge > 30"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it joins the 'Users' and 'Purchases' tables on UserID, directly applies the condition on UserAge, and computes the average of 'Amount' for those users above the age of 30."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing and Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a database table 'users' with columns 'id', 'name', and 'email', which of the following index configurations would most likely improve the performance of a query that selects users based on both 'name' and 'email'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A single index on 'name'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A single index on 'email'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Separate indexes on both 'name' and 'email'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A composite index on ('name', 'email')"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A composite index on ('name', 'email') is optimal as it allows the database engine to efficiently filter and sort by both columns simultaneously, which is more efficient than having separate indexes for each column."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Complex Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering two tables, 'orders' (with columns 'order_id', 'customer_id', and 'order_date') and 'customers' (with columns 'customer_id', 'name', and 'email'), which SQL query will correctly return a list of customer names who have made orders within the last 30 days, without using explicit JOIN syntax?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT name FROM customers, orders WHERE customers.customer_id = orders.customer_id AND order_date > NOW() - INTERVAL 30 DAY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT name FROM customers INNER JOIN orders ON customers.customer_id = orders.customer_id WHERE order_date > DATE_SUB(NOW(), INTERVAL 30 DAY)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT name FROM customers WHERE customer_id IN (SELECT customer_id FROM orders WHERE order_date > CURDATE() - 30)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT name FROM customers WHERE EXISTS (SELECT 1 FROM orders WHERE customers.customer_id = orders.customer_id AND order_date > CURDATE() - INTERVAL 30 DAY)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A uses a comma-separated list of tables which is an implicit join, matching the required condition without explicit JOIN syntax. The WHERE clause correctly filters records from the last 30 days."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using composite indexes in MySQL, which of the following statements is most accurate regarding the order of columns in an index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The order of columns in the index does not affect the performance of the query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Columns that are frequently used alone in WHERE clauses should be placed last in the index."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Columns that are part of a range query should be placed first in the index."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Columns used in the WHERE clause should be placed in the order of decreasing cardinality in the index."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Placing columns used in the WHERE clause in order of decreasing cardinality (or uniqueness) maximizes the effectiveness of the index by reducing the number of rows that need to be examined."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following index modifications is most likely to optimize a MySQL query that includes a WHERE clause referencing multiple columns in a large dataset?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adding a single-column index to each column in the WHERE clause"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating a composite index on all columns in the WHERE clause in the order they appear"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating a composite index on all columns in the WHERE clause in order of decreasing selectivity"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Removing existing indexes on the columns in the WHERE clause"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because a composite index created in order of decreasing selectivity can handle the query more efficiently by reducing the number of rows scanned."
+      }
+    ]
+  }
+]

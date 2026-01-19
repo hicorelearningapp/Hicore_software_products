@@ -1,0 +1,374 @@
+[2025-12-06 08:58:11] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 08:58:16] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 08:58:16] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 08:59:16] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 08:59:16] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 08:59:18] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 08:59:18] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 08:59:18] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 08:59:18] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 08:59:19] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 08:59:19] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 08:59:53] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 08:59:53] [ERROR] [app] [UserManager] send_email_otp failed: 'EmailOtpService' object has no attribute 'generate_otp'
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\AI_career_platform_application\app\modules\auth\managers\user_manager.py", line 67, in send_email_otp
+    otp = self.email_service.generate_otp()
+AttributeError: 'EmailOtpService' object has no attribute 'generate_otp'
+[2025-12-06 09:01:59] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:02:01] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:02:01] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:02:15] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:02:15] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:02:16] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:02:16] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:02:16] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:02:16] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:02:16] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:02:24] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:02:24] [INFO] [app] [EmailOtpService] OTP stored for vyokesh344@gmail.com
+[2025-12-06 09:02:29] [INFO] [app] [EmailClient] Email sent to vyokesh344@gmail.com
+[2025-12-06 09:02:29] [INFO] [app] [UserManager] OTP sent to vyokesh344@gmail.com
+[2025-12-06 09:03:10] [INFO] [app] [UserManager] Verifying OTP for email: vyokesh344@gmail.com.com
+[2025-12-06 09:03:10] [INFO] [app] [EmailOtpService] OTP verification for vyokesh344@gmail.com.com: False
+[2025-12-06 09:03:10] [WARNING] [app] [UserManager] OTP invalid or expired for vyokesh344@gmail.com.com
+[2025-12-06 09:03:22] [INFO] [app] [UserManager] Verifying OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:03:22] [INFO] [app] [EmailOtpService] OTP verification for vyokesh344@gmail.com: True
+[2025-12-06 09:03:23] [INFO] [app] [UserManager] Creating new user for vyokesh344@gmail.com
+[2025-12-06 09:03:23] [INFO] [app] [UserManager] OTP verified successfully for vyokesh344@gmail.com
+[2025-12-06 09:03:57] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:03:59] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:03:59] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:04:19] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:04:19] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:04:21] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:04:21] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:04:21] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:04:21] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:04:21] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:04:22] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:04:22] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:04:22] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:04:23] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:04:23] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:04:43] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:04:45] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:04:45] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:04:58] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:04:58] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:04:59] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:05:00] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:05:00] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:05:00] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:05:00] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:05:00] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:05:26] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:05:28] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:05:28] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:05:50] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:05:50] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:05:52] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:05:52] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:05:52] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:05:52] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:05:52] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:05:52] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:05:52] [INFO] [app] [EmailOtpService] OTP stored for vyokesh344@gmail.com
+[2025-12-06 09:05:56] [INFO] [app] [EmailClient] Email sent to vyokesh344@gmail.com
+[2025-12-06 09:05:56] [INFO] [app] [UserManager] OTP sent to vyokesh344@gmail.com
+[2025-12-06 09:05:56] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:05:56] [INFO] [app] [EmailOtpService] OTP stored for vyokesh344@gmail.com
+[2025-12-06 09:06:01] [INFO] [app] [EmailClient] Email sent to vyokesh344@gmail.com
+[2025-12-06 09:06:01] [INFO] [app] [UserManager] OTP sent to vyokesh344@gmail.com
+[2025-12-06 09:07:52] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:07:53] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:07:53] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:08:10] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:08:10] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:08:12] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:08:12] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:08:12] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:08:13] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:08:13] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:08:13] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:08:36] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:08:38] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:08:38] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:08:51] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:08:51] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:08:52] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:08:52] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:08:52] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:08:52] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:08:52] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:09:51] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:09:53] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:09:53] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:10:01] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.progress'
+[2025-12-06 09:10:02] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.progress'
+[2025-12-06 09:10:02] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:10:14] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.progress'
+[2025-12-06 09:10:14] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:10:15] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:10:15] [ERROR] [app.core.startup] Failed to include router app.modules.enroll.routers.enroll_routes: No module named 'app.modules.progress'
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:10:15] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.progress'
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:10:15] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:10:15] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:10:19] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:10:19] [INFO] [app] [EmailOtpService] OTP stored for vyokesh344@gmail.com
+[2025-12-06 09:10:19] [INFO] [app] [UserManager] OTP queued for background sending to vyokesh344@gmail.com
+[2025-12-06 09:10:23] [INFO] [app] [EmailClient] Email sent to vyokesh344@gmail.com
+[2025-12-06 09:10:23] [INFO] [app] [EmailOtpService] Background OTP email sent → vyokesh344@gmail.com
+[2025-12-06 09:10:37] [INFO] [app] [UserManager] Requested OTP for email: vyokesh344@gmail.com
+[2025-12-06 09:10:37] [INFO] [app] [EmailOtpService] OTP stored for vyokesh344@gmail.com
+[2025-12-06 09:10:37] [INFO] [app] [UserManager] OTP queued for background sending to vyokesh344@gmail.com
+[2025-12-06 09:10:42] [INFO] [app] [EmailClient] Email sent to vyokesh344@gmail.com
+[2025-12-06 09:10:42] [INFO] [app] [EmailOtpService] Background OTP email sent → vyokesh344@gmail.com
+[2025-12-06 09:17:23] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:17:25] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:17:25] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:17:47] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:17:49] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:17:49] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:18:01] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:18:01] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:18:02] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:18:02] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:18:02] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:18:02] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:19:09] [INFO] [app] [CourseService] Creating course for string-0M
+[2025-12-06 09:19:09] [INFO] [app] [CourseService] Saving file: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads\find_my_career\images\img_STRING-0M-COURSE-B9F4761A_1712973541476.jfif
+[2025-12-06 09:19:09] [INFO] [app] [CourseService] Saving file: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads\find_my_career\images\bg_STRING-0M-COURSE-B9F4761A_1712973541476.jfif
+[2025-12-06 09:19:34] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:19:37] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:19:37] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:20:00] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:20:00] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:20:03] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:20:03] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:20:04] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:20:04] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:20:04] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:24:29] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:24:32] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:24:32] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:24:45] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:24:45] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:24:46] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:24:46] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:24:46] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:24:46] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:24:50] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:24:52] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:24:52] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:25:04] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:25:04] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:25:06] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:25:06] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:25:06] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:25:06] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:25:06] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:25:07] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:25:07] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:25:08] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:25:08] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:25:48] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:25:49] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:25:49] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:26:01] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:26:01] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:26:02] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:26:03] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:26:03] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:26:03] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:26:03] [INFO] [app.core.startup] 🎉 Startup complete!
+[2025-12-06 09:27:04] [ERROR] [app.core.startup] Failed to include router app.modules.access.routers.access_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:27:06] [ERROR] [app.core.startup] Failed to include router app.modules.ai_engine.routers.ai_career_assistance: No module named 'app.modules.enroll'
+[2025-12-06 09:27:06] [INFO] [app.core.startup] Router included: app.modules.ai_engine.routers.interview_preparation
+[2025-12-06 09:27:26] [ERROR] [app.core.startup] Failed to include router app.modules.ai_profile_matching.routers.match_routes: No module named 'app.modules.enroll'
+[2025-12-06 09:27:26] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_builder
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.ai_resume_builder.routers.resume_download
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.applications.routers.application_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.bookmark.routers.bookmark_router
+[2025-12-06 09:27:27] [INFO] [app.core.utils.file_manager] [FileHandler] BASE_UPLOAD_DIR set to: D:\AI_career_studio_backend\AI_career_platform_application\app\uploads
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.courses.routers.course_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.dashboard.routers.dashboard_route
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.find_my_career.routers.course_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.freshers_interview.routers.freshers_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.internships.routers.internship_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.jobs.routers.job_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.admin_router
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.mentor_json.routers.mentor_router
+[2025-12-06 09:27:27] [ERROR] [app.core.startup] Failed to include router app.modules.profile.routers.profile_router: No module named 'app.modules.enroll'
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.progress_manager.routers.progress_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.project.routers
+[2025-12-06 09:27:27] [INFO] [app.core.startup] Router included: app.modules.project_drashboard.routers.mentor_routes
+[2025-12-06 09:27:27] [INFO] [app.core.startup] 🎉 Startup complete!

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 4,
+    "topic": "The CIA Triad",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which element of the CIA Triad focuses primarily on preventing unauthorized access to information?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Confidentiality"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Integrity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Availability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Authorization"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Confidentiality, as part of the CIA Triad, ensures that sensitive information is accessible only to an authorized set of users and prevents unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Vulnerability Scanning Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following methods is NOT commonly used in the process of vulnerability scanning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Port scanning"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Credential brute-forcing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Signature-based detection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Patch management"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Patch management is not a method used during vulnerability scanning; rather, it is a proactive measure taken after vulnerabilities are identified to ensure they are rectified."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Encryption Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which one of the following is NOT a characteristic of a secure cryptographic hash function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Pre-image resistance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Collision resistance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polynomial time computation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avalanche effect"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Secure cryptographic hash functions require properties such as pre-image resistance, collision resistance, and an avalanche effect. Polynomial time computation is not a required characteristic; instead, hash functions should be computationally infeasible to reverse."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Integration of Incident Response and Disaster Recovery",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the necessity of integrating incident response with disaster recovery planning in the context of organizational resilience?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Incident response plans are sufficient as they cover both immediate and long-term recovery strategies."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Disaster recovery planning is only necessary for IT-related disruptions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Integration ensures a comprehensive approach to both immediate containment and long-term recovery, maintaining continuity."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Disaster recovery plans should focus solely on data recovery and not on overall business continuity."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrating incident response with disaster recovery planning ensures that immediate threats are contained while also preparing for the sustained recovery of normal operations, thereby maintaining organizational continuity and resilience."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Threat Intelligence Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of cybersecurity, which of the following best describes the role of threat intelligence in vulnerability management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quantifying the financial impact of potential breaches"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Determining the severity of threats based on real-time data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automating the patching of software vulnerabilities"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Facilitating compliance with data protection regulations"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Threat intelligence plays a crucial role in vulnerability management by providing real-time data to determine the severity of threats and prioritize them accordingly. This enables more effective and targeted remediation efforts."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Firewall Mechanisms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a network security context, which of the following best describes the function of stateful firewalls?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Monitors the state of active connections and determines which network packets to allow through the firewall."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Filters traffic based solely on source and destination IP addresses and ports without maintaining any history of past connections."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Operates primarily at the application layer to intercept all packets traveling to or from an application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inspects the data portion of a packet and ensures it matches a known safe signature before allowing it pass through."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Stateful firewalls monitor the state of active connections and use this information to make decisions about which network packets to allow through, unlike stateless firewalls that only consider the packet headers."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Network Security Protocols",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of network security, which protocol provides data integrity, encryption, and authentication without relying on a pre-shared key?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTPS"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SSL/TLS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IPsec"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SSH"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IPsec provides a secure channel over IP networks by offering data integrity, encryption, and authentication. It operates at the network layer and does not depend on a pre-shared key, using mechanisms like IKE (Internet Key Exchange) instead."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Asymmetric Key Cryptography",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a known vulnerability or attack method related to RSA encryption?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Timing attack"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Chosen ciphertext attack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Frequency analysis"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Man-in-the-middle attack"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Frequency analysis is generally used against classical ciphers and simple substitution ciphers, not RSA, which is a form of asymmetric key cryptography."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Network Security Protocols",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which protocol provides encryption and secure communications over a computer network, and is widely used in VPNs to ensure sensitive data remains private?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTPS"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IPSec"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SSL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SMTP"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IPSec (Internet Protocol Security) is a suite of protocols designed to secure Internet communication at the IP layer by authenticating and encrypting each IP packet in a data stream. It is commonly used in VPNs."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Incident Response vs Disaster Recovery",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best illustrates the primary focus of an Incident Response Plan as opposed to a Disaster Recovery Plan?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Long-term strategic planning to ensure continuous business operations despite major disruptions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quick containment and eradication of a security threat followed by a swift recovery."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reinstatement of all IT services with minimal data loss and downtime."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Development of policies to improve organizational resilience against future threats."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An Incident Response Plan focuses on the rapid identification, containment, and mitigation of security incidents to minimize immediate damage, which is illustrated by option B."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cybersecurity Compliance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of cybersecurity, what does the 'CIA triad' stand for, and why is it fundamental to compliance and legal issues?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Confidentiality, Integrity, and Authorization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Confidentiality, Integrity, and Availability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Control, Integrity, and Authorization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Control, Intelligence, and Availability"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CIA triad stands for Confidentiality, Integrity, and Availability. It is fundamental to cybersecurity compliance and legal issues because it addresses the primary objectives that any security program seeks to uphold, ensuring that data is protected, accurate, and available as required."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "CIA Triad",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the CIA Triad, which of the following scenarios best illustrates a failure in maintaining the 'Integrity' aspect?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A user is denied access to their email account due to forgotten password."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "An attacker alters the transaction records in a retail database."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sensitive customer data is exposed online due to a misconfigured server."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A backup generator fails to keep a server online during a power outage."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrity ensures that data remains accurate, complete, and reliable. In option B, the alteration of transaction records compromises data integrity, which is a core aspect of the CIA Triad."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Legal Implications of Non-Compliance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best illustrates the legal consequences a company might face for failing to comply with the GDPR when dealing with EU citizens' data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Mandatory public disclosure of the non-compliance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fines up to 4% of annual global turnover or \u20ac20 million, whichever is greater"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Immediate cessation of all business activities within the EU"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A formal apology to impacted individuals"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Under GDPR, non-compliance can result in fines up to 4% of the annual global turnover or \u20ac20 million, whichever is greater, reflecting the severity and incentives for compliance."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Legal Implications of Cybersecurity Breaches",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which U.S. federal law requires financial institutions to protect customers' sensitive data and notify customers about data breaches?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Health Insurance Portability and Accountability Act (HIPAA)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sarbanes-Oxley Act (SOX)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Gramm-Leach-Bliley Act (GLBA)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Federal Information Security Management Act (FISMA)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Gramm-Leach-Bliley Act (GLBA) mandates that financial institutions must protect the security and confidentiality of their customers' sensitive data and notify them in the event of a data breach. The other options, HIPAA, SOX, and FISMA, apply to different sectors and types of data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Compliance with International Cybersecurity Standards",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of GDPR, what is the most significant legal requirement for companies outside the EU that process personal data of EU citizens?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Appointing a Data Protection Officer (DPO) within the EU"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Conducting regular security audits every three months"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Maintaining data processing records in multiple EU languages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ensuring that data transfer mechanisms comply with EU standards"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct as ensuring that data transfer mechanisms comply with EU standards is crucial under GDPR for companies outside the EU that handle EU citizens' personal data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "International Cybersecurity Compliance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Under the GDPR, which of the following is NOT considered a valid legal basis for processing personal data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Consent of the data subject"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Performance of a contract with the data subject"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Legitimate interests pursued by the data controller"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The data subject's economic status"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Under GDPR, processing personal data based on the economic status of the data subject is not recognized as a valid legal basis. Valid bases include consent, contract performance, compliance with legal obligations, protection of vital interests, public interest, and legitimate interests pursued by the controller or third party."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Firewall Traffic Filtering",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of firewall is characterized by the dynamic assignment of the security level or rule to a packet based on its context rather than pre-defined static rules?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stateful Inspection Firewall"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Packet Filtering Firewall"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Application-level Gateway"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Next-Generation Firewall"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Next-Generation Firewalls dynamically assign security levels or rules to packets based on the context of the packet, which may include source/destination, user identity, and application type, unlike traditional firewalls that use static rule sets."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Defense-in-Depth",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of cybersecurity, which of the following best describes the principle of 'defense-in-depth'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A methodology that relies on a single security measure to protect digital assets."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A strategy involving multiple layers of security controls spread throughout an information system."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A security protocol that depends solely on perimeter defenses like firewalls and antivirus."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A method focusing on software patches as the exclusive form of security enhancement."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Defense-in-depth is a strategy that involves implementing multiple layers of security mechanisms and controls across the various components of an information system. It is designed to provide redundancy in the event that a security control fails or a vulnerability is exploited."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Compliance Frameworks in Cybersecurity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which compliance framework specifically requires organizations to regularly review and update their security measures and policies?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ISO/IEC 27001"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "HIPAA"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PCI DSS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GDPR"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ISO/IEC 27001 is a comprehensive compliance framework that requires organizations to not only implement security measures but also to continually review and update them to ensure they address current risks and vulnerabilities."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Network Security Protocols",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which protocol provides a secure channel over an unsecured network in a client-server architecture, and is widely used for secure data transmission such as sending passwords?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FTP"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SSH"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SMTP"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SSH (Secure Shell) is the protocol used to provide a secure channel over an unsecured network in a client-server architecture, facilitating secure data transmission, including passwords and other sensitive information."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Public Key Infrastructure (PKI)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of PKI, what is the primary purpose of a Certificate Revocation List (CRL)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To list all active public keys."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide timestamps for digital signatures."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To list certificates that are no longer valid."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt data using the public key."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Certificate Revocation List is used to list the digital certificates that have been revoked by the issuing Certificate Authority before their scheduled expiration date."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Elliptic Curve Cryptography (ECC)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the primary advantage of using Elliptic Curve Cryptography (ECC) over RSA?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Higher speed of decryption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Less susceptibility to quantum attacks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Smaller key sizes for a comparable level of security"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Easier implementation in hardware"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary advantage of ECC over RSA is that it can achieve the same level of cryptographic strength with much smaller key sizes, which leads to better performance and less storage space required."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Advanced Firewall Configurations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a network setup where both HTTP (port 80) and HTTPS (port 443) services are offered, which firewall rule configuration ensures maximum security while supporting necessary functionalities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Deny all on port 80; Permit all on port 443"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Permit all on port 80 and port 443"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deny all on port 443; Permit all on port 80"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Permit all on port 80; Deny all on port 443"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it denies all unsecured HTTP traffic while permitting secured HTTPS traffic, thereby ensuring that all data transmitted is encrypted and secure, aligning with best security practices."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Steps in Incident Response",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "During the 'containment' step of an incident response, what is the primary focus concerning the threat's impact on business operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To immediately eradicate the threat from the system."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To assess the financial impact of the threat on business continuity."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To temporarily halt all organizational operations and services."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To limit the spread of the threat and its damage, while maintaining critical business functions."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary focus during the containment step is to limit the spread and damage of the threat while ensuring that critical business functions continue to operate, thereby minimizing disruption to the business."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Encryption Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of elliptic curve cryptography, which of the following is true about the security provided by the curve secp256k1?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is based on the hardness of the factorization problem."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is widely used in Bitcoin and other cryptocurrencies for digital signatures."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It offers security equivalent to a 512-bit key in traditional RSA cryptography."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It has been compromised by quantum computing advancements."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "secp256k1 is indeed widely used in systems like Bitcoin for securely signing transactions, not based on factorization (like RSA) but on the discrete logarithm problem in elliptic curves."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Legal Implications in Cybersecurity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements accurately describes the application of international law in state-sponsored cyber attacks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "No international laws are applicable to state-sponsored cyber attacks."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "International law clearly defines and universally enforces strict penalties for state-sponsored cyber attacks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "International law applies, but enforcement and applicability vary significantly between different jurisdictions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only the laws of the state perpetrating the cyber attack are applicable."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "International law does apply to state-sponsored cyber attacks. However, the enforcement and interpretation of these laws can vary widely between nations, making the legal landscape complex and often inconsistent."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Strategic Alignment between Incident Response and Disaster Recovery",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the relationship between Incident Response Plans (IRP) and Disaster Recovery Plans (DRP) in the context of organizational preparedness?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "IRP focuses on immediate response to specific incidents, while DRP deals with broad recovery strategies from major crises."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IRP and DRP are interchangeable terms with the same objectives and functions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DRP is a subset of IRP, focusing solely on data recovery."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IRP is concerned primarily with cost management, whereas DRP focuses on technology recovery."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Incident Response Plans are tactical and deal with specific security incidents aiming for quick containment and resolution. Disaster Recovery Plans, on the other hand, are strategic and aim to maintain business continuity through broader scopes, addressing impacts from any major crises."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cryptographic Protocols",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of public key infrastructure (PKI), what does the 'C' in X.509 certificates primarily represent?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creation date"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Certificate authority"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cryptographic signature"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Chain of trust"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In X.509 certificates, the 'C' typically stands for Certificate Authority (CA), which is the entity responsible for issuing and verifying the digital certificates."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Encryption Standard (AES)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a feature of the AES encryption algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It operates on a 4x4 column-major order matrix of bytes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It uses a variable block size dependent on the key size."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It was designed to be efficient in both hardware and software."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It utilizes a symmetric key algorithm."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "AES operates with a fixed block size of 128 bits, regardless of the key size, which can be 128, 192, or 256 bits."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Disaster Recovery Planning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following elements is LEAST likely to be included in a disaster recovery plan?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Business Impact Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cybersecurity Threat Simulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IT Infrastructure Restoration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Business Continuity Strategies"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Cybersecurity Threat Simulation is more commonly a part of incident response plans rather than disaster recovery plans, which are broader and focus on restoring business operations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Vulnerability Assessment Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes a scenario where a 'Fuzzing' technique would be most effective in identifying vulnerabilities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Identifying SQL injection flaws in a database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Performing a detailed code review to find logical errors"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Assessing physical security measures of a data center"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Testing the handling of different data inputs in an application"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Fuzzing is an automated software testing technique that involves providing invalid, unexpected, or random data inputs to a computer program. The method is used to identify coding errors and security loopholes within software. It is particularly effective in testing how different types of input data are handled by applications, making option D correct."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Threat Identification in Cybersecurity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of advanced persistent threats (APTs), what technique is most challenging for organizations to defend against due to its sophistication and stealth?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Phishing attacks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SQL injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Zero-day exploits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Denial of Service (DoS) attacks"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Zero-day exploits are particularly challenging to defend against because they exploit previously unknown vulnerabilities, giving organizations no lead time to patch or prepare defenses against the initial attack vector."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "The CIA Triad",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component of the CIA Triad primarily focuses on ensuring that data is only accessible to those who are authorized to access it?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Confidentiality"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Integrity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Availability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Authentication"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Confidentiality, a component of the CIA Triad, specifically ensures that sensitive information is accessible only to an authorized set of users and prevents unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Firewall Traffic Rules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of network firewalls, which of the following rule sets would most effectively allow for secure communication for an internal email server (IP: 192.168.1.5) while blocking all unnecessary SMTP traffic?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Permit 192.168.1.5/32 on port 25; Deny all others on port 25"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deny all on port 25; Permit 192.168.1.5/32 on port 25"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Permit all on port 25; Deny 192.168.1.5/32 on all ports"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deny 192.168.1.5/32 on port 25; Permit all others on port 25"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it specifically allows traffic for the internal email server on the necessary port, while denying all other SMTP traffic, enhancing security by limiting exposure."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Threat Modeling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an advanced persistent threat (APT) scenario, which technique would most effectively allow an attacker to maintain presence within a network without significant detection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use of common port numbers for communication"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employment of rootkit at kernel level"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Frequent rotation of IP addresses"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Execution of large-scale DDoS attacks"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Employing a rootkit at the kernel level allows attackers to manipulate core system functions and remain undetected by most security software, which is crucial for maintaining presence in an APT scenario."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Incident Response Steps",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT typically included as a phase in the incident response process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Impact Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Containment"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Detection and Analysis"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Recovery"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Impact Analysis is not typically described as a separate phase in the incident response process; it is generally a part of the detection and analysis phase."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Defense-In-Depth",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical layer in a defense-in-depth approach to cybersecurity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Intrusion detection systems"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Physical security measures"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Marketing strategies"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encryption techniques"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Marketing strategies are not a layer of defense in a defense-in-depth approach, which typically includes technical, administrative, and physical security measures."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Key Steps in Incident Response",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which step in the Incident Response process primarily involves actions taken to prevent the spread of an attack and to isolate compromised systems from unaffected systems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Detection and Analysis"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Containment"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Eradication"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Recovery"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Containment step in the Incident Response process is crucial as it involves immediate actions to limit the spread of the incident. This step ensures that the impact is confined and does not affect additional systems."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Cybersecurity Legal Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following legal acts primarily regulates the security of network and information systems across the European Union?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "General Data Protection Regulation (GDPR)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directive on Security of Network and Information Systems (NIS Directive)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cybersecurity Act of 2019"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "USA PATRIOT Act"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Directive on Security of Network and Information Systems (NIS Directive) is specifically designed to boost the overall level of cybersecurity in the EU by ensuring a high common level of security of network and information systems."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Integration of Threat Intelligence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of cybersecurity, how does integrating real-time threat intelligence into vulnerability management impact threat prioritization?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It has no significant impact on threat prioritization."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It decreases the efficiency of threat prioritization."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows for more accurate and timely prioritization of threats based on current threat landscapes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It solely relies on historical data for prioritization, ignoring current threats."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Integrating real-time threat intelligence allows for a more accurate and timely prioritization of threats. This method adjusts the prioritization based on the evolving and current threat landscapes, unlike methods that may rely excessively on historical data."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Defense-in-Depth",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best exemplifies a Defense-in-Depth approach to cybersecurity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implementing a single, robust firewall at the network perimeter."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deploying antivirus software on all employee workstations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using multi-factor authentication combined with employee cybersecurity training."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Layering firewalls, intrusion detection systems, and data encryption."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Defense-in-Depth involves multiple layers of security measures. Option D encompasses various security technologies and practices, creating overlapping layers that enhance overall system security."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Vulnerability Assessment Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which vulnerability assessment technique is most effective for identifying unknown weaknesses in proprietary software systems, considering the need for comprehensive security analysis?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Automated scanning with commercial tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Manual code review by in-house developers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Crowdsourced security testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compliance-based assessment"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Crowdsourced security testing, or bug bounty programs, is highly effective for proprietary systems as it utilizes the collective expertise and creativity of a global pool of ethical hackers to uncover vulnerabilities that automated tools or in-house reviews might miss."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "CIA Triad",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component of the CIA Triad is primarily concerned with preventing unauthorized parties from accessing data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Confidentiality"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Integrity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Availability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Authentication"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Confidentiality, as a component of the CIA Triad, ensures that data is accessible only to those with authorized access, thus preventing unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Cryptographic Hash Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering SHA-256, a popular cryptographic hash function, which of the following options best describes its collision resistance property?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It means that no two different inputs will produce the same output."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It ensures that the function can be easily reversible."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It indicates a vulnerability to pre-image attacks."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is primarily useful for password verification purposes."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Collision resistance in cryptographic hash functions like SHA-256 ensures that it is computationally infeasible to find two distinct inputs that hash to the same output, thus securing data integrity."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Firewall Traffic Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What mechanism does a firewall use to control incoming and outgoing traffic, based on predefined rules, particularly when managing complex security policies involving multiple networks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stateful Inspection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Packet Filtering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Proxy Services"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Antivirus Inspection"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Stateful Inspection is used by firewalls to monitor the state of active connections and make decisions based on the state of the connection as well as the set rules. This method allows handling complex security policies and managing traffic more effectively than simple packet filtering."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Quantum Cryptography",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which principle of quantum mechanics is primarily utilized in Quantum Key Distribution (QKD) for ensuring the security of the keys?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Heisenberg's Uncertainty Principle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Einstein's Theory of Relativity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Schr\u00f6dinger's Cat Theory"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Maxwell's Equations"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quantum Key Distribution (QKD) leverages Heisenberg's Uncertainty Principle, which states that certain pairs of physical properties, like position and momentum, cannot both be precisely measured simultaneously. In QKD, this principle prevents eavesdroppers from precisely measuring quantum states in the key without introducing noticeable disturbances."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Recovery Strategies in Disaster Recovery Planning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a disaster recovery scenario, what is the PRIMARY purpose of an IT service continuity strategy?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure all IT projects continue without interruption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To restore IT services to minimum operational levels within an agreed time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To maintain regular data backups only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To focus solely on hardware repair and replacement"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of an IT service continuity strategy in disaster recovery is to restore critical IT functions to a predefined minimum level of operation within a specified timeframe after a disruption."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Vulnerability Assessment Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following methods is considered the most thorough for identifying unknown vulnerabilities within a software application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Black-box testing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "White-box testing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Gray-box testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Penetration testing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "White-box testing involves a comprehensive examination of the internal workings of an application. It is considered the most thorough method as it evaluates both the codebase and the running application for vulnerabilities."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Vulnerability Assessment Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following techniques is LEAST effective in identifying unknown vulnerabilities in a software system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fuzz Testing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Static Code Analysis"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Penetration Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compliance Auditing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compliance Auditing is least effective for identifying unknown vulnerabilities as it primarily focuses on meeting predefined standards and regulations rather than uncovering new vulnerabilities."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Elliptic Curve Cryptography",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Elliptic Curve Cryptography (ECC), what is the result of adding a point P to itself n times, denoted as [n]P, where P is a point on the curve defined by the equation y^2 = x^3 + ax + b (mod p) and n is a large integer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The point at infinity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The x-coordinate of P after n additions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Another point Q on the curve"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The n-th derivative of the curve at point P"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In ECC, adding a point P to itself n times, known as scalar multiplication, results in another point Q on the curve. This operation is fundamental in ECC and forms the basis of creating the public key."
+      }
+    ]
+  }
+]

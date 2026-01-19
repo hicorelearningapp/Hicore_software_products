@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "MVC Routing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, what is the default routing pattern defined in the RouteConfig file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "{controller}/{action}/{id}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{action}/{controller}/{id}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{controller}/{id}/{action}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "{action}/{id}/{controller}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default routing pattern in ASP.NET MVC is '{controller}/{action}/{id}', which maps the URL to the respective controller, action, and optional id."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "ASP.NET Web Form Features",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a feature of ASP.NET Web Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "State management"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Event-driven programming"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Built-in support for Ruby on Rails"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Rich server-side controls"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ASP.NET Web Forms do not have built-in support for Ruby on Rails, which is a separate web application framework developed in Ruby."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Server-Side Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET Web Forms, what attribute must be set in a server control to ensure that an event handler is executed on the server side after a postback?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "runat=\"server\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "method=\"post\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onserverclick=\"true\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "enablepostback=\"true\""
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The attribute runat=\"server\" must be set for ASP.NET server controls to ensure that events are handled on the server side after a postback."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "ASP.NET Web Forms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a distinguishing feature of ASP.NET Web Forms compared to other web frameworks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They use a model-view-controller architecture."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They support drag-and-drop controls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They do not allow event handling."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They require manual HTML handling."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ASP.NET Web Forms are unique in supporting drag-and-drop controls that allow developers to easily build user interfaces. This feature enhances productivity by simplifying the addition of complex elements to web pages."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Entity Framework Core Features",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature in Entity Framework Core enables the tracking of changes made to the object so they can be persisted in the database upon saving?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Lazy Loading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Change Tracking"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cascading Deletes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Concurrency Control"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Change Tracking is a feature of Entity Framework Core that keeps track of changes made to entities since they were fetched from the database. These changes are then persisted back to the database when 'SaveChanges()' is called."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "SignalR Client Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In SignalR, what method is primarily used for sending a message to a specific client?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Clients.All.send()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Clients.Client(connectionId).send()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Clients.Group(groupName).send()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Clients.Others.send()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Clients.Client(connectionId).send() is used in SignalR to send a message to a specific client identified by the connectionId."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SignalR Real-time Functionality",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In SignalR, what is the main advantage of using Hubs over Persistent Connections?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hubs provide lower latency."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hubs support direct server-to-client RPC calls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hubs require more complex coding."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Hubs are only for mobile clients."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hubs allow the server to call methods on client-side JavaScript directly, enabling a more interactive real-time communication."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Authentication and Authorization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common method used for authentication in ASP.NET Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JWT (JSON Web Tokens)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OAuth 2.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SAML (Security Assertion Markup Language)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SOAP (Simple Object Access Protocol)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SOAP (Simple Object Access Protocol) is not typically used for authentication in ASP.NET Core. It is a protocol for exchanging structured information, primarily used in web services."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Protection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET Core, which API is primarily used for securing data through protection mechanisms like encryption and decryption?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Cryptography API"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data Protection API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Identity API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Security Compliance API"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Data Protection API in ASP.NET Core provides a simple way to encrypt and decrypt data, specifically tailored for use in web applications where different data protection and security standards are applied."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "ASP.NET MVC Fundamentals",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, which component is responsible for handling user input and responding with the appropriate data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "View"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Controller"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Service"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, the Controller is responsible for handling user inputs, processing them, and responding with the correct data or view."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Entity Framework Core Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the recommended way to improve performance when querying large amounts of data in Entity Framework Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using .Include() for all related data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing AsNoTracking() method"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Always use lazy loading"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Querying directly through raw SQL"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the AsNoTracking() method improves performance when the context does not need to track changes to the data, such as in read-only scenarios."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Entity Framework Core Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which is the correct way to enable Lazy Loading in Entity Framework Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using DbContextOptionsBuilder with UseLazyLoadingProxies()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Calling EnableLazyLoading() on DbContext"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setting LazyLoadingEnabled in DbModelBuilder"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Adding a LazyLoading property to the model classes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Entity Framework Core, lazy loading is enabled by configuring the DbContextOptionsBuilder to use UseLazyLoadingProxies()."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Cross-Origin Resource Sharing (CORS)",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does enabling CORS in an ASP.NET Core application facilitate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the server to process JavaScript exceptions from a different origin."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It allows the server to send emails from different domains."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows the server to accept requests from web applications hosted on different origins."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It encrypts data sent to different origins."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Enabling CORS (Cross-Origin Resource Sharing) in an ASP.NET Core application allows it to accept requests from web applications hosted on different origins, which is essential for accessing resources across different domains in web applications."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "SignalR Real-time Communication",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET SignalR, what is the primary function of the Hub class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage the APIs for AJAX requests"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To facilitate real-time bi-directional communication between client and server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the security features of the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To serialize data into JSON format"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Hub class in ASP.NET SignalR facilitates real-time bi-directional communication. It acts as a high-level pipeline that handles connections, communications, and grouping."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Entity Framework Core Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a feature of Entity Framework Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Support for LINQ queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatic migration generation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Native SQL execution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Full cross-platform graphics library"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Entity Framework Core does not include a full cross-platform graphics library. It is focused on data access technologies."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "ASP.NET Web Form Features",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature of ASP.NET Web Forms helps in managing the state of a web application across multiple requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "StateServer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WebSockets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "View state"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Session state"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Session state is a feature in ASP.NET Web Forms that helps manage user data across multiple web requests, making it possible to maintain state."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "ASP.NET Core Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary difference between ASP.NET Core and ASP.NET MVC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ASP.NET Core supports only Windows-based development."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ASP.NET MVC does not support model-view-controller architecture."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ASP.NET Core is cross-platform, unlike ASP.NET MVC which is limited to Windows."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ASP.NET MVC supports more programming languages than ASP.NET Core."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "One of the primary differences between ASP.NET Core and ASP.NET MVC is that ASP.NET Core is designed to be cross-platform, supporting development on Windows, Linux, and macOS, whereas ASP.NET MVC is limited to Windows."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Entity Framework Core Data Access",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in Entity Framework Core is used to asynchronously fetch data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ToListAsync()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GetData()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Fetch()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Query()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ToListAsync() is the correct method used in Entity Framework Core to perform asynchronous data fetching from the database, allowing for non-blocking calls."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Entity Framework Core Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in Entity Framework Core is used to asynchronously find an entity with the given primary key values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FindAsync()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FirstOrDefaultAsync()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SingleOrDefaultAsync()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GetAsync()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "FindAsync() is specifically used for locating an entity with the specified primary key values and is designed to perform this task asynchronously."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Automatic Event Wire-up",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the AutoEventWireup attribute do in an ASP.NET Web Forms application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Automatically connects event handlers to events based on name matching."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatically updates the user interface without server interaction."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Ensures that all events are logged for security audits."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enables asynchronous server calls for all page events."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The AutoEventWireup attribute allows for automatic connection of event handlers to events based on the convention of matching names, streamlining the event handling process in ASP.NET Web Forms."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Entity Framework Core Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using .Include() method in Entity Framework Core when retrieving related data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It conditionally loads related data based on filters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It enables lazy loading of related data."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows eager loading of related data, improving performance by reducing the number of queries."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically updates related data."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .Include() method in Entity Framework Core is used for eager loading, which loads the related data along with the main entity as part of the same query. This reduces the number of queries executed against the database, thus improving performance."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Authentication",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common method used for authentication in ASP.NET Core applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JWT (JSON Web Tokens)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OAuth 2.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Kerberos"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SOAP Authentication"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SOAP Authentication is not commonly used in ASP.NET Core applications as it is generally associated with SOAP web services, not with the more modern REST APIs typically used in ASP.NET Core."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ASP.NET MVC Views",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which view engine is the default in ASP.NET MVC for rendering the views into HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Spark"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Razor"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebForms"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "NVelocity"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Razor is the default view engine for ASP.NET MVC that uses a simplified syntax with an @ symbol to integrate server-based code into HTML."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Server-Side Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about server-side events in ASP.NET Web Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Server-side events are processed on the client-side before being sent to the server."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-side events do not require a postback to the server to be processed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Server-side events are triggered by user interactions and processed by the server."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Server-side events can only be handled asynchronously."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Server-side events in ASP.NET Web Forms are initiated by user actions on the client side but are processed on the server, typically requiring a postback."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Protection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET Core, what class provides APIs for protecting and unprotecting data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DataProtectionProvider"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ProtectedDataManager"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SecureDataFormat"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IDataProtectionProvider"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IDataProtectionProvider is the interface in ASP.NET Core that provides APIs for protecting and unprotecting data. It is used to handle the data protection services."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Entity Framework Core Migrations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command is used in Entity Framework Core to update the database to the latest migration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Update-Database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Migrate-Database"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Database-Update"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Apply-Migrations"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Update-Database' command in Entity Framework Core is used to apply pending migrations to the database, updating it to the latest version defined by the migration files."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MVC Views",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, which view engine enables the use of the Razor syntax?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Razor View Engine"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Web Forms View Engine"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Spark View Engine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "NVelocity View Engine"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Razor View Engine is used in ASP.NET MVC for utilizing the Razor syntax which allows for a more fluid coding experience with HTML."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "SignalR Transport Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which transport method does SignalR use by default when establishing a connection if all options are available?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Long Polling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Sent Events"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebSockets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ajax Requests"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SignalR uses WebSockets by default as it provides full-duplex communication channels over a single long-lived connection, making it the most efficient transport method available."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cross Origin Resource Sharing (CORS)",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET Core, which middleware should be configured to enable and handle Cross Origin Resource Sharing (CORS)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "UseAuthentication()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UseAuthorization()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UseCors()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UseRouting()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "UseCors() middleware must be configured in the ASP.NET Core application to enable and handle CORS by defining and applying CORS policies."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Entity Framework Core Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the OnModelCreating method in Entity Framework Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To configure the conventions for the database context."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create new instances of database models."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initiate the database connection."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To validate the model's data annotations."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "OnModelCreating is used in Entity Framework Core to configure domain-specific rules and conventions for the model and database relationship mappings."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "SignalR Transport Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which transport method used by SignalR provides full-duplex communication over a single long-lived connection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Long Polling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Sent Events"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebSockets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AJAX Requests"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WebSockets provide a full-duplex communication channel that operates over a single, long-lived connection, making it ideal for real-time functionality as used in SignalR."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Server-Side Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct sequence of events for server-side event handling in ASP.NET Web Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Load, Click, PreRender"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Init, Load, Click"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Click, Load, Init"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PreRender, Load, Click"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In server-side event handling in ASP.NET Web Forms, the Init event is triggered first, followed by Load, and then any specific events like Click are handled."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Client-Side vs Server-Side Events",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following correctly describes the difference between client-side and server-side events in ASP.NET Web Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Client-side events are processed on the server, while server-side events are processed on the client."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Client-side events are processed in the user's browser, while server-side events are processed on the web server."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Client-side events do not require postback, whereas server-side events do not trigger postback."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Client-side events handle graphical interactions only, while server-side events handle data transactions."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Client-side events are processed in the browser, allowing for immediate interaction without the need for a postback. Server-side events, on the other hand, are processed on the web server, often requiring a postback to handle the event and update the page accordingly."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "ASP.NET MVC Architecture",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the role of the 'Model' in the ASP.NET MVC framework?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is responsible for handling the data and business logic of the application."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is responsible for generating the HTML output for the user interface."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It handles the user inputs and interactions from the web browser."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It manages the server-side infrastructure and configuration."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the MVC framework, the Model component is responsible for the data and the business logic, dealing with the database or any other storage mechanism."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "ASP.NET Core Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the ASP.NET Core environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a platform for desktop application development."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To serve as a foundational framework for building dynamic web pages and applications."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manage databases and data storage solutions exclusively."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the performance of mobile applications."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ASP.NET Core is primarily used to create dynamic web pages and applications, leveraging the robust framework for server-side programming."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Protection API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a key feature of the Data Protection API in ASP.NET Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows for the dynamic creation of RESTful APIs"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It provides services for protecting and unprotecting data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically generates front-end code"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It enhances cross-platform compatibility"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Data Protection API in ASP.NET Core is designed to provide an easy-to-use cryptographic API for protecting and unprotecting data, which is essential for maintaining the confidentiality and integrity of sensitive data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "SignalR Transport Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SignalR transport method is best suited for environments where maintaining a constant connection with the server is possible and preferred?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Long Polling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Sent Events"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebSockets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ajax Requests"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WebSockets provide full-duplex communication over a single, long-lived connection, making it ideal for environments where such a continuous connection can be maintained."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Server-Side Events",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT typically a server-side event in ASP.NET Web Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Page_Load"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OnClick"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OnMouseOver"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OnSelectedIndexChanged"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "OnMouseOver is a client-side event triggered by mouse actions over web elements, not processed on the server side."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Razor Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the Razor syntax in ASP.NET MVC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance server security and data protection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide a lightweight way to mix server code with HTML"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To separate concerns between the Model, View, and Controller"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle database connections and migrations"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Razor syntax in ASP.NET MVC provides a fast, approachable, and lightweight way to combine server code with HTML, making it easy to create dynamic web content."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Authentication Mechanisms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which authentication technique in ASP.NET Core uses a combination of a user ID and a temporary secret stored on the server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OAuth 2.0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JWT Bearer Tokens"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Session-based Authentication"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "API Key Authentication"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Session-based Authentication uses a server-side storage for storing a temporary secret that links the session ID with the user's ID, which is different from token-based methods like JWT or OAuth 2.0."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "MVC Workflow",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, which component is responsible for handling user input and responding to user interactions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "View"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Controller"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Service Layer"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, the Controller is responsible for handling user input, processing user data with the help of Model, and sending the data to the View for presentation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "ASP.NET Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following events is triggered first during the Page lifecycle in ASP.NET?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Load"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Init"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PreRender"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Unload"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the ASP.NET Page lifecycle, the Init event is triggered first, which initializes the page and its controls."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Razor Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which syntax is used within ASP.NET MVC views to dynamically generate HTML content on the web page?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTML helpers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Razor syntax"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JavaScript"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CSS selectors"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Razor syntax is used to embed server-based code into web pages using C# or VB.NET. It is commonly used in MVC views to dynamically render content."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "SignalR Connection Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In SignalR, which method on the Hub class is commonly overridden to execute code when a client disconnects?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DisconnectAsync"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OnDisconnectedAsync"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OnClientDisconnected"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DisconnectClientAsync"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "OnDisconnectedAsync is the method provided by SignalR to handle actions when a client disconnects, allowing developers to execute custom cleanup or notification logic."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "SignalR Transport",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which transport technique does SignalR use by default when initiating a connection if all protocols are supported by the client and server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Long Polling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Sent Events"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WebSocket"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ajax Requests"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WebSocket is used by default for its full-duplex communication capabilities, as long as both client and server support it."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Server-Side Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute in an ASP.NET Web Forms control is used to define a server-side event handler?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OnEvent"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AutoEventWireup"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "runat=\"server\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Handles"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'OnEvent' attribute in a control's tag specifies the server-side event handler for that control. For example, OnClick=\"Button1_Click\" assigns the Button1_Click method as the event handler for a button click event."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "ASP.NET Life Cycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct order of events in the ASP.NET page life cycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Load, PreRender, Init, Unload"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Init, Load, PreRender, Unload"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Init, Unload, Load, PreRender"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Unload, PreRender, Load, Init"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct order is Init, Load, PreRender, and Unload. 'Init' event initializes the page, 'Load' event loads the page content, 'PreRender' allows last-minute changes to the content, and 'Unload' cleans up resources used by the page."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "MVC Architecture",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In ASP.NET MVC, which component is responsible for handling user input and interacting with the model to render a final response?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "View"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Controller"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Service"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Controller is responsible for handling user input, manipulating the model, and ultimately providing the view which should be sent back to the user."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "SignalR Transport Mechanisms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which transport technique in SignalR is characterized by opening a single long-lived connection used to send all data back and forth?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WebSockets"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Sent Events"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Long Polling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AJAX Requests"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Long Polling is characterized by opening a long-lived connection that only closes when a timeout occurs or data is fully transferred. It then immediately reopens to continue data transmission."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Cross-Site Scripting (XSS) Prevention",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an effective method to prevent Cross-Site Scripting (XSS) attacks in an ASP.NET application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Disabling cookies"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Validating and encoding user inputs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increasing session timeout"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using HTTPS exclusively"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Validating and encoding user inputs are crucial steps to prevent XSS attacks by ensuring that inputs are sanitized and potentially harmful characters are encoded."
+      }
+    ]
+  }
+]

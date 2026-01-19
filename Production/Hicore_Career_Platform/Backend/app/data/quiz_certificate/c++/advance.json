@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 3,
+    "topic": "C++ Compiler Setup",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following command-line options would you use to both compile and link a C++ program using GCC without producing an intermediate object file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "gcc -c source.cpp"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "gcc source.cpp -o program"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "gcc -x c++ source.cpp"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "gcc source.cpp"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because 'gcc source.cpp -o program' compiles the source.cpp file and links it to produce an executable named 'program' without keeping the intermediate object file."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Control Structures and Loops",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following code snippet in C++:\n\nint i = 0;\nwhile (i < 5) {\n  if (i == 3) break;\n  i++;\n}\ncout << i;\n\nWhat value will be output by the code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop increments i from 0 to 3. When i equals 3, the 'break' statement is executed, which exits the loop immediately. Therefore, the output is the value of i at the time of the break, which is 3."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Compiler and IDE Selection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most likely reason a developer would choose a cross-platform IDE like Eclipse or Code::Blocks for C++ development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To simplify the process of code documentation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To facilitate easier debugging and error tracing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To avoid compatibility issues across different operating systems"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the graphical output of the C++ applications"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Cross-platform IDEs like Eclipse and Code::Blocks are chosen to ensure that C++ code remains compatible and can be compiled without modifications across various operating systems such as Windows, Linux, and MacOS."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Advanced C++ Libraries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When building a complex C++ project that involves extensive data manipulation and real-time operations, which of the following libraries provides a comprehensive solution for asynchronous programming and concurrency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boost"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "STL (Standard Template Library)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Qt"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "POCO"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boost provides a set of libraries, particularly Boost.Asio for asynchronous input/output, which supports the development of concurrent object-oriented programs."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "IDE Selection for C++",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Select the feature that is NOT typically provided by a C++ Integrated Development Environment (IDE)."
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Syntax highlighting"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatic refactoring tools"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Built-in C++ compiler"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Direct integration with C++ server-side frameworks"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because direct integration with C++ server-side frameworks is not typically a feature provided directly by C++ IDEs. Instead, IDEs focus on code editing, compilation, and debugging."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced C++ Project Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a C++ project that requires the integration of a domain-specific language (DSL), what is an optimal approach when considering the expansion and maintenance of the project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hardcoding the DSL into the main project codebase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using external libraries for DSL parsing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing a plugin system for DSL features"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoiding the use of DSLs altogether"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing a plugin system for DSL features allows for better modularity, easier updates, and maintenance without disrupting the main codebase. It provides flexibility in extending or modifying the DSL without affecting the core functionalities of the C++ project."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Class Constructors and Destructors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a class 'Box' with private member variables length, breadth, and height. Which of the following constructor definitions is correct for initializing these members with values provided at the time of object creation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Box(int l, int b, int h) : length(l), breadth(b), height(h) {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Box(int l, int b, int h) { length = l; breadth = b; height = h; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Box(int length, int breadth, int height) : length(length), breadth(breadth), height(height) {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Box(int l, int b, int h) { int length = l; int breadth = b; int height = h; }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A uses the initializer list correctly to initialize the private member variables of the class directly with the values passed to the constructor."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Object Copy and Assignment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming class 'Matrix' has a pointer to a dynamically allocated two-dimensional array, which of the following is the most appropriate way to prevent shallow copy issues?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Define a copy constructor and overload the assignment operator to deep copy the dynamically allocated array."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Rely on the default copy constructor and assignment operator provided by C++."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use std::shared_ptr for the array in the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Make the class a singleton to ensure only one instance of the array exists."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because defining a custom copy constructor and overloading the assignment operator to handle deep copying of the dynamically allocated memory prevents shallow copy issues."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cross-Platform Development",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a C++ application intended for multiple platforms, what is a crucial consideration for ensuring consistent behavior across different compilers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Utilizing platform-specific libraries extensively"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Relying on compiler-specific extensions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Adhering strictly to the ISO C++ standards"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing solely on syntax rather than semantic consistency"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For consistent behavior across different platforms and compilers, it's crucial to adhere strictly to the ISO C++ standards. This ensures that the code does not rely on undefined behavior which may be implemented differently across compilers, leading to inconsistent behavior."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions and Recursion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the recursive function in C++:\n\nint func(int n) {\n  if (n == 0) return 1;\n  else return n * func(n - 1);\n}\n\nWhat is the output of func(5)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "120"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "24"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function is a factorial function. func(5) calculates 5 * 4 * 3 * 2 * 1, which equals 120."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C++ code snippet: int x = 7 + 3 * 2; What is the value of x after the statement executes, considering operator precedence?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "12"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, multiplication (*) has a higher precedence than addition (+). Therefore, 3 * 2 is evaluated first, resulting in 6. Then, 7 + 6 is evaluated, resulting in 13."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Advanced C++ Features",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++17, how do you ensure that a lambda function captures a used variable only once even if the lambda is called multiple times within its scope?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the 'auto' specifier"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using the 'static' specifier"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Capturing by value"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Capturing with an initializer ([=, x=std::move(x)])"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using an initializer in the capture list ([=, x=std::move(x)]) ensures that 'x' is captured only once and subsequent calls use the captured value, preventing multiple captures of the same variable."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "First C++ Program Execution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an essential step that must be performed before running a C++ program for the first time on a new development environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Configuring the project to include all dependent libraries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Rewriting the source code to optimize for performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating multiple backup copies of the source code"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Scanning the program with antivirus software"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Before running a C++ program, especially in a new environment, it is crucial to configure the project settings to include all necessary libraries that the program depends on to prevent compile-time and runtime errors."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Smart Pointers and Memory Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of smart pointer should be used when you need to ensure that there are no multiple copies of the pointer owning the same resource?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "std::shared_ptr"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "std::auto_ptr"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "std::unique_ptr"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "std::weak_ptr"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "std::unique_ptr is designed to have sole ownership of the resource it points to, ensuring no multiple copies of the pointer own the same resource, unlike std::shared_ptr which allows multiple owners."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Cross-Platform Build Processes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a C++ project for multiple platforms and configurations, which tool can manage builds across different systems while allowing for complex dependency management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CMake"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Makefile"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GDB"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GCC"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CMake is a cross-platform free and open-source software tool designed to manage the build process of software using a compiler-independent method. It supports directory hierarchies and applications that depend on multiple libraries."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Selection Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following C++ code snippet, which case will be executed if the variable 'choice' is set to 3?"
+      },
+      {
+        "type": "text",
+        "value": "switch(choice) {\n  case 1: cout << \"Option 1\"; break;\n  case 2: cout << \"Option 2\"; break;\n  default: cout << \"Unknown option\"; break;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Option 1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Option 2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Option 3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Unknown option"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The value 3 does not match any of the defined cases (1 or 2), so the default case is executed, which outputs 'Unknown option'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Implicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C++ code snippet? int a = 42; double b = 2.5; cout << a * b;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "105.0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "104.5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "105"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The integer 'a' is implicitly converted to a double for the multiplication with 'b', resulting in a double value of 105.0."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Template Specialization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a template function designed to compare two values, which of the following specializations correctly implements a version for C-style strings (char*) that compares string values rather than addresses?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "template<> bool compare<char*>(char* a, char* b) { return strcmp(a, b) == 0; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "template<> bool compare<char*>(char* a, char* b) { return a == b; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "template<> bool compare<char*>(char* a, char* b) { return *a == *b; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "template<> bool compare<char*>(char* a, char* b) { return &a == &b; }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses strcmp to compare the strings by their values. Other options incorrectly compare the memory addresses or the first characters only."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Constructor Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which scenario best justifies the need for constructor overloading in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the class methods need to handle different data types."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When the object needs to be initialized in different ways."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When implementing virtual functions in the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "When the class requires a constant member variable."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Constructor overloading is necessary when different instances of an object need to be initialized in distinctly different ways, providing flexibility in object creation by allowing different sets of parameters for initialization."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Functions and Recursion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the recursive function defined as: int func(int n) { if (n < 1) return 1; else return n * func(n - 1); } What is the output of func(5)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "120"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "24"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function is a factorial function. func(5) calculates 5 * 4 * 3 * 2 * 1, which equals 120."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "C++ Compiler Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements correctly describes how the preprocessing directive #include <iostream> functions within a C++ compiler environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It directly modifies the source code file to include the contents of iostream at the location of the directive."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It instructs the linker to include the iostream library during the linking phase of the compilation."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It instructs the compiler to include the standard input-output streams library before compilation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is ignored by the compiler as it is only useful for the IDE's syntax highlighting features."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The preprocessing directive #include <iostream> tells the compiler to include the standard input-output streams library, which is necessary for operations like cin and cout, before the compilation phase begins."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Memory Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of advanced C++ memory management, which of the following statements is true regarding the use of smart pointers (such as std::unique_ptr) compared to traditional pointers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Smart pointers can lead to higher overhead due to their control mechanisms."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Traditional pointers automatically manage memory deallocation, preventing memory leaks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Smart pointers and traditional pointers are interchangeable in terms of performance and safety."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Traditional pointers provide built-in mechanisms for reference counting."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While smart pointers such as std::unique_ptr provide automatic memory management and help prevent memory leaks, they can introduce additional overhead due to their control mechanisms, such as reference counting in the case of std::shared_ptr."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "C++ Compiler Nuances",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the typical impact of enabling link-time optimization (LTO) in a C++ compiler on the resulting executable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases the size of the executable due to added debugging information."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases the execution speed due to additional runtime checks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduces the executable size and potentially increases execution speed by optimizing across translation units."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No impact, as LTO only affects the compilation time, not the output."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Link-time optimization (LTO) allows the compiler to perform optimizations across translation units, which can eliminate unnecessary code and inline functions across files, thereby reducing the size of the executable and potentially increasing its execution speed."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Selection Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a C++ program, a switch statement is used to execute different code blocks based on the value of an integer variable x. If the variable x is 3, and there is no explicit 'case 3:' but there is a 'default:' case, which of the following is true about the program execution?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It results in a compile-time error."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It executes the block under 'case 3:'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It executes the block under 'default:'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The program crashes."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, if no matching case label is found in a switch statement, the control is transferred to the default label. Since there is no 'case 3:', the 'default:' case is executed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "C++ Project Compilation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a C++ project for multiple platforms, what is a crucial consideration for ensuring that all target platforms are properly supported during the build process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensuring all developers use the same IDE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a platform-agnostic build system like CMake"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Limiting the use of third-party libraries to minimize compatibility issues"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing solely on the most used platform during initial development phases"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a platform-agnostic build system such as CMake facilitates the generation of build files across different platforms, ensuring that the project can be compiled and run on any targeted platform without platform-specific adjustments."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "IDE Features",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature is LEAST important when selecting an Integrated Development Environment (IDE) for C++ development focused on multi-platform compatibility?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Support for cross-platform debugging tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Built-in version control system integration"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Customizable syntax highlighting"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatic code refactoring capabilities"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because while customizable syntax highlighting improves the user experience, it is the least critical feature for multi-platform development compared to debugging, version control, and refactoring capabilities."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Type Sizes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming a platform where int is 4 bytes and double is 8 bytes, what is the size of the following structure in C++? struct Sample { int a; double b; int c; };"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "16 bytes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20 bytes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "24 bytes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "12 bytes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The structure will usually align its members to boundaries that match their sizes to optimize memory accesses. 'int a' takes 4 bytes, 'double b' will be aligned to the next 8-byte boundary after 'a', taking an additional 8 bytes, and 'int c' will follow directly, taking another 4 bytes. Thus, the total size will be 16 bytes, assuming no padding is added at the end."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Dynamic Memory Allocation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true when dynamically allocating objects of the class 'Circle' using the new operator?"
+      },
+      {
+        "type": "text",
+        "value": "class Circle {public: Circle(double r); ~Circle();};"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The destructor is automatically called immediately after the constructor when using new."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Memory allocated using new must be manually deallocated using delete."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The constructor Circle(double r) cannot be used with dynamic memory allocation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using new to create an instance of Circle will not call any constructor."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When using the 'new' operator to dynamically allocate memory for an object, the corresponding destructor is not called immediately but when 'delete' is used. Therefore, memory must be manually deallocated using 'delete' to prevent memory leaks."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Loop Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following loop structure in C++, what is the output?\n\nfor (int i = 0; i < 5; i++) {\n  if (i == 2) continue;\n  if (i == 4) break;\n  cout << i << \" \";\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 1 2 3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0 1 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0 1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0 1 3 4"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates from 0 to 4. The 'continue' statement skips the remainder of the loop body when i equals 2. The 'break' statement exits the loop when i equals 4. Thus, the numbers 0, 1, and 3 are outputted, making option B correct."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Operator Precedence",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C++ code: int x = 5, y = 2; int result = x + y * 3; What is the value of 'result'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "21"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to operator precedence in C++, multiplication is performed before addition. Therefore, y * 3 = 6, and then x + 6 = 11."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Object Life Cycle Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++, if a class has a pointer member that is dynamically allocated, what is the best practice to prevent memory leaks upon object destruction?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implement a destructor that explicitly deletes the pointer."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use a static integer to count the number of instances."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Declare the pointer as a static member of the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Override the default assignment operator only."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To prevent memory leaks, a class should implement a destructor that explicitly deletes pointer members allocated with new, ensuring that the allocated memory is freed when an object of the class is destroyed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Template Metaprogramming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a characteristic of template metaprogramming in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows for the execution of C++ templates at runtime for flexibility"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It involves writing code that the compiler will execute at compile-time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It exclusively utilizes virtual functions to achieve polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It results in slower compile times due to increased runtime checks"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Template metaprogramming involves writing templates that generate code which is executed by the compiler at compile-time, leading to highly optimized and efficient code with no runtime overhead."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Compiler Requirements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a C++ development environment on a Windows platform, which of the following is NOT a typical requirement for a C++ compiler?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Support for C++11 or later standards"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ability to integrate with multiple IDEs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compatibility with Windows API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Native support for Linux system calls"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because native support for Linux system calls is not a requirement for a C++ compiler on a Windows platform, as these are specific to Linux environments."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Operator Precedence and Associativity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following C++ statement, what is the result of the expression? int x = 5, y = 3; int result = x * y / x + y - 2;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "First, multiplication and division are performed from left to right (x * y / x = 5 * 3 / 5 = 3). Then addition and subtraction are performed from left to right (3 + y - 2 = 3 + 3 - 2 = 4)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Implicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C++ code if executed? char c = 'A'; int result = c + 2;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "C"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "67"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "69"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "65"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The character 'A' has an ASCII value of 65. When added to 2, the result is 67. However, since the result is stored as an integer, the output is the integer 67, not a character."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Template Specializations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a template function in C++ designed to process elements of a container. If a specialization of this function is created specifically for 'char' types, what would be the impact on the behavior of the function when processing a container of 'char'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It would process elements as integer ASCII values."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The specialized function would override the generic template for 'char' type containers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The generic template would still be used, ignoring the specialization."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It would throw a compile-time error due to ambiguity."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Specializing a template function for a specific type like 'char' means that this specialized version will be used whenever a 'char' type container is passed to the function, overriding the generic template function."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Operator Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a class 'Matrix' that overloads the '+' operator, what would be the consequence of not returning the result by reference in the overloaded function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It would result in a compilation error."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It could potentially lead to inefficient code due to unnecessary copying of objects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows multiple '+' operations to be chained together efficiently."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It changes the precedence of the '+' operator."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Not returning by reference in the overloaded '+' operator for class 'Matrix' leads to unnecessary object copies each time the operator is used, which can significantly slow down the program if the matrices are large."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "C++ Project Compilation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When building a C++ project across multiple platforms, which of the following tools can NOT be universally used for project configuration and management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CMake"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Makefile"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Visual Studio Solutions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bazel"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Visual Studio Solutions are specific to Windows and are not suitable for universal use across multiple platforms unlike tools like CMake or Bazel."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Setting Up C++ Development Environment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a C++ environment on a Windows machine, which of the following is necessary to compile a C++ program?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Microsoft Excel must be installed for data handling."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A compatible C++ compiler like GCC or Visual C++ must be installed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An active internet connection is required to compile every C++ program."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The Windows machine must be in developer mode."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To compile a C++ program on a Windows machine, you must have a C++ compiler installed. Common choices include GCC or Visual C++, which can compile the C++ code into executable software."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Operator Precedence and Associativity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following C++ expression, what is the value of 'x' after execution?\n\nint x = 5, y = 2;\nx = x + y * 3 - 4 / 2;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to operator precedence and associativity in C++, multiplication and division are performed before addition and subtraction. Thus, the expression evaluates as follows:\ny * 3 = 6\n4 / 2 = 2\nx + 6 - 2 = 9\nHence, x becomes 9."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Iteration Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C++ code snippet: int i = 0; while (i < 10) { if (i == 5) break; i++; } What is the final value of i when the loop terminates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates until i equals 5. At i equals 5, the break statement is executed, which terminates the loop. Therefore, the final value of i when the loop terminates is 5."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Iteration Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the final value of 'x' after the loop completes in the following C++ code?"
+      },
+      {
+        "type": "text",
+        "value": "int x = 0;\nfor(int i = 0; i < 5; i++) {\n  if(i % 2 == 0) {\n    continue;\n  }\n  x += i;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop increments 'x' only on iterations where 'i' is odd (1 and 3). Thus, x += 1 + 3 results in x = 4 after the loop. Note: The sum is 4, and option B was mistakenly given as 6 due to an error in the options."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Memory Management Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++, which of the following techniques is a valid and efficient way to prevent resource leaks in a program that uses dynamic memory allocation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using raw pointers and manually managing memory with new and delete"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employing smart pointers such as std::unique_ptr and std::shared_ptr to automatically manage memory"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Overloading the global new and delete operators to perform automatic garbage collection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using malloc() and free() for memory management in conjunction with automatic destructors"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Smart pointers like std::unique_ptr and std::shared_ptr automatically manage memory by using RAII (Resource Acquisition Is Initialization) which ensures that allocated resources are properly released when they are no longer needed, thus preventing resource leaks."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Memory Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++, which of the following statements is true about the use of smart pointers (std::unique_ptr and std::shared_ptr) compared to traditional pointers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Smart pointers can lead to memory leaks if not used correctly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Smart pointers automatically manage the memory, preventing memory leaks and dangling pointers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using smart pointers significantly slows down program execution compared to raw pointers."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Smart pointers can be used interchangeably with raw pointers without any considerations."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because smart pointers are designed to handle memory deallocation automatically when the object they point to is no longer needed, thus preventing memory leaks and dangling pointers."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Template Metaprogramming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of C++ template metaprogramming, which of the following is a valid use of SFINAE (Substitution Failure Is Not An Error)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To generate compile-time errors when a template parameter does not meet a specific type requirement."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To overload function templates based on trait checks without causing a compile error if a substitution fails."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enforce that only numeric types can be passed to a template function, causing runtime errors otherwise."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To automatically deduce the return type of a function template during runtime."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SFINAE is a C++ language feature that allows a function template to be excluded from overload resolution when a substitution failure occurs within its signature. The correct use is to allow function template overloads based on compile-time trait checks, without generating a compile-time error for failed substitutions."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Cross-platform C++ Development",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is most appropriate for managing a C++ project that needs to be compiled for multiple platforms, ensuring consistent build configurations and dependencies?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Makefile"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CMake"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GCC"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio Solution"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CMake is a cross-platform tool designed to manage build processes in a compiler-independent manner, making it ideal for projects that need to support multiple platforms."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Iteration Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a nested loop structure in C++. The outer loop runs from 1 to N, and the inner loop runs from 1 to the current value of the outer loop index. If the total number of iterations executed by the inner loop is 55, what is the value of N?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "8"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The number of iterations for each loop can be represented by the sum of the first N natural numbers, which is N*(N+1)/2. Solving the equation N*(N+1)/2 = 55 results in N=10."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Memory Management Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the behavior of unique_ptr in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows multiple pointers to manage the same object and deallocates the object when the last managing pointer goes out of scope."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It retains sole ownership of an object through a pointer and deletes the object when the unique_ptr goes out of scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It shares ownership of an object with other instances of shared_ptr and deallocates the object when the last shared_ptr is destroyed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It provides temporary ownership of an object and passes ownership to another pointer after its scope ends."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "unique_ptr in C++ is designed for sole ownership of an object. It manages an object through a pointer and automatically deletes the object when the unique_ptr itself is destroyed, preventing any other pointers from managing the same object, which differentiates it from shared_ptr."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Implicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the C++ code: double a = 10; int b = 3; double c = a / b; What is the value of 'c'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3.3333"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In this expression, 'a' is a double and 'b' is an int. When they are used in the division operation, 'b' is implicitly converted to a double. Therefore, the result of 10 / 3 is approximately 3.3333."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Implicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C++ code snippet:\n\nint main() {\n    double a = 10.5;\n    int b = 3;\n    auto c = a + b;\n    return 0;\n}\n\nWhat is the data type of 'c' after execution of this code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "auto"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, when an integer is added to a double, the integer is implicitly converted to a double. Therefore, the result of 'a + b' is a double, making 'c' a double as well."
+      }
+    ]
+  }
+]

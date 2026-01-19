@@ -1,0 +1,1140 @@
+[
+  {
+    "id": 1,
+    "topic": "Azure Cognitive Search",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why would you use semantic ranking in Azure Cognitive Search instead of BM25 scoring?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To improve ranking quality using transformer-based embeddings" },
+      { "label": "B", "type": "text", "value": "To reduce index size drastically" },
+      { "label": "C", "type": "text", "value": "To disable vector search capabilities" },
+      { "label": "D", "type": "text", "value": "To run searches without any scoring" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic ranking uses deep learning models for context-aware relevance boosts." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "Azure OpenAI Integration",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which architecture pattern best supports grounding Azure OpenAI models with enterprise data while ensuring hallucination reduction?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Retrieval-Augmented Generation (RAG) with Cognitive Search vector indexes" },
+      { "label": "B", "type": "text", "value": "Connecting GPT directly to SQL without preprocessing" },
+      { "label": "C", "type": "text", "value": "Using GPT without embeddings" },
+      { "label": "D", "type": "text", "value": "Storing prompts inside Blob Storage only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RAG pipelines ground LLM responses using enterprise context retrieved via vector search." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "Cognitive Services Customization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Custom Neural Voice requires a multi-step approval process primarily because:" }
+    ],
+    "options": [
+      { "label":"A", "type":"text", "value":"It prevents misuse of voice cloning technologies" },
+      { "label":"B", "type":"text", "value":"It increases model training speed" },
+      { "label":"C", "type":"text", "value":"It reduces GPU cost" },
+      { "label":"D", "type":"text", "value":"It improves audio compression" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text", "value":"Voice cloning is sensitive; Microsoft enforces strict governance." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "Azure Machine Learning Pipelines",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is parallelizing pipeline components using Azure ML ParallelRunStep beneficial for large inference workloads?" }
+    ],
+    "options": [
+      { "label":"A", "type":"text", "value":"It distributes batch inference across multiple compute nodes" },
+      { "label":"B", "type":"text", "value":"It reduces data size automatically" },
+      { "label":"C", "type":"text", "value":"It bypasses the need for scoring scripts" },
+      { "label":"D", "type":"text", "value":"It automatically improves model accuracy" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text", "value":"ParallelRunStep accelerates processing of large inference datasets." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which technique most effectively mitigates model bias in computer vision models deployed through Azure ML?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Counterfactual fairness testing + dataset balancing" },
+      { "label":"B","type":"text","value":"Using only categorical encodings" },
+      { "label":"C","type":"text","value":"Increasing model depth" },
+      { "label":"D","type":"text","value":"Reducing batch size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Fairness testing plus dataset rebalancing reduces demographic disparities." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Azure ML Compute Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why use Azure ML curated environments when deploying GPU-dependent deep learning models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They provide optimized CUDA/cuDNN support and reproducible builds" },
+      { "label":"B","type":"text","value":"They remove the need for Docker" },
+      { "label":"C","type":"text","value":"They eliminate version control requirements" },
+      { "label":"D","type":"text","value":"They auto-generate training code" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Curated environments reduce dependency conflicts and speed deployment." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Vision Studio Custom Training",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is transfer learning particularly effective for Azure Custom Vision advanced scenarios?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Pretrained CNNs provide reusable visual features that accelerate convergence" },
+      { "label":"B","type":"text","value":"It bypasses GPU usage" },
+      { "label":"C","type":"text","value":"It guarantees perfect accuracy" },
+      { "label":"D","type":"text","value":"It removes need for training data" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Transfer learning leverages pretrained weights for fast adaptation." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "In Azure Bot Service, why would you integrate an Orchestrator + LUIS or Orchestrator + CLU topology?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"To route user queries across multiple domain-specific NLU models" },
+      { "label":"B","type":"text","value":"To reduce API cost to zero" },
+      { "label":"C","type":"text","value":"To remove telemetry logs" },
+      { "label":"D","type":"text","value":"To eliminate utterance labeling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Orchestrator selects the best underlying NLU model based on embeddings." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Azure OpenAI Fine-Tuning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why might LoRA (Low-Rank Adaptation) be preferred over full fine-tuning for Azure OpenAI models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It significantly reduces training cost while preserving model quality" },
+      { "label":"B","type":"text","value":"It requires no training at all" },
+      { "label":"C","type":"text","value":"It disables embeddings" },
+      { "label":"D","type":"text","value":"It guarantees perfect hallucination removal" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"LoRA fine-tunes only small adapter layers, making it cheap and efficient." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "Custom Vision Advanced Architecture",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why might a RetinaNet-based model outperform a YOLO model in Azure Custom Vision scenarios?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"RetinaNet handles class imbalance better with Focal Loss" },
+      { "label":"B","type":"text","value":"YOLO cannot detect small objects" },
+      { "label":"C","type":"text","value":"RetinaNet trains faster always" },
+      { "label":"D","type":"text","value":"RetinaNet does not require annotations" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Focal Loss improves performance on minority classes." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Azure ML Training Clusters",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why choose a distributed training environment using MPI-based Horovod inside Azure ML?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It scales deep learning workloads efficiently across GPU nodes" },
+      { "label":"B","type":"text","value":"It reduces model parameters" },
+      { "label":"C","type":"text","value":"It increases schema validation speed" },
+      { "label":"D","type":"text","value":"It stores datasets automatically" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Horovod optimizes multi-GPU/multi-node distributed training." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Azure Cognitive Search Vector Indexes",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why are HNSW vector indexes preferred for large-scale semantic search in Cognitive Search?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They support approximate nearest neighbor search with high recall and low latency" },
+      { "label":"B","type":"text","value":"They eliminate need for embeddings" },
+      { "label":"C","type":"text","value":"They store text instead of vectors" },
+      { "label":"D","type":"text","value":"They require no compute resources" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"HNSW enables efficient vector similarity search for LLM solutions." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Azure AI Content Safety",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should Azure AI Content Safety be placed before an Azure OpenAI completion call in a production system?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To prevent harmful user inputs from reaching the LLM" },
+      { "label":"B","type":"text","value":"To reduce inference time" },
+      { "label":"C","type":"text","value":"To disable model monitoring" },
+      { "label":"D","type":"text","value":"To remove conversation history" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Pre-moderation avoids harmful prompt injection and malicious content." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Azure ML Feature Store",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why maintain offline and online feature stores separately in Azure ML?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Offline for training, online for low-latency inference to prevent training-serving skew" },
+      { "label":"B","type":"text","value":"To store logs separately" },
+      { "label":"C","type":"text","value":"To reduce GPU cost" },
+      { "label":"D","type":"text","value":"To remove schema validation" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Separate stores ensure consistency and high performance." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Large Language Model Deployment",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is token streaming recommended for Azure OpenAI ChatCompletion apps with heavy UI interactivity?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It reduces perceived latency for end users" },
+      { "label":"B","type":"text","value":"It reduces token cost to zero" },
+      { "label":"C","type":"text","value":"It disables safety filtering" },
+      { "label":"D","type":"text","value":"It prevents grounding the model" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Streaming improves UX in chat-like applications." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Text Analytics for Health",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is Text Analytics for Health more computationally expensive compared to standard entity recognition models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Healthcare NER requires domain-specific transformers with complex ontologies" },
+      { "label":"B","type":"text","value":"It removes stop words" },
+      { "label":"C","type":"text","value":"It only handles short documents" },
+      { "label":"D","type":"text","value":"It uses rule-based heuristics only" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Healthcare models require deeper contextual understanding." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Azure ML Monitoring",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is embedding drift monitoring important for AI-102 solutions using LLM-based semantic architectures?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Embedding drift affects semantic similarity and retrieval accuracy" },
+      { "label":"B","type":"text","value":"It reduces cost" },
+      { "label":"C","type":"text","value":"It eliminates inference endpoints" },
+      { "label":"D","type":"text","value":"It prevents GPU overheating" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Drift can break retrieval quality in RAG pipelines." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Speech Services Advanced",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why use batch transcription in Azure Speech rather than real-time transcription for long audio files?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Batch transcription supports long-form processing with higher accuracy and customization" },
+      { "label":"B","type":"text","value":"It is always free" },
+      { "label":"C","type":"text","value":"It requires no storage" },
+      { "label":"D","type":"text","value":"It disables diarization" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Batch mode is optimized for long audio and large workloads." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Vector Search + LLM",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should embeddings be recalculated when upgrading Azure OpenAI embedding models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Different embedding models produce vector spaces that are not compatible" },
+      { "label":"B","type":"text","value":"To reduce vector size" },
+      { "label":"C","type":"text","value":"To improve the API request speed" },
+      { "label":"D","type":"text","value":"To reduce storage costs" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Embedding models create incompatible semantic spaces; recalculation avoids degraded search quality." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "Model Governance",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which Azure ML feature provides full lineage tracking of datasets, environments, pipelines, and models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Azure ML Asset Lineage Tracking" },
+      { "label":"B","type":"text","value":"Azure Monitor Metrics" },
+      { "label":"C","type":"text","value":"Azure Advisor" },
+      { "label":"D","type":"text","value":"Key Vault" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Lineage tracking is essential for reproducibility and auditability." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Azure ML Model Deployment",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is using Deployment Guardrails in Azure ML important for mission-critical AI systems?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They enforce safe rollouts, alerting, and automated rollback on model degradation" },
+      { "label": "B", "type": "text", "value": "They automatically generate training data" },
+      { "label": "C", "type": "text", "value": "They eliminate compute costs" },
+      { "label": "D", "type": "text", "value": "They disable drift monitoring" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Guardrails automate checks and rollbacks to prevent harmful deployments." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "Azure ML Distributed Training",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which distributed training strategy is best for very large transformer models that exceed single-GPU memory?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Model parallelism using DeepSpeed or Megatron-LM" },
+      { "label": "B", "type": "text", "value": "Data parallelism only" },
+      { "label": "C", "type": "text", "value": "Training on CPU clusters" },
+      { "label": "D", "type": "text", "value": "Batch scoring only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model parallelism splits layers across GPUs to handle extremely large models." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Azure OpenAI Security",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why should enterprise Azure OpenAI deployments use Virtual Network (VNet) integration?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"To isolate inference traffic and prevent data exfiltration" },
+      { "label":"B","type":"text","value":"To disable rate limiting" },
+      { "label":"C","type":"text","value":"To reduce token usage" },
+      { "label":"D","type":"text","value":"To remove authentication requirements" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"VNet integration prevents unauthorized external access." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Vector Search Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "To optimize vector search performance in Cognitive Search, which HNSW parameters have the strongest effect on recall?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"efSearch and efConstruction" },
+      { "label":"B","type":"text","value":"maxTextSize" },
+      { "label":"C","type":"text","value":"tokenCount" },
+      { "label":"D","type":"text","value":"maxPageSize" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"HNSW parameters control search breadth and graph connectivity." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Language Understanding (CLU)",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why might CLU (Conversational Language Understanding) outperform LUIS in advanced conversational bots?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"CLU uses transformer-based models with better contextual understanding" },
+      { "label":"B","type":"text","value":"CLU removes intent classification" },
+      { "label":"C","type":"text","value":"LUIS does not support entities" },
+      { "label":"D","type":"text","value":"CLU requires no training" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"CLU is built on newer foundation models with improved semantics." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Azure ML AutoML",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "AutoML in Azure ML supports model ensembling. Why is this important for advanced ML workloads?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Ensembling combines multiple models to improve robustness and accuracy" },
+      { "label":"B","type":"text","value":"It guarantees 100% accuracy" },
+      { "label":"C","type":"text","value":"It removes the need for validation datasets" },
+      { "label":"D","type":"text","value":"It permanently minimizes model size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Ensembles outperform single models on complex datasets." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Document Intelligence",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is layout-based understanding essential for high-accuracy Azure Document Intelligence extraction?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It allows the model to interpret tables, forms, and reading order" },
+      { "label":"B","type":"text","value":"It reduces GPU usage" },
+      { "label":"C","type":"text","value":"It removes OCR requirements" },
+      { "label":"D","type":"text","value":"It guarantees perfect extraction" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Layout is crucial for structured documents and complex forms." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Azure ML Pipeline Caching",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Pipeline caching in Azure ML significantly reduces cost and time by:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Reusing outputs of previously executed steps when inputs haven't changed" },
+      { "label":"B","type":"text","value":"Compressing compute clusters" },
+      { "label":"C","type":"text","value":"Automatically reducing dataset size" },
+      { "label":"D","type":"text","value":"Replacing the need for YAML files" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Caching avoids recomputation for stable pipeline steps." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Computer Vision Edge Deployment",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is ONNX Runtime preferred for deploying Azure ML vision models to edge devices?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It provides hardware-accelerated inference across CPU, GPU, and TPU" },
+      { "label":"B","type":"text","value":"It disables quantization" },
+      { "label":"C","type":"text","value":"It requires no model conversion" },
+      { "label":"D","type":"text","value":"It guarantees 100 FPS always" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"ONNX Runtime provides broad hardware optimization and high inference performance." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Cognitive Services Deployment Architecture",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should large-scale Azure AI deployments use regional isolation and multi-region replication?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To ensure high availability, fault isolation, and disaster recovery" },
+      { "label":"B","type":"text","value":"To remove API throttling" },
+      { "label":"C","type":"text","value":"To avoid authentication" },
+      { "label":"D","type":"text","value":"To reduce token count" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Regional redundancy protects production workloads against regional outages." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "RAG with Azure ML",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "In an enterprise RAG system, why is chunk-size optimization important when ingesting data into a Cognitive Search vector index?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It maximizes embedding relevance and reduces retrieval noise" },
+      { "label":"B","type":"text","value":"It reduces token costs to zero" },
+      { "label":"C","type":"text","value":"It disables OCR" },
+      { "label":"D","type":"text","value":"It removes the need for embedding models" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Chunk size affects embedding quality and recall." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Azure ML Model Interpretability",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why might SHAP computations require distributed compute for large models in Azure ML?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"SHAP values are computationally expensive and scale poorly with deep models" },
+      { "label":"B","type":"text","value":"SHAP automatically compresses datasets" },
+      { "label":"C","type":"text","value":"SHAP removes need for training" },
+      { "label":"D","type":"text","value":"SHAP reduces GPU requirements" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"SHAP requires many model evaluations, requiring distributed compute for large models." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Azure Bot Framework Advanced",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is adaptive dialog state management superior to waterfall dialogs for complex enterprise bots?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Adaptive dialogs support interruptions, context switching, and dynamic routing" },
+      { "label":"B","type":"text","value":"Waterfall dialogs cannot support more than one intent" },
+      { "label":"C","type":"text","value":"Adaptive dialogs disable language understanding" },
+      { "label":"D","type":"text","value":"They remove telemetry" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Adaptive dialogs provide flexibility for complex multi-turn scenarios." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Deep Learning Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is mixed-precision training recommended for deep learning workloads on Azure ML GPU clusters?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It provides faster training with lower memory usage by utilizing FP16" },
+      { "label":"B","type":"text","value":"It eliminates the need for gradient descent" },
+      { "label":"C","type":"text","value":"It removes the need for TensorBoard" },
+      { "label":"D","type":"text","value":"It increases model size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Mixed precision significantly boosts performance using Tensor Cores." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "DeepSpeed + Azure ML",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"DeepSpeed improves training of very large models by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Using ZeRO optimization to shard optimizer states, gradients, and parameters" },
+      { "label":"B","type":"text","value":"Replacing GPUs with CPUs" },
+      { "label":"C","type":"text","value":"Reducing dataset size automatically" },
+      { "label":"D","type":"text","value":"Generating synthetic labels" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"ZeRO allows training models with trillions of parameters." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "Face API Advanced",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is face recognition restricted in Azure Cognitive Services?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To comply with global privacy laws and prevent misuse" },
+      { "label":"B","type":"text","value":"To force the use of custom models only" },
+      { "label":"C","type":"text","value":"Because it cannot detect faces" },
+      { "label":"D","type":"text","value":"Because it is too slow" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Face recognition is regulated due to ethical and legal concerns." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "Azure ML Data Drift",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is covariance shift more dangerous than mean shift in AI models deployed in Azure ML?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It alters the relationship between features, breaking learned patterns" },
+      { "label":"B","type":"text","value":"It only affects batch size" },
+      { "label":"C","type":"text","value":"It always improves accuracy" },
+      { "label":"D","type":"text","value":"It disables drift detection" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Covariance shift changes feature interactions, leading to severe performance drops." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "Azure ML Advanced Security",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should Azure ML Key Vault secrets be mounted at runtime instead of hardcoding connection strings?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To prevent credential leaks and enable automated rotation" },
+      { "label":"B","type":"text","value":"To reduce GPU usage" },
+      { "label":"C","type":"text","value":"To disable encryption" },
+      { "label":"D","type":"text","value":"To bypass authentication" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Runtime secret retrieval ensures better security and governance." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Prompt Engineering for Azure OpenAI",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is system-level prompting preferred for deterministic enterprise LLM solutions?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It enforces consistent behavior by constraining the model’s allowed responses" },
+      { "label":"B","type":"text","value":"It improves Azure billing" },
+      { "label":"C","type":"text","value":"It removes need for grounding" },
+      { "label":"D","type":"text","value":"It disables embeddings" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"System prompts define strict behavioral boundaries for enterprise usage." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Azure ML Endpoint Autoscaling",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why use warm pools when autoscaling real-time Azure ML endpoints serving LLM or vision models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Warm pools reduce cold-start latency by pre-provisioning compute instances" },
+      { "label":"B","type":"text","value":"Warm pools reduce training epochs" },
+      { "label":"C","type":"text","value":"They disable load balancing" },
+      { "label":"D","type":"text","value":"They increase container image size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Warm pools drastically lower cold start delays for heavy models." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Azure ML Inference Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is model quantization (INT8) often recommended for large Azure ML inference workloads on CPU clusters?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It reduces model size and improves inference speed with minimal accuracy loss" },
+      { "label": "B", "type": "text", "value": "It removes the need for a scoring script" },
+      { "label": "C", "type": "text", "value": "It ensures GPU acceleration automatically" },
+      { "label": "D", "type": "text", "value": "It prevents drift detection" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Quantization is a key optimization for CPU-heavy inference scenarios." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Azure Cognitive Search + RAG",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is reranking essential in a multi-stage RAG architecture using Azure Cognitive Search?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It improves retrieval precision by applying transformer models on top results" },
+      { "label": "B", "type": "text", "value": "It reduces embedding dimensionality" },
+      { "label": "C", "type": "text", "value": "It eliminates the need for chunking" },
+      { "label": "D", "type": "text", "value": "It removes vector store requirements" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Rerankers such as MiniLM improve relevance by re-evaluating top-k documents." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Azure ML Advanced Environments",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why are Docker multi-stage builds recommended for Azure ML custom inference images?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They reduce image size and isolate dependencies more cleanly" },
+      { "label": "B", "type": "text", "value": "They remove environment variables" },
+      { "label": "C", "type": "text", "value": "They disable GPU support" },
+      { "label": "D", "type": "text", "value": "They stop pipelines from caching" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Smaller images reduce deployment time and improve reliability." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Azure OpenAI Embeddings",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should vector normalization be applied before storing embeddings in Cognitive Search?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Cosine similarity requires normalized vectors for consistent ranking" },
+      { "label":"B","type":"text","value":"It reduces file size" },
+      { "label":"C","type":"text","value":"It increases document count" },
+      { "label":"D","type":"text","value":"It disables content moderation" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Cosine distance assumes unit-normalized vectors." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Data Engineering with Azure ML",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why use Delta Lake or Parquet datasets for Azure ML training instead of CSV?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Columnar formats drastically reduce I/O costs and support schema evolution" },
+      { "label":"B","type":"text","value":"They remove data validation requirements" },
+      { "label":"C","type":"text","value":"CSV supports GPU acceleration" },
+      { "label":"D","type":"text","value":"They reduce token usage" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Columnar formats optimize both performance and governance." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Azure Bot Service Advanced",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should enterprise bots use OAuth 2.0 + SSO instead of storing user credentials?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It ensures secure authentication and prevents credential leakage" },
+      { "label":"B","type":"text","value":"It speeds up token embedding" },
+      { "label":"C","type":"text","value":"It eliminates the need for LUIS" },
+      { "label":"D","type":"text","value":"It disables RAG" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Storing credentials breaks security best practices." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "Azure ML Advanced Compute",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "What is the main advantage of using Spot VMs for large-scale training jobs in Azure ML?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"They reduce cost significantly while supporting automatic job requeueing" },
+      { "label":"B","type":"text","value":"They guarantee 24/7 availability" },
+      { "label":"C","type":"text","value":"They prevent GPU eviction" },
+      { "label":"D","type":"text","value":"They increase model accuracy automatically" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Spot VMs offer major cost savings with rescheduling support." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Azure ML REST Endpoints",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is token-based authentication preferred for real-time Azure ML model endpoints?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It secures endpoints using short-lived access tokens" },
+      { "label":"B","type":"text","value":"It avoids authorization" },
+      { "label":"C","type":"text","value":"It stores keys in plain text" },
+      { "label":"D","type":"text","value":"It disables API throttling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Short-lived tokens reduce security risk." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Prompt Engineering for Chatbots",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is a gating classifier often paired with generative Azure OpenAI models in production chatbots?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To filter harmful or off-topic requests before sending them to the LLM" },
+      { "label":"B","type":"text","value":"To reduce token embeddings" },
+      { "label":"C","type":"text","value":"To automatically upgrade the model" },
+      { "label":"D","type":"text","value":"To disable moderation APIs" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Gating classifiers act as a security and compliance layer." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "AI Services Architecture",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"In an enterprise AI-102 ecosystem, why use Event Grid + Logic Apps with Azure AI Services?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To orchestrate event-driven pipelines such as document ingestion or moderation" },
+      { "label":"B","type":"text","value":"To disable message queues" },
+      { "label":"C","type":"text","value":"To reduce logs to zero" },
+      { "label":"D","type":"text","value":"To bypass security scans" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Event-driven integration supports scalable automation." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "Large-Scale Document Intelligence",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is pre-classification of documents recommended before applying Form Recognizer custom models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Different document layouts require different extraction models" },
+      { "label":"B","type":"text","value":"It removes OCR" },
+      { "label":"C","type":"text","value":"It makes training optional" },
+      { "label":"D","type":"text","value":"It guarantees zero parsing errors" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Routing documents ensures the right layout-aware model is used." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Azure ML Model Versioning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is automated model versioning important in Azure ML CI/CD workflows?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It ensures traceability and rollback for every training iteration" },
+      { "label":"B","type":"text","value":"It disables model registry" },
+      { "label":"C","type":"text","value":"It removes pipeline caching" },
+      { "label":"D","type":"text","value":"It forces a single version per model" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Versioning is crucial for governance and reproducibility." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Azure ML Monitoring & Telemetry",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is capturing both input and output logs via Application Insights essential in AI-102 deployments?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To detect anomalous behavior, prompt injection, and degraded predictions" },
+      { "label":"B","type":"text","value":"To reduce compute cost" },
+      { "label":"C","type":"text","value":"To disable autoscaling" },
+      { "label":"D","type":"text","value":"To remove inference endpoints" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Monitoring I/O logs supports debugging, compliance, and security analysis." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Azure ML Hyperparameter Tuning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why does Azure ML's Bayesian hyperparameter tuning outperform grid search for deep learning models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It explores the search space intelligently using probabilistic optimization" },
+      { "label":"B","type":"text","value":"It guarantees global optima always" },
+      { "label":"C","type":"text","value":"It removes training loops" },
+      { "label":"D","type":"text","value":"It increases dataset size" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Bayesian optimization finds good hyperparameters efficiently." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "Azure ML Advanced Pipelines",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why are asynchronous pipelines often used for multimodal AI workloads (text, images, and audio)?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They handle long-running steps independently and scale components separately" },
+      { "label":"B","type":"text","value":"They remove latency constraints" },
+      { "label":"C","type":"text","value":"They guarantee equal step timing" },
+      { "label":"D","type":"text","value":"They disable caching" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Async pipelines improve modularity, cost control, and resilience." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Semantic Kernel (Azure)",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is Semantic Kernel useful for orchestrating Azure OpenAI-based enterprise agents?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It manages prompt templates, memory, skills, and tool execution" },
+      { "label":"B","type":"text","value":"It removes embedding models" },
+      { "label":"C","type":"text","value":"It eliminates scripting" },
+      { "label":"D","type":"text","value":"It disables content safety" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Semantic Kernel provides agent orchestration and tool integration." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "Azure ML Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why should SHAP + counterfactual explanations be combined in high-risk AI systems?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To provide both feature attribution and actionable user recourse" },
+      { "label":"B","type":"text","value":"To increase GPU usage" },
+      { "label":"C","type":"text","value":"To replace model registry" },
+      { "label":"D","type":"text","value":"To disable endpoint logging" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Attributions explain why, counterfactuals explain how to change the outcome." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "Azure ML Model Deployment Strategies",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is canary deployment preferred over immediate full rollout in high-risk Azure ML applications?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It gradually exposes traffic to the new model to detect issues early" },
+      { "label":"B","type":"text","value":"It requires no monitoring" },
+      { "label":"C","type":"text","value":"It retrains the model automatically" },
+      { "label":"D","type":"text","value":"It disables scaling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Canary deployment reduces risk by testing with small traffic slices." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "Large Vision Models in Azure",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why might Vision Transformers (ViT) outperform CNNs in some advanced Azure ML applications?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They capture global relationships via self-attention instead of local convolutions" },
+      { "label":"B","type":"text","value":"They never require GPUs" },
+      { "label":"C","type":"text","value":"They guarantee perfect accuracy" },
+      { "label":"D","type":"text","value":"They eliminate the need for training data" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"ViTs excel at long-range visual dependencies." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "End-to-End AI Architecture",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why do enterprise AI-102 solutions combine Azure ML, Cognitive Search, Azure OpenAI, and Cosmos DB?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To build scalable RAG + LLMOps architectures with ingestion, search, reasoning, and storage layers" },
+      { "label":"B","type":"text","value":"To remove all security boundaries" },
+      { "label":"C","type":"text","value":"To reduce accuracy" },
+      { "label":"D","type":"text","value":"To eliminate semantic search" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"This architecture enables end-to-end enterprise AI with governance, grounding, and reliable scaling." }
+    ]
+  }
+]
+

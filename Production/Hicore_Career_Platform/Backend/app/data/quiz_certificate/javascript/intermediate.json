@@ -1,0 +1,2006 @@
+[
+  {
+    "id": 1,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python function when called as shown below?\n\ndef my_function(a, b):\n    return a * b\n\nprint(my_function(5, 3))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function my_function takes two parameters a and b, and returns their product. When called with arguments 5 and 3, the function returns 5 * 3 which equals 15."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, what will be the result of converting the float number 9.7 to an integer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "9.0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, converting a float to an integer truncates the decimal without rounding, resulting in 9."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Handling Async/Await",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following asynchronous function if called?\n\nasync function showData() {\n  await Promise.reject(new Error('Failed'));\n  return 'Success';\n}\n\nshowData().catch(err => console.log(err.message));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Failed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Success"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error is not handled"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The async function 'showData' immediately encounters a rejected promise due to 'await Promise.reject(new Error('Failed'))'. The error is caught in the catch block and 'Failed' is logged as the error message."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Handling Async/Await",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the console output when executing the following JavaScript code snippet? \n\n async function asyncFunc() { \n   console.log(2); \n   await null; \n   console.log(3); \n } \n console.log(1); \n asyncFunc(); \n console.log(4);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1, 2, 4, 3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 2, 3, 4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2, 3, 1, 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2, 1, 3, 4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function asyncFunc logs '2', then awaits on null (which resolves immediately but still asynchronously), allowing the rest of the synchronous code to run. Thus, '4' is logged before '3'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Promise Chaining",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet if the initial value of 'res' is 10?\n\nlet promise = Promise.resolve(10);\npromise.then((res) => res + 5).then((res) => res * 2).then((res) => console.log(res));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "25"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The promise starts with 10, adds 5 to make it 15, and then the following .then() multiplies it by 2, resulting in 30, which is then logged."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to dynamically set the CSS style of an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "element.style()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "element.setStyle()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "element.css()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "element.style.cssText"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to set multiple CSS styles at once for an HTML element in JavaScript is 'element.style.cssText'. This property allows you to set CSS properties directly by writing a CSS string."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types and Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following Python commands will convert the string '123' to the integer 123?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int('123')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "str(123)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "convert('123')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "'123'.toInteger()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The int() function is used to convert a valid string or number to an integer. Here, '123' is a valid string representation of the integer 123."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to add a new class to an existing element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "element.addClass('new-class');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "element.newClass('new-class');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "element.classList.add('new-class');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "element.addAttribute('class', 'new-class');"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to add a new class to an element is element.classList.add('new-class')."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following JavaScript code snippet: 'if (true) { console.log(\"True\"); } else { console.log(\"False\"); }'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "True"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "False"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The condition in the if statement is 'true', so the code inside the if block runs, outputting 'True'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "WebSockets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which WebSocket method is used to send data to the server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "send()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "transmit()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "dispatch()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The send() method is used in WebSockets to send data to the server."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Event Propagation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct order of event propagation in the DOM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Capturing, Target, Bubbling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Target, Bubbling, Capturing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bubbling, Target, Capturing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Capturing, Bubbling, Target"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the DOM event propagation, events first capture down to the target, then bubble up from the target through the ancestors."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python function when called as shown? \n\ndef multiply(x, y):\n    return x * y\n\nresult = multiply(3, 5)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Syntax Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'multiply' takes two arguments, multiplies them, and returns the result. When called with arguments 3 and 5, it returns 3*5, which equals 15."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Declaration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to declare a block-scoped variable, optionally initializing it to a value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "block"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' keyword is used to declare a block-scoped local variable, optionally initializing it to a value."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python function when called as displayed below? \n\n def add(a, b):\n    return a + b\n\nresult = add(3, 5)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "35"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'add' takes two parameters 'a' and 'b', adds them, and returns the result. When called with arguments 3 and 5, the function returns 3 + 5, which is 8."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Declaration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output when 'console.log(x); var x = 5;' is executed in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ReferenceError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to variable hoisting in JavaScript, the declaration of 'x' is moved to the top of the scope. However, its initialization remains at the original place, resulting in 'undefined' being output before 'x' is actually set to 5."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scope and Closure",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following correctly describes a closure in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A function combined with its lexical environment within which it was declared."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "An error that occurs when a function accesses a variable outside its scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A type of function that can only return null values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A method used to close a function and free up memory."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A closure is the combination of a function and the lexical environment within which that function was declared. This environment consists of any local variables that were in-scope at the time the closure was created."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Function Declarations and Expressions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary difference between function declarations and function expressions in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function declarations are hoisted; function expressions are not."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Function expressions can be named or anonymous; function declarations must be named."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function declarations are used in object-oriented programming; function expressions are not."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no difference; they are just different syntax for creating the same functionality."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Function declarations are hoisted to the top of their containing scope, allowing them to be used before they are declared in the code. Function expressions are not hoisted, which means they cannot be used until after they are declared."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Handling in JavaScript",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to prevent the default action of an event from occurring?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "stopPropagation()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "preventDefault()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "stopImmediatePropagation()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "cancelEvent()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The preventDefault() method is used to prevent the default action of an event from occurring, such as preventing a link from following the URL."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types and Type Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct way to convert the string '123' to an integer in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int('123')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strToInt('123')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "convert.toInt('123')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "'123'.toInt()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the int() function is used to convert a valid string into an integer. The other options are not valid functions for type conversion in Python."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Variable Declarations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet? 'var num = 8; console.log(num);'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'num' is declared and initialized to 8. The console.log function then outputs the value 8."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Arithmetic Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the expression 10 % 3 in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0.33"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The % operator in Python gives the remainder of the division of the two numbers. Therefore, 10 % 3 equals 1."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'document.querySelector' method return when no matching elements are found?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An empty array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error message"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If no matching elements are found, document.querySelector returns null."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Fetch API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default method used by the Fetch API when no method is specified in the request?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "POST"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GET"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PUT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Fetch API uses 'GET' as the default method when no method is specified."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to add a new element to the DOM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "document.createElement()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "document.appendChild()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "document.addElement()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "document.insertElement()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "document.appendChild() is used to add a new element to the DOM by appending it as a child to a specified parent node."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid JavaScript data type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Number"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Float"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, 'Float' is not recognized as a separate data type. Numbers in JavaScript can be integers or floating point numbers."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Promise Chaining",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In promise chaining, what does the return value of one promise serve as for the next promise in the chain?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An error handler"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A new promise"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The input"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A callback function"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In promise chaining, the return value of a fulfilled promise serves as the input to the next promise in the chain."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Conditional Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code segment if the input is 15?\n\nif (x > 10) {\n  console.log('Greater');\n} else {\n  console.log('Smaller');\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Greater"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Smaller"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 15 is greater than 10, the condition in the if statement evaluates to true, hence 'Greater' is printed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Web Storage API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to store a data item in the sessionStorage object in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sessionStorage.store()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sessionStorage.save()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sessionStorage.setItem()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sessionStorage.push()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The sessionStorage.setItem() method is used to store a data item in the sessionStorage object."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Variable Declaration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to declare a block-scoped local variable, optionally initializing it to a value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' keyword is used to declare a block-scoped local variable, optionally initializing it to a value."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Handling Async/Await",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the output of the following code snippet be if the function 'fetchData' correctly fetches data and does not have any errors? \n\n async function getData() {\n  try {\n    const data = await fetchData();\n    console.log(data);\n  } catch (error) {\n    console.log('Error:', error);\n  }\n}\ngetData();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The fetched data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'Error:' followed by the error message"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Nothing, it results in a Promise"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since fetchData() is assumed to work without errors, the await statement successfully retrieves the data, and it is logged to the console."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What data type would you use to represent the value true or false in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "float"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the boolean data type is used to represent the two truth values, true and false."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which property is used to change the content of an HTML element using JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "innerHTML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "textContent"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "innerText"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "outerHTML"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The innerHTML property is used to get or set the HTML content inside the selected HTML element."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Scope of Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following JavaScript function:\n\nfunction checkVariable() {\n  let x = 20;\n  if (true) {\n    let x = 30;\n  }\n  return x;\n}\n\nWhat is the output when calling checkVariable()?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ReferenceError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'x' declared inside the if block has block scope and does not affect the 'x' declared outside the block. Therefore, the function returns the value 20."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "For Loops",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the final value of 'sum' after the execution of the following Python code?\n\nsum = 0\nfor i in range(1, 6):\n  sum += i\nprint(sum)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates from 1 to 5, adding each number to 'sum'. The final value of 'sum' is 1+2+3+4+5 which equals 15."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in JavaScript can be used to store decimal numbers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "number"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, the 'number' data type can be used to store both integers and decimal numbers."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Web Storage API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true regarding sessionStorage in the Web Storage API?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data stored in sessionStorage persists between browser sessions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data stored in sessionStorage is shared across different browsers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data stored in sessionStorage is cleared when the page session ends."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data stored in sessionStorage has no storage limit."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "sessionStorage stores data that is only available for the duration of the page session. It is cleared when the tab or window in which the page is loaded is closed."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Fetch API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default method used by the fetch API when no method is specified?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GET"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "POST"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PUT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default method used by the fetch API when no method is specified is GET."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "If-Else Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C++ code snippet if the input is 15?\n\nint x;\ncin >> x;\nif (x > 10) {\n  cout << \"Greater than 10\";\n} else if (x == 10) {\n  cout << \"Equal to 10\";\n} else {\n  cout << \"Less than 10\";\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Equal to 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Less than 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the input 15 is greater than 10, the first condition in the if-else statement is true, so 'Greater than 10' is printed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Web Storage API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of Web Storage is persistent and remains across browser sessions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Session Storage"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cookies"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Local Storage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both B and C"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Local Storage provides persistent storage that remains across browser sessions, unlike Session Storage which clears when the session ends."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type is used in JavaScript to store a sequence of text characters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Character"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Text"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Word"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, the 'String' data type is used to store a sequence of text characters. JavaScript does not have a 'Character' data type; even single characters are stored as strings."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Handling JSON Responses",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "After fetching a JSON resource, what method is commonly used to parse the received payload into a JavaScript object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "parseJSON()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON.parse()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "response.json()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JSON.stringify()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The response.json() method is used to parse the body text as JSON and return a JavaScript object."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Scope of Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python code, what will be the output?\n\nx = 10\ndef my_function():\n    x = 20\n    return x\nprint(my_function())\nprint(x)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20\n10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20\n20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10\n20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10\n10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function my_function defines a local variable x and sets it to 20, which does not affect the global variable x which remains 10. The function returns 20, but the global x still has the value 10 which is printed outside the function."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Understanding Loops",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following loop structure. How many times will the loop execute if the initial value of i is 1?\n\nwhile (i <= 5) {\n  i += 2;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2 times"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3 times"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4 times"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5 times"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop increments i by 2 each time. Starting from 1, the values of i during the loop execution are 1, 3, and 5. It executes three times before i becomes 7, which fails the condition i <= 5."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Variable Scope",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following JavaScript function. What is the scope of the variable 'x'?"
+      },
+      {
+        "type": "formula",
+        "value": "function increase() {\\n    var x = 10;\\n    x += 1;\\n    return x;\\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global scope"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local scope"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Block scope"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No scope"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, the 'var' keyword declares a variable that has function scope. This means 'x' is only accessible within the 'increase' function."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Loops",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following loop?\n\nfor i in range(1, 5):\n    if i % 2 == 0:\n        continue\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1, 3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 2, 3, 4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2, 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 3, 5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates over the range from 1 to 4. The 'continue' statement skips the 'print' function for even numbers (i.e., when i is 2 and 4), resulting in printing only the odd numbers, 1 and 3."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Operator Precedence",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the expression 10 + 3 * 2. What is its result in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "26"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "15"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to Python's operator precedence, multiplication is performed before addition. Thus, the calculation is 3 * 2 = 6, followed by 10 + 6 = 16."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Handling Errors in Promises",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to handle errors in promises?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".catch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".error()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".fail()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".reject()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .catch() method is specifically designed to handle errors in promises when they are rejected."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Fetch API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the fetch() function return in JavaScript when making network requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A JSON object"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "An HTTP response"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A Promise that resolves to the Response object"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An array of data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fetch() function returns a Promise that resolves to the Response object representing the response to the request."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Arithmetic Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the following Python expression: 8 % 3?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2.67"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The modulus operator % returns the remainder of the division of the left-hand operand by right-hand operand. Here, 8 divided by 3 gives a remainder of 2."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Using Conditional Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet if the input x is 15?\n\nif (x % 2 == 0) {\n  print('Even');\n} else {\n  print('Odd');\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Even"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Odd"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 15 modulo 2 is 1, which is not equal to 0, the condition (x % 2 == 0) is false. Therefore, the else block is executed, printing 'Odd'."
+      }
+    ]
+  }
+]

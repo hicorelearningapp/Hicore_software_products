@@ -1,0 +1,2002 @@
+ [
+  {
+    "id": 4,
+    "topic": "Singleton Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Angular feature is used to ensure a service remains a singleton across the application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Component-level provider"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NgModule-level provider"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@Injectable({ providedIn: 'root' })"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@Component({ providers: [Service] })"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using @Injectable({ providedIn: 'root' }) ensures that a service is available as a singleton by providing it at the root level."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Dependency Injection Methods",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method of Dependency Injection involves providing dependencies through a class constructor?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Constructor Injection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Method Injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setter Injection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Interface Injection"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Constructor Injection is the method where dependencies are provided directly through a class's constructor, making them available as soon as the object is created."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Singleton Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary characteristic of a singleton service in Angular?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is instantiated multiple times."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is used to connect to a database."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is shared across the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It cannot be injected into components."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A singleton service in Angular is characterized by being shared across the entire application, maintaining a single instance."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basics of Controllers",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary role of a controller in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manipulate the DOM directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage the data and logic of the application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To style the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle the routing."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Controllers in AngularJS are responsible for managing the data and logic of the application, interacting with the model and updating the view."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to AngularJS Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of deploying an AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To compile TypeScript files into JavaScript"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To make the application available on a server for user access via the internet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To remove all CSS from the project"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To convert HTML files into TypeScript"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Deploying an AngularJS application primarily involves making the locally developed project available on a server so that it can be accessed by users via the internet."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Concepts of Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of routing in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To refresh the entire page upon navigation."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To navigate between different views without a full page reload."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the loading time of the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To link the application to an external website."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Routing in AngularJS allows navigation between different views within the application without triggering a full page reload, enhancing user experience and application performance."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Angular Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AngularJS service is used to make HTTP requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$http"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$fetch"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$request"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$ajax"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $http service is a core Angular service that facilitates communication with the remote HTTP servers via the browser's XMLHttpRequest object or via JSONP."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Directives in AngularJS",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What do directives in AngularJS primarily allow you to do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Extend HTML with custom attributes and elements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly manipulate the DOM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Create secure connections to the server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optimize performance automatically"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Directives in AngularJS are used to extend HTML by adding custom attributes and elements, thus creating reusable components that represent the view."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "AngularJS Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of services in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To facilitate communication between controllers and directives"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To add styling to components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manage routing configurations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To host the application on a server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Services in AngularJS are primarily used to share code and responsibilities among different components like controllers and directives, thus facilitating communication and data sharing across the application."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "AngularJS Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the first step in deploying an AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compiling TypeScript, HTML, and CSS into JavaScript bundles"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Uploading the application directly to the server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Configuring user access controls"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Designing the user interface"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The first step in deploying an AngularJS application is to compile TypeScript, HTML, and CSS into optimized JavaScript bundles."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive is best used to conditionally attach or detach an HTML element from the DOM based on an expression?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-show"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-hide"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-if"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-switch"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ng-if directive is ideal for conditionally attaching or detaching an element from the DOM, as it completely removes or recreates elements based on the truthiness of the expression provided."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive would you use to conditionally apply a class based on an expression in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-style"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-show"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-if"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ng-class is used in AngularJS to conditionally apply a class based on the result of an expression evaluated."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Optimizing AngularJS Watchers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the $watchGroup() method in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To destroy all watchers in a group"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To watch multiple expressions with one listener"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initiate a digest cycle manually"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To group similar $scopes together"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $watchGroup() method is used to watch multiple expressions or functions with a single listener. This method can help in optimizing performance by reducing the number of watchers required."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "AngularJS Dependency Injection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a valid way to inject dependencies into an AngularJS controller?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the $inject property to manually annotate the controller function."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing the array annotation method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Injecting dependencies directly into the controller without annotation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the inline array annotation method."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Injecting dependencies directly into the controller without any form of annotation can lead to minification issues and is not considered a valid method in AngularJS. Proper annotation is required to safely minify AngularJS files."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Directive Controllers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, what is the scope of a directive's controller?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It shares the scope with the parent controller."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It has an isolated scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It can access the global scope."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It does not have any scope."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A directive's controller in AngularJS typically has an isolated scope, meaning it does not directly share scope with its parent controller."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Service Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, how can you ensure that a service is provided as a singleton across the entire application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Declare the service in the AppModule only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Declare the service in each component"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use the providedIn property set to 'root' in the service's decorator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Instantiate the service manually in the main.ts file"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To make a service a singleton in Angular, you use the providedIn property set to 'root' in the @Injectable decorator of the service. This ensures that a single instance of the service is available throughout the application."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Types of Dependency Injection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid method of dependency injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Constructor injection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setter injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Interface injection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Static injection"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Static injection is not a recognized method of dependency injection. Constructor, Setter, and Interface injections are the commonly used methods."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "ngRoute Module",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct way to configure a route using the ngRoute module in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".when('/home', {controller: 'MainCtrl', templateUrl: 'main.html'})"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".when('/home', controller: 'MainCtrl', template: 'main.html')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".set('/home', {controller: 'MainCtrl', template: 'main.html'})"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".config('/home', {controller: 'MainCtrl', templateUrl: 'main.html'})"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to configure a route in AngularJS using ngRoute is using the .when() method with the route URL followed by an object specifying the controller and templateUrl."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "ngRoute Module",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the ngRoute module in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage state between controllers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enable data binding between HTML and model"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle routing and deep linking services"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To provide animations across multiple routes"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ngRoute module in AngularJS provides services and directives that help in routing and deep linking, enabling navigation within different views of a single page application without page reloading."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Deployment Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which hosting configuration is recommended for AngularJS applications to handle deep linking in single-page applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Server-side rendering"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Static file hosting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "URL rewriting"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Multi-page server routing"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "URL rewriting is recommended to properly handle deep linking in single-page applications, ensuring that all paths lead back to the application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Routing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AngularJS module is primarily used to handle routing in Single Page Applications (SPAs)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ngRoute"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngView"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ngModel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ngController"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ngRoute is the module that provides routing and deeplinking services and directives in AngularJS, essential for developing SPAs."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Optimization Techniques for AngularJS Deployment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of minifying JavaScript files in an AngularJS deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance security by obfuscating the code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce file size and improve load times"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To add additional functionality to the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the number of HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minifying JavaScript files reduces their size, which decreases the amount of data transferred over the network, thereby improving the load times of the AngularJS application."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Optimization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of minifying files in an AngularJS application deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance the security of the application"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce the file size and improve loading times"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To convert TypeScript into JavaScript"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To improve the resolution of images used in the application"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minifying files in an AngularJS application primarily reduces the file size, which in turn decreases the loading times of the application, enhancing the user experience."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Directives and Controllers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true regarding the interaction between directives and controllers in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directives can access the properties of ngController-based controllers directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directives require a separate 'directive controller' and do not have direct access to ngController-based controllers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Directives and ngControllers are interchangeable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A directive can only function within the scope of an existing ngController."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In AngularJS, when a Directive requires a Controller, it specifically requires a 'directive controller' and does not have access to the ngController-based controllers directly."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Singleton Services in Angular",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, how is a service declared as a singleton?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Providing the service in the AppModule only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Providing the service in a specific component only"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decorating the service class with @Injectable({ providedIn: 'root' })"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a special singleton decorator"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Angular, a service is made singleton by decorating the service class with @Injectable({ providedIn: 'root' }). This ensures that only one instance of the service exists throughout the application."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Service Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, which service provider configuration ensures a single shared instance across the entire application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Provided in 'Component'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Provided in 'Module'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Provided in 'Root'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Provided in 'Any'"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'providedIn: 'Root'' ensures that the Angular DI system will provide a single, shared instance of the service across the entire application."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "AngularJS Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive would you use to hide an HTML element based on a given condition in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-hide"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-show"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-view"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-model"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ng-hide directive in AngularJS is used to hide an HTML element based on the evaluation of the specified condition. If the condition evaluates to true, the element is hidden."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "AngularJS Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AngularJS directive is used to bind the innerHTML of an element to a model's property?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-bind"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-app"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-controller"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ng-bind' directive is used in AngularJS to bind the innerHTML of an element to a property of the model, ensuring the HTML is updated whenever the model changes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ngRoute vs UI-Router",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key difference between ngRoute and UI-Router in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "UI-Router supports multiple named views, whereas ngRoute does not."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngRoute supports dynamic parameters, but UI-Router does not."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UI-Router is not officially supported by AngularJS."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ngRoute allows for nested states, which UI-Router does not support."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The key difference is that UI-Router supports multiple named views which allows for more complex and nested views in an application, while ngRoute does not support this feature."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Two-Way Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, what is the directive used to achieve two-way data binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-bind"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-app"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-controller"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ng-model is the directive used for two-way data binding in AngularJS, which binds the value of HTML controls (input, select, textarea) to application data."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Two-Way Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the key feature of AngularJS that allows automatic synchronization of data between the model and view components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directives"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two-way data binding"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Services"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Modules"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Two-way data binding refers to the automatic synchronization of data between the model and view components in AngularJS, making it easy to build dynamic SPAs."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Hosting Platforms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which factor is most critical when selecting a hosting platform for deploying an AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Color scheme compatibility"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Number of advertisements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Server uptime and reliability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Popularity of the platform"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When selecting a hosting platform for an AngularJS application, server uptime and reliability are paramount to ensure that the application remains accessible and performs well for users."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Optimizing AngularJS Applications",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a crucial step in optimizing an AngularJS application for production deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Minimizing the number of scope watchers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the number of HTTP requests"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using multiple AngularJS apps on the same page"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoiding use of services for data sharing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minimizing the number of scope watchers is essential as it reduces the digest cycle time, thus improving performance significantly."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Component Interaction",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary method for passing data from a parent component to a child component in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the $broadcast method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using the $emit method"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using the $parent method"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the $scope object with property binding"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary method for passing data from a parent component to a child in AngularJS is through property binding using the $scope object, which facilitates data binding between the view and the component."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Deployment Environments",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which environment configuration is crucial for successful deployment of an AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Configuring MIME types on the server"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Disabling server-side rendering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using default server configurations without customization"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignoring security settings in the server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Correctly configuring MIME types on the server ensures that the server knows how to handle different types of files, which is essential for deploying an AngularJS application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Two-Way Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of two-way data binding in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow the DOM values to update when the model changes and vice versa."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the processing speed of the application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To send data to external APIs."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle HTTP requests."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Two-way data binding in AngularJS helps in synchronizing the model and the view. When the data in the model changes, the view reflects this change and vice versa."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Optimizing AngularJS Applications",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a necessary step to optimize an AngularJS application before deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Minifying JavaScript files"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the number of HTTP requests"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Storing all variables globally"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoiding use of CDNs for asset delivery"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minifying JavaScript files reduces the size of the files, which decreases the loading time and improves the performance of the application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Dependency Injection Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of dependency injection does not require the class to be aware of the source of injected components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Constructor injection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setter injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Interface injection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Method injection"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Interface injection allows dependencies to be injected directly into the objects at runtime, making the class unaware of the source of injected components."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Deployment Strategies for AngularJS",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is an essential step when deploying an AngularJS application to a production server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Disabling all debugging tools and messages."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Keeping all console.log statements for debugging purposes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deploying directly from the development environment."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using development APIs for quicker access."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Disabling debugging tools and messages is crucial in a production environment to prevent the exposure of sensitive data and to optimize application performance."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Single Page Application Routing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component is required in the HTML file to display views in AngularJS routing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<router-view>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<ng-view>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<div-view>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<view-display>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "<ng-view> is the directive used in AngularJS to display the view for the current route. It acts as a placeholder where the content corresponding to the current route should be displayed."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "ngRoute Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, when using the $routeProvider in ngRoute, which method is NOT available for configuring routes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "when()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "otherwise()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "redirectTo()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "directTo()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method for configuring redirection in routes is redirectTo(). The method directTo() does not exist within the $routeProvider in ngRoute."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Component Interaction",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an advanced AngularJS application, which technique allows a parent component to invoke methods within a child component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using $broadcast in the parent component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using $watch on property bindings."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilizing the require property in the child component's directive definition."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing $emit from the child component."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'require' property in a directive definition of a child component is used to access the controller of a required parent component, thus enabling the parent to invoke methods within the child component."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Optimization Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying an AngularJS application, which of the following is NOT a recommended optimization technique?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Minimizing the number of HTTP requests by bundling files"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using lazy loading for modules to improve startup time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Omitting the use of a Content Delivery Network (CDN)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Employing Ahead-of-Time (AOT) compilation to convert Angular HTML and TypeScript code into efficient JavaScript"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Omitting the use of a Content Delivery Network (CDN) is not recommended as CDNs help in delivering content faster to users across the globe, which is crucial for performance optimization."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dependency Injection in AngularJS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, which of the following is true about the $injector service when it comes to dependency injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is used to retrieve object instances as defined by provider."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It solely creates new instances of JavaScript objects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It cannot instantiate types, only retrieve instances."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It uses a querying mechanism similar to SQL to retrieve dependencies."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $injector service is used to retrieve object instances as defined by provider, inject them into services and components, and also instantiate types when necessary."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Singleton Services",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a potential drawback of using a singleton service in Angular for application-wide state management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can lead to tight coupling between components."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It increases the overall size of the Angular application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It restricts the lazy loading of its containing module."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It requires additional resources for state synchronization across modules."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing a singleton service for state management can lead to tight coupling between components, as they all rely on a single instance, which may hinder modular design and testing."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Configuration and Environment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS deployment, setting the base href correctly is crucial. What problem might occur if the base href is not set correctly in a multi-environment deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application might not load any scripts or assets"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The build process will fail during the compilation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It will disable lazy loading of modules"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automated testing scripts will not run"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If the base href is not correctly configured, the browser might not be able to locate the scripts and assets of the application, leading to a failure to load any of them."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Deployment Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of AngularJS application deployment, which of the following server configurations is crucial for supporting deep linking in single-page applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Enabling CORS (Cross-Origin Resource Sharing)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting up URL rewriting to redirect all requests to index.html"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Configuring load balancer to manage traffic"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Setting MIME types for file extensions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting up URL rewriting to redirect all requests to index.html is essential for SPA deep linking, allowing the AngularJS router to handle routing internally."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "ngRoute Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a true statement about the ngRoute module in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ngRoute allows the use of multiple named views simultaneously within a single route."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngRoute provides capabilities for URL routing, deep-linking services and directives."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The $routeProvider is used to configure routes within the ngRoute module."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Route changes in ngRoute can be listened to via $routeChangeStart and $routeChangeSuccess events."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A because ngRoute does not support multiple named views within a single route; this functionality is provided by the ui-router module, not ngRoute."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, how can you manually bootstrap a module with dependency injection, ensuring that specific services are passed as parameters to the function responsible for initialization?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using angular.injector() to create an injector instance and then calling the module's method with service parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly invoking the service constructor functions with new keyword within the module's run block."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilizing the $injector.invoke() method, passing a function that receives the services as parameters."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using angular.bootstrap() with an array of required service names as the second argument."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to manually bootstrap with dependency injection in AngularJS is by using the $injector.invoke() method. This function allows the passing of a function which specifies its dependencies as parameters, thus ensuring the correct services are injected during initialization."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "ngRoute Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using the ngRoute module in AngularJS, which service is pivotal in defining the routes and associated controllers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$routeProvider"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$routeService"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$routerConfig"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$routeProviderService"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $routeProvider is the correct service used within the ngRoute module to define routes and associate them with controllers."
+      }
+    ]
+  }
+  ]

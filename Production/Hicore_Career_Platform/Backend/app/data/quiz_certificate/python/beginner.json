@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "Decorators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of a decorator in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To modify the behavior of a function or class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To declare variables."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle exceptions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To iterate over a sequence."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decorators in Python are used to modify or enhance the behavior of a function or class without permanently modifying it."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variables and Assignment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code? 'x = 10; y = 20; print(x + y)'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1020"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '+' operator adds the values assigned to 'x' and 'y', resulting in 30."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Working with Generators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'yield' keyword do in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It stops the function's execution and returns a value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It permanently removes an item from a list."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It writes data to a file."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It imports a module."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'yield' keyword pauses the generator's execution and sends a value back to the caller, but retains enough state to enable function to resume from where it left off."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Class and Object Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code snippet? \n\nclass Car:\n    def __init__(self, model):\n        self.model = model\n\ncar1 = Car('Toyota')\nprint(car1.model)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Toyota"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Car"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "model"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The __init__ method initializes the model attribute of the Car class with the passed argument, 'Toyota'. When car1.model is printed, it outputs 'Toyota'."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a mutable data type in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Tuple"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Integer"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lists in Python are mutable, meaning they can be changed after creation. Tuples, strings, and integers are immutable."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Importing Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you import the math module in a Python script?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import math"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "module math"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "include math"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "using math"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to import a module in Python is using the 'import' keyword followed by the name of the module."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What symbol is used to start a comment in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "#"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "//"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "/*"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<!--"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the hash symbol (#) is used to start a comment."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Decorators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does a decorator in Python receive as its argument?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function it decorates"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The return value of the function it decorates"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A list of arguments for the function"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A decorator in Python receives the function it decorates as its argument, allowing it to execute additional code before or after the function runs."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "If-Else Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code if the variable x is 10?\nif x > 10:\n    print('x is greater than 10')\nelse:\n    print('x is not greater than 10')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is not greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x is not greater than 10 (x equals 10), the condition in the if statement evaluates to false, and the else clause is executed, printing 'x is not greater than 10'."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following function call in Python?\\ndef add(a, b):\\n  return a + b\\nprint(add(2, 3))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "23"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'add' takes two parameters and returns their sum. When called with arguments 2 and 3, it returns 5."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Class and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code?\nclass Dog:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        return 'Woof!'\nd = Dog('Fido')\nprint(d.speak())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Woof!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fido"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dog"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Dog class has a method speak that returns 'Woof!' when called. The object d is an instance of Dog initialized with the name 'Fido', and calling d.speak() returns 'Woof!'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic File Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to open a file in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "file()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fopen()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "openfile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the open() function is used to open a file in the specified mode."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a valid Python data type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dict"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "tuple"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, 'array' is not a built-in data type like list, dict, and tuple. The closest structure is the array module for numerically efficient arrays."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following function return when called as foo(2, 5)? 'def foo(x, y): return x * y'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function foo(x, y) returns the product of x and y, hence foo(2, 5) returns 2*5 which is 10."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Conditional Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the output be if x is 5 and y is 3? \nif x > y:\n    print('x is greater than y')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than y"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "y is greater than x"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x is equal to y"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x (5) is greater than y (3), the condition (x > y) is True. Therefore, the code inside the if block executes and prints 'x is greater than y'."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Function Definitions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to define a function in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "define"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "func"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the 'def' keyword is used to define a function."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Using Libraries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function from the random library is used to generate a random integer within a specified range?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "randint()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "random()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "randrange()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "range()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'randint()' function from the random library is used to generate a random integer within a specified range, including both endpoints."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python code demonstrate?\nclass Animal:\n    def speak(self):\n        return 'I am an animal'\nclass Dog(Animal):\n    pass\nd = Dog()\nprint(d.speak())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Composition"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code demonstrates Inheritance. The Dog class inherits from the Animal class, thus it has access to the speak method of the Animal class even though it is not defined in the Dog class."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic File Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in Python to open a file for reading as a text file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open('file.txt', 'r')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "open('file.txt', 'w')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "read('file.txt')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "write('file.txt')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The open() function with 'r' argument is used to open a file for reading."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is not built-in in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "array"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "dictionary"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "tuple"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, 'list', 'dictionary', and 'tuple' are built-in data types. The 'array' data type is not built-in and requires a module such as 'array' or 'numpy' to be used."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Importing Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you import the math module in a Python script?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import math"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "include math"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "using math"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "module math"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the 'import' keyword is used to include a module in a script. 'import math' correctly adds the math module."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following function call?\\ndef add_numbers(a, b):\\n    return a + b\\nadd_numbers(3, 4)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "34"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function add_numbers(a, b) returns the sum of a and b, which in this case is 3 + 4 = 7."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Using Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "To use the square root function from the math module, which of the following import statements should you use?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "from math import sqrt"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "import sqrt from math"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "import math.sqrt"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "import math then use math.sqrt()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to import a specific function from a module in Python is 'from module_name import function_name'. Thus, 'from math import sqrt' is the correct import statement to directly use the sqrt function."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a list in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 2, 3]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{1, 2, 3}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "(1, 2, 3)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "\"1, 2, 3\""
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, lists are declared with square brackets []."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to print a string in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "print(\"Hello, World!\")"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "echo \"Hello, World!\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "printf(\"Hello, World!\")"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Print(\"Hello, World!\")"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the print() function is used to output text to the console."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Conditional Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet?\\nif 5 > 2:\\n    print('Five is greater than two!')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Five is greater than two!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No output"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The condition 5 > 2 is true, hence the print statement inside the if block is executed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to inherit a class 'Vehicle' into 'Car' in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class Car(Vehicle): pass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class Car inherits Vehicle: pass"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class Car - Vehicle: pass"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "class Car::Vehicle: pass"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, inheritance is specified by placing the parent class name in parentheses after the class name. Hence, 'class Car(Vehicle): pass' is the correct syntax."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about inheritance in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance allows us to define a class that inherits all the methods and properties from another class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inheritance allows multiple child classes to inherit from multiple parent classes simultaneously."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inheritance is not supported in Python."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inheritance allows us to change the behavior of the built-in Python functions."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inheritance in Python allows us to define a class that inherits all the methods and properties from another class. This is a core concept in object-oriented programming."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code?\\n\\nprint(\"Hello, World!\")"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello, World!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "hello, world!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The print function in Python outputs the exact string inside the quotes to the console. Option A correctly matches the case and punctuation of the string."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Variable Assignment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid variable assignment in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1x = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x_1 = 20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@x = 30"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "-x = 40"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "x_1 = 20 is a valid variable assignment. Variable names in Python can include letters, digits, and underscores, but cannot start with a digit or include special characters like '@' or '-'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "File Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function is used to open a file in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "file()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "read()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "write()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'open()' function is used in Python to open a file in the specified mode and returns a file object."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Variable Assignment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement correctly assigns the integer value 10 to a variable named 'number' in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "number = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "number == 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "number = '10'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int number = 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the '=' operator is used for assignment. 'number = 10' correctly assigns the integer value 10 to the variable 'number'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be used to store the value 3.14159 in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "str"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bool"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "3.14159 is a number with decimal points, which is represented as a 'float' in Python."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Using Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function from the 'random' module is used to generate a random integer within a specified range?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "randint()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "randomint()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "random()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "range()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'randint()' function from the 'random' module is used to generate a random integer within a specified range."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Importing Libraries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you import the 'math' library in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import math"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "include math"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "library math"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "using math"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, libraries are imported using the 'import' keyword followed by the library name."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What data type in Python is used to store textual data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "str"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bool"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The str data type is used to store textual data in Python, which is represented by sequences of characters enclosed in quotes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Understanding Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would you use to store a whole number in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "str"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bool"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'int' data type is used in Python to represent whole numbers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Understanding Generators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'yield' keyword do in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stops the function\u2019s execution and returns a value"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Yields the next item from a list"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Declares a new variable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creates a new list"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'yield' keyword in Python is used in a function like a return statement, but it returns a generator, which can be iterated through."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What data type would be best to use for storing a person's age in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "str"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bool"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A person's age is typically represented as a whole number, making 'int' (integer) the appropriate data type."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, if x = 100 and y = '100', what is the data type of y?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The value '100' is enclosed in quotes, indicating that it is a string data type in Python."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Class Definitions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to define a class in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "def"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "module"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "object"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, a class is defined using the 'class' keyword."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Error Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword in Python is used to handle exceptions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "handle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "except"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'except' is used in Python to handle exceptions in a try-except block."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "If Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code: 'if 3 > 2: print(\"Yes\") else: print(\"No\")'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SyntaxError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Yes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code will result in a SyntaxError because there is no colon (:) after the 'if' condition."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about inheritance in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance allows us to define a new class that is a modified version of an existing class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inheritance copies the behavior of the base class to the derived class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inheritance in Python restricts reusability of code."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inheritance can only be used if classes are defined in the same module."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inheritance enables the creation of a new class that is a modified version of an existing class, inheriting attributes and methods from the base class while allowing for enhancements or changes. This statement captures the essence of inheritance in object-oriented programming."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Understanding Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the data type of the following value in Python: 3.14?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "3.14 has a decimal point, which makes it a float (floating-point number) in Python."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Generators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'yield' keyword do in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It exits the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It generates a new list."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It produces a generator object."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It deletes variables."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'yield' keyword is used in Python to produce a generator object that can be iterated over. It allows the function to return an intermediate result and resume where it left off."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to create a variable 'x' with the value 5 in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x = 5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int x = 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var x = 5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "x := 5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, a variable is created the moment you first assign a value to it. The correct syntax is 'x = 5'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Using Functions from a Module",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How would you call the 'sqrt' function from the math module?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "call math.sqrt()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "math.sqrt()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sqrt.math()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "math::sqrt()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To use a function from an imported module, the syntax is 'module_name.function_name()'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "File Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to open a file in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "start()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "file()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "create()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'open()' function is used in Python to open a file. It returns a file object, which can then be used to read, write, or manipulate the file."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a data type in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "dictionary"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the native data structures include list, tuple, and dictionary. 'array' is not a native Python data type, it is provided by libraries like numpy."
+      }
+    ]
+  }
+]

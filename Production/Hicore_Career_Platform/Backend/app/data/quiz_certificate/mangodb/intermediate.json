@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 9,
+    "topic": "Installing MongoDB",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands is used to install MongoDB on Ubuntu?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install -y mongodb"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install mongodb"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo apt-get install -y mongodb-org"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "brew install mongodb"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to install MongoDB on Ubuntu is 'sudo apt-get install -y mongodb-org', as it installs the official MongoDB package."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "MongoDB Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands is used to start MongoDB server after installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongodb-start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongo-run"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "start-mongodb"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to start the MongoDB server is 'mongod'. This command initiates the MongoDB daemon, which is the host process for the database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Querying in MongoDB",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operation would you use to find documents in a collection that meet a specified criteria?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "updateMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "find()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "createIndex()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The find() operation is used in MongoDB to search for documents within a collection that meet given criteria."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Installation and Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to start the MongoDB server after installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongo"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongodb-start"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mongodb-server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod' command is used to start the MongoDB daemon which in turn starts the server."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bitmap Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT an advantage of using bitmap indexes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Efficient storage for dense data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Good performance on low-cardinality columns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Effective for ad-hoc query patterns"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "High performance for AND and OR operations on indexes"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are less effective for ad-hoc query patterns because they are optimized for predefined queries on low-cardinality data."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Configuration Files",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default configuration file format used by MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "YAML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INI"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB uses YAML as the default format for configuration files."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Encryption at Rest",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a supported encryption mechanism for MongoDB's Encryption at Rest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WiredTiger Encryption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "In-transit encryption using TLS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Encrypted Storage Engine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Filesystem-level encryption"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In-transit encryption using TLS is used for securing data while it travels over the network, not for encryption at rest. Encryption at rest focuses on data stored on disk."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Role-Based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB roles provides the ability to read and write data to all databases except the local and config databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "readWriteAnyDatabase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dbAdminAnyDatabase"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "userAdminAnyDatabase"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "readAnyDatabase"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The role 'readWriteAnyDatabase' grants read and write permissions to all databases except the local and config databases, which are reserved for administrative tasks and internal MongoDB use."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Update Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the '$set' operator in MongoDB's update operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To delete a particular field from a document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To add a new field to a document or update an existing field"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To multiply a numeric field by a specified value"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To rename a field in a document"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '$set' operator is used to add a new field to a document or update an existing field with a specified value."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Role-Based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what does the 'dbAdmin' role allow a user to do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Perform server administration tasks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Perform backup and restore tasks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Manage the database system"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Perform database administration tasks excluding user management"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'dbAdmin' role allows the user to perform administrative tasks such as schema management and statistics gathering on a specific database, but it does not include user management functions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role-Based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to create a custom role that includes the ability to read any database but not write?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.createRole()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.createUser()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.updateUser()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.grantRolesToUser()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The db.createRole() command is used to create custom roles in MongoDB. By specifying the appropriate privileges, this command can set a role to read all databases without write permissions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Query Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "To query documents in a MongoDB collection based on a condition, which method should be used?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.find()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.retrieve()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.search()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.collection.find() is used for querying documents in a MongoDB collection based on specified conditions."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Role-Based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB roles ensures a user can perform backup operations but not read the data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "backup"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dbAdmin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "root"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'backup' role in MongoDB is specifically designed to allow users to perform backup operations without granting access to the actual data."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a MongoDB schema, what is the effect of embedding documents directly within other documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases read performance by reducing the need for joins"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases write performance due to additional indexing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Has no effect on performance but increases storage use"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases read performance as it requires more complex queries"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents directly within other documents increases read performance as it reduces the need for joining data from multiple collections, which is more costly in terms of performance."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of index in MongoDB can improve the performance of queries that sort and search based on multiple fields?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single Field Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Geospatial Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Text Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Compound Index, which combines two or more fields, can efficiently support queries that filter and sort by those fields."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "MongoDB Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file is typically edited to configure MongoDB server settings?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongodb.config"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongo-server.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "dbconfig.txt"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod.conf' file is the primary configuration file for MongoDB server settings."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which schema design principle improves read performance by grouping related data together?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Denormalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sharding"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Denormalization involves embedding related data within a single document, which can improve read performance by reducing the number of read operations."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Insert Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to insert multiple documents into a collection at once?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.insertMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.insert()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.addAll()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.collection.insertMany() is specifically designed to insert multiple documents into a collection simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Modeling in MongoDB",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice for data modeling in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Embedding sub-documents for frequently accessed data together"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using multi-key indexes to improve search performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Normalizing all data to reduce data redundancy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Denormalizing data to improve read performance"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is incorrect because MongoDB is a NoSQL database designed for denormalized data storage, unlike SQL databases where normalization is commonly practiced to reduce redundancy."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Indexing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB indexing strategies improves performance for read-heavy workloads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creating indexes on frequently updated fields"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating compound indexes that cover query fields and sort fields"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using wildcard indexes for all fields"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Removing all indexes to reduce overhead"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because compound indexes that cover both the fields used in queries and those used in sort operations can significantly improve the performance of read operations by reducing the amount of data processing and sorting required during queries."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Indexing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of creating a compound index in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It reduces the storage space used by the indexes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It enhances security by encrypting indexed fields."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows for efficient querying on multiple fields."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically updates data in real-time."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index, which includes multiple fields within a single index, allows for efficient querying and sorting operations involving those fields."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which approach allows you to avoid unnecessary joins by nesting objects and arrays inside documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Denormalization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Aggregation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Denormalization involves embedding related data within a single document structure, thus avoiding the need for joins."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL aggregate function calculates the total sum of a numeric column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AVG()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MAX()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SUM() function is used to calculate the total sum of a numeric column, whereas COUNT() counts entries, AVG() calculates average, and MAX() finds the maximum value."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Replication",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the primary role of a secondary node in a replica set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To serve write operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To serve read operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To only store backup data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To manage the primary node"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Secondary nodes in a MongoDB replica set primarily serve read operations, which help distribute the load and improve read performance across the set."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which indexing strategy provides the best performance improvement for read-heavy MongoDB applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using multikey indexes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating single field indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing compound indexes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoiding indexes altogether"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compound indexes optimize for multiple fields, aligning with typical query patterns in read-heavy applications, leading to better performance over other options."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "MongoDB Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands is used to start the MongoDB server after installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongodb-start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongo-run"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mongodb-server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod' command is used to start the MongoDB server. It initializes the server and sets up all necessary configurations to run MongoDB."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Update Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to update the 'status' field to 'inactive' for all documents in the 'users' collection where 'age' is greater than 25?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.users.updateMany({ age: { $gt: 25 } }, { $set: { status: 'inactive' } })"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.users.updateOne({ age: { $gt: 25 } }, { status: 'inactive' })"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.users.update({ age: { $gt: 25 } }, { $set: { status: 'inactive' } })"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.users.modify({ age: { $gt: 25 } }, { status: 'inactive' })"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.users.updateMany() with the $set operator is used to update the 'status' field for all matching documents. The $gt operator ensures the condition applies to ages greater than 25."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Delete Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to remove a single document from a collection based on a condition in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "deleteOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "deleteMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "removeOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "findOneAndDelete()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "deleteOne() is the correct method to use when you want to remove a single document that matches a specified condition from a MongoDB collection."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the benefit of embedding documents within documents as opposed to referencing them by their Object IDs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases data retrieval speed by reducing the need for joins."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It simplifies schema design by removing the need for indexes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically encrypts embedded documents for security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It ensures atomic transactions across multiple documents."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents within documents reduces the number of read operations necessary to gather data for an application, thereby increasing retrieval speed by avoiding costly joins."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "CAP Theorem and NoSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "According to the CAP Theorem, which of the following is NOT possible to achieve simultaneously in a distributed database system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Consistency and Availability"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Availability and Partition Tolerance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Consistency, Availability, and Partition Tolerance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Consistency and Partition Tolerance"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CAP Theorem states that in a distributed system, it is not possible to simultaneously provide all three guarantees: Consistency, Availability, and Partition Tolerance. One must be compromised."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "MongoDB Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which file is used to configure the default behavior of the MongoDB server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "server.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongo.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongod.cfg"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "config.db"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod.cfg' file is used to configure the default server settings in MongoDB. It allows administrators to set parameters that control the behavior of the MongoDB server."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Replication",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the primary role of an arbiter in a replica set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To store data and provide redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To perform read operations to scale read capacity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To vote in the election of the primary node without storing data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To synchronize data across nodes"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because arbiters participate in elections for primary node in a replica set but do not hold data. Their main role is to provide a tie-breaking vote in elections, ensuring high availability without the overhead of data replication."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Indexing and Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main role of indexes in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enforce unique constraints on documents."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the performance of queries by making data access faster."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt sensitive data within the database."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To automatically delete old data based on certain criteria."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e., scan every document in a collection, to select those documents that match the query statement."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "MongoDB Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file format is primarily used for MongoDB configuration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "YAML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INI"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB primarily uses YAML as the configuration file format. While JSON-like syntax can also be used in some contexts, YAML is the standard for configuration files."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Concepts of MongoDB",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number for MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "27017"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "28017"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1433"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB by default runs on port 27017. Ports 28017, 3306, and 1433 are used by MongoDB web status page, MySQL, and Microsoft SQL Server respectively."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Indexing and Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a compound index in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the write speed of the database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To support efficient execution of queries on multiple fields"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce the storage space used by indexes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To automatically resolve data redundancy"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compound indexes support efficient execution of queries involving multiple fields by creating a single index entry for each combination of field values in the specified order."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Modeling in NoSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following best describes embedding documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Storing documents separately and using foreign keys to relate documents."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Storing related documents within a single document."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating indexes on collections to speed up query performance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the MongoDB shell to enter and manage data."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents refers to the practice of storing related documents directly within a single document, rather than using separate documents connected by foreign keys."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Insert Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to insert multiple documents into a collection at the same time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insertMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "insert()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "updateMany()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The insertMany() function is used to insert multiple documents into a MongoDB collection simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Replication Mechanics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB replica set, what is the primary role of the oplog?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To store user data in a compressed format"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To act as a transaction log for replication"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To index the collections for faster query response"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To balance the load between clusters"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The oplog (operations log) is used in MongoDB to support replica sets by keeping a rolling record of all operations that modify the data stored in the databases. It acts as a transaction log for replication purposes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB schema design approach allows for more efficient reads at the expense of more complex writes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Denormalization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Aggregation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Denormalization involves embedding related data within a single document to reduce the need for joins, thereby optimizing read performance at the cost of more complex update operations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Insert Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command correctly inserts multiple documents into a collection in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.insertMany([{name: 'John'}, {name: 'Jane'}]);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.insertOne([{name: 'John'}, {name: 'Jane'}]);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.insert([{name: 'John'}, {name: 'Jane'}]);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.insertMultiple([{name: 'John'}, {name: 'Jane'}]);"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to insert multiple documents is 'insertMany', where documents are provided as an array of objects."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Indexing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in MongoDB can significantly improve the performance of read operations on a multi-key field?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sparse index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Text index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Multikey index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Multikey index is used to index the content stored in arrays and can improve search performance on those fields."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Insert Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to insert a document into a collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.find()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.update()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.deleteOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.collection.insertOne() is the correct command to insert a single document into a MongoDB collection."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Encryption at Rest",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a supported encryption mechanism for MongoDB's 'Encryption at Rest'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "AES256-CBC"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AES256-GCM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XOR"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AES128-CBC"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XOR is not an encryption mechanism; it is a bitwise operation used in many encryption algorithms but does not provide encryption by itself. AES256-CBC, AES256-GCM, and AES128-CBC are all valid encryption mechanisms."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Modeling in NoSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following is true about embedding documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Embedding documents can lead to faster read operations as all related data is stored together."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Embedded documents must be accessed separately from their parent documents."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Embedding documents increases storage space drastically compared to referencing."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is mandatory to embed all related documents to maintain data integrity."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents stores all related data together, thus read operations are faster because the database retrieves all necessary data in a single access."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregation Pipeline",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB aggregation pipeline, which stage allows you to limit the number of documents passed to the next stage?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$limit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $limit stage in a MongoDB aggregation pipeline restricts the number of documents passed to the next stage, which is useful for queries requiring a subset of data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL aggregate function would you use to return the number of unique values in a column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "AVG()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "COUNT(DISTINCT)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "COUNT(DISTINCT) is used to count the number of unique (distinct) entries in a column, which distinguishes it from the regular COUNT() function that counts all entries, including duplicates."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operation would you use to modify an existing document in a collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "updateOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "findOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "deleteOne()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The updateOne() function is used to modify the first document that matches the filter criteria in a collection."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "MongoDB Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to start MongoDB server after installation on a Unix-like system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongo-start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongodb-service"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "start-mongodb"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod' command is used to start the MongoDB server. The other commands do not exist or are not used for starting the server."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bitmap Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical advantage of using bitmap indexes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Efficient for columns with low cardinality"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Good for OLTP systems with frequent updates"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Effective for complex queries involving multiple columns"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reduction in storage space compared to other index types"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are not optimal for OLTP systems with frequent updates due to high maintenance cost for modifying bitmaps with every change in data."
+      }
+    ]
+  }
+]

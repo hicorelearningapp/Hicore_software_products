@@ -1,0 +1,2013 @@
+{
+  "C_Programming_questions_advanced":
+  [
+  {
+    "id": 6,
+    "topic": "Typedef in C",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the 'typedef' keyword in C programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a new name for an existing type."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To define a new data structure."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To allocate memory dynamically."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To rename a function."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'typedef' keyword in C is used to create a new name (alias) for an existing type, which can help make code more readable and manageable."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Memory Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in C to allocate memory dynamically?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "malloc"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "alloc"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "size"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "new"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'malloc' is used to allocate a specified amount of memory during runtime in C programming."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basics of Pointers",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the '*' operator denote when used with a pointer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Value at the memory address"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Memory address of the variable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Size of the pointer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '*' operator is used to dereference a pointer, meaning it accesses the value stored at the memory address the pointer is pointing to."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Concepts of C",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is not a fundamental data type in C programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "double"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C programming, 'string' is not a fundamental data type. Instead, strings are handled as arrays of characters."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in C is used to store a single character?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "char"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'char' data type is used in C programming to store single characters."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Project Understanding",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a common project for beginner C programmers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Database Management System"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Tic-Tac-Toe Game"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Search Engine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Helicopter Game"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tic-Tac-Toe Game is a common project for beginner C programmers as it involves basic programming constructs and is less complex compared to other listed projects."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basics of Pointers",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the '&' operator do in C programming when used with a variable name?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Assigns a value to the variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Returns the address of the variable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Returns the value stored in the variable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Performs a bitwise AND operation"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '&' operator is the address operator in C. It returns the memory address of the variable it precedes."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a basic data type in C?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "double"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C, 'string' is not a basic data type. Instead, strings are represented as arrays of characters."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Program Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct basic structure of a C program?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "#include <stdio.h>\\n int main() {\\n // program code\\n return 0;\\n}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "#include 'stdio.h'\\n function main() {\\n // program code\\n }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "#include <stdio.h>\\n int main[] {\\n // program code\\n return 0;\\n}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "import <stdio.h>\\n int main() {\\n // program code\\n return 0;\\n}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct basic structure of a C program includes the header file inclusion using '#include <stdio.h>', the main function 'int main()' with a return type of 'int', and a return statement 'return 0;' at the end of the main function."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basics of Pointers",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the '*' operator denote in C programming when used with pointers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Address of a variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Value at the memory address"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Declaration of a pointer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Product of two numbers"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '*' operator is used to denote the value stored at the memory address that the pointer is pointing to."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types in C",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types in C has the highest storage size on a typical architecture?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "char"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "double"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Typically, the 'double' data type has the highest storage size, using 8 bytes, compared to 'int' and 'float' which usually use 4 bytes, and 'char' which uses 1 byte."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Dynamic Memory Allocation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in C to allocate memory dynamically from the heap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "malloc"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "alloc"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "memalloc"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'malloc' function is used in C to allocate memory dynamically from the heap. It stands for 'memory allocation'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Understanding Pointers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C code snippet?\n\nint a = 10;\nint *ptr = &a;\nprintf(\"%d\", *ptr);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Garbage value"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Address of a"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pointer 'ptr' is assigned the address of 'a'. Dereferencing 'ptr' with '*ptr' gives the value stored at the address, which is 10."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Loop Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the final value of 'sum' after this loop in Python?\n\nsum = 0\nfor i in range(5):\n  sum += i\nprint(sum)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "14"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates over the range(5), which includes numbers 0, 1, 2, 3, and 4. Summing these numbers results in 0 + 1 + 2 + 3 + 4 = 10."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Decision-Making Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid conditional control structure in most programming languages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if-else"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for-while"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "switch-case"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try-catch"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'for-while' is not a valid conditional control structure. 'if-else', 'switch-case', and 'try-catch' are commonly used control structures for decision-making and error handling."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Loop Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the 'break' statement in loop control structures?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To pause the loop execution temporarily"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To exit the loop immediately"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To skip the current iteration and continue to the next"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To repeat the loop indefinitely"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'break' statement is used to exit a loop immediately, regardless of the loop's condition. It helps in stopping the execution of the loop when a certain condition is met."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Looping Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a do-while loop in programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To execute a block of code at least once and repeat it based on a condition at the end of the loop."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To execute a block of code multiple times based on a predetermined condition at the beginning of the loop."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To filter data based on certain conditions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To iterate through items in a collection without any conditions."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The do-while loop is used to ensure that a block of code is executed at least once and then repeated as long as the condition specified at the end of the loop remains true."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Project Implementation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a C project for a tic-tac-toe game, what data structure is most suitable for storing the state of the game board?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single-dimensional array"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two-dimensional array"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Linked list"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Stack"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A two-dimensional array is most suitable for storing the state of the game board in a tic-tac-toe game as it can directly represent the grid structure of the board."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Decision-Making Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which control structure would be most appropriate for implementing multiple decision pathways based on the value of a single variable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while loop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "if-else statement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "switch-case statement"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A switch-case statement is best for handling multiple decision pathways based on different values of a single variable, providing clear and efficient handling of each case."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Pointer Arithmetic",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an integer pointer `int *ptr = arr;` pointing to an array `arr[5] = {10, 20, 30, 40, 50};`, what is the value of `*(ptr + 3)`?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "40"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "30"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pointer arithmetic allows us to access elements of the array by moving the pointer. `*(ptr + 3)` moves the pointer three elements from the start, pointing to the fourth element of the array, which is 40."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "AVL Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an AVL Tree insertion operation, what is the first step to perform when the balance factor becomes +2 or -2?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Perform a right rotation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Perform a left rotation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Check the balance factor of the child"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Remove the node"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The first step is to check the balance factor of the child to determine the type of rotation (single or double) needed to restore the AVL property."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C code snippet?\nint a = 10, b = 20;\nif (a == 10)\n    if (b == 20)\n        printf(\"Condition met\\n\");\n    else\n        printf(\"Inner condition not met\\n\");\nelse\n    printf(\"Outer condition not met\\n\");"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Condition met"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inner condition not met"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Outer condition not met"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A is correct because both conditions in the nested if statements are true, which leads to the printing of 'Condition met'. The else parts are not executed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Dynamic Memory Allocation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C++ code snippet: int *ptr = new int[5]; ptr[3] = 50;  int x = *(ptr + 3); delete[] ptr; What is the value of x after this code is executed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "50"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pointer ptr is allocated 5 integers. The fourth element (index 3) is set to 50. The variable x is then assigned the value of the fourth element, which is 50, before the memory is deallocated."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Type Conversion and Casting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C code snippet? int a = 10; float b = 3.0; int result = a / b;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3.33"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C, when an integer is divided by a float, the float is implicitly cast to an integer before the division if the result is assigned to an integer. Thus, 10/3 results in 3."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Memory Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C code segment:\n\nint *ptr = (int*)malloc(sizeof(int) * 5);\nfor(int i = 0; i < 5; i++) {\n    *(ptr + i) = i;\n}\n\nWhat is the output of the following statement if executed after the loop?\n\nprintf(\"%d\", *(ptr + 3));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Undefined behavior"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pointer ptr is allocated space for 5 integers. The loop assigns values from 0 to 4 to each element. Therefore, *(ptr + 3) dereferences the value at the fourth position, which is 3."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "C Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C programming, which of the following scenarios will cause an infinite loop with the given 'while' loop syntax?\n\nwhile (condition) {\n    // loop body\n    if (some_condition) continue;\n    // other statements\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The 'some_condition' remains true and there are no statements modifying 'condition' before 'continue'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The 'some_condition' is always false."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The 'condition' is set to false in the 'other statements'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The 'continue' statement is removed from the loop."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'continue' statement skips the rest of the loop body and goes straight to the condition check. If 'some_condition' always evaluates to true and 'condition' is not modified, the loop will run indefinitely as it never reaches the code that could potentially change 'condition'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures - Loop Efficiency",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a nested loop where the outer loop runs n times and the inner loop runs m times, what is the time complexity of the following code snippet? for(int i = 0; i < n; i++) { for(int j = 0; j < m; j++) { // operations } }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(m)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n + m)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n * m)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The time complexity is O(n * m) because for each iteration of the outer loop (n), the inner loop runs m times, resulting in n*m total iterations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Hash Tables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the worst-case time complexity of searching for an element in a Hash Table using chaining for collision resolution?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst case, all elements could be hashed to the same bucket, resulting in a time complexity of O(n) as each element in the bucket would need to be checked."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Memory Management in C",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a C program that dynamically allocates an array of integers using malloc, which of the following practices is considered unsafe or incorrect?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using free() to deallocate memory"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Checking the return value of malloc before using the allocated memory"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Casting the result of malloc to (int *) in a program that strictly requires it"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the allocated memory without checking if malloc returned NULL"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using memory allocated by malloc without checking if the return value is NULL can lead to dereferencing a NULL pointer, which causes undefined behavior and can crash the program."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C code snippet?"
+      },
+      {
+        "type": "text",
+        "value": "int main() {\\n  double a = 0.7;\\n  if (a < 0.7f) printf(\"TRUE\\n\"); else printf(\"FALSE\\n\");\\n  return 0;\\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TRUE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FALSE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code prints 'TRUE' due to the differences in precision between double (0.7) and float (0.7f). In memory, 0.7 as a double is slightly more than 0.7 as a float. Hence, the condition (a < 0.7f) evaluates to true."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced Data Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In implementing a hash table in C, if the hashing function is poorly chosen and leads to many collisions, what is the most impacted aspect of the hash table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The physical size of the hash table"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The access time for elements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The data type of elements stored"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The syntax of the hash function"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A poorly chosen hashing function leading to many collisions would most significantly impact the access time for elements, as more collisions increase the time it takes to search for elements in the hash table."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Pointer Arithmetic",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the declaration 'int *ptr = arr;', where 'arr' is an array of integers, what is the value of '*(ptr + 3)'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Value of the fourth element in arr"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Value of the third element in arr"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Address of the third element in arr"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Address of the fourth element in arr"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pointer arithmetic in C allows movement through memory by type-specific increments. Here, 'ptr+3' moves the pointer three 'int' elements forward from the start of 'arr', pointing to the fourth element. Dereferencing it with '*' gives the value of the fourth element."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "C Function Mechanics",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C programming, which of the following function declarations is correct for a function that returns a pointer to an array of integers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int (*function())[10];"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int *function[10]();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int function()*[10];"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int [10]*function();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly declares a function that returns a pointer to an array of 10 integers. The syntax 'int (*function())[10];' indicates that function is a pointer to a function returning a pointer to an array of 10 integers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Variable Scope and Lifetime",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C code snippet. What will be the output?"
+      },
+      {
+        "type": "text",
+        "value": "int x = 20;\\nint main() {\\n  int x = 10;\\n  {\\n    extern int x;\\n    printf(\"%d\\n\", x);\\n  }\\n  return 0;\\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Undefined Behavior"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code results in a compilation error because the 'extern' keyword is used inside the block to declare an external variable 'x', but the scope of 'x' declared outside the main (global 'x') does not apply inside the function where a local 'x' exists. This creates a conflict without a resolution."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Implicit and Explicit Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following code snippet in C: int a = 10; double b = 5.5; a = a + b; What is the resulting value of 'a' after the execution of this code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "15.5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code performs implicit type conversion. Variable 'b' is a double and 'a' is an int. When 'a + b' is evaluated, 'b' is implicitly converted to an int, resulting in 5. Thus, 'a = 10 + 5' results in 'a' being 15."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Advanced Data Structures in C",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a C program where a struct 'Node' contains an integer 'data' and a pointer 'next' to the next Node. If you need to insert a new Node with data=5 such that it is the second node in the linked list, which of the following is the correct line of C code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "newNode->next = head->next; head->next = newNode;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "newNode->next = head; head = newNode;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "head->next = newNode; newNode->next = NULL;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "head->next->next = newNode; newNode->next = NULL;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly inserts a new Node with data=5 as the second node. It first links the new node to the second node of the current list, then links the head to this new node."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Advanced Data Structures - Self-Adjusting Binary Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a self-adjusting binary tree, which rotation technique is applied when a node becomes unbalanced due to multiple insertions on the right child of its right child?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single left rotation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Single right rotation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Double left rotation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Double right rotation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A single left rotation is used when a node becomes unbalanced due to multiple insertions on the right child of its right child, as this scenario indicates a right-right case."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Concurrency in C",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the potential issue when using multiple threads accessing a shared variable without synchronization mechanisms in a C program?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased performance due to parallel execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatic data protection by the C compiler."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Race conditions may occur, leading to unpredictable results."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Threads are inherently designed to manage shared data safely."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Without proper synchronization mechanisms such as mutexes or locks, multiple threads accessing and modifying a shared variable can lead to race conditions where the outcome and order of execution are unpredictable and depend on the sequence of context switches."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Scope and Lifetime",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a function in C that declares a static integer variable 'count' initialized to 0, which statement best describes the behavior of 'count' each time the function is called?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The value of 'count' is reset to 0 with each function call."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The value of 'count' is retained across function calls, incrementing if modified during each call."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The static keyword has no effect on integer variables and 'count' behaves as an auto variable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function will throw a runtime error due to improper use of the static keyword."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Static variables inside a function retain their value between function calls and are not reinitialized. Each time the function is called, 'count' retains the latest value."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Pointer Arithmetic and Array Relations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an array int arr[] = {10, 20, 30, 40, 50}; What is the value of *(arr + 3)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "40"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pointer arithmetic suggests that (arr + 3) points to the fourth element in the array, as indexing starts at 0. Therefore, *(arr + 3) dereferences to the value 40."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Flow in C",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following C code snippet, what will be the output?\n\nint i = 0;\nwhile(i < 3) {\n  if (i == 2) {\n    i += 2;\n  }\n  printf(\"%d \", i);\n  i++;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 1 2 "
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0 1 2 4 "
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0 1 "
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0 1 3 "
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop starts with i=0. During each iteration, it checks if i is less than 3. When i equals 2, the condition (i == 2) is true, and i is incremented by 2, making i equal to 4, which breaks the while loop condition. However, the printf statement executes before the increment, therefore the outputs are '0 1 2 '."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "C Loop Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a C program, which of the following loop constructs is suitable for implementing a menu-driven program where the user can exit by entering '0', and the menu should always be displayed at least once?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for(int i = getChoice(); i != 0; i = getChoice()) { /* display menu and process choice */ }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while(int choice = getChoice()) { /* display menu and process choice */ }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do { /* display menu and process choice */ } while(int choice = getChoice());"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "do { /* display menu and process choice */ } while(getChoice() != 0);"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D utilizes the 'do-while' loop, which ensures the menu is displayed at least once and continues to display until the user enters '0'. This construct is ideal for menu-driven programs where the loop must execute at least once."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Pointer Arithmetic",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "You are given a pointer 'p' pointing to the first element of an integer array. Which operation would correctly reverse the order of elements in the array using only pointer arithmetic and without additional arrays?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Iteratively swap *(p + i) with *(p + n - i - 1) where 'n' is the number of elements and 'i' iterates from 0 to n/2."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Iteratively assign *(p + i) to *(p + n - i) where 'n' is the number of elements and 'i' iterates from 0 to n."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Iteratively increment pointer 'p' from start to end of the array."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Set p to p + n - 1 and iteratively decrement p."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly describes the process of swapping the first element with the last, second element with the second last, and so on, using pointer arithmetic, effectively reversing the array."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Recursion in Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a recursive function defined as F(n) = F(n-1) + F(n-2) with base cases F(1) = 1 and F(2) = 1. What is the value of F(6)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "21"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function represents the Fibonacci sequence. Calculating step-by-step, F(3) = 2, F(4) = 3, F(5) = 5, and F(6) = 8."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Function Overloading in C++",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a C++ program where two overloaded functions are defined as follows: void func(int x) { cout << x << endl; } and void func(double x) { cout << x << endl; }. What will happen if the function is called with the argument 'func(5.0f);'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program will call func(int x)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program will call func(double x)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program will cause a compile-time error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The program will execute without selecting any function"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The argument '5.0f' is a float, which promotes to double in C++. Hence, the function 'func(double x)' will be called."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Type Conversion and Casting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a float variable 'x' with a value of 5.75, what is the result of using the following casting operation in C: (int)x?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5.0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5.75"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Casting a float to an int in C truncates the decimal part, converting 5.75 directly to 5."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Scope Rules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the C code snippet: 'int x = 10; { int x = 20; } printf(\"%d\", x);'. What is the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Garbage value"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C, variables declared inside curly braces '{}' have block scope and are only accessible within that block. The inner 'x' is a different variable from the outer 'x'. After the block, the original 'x' with value 10 is still in scope, which is printed."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Data Structures - Skip Lists",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a skip list, if the probability of increasing levels is 0.5, what is the expected number of levels that a node with height 2 can reach before it cannot go higher?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "8"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The probability of moving to the next level is 0.5, and since the node already has a height of 2, the expected number of levels to reach before stopping is 2."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variable Scope and Lifetime",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a C program, a variable 'x' is declared within a function 'func()' and is also declared globally. What will be the scope of the variable 'x' inside 'func()'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global scope"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local scope to 'func()'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both global and local scopes are applicable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the scopes are applicable"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'x' inside 'func()' will hide the global variable 'x'. Thus, it has a local scope limited to 'func()' only."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Dynamic Memory Allocation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++, which of the following statements about the delete operator is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The delete operator can be used to deallocate memory allocated by malloc or calloc."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The delete operator only calls the destructor for the object but does not free the allocated memory."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using delete on a pointer that has already been deleted leads to undefined behavior."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Delete automatically sets the pointer to nullptr after deallocating the memory."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using delete on a pointer that has already been deleted or was not allocated by new results in undefined behavior. The other statements are incorrect: delete not only calls the destructor but also frees the memory, it cannot be used with malloc or calloc, and it does not set the pointer to nullptr."
+      }
+    ]
+  }
+  ]
+}

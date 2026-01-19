@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 2,
+    "topic": "Working with Async/Await",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the async keyword do when placed before a function declaration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Makes the function return a Promise"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatically executes the function"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Pauses the execution of the function at each await expression"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Prevents the function from returning anything"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The async keyword makes a function return a Promise, allowing you to use await within it to pause until a Promise resolves."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Selecting Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to select an HTML element by its ID in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "document.getElementById()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "document.getElementByName()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "document.querySelector()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "document.getElementsByClass()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The document.getElementById() method is specifically designed to select an element by its ID."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which symbol is used to end statements in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Colon (:)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Semicolon (;)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Comma (,)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Period (.)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, statements are typically ended with a semicolon (;)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "DOM Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is used to select an HTML element by its ID in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "document.getElementById()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "document.getElement()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "document.querySelector()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "document.selectByID()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "document.getElementById() is the correct method to select an HTML element by its unique ID."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Arithmetic Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which operator would you use to multiply two numbers in most programming languages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "+"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "-"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "*"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "/"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '*' operator is used for multiplication in most programming languages."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Scope of Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of variable is accessible only within the function it is declared?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local variable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both global and local variables"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Local variables are declared inside a function and can only be accessed within that function. They are not accessible outside the function where they are declared."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following JavaScript code snippet: console.log(typeof 'Hello World');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "object"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "function"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'typeof' operator returns the data type of its operand as a string. Since 'Hello World' is enclosed in single quotes, it is recognized as a string."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Function Declaration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax for declaring a function in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction() {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function: myFunction() {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function = myFunction() {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "myFunction(): function {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for declaring a function in JavaScript uses the keyword 'function' followed by the function name and parentheses enclosing any parameters, ending with curly braces for the function body."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Fetch API",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method of the Fetch API is used to make a GET request to a server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fetch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "get()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "retrieve()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ajax()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fetch() method is used to make HTTP requests. It is versatile and can be used for any type of HTTP request, but it defaults to GET if the method is not specified."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to declare a block-scoped variable in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' keyword is used to declare a block-scoped local variable, optionally initializing it to a value."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "If-Else Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code if the variable 'x' is 10?\n\nif (x > 10) {\n  console.log('Greater than 10');\n} else {\n  console.log('Less than or equal to 10');\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Less than or equal to 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x is not greater than 10, the condition in the if statement evaluates to false, causing the else block to execute and print 'Less than or equal to 10'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In most programming languages, what operator is used to add two numbers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "+"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "-"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "*"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "/"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '+' operator is universally used for addition in most programming languages."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which event is fired when the user clicks on an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "onmouseover"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "onclick"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onchange"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onload"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'onclick' event is fired when the user clicks on an HTML element."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Function Declaration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to declare a function named 'compute' in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function compute() {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function: compute() {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function = compute() {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "function -> compute() {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, a function is declared using the 'function' keyword followed by the name of the function and parentheses. The correct syntax is 'function compute() {}'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which event is fired when the user clicks on an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "onmouseover"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "onclick"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onchange"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onload"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The onclick event is used to trigger a function when an element is clicked."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the expression (8 % 3) in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2.67"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The % operator in Java is the modulus operator, which returns the remainder of division. The remainder of 8 divided by 3 is 2."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Using if-else statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code if the input x is 10?\n\nif (x > 10):\n    print(\"x is greater than 10\")\nelse:\n    print(\"x is not greater than 10\")"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is not greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x equals 10 and the condition checks if x is greater than 10, the else part is executed, printing 'x is not greater than 10'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Function Definition",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the keyword 'def' in Python indicate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Definition of a new function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Beginning of a loop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A conditional statement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Declaration of a variable"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'def' is used in Python to define a new function."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid JavaScript data type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Number"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Character"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, there is no 'Character' data type; characters are treated as strings."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "For Loops",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the final value of the variable x after this loop executes?\n\nfor (int x = 0; x < 5; x++) {\n  // do nothing\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop increments x from 0 to 4. After the last iteration (where x equals 4), x is incremented to 5, and then the loop condition fails, thus the final value of x is 5."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a primitive data type in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "char"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "String is not a primitive data type; it is a class in Java."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Variable Declaration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to declare a block-scoped variable in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "block"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' keyword is used to declare a variable that is limited to the block in which it is defined."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Async Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'async' keyword do in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It makes a function return a promise."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It creates a new thread."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It pauses the execution of the function indefinitely."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically executes a function."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'async' keyword is used before a function to ensure that the function returns a promise. Any return value from the function is automatically wrapped in a promise."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to add an event listener in JavaScript that responds to 'click' events?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "element.addEventHandler('click', functionName);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "element.addEventListener('click', functionName);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "element.onClick('click', functionName);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "element.listen('click', functionName);"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to add an event listener that responds to 'click' events is element.addEventListener('click', functionName)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Function Definition",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to define a function in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "def myFunction():"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function myFunction():"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function: myFunction()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "define myFunction()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, a function is defined using the def keyword followed by the function name and parentheses."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Function Scope",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the scope of a variable declared with 'var' inside a function in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Local to the function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Global"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Local to the block"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A variable declared with 'var' inside a function is local to that function, meaning it can only be accessed within the function."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Understanding for loops",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code?\n\nfor i in range(3):\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0 1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2 3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Syntax error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The range(3) function generates numbers from 0 up to but not including 3, hence the output is 0, 1, 2."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Manipulating DOM with JavaScript",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which JavaScript method is used to select an HTML element by its ID?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getElementById()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "querySelector()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "selectByID()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "findByTag()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "getElementById() is the correct method to select an HTML element by its ID."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "DOM Manipulation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to change the text of an HTML element in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "document.changeText()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "document.innerText()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "document.getElementById('id').innerText"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "document.textContent()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The method document.getElementById('id').innerText is used to select an HTML element by its ID and change its text content."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Arithmetic Operators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the expression 10 % 3?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The modulus operator % returns the remainder of the division of 10 by 3, which is 1."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which symbol is used to end statements in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Semicolon (;)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Colon (:)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Comma (,)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Period (.)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, semicolons are used to separate statements from each other."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scope of Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the scope of a variable that is defined inside a function in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "External"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Universal"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A variable defined inside a function is local to that function and cannot be accessed outside of it."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Fetch API Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method of the Fetch API is used to make a GET request to a server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fetch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "get()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "retrieve()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "request()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fetch() method is used to make HTTP requests. This method defaults to a GET request unless another method is specified."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Promise Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to handle the rejection of a promise?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".catch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".reject()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".error()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".fail()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .catch() method is used to handle the rejection of a promise, providing a way to catch any error that occurs during the promise execution."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which event occurs when the user clicks on an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "onclick"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "onmouseover"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onchange"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onload"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'onclick' event occurs when the user clicks on an HTML element, triggering any associated JavaScript code."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Understanding Promises",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What value is logged when the following code is executed? console.log(Promise.resolve(5));"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[object Promise]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Promise.resolve(5) returns a promise object, not the value 5 directly. Therefore, the console logs '[object Promise]'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Fetching Data with JavaScript",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used in JavaScript to send a network request to a server and fetch data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fetch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getData()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "request()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "query()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fetch() method is used in JavaScript to send HTTP requests to a server and retrieve data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which event occurs when a user clicks on an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "onclick"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "onhover"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onchange"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onload"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The onclick event triggers when a user clicks on an element."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Variables and Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to declare a variable that can be reassigned in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "let"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "const"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "int"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' keyword allows you to declare a variable that can be reassigned, while 'const' is for constant variables, and 'var' has a function scope or global scope."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Working with JSON",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to convert a JSON string into a JavaScript object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JSON.parse()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON.stringify()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JSON.toObject()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JSON.fromString()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JSON.parse() is used to parse a JSON string and construct the JavaScript value or object described by the string."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basics of Promises",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of console.log after executing the following code snippet? \n\n const promise = new Promise((resolve, reject) => { resolve('Success!'); });\n promise.then((value) => { console.log(value); });"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Success!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Promise {<resolved>: 'Success!'}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The promise resolves with the string 'Success!', which is then passed to the console.log function by the .then handler."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Function Scope",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following describes the scope of a variable declared inside a function in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global scope"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local scope"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "External scope"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Universal scope"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A variable declared inside a function in Python has a local scope, meaning it can only be accessed within the function."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Handling Errors in Promises",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of console.log if an error occurs during the execution of the following promise? \n\n const promise = new Promise((resolve, reject) => { reject('Failed!'); });\n promise.then((value) => { console.log(value); }).catch((error) => { console.log(error); });"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Failed!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Success!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the promise is rejected with the message 'Failed!', the .catch handler catches this error and the message 'Failed!' is logged to the console."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output type of 'typeof(42)' in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "number"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "integer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "undefined"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'typeof' operator returns a string indicating the type of the unevaluated operand."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Declaration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct way to declare an integer variable named 'age' in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int age"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "age = int()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "age = 0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Integer age = new Integer()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, variables don't need a type declaration. Option C correctly initializes 'age' as an integer with a value of 0."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a primitive data type in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "String"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "String is not a primitive data type in Java; it is actually a class."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What symbol is used to denote the end of a statement in JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Semicolon (;)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Colon (:)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Comma (,)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Period (.)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In JavaScript, statements are commonly terminated with a semicolon (;)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "If-Else Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the output be if the value of x is 10 in the following statement: if(x > 10) { print('Greater'); } else { print('Lesser or equal'); }?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Greater"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Lesser or equal"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 10 is not greater than 10, the condition in the if statement fails, leading to the execution of the else statement, which prints 'Lesser or equal'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Understanding Promises",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of console.log in the following JavaScript code snippet? \n\n const promise = new Promise((resolve, reject) => { resolve('Success!'); });\n promise.then((value) => { console.log(value); });"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Success!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Promise { 'Success!' }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The promise resolves with the string 'Success!', which is then logged to the console by the 'then' method."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "DOM Manipulation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is primarily used in JavaScript to select an element by its ID?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getElementById()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "querySelector()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "selectByID()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "findElementById()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "getElementById() is the standard method used to select elements by their ID in JavaScript. It is the most direct and efficient way to access an element with a specific ID."
+      }
+    ]
+  }
+]

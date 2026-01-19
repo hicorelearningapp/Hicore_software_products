@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 3,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, which of the following is true about implementing INotifyPropertyChanged in a ViewModel to enable two-way data binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only properties that directly interact with the UI need to implement the PropertyChanged event handler."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is necessary for all properties in the ViewModel, regardless of their interaction with the UI."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INotifyPropertyChanged is automatically implemented in all ViewModels."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PropertyChanged event must be manually raised in the setter of each property bound to the UI elements."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In two-way data binding in WPF, the ViewModel's properties need to notify the UI about changes to update correctly. This is done by raising the PropertyChanged event in the property setter."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "C# Variable Scoping",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C# code snippet: int x = 10; void Adjust() { int x = 5; } Adjust(); Console.WriteLine(x); What will be the output of the Console.WriteLine statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "null"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'x' declared inside the Adjust method is scoped only within that method. The 'x' referred to in the Console.WriteLine statement is the 'x' declared at the beginning with a value of 10."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Polymorphism in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a scenario where you have multiple classes inheriting from a single base class in C#. If a method is declared as virtual in the base class and overridden in one but not all derived classes, what will happen when the method is called on an object of a derived class that does not override this method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It throws a runtime exception."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It calls the method defined in the nearest base class up the hierarchy that has an override."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It results in a compile-time error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It does nothing and returns null."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, if a method is declared as virtual and overridden in some but not all derived classes, calling this method on an object of a derived class that does not override the method will lead to the execution of the nearest override up in its inheritance chain. If no overrides are found, it executes the base class method."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Query Techniques in LINQ",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to perform a left outer join between two datasets, 'employees' and 'departments', using LINQ method syntax where some employees may not have department ids associated with them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "employees.GroupJoin(departments, e => e.DepartmentId, d => d.Id, (e, d) => new { e, d }).SelectMany(z => z.d.DefaultIfEmpty(), (z, d) => new { Employee = z.e, Department = d })"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "from e in employees join d in departments on e.DepartmentId equals d.Id into dept from d in dept.DefaultIfEmpty() select new { Employee = e, Department = d }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "employees.Join(departments, e => e.DepartmentId, d => d.Id, (e, d) => new { Employee = e, Department = d }).Where(e => e.Department == null)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "employees.SelectMany(departments, (e, d) => new { Employee = e, Department = d }).Where(e => e.Employee.DepartmentId == e.Department.Id)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly uses the GroupJoin method to correlate the employees with departments based on DepartmentId, followed by a SelectMany to flatten the results and handle employees without departments using DefaultIfEmpty()."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which of the following statements is true regarding method overriding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "An override method can change the return type of the method that it overrides."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The method to be overridden must be marked with the sealed modifier."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Overriding a method in C# completely hides the method from the base class."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event. The method that is being overridden in the base class must be marked with either the virtual, abstract, or override modifier."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Lambda Expressions and Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C# code snippet: int x = 10; Func<int, int> addX = y => y + x; x = 20; var result = addX(10); What is the value of result?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "40"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions capture their outer variables by reference. When 'x' is modified to 20 before invoking 'addX', the captured reference points to the new value of 'x'. Therefore, result = 10 + 20 = 30."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Lambda Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a lambda expression in C# used to filter a list of integers: 'List<int> numbers = new List<int> { 1, 2, 3, 4, 5 }; var evenNumbers = numbers.FindAll(x => x % 2 == 0);'. What is the output of 'evenNumbers'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An empty list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "List containing 1, 3, 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List containing 2, 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "List containing 1, 2, 3, 4, 5"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lambda expression 'x => x % 2 == 0' filters the elements of the list, returning only those that are even (where the remainder when divided by 2 is 0). Thus, it returns a list containing 2 and 4."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Entity Framework Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Entity Framework, how can you optimize a LINQ query focusing on minimizing data retrieval overhead?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using .Select() to retrieve only necessary columns rather than entire entity objects."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Calling .ToList() before applying any filters or conditions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using .AsEnumerable() to shift query processing to the client side."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increasing the command timeout duration on the DbContext."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using .Select() to specify only the necessary columns reduces the amount of data transferred from the database, thereby improving performance by not retrieving full entity models when not needed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Delegates and Method Group Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a method in C#: void Display() { Console.WriteLine('Hello'); } and a delegate declaration: delegate void DisplayDelegate(); Which statement correctly instantiates the delegate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DisplayDelegate del = new DisplayDelegate(Display);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DisplayDelegate del = Display();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DisplayDelegate del = Display;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DisplayDelegate del = delegate Display();"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, delegates can be instantiated using the method group conversion syntax without the need for explicit delegate creation with 'new'. Thus, 'DisplayDelegate del = Display;' is the correct instantiation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Memory Management in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which of the following statements is true regarding memory management of value types and reference types?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Both value types and reference types are typically stored on the stack."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Value types are stored on the stack, while reference types are stored on the heap."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Value types are stored on the heap, while reference types are stored on the stack."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both value types and reference types are typically stored on the heap."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, value types are stored on the stack for short-term storage, while reference types are stored on the heap, which is used for long-term storage. This fundamental difference is crucial for understanding memory management in C#."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Memory Management in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which of the following statements is true about the garbage collector's use of finalizers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Finalizers are called immediately when an object goes out of scope."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The garbage collector calls finalizers at its discretion; the exact time cannot be determined."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Finalizers are called during the allocation of new objects to manage memory more efficiently."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Finalizers provide deterministic cleanup and are always called before the program terminates."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Finalizers in C# are called by the garbage collector at its discretion, meaning that the exact time they are executed is not predictable. This non-deterministic behavior is crucial for understanding memory management in C#."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Operators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If x is an integer variable initialized as 5, what is the output of the following code snippet in C#?\n\nx += x++ + ++x;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "18"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "17"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "15"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The operation x++ uses x then increments (x becomes 6), ++x increments first then uses x (x becomes 7). Now, the expression evaluates as 5 += 5 + 7 = 17. However, due to the post-increment and pre-increment operations involved, it correctly results in 15."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Lambda Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following lambda expression used in a LINQ query: items.Where(x => x.Length > 3). What must be true about 'items' for this lambda expression to be valid?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Items must be a collection of integers."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Items must be an IEnumerable of a type that has a Length property."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Items must be an array of numeric values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Items can be any collection as long as it implements the IEnumerable interface."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because for the lambda expression x.Length > 3 to be valid, 'items' must be an IEnumerable of a type that possesses a Length property, typically strings or arrays."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Event Handling in WinForms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Windows Forms application, which method allows you to asynchronously handle events without blocking the UI thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Invoke()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BeginInvoke()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ControlThread()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OnEventAsync()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BeginInvoke() is used in Windows Forms to handle events asynchronously, allowing the UI to remain responsive by not blocking the UI thread."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Asynchronous Programming in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true when comparing 'Task.Run()' and 'Task.Factory.StartNew()' in the context of C# asynchronous programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'Task.Run()' is simply a shorthand for 'Task.Factory.StartNew()' with default parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'Task.Factory.StartNew()' provides more control over task scheduling and configuration than 'Task.Run()'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'Task.Run()' can be used for creating long-running tasks while 'Task.Factory.StartNew()' cannot."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both 'Task.Run()' and 'Task.Factory.StartNew()' are obsolete and replaced by 'Task.Create()'."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'Task.Factory.StartNew()' allows for more detailed configuration of how tasks are executed, including specifying the task scheduler, cancellation tokens, and task creation options, thus providing more control compared to 'Task.Run()', which is a more simplified API suitable for most common scenarios."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Event Handling in WinForms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Windows Forms application, what is the significance of using the InvokeRequired property with the Invoke method in the context of thread safety?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It checks whether the call is being made from a thread that is not the main UI thread and safely makes calls to UI components."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It ensures that the application will not enter a deadlock state while waiting for a thread to finish execution."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It bypasses standard security checks to increase method call performance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It automatically disposes of UI controls after they are no longer needed."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "InvokeRequired is used to determine if the method call is being made from a thread other than the one that created the control (typically the main UI thread). If true, the Invoke method is used to make thread-safe calls to UI controls, preventing cross-thread operation errors."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Entity Framework Eager Loading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Entity Framework, when querying an object with related data, which method ensures that related data is loaded efficiently to avoid the N+1 query problem?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using .Include() method to specify related data to be loaded along with the main query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using .Select() method and manually specifying each field of the related data."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using .FirstOrDefault() without specifying any related data."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a separate query for each related object after the main query is executed."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .Include() method allows specifying related entities to be loaded along with the main entity, thus making a single join query to the database instead of multiple queries, efficiently preventing the N+1 problem."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "C# Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about the 'decimal' type in C# is NOT correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It has more precision and a smaller range than 'double'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is suitable for financial and monetary calculations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is represented by 128-bit data."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It uses binary floating-point format."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'decimal' type in C# uses a floating-point format that is not binary but rather a 128-bit decimal format, which minimizes errors in decimal arithmetic and is particularly suitable for financial calculations."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Types and Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What would be the result of the following C# code snippet if executed?\n\nint a = 10;\nint b = 3;\ndouble c = a / b;\nConsole.WriteLine(c);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3.333"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3.0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since both 'a' and 'b' are integers, the division operation results in an integer division. The result is then implicitly converted to a double when assigned to 'c', but this does not change the fact that the division was integer-based, hence the output is 3.0."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Types and Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the C# code snippet: double result = 10 / 3; What must be corrected to ensure 'result' accurately stores the division's result as a floating-point number?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Change '10 / 3' to '10.0 / 3'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Change 'double' to 'int'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Change '10 / 3' to '10 / 3.0'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No change needed"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To ensure floating-point division, at least one operand must be of a floating-point type. Changing '10 / 3' to '10.0 / 3' makes the numerator a double, ensuring the division operation results in a floating-point number."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types and Variables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C# code snippet?\n\nint a = 10;\nint b = 3;\nvar result = a / b;\nConsole.WriteLine(result);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3.33"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since both a and b are integers, the division operation results in an integer division. The fractional part is discarded, and the result is 3."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Encapsulation in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a class 'Account' with a private field 'balance' and a method 'Deposit(decimal amount)'. Which of the following is the best implementation of 'Deposit' method to ensure encapsulation and data integrity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public void Deposit(decimal amount) { if (amount > 0) { balance += amount; } }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public void Deposit(decimal amount) { balance += amount; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "public void Deposit(decimal amount) { balance = balance + amount; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public void Deposit(decimal amount) { if (amount > 0) balance = balance + amount; else throw new ArgumentException('Amount must be positive'); }"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because it not only checks that the deposit amount is positive before adding it to 'balance', ensuring the integrity of the data, but it also throws an exception if the amount is not valid, providing feedback to the caller about incorrect usage."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Memory Management in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, what does the statement 'GC.Collect()' explicitly trigger and what is a potential downside of using it frequently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It triggers the garbage collector to reclaim unused memory, potentially leading to frequent memory deallocation and reallocation."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It forces the program to pause, causing a sudden drop in application performance."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It cleans up managed and unmanaged resources, but can lead to memory leaks if not used properly."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GC.Collect() triggers the compiler optimization process, potentially altering the execution flow of the program."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'GC.Collect()' explicitly forces the garbage collector to run, which can indeed help in reclaiming unused memory. However, it also causes the program to pause while the garbage collection is performed, which can lead to significant performance degradation if used improperly or too frequently."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Memory Management in .NET",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary role of the 'Garbage Collector' in the .NET ecosystem concerning memory management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allocate memory on the heap for new object instances."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the performance of applications by increasing memory usage."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To deallocate objects that are no longer in use and reclaim their memory."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To compress data in memory to prevent the application from using too much RAM."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Garbage Collector (GC) in the .NET ecosystem is primarily responsible for deallocating objects that are no longer needed and reclaiming their memory, which helps manage the application's memory usage efficiently and prevents memory leaks."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Optimized Queries with LINQ and Entity Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When optimizing a LINQ query in Entity Framework to retrieve only specific columns from a 'Products' table that have a price greater than 50, which approach ensures that the query utilizes server-side filtering and projection effectively?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.Products.Where(p => p.Price > 50).Select(p => new { p.Name, p.Price }).ToList();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.Products.Select(p => p.Name, p.Price).Where(p => p.Price > 50).ToList();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.Products.Select(p => new { p.Name, p.Price > 50 }).ToList();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.Products.ToList().Where(p => p.Price > 50).Select(p => new { p.Name, p.Price });"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly applies the 'Where' clause before the 'Select' projection, ensuring the filtering is performed server-side, and only the necessary columns are retrieved, enhancing performance."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Entity Framework Performance Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Entity Framework, what is the impact of using .Include() method excessively in queries concerning the performance and how does it relate to the loading strategy?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It decreases performance due to increased memory usage by loading unnecessary data, leading to potential overhead and slower response times."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It has no impact on performance, as Entity Framework optimizes the underlying SQL queries automatically."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It enhances performance by reducing the number of queries to the database, even if all the data isn't needed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It impacts only the compile-time checking but has no runtime performance implications."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because using the .Include() method excessively can lead to eager loading of more data than necessary, which increases memory usage and can degrade performance due to loading large volumes of data that may not be utilized."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements best describes the use of the INotifyPropertyChanged interface in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the UI to update automatically when the data context changes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It provides a method to directly update UI controls without involving the data context."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to invoke methods asynchronously from the UI thread."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is a built-in method in the .NET Framework for memory management."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "INotifyPropertyChanged is implemented in data source classes to notify data binding clients, typically UI elements, that a property value has changed, thus allowing the UI to update automatically based on the data context changes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a class 'Employee' encapsulates the field 'salary' and exposes it via a property 'Salary' with both get and set accessors, what potential issue arises if there are no additional checks within the set accessor?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The 'salary' field can be directly modified without using the 'Salary' property."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation is fully achieved and no issues will arise."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows setting 'salary' to invalid values, violating data integrity."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The get accessor will not be able to retrieve the correct salary."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Without validation in the set accessor, the 'salary' can be set to any value, including those that are not sensible (e.g., negative values), which compromises the integrity of the data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Scope and Access Modifiers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C# code snippet? int a = 10; void Display() { int a = 20; Console.WriteLine(a); } Display(); Console.WriteLine(a);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20, 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10, 20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20, 20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10, 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'a' inside Display() shadows the global variable 'a'. Inside Display(), the local 'a' is printed, showing 20. Outside, the global 'a' retains its value of 10."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Memory Management in .NET",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which of the following statements about the 'Dispose' method in the IDisposable interface is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It automatically frees the memory of all managed objects."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is called automatically by the garbage collector when reclaiming memory."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to release unmanaged resources explicitly and to perform other cleanup operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It deallocates memory for the object and forces garbage collection immediately."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Dispose' method of the IDisposable interface is implemented to release unmanaged resources like file handles, database connections, etc., explicitly. It is not involved in managing memory for managed objects and does not trigger garbage collection."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Threading in Windows Forms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Windows Forms, what is the safest way to update a control from a thread that did not create the control?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directly setting the control's property"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using the Invoke method of the control"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updating the control in a try-catch block"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the Application.DoEvents method"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the Invoke method is the safest way to update a control from a different thread in Windows Forms. This method marshals the call to the thread that created the control, preventing cross-thread operation errors."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Encapsulation and Access Modifiers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, what would be the accessibility of a protected internal member in a derived class that is located in a different assembly than its base class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is accessible from any class in the derived class's assembly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is not accessible outside the base class's assembly."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is accessible only within derived classes in the same assembly as the base class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is accessible in any assembly, but only through instances of the derived class."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, a protected internal member is accessible within its own assembly and also from derived classes in other assemblies. Therefore, in a derived class located in a different assembly, the protected internal member of the base class is accessible from any class within the derived class's assembly."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Polymorphism and Method Overriding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which of the following statements is true about method overriding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Method overriding is the example of static polymorphism."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Method overriding allows a subclass to provide a specific implementation of a method that is already provided by one of its super-classes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Method overriding is achieved by using the 'new' keyword."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A method can be overridden simply by using the 'override' keyword as part of the method declaration in the derived class."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Method overriding allows a subclass to provide a specific implementation of a method that is already provided by one of its super-classes, which is a key feature of dynamic polymorphism, not static polymorphism as stated in option A. Option C is incorrect as 'new' keyword is used for hiding. Option D is incorrect because the 'override' keyword must also be accompanied with 'virtual', 'abstract', or 'override' in the base class method declaration."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Asynchronous Programming in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the 'await' keyword in an asynchronous method in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To immediately start a new thread in the background."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To block the main thread until the asynchronous operation completes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To pause the execution of the method until the awaited task completes without blocking the main thread."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the performance of synchronous methods by converting them into asynchronous methods."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'await' keyword is used in asynchronous programming in C# to pause the execution of the method in which it appears, without blocking the main thread, until the task being awaited is complete. This allows other operations to continue running on the main thread."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Lambda Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following lambda expressions is valid for creating a delegate that takes two integers and returns their product?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "(int x, int y) => x * y;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "(x, y) => return x * y;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "(int x, int y) => return x * y;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "=> (x, y) { return x * y; }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly defines a lambda expression with the specified input types and uses the expression body correctly without the 'return' keyword which is not needed in this context."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Events and Delegates",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a delegate declaration 'public delegate void ProcessBookDelegate(Book book);', which event declaration correctly uses this delegate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public event ProcessBookDelegate OnProcessed;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public event Action<Book> OnProcessed;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "public ProcessBookDelegate OnProcessed;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public EventHandler<Book> OnProcessed;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it uses the 'ProcessBookDelegate' for the event declaration, which matches the delegate type specified."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Delegates and Multicast",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a scenario where a delegate is used to multicast several methods. If one of these methods throws an exception, what will happen to the execution of the remaining methods in the invocation list?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Execution of remaining methods will continue."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Execution of all methods stops and control is passed to the catch block if exists."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Execution of remaining methods will continue only if handled within the delegate."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The delegate will re-invoke all methods excluding the one that threw the exception."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a method in a delegate's invocation list throws an exception, the subsequent methods in the list will not be executed. The exception propagates back to the caller, and if not caught, it can terminate the application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Scope and Declaration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following code snippet, what will be the output?\n\nint x = 10;\nvoid Display() {\n  int x = 20;\n  {\n    int x = 30;\n    Console.WriteLine(x);\n  }\n  Console.WriteLine(x);\n}\nDisplay();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "30\n20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30\n30"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20\n30"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "20\n20"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inside the Display method, the inner block shadows the variable 'x' declared in the method scope with its own 'x'. Thus, the innermost 'x' (value 30) is printed first, followed by the method's 'x' (value 20)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Asynchronous Programming in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the 'await' keyword in asynchronous programming in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To immediately start a new thread."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create a new asynchronous method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To pause the execution of the method until the awaited task completes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To terminate a task if it takes too long to complete."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'await' keyword is used in asynchronous programming in C# to suspend the execution of the method until the task being awaited is complete. This allows other operations to run in the meantime without blocking the main thread."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Asynchronous Programming in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the 'ConfigureAwait(false)' method in an asynchronous method in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow the method to continue on the original context upon completion of the awaited task."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure the method resumes execution on a new thread from the thread pool."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To prevent the method from continuing on the original synchronization context, avoiding potential deadlocks."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the priority of the awaited task in the task scheduler."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ConfigureAwait(false)' method is used in an asynchronous method to specify that the continuation after the awaited task does not have to be run in the caller\u2019s context, thus avoiding potential deadlocks especially in UI applications where the context might involve UI threads."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Rendering Techniques in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What distinguishes the retained mode graphics system used by WPF from the immediate mode used by WinForms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Retained mode stores a server-side image of the UI, while immediate mode regenerates the UI from scratch on each render."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Immediate mode allows for more complex animations and transformations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Retained mode does not support transparency or layered windows."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Immediate mode is more resource-intensive as it does not utilize a scene graph."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF uses a retained mode graphics system, which means it maintains a visual tree of all elements, allowing for more efficient redrawing and transformations. WinForms, using immediate mode, redraws the UI from scratch with each update, which can be less efficient."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced LINQ Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a scenario where you need to apply a sorting mechanism on a collection of objects in a database using LINQ with Entity Framework, which of the following methods would appropriately apply a secondary sort order after the primary 'OrderBy' method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OrderByDescending"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ThenBy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GroupBy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SelectMany"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ThenBy' method is used to specify additional sort criteria to follow when the primary 'OrderBy' method has identified items with equal key values. It preserves the order of the elements that have equal keys."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "C# Event Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, if you have subscribed multiple methods to an event, how is the order of method execution determined when the event is triggered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Random order"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Alphabetical order of method names"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Order in which they were added"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reverse order in which they were added"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the methods subscribed to an event are executed in the order in which they were added to the event."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Entity Framework and LINQ Best Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best practice when loading related data in Entity Framework to avoid performance bottlenecks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use eager loading for all related data."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use explicit loading selectively on access."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Always use lazy loading for all relationships."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilize lazy loading but preload commonly accessed relationships."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing lazy loading while preloading commonly accessed relationships allows for optimized loading of data. It prevents the overhead of eager loading everything while avoiding the n+1 query problem commonly associated with lazy loading."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Entity Framework Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Entity Framework, what is the necessary package and command to enable Lazy Loading for a project that uses SQL Server as its database provider?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Install-Package Microsoft.EntityFrameworkCore.Proxies and enable it in the DbContext with optionsBuilder.UseLazyLoadingProxies();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Install-Package Microsoft.EntityFrameworkCore.SqlServer and use optionsBuilder.UseSqlServer().EnableLazyLoading();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Add Microsoft.EntityFrameworkCore.LazyLoading and call optionsBuilder.UseLazyLoading();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enable Lazy Loading directly in the Entity Data Model (EDM) without any additional packages or commands."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because Microsoft.EntityFrameworkCore.Proxies is the package needed for enabling lazy loading. It is activated in the DbContext options with UseLazyLoadingProxies()."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Asynchronous Programming in C#",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements accurately describes the behavior of an async method in C# without an 'await' keyword?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The method runs synchronously on the same thread as the caller."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The method throws a runtime exception when called."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The method executes on a new thread, separate from the main application thread."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method compiles but runs as a synchronous method, disregarding the async modifier."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, an async method without an 'await' expression runs synchronously. Although it compiles, the async modifier has no effect and the method does not run on a new thread or handle any asynchronous operations internally."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "C# Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following C# code snippet: \n\nint x = 10;\nvoid Adjust(){\n  int x = 20;\n  Console.WriteLine(x);\n}\nAdjust();\nConsole.WriteLine(x);\n\nWhat will be the output of this code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "20 followed by 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10 followed by 20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20 followed by 20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10 followed by 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'x' inside the Adjust method is a local variable with scope limited to the Adjust method itself. It shadows the outer 'x' variable, thus the method prints '20'. Outside the method, the original 'x' retains its value of '10'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what is the correct way to ensure that a property change updates the UI automatically, and which binding mode allows changes in the UI to update the data source?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implement INotifyPropertyChanged and use TwoWay binding mode."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use DependencyProperty and set binding mode to OneWay."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implement ObservableCollection and use OneTime binding mode."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use RoutedEvents with TwoWay binding mode."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To automatically update the UI when a property changes, implement the INotifyPropertyChanged interface. The TwoWay binding mode allows the UI to update the data source and vice versa."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Interfaces and Abstract Classes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct statement about interfaces and abstract classes in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Interfaces can contain implementation of methods just like abstract classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A class can inherit multiple interfaces but only one abstract class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Abstract classes can contain only abstract methods."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Interfaces in C# can contain fields and constants."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as a class in C# can indeed implement multiple interfaces but can inherit from only one abstract class. Option A is incorrect because interfaces cannot contain method implementations until C# 8.0, where default implementations were allowed. Option C is incorrect as abstract classes can contain both abstract and non-abstract methods. Option D is incorrect because interfaces cannot contain fields or constants, only properties and methods."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced LINQ Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When optimizing a LINQ query in Entity Framework to retrieve the top 10 most expensive products, what is the most efficient way to structure the query to ensure minimal data transfer and processing time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use .OrderByDescending(p => p.Price).Take(10) after retrieving all products into memory."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use .Take(10).OrderByDescending(p => p.Price) directly in the query."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use .Where(p => p.Price > 1000).OrderByDescending(p => p.Price).Take(10)."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use .OrderByDescending(p => p.Price).Take(10) directly in the query."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using .OrderByDescending(p => p.Price).Take(10) directly in the query allows EF Core to process the sorting and limiting on the database server side, reducing the data transferred to the client and improving performance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 3,
+    "topic": "Selecting Data",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to select all records from a table named 'customers'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT * FROM customers;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT FROM customers;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "EXTRACT * FROM customers;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GET * FROM customers;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct SQL statement to select all records from a table is 'SELECT * FROM tablename;'. In this case, the table name is 'customers'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Password Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL function is used to set or change a user password?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET PASSWORD"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UPDATE PASSWORD"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ALTER USER"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CHANGE PASSWORD"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'SET PASSWORD' function is used to set or change the password for MySQL user accounts."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing an object with properties in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TEXT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BLOB"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JSON data type is specifically designed to store JSON documents in MySQL."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Joins",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL keyword is used to retrieve records from two or more tables based on a related column between them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GROUP BY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WHERE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JOIN keyword is used in SQL to query data from two or more tables based on a relationship between certain columns in these tables."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Creating Users",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to create a new user in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE USER"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NEW USER"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ADD USER"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INSERT USER"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'CREATE USER' statement is used in SQL to create a new user in MySQL databases."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Indexing Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index is most beneficial for improving the performance of queries that sort results based on a range of values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Full-text Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Spatial Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree indexes are best for handling equality and range queries efficiently, making them ideal for sorting and searching operations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Connecting MySQL to PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a connection to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "open_connection()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_connect()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used to open a new connection to the MySQL server. 'mysql_connect()' is deprecated."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Privileges Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How can you grant SELECT privilege on a database called 'testdb' to a user 'user1'@'localhost'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT SELECT ON testdb.* TO 'user1'@'localhost';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALLOW SELECT ON testdb.* FOR 'user1'@'localhost';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENABLE SELECT ON testdb.* BY 'user1'@'localhost';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET SELECT ON testdb.* TO 'user1'@'localhost';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT statement is used to provide privileges to MySQL users. The correct syntax includes 'GRANT' followed by the privilege, then 'ON' the database, and 'TO' the user."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Granting Privileges",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the GRANT statement in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To grant privileges to a user"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create a new user"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To delete a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To update data in a table"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT statement is used to grant specific privileges to users, allowing them to perform tasks like select, insert, and delete on database tables."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What SQL command is used to remove data from a table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TRUNCATE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing an object with properties in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TEXT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BLOB"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JSON data type is appropriate for storing objects as it allows data to be stored in a structured format."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "MySQL Data Retrieval in PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PHP function is used to execute a query that does not return a result, like INSERT or UPDATE?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_execute()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_fetch()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_result()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_query() is used to perform both database queries that may or may not return a resultset (e.g., SELECT, INSERT, UPDATE)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Database Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of SQL constraint?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FOREIGN KEY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PRIMARY KEY"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INSERT KEY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CHECK"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "INSERT KEY is not a recognized SQL constraint. The common types of constraints include PRIMARY KEY, FOREIGN KEY, CHECK, and UNIQUE."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SQL Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "EXTRACT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GET"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to select data from a database. Other options are not standard SQL commands for extracting data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove data from a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table, whereas DROP is used to delete the table itself."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index improves the performance of LIKE queries in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Spatial Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No index is beneficial"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-Tree indexes are optimal for handling LIKE queries that do not start with a wildcard character, as they can efficiently traverse the tree to find the required strings."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Using EXPLAIN in MySQL helps in optimizing queries by showing:"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "How the MySQL optimizer resolves the query"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The source code of the MySQL server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The list of current users connected to the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The backup schedule of the database"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using EXPLAIN in MySQL helps in optimizing queries by showing how the MySQL optimizer resolves the query, which is beneficial for understanding and improving query performance."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Database Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of SQL constraint?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FOREIGN KEY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PRIMARY KEY"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UNIQUE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INDEX"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "INDEX is not a constraint but a database object used to improve the performance of data retrieval."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in MySQL is used to store Boolean values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BIT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BOOL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "VARCHAR"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BOOL is a synonym for TINYINT(1), commonly used in MySQL to represent Boolean values."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Password Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MySQL function can be used for encrypting user passwords before storing them in the database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ENCODE()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MD5()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENCRYPT()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CRYPT()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CRYPT() is a function in MySQL used for password encryption. It provides strong encryption compared to alternatives like MD5()."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "SELECT Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the SQL SELECT statement do in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Retrieves data from a database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inserts data into a database"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updates data in a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deletes data from a database"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SQL SELECT statement is used to retrieve data from a database. It allows users to specify the data to be retrieved by defining columns and conditions."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Connecting to MySQL from PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a connection to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_mysql()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_mysql()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to establish a new connection to a MySQL server."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "EXTRACT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GET"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PULL"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to query the database and retrieve selected data that match the criteria that you specify."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index is most beneficial for improving the speed of SELECT queries on a large MySQL table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Full-text index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Spatial index"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A B-tree index is most beneficial for improving the speed of SELECT queries on a large MySQL table as it allows for fast search, insert, delete, and update operations in sorted order."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using indexes in MySQL databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the database size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up data retrieval"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To complicate queries"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are primarily used to speed up the retrieval of data from a database by creating an internal address book that allows the database to quickly locate and retrieve the data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Joins",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL keyword is used to retrieve data from multiple tables based on a related column between them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CONNECT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "RELATE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "LINK"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JOIN keyword is used in SQL to query data from two or more tables based on a relationship between certain columns in these tables."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Joins",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL keyword is used to retrieve data from multiple tables based on a related column between them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COMBINE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CONNECT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "RELATE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JOIN keyword is used in SQL to query data from two or more tables based on a relationship between certain columns in these tables."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using indexes in MySQL databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the database size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up data retrieval"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To complicate query writing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes in MySQL are primarily used to enhance the speed of data retrieval operations by providing quick access to rows in the database tables, which is much faster than scanning every row."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "WHERE Clause",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL clause is used to filter records in a SELECT statement for specific criteria?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ORDER BY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GROUP BY"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used in SQL to filter records, allowing the user to specify conditions that must be met for the records to be selected."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic MySQL Connection",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to open a connection to a MySQL database in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect('localhost','username','password','database_name');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect('localhost','username','password','database_name');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_mysql('localhost','username','password','database_name');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_connection_mysql('localhost','username','password');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to use when opening a connection to a MySQL database in PHP is mysqli_connect(), with parameters for the server name, username, password, and database name."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "User Authentication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is used to create a MySQL user with a password?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ADD USER 'username'@'localhost' WITH PASSWORD 'password';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SET USER 'username'@'localhost' = 'password';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INSERT USER 'username'@'localhost' WITH 'password';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CREATE USER statement followed by 'IDENTIFIED BY' keyword is used to create a new MySQL user with a defined password."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table, whereas DROP is used to delete the table itself."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in MySQL is used to store Boolean values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BOOL"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FLOAT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MySQL, BOOL is a synonym for TINYINT(1), commonly used to store Boolean values."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions and Aggregation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL function is used to return the number of input rows that match a specific condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MAX()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AVG()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The COUNT() function is used to return the number of rows that match a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the EXPLAIN statement in optimizing MySQL queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To execute the query faster"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To rollback transactions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To display the query execution plan"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To lock the database during updates"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN statement provides information about how MySQL executes a query, including details about the query execution plan, which helps in optimizing the query."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Connecting MySQL to PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a new connection to the MySQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_mysql()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used in PHP to establish a new connection to a MySQL database server."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Joins",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does an INNER JOIN return?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Rows that have matching values in both tables"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All rows from both tables, with matching rows from both sides where available"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only rows from the left table"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only rows from the right table"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An INNER JOIN returns all rows from both tables where there is a match. If there are rows in one table that do not have matches in the other, those rows are not returned."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Subqueries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "A subquery is a query within a query. In which clause can a subquery NOT be used?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ORDER BY"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Subqueries can be used in the SELECT, WHERE, and FROM clauses. However, they are not applicable in the ORDER BY clause."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Database Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of SQL statement is used to create a new table in a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE TABLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NEW TABLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MAKE TABLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BUILD TABLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CREATE TABLE is the correct SQL command to create a new table in a database. The other options are not standard SQL commands."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "WHERE Clause",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the WHERE clause in a SELECT statement in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To specify the data source table"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To limit the records returned based on specific conditions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To order the result set"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To group the results"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used in a SELECT statement to filter records and limit which rows are returned based on specific conditions, allowing for more precise data retrieval."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "User Privileges",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to provide a user with specific privileges in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ALLOW"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ENABLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'GRANT' statement is used in MySQL to provide specific privileges to a user."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Connecting to MySQL Database",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to connect to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used in PHP to establish a new connection to a MySQL server."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "EXTRACT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GET"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REMOVE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to select data from a database. Other options are not standard SQL commands for extracting data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "User Privileges",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to provide a user with specific privileges to a database in MySQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CREATE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MODIFY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT command is used in SQL to provide specific privileges to a user, allowing them to perform tasks like reading, writing, and modifying a database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following SQL clauses is used to limit the number of rows returned by a MySQL query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LIMIT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GROUP BY"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ORDER BY"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The LIMIT clause is used in SQL to specify the maximum number of rows the result set will have. This is particularly useful for pagination to limit the number of results returned from a query."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic MySQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "EXTRACT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to select data from a database. The others do not retrieve data from the database."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic SQL Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to extract data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INSERT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT statement is used to query the database and extract data according to the specified criteria."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Filtering Data with WHERE",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL keyword is used to specify a condition in a SELECT statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WHERE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "FROM"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AND"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The WHERE clause is used in SQL to filter records. It specifies the conditions that must be met for a record to be included in the result set."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Executing Queries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct PHP function to execute a SQL query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_exec()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_run()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_execute()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_query() is used to perform a query against the database."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Subqueries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of a subquery that returns more than one row when used in a single row comparison operation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Syntax error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Execution continues with a warning"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Returns the first row only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Converts multiple rows into a single text"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A subquery returning more than one row when used in a context expecting a single row results in a syntax error as the operation cannot handle multiple rows."
+      }
+    ]
+  }
+]

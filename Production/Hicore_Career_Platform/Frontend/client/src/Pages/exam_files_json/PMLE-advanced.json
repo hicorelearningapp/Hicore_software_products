@@ -1,0 +1,1140 @@
+[
+  {
+    "id": 1,
+    "topic": "Advanced Distributed Training",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "When performing distributed TPU training on Vertex AI, which distribution strategy is recommended to maximize throughput while minimizing communication overhead?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "tf.distribute.TPUStrategy with xla.compile enabled" },
+      { "label": "B", "type": "text", "value": "MirroredStrategy on CPUs" },
+      { "label": "C", "type": "text", "value": "OneDeviceStrategy only" },
+      { "label": "D", "type": "text", "value": "MultiWorkerMirroredStrategy without all-reduce" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TPUStrategy with XLA maximizes TPU performance by reducing Python-level overhead." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "Feature Store Architecture",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "What is the primary reason for maintaining separate online and offline stores in Vertex AI Feature Store?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To optimize for low-latency serving and high-throughput training simultaneously" },
+      { "label": "B", "type": "text", "value": "To store GPU snapshots separately" },
+      { "label": "C", "type": "text", "value": "To improve container build times" },
+      { "label": "D", "type": "text", "value": "To eliminate the need for feature engineering" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Online/Offline separation avoids training/serving skew and meets performance needs." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "Advanced ML Pipelines",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is caching critical in complex Vertex AI Pipelines involving large transformations?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It avoids recomputing expensive steps, improving reproducibility and reducing cost" },
+      { "label": "B", "type": "text", "value": "It increases model accuracy" },
+      { "label": "C", "type": "text", "value": "It automatically fixes schema drift" },
+      { "label": "D", "type": "text", "value": "It forces parallel execution" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Caching prevents repeating expensive steps, essential for large training pipelines." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "Advanced Data Drift Detection",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which statistical method is most appropriate for detecting feature drift in high-dimensional embeddings?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Maximum Mean Discrepancy (MMD)" },
+      { "label": "B", "type": "text", "value": "Simple Z-score" },
+      { "label": "C", "type": "text", "value": "Linear correlation coefficients" },
+      { "label": "D", "type": "text", "value": "Chi-square test only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MMD is commonly used for high-dimensional distribution comparison." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Vertex AI Endpoints Scaling",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "What is the best strategy to handle unpredictable traffic spikes in a production Vertex AI Endpoint?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Autoscaling with minimum replica warm pools" },
+      { "label": "B", "type": "text", "value": "Single replica deployment only" },
+      { "label": "C", "type": "text", "value": "Batch prediction only" },
+      { "label": "D", "type": "text", "value": "Manual scaling exclusively" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"Warm pools reduce cold start latency during rapid load changes." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Advanced Hyperparameter Tuning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why does Vertex AI Vizier outperform random search in high-dimensional hyperparameter spaces?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It models the objective function using Bayesian optimization" },
+      { "label":"B","type":"text","value":"It increases batch size automatically" },
+      { "label":"C","type":"text","value":"It uses manual tuning" },
+      { "label":"D","type":"text","value":"It eliminates early stopping" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Bayesian methods explore hyperparameters more intelligently than random search." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Advanced Feature Engineering",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Embedding categorical variables is preferred over one-hot encoding when:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"There are high-cardinality categorical features" },
+      { "label":"B","type":"text","value":"Only numeric data exists" },
+      { "label":"C","type":"text","value":"The dataset is small" },
+      { "label":"D","type":"text","value":"Variables must be discarded" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Embeddings scale better and capture semantic similarity." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Model Compression Techniques",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which approach combines model pruning and quantization to optimize large models for edge TPU deployment?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Quantization-aware training (QAT)" },
+      { "label":"B","type":"text","value":"Dropout" },
+      { "label":"C","type":"text","value":"L2 regularization" },
+      { "label":"D","type":"text","value":"Bagging" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"QAT preserves accuracy while enabling hardware-efficient inference." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Model Serving Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "To minimize cold start latency on Vertex AI Endpoints using GPU-backed models, which optimization is most effective?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Keep minimum number of warm replicas always running" },
+      { "label":"B","type":"text","value":"Disable autoscaling completely" },
+      { "label":"C","type":"text","value":"Store model weights on local disk only" },
+      { "label":"D","type":"text","value":"Use Cloud Functions instead" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Warm replicas avoid GPU initialization delays." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "Advanced TFX",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "In TFX, which component ensures that input data schema does not drift and enforces constraints before training?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"TensorFlow Data Validation (TFDV)" },
+      { "label":"B","type":"text","value":"Trainer" },
+      { "label":"C","type":"text","value":"Pusher" },
+      { "label":"D","type":"text","value":"ExampleGen" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"TFDV validates data quality and schema consistency." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Graph Neural Networks",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which operation is fundamental to message passing in Graph Neural Networks?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Aggregation of neighbor node embeddings" },
+      { "label":"B","type":"text","value":"One-hot encoding of nodes only" },
+      { "label":"C","type":"text","value":"Pixel normalization" },
+      { "label":"D","type":"text","value":"Purely random sampling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"GNNs aggregate neighbor features to update node representations." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Transformer Scaling",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which architectural modification allows transformers to operate efficiently on extremely long sequences?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Sparse or linear attention mechanisms" },
+      { "label":"B","type":"text","value":"Increasing embedding size only" },
+      { "label":"C","type":"text","value":"Removing positional encodings" },
+      { "label":"D","type":"text","value":"Using only convolution layers" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Sparse attention reduces quadratic complexity." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Reinforcement Learning Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is Proximal Policy Optimization (PPO) preferred in many RL tasks?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"It improves stability by clipping policy updates" },
+      { "label":"B","type":"text","value":"It guarantees global optimum" },
+      { "label":"C","type":"text","value":"It removes exploration entirely" },
+      { "label":"D","type":"text","value":"It trains without rewards" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"PPO avoids large policy updates that destabilize training." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Advanced Imbalanced Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which technique best addresses extreme class imbalance in high-stakes ML systems?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Cost-sensitive learning with class-weight adjustments" },
+      { "label":"B","type":"text","value":"Shuffling data randomly" },
+      { "label":"C","type":"text","value":"Using accuracy only" },
+      { "label":"D","type":"text","value":"Collecting fewer samples" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Cost-sensitive methods work better than resampling for extreme imbalance." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Advanced Evaluation",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is AUCPR preferred over AUCROC for highly imbalanced datasets?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It focuses on positive class performance where imbalance matters most" },
+      { "label":"B","type":"text","value":"It measures training speed" },
+      { "label":"C","type":"text","value":"It eliminates false positives" },
+      { "label":"D","type":"text","value":"It guarantees 100% recall" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"AUCPR is sensitive to the minority class performance." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Advanced Bayesian Modeling",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why are Bayesian neural networks useful in high-risk ML applications?" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"They quantify uncertainty directly in predictions" },
+      { "label":"B","type":"text","value":"They train faster" },
+      { "label":"C","type":"text","value":"They remove the need for validation" },
+      { "label":"D","type":"text","value":"They always outperform deep learning models" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Uncertainty estimation is crucial for safety-critical decisions." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Advanced Cloud Networking",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Private Service Connect is used to:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Securely access Vertex AI endpoints privately without exposing public IPs" },
+      { "label":"B","type":"text","value":"Perform batch inference" },
+      { "label":"C","type":"text","value":"Train TPU pods" },
+      { "label":"D","type":"text","value":"Perform ETL jobs only" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"PSC provides private connectivity between services." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Advanced Security",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which method protects ML models against prompt injection, adversarial inputs, and misuse?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Input sanitization, adversarial training, and rate limiting" },
+      { "label":"B","type":"text","value":"Disabling model logs" },
+      { "label":"C","type":"text","value":"Storing models in plaintext" },
+      { "label":"D","type":"text","value":"Using only batch inference" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Defense-in-depth protects models from a variety of threats." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Generative Models",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why are diffusion models more stable than GANs for image generation?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They avoid adversarial min-max optimization and rely on iterative denoising" },
+      { "label":"B","type":"text","value":"They use fewer parameters" },
+      { "label":"C","type":"text","value":"They do not require GPUs" },
+      { "label":"D","type":"text","value":"They eliminate the need for training" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"GANs suffer from instability and mode collapse; diffusion avoids this." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "Advanced Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which learning rate schedule is preferred for training large transformer models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Warmup + cosine decay" },
+      { "label":"B","type":"text","value":"Constant 0.1 learning rate" },
+      { "label":"C","type":"text","value":"Strict exponential growth" },
+      { "label":"D","type":"text","value":"Learning rate remains zero" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Warmup stabilizes early training, and cosine decay ensures smooth convergence." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Neural Architecture Search (NAS)",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is Neural Architecture Search (NAS) useful in large-scale ML systems?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It automatically optimizes model architectures beyond manual design" },
+      { "label": "B", "type": "text", "value": "It improves SQL performance" },
+      { "label": "C", "type": "text", "value": "It reduces dataset size" },
+      { "label": "D", "type": "text", "value": "It eliminates the need for GPUs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "NAS discovers architectures tailored to the task and hardware constraints." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "Model Parallelism",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Model parallelism is required when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The model is too large to fit into a single device's memory" },
+      { "label": "B", "type": "text", "value": "Training samples are very small" },
+      { "label": "C", "type": "text", "value": "Hyperparameters are already optimal" },
+      { "label": "D", "type": "text", "value": "Batch size is always small" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model parallelism splits weights across devices to support extremely large models." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Advanced Loss Functions",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Focal Loss is primarily used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reduce the impact of easy examples in imbalanced classification" },
+      { "label": "B", "type": "text", "value": "Increase batch size automatically" },
+      { "label": "C", "type": "text", "value": "Train regression models only" },
+      { "label": "D", "type": "text", "value": "Boost GPU memory usage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Focal Loss improves performance on rare classes by down-weighting easy negatives." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Advanced Optimizers",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "LAMB optimizer is particularly useful when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training large transformer models with huge batch sizes" },
+      { "label": "B", "type": "text", "value": "Training simple linear models" },
+      { "label": "C", "type": "text", "value": "Running AutoML only" },
+      { "label": "D", "type": "text", "value": "Running model inference" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "LAMB stabilizes extremely large batch training scenarios." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Neural Network Initialization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is Xavier/Glorot initialization used in deep neural networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It keeps signal variance stable across layers" },
+      { "label": "B", "type": "text", "value": "It randomizes labels" },
+      { "label": "C", "type": "text", "value": "It normalizes input images" },
+      { "label": "D", "type": "text", "value": "It increases dropout rate" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Proper initialization prevents exploding/vanishing gradients." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Serving Graph Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "TensorRT acceleration improves inference on GPUs by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Optimizing the computational graph and fusing operations" },
+      { "label": "B", "type": "text", "value": "Removing floating-point operations" },
+      { "label": "C", "type": "text", "value": "Reducing dataset size" },
+      { "label": "D", "type": "text", "value": "Increasing training epochs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TensorRT lowers latency by optimizing kernels and operations." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "High-cardinality Features",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which method best handles extremely high-cardinality categorical features?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Embedding with hashing (Hashing Trick)" },
+      { "label": "B", "type": "text", "value": "One-hot encoding only" },
+      { "label": "C", "type": "text", "value": "Removing all categorical variables" },
+      { "label": "D", "type": "text", "value": "Dropping the feature entirely" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Hash embeddings scale well with extremely large vocabularies." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Advanced CV Techniques",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is mixed-precision training beneficial on NVIDIA GPUs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It increases training speed and reduces memory usage via FP16" },
+      { "label": "B", "type": "text", "value": "It doubles model accuracy" },
+      { "label": "C", "type": "text", "value": "It removes the need for batch normalization" },
+      { "label": "D", "type": "text", "value": "It eliminates overfitting completely" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "FP16 optimizations significantly boost performance." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Advanced AutoML",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "AutoML model selection relies heavily on which technique to ensure architecture generalization?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Meta-learning and architecture search" },
+      { "label": "B", "type": "text", "value": "Manual hyperparameter tuning" },
+      { "label": "C", "type": "text", "value": "Fixing a single model type" },
+      { "label": "D", "type": "text", "value": "Randomizing labels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AutoML systems learn across tasks and architectures." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Large-scale Feature Drift",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Population Stability Index (PSI) is typically used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Quantify drift in feature distributions across time" },
+      { "label": "B", "type": "text", "value": "Increase inference throughput" },
+      { "label": "C", "type": "text", "value": "Measure GPU utilization" },
+      { "label": "D", "type": "text", "value": "Expand neural network depth" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PSI is widely used in financial ML to detect drift." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Ensemble Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Stacking ensemble models improves performance because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A meta-learner combines outputs from multiple base models" },
+      { "label": "B", "type": "text", "value": "It reduces training data" },
+      { "label": "C", "type": "text", "value": "It reduces inference cost always" },
+      { "label": "D", "type": "text", "value": "It eliminates need for evaluation metrics" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Stacking blends diverse models to improve robustness." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Advanced GAN Training",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Wasserstein GANs improve training stability by replacing which component?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The JS divergence with Earth Mover’s distance" },
+      { "label": "B", "type": "text", "value": "Batch normalization with L1 loss" },
+      { "label": "C", "type": "text", "value": "Cross-entropy with softmax" },
+      { "label": "D", "type": "text", "value": "Adam with SGD" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "WGAN reduces mode collapse by using Wasserstein distance." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Model Debugging",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Vanishing gradients are best diagnosed by inspecting:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Gradient magnitudes across deep layers" },
+      { "label": "B", "type": "text", "value": "Training dataset size" },
+      { "label": "C", "type": "text", "value": "GPU type" },
+      { "label": "D", "type": "text", "value": "Learning rate schedule" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Inspecting gradients helps detect diminishing signals across layers." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Federated Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Federated learning is beneficial because it:" }
+    ],
+    "options": [
+      { "label": "A", "type":"text","value":"Trains models across decentralized data without centralizing datasets" },
+      { "label": "B", "type":"text","value":"Requires no client compute" },
+      { "label": "C", "type":"text","value":"Guarantees free GPU resources" },
+      { "label": "D", "type":"text","value":"Eliminates communication cost entirely" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Federated learning preserves privacy by keeping data local." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "Differential Privacy",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Differential privacy ensures that:" }
+    ],
+    "options": [
+      { "label": "A", "type":"text","value":"The inclusion or removal of a single sample does not significantly affect outputs" },
+      { "label": "B", "type":"text","value":"Models never overfit" },
+      { "label": "C", "type":"text","value":"Data is fully encrypted always" },
+      { "label": "D", "type":"text","value":"Predictions become random" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"This protects individual data points from inference attacks." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "Adversarial ML Defense",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Adversarial training improves robustness by:" }
+    ],
+    "options": [
+      { "label": "A", "type":"text","value":"Injecting adversarial examples during training" },
+      { "label": "B", "type":"text","value":"Removing activation functions" },
+      { "label": "C", "type":"text","value":"Replacing labels randomly" },
+      { "label": "D", "type":"text","value":"Using only batch normalization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Training on adversarial samples increases robustness." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "Long Sequence Modeling",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why do hierarchical transformers improve long-sequence processing?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They break long sequences into manageable chunks with local/global attention" },
+      { "label":"B","type":"text","value":"They remove positional encodings" },
+      { "label":"C","type":"text","value":"They rely only on RNNs" },
+      { "label":"D","type":"text","value":"They skip embedding layers" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Hierarchical attention scales better for long sequences." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "Knowledge Distillation",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Knowledge distillation improves model efficiency by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Training a smaller student model to mimic a larger teacher model" },
+      { "label":"B","type":"text","value":"Randomizing predictions" },
+      { "label":"C","type":"text","value":"Increasing number of layers" },
+      { "label":"D","type":"text","value":"Removing all regularization" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Distillation compresses models while keeping good performance." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Advanced Regularization",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is label smoothing used in classification models?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"To prevent overconfident predictions and improve generalization" },
+      { "label":"B","type":"text","value":"To increase model size" },
+      { "label":"C","type":"text","value":"To remove labels entirely" },
+      { "label":"D","type":"text","value":"To make predictions random" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Label smoothing reduces overfitting and calibration issues." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Causal Inference",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which method is commonly used for estimating causal effects from observational data?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Propensity score matching" },
+      { "label":"B","type":"text","value":"K-means clustering" },
+      { "label":"C","type":"text","value":"Autoencoders only" },
+      { "label":"D","type":"text","value":"Data augmentation" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Propensity score methods balance covariates to estimate causal impact." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Monte Carlo Dropout",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Monte Carlo Dropout is used primarily to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Estimate predictive uncertainty from deterministic neural networks" },
+      { "label": "B", "type": "text", "value": "Reduce dataset size" },
+      { "label": "C", "type": "text", "value": "Increase inference latency" },
+      { "label": "D", "type": "text", "value": "Remove batch normalization layers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MC Dropout approximates Bayesian inference by enabling dropout during inference." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Advanced Time Series Modeling",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Transformers outperform RNN-based models in long-horizon forecasting because they:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Model long-range dependencies using attention without recurrence" },
+      { "label": "B", "type": "text", "value": "Always require less memory" },
+      { "label": "C", "type": "text", "value": "Remove the need for embeddings" },
+      { "label": "D", "type": "text", "value": "Bypass all preprocessing steps" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Self-attention captures long-range dependencies more effectively than recurrence." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Reinforcement Learning Exploration",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Entropy regularization is used in reinforcement learning to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Encourage exploration by preventing premature convergence to deterministic policies" },
+      { "label": "B", "type": "text", "value": "Reduce training time drastically" },
+      { "label": "C", "type": "text", "value": "Guarantee better-than-human performance" },
+      { "label": "D", "type": "text", "value": "Prevent reward decay" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Entropy regularization maintains exploration during policy learning." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Advanced XGBoost Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is the 'learning_rate' parameter in XGBoost typically set to a small value?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To allow gradual learning and reduce the risk of overfitting" },
+      { "label": "B", "type": "text", "value": "To increase tree depth automatically" },
+      { "label": "C", "type": "text", "value": "To reduce dataset size" },
+      { "label": "D", "type": "text", "value": "To remove the need for regularization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Lower learning rates prevent aggressive updates that lead to overfitting." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Advanced Regularization",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Elastic Net regularization is particularly useful when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "You want both feature selection (L1) and constraint shrinkage (L2)" },
+      { "label": "B", "type": "text", "value": "The dataset contains only categorical data" },
+      { "label": "C", "type": "text", "value": "All features are independent" },
+      { "label": "D", "type": "text", "value": "You want to increase variance" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Elastic Net combines L1 and L2 regularization for optimal results in correlated feature spaces." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Advanced Optimization Schedules",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is cosine annealing combined with warm restarts beneficial during training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps the optimizer escape local minima periodically" },
+      { "label": "B", "type": "text", "value": "It forces the learning rate to increase linearly forever" },
+      { "label": "C", "type": "text", "value": "It eliminates gradient descent entirely" },
+      { "label": "D", "type": "text", "value": "It reduces model parameters" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Warm restarts reintroduce exploration, improving generalization." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "Graph Attention Networks (GAT)",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Graph Attention Networks improve message passing by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Learning dynamic attention weights for neighbor nodes" },
+      { "label": "B", "type": "text", "value": "Ignoring edge connections" },
+      { "label": "C", "type": "text", "value": "Using global average pooling only" },
+      { "label": "D", "type": "text", "value": "Dropping adjacency matrices" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GATs allow selective focus on important node relationships." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Causal Modeling",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "DoWhy or causal inference frameworks primarily help solve which problem?" }
+    ],
+    "options": [
+      { "label": "A", "type":"text","value":"Estimating causal effects and identifying confounders" },
+      { "label": "B", "type":"text","value":"Training GAN generators" },
+      { "label": "C", "type":"text","value":"Improving sorting performance" },
+      { "label": "D", "type":"text","value":"Embedding AWS features" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type":"text","value":"Causal ML focuses on cause-effect relationships, beyond correlation." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Model Interpretability at Scale",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is model interpretability harder at scale in distributed ML systems?" }
+    ],
+    "options": [
+      { "label": "A", "type":"text","value":"Distributed computations require aggregation of explanations across shards" },
+      { "label": "B", "type":"text","value":"It removes access to GPUs" },
+      { "label": "C", "type":"text","value":"Training logs become unavailable" },
+      { "label": "D", "type":"text","value":"Models cannot output predictions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Interpretability tools must summarize insights across distributed workers." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Advanced Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Counterfactual explanations help stakeholders by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Showing how minimal feature changes could alter the prediction" },
+      { "label":"B","type":"text","value":"Providing random outputs" },
+      { "label":"C","type":"text","value":"Increasing batch size" },
+      { "label":"D","type":"text","value":"Removing model monitoring" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Counterfactuals are powerful for fairness and recourse analysis." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "Advanced Dataflow Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Which Dataflow optimization reduces expensive data shuffling operations?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Using combiners and avoiding global grouping operations" },
+      { "label":"B","type":"text","value":"Increasing pipeline window size" },
+      { "label":"C","type":"text","value":"Using only batch mode" },
+      { "label":"D","type":"text","value":"Removing worker autoscaling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Combiners minimize shuffle load by collapsing data early." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Zero-shot Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Zero-shot learning models can classify unseen classes by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Mapping inputs to a semantic embedding space" },
+      { "label":"B","type":"text","value":"Removing embeddings entirely" },
+      { "label":"C","type":"text","value":"Training only on negative examples" },
+      { "label":"D","type":"text","value":"Duplicating labels" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Zero-shot classification relies on semantically rich embeddings." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Advanced Model Deployment",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Blue/Green model deployment minimizes downtime by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Switching all traffic to a fully warmed-up new model" },
+      { "label":"B","type":"text","value":"Randomly routing requests" },
+      { "label":"C","type":"text","value":"Shutting down all replicas first" },
+      { "label":"D","type":"text","value":"Using on-prem hardware only" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Blue/Green allows safe switching with rollback." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Advanced Model Monitoring",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Embedding-based drift detection is effective because it:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Identifies semantic shifts that traditional statistical tests miss" },
+      { "label":"B","type":"text","value":"Measures GPU temperature" },
+      { "label":"C","type":"text","value":"Automatically tunes hyperparameters" },
+      { "label":"D","type":"text","value":"Reduces model size automatically" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Embeddings reveal conceptual drift, not just numeric changes." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "Advanced NLP Optimization",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Rotary positional embeddings (RoPE) improve transformer performance by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Encoding position using continuous rotations for better generalization" },
+      { "label":"B","type":"text","value":"Removing positional encodings entirely" },
+      { "label":"C","type":"text","value":"Doubling sequence length limit automatically" },
+      { "label":"D","type":"text","value":"Eliminating attention mechanism" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"RoPE improves extrapolation for long sequences." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Advanced Edge ML",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Edge TPU quantization requires models to be:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Fully quantized to INT8 with calibration" },
+      { "label":"B","type":"text","value":"Trained only with FP64" },
+      { "label":"C","type":"text","value":"Stored in JSON format" },
+      { "label":"D","type":"text","value":"Trained without activations" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Edge TPUs only support INT8 inference with proper calibration." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "Advanced CI/CD for ML",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Model lineage tracking in CI/CD pipelines is useful because:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It enables reproducibility by tracking data, code, and environment history" },
+      { "label":"B","type":"text","value":"It increases batch size" },
+      { "label":"C","type":"text","value":"It removes monitoring needs" },
+      { "label":"D","type":"text","value":"It disables versioning" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Lineage ensures clear traceability for production ML systems." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "Dataset Versioning",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why is dataset versioning essential in MLOps?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It ensures experiments are reproducible despite evolving data" },
+      { "label":"B","type":"text","value":"It reduces GPU usage" },
+      { "label":"C","type":"text","value":"It removes the need for pipelines" },
+      { "label":"D","type":"text","value":"It prevents data drift entirely" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Dataset versioning is core to scientific reproducibility." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "Large-scale Recommendation Systems",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Why are two-tower architectures effective in large-scale recommendation systems?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They independently embed users and items, enabling efficient vector retrieval" },
+      { "label":"B","type":"text","value":"They require no training data" },
+      { "label":"C","type":"text","value":"They always outperform deep models" },
+      { "label":"D","type":"text","value":"They remove need for metadata" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Two-tower models support scalable ANN-based retrieval." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "Vector Databases & ANN",
+    "difficulty": "advanced",
+    "question": [
+      { "type":"text","value":"Approximate Nearest Neighbor (ANN) search is preferred over brute-force search because:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"It provides sub-linear search time while retaining high recall" },
+      { "label":"B","type":"text","value":"It guarantees perfect accuracy always" },
+      { "label":"C","type":"text","value":"It increases model parameters" },
+      { "label":"D","type":"text","value":"It removes embeddings entirely" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"ANN scales to billions of vectors with good accuracy-speed tradeoff." }
+    ]
+  }
+]
+

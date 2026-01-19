@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 10,
+    "topic": "ARIA Attributes Implementation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the function of the 'aria-labelledby' attribute in enhancing web accessibility?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It defines a string value that labels the current element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It points to the ID of one or more elements that label the current element."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It provides a live region role that indicates dynamic content changes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It specifies whether an element is modal when displayed."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'aria-labelledby' attribute enhances accessibility by enabling developers to specify the element(s) by ID that label the current element, thus providing a contextual label for assistive technologies."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "HTML Elements and Tags",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a self-closing tag in HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<img src='image.jpg'>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<div></div>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<p></p>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<h1></h1>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <img> tag is a self-closing tag because it does not require a closing tag. It ends with '/>' instead of needing a separate closing tag."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Applications of HTML",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 feature specifically enhances the handling of multimedia on web pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<table>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<canvas>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<audio> and <video>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<form>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "<audio> and <video> tags in HTML5 specifically enhance the handling of multimedia by allowing embedding of sound and video files directly into web pages without needing external plugins."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "HTML Elements for SEO",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is most important for defining main content that should be considered by search engines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<main>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<header>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<footer>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<aside>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <main> element is crucial for defining the primary content of a webpage, making it highly relevant for SEO as it helps search engines understand the main focus of a page."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Responsive Images",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is used effectively to serve scaled images based on device size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<img src='url' size='auto'>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<img src='url' style='max-width:100%;height:auto;'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<picture><source media='(min-width:650px)' srcset='large.jpg'><img src='small.jpg'></picture>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<responsive-img src='base-image.jpg'>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <picture> element is ideal for responsive images as it allows multiple sources to be specified. Different images can be loaded depending on the device's screen size or resolution. The <source> element within <picture> sets the conditions under which different images should be used."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "ARIA Dynamic Content",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which ARIA role is appropriate for a container that dynamically displays error messages as they occur?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "alert"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "log"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "status"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "marquee"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'alert' role is used to communicate important, and usually time-sensitive, information to the user when the state of an application changes, making it particularly suitable for error messages that need immediate attention."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "CSS Integration Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method of CSS integration provides the greatest scalability when styling multiple HTML pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inline Styles"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Internal Stylesheets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "External Stylesheets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inline Scripts"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "External stylesheets are ideal for styling multiple HTML pages as they allow developers to apply consistent styling across various documents from a single file."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "HTML APIs and Web Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using Web Components in HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the page loading time"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create reusable components that encapsulate functionality"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the security features of the website"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To decrease the website's responsiveness"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Web Components are used in HTML to create reusable components that encapsulate functionality, making it easier to maintain and scale web applications."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "ARIA Roles",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which ARIA role is most appropriate for a user interface element that represents a user-initiated warning or error message?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "role=\"log\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "role=\"alert\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "role=\"navigation\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "role=\"status\""
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The role='alert' is specifically designed for messages that need to be immediately announced to the user, such as errors or warnings."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Integration of Interactive Content",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is specifically designed for embedding external resources like PDF files, besides embedding other web pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<embed>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<script>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<link>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<media>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <embed> element is specifically used for embedding external resources such as PDF files on a webpage, which is distinct from <iframe> used primarily for embedding other web pages."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dynamic Content Accessibility",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What ARIA role should be used to ensure that dynamically updating content, such as notifications, is accessible to assistive technologies?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "alert"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "log"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "status"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "update"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'alert' role is used to ensure that updates are automatically announced by assistive technologies, without needing to receive focus, making it ideal for notifications and other dynamic content."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "HTML Anchor Tag Attributes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute of the <a> tag is used to specify the URL the link goes to?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "href"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "src"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "type"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "rel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The href attribute is used in an anchor tag to specify the destination URL of the link."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Media Queries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax for creating a CSS media query that targets devices with a max-width of 600px?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media only screen and (max-width: 600px)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media (max-width: 600px)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media screen (width <= 600px)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media (device-width: 600px)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for targeting devices with a maximum width of 600px includes the type of media (screen), the condition (only), and the feature (max-width: 600px)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Embedding Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is primarily used for embedding other web pages within a webpage?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<embed>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<object>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<iframe>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<script>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <iframe> element is specifically designed for embedding other web pages within a webpage."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Embedding Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is specifically used for embedding external web pages within a webpage?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<embed>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<object>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<iframe>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<script>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <iframe> element is specifically used for embedding other web pages within a webpage."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Paragraphs and Text Formatting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tag is used in HTML to create a line break within a paragraph without starting a new paragraph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<br>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<hr>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<p>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<lb>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <br> tag is used to insert a single line break in HTML. It does not start a new paragraph; it simply breaks the line at the point of insertion."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "HTML Structure",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the relationship between HTML and CSS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTML is used for the visual styling of web pages."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CSS is used to structure the content on web pages."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CSS is used for the visual styling, while HTML structures content."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HTML and CSS serve the same functions and are interchangeable."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML (Hypertext Markup Language) is used for structuring content on the web, while CSS (Cascading Style Sheets) is used for styling and laying out web pages."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Interactive Embeds",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a primary benefit of using interactive embeds in web pages as highlighted in the provided context?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the loading time of web pages"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To bypass restrictions of the CMS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce the quality of multimedia content"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To complicate the user interaction"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Interactive embeds allow bypassing the restrictions of the content management system (CMS), which enables more freedom in content distribution and presentation on web pages."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "JavaScript Embedding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'src' attribute in a <script> tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define the scripting language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To specify an external script file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To execute the script asynchronously"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To delay the execution of the script"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'src' attribute in a <script> tag is used to specify the URL of an external script file that should be loaded and executed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "HTML and Web Development",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a direct benefit of using HTML to develop web pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creating structured documents by denoting structural semantics."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Styling the presentation of web pages, including aspects like layout, colors, and fonts."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Enabling the use of multimedia elements like images and videos."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Direct processing of client-side user inputs such as form validation."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML is primarily used for structuring content on the web. Styling of web pages is handled by CSS (Cascading Style Sheets), not HTML. Hence, option B is not a direct benefit of using HTML."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "CSS Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the CSS selector '.highlight' specifically select?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All elements with 'highlight' as their ID"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All elements with 'highlight' as their class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "All <highlight> tags"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All elements containing the word 'highlight'"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '.highlight' selector targets all elements that have 'highlight' as their class attribute value."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "HTML Text Formatting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML tag is used to define emphasized text, which is usually displayed in italic?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<em>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<strong>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<mark>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<italic>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <em> tag is used to define emphasized text, which is usually displayed in italic by browsers, differentiating it from <strong>, <mark>, and non-existent <italic> tags."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Using HTML APIs",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about HTML APIs in the context of web components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTML APIs allow web components to be reused across different projects without modification."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "HTML APIs primarily provide backward compatibility with older HTML versions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HTML APIs are used to increase the loading time of web components."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HTML APIs restrict the functionality of custom elements within web components."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML APIs, especially when used with web components, allow developers to create reusable pieces of code that can be utilized across different projects without the need for modification, enhancing efficiency and consistency."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "HTML Ordered Lists",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute in an HTML <ol> tag specifies the start number of the list?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "type"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "num"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "start"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "begin"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'start' attribute in the <ol> tag is used to define the start number of the list items in an ordered list."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Anchor Tag Attributes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'target' attribute in an HTML anchor tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Specifies the URL of the page the link goes to"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Controls where the linked document will open"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Defines a relationship between the current document and the linked document"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Specifies the MIME type of the linked document"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'target' attribute in an HTML anchor tag determines where the linked document will open, such as in a new window, the same frame, a parent frame, or a full body of the window."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML Multimedia Best Practices",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute is essential to make the <img> element responsive and adapt to different screen sizes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "srcset"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "alt"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "style"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "class"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The srcset attribute allows the browser to choose the most appropriate image source based on the display characteristics, making it essential for responsive design."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "HTML Basic Concepts",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about an HTML element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is a standalone component without a closing tag."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It only consists of a start tag."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It represents a part of the content on a web page and usually consists of a start tag and end tag."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It cannot contain any attributes."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML elements generally consist of a start tag and an end tag, with the content inserted in between. They represent different parts of the content on a web page."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Form Elements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What attribute of the HTML <input> element specifies how the form-data should be encoded when submitting it to the server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "action"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "enctype"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "type"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'enctype' attribute of the <form> element specifies how the form-data should be encoded when it is submitted to the server."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML Lists",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML tag is used to define an ordered list, where list items are numbered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<ul>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<ol>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<li>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<dl>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <ol> tag is used for ordered lists, which automatically numbers each list item."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "HTML Text Formatting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML tag is used to emphasize text that is stylistically offset from the normal prose without conveying any extra importance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<strong>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<em>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<mark>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<i>"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <i> tag is used to italicize text, which can indicate a technical term, a phrase from another language, a thought, or a ship name, among other uses."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ARIA Labeling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using 'aria-labelledby' in HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define a string that labels the current element"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To indicate the element's role in the user interface"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To associate the element with its label element(s)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To provide a unique identifier for elements"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'aria-labelledby' attribute is used to associate a visual element with one or more elements that label it, providing a robust method for dynamically associating text labels with interactive controls, content containers, and other elements."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "HTML5 Input Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which input type automatically provides options to the user, based on their previous inputs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "search"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "email"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "datetime-local"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The search input type provides functionality for autocomplete, offering previously entered values by the user as options."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "HTML Attributes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'alt' attribute in an <img> tag specify?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The source URL of the image"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The alternative text for the image"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The width and height of the image"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The hyperlink reference for the image"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'alt' attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Semantic HTML",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is most appropriate for marking up an independent, self-contained piece of content that is distributable and reusable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<div>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<section>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<article>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<span>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <article> element is designed for the use as a container for independent, self-contained content that one could theoretically distribute and reuse in other documents."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Fluid Grids",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a responsive web design layout using fluid grids, what unit is typically used to define grid column widths?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pixels (px)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "percent (%)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ems (em)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "viewport width (vw)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In fluid grids, percentages are used for column widths to allow the grid to adapt dynamically to the screen size of the device, maintaining a fluid and scalable layout."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "HTML5 Semantic Elements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 element is most suitable for the main content that uniquely defines the page?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<article>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<section>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<main>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<div>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <main> element is suitable for the primary content of the document, uniquely defining the main content area."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Script Embedding Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'src' attribute in a <script> tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To specify an external script file to be executed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To defer the execution of the script until the page has loaded."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To execute inline JavaScript code within the tag."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To specify the scripting language used."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'src' attribute in a <script> tag is used to specify the URL of an external file that contains the script to be executed, thus linking external JavaScript to the HTML document."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "HTML Validation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true according to web standards regarding HTML validation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTML validation is optional and mainly for documentation purposes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "HTML validation is essential for ensuring that web pages are accessible and interoperable."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HTML validation only checks for CSS and JavaScript integrations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HTML validation is required by law in the United States and European Union."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML validation is essential for ensuring that web pages meet accessibility standards and are interoperable across different browsers and devices."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "CSS Media Queries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS media query is correctly written to apply styles for screens smaller than 600px?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media (max-width: 600px) { ... }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media screen (min-width: 600px) { ... }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media screen (width < 600px) { ... }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media (width <= 600px) { ... }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses 'max-width: 600px', which targets all screen sizes up to 600px."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML APIs and Web Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using HTML APIs in web development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the loading time of web pages."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To extend the functionality of HTML documents."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce the need for external CSS."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To replace JavaScript entirely."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML APIs are used to extend the functionality of HTML documents, allowing for more complex interactions and behaviors in web development."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Image File Formats for HTML",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which image format is recommended for complex images with transparency on web pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JPEG"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PNG"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIF"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BMP"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PNG supports complex images with transparency and is well-suited for web pages where quality and clarity are important."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "HTML5 Form APIs",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 API is used to validate form inputs in real-time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FormData API"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fetch API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Constraint Validation API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Canvas API"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Constraint Validation API provides methods and properties to allow validation of form elements in terms of constraints."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Semantic Elements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 element is specifically intended to contain navigational links?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<nav>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<header>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<links>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<navigation>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <nav> element is designed to contain navigation links, distinguishing it from other generic links within a webpage."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML Elements and Tags",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about HTML elements and tags?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Elements are the building blocks of HTML and do not require tags."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Tags define the start and end of elements, and are optional in HTML."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Every HTML document consists of elements which are defined by tags."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tags can exist independently without elements to define content structure."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because HTML elements are defined by tags, which mark the beginning and end of elements. These elements are the fundamental building blocks of HTML documents."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Types of Image Files",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which image format supports transparency and is widely used for web graphics?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JPEG"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TIFF"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PNG"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GIF"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PNG supports transparency and is preferred for web graphics that require partial transparency or alpha channels."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "CSS Integration Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method of CSS integration provides the highest level of specificity for styling HTML elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "External stylesheets"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Internal stylesheets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inline styles"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Imported stylesheets"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inline styles are applied directly to the HTML elements, hence they have the highest specificity compared to other methods such as external or internal stylesheets."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Multimedia Formats",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which image format is preferred for web graphics with transparency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JPEG"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TIFF"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PNG"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GIF"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PNG supports transparent backgrounds and is widely used in web design for this purpose, unlike JPEG which does not support transparency."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "HTML5 for Interactive Web Applications",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature of HTML5 primarily enhances the handling of multimedia on web pages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Canvas API"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local Storage"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Semantic Elements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Form Elements"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Canvas API, a feature of HTML5, is specifically designed to enhance multimedia handling on web pages by allowing for dynamic, scriptable rendering of 2D shapes and bitmap images."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "HTML Elements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is used to define the largest heading in a document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<h6>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<header>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<h1>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<title>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <h1> tag is used to define the largest heading in an HTML document, indicating the most significant (usually the title of the page or a section)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "HTML Attributes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'alt' attribute in an HTML <img> tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a text alternative for the image."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To change the size of the image."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To add a border around the image."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To link the image to another webpage."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'alt' attribute provides a text alternative for an image if it cannot be displayed or if the user is using a screen reader. This is important for accessibility and SEO."
+      }
+    ]
+  }
+]

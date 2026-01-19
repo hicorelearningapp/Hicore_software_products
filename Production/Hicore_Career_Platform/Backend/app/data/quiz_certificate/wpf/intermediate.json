@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 5,
+    "topic": "Application Deployment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a ClickOnce deployment suitable for in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Deploying applications that require minimal user interaction during installation."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deploying applications with complex installation procedures that need full administrative access."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deploying applications that do not require updates."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deploying applications that must run in a full-trust environment only."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ClickOnce deployment is designed for applications that need minimal user interaction and support automatic updates, making it suitable for less complex installation environments."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method of data binding in WPF is recommended to enhance performance when dealing with large data sets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use the UpdateSourceTrigger property set to PropertyChanged"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bind data directly without converters"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use asynchronous data binding"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use StringFormat in XAML for data conversion"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using asynchronous data binding helps in not blocking the UI thread while the data is being processed, especially beneficial for large or complex data sets."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XAML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XAML, what is the correct way to set a property value that accepts a string type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Property>\"StringValue\"</Property>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Property Value=\"StringValue\"/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Property>StringValue</Property>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Property={StringValue}/>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XAML, property values are typically set within the start tag of an element using the syntax 'Property=\"Value\"'. Option B correctly demonstrates this syntax."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "WPF Control Templates",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a new state-based behavior for controls."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To specify the visual structure and appearance of a control."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To databind properties in different controls."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To link user interface (UI) and business logic code."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ControlTemplate in WPF is used to define the visual structure and appearance of a control, which is exactly what option B states."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the recommended approach to improve performance when dealing with large collections in WPF data binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use ObservableCollection with complex LINQ queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement data virtualization using custom solutions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bind directly to List<T> for all collections"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Always use ICollectionView with live sorting and filtering"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing data virtualization allows the application to only process data objects that are currently required, improving performance over handling the entire collection, especially for large datasets."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Binding Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most efficient way to handle data updates in a WPF application to improve UI responsiveness?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use INotifyPropertyChanged and ObservableCollection."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Regularly recreate the DataContext."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Update properties from multiple threads without synchronization."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Manually refresh the UI every few seconds."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using INotifyPropertyChanged and ObservableCollection helps in efficiently updating the UI only when the underlying data changes, thus improving responsiveness without unnecessary UI refreshes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "WPF Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'Mode' property in a WPF data binding expression specify?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The data type of the binding source."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The direction of the data flow in the binding."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The validation rules for the binding."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The converter used for the binding."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Mode' property in a WPF data binding expression determines how data flows between the source and the target. It specifies whether the binding updates the target, the source, or both."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Binding in XAML",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'Mode' attribute in XAML data binding primarily specify?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The direction of the data flow"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The type of data source"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The validation rules on the data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The data format"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Mode' attribute in XAML data binding specifies the direction of the data flow, such as OneWay, TwoWay, or OneTime."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MVVM in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the MVVM design pattern, what is the role of the ViewModel?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define application structure and behavior."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle view logic and user interaction."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To store and manage the domain data."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To facilitate communication between the View and the Model."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ViewModel acts as an intermediary between the View and the Model, handling logic for the view and ensuring the model can manage domain data effectively."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Video Media Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What element is used to embed video media in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MediaElement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "VideoPlayer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MediaPlayer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "VideoControl"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MediaElement is the correct WPF element for embedding and playing video media."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'Mode' attribute in a XAML data binding expression specify?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The data type of the binding source."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The direction of the data flow."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The validation rules for the data."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The source path of the data."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Mode' attribute in a data binding expression determines the direction of the data flow, such as OneWay, TwoWay, or OneTime."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding Modes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which mode of data binding should you use if you need the target property to update only when the user explicitly submits changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OneTime"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OneWay"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TwoWay"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Explicit"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Explicit' mode is used when the source value updates to the target only when the application calls the UpdateSource method."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Media Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What element is used in WPF to embed video and audio media into applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MediaElement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MediaPlayer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "VideoDrawing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AudioVisual"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MediaElement in WPF is designed to load, play, and control audio/video files, making it the ideal choice for embedding media content."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "MediaElement Controls",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method should be called to play a video in a MediaElement control in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Play()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Run()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Activate()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to play a video in a MediaElement control is Play(). Methods like Start(), Run(), and Activate() are not associated with MediaElement."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Debugging Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What debugging tool is used to inspect the visual tree of running WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Debugger"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WPF Inspector"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XAML Spy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Snoop"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Snoop is a debugging tool specifically designed for WPF applications, allowing developers to inspect and interact with the visual tree of a running application."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "WPF Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what markup extension is used primarily for data binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Binding"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x:Bind"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "StaticResource"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DynamicResource"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Binding markup extension is used in WPF primarily for data binding between XAML UI elements and data sources, allowing for automatic updates in the UI when data changes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about data binding in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data binding in WPF is only one-way by default."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data binding can only be used with XML data sources."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data binding allows properties of two controls to be linked together."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data binding requires manual updating of the UI when data changes."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data binding in WPF allows properties of different controls or a control and a data source to be linked, enabling automatic update of values."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "WPF Styles and Property Triggers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does setting a Property Trigger within a Style in WPF allow you to do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directly manipulate the database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Change the appearance of a control when its property changes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automatically generate code for event handling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Create a new thread to handle user input"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Property Triggers in a Style allow developers to change the appearance or behavior of a control based on changes to its properties. This enables more dynamic and responsive UIs without needing procedural code."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Templates in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide data validation rules for user input."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To define the visual structure and behavior of a control."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link data sources to user interface elements."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To manage user sessions and state persistence."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ControlTemplate in WPF is used to define the visual structure and visual behavior of a control, allowing for a high degree of customization."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Templates in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a new data structure for managing application data."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To define the visual structure and behavior of a control."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To improve the performance of data operations on UI elements."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle logic for user interaction events."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ControlTemplate in WPF is used to completely replace the appearance of a control without changing its functionality, allowing for a high degree of customization in the user interface design."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Storyboard Animation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which property needs to be set to True to pause a Storyboard in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "IsPaused"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IsSealed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IsStopped"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IsFrozen"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In WPF, setting the IsPaused property of a Storyboard to True pauses the animation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to bind a TextBox's Text property to a property named 'UserName' in the data context?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Path=UserName}\" />"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Source=UserName}\" />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<TextBox Text=\"{DataBind UserName}\" />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<TextBox Text=\"UserName\" />"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly uses the Binding markup extension with the Path property to bind the TextBox's Text property to the 'UserName' property in the data context."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "WPF Resource Dictionaries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what is the primary purpose of using a Resource Dictionary?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To store data entries for CRUD operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To compile XAML into machine code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manage reusable resources like styles and templates"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the security of application data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Resource Dictionary in WPF is primarily used to manage reusable resources such as styles, templates, and other assets, thus promoting a more modular and maintainable approach in application development."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Using Resources in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of resource would you typically use in WPF to share a common style across multiple controls?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DynamicResource"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "StaticResource"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x:Static"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "x:Type"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DynamicResource is used for resources that might change during the runtime of the application, allowing the application to react to these changes. It's ideal for sharing styles that can dynamically update."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic XAML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XAML attribute specifies the class that the XAML file is a part of?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x:Name"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x:Class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x:Type"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "x:Static"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The x:Class attribute in XAML is used to define the CLR namespace and class name for the class that the XAML file is a part of. It connects the XAML to its underlying code-behind class."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Binding in XAML",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which binding mode updates the source property when the target property changes in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OneTime"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OneWay"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TwoWay"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OneWayToSource"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'TwoWay' binding mode in WPF is used to ensure that any changes to the target property (usually a UI element) are propagated back to the source property (usually a data model)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the {Binding} markup extension do in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It explicitly creates and initializes a new instance of a class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is used to create animations for UI elements."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It facilitates the automatic connection between the UI element and the data source properties."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It establishes a command link between user actions and logic handling."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The {Binding} markup extension is used to bind the properties of a data source to a UI element, allowing automatic updates and synchronization between the data and the interface."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Storyboard Animations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid trigger to start a storyboard animation in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Property Trigger"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data Trigger"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Event Trigger"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Resource Trigger"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Resource Trigger does not exist in WPF. Property Trigger, Data Trigger, and Event Trigger are all valid triggers for starting a storyboard."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Application Deployment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What tool in Visual Studio is primarily used for packaging WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NuGet Package Manager"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ClickOnce Deployment"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MSBuild"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Solution Explorer"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ClickOnce Deployment is the primary tool used for packaging and deploying WPF applications directly from Visual Studio, facilitating easy updates and secure application distribution."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic XAML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to set the background color to Blue in XAML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Background>Blue</Background>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Button Background=\"Blue\"></Button>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Button:Background>Blue</Button:Background>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Button Background-Color=\"Blue\"></Button>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XAML, properties are set using attributes within an element tag. The correct syntax to set the background color of a Button element to Blue is <Button Background=\"Blue\"></Button>."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Resource Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is recommended to improve performance when resources are heavily used in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reusing resources across the application"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Loading resources asynchronously"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Embedding resources in each control"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using high-resolution resources only"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reusing resources across the application, such as styles and templates, reduces memory usage and improves overall performance by avoiding redundant resource declarations."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Binding Modes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Binding Mode should be used when the control should initialize with a value from the ViewModel but any user changes should not update the source property?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TwoWay"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OneWay"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OneTime"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OneWayToSource"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The OneTime binding mode initializes the control with a value from the ViewModel when the application is loaded, but it does not update the source property when the user changes the control's value."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Templates",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define the visual structure and behavior of a control."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide a collection of resources for controls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To bind data to controls."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To define the style rules for controls."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ControlTemplate in WPF allows you to completely redefine the visual appearance of a control without changing its functionality."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Templates in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define the visual structure and behavior of a control."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To bind data sources to controls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To validate user input in forms."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle events raised by controls."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because a ControlTemplate is used in WPF to define the complete visual structure and behavior of a control, allowing for full customization beyond what is provided by default styles."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to set up a two-way data binding in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Path=UserName, Mode=TwoWay}\" />"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding UserName}\" />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<TextBox Text=\"{DataBind UserName}\" />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Path=UserName, TwoWay}\" />"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly sets up a two-way data binding by specifying the Path and Mode properties within the Binding markup extension."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Storyboard Targeting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What property do you need to set to target a specific UI element with a Storyboard in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TargetName"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TargetProperty"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TargetType"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ElementName"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The TargetName property must be set on the Storyboard to specify which UI element it should affect."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Debugging Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF applications, which tool is used to detect and diagnose layout issues in real-time during development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Debugger"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WPF Inspector"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XAML Spy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Snoop"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Snoop is a popular tool for debugging WPF applications, especially for diagnosing and visualizing layout problems in real-time."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dynamic Resource vs Static Resource",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary difference between DynamicResource and StaticResource in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DynamicResource can be changed at runtime whereas StaticResource cannot."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "StaticResource is faster to load than DynamicResource."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DynamicResource is used for styling controls only."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "StaticResource provides compile-time checking."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DynamicResource refers to resources at runtime allowing changes to propagate, while StaticResource refers to resources at load time, making it immutable during runtime."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "INotifyPropertyChanged Interface",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of implementing the INotifyPropertyChanged interface in a ViewModel?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow the ViewModel to notify the View of property changes, enabling automatic UI updates."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To implement complex business logic within the ViewModel."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle data validation errors in the user interface."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the performance of data binding operations."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The INotifyPropertyChanged interface is implemented in a ViewModel to enable it to notify the View whenever a property value changes, thus the View can automatically update itself to reflect these changes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Using WPF Resources",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about StaticResource in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It resolves the resource lookup when the application is compiled."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is evaluated and can change at runtime."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is primarily used for resources that require delayed loading."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It must be declared after its usage in XAML."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "StaticResource resolves the resource reference at load time, which means it happens when the application is compiled, making option A correct."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Rendering",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method should be avoided to enhance rendering performance in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using DrawingVisual for complex scenes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Overusing Effects such as DropShadowEffect or BlurEffect."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing hardware acceleration."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optimizing visual tree using UI virtualization."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because overusing effects like DropShadowEffect or BlurEffect can significantly degrade rendering performance due to their heavy computation requirements."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic XAML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax to set the background color of a Button to Blue in XAML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Button Background=\"Blue\" />"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Button SetBackground=\"Blue\" />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Button Background-Color=\"Blue\" />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Button {Background=\"Blue\"} />"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XAML, properties are set using attribute syntax directly within the element tag. The correct syntax for setting the background color of a Button element is <Button Background=\"Blue\" />."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Resource Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is considered best practice for using resources in WPF to enhance application performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use static resources wherever possible"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Frequent use of Dynamic Resources for all UI elements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Load all resources at application start-up"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Embed large resources directly in XAML"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using static resources, which are resolved at compile time and cached by the application, reduces the overhead of locating and loading resources at runtime, thus enhancing performance."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Control Templates and Styling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define the visual structure and behavior of a control."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To link controls to a data source."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle user input events exclusively."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To improve the performance of complex UIs."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ControlTemplate in WPF is used to redefine the visual appearance of a control, while maintaining its functionality and behavior."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "UI Virtualization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, which panel does NOT support UI virtualization inherently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VirtualizingStackPanel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "StackPanel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WrapPanel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Canvas"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Canvas does not support UI virtualization because it positions child elements absolutely at their coordinates. This requires all children to be measured, hence virtualization is not feasible."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which binding mode allows changes made in the UI to automatically update the source property, and the source property to immediately reflect changes in the UI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "OneWay"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TwoWay"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OneTime"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OneWayToSource"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TwoWay binding mode updates the property in the ViewModel when the UI changes and vice versa, making sure both are always synchronized."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Implementing INotifyPropertyChanged",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is required in a ViewModel in WPF to support the automatic updating of bindings when the underlying data changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implementing IValueConverter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using DependencyObject"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing INotifyPropertyChanged"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using DataTrigger"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing INotifyPropertyChanged interface allows the ViewModel to notify the view of changes in the property values so that the view can update itself."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Debugging WPF Applications",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary tool used for debugging WPF applications in Visual Studio?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Watch Window"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DataTips"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Output Window"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Immediate Window"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Immediate Window is extensively used for debugging WPF applications by allowing developers to interactively query and interact with the running application."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Implementing INotifyPropertyChanged",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of implementing the INotifyPropertyChanged interface in a WPF MVVM model?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To facilitate the automatic update of the View when the Model changes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the processing speed of data bindings."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide a direct data connection between the Model and the View."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To implement complex business logic within the ViewModel."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "INotifyPropertyChanged is used to notify the View of property changes in the ViewModel, ensuring that the UI reflects these changes automatically."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "MediaElement Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What must be set to True for a MediaElement in WPF to automatically begin playback when the source is loaded?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "AutoStart"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IsEnabled"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "AutoPlay"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IsAutoPlayEnabled"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'AutoPlay' property must be set to True for the MediaElement to start playing automatically when the source is loaded."
+      }
+    ]
+  }
+]

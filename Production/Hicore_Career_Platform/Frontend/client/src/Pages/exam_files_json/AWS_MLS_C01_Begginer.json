@@ -1,0 +1,1083 @@
+[
+  {
+    "id": 1,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is primarily used to store training data for SageMaker?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon S3" },
+      { "label": "B", "type": "text", "value": "Amazon Redshift" },
+      { "label": "C", "type": "text", "value": "AWS Lambda" },
+      { "label": "D", "type": "text", "value": "Amazon EC2" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Amazon S3 is the main storage service used for storing training and validation data for machine learning on AWS." }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service can automate data cleaning and transformation before ML training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Glue" },
+      { "label": "B", "type": "text", "value": "AWS CloudTrail" },
+      { "label": "C", "type": "text", "value": "Amazon Inspector" },
+      { "label": "D", "type": "text", "value": "AWS Config" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS Glue is a fully managed ETL (Extract, Transform, Load) service used for preparing data for analysis and machine learning." }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which file format is most efficient for ML data storage and query performance in AWS?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Parquet" },
+      { "label": "B", "type": "text", "value": "CSV" },
+      { "label": "C", "type": "text", "value": "TXT" },
+      { "label": "D", "type": "text", "value": "JSON" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Apache Parquet is a columnar storage format optimized for analytics workloads and is commonly used in AWS ML pipelines." }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service allows running SQL queries directly on S3 data?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon Athena" },
+      { "label": "B", "type": "text", "value": "Amazon RDS" },
+      { "label": "C", "type": "text", "value": "AWS Glue Studio" },
+      { "label": "D", "type": "text", "value": "Amazon QuickSight" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Amazon Athena lets you query data in S3 using standard SQL without loading it into a database." }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Python library is most commonly used for data analysis in Jupyter notebooks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Pandas" },
+      { "label": "B", "type": "text", "value": "NumPy" },
+      { "label": "C", "type": "text", "value": "Matplotlib" },
+      { "label": "D", "type": "text", "value": "Boto3" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pandas provides high-level data structures and functions for efficient data manipulation and analysis." }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service provides an integrated Jupyter notebook environment for data analysis?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Studio" },
+      { "label": "B", "type": "text", "value": "AWS CloudShell" },
+      { "label": "C", "type": "text", "value": "AWS Lambda" },
+      { "label": "D", "type": "text", "value": "AWS Glue Console" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Studio offers a managed environment with Jupyter notebooks for interactive data analysis and ML model development." }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the purpose of data normalization in machine learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To scale features to a similar range for better model convergence" },
+      { "label": "B", "type": "text", "value": "To increase data size" },
+      { "label": "C", "type": "text", "value": "To create categorical variables" },
+      { "label": "D", "type": "text", "value": "To remove missing values" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Normalization ensures that features contribute equally by scaling them to a common range, improving training stability." }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which plot is best for identifying outliers in numerical data?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Box Plot" },
+      { "label": "B", "type": "text", "value": "Bar Chart" },
+      { "label": "C", "type": "text", "value": "Pie Chart" },
+      { "label": "D", "type": "text", "value": "Line Chart" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Box plots visually show the spread and identify potential outliers based on quartiles." }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is correlation in data analysis?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A statistical relationship between two variables" },
+      { "label": "B", "type": "text", "value": "A method to normalize data" },
+      { "label": "C", "type": "text", "value": "A data transformation technique" },
+      { "label": "D", "type": "text", "value": "A visualization style" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Correlation quantifies the strength and direction of relationships between variables." }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service automates ML model building and tuning without writing code?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Autopilot" },
+      { "label": "B", "type": "text", "value": "AWS CloudFormation" },
+      { "label": "C", "type": "text", "value": "AWS Glue" },
+      { "label": "D", "type": "text", "value": "Amazon Kinesis" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Autopilot automatically selects algorithms, tunes hyperparameters, and deploys ML models." }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the main goal of supervised machine learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Learn patterns from labeled data" },
+      { "label": "B", "type": "text", "value": "Group unlabeled data" },
+      { "label": "C", "type": "text", "value": "Generate random predictions" },
+      { "label": "D", "type": "text", "value": "Remove duplicate records" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Supervised learning trains on input-output pairs to predict future labels." }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which ML algorithm is commonly used for classification tasks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Logistic Regression" },
+      { "label": "B", "type": "text", "value": "Linear Regression" },
+      { "label": "C", "type": "text", "value": "K-Means" },
+      { "label": "D", "type": "text", "value": "PCA" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Logistic regression predicts discrete classes and is widely used for classification." }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is overfitting in machine learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "When the model memorizes training data and performs poorly on new data" },
+      { "label": "B", "type": "text", "value": "When the model performs well on all datasets" },
+      { "label": "C", "type": "text", "value": "When the training data is too small" },
+      { "label": "D", "type": "text", "value": "When the model has no errors" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Overfitting occurs when a model captures noise instead of patterns, hurting generalization." }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which technique helps prevent overfitting?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Regularization" },
+      { "label": "B", "type": "text", "value": "Adding more noise" },
+      { "label": "C", "type": "text", "value": "Removing training data" },
+      { "label": "D", "type": "text", "value": "Using only one feature" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regularization discourages complex models by penalizing large weights." }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is used to train custom ML models at scale?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Training Jobs" },
+      { "label": "B", "type": "text", "value": "AWS CloudWatch" },
+      { "label": "C", "type": "text", "value": "AWS Backup" },
+      { "label": "D", "type": "text", "value": "Amazon SNS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Training Jobs train ML models efficiently using managed infrastructure." }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the purpose of splitting data into training and test sets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To evaluate how well the model generalizes to unseen data" },
+      { "label": "B", "type": "text", "value": "To reduce dataset size" },
+      { "label": "C", "type": "text", "value": "To shuffle the dataset" },
+      { "label": "D", "type": "text", "value": "To improve training speed only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "A test set helps measure real-world model performance." }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What does the confusion matrix help evaluate?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classification performance" },
+      { "label": "B", "type": "text", "value": "Training cost" },
+      { "label": "C", "type": "text", "value": "File size" },
+      { "label": "D", "type": "text", "value": "Network latency" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "A confusion matrix summarizes correct and incorrect predictions for classification models." }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which algorithm is commonly used for clustering tasks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "K-Means" },
+      { "label": "B", "type": "text", "value": "Linear Regression" },
+      { "label": "C", "type": "text", "value": "Naive Bayes" },
+      { "label": "D", "type": "text", "value": "Logistic Regression" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "K-Means is an unsupervised clustering algorithm that groups data into clusters." }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service provides pre-trained AI models like vision and text processing APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon AI Services (Rekognition, Comprehend, Polly)" },
+      { "label": "B", "type": "text", "value": "Amazon S3" },
+      { "label": "C", "type": "text", "value": "AWS Batch" },
+      { "label": "D", "type": "text", "value": "AWS Step Functions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS AI Services offer ready-made models for vision, speech, and NLP tasks." }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is used to deploy ML models for real-time inference?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Endpoints" },
+      { "label": "B", "type": "text", "value": "Amazon Kinesis" },
+      { "label": "C", "type": "text", "value": "Amazon SES" },
+      { "label": "D", "type": "text", "value": "AWS Config" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Endpoints allow hosting models to serve predictions in real time." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the role of Amazon CloudWatch in ML workflows?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Monitoring logs and metrics from ML models and jobs" },
+      { "label": "B", "type": "text", "value": "Storing ML datasets" },
+      { "label": "C", "type": "text", "value": "Creating neural networks automatically" },
+      { "label": "D", "type": "text", "value": "Serving real-time predictions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CloudWatch collects logs and performance metrics from ML training and inference workloads." }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is batch inference in ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Running predictions on large datasets at once" },
+      { "label": "B", "type": "text", "value": "Real-time predictions" },
+      { "label": "C", "type": "text", "value": "Training a model multiple times" },
+      { "label": "D", "type": "text", "value": "Labeling new datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batch inference performs predictions in bulk and is cost-effective for non-real-time workloads." }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service allows scalable batch inference jobs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Batch Transform" },
+      { "label": "B", "type": "text", "value": "AWS Lambda" },
+      { "label": "C", "type": "text", "value": "AWS Step Functions" },
+      { "label": "D", "type": "text", "value": "Amazon Connect" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Batch Transform is used to run predictions on large, offline datasets." }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the purpose of model versioning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To track changes and updates made to ML models" },
+      { "label": "B", "type": "text", "value": "To reduce training data" },
+      { "label": "C", "type": "text", "value": "To improve storage costs" },
+      { "label": "D", "type": "text", "value": "To deploy only one version forever" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model versioning keeps track of multiple model iterations for reproducibility and comparison." }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Where are SageMaker training logs stored by default?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon CloudWatch Logs" },
+      { "label": "B", "type": "text", "value": "Amazon RDS" },
+      { "label": "C", "type": "text", "value": "AWS Secrets Manager" },
+      { "label": "D", "type": "text", "value": "AWS Glue Data Catalog" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CloudWatch Logs stores real-time logs generated by SageMaker training jobs." }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service makes it easy to catalog and search datasets stored across S3?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Glue Data Catalog" },
+      { "label": "B", "type": "text", "value": "Amazon SQS" },
+      { "label": "C", "type": "text", "value": "AWS IAM" },
+      { "label": "D", "type": "text", "value": "Amazon SNS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Glue Data Catalog stores metadata for datasets to make them searchable and queryable." }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the benefit of using Amazon Redshift for ML data preparation?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Fast SQL-based analytics on structured data" },
+      { "label": "B", "type": "text", "value": "Hosting ML endpoints" },
+      { "label": "C", "type": "text", "value": "Running Python code directly" },
+      { "label": "D", "type": "text", "value": "Image recognition tasks" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Redshift is a data warehouse optimized for large-scale data analytics, ideal for ML preprocessing." }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps stream real-time data for ML workloads?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon Kinesis" },
+      { "label": "B", "type": "text", "value": "AWS Key Management Service" },
+      { "label": "C", "type": "text", "value": "Amazon EBS" },
+      { "label": "D", "type": "text", "value": "AWS Backup" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Kinesis ingests streaming data that can be processed and fed to ML applications." }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which visualization is best for showing the distribution of a numeric feature?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Histogram" },
+      { "label": "B", "type": "text", "value": "Pie Chart" },
+      { "label": "C", "type": "text", "value": "Bar Chart" },
+      { "label": "D", "type": "text", "value": "Scatter Plot" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Histograms display the distribution and frequency of numeric data." }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What does missing data handling involve?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Removing or imputing missing values" },
+      { "label": "B", "type": "text", "value": "Adding more features" },
+      { "label": "C", "type": "text", "value": "Encrypting values" },
+      { "label": "D", "type": "text", "value": "Normalizing labels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Missing data can be handled by dropping or imputing values to maintain model accuracy." }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why is feature scaling important?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps algorithms converge faster and treat features equally" },
+      { "label": "B", "type": "text", "value": "It increases dataset size" },
+      { "label": "C", "type": "text", "value": "It removes all outliers" },
+      { "label": "D", "type": "text", "value": "It renames features automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature scaling ensures that numerical features contribute proportionally during training." }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What type of ML problem predicts numeric values?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Regression" },
+      { "label": "B", "type": "text", "value": "Clustering" },
+      { "label": "C", "type": "text", "value": "Classification" },
+      { "label": "D", "type": "text", "value": "Dimensionality reduction" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regression models output continuous numeric values such as prices or temperatures." }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is accuracy used to measure?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The percentage of correct predictions" },
+      { "label": "B", "type": "text", "value": "Memory usage" },
+      { "label": "C", "type": "text", "value": "Storage costs" },
+      { "label": "D", "type": "text", "value": "CPU utilization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Accuracy is a common metric for classification tasks measuring correct prediction percentage." }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps automatically tune hyperparameters?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Hyperparameter Tuning Jobs" },
+      { "label": "B", "type": "text", "value": "AWS Budgets" },
+      { "label": "C", "type": "text", "value": "AWS Step Functions" },
+      { "label": "D", "type": "text", "value": "AWS AppSync" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker tuning jobs search for the best model parameters automatically." }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service helps create end-to-end ML automation pipelines?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Pipelines" },
+      { "label": "B", "type": "text", "value": "AWS CodeCommit" },
+      { "label": "C", "type": "text", "value": "AWS CloudTrail" },
+      { "label": "D", "type": "text", "value": "Amazon S3" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Pipelines orchestrate automated ML workflows like data prep, training, and deployment." }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Model drift refers to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Performance degrading over time due to changing data" },
+      { "label": "B", "type": "text", "value": "Training model twice" },
+      { "label": "C", "type": "text", "value": "Saving model in S3" },
+      { "label": "D", "type": "text", "value": "Decreasing accuracy only during training" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Drift occurs when the relationship between inputs and outputs change over time." }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service monitors deployed models for data drift?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Model Monitor" },
+      { "label": "B", "type": "text", "value": "Amazon Polly" },
+      { "label": "C", "type": "text", "value": "Amazon EFS" },
+      { "label": "D", "type": "text", "value": "AWS Shield" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Monitor detects input drift, output drift, and other issues in deployed ML models." }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why is S3 versioning useful for ML datasets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It keeps older versions of datasets for reproducibility" },
+      { "label": "B", "type": "text", "value": "It compresses all files automatically" },
+      { "label": "C", "type": "text", "value": "It analyzes datasets automatically" },
+      { "label": "D", "type": "text", "value": "It encrypts files with KMS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Versioning ensures past dataset states are preserved for reproducible ML experiments." }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "CSV files are commonly used because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They are easy to read and widely compatible" },
+      { "label": "B", "type": "text", "value": "They are faster than Parquet" },
+      { "label": "C", "type": "text", "value": "They support compression automatically" },
+      { "label": "D", "type": "text", "value": "They enforce schema" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CSV is a simple, universal format used in many ML workloads." }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps visualize data without managing infrastructure?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon QuickSight" },
+      { "label": "B", "type": "text", "value": "Amazon Kinesis" },
+      { "label": "C", "type": "text", "value": "AWS IAM" },
+      { "label": "D", "type": "text", "value": "AWS Firewall Manager" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "QuickSight provides dashboarding and easy analytics visualization for ML datasets." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which technique helps identify relationships between variables?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Correlation Matrix" },
+      { "label": "B", "type": "text", "value": "Pie Chart" },
+      { "label": "C", "type": "text", "value": "Box Plot" },
+      { "label": "D", "type": "text", "value": "Word Cloud" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Correlation matrices show numeric relationships between features." }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Normalization typically scales values to what range?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "0 to 1" },
+      { "label": "B", "type": "text", "value": "-10 to 10" },
+      { "label": "C", "type": "text", "value": "0 to 1000" },
+      { "label": "D", "type": "text", "value": "10 to 20" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Normalization scales numerical values between 0 and 1 for equal contribution." }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which technique reduces the number of input features?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "PCA (Principal Component Analysis)" },
+      { "label": "B", "type": "text", "value": "Logistic Regression" },
+      { "label": "C", "type": "text", "value": "Confusion Matrix" },
+      { "label": "D", "type": "text", "value": "Z-score" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PCA reduces dimensionality by extracting principal components that capture most of the variance." }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What does a higher learning rate cause during training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Faster but potentially unstable training" },
+      { "label": "B", "type": "text", "value": "Slower and stable training" },
+      { "label": "C", "type": "text", "value": "No effect" },
+      { "label": "D", "type": "text", "value": "Perfect accuracy" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "High learning rates can cause models to overshoot and not converge." }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Deep learning primarily uses:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Neural Networks" },
+      { "label": "B", "type": "text", "value": "Decision Trees" },
+      { "label": "C", "type": "text", "value": "K-Means Clustering" },
+      { "label": "D", "type": "text", "value": "Linear Models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Deep learning uses neural networks with multiple layers." }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is used for deploying edge ML models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Edge Manager" },
+      { "label": "B", "type": "text", "value": "Amazon Textract" },
+      { "label": "C", "type": "text", "value": "AWS SES" },
+      { "label": "D", "type": "text", "value": "AWS Migration Hub" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Edge Manager manages ML models deployed to edge devices." }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "A/B testing is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Compare two model versions" },
+      { "label": "B", "type": "text", "value": "Remove old models" },
+      { "label": "C", "type": "text", "value": "Perform hyperparameter tuning" },
+      { "label": "D", "type": "text", "value": "Generate labels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "A/B testing compares live performance between multiple versions of a model." }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why are ML models deployed behind API endpoints?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To provide real-time inference to applications" },
+      { "label": "B", "type": "text", "value": "To store training data" },
+      { "label": "C", "type": "text", "value": "To reduce dataset size" },
+      { "label": "D", "type": "text", "value": "To send email alerts" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "API endpoints allow applications to request predictions in real time." }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "A data pipeline is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Move and transform data between systems" },
+      { "label": "B", "type": "text", "value": "Predict model accuracy" },
+      { "label": "C", "type": "text", "value": "Deploy mobile applications" },
+      { "label": "D", "type": "text", "value": "Monitor EC2 CPU usage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipelines automate movement and transformation of datasets needed for ML workflows." }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is commonly used for scalable ETL pipelines?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Glue" },
+      { "label": "B", "type": "text", "value": "Amazon SNS" },
+      { "label": "C", "type": "text", "value": "AWS IAM" },
+      { "label": "D", "type": "text", "value": "Amazon SES" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS Glue automates extracting, transforming, and loading data at scale." }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Outliers can negatively impact models because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They distort statistical measures and model training" },
+      { "label": "B", "type": "text", "value": "They reduce storage space" },
+      { "label": "C", "type": "text", "value": "They improve training speed" },
+      { "label": "D", "type": "text", "value": "They normalize data automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Outliers can skew mean, variance, and influence model weight updates." }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What does a validation dataset help with?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Tuning model hyperparameters" },
+      { "label": "B", "type": "text", "value": "Hosting ML models" },
+      { "label": "C", "type": "text", "value": "Removing null values" },
+      { "label": "D", "type": "text", "value": "Encrypting datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Validation data helps optimize hyperparameters without touching the test set." }
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS tool helps visualize and compare ML experiments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Experiments" },
+      { "label": "B", "type": "text", "value": "AWS X-Ray" },
+      { "label": "C", "type": "text", "value": "AWS Firewall Manager" },
+      { "label": "D", "type": "text", "value": "Amazon Inspector" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Experiments organizes ML runs, metrics, and parameters for comparison." }
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the main purpose of SageMaker Model Registry?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Store and version ML models for deployment" },
+      { "label": "B", "type": "text", "value": "Upload training datasets" },
+      { "label": "C", "type": "text", "value": "Generate AWS budgets" },
+      { "label": "D", "type": "text", "value": "Host web applications" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Registry manages versions and deployment stages of ML models." }
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is data labeling?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Assigning meaningful tags or categories to raw data" },
+      { "label": "B", "type": "text", "value": "Encrypting the data" },
+      { "label": "C", "type": "text", "value": "Compressing the data" },
+      { "label": "D", "type": "text", "value": "Deleting irrelevant data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Labeling is essential for supervised ML, providing correct outputs for training." }
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "Data Engineering",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service provides managed data labeling?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Ground Truth" },
+      { "label": "B", "type": "text", "value": "Amazon Forecast" },
+      { "label": "C", "type": "text", "value": "AWS Backup" },
+      { "label": "D", "type": "text", "value": "AWS Managed AD" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Ground Truth uses human labelers and automation to create labeled datasets." }
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Categorical variables can be encoded using:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "One-Hot Encoding" },
+      { "label": "B", "type": "text", "value": "Log-sum-exp" },
+      { "label": "C", "type": "text", "value": "Conv2D filters" },
+      { "label": "D", "type": "text", "value": "Zipping" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "One-Hot Encoding converts categories into binary indicators." }
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "Modeling",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which algorithm is best for predicting continuous values?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Linear Regression" },
+      { "label": "B", "type": "text", "value": "Decision Trees" },
+      { "label": "C", "type": "text", "value": "Rekognition" },
+      { "label": "D", "type": "text", "value": "Comprehend" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Linear Regression predicts numerical outputs based on input features." }
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Logging model predictions is useful because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps track model performance and debug issues" },
+      { "label": "B", "type": "text", "value": "It reduces storage needs" },
+      { "label": "C", "type": "text", "value": "It speeds up training" },
+      { "label": "D", "type": "text", "value": "It improves hardware usage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Logging enables auditing, debugging, and monitoring of inference behavior." }
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "Machine Learning Operations",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which AWS service is used to schedule ML workflows and data processing tasks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon EventBridge (CloudWatch Events)" },
+      { "label": "B", "type": "text", "value": "Amazon Textract" },
+      { "label": "C", "type": "text", "value": "AWS Directory Service" },
+      { "label": "D", "type": "text", "value": "Amazon WorkMail" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "EventBridge triggers and schedules tasks, including ML retraining and pipeline execution." }
+    ]
+  }
+]
+

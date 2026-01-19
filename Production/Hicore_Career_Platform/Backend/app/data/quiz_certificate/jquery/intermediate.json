@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 4,
+    "topic": "Ajax Events in jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery event is triggered if an Ajax request completes successfully?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ajaxComplete"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ajaxSuccess"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ajaxError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ajaxDone"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ajaxSuccess' event is triggered when an Ajax request completes successfully. 'ajaxComplete' triggers after all Ajax requests complete, 'ajaxError' triggers on an Ajax error, and 'ajaxDone' is not a standard jQuery event."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Delegation in jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is best suited for attaching an event handler to all the <li> elements inside a <ul>, including dynamically added <li> elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".bind()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".live()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".delegate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".on()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .on() method provides a way to use event delegation, allowing you to bind events to present and future elements."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Using jQuery, how can you append a paragraph with the text 'Hello' to all div elements with the class 'container'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('.container').append('<p>Hello</p>');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('.container').html('<p>Hello</p>');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('div').append('<p>Hello</p>');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('.container').prepend('<p>Hello</p>');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .append() method inserts specified content as the last child of each element in the jQuery collection. Using $('.container').append('<p>Hello</p>'); will append a paragraph with the text 'Hello' to the end of each element with the class 'container'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic jQuery Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector is used to select elements with a specific class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('.classname')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('#classname')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('classname')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('&lt;classname&gt;')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In jQuery, the '.' prefix is used to select elements with a specific class. Therefore, $('.classname') correctly selects all elements with the class 'classname'."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Dynamic Content Loading",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method allows for the loading of server data and injecting it into the DOM without a page refresh?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".html()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".load()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".append()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".get()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .load() method is a simple, powerful AJAX method that is used to fetch data from the server and place the returned HTML into the matched elements without having to refresh the entire page."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Delegation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is most suitable for attaching an event handler to all the list items within a dynamically generated unordered list?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".click()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".bind()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".on()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".attach()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .on() method is used for event delegation in jQuery, allowing the attachment of event handlers to elements that exist now or in the future, which is necessary for dynamically generated content."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "jQuery Ajax GET and POST Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery is used to perform an asynchronous HTTP GET request?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$.get()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$.ajax()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$.post()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$.fetch()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $.get() method in jQuery is specifically used for making asynchronous HTTP GET requests, which is simpler than the more general $.ajax() method."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "jQuery UI Interactions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery UI is used to remove the resizable functionality from an element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "resizable('destroy')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "resizable('disable')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "resizable('remove')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "disableResizing()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To permanently remove the resizable functionality from an element, use 'resizable('destroy')'. This method unbinds all resizable events and restores the element to its pre-initialized state."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Dynamic Content Loading",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is used to load data asynchronously from the server and place the returned HTML into the matched element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".load()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".ajax()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".get()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".post()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .load() method is a simple, but powerful AJAX method that allows HTML from the server to be loaded directly into the selected element by passing the URL as an argument."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "jQuery Setup",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax to link a jQuery library hosted on a CDN in an HTML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<link href='https://code.jquery.com/jquery-3.6.0.min.js'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<jquery src='https://code.jquery.com/jquery-3.6.0.min.js'>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<script href='https://code.jquery.com/jquery-3.6.0.min.js'></script>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To include jQuery from a CDN, you should use the <script> tag with the src attribute pointing to the jQuery CDN link."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Handling Efficiency",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "To improve performance, what is the best practice for attaching an event handler to multiple list items within a list in jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Attach the event handler to each list item individually"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use the .on() method at the document level"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use the .on() method on the parent list element"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use the .click() method on each list item individually"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because using .on() method on the parent list element to handle events on descendant list items (event delegation) reduces the number of event handlers needed, thereby improving performance."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic jQuery Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector is used to select elements with a specific class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('.className')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('#className')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('className')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('&lt;className&gt;')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '.' prefix is used in jQuery selectors to select elements with a specific class. Therefore, $('.className') correctly selects elements with the class 'className'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "jQuery UI Widgets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery UI widget is used to create a modal popup dialog box?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Accordion"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dialog"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Tabs"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tooltip"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Dialog widget is used in jQuery UI to create modal popup dialog boxes, which are useful for interactive user interface designs."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "jQuery Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method attaches an event handler to the specified elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".attachEvent()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".addEventListener()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".on()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".bindEvent()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .on() method in jQuery is used to attach one or more event handlers for the selected elements and child elements."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "jQuery UI Widgets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to disable a jQuery UI button widget?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".disable()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".button('disable')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".buttonDisable()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".disableButton()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to disable a jQuery UI button widget is .button('disable'). This method is part of the Button widget's API in jQuery UI."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basics of Ajax with jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the jQuery method $.ajax() return?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A promise"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A JSON object"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An array"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A string"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $.ajax() method in jQuery returns a promise that can be used to handle asynchronous operations and event callbacks."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "jQuery DataTables Plugin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which option in DataTables plugin is used to enable processing display during data loading?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "dataLoading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "loading"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "processing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "dynamicLoading"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'processing' option in the DataTables plugin is used to enable the indication of processing when data is being loaded."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "jQuery Plugin Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is necessary to consider when integrating a third-party jQuery plugin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compatibility with existing jQuery version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Color of the plugin's website"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Popularity of the plugin's creator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Size of the plugin's logo"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Ensuring compatibility with the existing jQuery version is crucial to avoid conflicts and errors in functionality when integrating a third-party plugin."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "jQuery Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid source to include jQuery in your project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script src='jquery-3.5.1.min.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<script href='jquery-3.5.1.min.js'></script>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<jquery src='jquery-3.5.1.min.js'></jquery>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<link src='jquery-3.5.1.min.js'></link>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to include a jQuery file in your project is by using the <script> tag with its src attribute pointing to the jQuery file. Option A correctly uses this format."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Resizable Interaction",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary effect of setting the 'aspectRatio' option to true in the resizable() method of jQuery UI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the element to resize based on the original aspect ratio."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It prevents any resizing from occurring."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It enables diagonal resizing only."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It restricts the resizing to horizontal adjustments."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting the 'aspectRatio' option to true maintains the original aspect ratio of the element during resizing."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "jQuery Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to refer to an external script called 'jquery.js'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script href='jquery.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<script name='jquery.js'></script>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<script src='jquery.js'></script>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<link src='jquery.js'></link>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to include an external JavaScript file is using the 'src' attribute in the <script> tag."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "jQuery UI Effects",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which effect does not belong to the standard jQuery UI effects bundle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Shake"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Pulsate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Explode"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Fade"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'Fade' is not a part of the jQuery UI effects bundle. It is instead a basic animation effect provided by the core jQuery library."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Ajax with jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery is used to perform an asynchronous HTTP (Ajax) request?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$.ajax()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$.getHTTP()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$.sync()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$.postRequest()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $.ajax() method is used to perform an asynchronous HTTP (Ajax) request, which is a key part of the functionality in jQuery for handling asynchronous data retrieval."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "jQuery Syntax and Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is used to hide selected elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".hide()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".visible(false)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".display(none)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".remove()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .hide() method in jQuery is used to hide the matched elements by adjusting their CSS display property to none."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "jQuery Setup",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax to link a jQuery CDN in an HTML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<link href='https://code.jquery.com/jquery-3.4.1.min.js'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<script href='https://code.jquery.com/jquery-3.4.1.min.js'></script>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<jquery src='https://code.jquery.com/jquery-3.4.1.min.js'></jquery>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to include jQuery from a CDN is to use the script tag with a src attribute, not href or other tags."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Dynamic Content Handling in jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is primarily used to get the HTML contents of the first element in the set of matched elements, including dynamically generated content?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".html()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".text()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".getContent()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".data()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .html() method retrieves the HTML content from the first element in the jQuery collection, which includes any dynamically added HTML."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "jQuery UI Widgets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to disable a jQuery UI widget?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".disable()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".destroy()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".off()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".remove()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .disable() method is specifically used to disable jQuery UI widgets, preventing user interaction until re-enabled."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "DOM Manipulation Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is most efficient for dynamically adding multiple new elements to the DOM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the .html() method."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using the .append() method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating a document fragment and appending it all at once."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Repeatedly using the .createElement() method."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Creating a document fragment to build up a new set of elements and then appending this fragment to the DOM is more efficient than individually adding elements, as it reduces the number of reflows and repaints required by the browser."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "jQuery Event Delegation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used in jQuery to implement event delegation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".on()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".click()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".bind()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".live()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .on() method is used for attaching event handlers to elements, and it supports event delegation by specifying a selector for child elements."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "jQuery UI Effects",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery UI effect method is used to apply a bouncing animation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".explode()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".bounce()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".shake()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".puff()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .bounce() method in jQuery UI is used to animate the selected elements with a bouncing effect."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "DOM Manipulation with jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct jQuery method to append an HTML element to another element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".append()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".attach()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".appendChild()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".addElement()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .append() method in jQuery is used to append content to the selected elements. This method is correct for adding an HTML element to another element in the DOM."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Event Handling Efficiency",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using event delegation in jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To reduce memory usage by minimizing the number of bound events."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the speed of the DOM loading."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To add multiple similar events to different elements."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the security of web applications."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Event delegation allows us to attach a single event listener to a parent element that will fire for all descendants matching a selector, thus reducing the number of event bindings and subsequently the memory usage."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Advanced Ajax with jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which option is NOT a valid dataType in jQuery's ajax settings?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xml"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "html"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "script"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "file"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In jQuery's ajax settings, 'xml', 'html', and 'script' are valid dataTypes. 'file' is not a recognized dataType."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "jQuery Syntax and Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is used to hide selected elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".hide()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".visible(false)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".remove()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".display(none)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .hide() method is used in jQuery to hide selected elements by setting their display CSS property to none."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "jQuery Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery method is used to hide selected elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "hide()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "visible(false)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "display(none)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "remove()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The hide() method in jQuery is used to hide the matched or selected elements in the HTML DOM."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "jQuery Selectors Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector will perform faster when selecting the first child of an element with ID 'container'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('#container').find(':first-child')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('#container :first-child')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('#container > :first-child')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$(':first-child', '#container')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because using .find() on an ID selector is more efficient than contextual selectors as it limits the scope of the search leading to faster DOM traversal."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery is used to prevent the default action of an event from occurring?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".preventDefault()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".stopPropagation()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".stopImmediatePropagation()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".halt()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .preventDefault() method stops the default action of the event from being triggered. It is commonly used for handling events like clicking on links to avoid URL redirection."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "jQuery Selectors Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following jQuery selectors is the most efficient way to select all <div> elements with a class of 'active' that are direct children of elements with an ID of 'container'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "#container > div.active"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "div.active > #container"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('div').find('.active').parent('#container')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('.active', '#container > div')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is the most direct and efficient selector. It uses the child selector (>) to directly target .active classes within the #container, reducing the search scope and increasing performance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Event Delegation in jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main advantage of using event delegation in jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It enables events to be handled even on elements created dynamically."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It reduces the memory footprint by handling events at the child level."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the speed of page loading."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It allows easy serialization of DOM events into JSON format."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Event delegation allows us to attach a single event listener to a parent element that will fire for all descendants matching a selector, whether those descendants exist now or are added in the future. This is particularly useful for dynamically created elements."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Draggable Interaction",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which option correctly initializes an element to be draggable in jQuery UI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$(selector).draggable();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$(selector).enableDrag();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$(selector).setDraggable();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$(selector).dragInit();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to make an element draggable using jQuery UI is by calling the .draggable() method on the selector."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Handling Ajax Responses",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In jQuery's Ajax method, which option specifies a function to be run if the request succeeds?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "success"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "done"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "complete"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "always"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'success' option in jQuery's Ajax method specifies a function that is executed if the request succeeds. This is part of the options object that can be passed to $.ajax()."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "jQuery UI Interactions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery UI method is used to create a draggable element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('selector').draggable();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('selector').droppable();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('selector').sortable();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('selector').resizable();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .draggable() method transforms the selected HTML element into a draggable element."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic jQuery Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector is used to select all elements with the class 'active'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('active')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('.active')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('#active')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('&lt;active&gt;')"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to select elements with a specific class in jQuery is by using a dot followed by the class name, like $('.active')."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "jQuery Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the jQuery function $()?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create new HTML elements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To select HTML elements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To delete HTML elements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To update the jQuery library"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The jQuery function $() is primarily used to select HTML elements from the DOM for manipulation or data retrieval."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "jQuery UI Widgets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery UI method is used to create a draggable interface on specific elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".draggable()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".selectable()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".sortable()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".resizable()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .draggable() method transforms the selected elements into a draggable user interface, allowing elements to be moved using the mouse."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Ajax Requests using jQuery",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery is used to perform an asynchronous HTTP request?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".ajax()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".sync()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".getHttp()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".loadData()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .ajax() method is the basic and most versatile method provided by jQuery for making asynchronous HTTP requests."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Selectors Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector is more efficient, $('#container div.special') or $('#container').find('div.special')?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('#container').find('div.special')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('#container div.special')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both are equally efficient"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Efficiency depends on the version of jQuery"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The selector $('#container').find('div.special') is more efficient than $('#container div.special') because the .find() method allows jQuery to use the most efficient way to process the query by limiting the scope of the search to the descendants of the #container element, leading to faster selection."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic jQuery Selectors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which jQuery selector is used to select all elements that are the direct children of a specified element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$('parent > *')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$('parent child')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$('parent + child')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$('parent .child')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '>' selector in jQuery is used to select all elements that are the direct children of a specified element. The '*' denotes all elements."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "jQuery UI Widgets",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in jQuery UI is used to transform a standard HTML element into a themed widget with interactive capabilities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".interactive()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".widget()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".transform()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".enhance()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .widget() method in jQuery UI transforms standard HTML elements into fully functional widgets."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using the .on() method for event delegation in jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows you to add event handlers to dynamically created elements."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It increases the speed of all jQuery animations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically compresses jQuery code."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It reduces the overall size of the jQuery library."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using .on() for event delegation is beneficial because it allows elements that are added to the DOM dynamically to respond to events if they match the selector specified in the .on() method. This is not possible with direct event handlers."
+      }
+    ]
+  }
+]

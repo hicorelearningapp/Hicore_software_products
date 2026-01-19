@@ -1,0 +1,2005 @@
+{
+  "Bootstrap_questions_intermediate":
+  [
+  {
+    "id": 4,
+    "topic": "Using Bootstrap with Modern JavaScript Frameworks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true when integrating Bootstrap with modern JavaScript frameworks like Vue.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap components automatically adapt to Vue.js components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "You must modify Bootstrap's JavaScript to work with Vue.js"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bootstrap can be used with Vue.js without any JavaScript changes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Vue.js must be adapted to support Bootstrap"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap's CSS can be used as is with Vue.js, and Bootstrap's JavaScript can be utilized without changes if it does not manipulate the DOM directly, as Vue.js handles the DOM."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bootstrap Alerts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap class is used to create a dismissible alert?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "alert-dismissible"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "alert-dismiss"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "alert-closable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "alert-close"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class 'alert-dismissible' is used in combination with other alert classes to create an alert box that can be dismissed by the user."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What class in the Bootstrap grid system is used to create three equal columns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "col-md-4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "col-md-3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "col-md-12"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "col-md-2"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class 'col-md-4' is used for each of the three columns to evenly split the container into three parts, as 12 (full width) divided by 3 equals 4."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Bootstrap HTML5 Requirement",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What doctype is required when using Bootstrap, as mentioned in the provided text?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTML4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "XHTML"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HTML5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None specified"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The text specifies that Bootstrap requires the use of the HTML5 doctype."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bootstrap Alerts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap class provides a red alert box indicating danger or an error?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "alert-info"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "alert-success"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "alert-danger"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "alert-warning"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class 'alert-danger' is used in Bootstrap to create a red alert box, commonly used to indicate danger or an error."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bootstrap CDN Usage",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is one primary advantage of using a CDN for Bootstrap's CSS and JavaScript?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases website security"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Allows offline access to Bootstrap"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Leads to faster loading times"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically updates Bootstrap"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a CDN allows many users to cache the files locally, leading to faster loading times when they visit your site."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Bootstrap Plugin Integration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice when using Bootstrap's JavaScript plugins?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the minified version of bootstrap.min.js for production"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Including both bootstrap.js and bootstrap.min.js in the same project"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Checking for plugin dependencies when including individual plugins"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using data attributes to initialize plugins in HTML"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Including both bootstrap.js and bootstrap.min.js in the same project is not recommended as it can lead to conflicts and redundancy."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bootstrap and jQuery Integration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct order of including JavaScript libraries in HTML when integrating Bootstrap with jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Include jQuery first, then Bootstrap's JavaScript files."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Include Bootstrap's JavaScript files first, then jQuery."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Include Bootstrap's CSS files first, then jQuery."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Order of inclusion does not matter."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To ensure proper functionality, jQuery must be loaded before Bootstrap's JavaScript files because Bootstrap's scripts depend on jQuery."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Customizing Bootstrap with Custom CSS",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How does custom CSS affect Bootstrap's default styling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It removes all default styles"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It overrides specific default styles"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It disables the Bootstrap framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It has no effect on default styles"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Custom CSS is used to override specific default styles of Bootstrap, allowing for customized visual presentation that suits the user's needs."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Customizing Bootstrap with Sass",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is one of the primary purposes of using Sass with Bootstrap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a multi-page website"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To modify Bootstrap's default styles"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To add new HTML tags"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To decrease the loading time of the website"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sass allows customization of Bootstrap\u2019s default settings, such as colors, fonts, and spacing, to better align with design requirements."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a standard Bootstrap grid system, what is the maximum number of columns that can be used within a single row?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "6"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap's grid system is based on a 12-column layout, allowing a maximum of 12 columns per row."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bootstrap with Modern JavaScript Frameworks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice when integrating Bootstrap with React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using react-bootstrap to replace Bootstrap\u2019s JavaScript"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Direct manipulation of the DOM using jQuery within React components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Importing Bootstrap CSS in the React application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Conditionally applying Bootstrap classes in React components"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Direct DOM manipulation with jQuery within React components is not recommended as it conflicts with React\u2019s virtual DOM and can lead to unpredictable behavior."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bootstrap and jQuery Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct sequence of script tags for integrating jQuery and Bootstrap in an HTML file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script src='jquery.js'></script><script src='bootstrap.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<script src='bootstrap.js'></script><script src='jquery.js'></script>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<script src='jquery.min.js'></script><script src='bootstrap.min.js'></script>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Order does not matter for script tags."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "jQuery must be loaded before Bootstrap's JavaScript files to ensure all jQuery methods are available to Bootstrap components."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Loading Order for Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating Bootstrap with jQuery, which script should be loaded first in the HTML file to ensure proper functionality?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap's JavaScript file"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "jQuery's script file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It does not matter which is loaded first"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CSS file of Bootstrap"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "jQuery's script file must be loaded before Bootstrap's JavaScript files to ensure that all jQuery functionalities are available to Bootstrap components."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bootstrap Customization Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method can be used to override the default styles of Bootstrap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using external JavaScript libraries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Applying additional Bootstrap classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using custom CSS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Modifying the source files directly"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using custom CSS is a widely recommended method to override the default styles of Bootstrap, as it allows developers to apply their specific design needs without altering the Bootstrap source files."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Bootstrap Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to clone the Bootstrap repository for local development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "git clone git@github.com:SinghLokesh02/Bootstrap.git"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "git pull origin Bootstrap"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "git fetch bootstrap_repo"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "git init Bootstrap"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to clone the Bootstrap repository is 'git clone git@github.com:SinghLokesh02/Bootstrap.git', as mentioned in the provided information."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bootstrap Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install Bootstrap via npm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm install bootstrap"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm get bootstrap"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm add bootstrap"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm bootstrap"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to install Bootstrap using npm is 'npm install bootstrap'. This command adds Bootstrap to the node_modules directory and also updates the package.json file accordingly."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Bootstrap and Modern JavaScript Frameworks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true when integrating Bootstrap with a modern JavaScript framework like React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap components should be converted to React components for proper integration."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bootstrap and React can be used independently in the same project without any integration."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "React components automatically recognize Bootstrap's JavaScript functionality."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bootstrap's JavaScript can manipulate React's virtual DOM directly."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For effective integration, Bootstrap components should be adapted into React components to fully leverage React's capabilities and maintain the component lifecycle."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Responsive Design in Bootstrap",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap class provides a responsive fixed-width container?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".container-fluid"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".container-fixed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".container"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".fixed-container"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .container class in Bootstrap provides a responsive fixed-width container, which means it adjusts its width for different screen sizes but maintains a max-width."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Customizing Bootstrap with Sass",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid way to customize Bootstrap using Sass?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Changing the default primary color variable."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly modifying the Bootstrap source CSS files."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Adjusting the spacing variables to alter grid gaps."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Overriding Bootstrap's mixins to create custom classes."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Directly modifying Bootstrap's source CSS files is not recommended as it can cause issues during updates and is not a standard practice for customization using Sass, which instead suggests modifying variables and using mixins."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bootstrap Grid Column Properties",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the total number of columns in the default Bootstrap grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "20"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap's grid system is based on a 12-column layout. This design allows for a wide range of flexible and responsive layouts."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Bootstrap and jQuery Integration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct sequence of including scripts when integrating Bootstrap with jQuery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Include jQuery script first, then Bootstrap JavaScript files."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Include Bootstrap JavaScript files first, then jQuery script."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Include Bootstrap CSS first, then jQuery script."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Order does not matter when including scripts."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "jQuery must be loaded before Bootstrap's JavaScript files because Bootstrap's JavaScript components depend on jQuery."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Bootstrap Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap component is essential for creating a responsive navigation bar that adjusts on different devices?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jumbotron"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Navbar"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Carousel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Modal"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Navbar component is designed for creating a responsive navigation header, which includes support for branding, navigation, and more, adjusting seamlessly across devices."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Sass Variables in Bootstrap",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using Sass variables in customizing Bootstrap themes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To directly modify the HTML structure"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the JavaScript functionality"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To customize the visual appearance of components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the loading speed of the website"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sass variables in Bootstrap are primarily used to customize the visual appearance of components, such as colors, fonts, and spacing, without altering the HTML structure or JavaScript functionality."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bootstrap Responsive Utilities",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class in Bootstrap makes an element visible only on large screens and above?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".visible-sm"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".hidden-lg"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".visible-lg"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".d-lg-none"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class '.visible-lg' is used to make an element visible only on large screens. It utilizes the specific breakpoints defined in Bootstrap's responsive design framework."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the Bootstrap grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To add JavaScript interactivity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage typography styles"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create responsive layouts"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance security features"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Bootstrap grid system is designed to create responsive page layouts. By using this system, developers can easily adjust their layouts for different screen sizes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of using the 'col-md-4' class in a Bootstrap grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To set the width of the column to 4% on medium or larger devices"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To distribute 4 columns equally on extra small devices"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a column that spans 4 out of 12 possible columns on medium or larger devices"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To hide the column on medium devices"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Bootstrap's grid system, 'col-md-4' creates a column that spans 4 out of the 12 possible columns per row on devices with medium-sized screens (desktops) or larger."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Custom CSS with Bootstrap",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS method is commonly used to override the default styles of Bootstrap components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using an external stylesheet linked after Bootstrap's CSS"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using inline styles directly in HTML elements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Editing the Bootstrap source files directly"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Importing Bootstrap inside custom stylesheets"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To effectively override the default styles of Bootstrap components, it's common to use an external stylesheet that is linked after Bootstrap's CSS. This ensures that your custom styles have higher specificity and are applied after Bootstrap's default styles."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'col-md-4' class in Bootstrap's grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It adjusts the number of columns to four on medium-sized devices."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It spans the element across four columns on medium-sized devices."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It hides the element on medium-sized devices."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It creates four equally spaced columns on all device sizes."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'col-md-4' class in Bootstrap is used to make an element span four columns in the grid system specifically on medium-sized devices or larger, ensuring responsive layout structure."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'col-md-4' class in Bootstrap's grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To adjust the column width to 4% of its parent element on medium-sized devices"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To set the column width to auto on medium-sized devices"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a column that spans 4 columns of the grid on medium-sized devices"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To hide the element on medium-sized devices"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class 'col-md-4' is used to make a column that spans 4 out of the total 12 columns in the grid system on devices with widths equal to or greater than 768px (considered medium-sized devices)."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bootstrap Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the initial step to start using Bootstrap in your project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Download Bootstrap from the official website"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Configure your server to support Bootstrap"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Write the Bootstrap code from scratch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Purchase a Bootstrap license"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To start using Bootstrap, the initial step is to download it from the official Bootstrap website. This provides you with all necessary files."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Sass Variables Customization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common customization that can be achieved using Sass variables in Bootstrap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Changing the primary color"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Adjusting the grid layout breakpoints"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Modifying the default font size"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Altering the HTTP request methods"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTTP request methods are not related to visual styling and cannot be customized using Sass variables in Bootstrap. Sass variables are typically used for styling purposes such as colors, fonts, and layout adjustments."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Responsive Breakpoints in Bootstrap 5",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap 5 class is used to ensure a container is always 100% width, regardless of the viewport size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".container-fluid"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".container-fixed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".container-sm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".container-lg"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .container-fluid class in Bootstrap 5 ensures that the container width is always 100%, adapting to the width of every viewport size."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Optimizing Bootstrap Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is an effective strategy for optimizing the performance of a Bootstrap-based website?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adding more JavaScript plugins to enhance functionality."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing browser caching and minifying CSS files."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increasing the use of custom CSS rules over Sass variables."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Expanding the number of Sass variables and mixins used."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing browser caching and minifying CSS files are proven methods to improve loading times and performance, in contrast to adding more plugins or custom rules which may increase the load and complexity."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Bootstrap and JavaScript Frameworks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice when integrating Bootstrap with modern JavaScript frameworks like React, Angular, or Vue.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using Bootstrap\u2019s JavaScript components directly within JavaScript frameworks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensuring that Bootstrap\u2019s CSS is loaded before any JavaScript framework library"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using specialized packages like React-Bootstrap for integration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Maintaining separate state management for Bootstrap components and JavaScript framework components"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Directly using Bootstrap\u2019s JavaScript components within frameworks like React, Angular, or Vue.js is not recommended as it can lead to conflicts and issues with the virtual DOM used by these frameworks."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Bootstrap and Modern JavaScript Frameworks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true when integrating Bootstrap with modern JavaScript frameworks like React, Angular, or Vue.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap completely replaces the need for JavaScript frameworks."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bootstrap and JavaScript frameworks cannot be used together."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bootstrap enhances the UI components while JavaScript frameworks manage the application logic."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "You must modify Bootstrap's core files to work with JavaScript frameworks."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap can be integrated with JavaScript frameworks to enhance the UI components, while the frameworks handle dynamic data and application logic, complementing each other's capabilities."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Using Sass Variables for Customization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method for setting the primary color in Bootstrap using Sass variables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$primary: #ff5733;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "primary-color: #ff5733;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "set-primary(#ff5733);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$color-primary: #ff5733;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, variables are defined using a dollar sign followed by the variable name. Therefore, to set the primary color, you should use $primary: #ff5733;."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Custom CSS in Bootstrap",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of adding custom CSS in Bootstrap projects?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To override the default Bootstrap styles"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the loading time of web pages"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To disable responsiveness of the Bootstrap grid"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the number of HTTP requests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of adding custom CSS in Bootstrap projects is to override the default Bootstrap styles, allowing for customization and personalization of the design to better fit the specific needs of the project."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'container' class in Bootstrap's grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To activate the Bootstrap JavaScript components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To establish a flexbox container"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To set up a responsive fixed-width container"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To create a new row in the grid system"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'container' class in Bootstrap's grid system is used to set up a responsive fixed-width container which adjusts itself according to the screen size."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the container class in Bootstrap's grid system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To clear floats"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To add background colors"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initialize the grid system"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To set the font size"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'container' class in Bootstrap is used to initialize the grid system. It provides a means to center and horizontally pad your site\u2019s contents. You can use 'container' for a responsive fixed width or 'container-fluid' for full width."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bootstrap Installation and Setup",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command correctly initializes a new project with Bootstrap installed via npm, assuming npm is already installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm install bootstrap --save"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm start bootstrap"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "bootstrap init"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "install bootstrap"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'npm install bootstrap --save' correctly installs Bootstrap into your project's node_modules directory and saves it as a dependency in your project's package.json file."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bootstrap Grid System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a standard 12-column Bootstrap grid, what is the maximum number of .col-xs-4 elements that can be included in a single row without wrapping if the viewport is extra small (i.e., less than 576px)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "6"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Each .col-xs-4 column uses 4 out of the 12 available grid columns. Therefore, a maximum of 3 such columns (4*3=12) can fit in a single row without wrapping."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Sass Variables Customization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When customizing the Bootstrap theme using Sass, which variable would you modify to change the default font size across the theme?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$font-size-base"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$base-font-size"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$default-font-size"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$typography-size-base"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable $font-size-base in Bootstrap's Sass files is used to set the default font size for the entire theme, which is inherited by all text elements unless overridden by more specific styles."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Bootstrap and jQuery Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct sequence of script tags for integrating jQuery and Bootstrap's JavaScript files in an HTML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<script src='jquery.js'></script>\n<script src='bootstrap.js'></script>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<script src='bootstrap.js'></script>\n<script src='jquery.js'></script>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<script src='jquery.min.js'></script>\n<script src='bootstrap.min.js'></script>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<script src='bootstrap.min.js'></script>\n<script src='jquery.min.js'></script>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "jQuery must be loaded before Bootstrap's JavaScript file because Bootstrap's scripts depend on jQuery. Therefore, the jQuery script tag should come first."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Grid Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a complex Bootstrap 5 grid system, if a developer uses a nested grid structure with rows inside columns, how should the inner row be configured to ensure proper alignment and spacing with its siblings in the outer grid?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The inner row should have its own set of .col classes defined."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The inner row must inherit the .col setting from its parent column."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The inner row should have the .no-gutters class to remove spacing."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The inner row should have the .row class and contain its own columns."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The inner row should have the .row class and contain its own columns to maintain consistent grid structure and spacing, independent of the outer grid."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Bootstrap Components Customization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When customizing a Bootstrap Modal component, which class is crucial for enabling the background to fade in and out?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".modal-content"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".modal-backdrop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".fade"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".modal-transition"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .fade class is specifically used in Bootstrap to handle the fading transitions for modals, which includes making the background fade in and out during the modal's toggling process."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Responsive Breakpoints in Bootstrap",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Bootstrap class should be used to ensure that a div only becomes a flex container on small (sm) and larger screens, and remains block-level on extra small (xs) screens?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "d-flex"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "d-block d-sm-flex"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "flex-sm-block"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "d-sm-flex"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The class 'd-block d-sm-flex' correctly sets the div to be a block-level element on xs screens and turns it into a flex container starting from sm screens."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Component Customization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Bootstrap theming, what is the best practice for adding a new completely custom component that does not exist in Bootstrap's default set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Modify an existing Bootstrap component to create a new one"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use only CSS to style new HTML elements without using Sass"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Extend Bootstrap's existing components using Sass mixins and include your own HTML structure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoid creating new components and only use what is available"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The best practice for adding completely new custom components involves using Sass mixins to extend Bootstrap's existing components. This approach leverages the power of Sass while maintaining consistency with Bootstrap's design principles."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Sass Variables Customization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What Sass variable would you modify to change the default padding for all button components in a Bootstrap theme?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$btn-padding"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$btn-margin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$padding-base"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$component-padding"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To change the padding for all button components, the $btn-padding Sass variable should be modified. This variable directly controls the padding applied to buttons in Bootstrap's CSS."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bootstrap and jQuery Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating Bootstrap with jQuery, what is the correct order of including the scripts in the HTML file to avoid conflicts?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1. Bootstrap JavaScript, 2. jQuery"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1. jQuery, 2. Bootstrap JavaScript"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1. jQuery, 2. Bootstrap CSS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1. Bootstrap CSS, 2. jQuery"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To avoid conflicts and ensure proper functionality, jQuery must be loaded before Bootstrap's JavaScript files. This order allows Bootstrap to utilize jQuery's features effectively."
+      }
+    ]
+  }
+  ]
+}

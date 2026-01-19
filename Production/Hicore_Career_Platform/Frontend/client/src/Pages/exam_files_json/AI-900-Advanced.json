@@ -1,0 +1,1140 @@
+[
+  {
+    "id": 1,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A company wants an AI model that can reason over multiple data types, such as text, images, and tables. Which approach is most aligned with advanced AI workloads?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Multimodal AI models" },
+      { "label": "B", "type": "text", "value": "Traditional rule-based systems" },
+      { "label": "C", "type": "text", "value": "Single-variable regression" },
+      { "label": "D", "type": "text", "value": "Basic keyword matching" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Multimodal AI models process multiple data types simultaneously, enabling complex tasks like image-caption reasoning." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which AI concept focuses on enabling models to explain their predictions in regulated industries such as banking?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Explainable AI (XAI)" },
+      { "label": "B", "type": "text", "value": "Reinforcement learning" },
+      { "label": "C", "type": "text", "value": "Hyperparameter tuning" },
+      { "label": "D", "type": "text", "value": "Data augmentation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "XAI provides model interpretability, essential for auditing AI decisions." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A model performs exceptionally well on test data but fails in production due to distribution changes. This issue is known as:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data drift" },
+      { "label": "B", "type": "text", "value": "Regularization" },
+      { "label": "C", "type": "text", "value": "Feature scaling" },
+      { "label": "D", "type": "text", "value": "Noise tolerance" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Data drift occurs when real-world data changes from training distribution, affecting model performance." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which evaluation technique is most appropriate for imbalanced datasets with a rare positive class?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Precision-Recall AUC" },
+      { "label": "B", "type": "text", "value": "Overall accuracy only" },
+      { "label": "C", "type": "text", "value": "R-squared" },
+      { "label": "D", "type": "text", "value": "Mean Absolute Error" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PR-AUC evaluates performance on rare positive classes more effectively than accuracy." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "ML Types",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A self-driving car system that learns optimal driving policy from rewards uses which ML paradigm?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reinforcement Learning (RL)" },
+      { "label": "B", "type": "text", "value": "Unsupervised PCA" },
+      { "label": "C", "type": "text", "value": "Linear regression" },
+      { "label": "D", "type": "text", "value": "Clustering" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RL learns through trial-and-error via reward feedback." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "ML Types",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which ML approach is best suited for detecting previously unseen cyberattacks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Unsupervised anomaly detection" },
+      { "label": "B", "type": "text", "value": "Binary classification only" },
+      { "label": "C", "type": "text", "value": "Time-series decomposition" },
+      { "label": "D", "type": "text", "value": "Transfer learning" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Unsupervised anomaly detection identifies unknown attack patterns without labels." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A hospital needs a custom model that identifies tumors on MRI scans using bounding boxes. Which Azure service should they use?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Custom Vision – Object Detection" },
+      { "label": "B", "type": "text", "value": "Read OCR" },
+      { "label": "C", "type": "text", "value": "Face API" },
+      { "label": "D", "type": "text", "value": "Form Recognizer" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom Vision’s object detection model enables medical bounding-box classification." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which advanced capability does Form Recognizer provide that OCR alone cannot?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Extracting structured key-value pairs and tables from documents" },
+      { "label": "B", "type": "text", "value": "Translating spoken sentences" },
+      { "label": "C", "type": "text", "value": "Recognizing facial emotions" },
+      { "label": "D", "type": "text", "value": "Classifying images into labels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Form Recognizer extracts semantic structure beyond text." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which scenario requires custom classification models instead of Text Analytics built-in models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classifying internal company-specific terminology" },
+      { "label": "B", "type": "text", "value": "Detecting sentiment from tweets" },
+      { "label": "C", "type": "text", "value": "Extracting key phrases" },
+      { "label": "D", "type": "text", "value": "Detecting language" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom classification is needed when domain vocabulary is highly specialized." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A multilingual customer support system must extract intents across 15 languages. Which Azure service combination is optimal?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Translator → LUIS / Conversational Language Understanding" },
+      { "label": "B", "type": "text", "value": "OCR → Face API" },
+      { "label": "C", "type": "text", "value": "Speech-to-Text only" },
+      { "label": "D", "type": "text", "value": "Form Recognizer only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipeline: translation first → intent understanding next." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A call center needs sentiment and entity extraction on live phone calls. Which pipeline is required?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Speech-to-Text → Text Analytics → Insights extraction" },
+      { "label": "B", "type": "text", "value": "OCR → Key Phrase Extraction" },
+      { "label": "C", "type": "text", "value": "LUIS → Face API" },
+      { "label": "D", "type": "text", "value": "Text-to-Speech → Form Recognizer" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Speech becomes text → NLP extracts sentiments, entities, and call insights." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Neural TTS voices require which Azure capability for customizing a company's brand voice?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Custom Neural Voice training" },
+      { "label": "B", "type": "text", "value": "Form Recognizer layout model" },
+      { "label": "C", "type": "text", "value": "Face attribute detection" },
+      { "label": "D", "type": "text", "value": "Key phrase extraction" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom Neural Voice trains a unique synthetic voice from recordings." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A bot must dynamically respond to changing product prices, stock details, and real-time data. Which component ensures this?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Custom backend APIs integrated with Azure Bot Service" },
+      { "label": "B", "type": "text", "value": "Static QnA Maker database only" },
+      { "label": "C", "type": "text", "value": "Face recognition services" },
+      { "label": "D", "type": "text", "value": "Image tagging API" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dynamic content requires APIs, not static QnA databases." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A chatbot must understand long multi-sentence queries. Which Azure feature helps solve this?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Conversational Language Understanding (CLU)" },
+      { "label": "B", "type": "text", "value": "Image segmentation" },
+      { "label": "C", "type": "text", "value": "Filtering by IP address" },
+      { "label": "D", "type": "text", "value": "OCR layout extraction" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU handles multi-turn and multi-sentence language inputs." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which technique helps mitigate bias by balancing representation during training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data resampling (oversampling/undersampling)" },
+      { "label": "B", "type": "text", "value": "Reducing CPU usage" },
+      { "label": "C", "type": "text", "value": "Encrypting predictions" },
+      { "label": "D", "type": "text", "value": "Deleting model logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Data balancing reduces bias from uneven class distributions." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which Responsible AI principle addresses the risk of harmful automation without human supervision?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Human oversight and accountability" },
+      { "label": "B", "type": "text", "value": "Data compression" },
+      { "label": "C", "type": "text", "value": "Neural architecture search" },
+      { "label": "D", "type": "text", "value": "Model ensembling" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Human-in-the-loop governance prevents harmful autonomous decisions." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A team needs to orchestrate data prep, training, validation, and deployment automatically. Which Azure ML capability is best suited?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure ML Pipelines" },
+      { "label": "B", "type": "text", "value": "Azure DNS" },
+      { "label": "C", "type": "text", "value": "Azure Monitor Alerts" },
+      { "label": "D", "type": "text", "value": "Blob Archive Storage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipelines automate multi-stage ML workflows." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "To deploy a high-traffic, globally distributed ML API, which Azure service is ideal?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Kubernetes Service (AKS)" },
+      { "label": "B", "type": "text", "value": "Azure Container Instances (ACI)" },
+      { "label": "C", "type": "text", "value": "Local GPU workstations" },
+      { "label": "D", "type": "text", "value": "Device IoT Hub" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AKS offers auto-scaling, load balancing, and container orchestration ideal for production ML." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which ML technique is best for forecasting long-term energy consumption trends?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Time-series forecasting models (ARIMA, Prophet, RNNs)" },
+      { "label": "B", "type": "text", "value": "Image segmentation" },
+      { "label": "C", "type": "text", "value": "Speech synthesis models" },
+      { "label": "D", "type": "text", "value": "Face recognition models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Forecasting requires time-series-based ML methods." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A banking system needs to explain why a loan application was rejected. Which approach helps generate interpretable reasoning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Explainable AI (XAI) with feature importance tools" },
+      { "label": "B", "type": "text", "value": "Random guessing" },
+      { "label": "C", "type": "text", "value": "Image tagging" },
+      { "label": "D", "type": "text", "value": "OCR layout detection" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "XAI tools show which features influenced the decision." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A global e-commerce platform wants to personalize recommendations for each user in real time using their browsing behavior. Which AI approach is most appropriate?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reinforcement learning-based recommender systems" },
+      { "label": "B", "type": "text", "value": "Static rule-based filtering" },
+      { "label": "C", "type": "text", "value": "Basic clustering" },
+      { "label": "D", "type": "text", "value": "Batch processing with no real-time inference" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RL recommenders adapt recommendations dynamically based on user interactions." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which AI challenge occurs when a model trained on synthetic data fails to generalize to real-world scenarios?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Domain shift" },
+      { "label": "B", "type": "text", "value": "Underfitting" },
+      { "label": "C", "type": "text", "value": "Normalization error" },
+      { "label": "D", "type": "text", "value": "Tokenization mismatch" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Synthetic training data may not match real distributions, leading to domain shift." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which technique helps diagnose whether a model’s poor performance is due to insufficient data or inadequate model complexity?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Learning curves analysis" },
+      { "label": "B", "type": "text", "value": "Random data deletion" },
+      { "label": "C", "type": "text", "value": "Manual file compression" },
+      { "label": "D", "type": "text", "value": "Hardware scaling only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Learning curves reveal whether more data or a more complex model is required." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A fraud detection model requires optimizing threshold values due to severe class imbalance. Which evaluation metric is best for threshold tuning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Precision-Recall Curve" },
+      { "label": "B", "type": "text", "value": "Overall accuracy" },
+      { "label": "C", "type": "text", "value": "Mean squared error" },
+      { "label": "D", "type": "text", "value": "BLEU score" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PR curves reflect performance on rare positive events like fraud cases." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "ML Types",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which ML paradigm is ideal for optimizing warehouse robot movement to minimize travel distance across time?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reinforcement learning with reward optimization" },
+      { "label": "B", "type": "text", "value": "Linear regression forecasting" },
+      { "label": "C", "type": "text", "value": "Unsupervised clustering" },
+      { "label": "D", "type": "text", "value": "Simple rule-based navigation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RL can optimize sequential decision processes like robot pathing." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "ML Types",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Transfer learning is particularly useful when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training data is limited but a pre-trained model exists" },
+      { "label": "B", "type": "text", "value": "You need to create synthetic audio" },
+      { "label": "C", "type": "text", "value": "Data is perfectly balanced" },
+      { "label": "D", "type": "text", "value": "You want to build a model without data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Transfer learning leverages pre-trained model knowledge for data-scarce tasks." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Custom Vision performance degrades due to poorly lit images. Which technique helps improve model accuracy?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data augmentation with brightness and contrast variations" },
+      { "label": "B", "type": "text", "value": "Removing half of the dataset" },
+      { "label": "C", "type": "text", "value": "Lowering image resolution drastically" },
+      { "label": "D", "type": "text", "value": "Using only grayscale images" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Augmentation helps improve robustness to lighting variations." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Form Recognizer’s custom models outperform prebuilt models when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Document layout is unique to a specific organization" },
+      { "label": "B", "type": "text", "value": "The documents follow standard invoice formats" },
+      { "label": "C", "type": "text", "value": "Handwriting is not needed" },
+      { "label": "D", "type": "text", "value": "Only language translation is required" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom models excel when documents are domain-specific or unique." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Text Analytics misclassifies sentiment due to sarcasm and nuanced language. Which solution improves accuracy?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training a custom sentiment model using domain examples" },
+      { "label": "B", "type": "text", "value": "Increasing character limits" },
+      { "label": "C", "type": "text", "value": "Adding punctuation marks" },
+      { "label": "D", "type": "text", "value": "Removing stop words only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom models better understand domain-specific linguistic nuances." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A business wants to summarize long policy documents automatically. Which Azure service is optimal?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Cognitive Service for Language – Text Summarization" },
+      { "label": "B", "type": "text", "value": "Computer Vision tagging" },
+      { "label": "C", "type": "text", "value": "Speech Synthesis" },
+      { "label": "D", "type": "text", "value": "Face API" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Text summarization condenses lengthy documents effectively." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which factor most improves speech-to-text accuracy in a noisy factory environment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Acoustic model adaptation using domain-specific audio samples" },
+      { "label": "B", "type": "text", "value": "Reducing cloud region size" },
+      { "label": "C", "type": "text", "value": "Increasing video resolution" },
+      { "label": "D", "type": "text", "value": "Using the built-in generic model only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Acoustic adaptation trains models to handle noise patterns." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A multilingual voice assistant must recognize speech in 50+ languages. Which Azure approach is best?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use Azure Speech multilingual models with optional custom language adaptation" },
+      { "label": "B", "type": "text", "value": "Use only Form Recognizer" },
+      { "label": "C", "type": "text", "value": "Filter microphones only" },
+      { "label": "D", "type": "text", "value": "Use QnA Maker exclusively" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure Speech supports multilingual recognition with optional tuning." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A chatbot must handle multi-turn conversations with context retention. Which Azure feature supports this capability?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Conversational Language Understanding with context variables" },
+      { "label": "B", "type": "text", "value": "OCR with layout API" },
+      { "label": "C", "type": "text", "value": "Image tagging only" },
+      { "label": "D", "type": "text", "value": "Azure Maps routing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU can maintain and utilize multi-turn context." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which architecture enables a chatbot to access external databases, perform calculations, and return dynamic responses?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure Bot Service + Azure Functions + REST APIs" },
+      { "label": "B", "type": "text", "value": "Face API only" },
+      { "label": "C", "type": "text", "value": "Static HTML chatbot" },
+      { "label": "D", "type": "text", "value": "Form Recognizer only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "A backend integration enables dynamic data-driven conversations." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "To ensure fairness, an AI hiring model must be evaluated against demographic subgroups. This process is known as:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bias auditing" },
+      { "label": "B", "type": "text", "value": "Data compression" },
+      { "label": "C", "type": "text", "value": "Chronological validation" },
+      { "label": "D", "type": "text", "value": "Random sampling" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Bias audits measure fairness across sensitive groups." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which process ensures that users can understand and trust AI model decisions in high-stakes environments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Explainability and transparent model reporting" },
+      { "label": "B", "type": "text", "value": "Increasing GPU count" },
+      { "label": "C", "type": "text", "value": "Removing logs" },
+      { "label": "D", "type": "text", "value": "Using black-box deep learning only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Explainability enables regulatory compliance and user trust." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A model requires distributed training across multiple GPUs. Which Azure ML compute target supports this workload?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure ML GPU-optimized Compute Clusters" },
+      { "label": "B", "type": "text", "value": "Container Instances only" },
+      { "label": "C", "type": "text", "value": "Azure Web Apps" },
+      { "label": "D", "type": "text", "value": "Face API backend" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GPU clusters enable large-scale distributed ML training." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which Azure ML capability ensures reproducibility and traceability across experiments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Experiment tracking and model versioning" },
+      { "label": "B", "type": "text", "value": "Static checkpoints only" },
+      { "label": "C", "type": "text", "value": "Image tagging" },
+      { "label": "D", "type": "text", "value": "DNS load balancing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Tracking and versioning ensure consistent ML governance." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A power grid monitoring system must detect anomalies in real time from multiple sensors. Which ML approach is optimal?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Streaming anomaly detection models" },
+      { "label": "B", "type": "text", "value": "Offline batch models updated monthly" },
+      { "label": "C", "type": "text", "value": "Simple image classifier" },
+      { "label": "D", "type": "text", "value": "QnA Maker knowledge base" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Streaming ML supports real-time anomaly detection on sensor data." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which advanced AI technique enables generating synthetic training data for rare scenarios, such as vehicle collisions?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Generative Adversarial Networks (GANs)" },
+      { "label": "B", "type": "text", "value": "Linear regression" },
+      { "label": "C", "type": "text", "value": "Histogram analysis" },
+      { "label": "D", "type": "text", "value": "Basic clustering" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GANs generate realistic synthetic data for rare events." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which scenario best demonstrates concept drift affecting an ML model?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A retail demand forecast model becomes inaccurate due to sudden market behavior changes" },
+      { "label": "B", "type": "text", "value": "A model fails because the server is offline" },
+      { "label": "C", "type": "text", "value": "A dataset contains handwritten text" },
+      { "label": "D", "type": "text", "value": "A model predicts with high accuracy on synthetic data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Concept drift occurs when real-world patterns change over time, reducing model accuracy." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is model explainability critical for AI systems in regulated industries like healthcare?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps auditors understand how decisions are made, improving transparency and trust" },
+      { "label": "B", "type": "text", "value": "It improves GPU usage" },
+      { "label": "C", "type": "text", "value": "It increases model size" },
+      { "label": "D", "type": "text", "value": "It guarantees zero bias" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regulated industries require clarity regarding model decision processes." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which technique helps diagnose a model suffering from high variance?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Regularization (L1/L2)" },
+      { "label": "B", "type": "text", "value": "Increasing learning rate drastically" },
+      { "label": "C", "type": "text", "value": "Removing all features" },
+      { "label": "D", "type": "text", "value": "Using only training accuracy" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regularization prevents overfitting by penalizing overly complex models." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "ML Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A model predicts perfectly for one region but poorly for others. Which issue must be investigated?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data representational bias across locations" },
+      { "label": "B", "type": "text", "value": "Network bandwidth" },
+      { "label": "C", "type": "text", "value": "Image file resolution" },
+      { "label": "D", "type": "text", "value": "Model checkpoint format" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Uneven training data representation causes performance differences across subgroups." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "You must detect handwritten values on documents with inconsistent layouts. Which Azure combination is most effective?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Form Recognizer custom model + Read OCR" },
+      { "label": "B", "type": "text", "value": "Face API only" },
+      { "label": "C", "type": "text", "value": "Image captioning API" },
+      { "label": "D", "type": "text", "value": "Video Indexer only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom FR models + OCR extraction handle variable layouts well." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Vision Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Computer Vision's object detection model is failing on very small objects in high-resolution images. Which adjustment improves results?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Increase image resolution and use tighter bounding box labels during training" },
+      { "label": "B", "type": "text", "value": "Reduce training data size only" },
+      { "label": "C", "type": "text", "value": "Train only on grayscale images" },
+      { "label": "D", "type": "text", "value": "Disable bounding box annotations" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Small object detection improves with high resolution and accurate labeling." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A legal firm needs to extract clause types and legal obligations from long documents. Which Azure approach is best?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Custom classification and custom NER models in Azure Language" },
+      { "label": "B", "type": "text", "value": "Basic key phrase extraction only" },
+      { "label": "C", "type": "text", "value": "Speech-to-Text followed by translation" },
+      { "label": "D", "type": "text", "value": "Form Recognizer prebuilt invoice model" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Domain-specific legal clause extraction requires custom NLP training." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "NLP Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A company’s NER model misidentifies chemical names and formulas. What is the best improvement method?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Train a custom NER model with domain-specific labeled examples" },
+      { "label": "B", "type": "text", "value": "Reduce training epochs" },
+      { "label": "C", "type": "text", "value": "Add more stop words" },
+      { "label": "D", "type": "text", "value": "Disable tokenization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Chemical NER requires specialized domain-labeled data." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why might a speech recognition model fail to accurately process accented speakers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Lack of accent-specific acoustic training data" },
+      { "label": "B", "type": "text", "value": "Microphone uses USB-C" },
+      { "label": "C", "type": "text", "value": "Text is too long" },
+      { "label": "D", "type": "text", "value": "Language detection is disabled" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Models struggle when accents are missing from training data." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Speech Services",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which solution helps improve real-time transcription in noisy multi-speaker environments like conferences?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Diarization + noise-robust acoustic models" },
+      { "label": "B", "type": "text", "value": "Form Recognizer OCR scanning" },
+      { "label": "C", "type": "text", "value": "Face recognition" },
+      { "label": "D", "type": "text", "value": "Increase screen brightness" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Diarization identifies speakers; robust acoustic models handle noise." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A customer support bot must escalate certain queries to a human agent when uncertainty is high. This process is known as:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Human-in-the-loop escalation" },
+      { "label": "B", "type": "text", "value": "Speech routing" },
+      { "label": "C", "type": "text", "value": "Form-based routing" },
+      { "label": "D", "type": "text", "value": "DNS delegation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Human oversight ensures safe handling of uncertain predictions." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Conversational AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which improvement is required when a chatbot fails to understand long, multi-step user inputs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use CLU with deep language understanding and context handling" },
+      { "label": "B", "type": "text", "value": "Add more emojis" },
+      { "label": "C", "type": "text", "value": "Disable intent classification" },
+      { "label": "D", "type": "text", "value": "Use OCR instead" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU supports multi-sentence reasoning and context retention." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which technique helps mitigate fairness issues caused by unbalanced demographic representation?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Balanced re-weighting or oversampling of minority groups" },
+      { "label": "B", "type": "text", "value": "Reducing dataset by 90%" },
+      { "label": "C", "type": "text", "value": "Encrypting training data only" },
+      { "label": "D", "type": "text", "value": "Avoiding validation steps" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Fairness is improved when underrepresented groups are properly weighted." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Responsible AI",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "A hospital must ensure that AI diagnostic models do not discriminate across age groups. What procedure is required?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Fairness evaluation across sub-populations" },
+      { "label": "B", "type": "text", "value": "Disabling model logging" },
+      { "label": "C", "type": "text", "value": "Reducing image resolution" },
+      { "label": "D", "type": "text", "value": "Random parameter updates" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Fairness evaluations detect subgroup discrimination." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Why is model monitoring essential after deploying an ML model to production?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To detect data drift, performance decline, and anomalies in real-time" },
+      { "label": "B", "type": "text", "value": "To increase storage billing" },
+      { "label": "C", "type": "text", "value": "To archive data indefinitely" },
+      { "label": "D", "type": "text", "value": "To reduce inference latency automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Monitoring identifies drift and ensures long-term model health." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Azure Machine Learning",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which Azure ML feature allows running large-scale hyperparameter tuning experiments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "HyperDrive" },
+      { "label": "B", "type": "text", "value": "Container Instances" },
+      { "label": "C", "type": "text", "value": "Static websites" },
+      { "label": "D", "type": "text", "value": "Blob Storage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "HyperDrive automates large-scale tuning of ML models." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Predicting equipment failure based on sensor vibrations and temperature changes is typically solved using:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Time-series anomaly detection or predictive maintenance models" },
+      { "label": "B", "type": "text", "value": "Image captioning" },
+      { "label": "C", "type": "text", "value": "Face recognition" },
+      { "label": "D", "type": "text", "value": "Static rule-based systems only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Predictive maintenance uses sensor-based ML forecasting." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "AI Use Cases",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which ML technique helps reduce false positives in a cybersecurity intrusion detection model?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Semi-supervised learning combining labeled and unlabeled data" },
+      { "label": "B", "type": "text", "value": "Removing all training labels" },
+      { "label": "C", "type": "text", "value": "Lowering inference batch size" },
+      { "label": "D", "type": "text", "value": "Random sampling only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semi-supervised ML improves detection quality when labeled attack data is limited." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Which advanced technique helps ensure models remain robust when exposed to adversarial attacks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Adversarial training" },
+      { "label": "B", "type": "text", "value": "Random weight guessing" },
+      { "label": "C", "type": "text", "value": "File compression" },
+      { "label": "D", "type": "text", "value": "Hard-coding predictions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Adversarial training strengthens models against perturbation attacks." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "AI Concepts",
+    "difficulty": "advanced",
+    "question": [
+      { "type": "text", "value": "Advanced AI on Azure emphasizes which key capability for enterprise-scale deployments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Scalable, explainable, monitored, and secure AI systems" },
+      { "label": "B", "type": "text", "value": "Fully offline static models" },
+      { "label": "C", "type": "text", "value": "Manual rule-based coding only" },
+      { "label": "D", "type": "text", "value": "AI models without any governance" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Enterprise AI must emphasize scalability, trustworthiness, monitoring, and governance." }
+    ]
+  }
+]
+

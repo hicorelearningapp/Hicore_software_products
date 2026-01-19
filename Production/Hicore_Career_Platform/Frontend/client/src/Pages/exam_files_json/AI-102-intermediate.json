@@ -1,0 +1,1140 @@
+[
+  {
+    "id": 1,
+    "topic": "Azure AI Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you choose a multi-service Cognitive Services resource instead of multiple single-service resources?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Easier key management and centralized billing" },
+      { "label": "B", "type": "text", "value": "It improves image resolution" },
+      { "label": "C", "type": "text", "value": "It reduces memory usage for applications" },
+      { "label": "D", "type": "text", "value": "It automatically trains custom models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Multi-service resources simplify authentication and cost tracking across AI APIs." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "Azure AI Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which feature allows Cognitive Services to be deployed on-premises or inside private networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cognitive Services containers" },
+      { "label": "B", "type": "text", "value": "Azure App Configuration" },
+      { "label": "C", "type": "text", "value": "Azure Synapse pipelines" },
+      { "label": "D", "type": "text", "value": "Azure VPN Gateway" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AI containers allow offline and private deployments for compliance." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "Computer Vision",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which scenario requires Custom Vision instead of the Computer Vision tagging API?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classifying industry-specific product images" },
+      { "label": "B", "type": "text", "value": "Reading printed text in images" },
+      { "label": "C", "type": "text", "value": "Detecting common objects like buildings" },
+      { "label": "D", "type": "text", "value": "Extracting image metadata only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom Vision is used for domain-specific image classification." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "Computer Vision",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why might Custom Vision object detection produce inconsistent results?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bounding boxes were labeled inaccurately" },
+      { "label": "B", "type": "text", "value": "Images were too large in file size" },
+      { "label": "C", "type": "text", "value": "Training was done during off-peak hours" },
+      { "label": "D", "type": "text", "value": "Tags used uppercase letters" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Accurate bounding box labeling is essential for consistent detection." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Form Recognizer",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "When should you use a custom Form Recognizer model instead of a prebuilt one?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "When document layouts are unique or domain-specific" },
+      { "label": "B", "type": "text", "value": "When scanning barcodes only" },
+      { "label": "C", "type": "text", "value": "When you need to resize PDF files" },
+      { "label": "D", "type": "text", "value": "When analyzing common receipts" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom models are required for non-standard or organization-specific formats." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Form Recognizer",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which feature in Form Recognizer extracts tables from documents?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Layout API" },
+      { "label": "B", "type": "text", "value": "Key phrase extraction" },
+      { "label": "C", "type": "text", "value": "Intent classifier" },
+      { "label": "D", "type": "text", "value": "Optical flow analysis" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Layout API captures structure like tables and lines." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Language Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is key phrase extraction useful for analyzing user feedback?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It identifies important topics within the text" },
+      { "label": "B", "type": "text", "value": "It extracts entities only" },
+      { "label": "C", "type": "text", "value": "It translates feedback automatically" },
+      { "label": "D", "type": "text", "value": "It classifies images in feedback forms" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Key phrases give quick insight into main concerns or themes." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Language Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which is a correct use case for Azure Text Analytics for Health?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Extracting medical terms and relationships from clinical text" },
+      { "label": "B", "type": "text", "value": "Detecting objects in X-ray images" },
+      { "label": "C", "type": "text", "value": "Analyzing stock market trends" },
+      { "label": "D", "type": "text", "value": "Rendering audio waveforms" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Text Analytics for Health specializes in medical terminology." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Speech Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you create a custom speech model instead of using the standard Speech-to-Text model?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To improve recognition for domain-specific vocabulary or accents" },
+      { "label": "B", "type": "text", "value": "To reduce the size of audio files" },
+      { "label": "C", "type": "text", "value": "To automatically translate audio" },
+      { "label": "D", "type": "text", "value": "To generate 3D sound effects" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Custom models are trained on domain audio to improve transcription accuracy." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "Speech Services",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which factor most affects speech recognition accuracy in noisy environments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Quality and clarity of the input audio" },
+      { "label": "B", "type": "text", "value": "Number of installed fonts" },
+      { "label": "C", "type": "text", "value": "API call time" },
+      { "label": "D", "type": "text", "value": "Network subnet size" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Clean audio improves STT accuracy significantly." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Conversational AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which component of a chatbot defines how it handles user input step-by-step?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Dialog flow" },
+      { "label": "B", "type": "text", "value": "Blob trigger" },
+      { "label": "C", "type": "text", "value": "Azure Backup" },
+      { "label": "D", "type": "text", "value": "Route table" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dialogs determine conversational flow and logic." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Conversational AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "In Conversational Language Understanding (CLU), what is a 'labelled utterance'?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A training example with tagged intent and entities" },
+      { "label": "B", "type": "text", "value": "A transcription error" },
+      { "label": "C", "type": "text", "value": "A chat log summary" },
+      { "label": "D", "type": "text", "value": "A search index row" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CLU uses labeled examples to learn intent classification." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "Azure OpenAI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which feature improves Azure OpenAI response consistency for repeated prompts?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Lowering temperature" },
+      { "label": "B", "type": "text", "value": "Increasing image resolution" },
+      { "label": "C", "type": "text", "value": "Disabling embeddings" },
+      { "label": "D", "type": "text", "value": "Using a VM with more RAM" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Low temperature gives deterministic answers." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Azure OpenAI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Embeddings are most useful for which AI scenario?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Semantic search and similarity matching" },
+      { "label": "B", "type": "text", "value": "Image compression" },
+      { "label": "C", "type": "text", "value": "Audio recording" },
+      { "label": "D", "type": "text", "value": "GPU workload distribution" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Embeddings convert text into vectors for semantic matching." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "AI Search",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you add semantic ranking to an Azure AI Search index?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To improve result relevance using deep learning models" },
+      { "label": "B", "type": "text", "value": "To enable direct SQL queries" },
+      { "label": "C", "type": "text", "value": "To increase the storage quota" },
+      { "label": "D", "type": "text", "value": "To translate outputs automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic rankers understand meaning, boosting relevance." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "AI Search",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is the role of an indexer in Azure AI Search?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It imports data into the search index automatically" },
+      { "label": "B", "type": "text", "value": "It translates text before indexing" },
+      { "label": "C", "type": "text", "value": "It generates voice responses" },
+      { "label": "D", "type": "text", "value": "It manages network routing tables" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Indexers connect data sources to the search index." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "AI Security",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which Azure feature protects API keys used by Cognitive Services?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Key Vault secret storage" },
+      { "label": "B", "type": "text", "value": "Blob container soft delete" },
+      { "label": "C", "type": "text", "value": "Azure Maps geofencing" },
+      { "label": "D", "type": "text", "value": "Content delivery network" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Key Vault securely stores and rotates credentials." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "AI Security",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should AI APIs be called from server-side code rather than client-side apps?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To prevent exposure of API keys to end users" },
+      { "label": "B", "type": "text", "value": "To improve screen rendering" },
+      { "label": "C", "type": "text", "value": "To increase RAM speed" },
+      { "label": "D", "type": "text", "value": "To avoid HTTP entirely" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Client-side apps can be inspected, exposing secrets." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "AI Integration",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Azure Functions are often used in AI solutions because they:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Provide serverless APIs for calling AI models" },
+      { "label": "B", "type": "text", "value": "Render UI components" },
+      { "label": "C", "type": "text", "value": "Train deep learning models automatically" },
+      { "label": "D", "type": "text", "value": "Host search indexes" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Serverless triggers are ideal for lightweight AI integrations." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "AI Integration",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which protocol is used for calling Azure Cognitive Services APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "HTTPS REST requests" },
+      { "label": "B", "type": "text", "value": "FTP" },
+      { "label": "C", "type": "text", "value": "UDP multicast" },
+      { "label": "D", "type": "text", "value": "SSH" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cognitive Services are accessed via REST endpoints over HTTPS." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Azure Machine Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is Azure ML preferred for managing the full machine learning lifecycle?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It provides tools for data preparation, training, deployment, and monitoring" },
+      { "label": "B", "type": "text", "value": "It is used only for storing images" },
+      { "label": "C", "type": "text", "value": "It only supports Python notebooks" },
+      { "label": "D", "type": "text", "value": "It replaces all Azure AI services" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Azure ML is an end-to-end platform for machine learning workflows." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "Azure Machine Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which Azure ML component tracks experiments, metrics, and model versions?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Azure ML Workspace" },
+      { "label": "B", "type": "text", "value": "Azure NetApp Files" },
+      { "label": "C", "type": "text", "value": "Azure Backup Vault" },
+      { "label": "D", "type": "text", "value": "Application Gateway" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The workspace serves as a central tracking hub for ML resources." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Azure Machine Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which compute target is best for training deep learning models in Azure ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "GPU-enabled compute clusters" },
+      { "label": "B", "type": "text", "value": "Azure DNS zones" },
+      { "label": "C", "type": "text", "value": "Front Door" },
+      { "label": "D", "type": "text", "value": "Azure DevTest Labs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GPU clusters accelerate large-scale model training." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Azure Machine Learning Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you deploy a model to Azure Kubernetes Service (AKS) instead of an Azure ML Managed Online Endpoint?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AKS provides high scalability, fine-grained control, and GPU-based inference" },
+      { "label": "B", "type": "text", "value": "AKS is required for SQL operations" },
+      { "label": "C", "type": "text", "value": "Managed endpoints do not support REST" },
+      { "label": "D", "type": "text", "value": "Managed endpoints require more images" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AKS is ideal for production-grade, scalable, containerized AI deployments." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Azure Machine Learning Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is a scoring script used for in an Azure ML deployment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To define how input data is processed and how predictions are returned" },
+      { "label": "B", "type": "text", "value": "To validate virtual network configurations" },
+      { "label": "C", "type": "text", "value": "To translate documents automatically" },
+      { "label": "D", "type": "text", "value": "To monitor GPU temperatures" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Scoring scripts define inference logic for deployed ML models." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Azure Bot Service",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is the purpose of a Bot Channel Registration resource?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To connect a bot to channels such as Teams, Web Chat, or Direct Line" },
+      { "label": "B", "type": "text", "value": "To store bot API logs" },
+      { "label": "C", "type": "text", "value": "To manage speech recognition models" },
+      { "label": "D", "type": "text", "value": "To run containerized bots" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Channel registration enables multi-channel bot communication." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Azure Bot Service",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "In a bot, what is the purpose of the state management system?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To store user and conversation data across messages" },
+      { "label": "B", "type": "text", "value": "To resize images" },
+      { "label": "C", "type": "text", "value": "To encrypt virtual networks" },
+      { "label": "D", "type": "text", "value": "To track key vault activity" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "State ensures continuity in long-running or multi-turn bot conversations." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Conversational Language Understanding (CLU)",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "In CLU, why is it important to provide diverse training utterances for each intent?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To help the model understand various phrasings users may use" },
+      { "label": "B", "type": "text", "value": "To improve image detection rates" },
+      { "label": "C", "type": "text", "value": "To increase container memory" },
+      { "label": "D", "type": "text", "value": "To automatically enable versioning" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Diverse examples improve intent generalization." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Conversational Language Understanding (CLU)",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Entities in CLU are used to extract:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Specific data such as dates, names, or product IDs" },
+      { "label": "B", "type": "text", "value": "User emotions from images" },
+      { "label": "C", "type": "text", "value": "Network routes" },
+      { "label": "D", "type": "text", "value": "Audio compression levels" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Entities give structure to extracted meaning from user utterances." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Azure AI Search",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you add cognitive skills to an Azure Search index pipeline?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To enrich data using OCR, translation, or key phrase extraction" },
+      { "label": "B", "type": "text", "value": "To reduce index size" },
+      { "label": "C", "type": "text", "value": "To store source code" },
+      { "label": "D", "type": "text", "value": "To build container registries" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cognitive skills extract features that improve search quality." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Azure AI Search",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which Azure Search feature helps improve ranking for natural-language queries?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Semantic search" },
+      { "label": "B", "type": "text", "value": "Blob lifecycle policies" },
+      { "label": "C", "type": "text", "value": "Managed identity" },
+      { "label": "D", "type": "text", "value": "Cosmos DB containers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic search improves relevance by understanding meaning." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Azure OpenAI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Temperature in Azure OpenAI models controls:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Randomness and creativity of responses" },
+      { "label": "B", "type": "text", "value": "API request quota" },
+      { "label": "C", "type": "text", "value": "Image brightness" },
+      { "label": "D", "type": "text", "value": "Document layout extraction" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Higher temperature increases creativity; lower makes responses deterministic." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Azure OpenAI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you use embeddings in an AI solution?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To perform semantic search or similarity comparison" },
+      { "label": "B", "type": "text", "value": "To generate synthetic images" },
+      { "label": "C", "type": "text", "value": "To translate documents" },
+      { "label": "D", "type": "text", "value": "To encrypt data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Embeddings convert text into vectors representing meaning." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "AI Container Deployments",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would an organization deploy Cognitive Services in containers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "For offline use, data privacy, and running services inside private networks" },
+      { "label": "B", "type": "text", "value": "To reduce model accuracy" },
+      { "label": "C", "type": "text", "value": "To integrate with DNS" },
+      { "label": "D", "type": "text", "value": "To replace Azure Functions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Containers allow isolated, secure, and offline AI deployments." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "AI Container Deployments",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which requirement is necessary when running Cognitive Services containers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A metered billing connection to Azure" },
+      { "label": "B", "type": "text", "value": "A VM encrypted with SSH keys" },
+      { "label": "C", "type": "text", "value": "A GPU-enabled cluster for all models" },
+      { "label": "D", "type": "text", "value": "A DNS zone assignment" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Containers periodically send usage logs to Azure for billing." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "AI Ethics & Responsible AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is one way to reduce bias in AI models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Ensure balanced and representative training data" },
+      { "label": "B", "type": "text", "value": "Increase temperature in OpenAI models" },
+      { "label": "C", "type": "text", "value": "Compress training images" },
+      { "label": "D", "type": "text", "value": "Use only default prebuilt models" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Fairness requires diverse, representative datasets." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "AI Ethics & Responsible AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is explainability important in AI systems?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps users understand why the model produced a specific output" },
+      { "label": "B", "type": "text", "value": "It increases GPU usage" },
+      { "label": "C", "type": "text", "value": "It enables automatic scaling" },
+      { "label": "D", "type": "text", "value": "It reduces network traffic" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Explainability is essential for trust and regulatory compliance." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "AI Monitoring",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should AI solutions log both inputs and outputs (while respecting privacy)?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To detect errors, drift, and unexpected model behavior" },
+      { "label": "B", "type": "text", "value": "To increase network speed" },
+      { "label": "C", "type": "text", "value": "To reduce model size" },
+      { "label": "D", "type": "text", "value": "To automatically retrain the model hourly" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Logging helps identify data drift and inference issues." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "AI Monitoring",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which Azure tool helps monitor AI application performance and detect failures?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Application Insights" },
+      { "label": "B", "type": "text", "value": "Azure Maps" },
+      { "label": "C", "type": "text", "value": "Azure DevOps Boards" },
+      { "label": "D", "type": "text", "value": "Azure Backup" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "App Insights provides telemetry, logging, and performance monitoring." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "AI Pipelines",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why use a pipeline in Azure ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To automate multi-step ML workflows such as data prep, training, and deployment" },
+      { "label": "B", "type": "text", "value": "To host databases" },
+      { "label": "C", "type": "text", "value": "To configure VPN tunnels" },
+      { "label": "D", "type": "text", "value": "To run virtual desktops" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipelines streamline repeatable ML processes." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "AI Pipeline Orchestration",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why would you break an AI workflow into separate pipeline steps in Azure ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To reuse steps independently and improve pipeline maintainability" },
+      { "label": "B", "type": "text", "value": "To reduce GPU temperature" },
+      { "label": "C", "type": "text", "value": "To increase API key length" },
+      { "label": "D", "type": "text", "value": "To store files in Blob Archive" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipeline steps can be reused and executed independently for modular ML workflows." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Azure ML Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Batch inference is recommended when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "You need to process large datasets asynchronously" },
+      { "label": "B", "type": "text", "value": "You require real-time predictions" },
+      { "label": "C", "type": "text", "value": "REST APIs are unavailable" },
+      { "label": "D", "type": "text", "value": "The model is too small" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batch deployments run inference on large datasets without real-time constraints." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Azure ML Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why choose Managed Online Endpoints instead of AKS for model deployment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They require no cluster management and auto-scale easily" },
+      { "label": "B", "type": "text", "value": "They eliminate the need for scoring scripts" },
+      { "label": "C", "type": "text", "value": "They store training data" },
+      { "label": "D", "type": "text", "value": "They automatically create SQL databases" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Managed endpoints simplify deployment by handling infrastructure automatically." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Azure ML Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Feature engineering is important because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Good features improve model accuracy and performance" },
+      { "label": "B", "type": "text", "value": "It reduces billing costs directly" },
+      { "label": "C", "type": "text", "value": "It increases network bandwidth" },
+      { "label": "D", "type": "text", "value": "It eliminates the need for training" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "High-quality features significantly improve prediction performance." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Azure ML Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should you split data into training, validation, and test sets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To avoid overfitting and properly evaluate model performance" },
+      { "label": "B", "type": "text", "value": "To improve blob storage hierarchy" },
+      { "label": "C", "type": "text", "value": "To reduce images in datasets" },
+      { "label": "D", "type": "text", "value": "To increase REST API performance" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Separate sets ensure unbiased evaluation and tuning." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "AI Search - Indexing",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why must a search index define a key field?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Each document must have a unique identifier in the index" },
+      { "label": "B", "type": "text", "value": "To enable authentication" },
+      { "label": "C", "type": "text", "value": "To control image quality" },
+      { "label": "D", "type": "text", "value": "To store user session tokens" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Key fields ensure each indexed item is uniquely retrievable." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "AI Search - Skillsets",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "OCR skill in Cognitive Search is mainly used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Extract text from images or scanned documents" },
+      { "label": "B", "type": "text", "value": "Classify intents" },
+      { "label": "C", "type": "text", "value": "Generate synthetic images" },
+      { "label": "D", "type": "text", "value": "Create search indexes automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "OCR makes image content searchable." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "AI Search - Semantic",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Semantic Search improves ranking by using:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Deep learning models to understand query meaning" },
+      { "label": "B", "type": "text", "value": "Strict keyword matching only" },
+      { "label": "C", "type": "text", "value": "DNS records" },
+      { "label": "D", "type": "text", "value": "Blob hot tier policies" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Semantic rankers understand intent and context." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Azure OpenAI - Prompt Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should system messages be used in Azure OpenAI chat models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They set behavior, tone, and restrictions for the model" },
+      { "label": "B", "type": "text", "value": "They store Azure credentials" },
+      { "label": "C", "type": "text", "value": "They reduce latency" },
+      { "label": "D", "type": "text", "value": "They monitor application logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "System messages define the overall behavior of the assistant." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Azure OpenAI - Prompt Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What happens when you increase the 'top_p' parameter?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The model samples from a wider range of possible tokens" },
+      { "label": "B", "type": "text", "value": "The model reduces hallucinations fully" },
+      { "label": "C", "type": "text", "value": "API cost decreases" },
+      { "label": "D", "type": "text", "value": "Temperature becomes fixed" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Top-p controls nucleus sampling and output diversity." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "Speech Services - Customization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why train a custom Speech-to-Text acoustic model?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To improve recognition of industry-specific accents or recording environments" },
+      { "label": "B", "type": "text", "value": "To automatically reduce API costs" },
+      { "label": "C", "type": "text", "value": "To build chatbots" },
+      { "label": "D", "type": "text", "value": "To extract key phrases from text" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Acoustic models adapt to specialized noise patterns or accents." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Speech Services - Customization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Custom Voice models require which type of dataset?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "High-quality recorded audio with matching transcriptions" },
+      { "label": "B", "type": "text", "value": "Video files only" },
+      { "label": "C", "type": "text", "value": "GPS logs" },
+      { "label": "D", "type": "text", "value": "HTML documents" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Voice training requires aligned audio and text pairs." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "AI Systems Integration",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is one benefit of using Azure Event Grid with AI systems?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It enables event-driven automation for data ingestion and model workflows" },
+      { "label": "B", "type": "text", "value": "It trains models autonomously" },
+      { "label": "C", "type": "text", "value": "It stores AI keys" },
+      { "label": "D", "type": "text", "value": "It replaces REST APIs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Event Grid enables event-triggered AI actions, such as processing when new data arrives." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "AI Systems Integration",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why use Managed Identity when calling Cognitive Services from other Azure services?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To eliminate the need to store API keys in configuration files" },
+      { "label": "B", "type": "text", "value": "To reduce VM size automatically" },
+      { "label": "C", "type": "text", "value": "To translate documents" },
+      { "label": "D", "type": "text", "value": "To enable blob archiving" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Managed identities improve security by avoiding exposed secrets." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "AI Cost Optimization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "How can you reduce cost when using Speech-to-Text for long audio files?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use asynchronous transcription instead of real-time APIs" },
+      { "label": "B", "type": "text", "value": "Decrease JSON output size" },
+      { "label": "C", "type": "text", "value": "Lower GPU frequency" },
+      { "label": "D", "type": "text", "value": "Disable monitoring" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batch/asynchronous STT costs less for long recordings." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "AI Cost Optimization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should embedding vectors be cached in semantic search applications?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To avoid recomputing embeddings for repeated queries, reducing cost" },
+      { "label": "B", "type": "text", "value": "To reduce image quality" },
+      { "label": "C", "type": "text", "value": "To train models automatically" },
+      { "label": "D", "type": "text", "value": "To modify search keys" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Caching prevents unnecessary embedding generation costs." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "AI Monitoring & Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Data drift monitoring is important because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It identifies changes in real-world input data that may degrade model accuracy" },
+      { "label": "B", "type": "text", "value": "It compresses models" },
+      { "label": "C", "type": "text", "value": "It improves API caching" },
+      { "label": "D", "type": "text", "value": "It reduces audio latency" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Drift detection helps identify when a model needs retraining." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "AI Monitoring & Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which Azure tool helps track failures and latency in deployed AI APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Application Insights telemetry" },
+      { "label": "B", "type": "text", "value": "Azure DNS records" },
+      { "label": "C", "type": "text", "value": "Blob legal hold" },
+      { "label": "D", "type": "text", "value": "Arc-enabled servers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "App Insights tracks API failures, latency, and usage behavior." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "AI Testing",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why should AI models be tested with edge-case inputs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To ensure the model handles unexpected or rare user scenarios safely" },
+      { "label": "B", "type": "text", "value": "To increase key vault size" },
+      { "label": "C", "type": "text", "value": "To modify container versions" },
+      { "label": "D", "type": "text", "value": "To remove semantic ranking" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Edge-case testing ensures stability and safety." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "End-to-End AI Solutions",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What is one advantage of using Azure ML, Azure AI Search, and Azure OpenAI together in a solution?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They enable retrieval-augmented generation (RAG) for high-quality, context-aware responses" },
+      { "label": "B", "type": "text", "value": "They remove the need for storage accounts" },
+      { "label": "C", "type": "text", "value": "They create SQL indexes automatically" },
+      { "label": "D", "type": "text", "value": "They eliminate model monitoring" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Combining ML, search, and LLMs enables modern RAG architectures." }
+    ]
+  }
+]
+

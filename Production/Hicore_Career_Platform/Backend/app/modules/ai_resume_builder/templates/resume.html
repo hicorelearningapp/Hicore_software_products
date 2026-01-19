@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ resume.personalInfo.firstName }} {{ resume.personalInfo.lastName }} - Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            color: #222;
+            margin: 25px;
+            line-height: 1.4;
+        }
+
+        /* Typography */
+        .name { font-size: 26px; font-weight: bold; }
+        .title { font-size: 12px; color: #444; margin-top: 4px; }
+
+        .small { font-size: 10px; color: #555; }
+
+        /* Spacing */
+        .section { margin-top: 20px; }
+        .block { margin-top: 10px; }
+
+        /* Section Header */
+        .section-header {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #222;
+            margin-bottom: 6px;
+        }
+
+        /* Skills Box */
+        .skills-box {
+            background: #f8f8f8;
+            border: 1px solid #CCC;
+            padding: 8px;
+            margin-top: 6px;
+        }
+
+        /* Work Experience */
+        .job-title {
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+        .job-company { font-size: 11px; font-weight: bold; color: #444; }
+        .job-details { font-size: 10px; color: #666; }
+
+        li { margin-bottom: 3px; }
+
+        /* Elegant spacing separators */
+        .spacer { height: 10px; }
+    </style>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<table width="100%">
+    <tr>
+        <td>
+            <div class="name">{{ resume.personalInfo.firstName }} {{ resume.personalInfo.lastName }}</div>
+            <div class="title">{{ resume.personalInfo.title }}</div>
+        </td>
+    </tr>
+    <tr><td class="spacer"></td></tr>
+    <tr>
+        <td class="small">
+            {{ resume.personalInfo.email }}
+            | {{ resume.personalInfo.phone }}
+            | {{ resume.personalInfo.location }}
+        </td>
+    </tr>
+    {% if resume.personalInfo.linkedin %}
+    <tr><td class="small">LinkedIn: {{ resume.personalInfo.linkedin }}</td></tr>
+    {% endif %}
+    {% if resume.personalInfo.website %}
+    <tr><td class="small">Website: {{ resume.personalInfo.website }}</td></tr>
+    {% endif %}
+</table>
+
+
+<!-- SUMMARY -->
+{% if resume.summary %}
+<div class="section">
+    <div class="section-header">Professional Summary</div>
+    <div class="block">
+        {{ resume.summary }}
+    </div>
+</div>
+{% endif %}
+
+
+<!-- SKILLS -->
+{% if resume.skills %}
+<div class="section">
+    <div class="section-header">Skills</div>
+    <div class="skills-box">
+        {{ ", ".join(resume.skills) }}
+    </div>
+</div>
+{% endif %}
+
+
+<!-- WORK EXPERIENCE -->
+{% if resume.workExperiences %}
+<div class="section">
+    <div class="section-header">Work Experience</div>
+
+    {% for job in resume.workExperiences %}
+    <div class="block">
+
+        <!-- Header Row -->
+        <table width="100%">
+            <tr>
+                <td width="70%">
+                    <div class="job-title">{{ job.role }}</div>
+                    <div class="job-company">{{ job.company }}</div>
+                </td>
+                <td width="30%" align="right">
+                    <div class="job-details">{{ job.startDate }} – {{ job.endDate }}</div>
+                    {% if job.location %}
+                    <div class="job-details">{{ job.location }}</div>
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+
+        <!-- Responsibilities -->
+        {% if job.responsibilities %}
+        <div class="block">
+            {{ job.responsibilities }}
+        </div>
+        {% endif %}
+
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<!-- EDUCATION -->
+{% if resume.education %}
+<div class="section">
+    <div class="section-header">Education</div>
+
+    {% for edu in resume.education %}
+    <div class="block">
+        <table width="100%">
+            <tr>
+                <td width="70%">
+                    <div class="job-title">{{ edu.degree }}</div>
+                    <div class="job-company">{{ edu.institution }}</div>
+                </td>
+                <td width="30%" align="right">
+                    <div class="job-details">{{ edu.startDate }} – {{ edu.endDate }}</div>
+                </td>
+            </tr>
+        </table>
+
+        {% if edu.details %}
+        <div class="block">{{ edu.details }}</div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<!-- CERTIFICATIONS -->
+{% if resume.certifications %}
+<div class="section">
+    <div class="section-header">Certifications</div>
+
+    <ul>
+        {% for cert in resume.certifications %}
+        <li>
+            <strong>{{ cert.name }}</strong> — {{ cert.issuer }} ({{ cert.date }})
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+</body>
+</html>

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method in React is called immediately after a component is mounted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is called immediately after a component is mounted, making it useful for initializing DOM nodes or making API calls."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "JSX Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does JSX stand for in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JavaScript XML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JavaScript Extra"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JavaScript Xtra"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Java Source XML"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JSX stands for JavaScript XML. It allows us to write HTML in React."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Exploring useEffect",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which scenario is an appropriate use case for the useEffect hook?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Updating the document title upon state changes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Styling components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Handling button click events"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Passing props to child components"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The useEffect hook is used for performing side effects in functional components, such as updating the document title, which can depend on the component's state or props."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Link Component Usage",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component is used in React Router to create navigable links in your application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "RouterLink"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Anchor"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Link"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Href"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Link component is used in React Router to create clickable links that navigate to different URLs within the application."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "JSX Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does JSX stand for in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JavaScript XML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JavaScript Xtra"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JavaScript X-files"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JavaScript Xtreme"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JSX stands for JavaScript XML. It allows us to write HTML in React."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Using useState Hook",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the useState hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage state in a functional component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To perform side effects in components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To fetch data from an API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To create context providers"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState is a Hook that lets you add React state to functional components. It is used to manage the local state of the component."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "State and Props",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To keep track of internal state changes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle HTTP requests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used to pass data and event handlers to components, allowing them to be reusable and configurable."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass data and event handlers to child components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components from a parent component."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Jest Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary use of Jest in a React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "State management"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Routing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Styling components"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jest is primarily used for testing in React applications, allowing developers to write unit tests for their components."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Component Testing in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which utility is commonly used for testing React components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Mocha"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cypress"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selenium"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jest is widely used for testing React components because it provides powerful unit testing features."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Component Testing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is commonly used for testing React components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Mocha"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cypress"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selenium"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jest is a popular testing framework that is often used alongside React for component testing due to its simplicity and support for React's features."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To perform HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Jest Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default test runner in Create React App?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Mocha"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Jasmine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Karma"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Create React App uses Jest as its default test runner because of its zero configuration setup and good integration with React."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Link Component",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component is used in React Router to create navigable links?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Navigate>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Link>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<RouterLink>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Href>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <Link> component is used in React Router to enable navigation around the application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component is called after the component is rendered for the first time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is called after the component is rendered to the DOM for the first time, making it the right choice."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Debugging in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool can be used for debugging React applications in the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Postman"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ESLint"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Webpack"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "React Developer Tools is a browser extension for Chrome and Firefox that helps developers inspect the React component hierarchy, including props and state."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "State in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component should be used to change the component's state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setState()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "stateSet()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "changeState()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "modifyState()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setState() method is used in React to update the state of a component."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What component in React Router v5 is used to configure a new route?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Router>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Switch>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<Route>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Link>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <Route> component is used in React Router v5 to define individual routes within a <Switch>."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "useState Hook Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the useState hook return in its array structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A stateful value, and a function to update it"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A reference to the component's props"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An array of all state values in the component"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A promise resolving to the state's future value"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState hook returns an array where the first element is the current state value, and the second element is a function that lets you update it."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component in React Router v5 is used to define a route?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Router"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Route"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Switch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Route' component is used to define how different components are rendered based on the URL path in React Router v5."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Component Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to output 'Hello World' in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React.render('Hello World');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ReactDOM.render('Hello World', document.getElementById('root'));"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "React.createElement('Hello World');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "React.output('Hello World');"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax is ReactDOM.render('Hello World', document.getElementById('root')); which renders 'Hello World' to the DOM in the element with id 'root'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Link Component",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'Link' component in React Router?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To navigate between components."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To switch between different routes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To pass props to components."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reload the page."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Link' component is used in React Router to enable navigation between different components without a page reload."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component is called after the component is rendered for the first time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount() is called after the component is rendered to the DOM for the first time, making it the correct choice."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React, what is the correct order of lifecycle phases for mounting a component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Mounting -> Updating -> Unmounting"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Updating -> Mounting -> Unmounting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Unmounting -> Mounting -> Updating"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Mounting -> Unmounting -> Updating"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React, the lifecycle phases commence with Mounting, followed by Updating, and finally Unmounting."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of component in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Class component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Functional component"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Stylistic component"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pure component"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Stylistic component is not a recognized type in React. React mainly uses class and functional components, along with pure components."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Jest Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command would you use to run tests in a React project using Jest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm test"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "react-test"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "jest-run"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm start"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'npm test' command is commonly configured to run Jest tests in React projects."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "useState Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the useState hook return in its array structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A state variable and a function to update it"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "An object and a method to merge updates"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A context provider and consumer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A reducer and an initial state"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState returns an array where the first element is the current state and the second element is a function that allows you to update that state."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Routing Concepts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What component in React Router v5 is used to define a route that should match and render a component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Route"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Router"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Switch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Route' component is used to declaratively map paths to components."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Understanding useState",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the useState hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage local state in a functional component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To interact with an API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To navigate between different components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To render components on the server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState is a Hook that lets you add React state to functional components. Using this hook, you can manage local state within a functional component."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component is called after the component is rendered for the first time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is called after the component output has been rendered to the DOM. It is used for initializing network requests, DOM operations, and state updates."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "State Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React class component is used to update the state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setState()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "updateState()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "modifyState()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "changeState()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setState() method is used in class components to update the component's state."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "useState Hook",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which hook in React is used to add state to functional components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useReducer()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useEffect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useContext()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useState()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState() is the hook that allows functional components in React to have state."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Components and Props",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Props can be modified inside the component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Props are read-only."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Props are used to maintain internal state."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Props are only available for class components."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are read-only, meaning they cannot be modified inside the component. They are used to pass data from parent to child components."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is commonly used to create production builds of React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Gulp"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Babel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ESLint"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Webpack is a popular module bundler used in React applications for creating optimized production builds."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Routing Concepts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What component in React Router v5 is used to define a route?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Route"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Router"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Switch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Route component is used in React Router v5 to define individual routes within an application."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To send HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which service is commonly used to deploy React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GitHub Pages"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Microsoft Azure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Oracle Cloud"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IBM Cloud"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GitHub Pages is a popular choice for deploying React applications because it is free, easy to set up, and directly integrated with GitHub repositories."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initialize state in a component"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To perform network requests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Exploring useEffect",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a common use case for the useEffect hook?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fetching data when a component mounts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Styling components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Rendering child components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Passing props to parent components"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useEffect is often used to perform side effects in functional components, such as fetching data on component mount."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which service is commonly used to deploy React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Google Drive"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Microsoft Azure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Netlify"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dropbox"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Netlify is a popular choice for deploying React applications due to its simplicity and integration with Git-based workflows."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "useEffect Hook Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In what scenario would you typically use the useEffect hook?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To handle side effects in functional components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To directly mutate the DOM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To share state between components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To render UI based on state changes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useEffect is used to handle side effects in functional components, such as data fetching, setting up a subscription, or manually changing the DOM."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "React Development Server",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is typically used to start the development server for a React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm run dev"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm run start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm build"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm serve"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'npm run start' starts the development server and watches for changes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React Testing Library",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following queries is recommended for selecting form elements in React Testing Library?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getByText"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getByRole"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getByLabelText"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getAllByRole"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'getByLabelText' query is most suitable for selecting form elements, as it mirrors how users interact with forms."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Debugging in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What browser extension is essential for debugging React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Redux Developer Tools"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Vue.js devtools"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Firebug"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "React Developer Tools is a browser extension that provides a React tree inspector to view and edit React component hierarchies in the Chrome Developer Tools."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Debugging Techniques",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool can be used for debugging React applications in the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Chrome DevTools"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both A and B"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio Code"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Both React Developer Tools and Chrome DevTools are essential for debugging React applications directly in the browser."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To perform network requests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used primarily to pass data and event handlers down to child components in React."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "State in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component should be used to change the state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setState()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "state()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "changeState()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "modifyState()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setState() method is used in class components in React to update the component's state."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Understanding useState",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the useState hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage state in a functional component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To fetch data from an API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To render components conditionally"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To navigate between different routes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState is a Hook that lets you add React state to functional components. It is primarily used to manage state in a functional component."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to create a React functional component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function MyComponent() { return <div>Hello World</div> }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "create MyComponent() { return <div>Hello World</div> }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class MyComponent() { render() { return <div>Hello World</div> }}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MyComponent => () { return <div>Hello World</div> }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A functional component is defined using a function that returns JSX. Option A uses this correct syntax."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command is used to create a new React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npx create-react-app my-app"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm install react"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm start new React"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "install-react-app"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'npx create-react-app my-app' is used to create a new React application, setting up the environment and installing necessary packages."
+      }
+    ]
+  }
+]

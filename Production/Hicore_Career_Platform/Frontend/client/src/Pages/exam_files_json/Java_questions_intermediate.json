@@ -1,0 +1,2006 @@
+[
+  {
+    "id": 4,
+    "topic": "Types of Collections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HashSet"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TreeSet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ArrayList"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HashMap"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ArrayList allows dynamic resizing and provides indexed access to its elements, which is not supported by HashSet or TreeSet."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Java Collections Framework",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface forms the root of the collection hierarchy in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "List"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Collection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Map"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Collection interface forms the root of the collection hierarchy in Java and is inherited by other interfaces like List and Set."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Java Stream API",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class in Java provides the Stream API functionalities for operations like filter, map, and reduce?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java.util.stream.Stream"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "java.util.Stream"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java.stream.Stream"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "java.util.streams.Stream"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "java.util.stream.Stream is the correct class that provides functionalities for handling streams including operations like filter, map, and reduce."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Switch Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet if the value of 'day' is 2?\n\nswitch (day) {\n    case 1: \n        System.out.println(\"Monday\");\n        break;\n    case 2: \n        System.out.println(\"Tuesday\");\n        break;\n    default: \n        System.out.println(\"Sunday\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Monday"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Tuesday"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sunday"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The switch statement matches the case with 'day' value 2 and executes the corresponding block, printing 'Tuesday'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types would be best for storing a simple 'yes' or 'no' answer in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "String"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The boolean data type in Java represents one bit of information which can be either true or false, perfect for a 'yes' or 'no' answer."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "File Writing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to write a string to a file using FileWriter in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "writeString()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "write()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "print()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "append()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The write() method of FileWriter is used to write a string to a file."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Internet Protocols",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which protocol is primarily used for sending email?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FTP"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SMTP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TCP"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SMTP (Simple Mail Transfer Protocol) is the primary protocol used for sending email across the Internet."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Synchronization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the synchronized keyword in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To give a thread exclusive access to a resource"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To start a new thread"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To pause the execution of the current thread"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To terminate a thread"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The synchronized keyword in Java is used to control access to a method or a block of code by allowing only one thread at a time to execute it, thereby providing exclusive access to a resource or section of code."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is used to store a single character in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "char"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the 'char' data type is used to store a single 16-bit Unicode character."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Catch Block",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid way to catch an exception in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "catch (Exception e)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "catch (ArithmeticException | NullPointerException e)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "catch (ArithmeticException e, NullPointerException e)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "catch (Exception e) when (e != null)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is incorrect because Java does not allow multiple exceptions in a single catch block separated by commas. Use the pipe '|' symbol for multiple exceptions."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Functional Interfaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about functional interfaces in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They can have more than one abstract method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They must have exactly one abstract method"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They cannot contain default methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are not compatible with lambda expressions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Functional interfaces in Java are interfaces that must have exactly one abstract method. This characteristic allows them to be used for lambda expressions."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Exception Propagation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if an exception is not caught in the current method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The exception is suppressed automatically."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The exception is propagated back to the caller."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program will continue execution of the next statement in the sequence."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method is re-executed until the exception is handled."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If an exception is not caught in the method where it occurred, it is propagated back to the caller method. This continues until it is caught, or it reaches the main() method, potentially causing the program to terminate. Thus, option B is correct."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Java Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing a person's age in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "String"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'int' data type is best for storing whole numbers, which makes it appropriate for storing a person's age."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Networking Concepts",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid InetAddress method to check IP address status?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "isMulticastAddress()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "isAnyLocalAddress()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "isConnected()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "isLoopbackAddress()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "isConnected() is not a method of InetAddress. It is used in Socket programming to determine if a client is connected."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Concurrency Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using the volatile keyword in a multi-threaded Java application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensures exclusive access to a variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ensures that updates to a variable are propagated predictably to other threads"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decreases memory usage by threads"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increases the speed of thread execution"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The volatile keyword ensures visibility of changes to variables across threads. When a field is declared volatile, the compiler and runtime are put on notice that this variable is shared and that operations on it should not be reordered with other memory operations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SQL Injection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of these is a common practice to prevent SQL injection in Java applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using regular expressions to filter input data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using PreparedStatement instead of Statement"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increasing timeout limits for responses"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Storing SQL queries in external files"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using PreparedStatement instead of Statement helps in pre-compiling the SQL statements and prevents SQL injection by separating SQL logic from data."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Conditional Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet?\nif (false) {\n  System.out.println(\"This is true.\");\n} else {\n  System.out.println(\"This is false.\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "This is true."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "This is false."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No output"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the condition in the if statement is 'false', the control goes to the else block and prints 'This is false.'"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "JSP Fundamentals",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the implicit object in JSP used for setting the content type of the response?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "out"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "response"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "request"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pageContext"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'response' object is used for manipulating the HTTP response, including setting the content type."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Java Generics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Java generic class definition signify? public class Box<T>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Box can handle a specific type specified at compile time."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Box can only handle type T objects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Box is a non-generic class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Box's type parameter T can change at runtime."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generic class Box<T> is designed to work with any type T, which is specified at compile time, making option A correct. Options B and D are incorrect as generics provide type safety without having to specify a specific type or allowing changes at runtime. Option C is incorrect as it is explicitly a generic class."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Socket Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to read from a socket in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "readBytes()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getInputStream()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "readInput()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getOutputStream()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The getInputStream() method is used to read data from a socket. It returns an InputStream object that can be used to read bytes from the socket."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Servlet Lifecycle",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is called only once in the lifecycle of a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "doGet()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "doPost()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "init()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "service()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'init()' method is called only once when the servlet is first loaded into the memory. It is used for initial setup code."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Handling in JavaFX",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In JavaFX, which class would you use to handle keyboard events?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "KeyEvent"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ActionEvent"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MouseEvent"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "EventHandling"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "KeyEvent is used in JavaFX to handle events that are related to key presses on the keyboard."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Concurrency in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method signature is correct for ensuring a method does not need to be synchronized in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public static void method()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public synchronized void method()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "private synchronized void method()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public final synchronized void method()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method signature is 'public static void method()' because static methods synchronize on the class object, not on instances of the class."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Iterator Interface",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if you try to remove an element from a collection using Iterator's remove() method without calling next() method at least once?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The element will be removed successfully."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The collection will remain unchanged."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An UnsupportedOperationException will be thrown."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An IllegalStateException will be thrown."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Calling remove() without calling next() throws an IllegalStateException because the iterator does not have any current element to remove."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variable Initialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code? int x; System.out.println(x);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java will throw a compilation error because local variables need to be initialized before use."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of an object reference declared as an instance variable in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "false"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, if an object reference is declared but not explicitly initialized, its default value is null."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Writing Files in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the FileWriter constructor argument specify when creating a new FileWriter object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The buffer size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The file path or File object"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The charset encoding"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The append mode"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The FileWriter constructor requires the file path or File object as an argument to specify which file to write to."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "JDBC Connection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to create a Statement object for sending SQL statements to the database in JDBC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "createStatement()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "createSQL()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "createConnection()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "executeQuery()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The createStatement() method of Connection interface is used to create a Statement object for sending SQL statements to the database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Application Deployment Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is commonly used for building and managing Java projects, facilitating the packaging of applications into JAR or WAR formats?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Gradle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Make"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Gulp"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Gradle is a popular open-source build automation tool that simplifies the process of building and managing Java projects, supporting both JAR and WAR file formats."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a valid loop construct in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do-while"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "repeat-until"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the valid loop constructs are 'for', 'while', and 'do-while'. 'repeat-until' is not a valid loop construct in Java."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Deployment Tools",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is used primarily for automating the build processes in Java applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Docker"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Kubernetes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Maven"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Jenkins"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Maven is a build automation tool used primarily for Java projects, simplifying the build process by managing project dependencies and building processes."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following loops will execute the body at least once even if the condition is false initially?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while loop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do-while loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "none of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The do-while loop in Java will execute its body at least once before checking the condition at the end of the loop, hence it will run even if the initial condition is false."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Environment Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which environment variable needs to be set to run Java programs from the command line?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JAVA_HOME"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CLASSPATH"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JAVA_RUN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JAVA_CMD"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JAVA_HOME environment variable is essential for running Java applications from the command line as it tells the system where Java is installed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Map operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if you try to insert a duplicate key into a Java HashMap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The new value will replace the old value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The old value will prevent the new value from being inserted."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The HashMap will resize to accommodate both values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A runtime exception will be thrown."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a HashMap, if a duplicate key is inserted, the new value will replace the old value associated with that key. Option A is correct as it accurately describes this behavior."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Servlet Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is called by the servlet container to handle a GET request in a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "doGet(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "doPost(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "doHandle(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "doRequest(HttpServletRequest req, HttpServletResponse resp)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The doGet(HttpServletRequest req, HttpServletResponse resp) method is explicitly designed to handle GET requests in a servlet."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Date API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class in the Java Date API is best suited for representing a specific moment on the timeline in UTC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "LocalDate"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LocalDateTime"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ZonedDateTime"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Instant"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Instant is designed to represent a specific moment on the timeline in UTC, making it the most suitable choice."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Method Overloading",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, what is the result of method overloading?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Methods that perform different tasks but have the same name"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Methods with the same name and parameters in the same class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Methods with different names but same parameters"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Changing the return type of a method without changing its parameters"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Method overloading in Java occurs when two or more methods in the same class have the same name but different parameters, allowing them to perform different tasks."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "If-Else Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet?\nif (x > 0) {\n  System.out.println(\"Positive\");\n} else if (x < 0) {\n  System.out.println(\"Negative\");\n} else {\n  System.out.println(\"Zero\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Positive"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Negative"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Zero"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation Error"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Assuming the variable x is 0, the if condition fails because 0 is not greater than 0, and the else if condition also fails because 0 is not less than 0. Thus, it falls to the else condition and prints 'Zero'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Iterator functionality",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method on an Iterator can remove the last element returned by the iterator from the underlying collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "remove()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "delete()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "detach()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "erase()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The remove() method of an Iterator removes the last element returned by this iterator from the underlying collection. The other options are not standard Iterator method names."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Method Overloading",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following method signatures are valid for overloading the method 'public void display(int a)' in the same class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public void display(double a)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public int display(int a)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "public void display(int b)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public void display(int a, double b)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because method overloading allows the same method name with different parameters or parameter types. Changing the return type or parameter name only (as in B and C) does not constitute overloading."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Classpath Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a Java development environment, what is the correct command to permanently set the CLASSPATH variable on a Linux-based system to include the /usr/local/java/classes directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "export CLASSPATH=$CLASSPATH:/usr/local/java/classes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "set CLASSPATH=/usr/local/java/classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "export CLASSPATH=/usr/local/java/classes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CLASSPATH=$CLASSPATH:/usr/local/java/classes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the 'export' command to set the environment variable permanently for the session, and correctly appends the new directory to the existing CLASSPATH using $CLASSPATH."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Method Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given two overloaded methods in Java: void process(int num) and void process(double num). If a call is made with process(5.0), which method will be executed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "void process(int num)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "void process(double num)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both methods will be executed sequentially"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The code will not compile due to ambiguity"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java chooses the most specific method that matches the argument type. The literal 5.0 is treated as a double, hence method void process(double num) is called."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the Java Memory Model, what does 'happens-before consistency' imply for actions within a single thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Each action in a thread appears to be executed in the same order as in the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Actions in a single thread can be reordered as long as no synchronization is involved."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Actions in different threads are always executed concurrently."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Each action in a thread can be delayed indefinitely unless synchronized."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Happens-before consistency ensures that within the same thread, all actions appear to happen in the order specified by the program, regardless of the actual execution order by the JVM. This provides predictability and correctness in single-threaded execution contexts."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Servlet Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the Java Servlet API, what method is called only once in the lifecycle of a servlet and is used for complex initialization tasks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "init()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "service()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "doGet()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "doPost()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'init()' method is called only once and is used for complex initialization tasks, unlike 'service()', 'doGet()', and 'doPost()', which can be called multiple times throughout the lifecycle of a servlet."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Mockito Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Mockito to mock a class with a method that throws an exception, which of the following is the correct syntax to ensure the exception is thrown during a unit test?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "doThrow(new RuntimeException()).when(mockObject).methodThatThrows();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mockObject.doThrow(new RuntimeException()).methodThatThrows();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "when(mockObject.methodThatThrows()).thenThrow(new RuntimeException());"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mockObject.when().thenThrow(new RuntimeException()).methodThatThrows();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The syntax 'doThrow(Exception).when(mock).method();' is the correct Mockito syntax to specify that an exception should be thrown when a certain method of the mocked object is called."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "JDBC Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if a JDBC transaction is set to the default isolation level of TRANSACTION_READ_COMMITTED and a dirty read attempt occurs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The dirty read will be prevented automatically."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The transaction will be rolled back immediately."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The dirty read may succeed, leading to potential data inconsistencies."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A lock will be placed on the dirty data until the transaction is committed."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TRANSACTION_READ_COMMITTED prevents non-repeatable reads but does not guarantee prevention of dirty reads, which can still occur and lead to data inconsistencies."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Mockito Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of using Mockito for unit testing in Java, what is the correct way to ensure that a specific method throws an exception when a certain condition is met?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use Mockito.verify() to check if the method throws the desired exception."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use Mockito.when() combined with thenThrow() to simulate the exception."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Apply Mockito.mock() to create an instance that inherently throws exceptions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implement Mockito.times() to count how many times the exception is thrown."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Mockito.when() allows you to stub a method with specific parameters, and thenThrow() can be chained to specify the exception to be thrown under these conditions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Method Overriding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Java code snippet, what will be the output if the method 'display()' is called on an instance of 'Child' class?"
+      },
+      {
+        "type": "text",
+        "value": "class Parent { int x = 10; void display() { System.out.println(\"x = \" + x); } } class Child extends Parent { int x = 20; void display() { System.out.println(\"x = \" + super.x); } }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x = 20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Child' class method 'display()' overrides the 'Parent' class method but uses 'super.x' to refer to the 'x' attribute of 'Parent' class. Hence, it prints 'x = 10'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet: int a = 10; for (int i = 0; i < 5; i++) { int a = i; } System.out.println(a);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compilation error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code will produce a compilation error because the variable 'a' is redeclared within the scope of the loop, which is not allowed in Java."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Java Debugging",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When debugging a complex Java application, which tool or approach is most effective for identifying memory leaks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Systematic code reviews and manual testing."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using Java Debugger (jdb)."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Profiling with tools such as VisualVM or JProfiler."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Extensive unit testing with high code coverage."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Profiling tools like VisualVM or JProfiler are specifically designed to analyze Java application performance, including memory usage and leaks, making them the most effective option."
+      }
+    ]
+  }
+]

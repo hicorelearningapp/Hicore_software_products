@@ -1,0 +1,1125 @@
+[
+  {
+    "id": 1,
+    "topic": "Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which file format is preferred for large-scale ML datasets due to compression and columnar storage?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Parquet" },
+      { "label": "B", "type": "text", "value": "CSV" },
+      { "label": "C", "type": "text", "value": "TXT" },
+      { "label": "D", "type": "text", "value": "XML" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Parquet is optimized for analytics, compression, and predicate pushdown, ideal for ML pipelines." }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What AWS service automatically discovers data schema and updates Glue Data Catalog?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Glue Crawler" },
+      { "label": "B", "type": "text", "value": "S3 Event Trigger" },
+      { "label": "C", "type": "text", "value": "Athena Workgroup" },
+      { "label": "D", "type": "text", "value": "Lambda Scanner" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Glue Crawlers infer and register schema automatically." }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which service is best for streaming ingestion for ML pipelines?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Kinesis Data Streams" },
+      { "label": "B", "type": "text", "value": "EC2 Scripts" },
+      { "label": "C", "type": "text", "value": "S3 Batch Job" },
+      { "label": "D", "type": "text", "value": "Athena Catalog" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Kinesis supports real-time ingestion at high throughput for ML feature streaming." }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "FSx for Lustre is typically used in ML pipelines because it provides:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "High-throughput POSIX file access linked to S3" },
+      { "label": "B", "type": "text", "value": "Built-in inference engine" },
+      { "label": "C", "type": "text", "value": "Automatic model tuning" },
+      { "label": "D", "type": "text", "value": "Model packaging" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "FSx accelerates I/O for large datasets during training." }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Engineering",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which database is recommended for low-latency online feature store lookups?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "DynamoDB" },
+      { "label": "B", "type": "text", "value": "Athena" },
+      { "label": "C", "type": "text", "value": "S3" },
+      { "label": "D", "type": "text", "value": "RDS Postgres" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "DynamoDB provides millisecond response times for real-time inference." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which visualization helps detect multi-feature relationships?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Pair plots" },
+      { "label": "B", "type": "text", "value": "Pie chart" },
+      { "label": "C", "type": "text", "value": "Bar chart" },
+      { "label": "D", "type": "text", "value": "Word cloud" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pair plots show correlations and interactions across multiple variables." }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which technique reduces dimensionality while capturing linear variance in data?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "PCA" },
+      { "label": "B", "type": "text", "value": "t-SNE" },
+      { "label": "C", "type": "text", "value": "Word2Vec" },
+      { "label": "D", "type": "text", "value": "Min-max scaling" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PCA captures linear structure in the data by projecting to principal components." }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Exploratory Data Analysis",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "What does correlation heatmap primarily reveal?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Strength of linear relationships between variables" },
+      { "label": "B", "type": "text", "value": "Non-linear embeddings" },
+      { "label": "C", "type": "text", "value": "Cluster boundaries" },
+      { "label": "D", "type": "text", "value": "Model weights" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Correlation heatmaps show linear dependencies, useful for EDA." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "Modeling – Supervised Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is F1-score preferred when working with imbalanced classification problems?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Balances precision and recall" },
+      { "label": "B", "type": "text", "value": "Measures variance" },
+      { "label": "C", "type": "text", "value": "Measures RMSE" },
+      { "label": "D", "type": "text", "value": "Ignores minority class" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "F1-score is robust when positive class distribution is small." }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Modeling – Supervised Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Regularization helps ML models mainly by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reducing overfitting" },
+      { "label": "B", "type": "text", "value": "Increasing model size" },
+      { "label": "C", "type": "text", "value": "Removing activation functions" },
+      { "label": "D", "type": "text", "value": "Increasing recall only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regularization penalizes overly complex models, improving generalization." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Modeling – Deep Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Dropout improves a neural network by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Preventing co-adaptation of neurons" },
+      { "label": "B", "type": "text", "value": "Increasing gradient explosion" },
+      { "label": "C", "type": "text", "value": "Adding memory to RNNs" },
+      { "label": "D", "type": "text", "value": "Normalizing features" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dropout reduces reliance on specific neurons, improving generalization." }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Modeling – Deep Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Batch Normalization helps improve training stability by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Normalizing activations across the batch" },
+      { "label": "B", "type": "text", "value": "Eliminating weight updates" },
+      { "label": "C", "type": "text", "value": "Converting data to images" },
+      { "label": "D", "type": "text", "value": "Masking gradients" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "BatchNorm stabilizes distributions inside the network, speeding up training." }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Modeling – Deep Learning",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Gradient clipping is used when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Gradients explode and destabilize training" },
+      { "label": "B", "type": "text", "value": "Loss is too low" },
+      { "label": "C", "type": "text", "value": "Model is underfitting" },
+      { "label": "D", "type": "text", "value": "Accuracy is high" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Clipping limits extreme gradients to stabilize optimization." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Model Optimization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Knowledge distillation is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Create smaller models using teacher–student training" },
+      { "label": "B", "type": "text", "value": "Increase dataset size" },
+      { "label": "C", "type": "text", "value": "Perform PCA" },
+      { "label": "D", "type": "text", "value": "Reduce overfitting" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Distillation helps deploy models efficiently." }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Model Optimization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Why is ONNX Runtime often used for inference optimization?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It accelerates inference using graph optimizations" },
+      { "label": "B", "type": "text", "value": "It increases model size" },
+      { "label": "C", "type": "text", "value": "It performs data labeling" },
+      { "label": "D", "type": "text", "value": "It trains models automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "ONNX uses graph-level optimizations for faster cross-platform inference." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Model Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which SageMaker endpoint type is best for unpredictable, bursty traffic?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Serverless Inference" },
+      { "label": "B", "type": "text", "value": "Batch Transform" },
+      { "label": "C", "type": "text", "value": "Real-time fixed endpoints" },
+      { "label": "D", "type": "text", "value": "Async inference" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Serverless autoscaling adapts instantly to irregular traffic patterns." }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Model Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Multi-Model Endpoints (MME) reduce cost primarily by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Sharing one endpoint with many models" },
+      { "label": "B", "type": "text", "value": "Training multiple models at once" },
+      { "label": "C", "type": "text", "value": "Reducing accuracy" },
+      { "label": "D", "type": "text", "value": "Duplicating compute resources" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MME allows model loading on demand, reducing footprint." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Model Deployment",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Blue/Green deployments allow ML teams to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Shift traffic gradually to new models" },
+      { "label": "B", "type": "text", "value": "Train models faster" },
+      { "label": "C", "type": "text", "value": "Label data automatically" },
+      { "label": "D", "type": "text", "value": "Increase storage capacity" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Blue/Green helps test new models with partial traffic safely." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Distributed Training",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Data parallelism accelerates training by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Distributing mini-batches across multiple GPUs" },
+      { "label": "B", "type": "text", "value": "Increasing model depth" },
+      { "label": "C", "type": "text", "value": "Removing gradients" },
+      { "label": "D", "type": "text", "value": "Saving logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Each GPU trains on separate data and synchronizes gradients." }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Distributed Training",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which AWS instance family is optimized for GPU-accelerated deep learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "p4/p5 instances" },
+      { "label": "B", "type": "text", "value": "t3.micro" },
+      { "label": "C", "type": "text", "value": "m5.large" },
+      { "label": "D", "type": "text", "value": "c5n.2xlarge" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "P-series instances include NVIDIA GPUs for training." }
+    ]
+  },
+
+  {
+    "id": 21,
+    "topic": "Monitoring & Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which drift type occurs when the relationship between input and output changes over time?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Concept drift" },
+      { "label": "B", "type": "text", "value": "Covariate shift" },
+      { "label": "C", "type": "text", "value": "Prior probability shift" },
+      { "label": "D", "type": "text", "value": "Feature scaling drift" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Concept drift means the mapping between X and Y changes." }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Monitoring & Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which SageMaker feature automatically checks for outliers and baseline deviations?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Model Monitor" },
+      { "label": "B", "type": "text", "value": "Batch Transform" },
+      { "label": "C", "type": "text", "value": "Glue ETL" },
+      { "label": "D", "type": "text", "value": "CodeBuild" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Monitor tracks drift, bias, and outliers automatically." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Monitoring & Drift",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Shadow deployment helps avoid failures by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Testing new model with production traffic silently" },
+      { "label": "B", "type": "text", "value": "Re-training models" },
+      { "label": "C", "type": "text", "value": "Scaling instances" },
+      { "label": "D", "type": "text", "value": "Cleaning S3 objects" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Shadow mode receives production traffic but does not affect users." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Inference Optimization",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Dynamic batching improves performance by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Grouping multiple inference requests in a single forward pass" },
+      { "label": "B", "type": "text", "value": "Increasing GPU memory" },
+      { "label": "C", "type": "text", "value": "Training models faster" },
+      { "label": "D", "type": "text", "value": "Reducing gradients" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batching improves throughput on GPUs." }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Inference Optimization",
+    "difficulty": "intermediate",
+    question: [
+      { "type": "text", "value": "Which technique compresses models while maintaining accuracy?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Pruning" },
+      { "label": "B", "type": "text", "value": "Duplicating layers" },
+      { "label": "C", "type": "text", "value": "Increasing hidden units" },
+      { "label": "D", "type": "text", "value": "Removing activation functions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pruning reduces computation by removing less important weights." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Security",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which AWS service ensures encryption of data at rest in S3?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS KMS" },
+      { "label": "B", "type": "text", "value": "IAM Groups" },
+      { "label": "C", "type": "text", "value": "ECS" },
+      { "label": "D", "type": "text", "value": "Lambda Layers" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "KMS provides managed encryption keys." }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Security",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Private model endpoints are created by placing SageMaker endpoints inside:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "A VPC" },
+      { "label": "B", "type": "text", "value": "Public subnet" },
+      { "label": "C", "type": "text", "value": "Internet Gateway" },
+      { "label": "D", "type": "text", "value": "Route 53" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Private VPC access prevents exposure to public internet." }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Security",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "To prevent unauthorized inference calls, you should use:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "IAM-based access control" },
+      { "label": "B", "type": "text", "value": "Public domain URLs" },
+      { "label": "C", "type": "text", "value": "Anonymous API keys" },
+      { "label": "D", "type": "text", "value": "No authentication" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "IAM ensures only authorized roles can call the endpoint." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Advanced Algorithms",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Factorization Machines are best suited for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Sparse high-dimensional data" },
+      { "label": "B", "type": "text", "value": "Image processing" },
+      { "label": "C", "type": "text", "value": "Signal smoothing" },
+      { "label": "D", "type": "text", "value": "Tree-based clustering" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "FM excels at modeling interactions in sparse datasets like ads and recommendations." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Advanced Algorithms",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which method reduces dimensionality by learning embeddings?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Autoencoders" },
+      { "label": "B", "type": "text", "value": "Random Forests" },
+      { "label": "C", "type": "text", "value": "Naive Bayes" },
+      { "label": "D", "type": "text", "value": "Chi-square test" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Autoencoders compress data into lower-dimensional features." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Advanced Algorithms",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "GNNs (Graph Neural Networks) are ideal for tasks involving:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Entity relationship structures" },
+      { "label": "B", "type": "text", "value": "Tabular regression only" },
+      { "label": "C", "type": "text", "value": "Binary search trees" },
+      { "label": "D", "type": "text", "value": "Simple line plots" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GNNs capture complex relationships across graph-structured data." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Explainable AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "SHAP values help explain predictions by computing:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Feature contributions using Shapley values" },
+      { "label": "B", "type": "text", "value": "Training time" },
+      { "label": "C", "type": "text", "value": "Memory usage" },
+      { "label": "D", "type": "text", "value": "Random permutations" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SHAP gives local feature attributions per prediction." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Explainable AI",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "LIME explains individual predictions by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Building local surrogate linear models" },
+      { "label": "B", "type": "text", "value": "Showing confusion matrix" },
+      { "label": "C", "type": "text", "value": "Scaling features" },
+      { "label": "D", "type": "text", "value": "Removing noise" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "LIME perturbs inputs to train a simple model explaining a complex prediction." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Data Ethics",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Which concept ensures ML models don’t disproportionately impact certain groups?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Fairness" },
+      { "label": "B", "type": "text", "value": "Dropout" },
+      { "label": "C", "type": "text", "value": "Shuffling" },
+      { "label": "D", "type": "text", "value": "Grid search" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Fairness measures ensure equitable model behavior." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "Data Ethics",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "Differential privacy in ML helps by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Adding noise to prevent identifying individuals" },
+      { "label": "B", "type": "text", "value": "Removing the model" },
+      { "label": "C", "type": "text", "value": "Adding memory" },
+      { "label": "D", "type": "text", "value": "Scaling features" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "DP limits privacy leakage from training data." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "MLOps",
+    "difficulty": "intermediate",
+    "question": [
+      { "type": "text", "value": "A Model Registry is used to:" }
+    ],
+    "options": [
+      { "label":"A","type":"text","value":"Track model versions and deployment stages" },
+      { "label":"B","type":"text","value":"Train neural networks" },
+      { "label":"C","type":"text","value":"Compress images" },
+      { "label":"D","type":"text","value":"Store logs" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Model registries support governance and reproducibility." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "MLOps",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which tool orchestrates multi-step ML workflows with branching and retries?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"AWS Step Functions" },
+      { "label":"B","type":"text","value":"SQS" },
+      { "label":"C","type":"text","value":"CloudWatch" },
+      { "label":"D","type":"text","value":"KMS" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Step Functions orchestrate conditional ML workflows." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "MLOps",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Feature stores reduce which ML issue?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Training-serving skew" },
+      { "label":"B","type":"text","value":"GPU overheating" },
+      { "label":"C","type":"text","value":"JSON parsing errors" },
+      { "label":"D","type":"text","value":"Feature drift removal" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Feature stores give consistent features to both training and inference." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Scaling Systems",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Autoscaling a SageMaker endpoint is based on which metric?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"InvocationsPerInstance" },
+      { "label":"B","type":"text","value":"S3 bucket size" },
+      { "label":"C","type":"text","value":"Training loss" },
+      { "label":"D","type":"text","value":"EC2 memory" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Invocation traffic triggers instance scaling." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Scaling Systems",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Caching frequently used features reduces inference latency by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Avoiding repeated feature computation" },
+      { "label":"B","type":"text","value":"Increasing batch size" },
+      { "label":"C","type":"text","value":"Stacking models" },
+      { "label":"D","type":"text","value":"Compressing model weights" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Caching minimizes repeated expensive transformations." }
+    ]
+  },
+
+  {
+    "id": 41,
+    "topic": "Scaling Systems",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which AWS service handles asynchronous inference workloads?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"SageMaker Async Inference" },
+      { "label":"B","type":"text","value":"RDS" },
+      { "label":"C","type":"text","value":"QuickSight" },
+      { "label":"D","type":"text","value":"Elastic Beanstalk" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Async inference is ideal for long-running jobs." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Cost Optimization",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Spot Instances reduce cost for training because:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"They offer unused EC2 capacity at a lower price" },
+      { "label":"B","type":"text","value":"They have higher GPU speed" },
+      { "label":"C","type":"text","value":"They store models in RAM" },
+      { "label":"D","type":"text","value":"They skip training steps" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Spot EC2 provides discounted interruptible compute for ML." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Cost Optimization",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which SageMaker training feature reuses warm container pools to reduce startup time and cost?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Warm Pools" },
+      { "label":"B","type":"text","value":"Hyperband" },
+      { "label":"C","type":"text","value":"Slow-start" },
+      { "label":"D","type":"text","value":"Auto Batch" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Warm Pools reduce container spin-up cost for repeated training jobs." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Model Governance",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which tool tracks model lineage and approvals for production deployment?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"SageMaker Model Registry" },
+      { "label":"B","type":"text","value":"S3 buckets" },
+      { "label":"C","type":"text","value":"AWS Batch" },
+      { "label":"D","type":"text","value":"Glue Catalog" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Model Registry manages versioning and approval workflows." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Inference Optimization",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Quantization reduces model size by converting weights to:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Lower precision (FP16/INT8)" },
+      { "label":"B","type":"text","value":"Higher precision (FP64)" },
+      { "label":"C","type":"text","value":"Strings" },
+      { "label":"D","type":"text","value":"JSON objects" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Quantization reduces memory use and speeds up inference." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Modeling – Unsupervised",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Autoencoders detect anomalies by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Measuring reconstruction error" },
+      { "label":"B","type":"text","value":"Counting missing values" },
+      { "label":"C","type":"text","value":"Comparing file sizes" },
+      { "label":"D","type":"text","value":"Sorting rows" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Anomalies produce unusually high reconstruction error." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "Modeling – NLP",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Word embeddings such as Word2Vec work by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Learning vector representations from co-occurrence patterns" },
+      { "label":"B","type":"text","value":"Sorting words alphabetically" },
+      { "label":"C","type":"text","value":"Counting characters" },
+      { "label":"D","type":"text","value":"Removing punctuation" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Embeddings encode semantic similarity through co-occurrence." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Modeling – NLP",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Transformers replaced RNNs primarily because they:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Support parallel processing via attention" },
+      { "label":"B","type":"text","value":"Require no training" },
+      { "label":"C","type":"text","value":"Remove positional encoding" },
+      { "label":"D","type":"text","value":"Use no memory" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Transformers compute all tokens simultaneously using self-attention." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Modeling – Computer Vision",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"CNNs are effective for images mainly because they:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Learn spatial hierarchies through convolution filters" },
+      { "label":"B","type":"text","value":"Sort pixels" },
+      { "label":"C","type":"text","value":"Increase dataset size" },
+      { "label":"D","type":"text","value":"Use no activation functions" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Convolutions capture local visual patterns." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Modeling – Computer Vision",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Data augmentation improves image models by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Increasing data variability (flips, rotations)" },
+      { "label":"B","type":"text","value":"Compressing images" },
+      { "label":"C","type":"text","value":"Removing color channels" },
+      { "label":"D","type":"text","value":"Reducing GPU load" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Augmentation reduces overfitting by exposing model to varied samples." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "EDA",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Boxplots help visualize:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Distribution, spread, and outliers" },
+      { "label":"B","type":"text","value":"Sequence embeddings" },
+      { "label":"C","type":"text","value":"Network latency" },
+      { "label":"D","type":"text","value":"Confusion matrix" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Boxplots show median, quartiles, and potential outliers." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "EDA",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Feature scaling is necessary for algorithms such as:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"KNN and SVM" },
+      { "label":"B","type":"text","value":"Random Forest" },
+      { "label":"C","type":"text","value":"Naive Bayes" },
+      { "label":"D","type":"text","value":"Decision Trees" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Distance-based methods require scaling to avoid bias toward large-magnitude features." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Feature Engineering",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"One-hot encoding is ideal for:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Low-cardinality categorical features" },
+      { "label":"B","type":"text","value":"High-cardinality IDs" },
+      { "label":"C","type":"text","value":"Image pixels" },
+      { "label":"D","type":"text","value":"Audio signals" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"One-hot encoding scales badly with high-cardinality columns." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Feature Engineering",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Target encoding is useful when:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Categorical features have extremely high cardinality" },
+      { "label":"B","type":"text","value":"Numerical features need scaling" },
+      { "label":"C","type":"text","value":"Images need resizing" },
+      { "label":"D","type":"text","value":"Text needs tokenization" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Target encoding reduces dimensionality by using aggregated target statistics." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "Metrics",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"ROC-AUC is best suited when:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Classes are balanced" },
+      { "label":"B","type":"text","value":"Text needs embedding" },
+      { "label":"C","type":"text","value":"Images are blurred" },
+      { "label":"D","type":"text","value":"Features require scaling" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"ROC-AUC loses reliability under extreme imbalance." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Metrics",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Precision increases when:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"False positives decrease" },
+      { "label":"B","type":"text","value":"False negatives decrease" },
+      { "label":"C","type":"text","value":"Recall decreases" },
+      { "label":"D","type":"text","value":"Classes increase" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Precision focuses on correctness of positive predictions." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "Hyperparameter Tuning",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which HPO strategy quickly eliminates underperforming configurations?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Hyperband" },
+      { "label":"B","type":"text","value":"Grid search" },
+      { "label":"C","type":"text","value":"Random guessing" },
+      { "label":"D","type":"text","value":"Manual tuning" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Hyperband stops bad trials early, saving compute." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "Hyperparameter Tuning",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Bayesian optimization improves tuning by:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Modeling the objective function to choose better parameters" },
+      { "label":"B","type":"text","value":"Random sampling only" },
+      { "label":"C","type":"text","value":"Training deeper models" },
+      { "label":"D","type":"text","value":"Adding dropout" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Bayesian tuning balances exploration vs exploitation." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "Deployment",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Batch Transform is preferred when:" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"Predictions are done on large static datasets" },
+      { "label":"B","type":"text","value":"Latency must be <10 ms" },
+      { "label":"C","type":"text","value":"Streaming inference is required" },
+      { "label":"D","type":"text","value":"Feature engineering is needed" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Batch Transform processes massive offline datasets at once." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "Deployment",
+    "difficulty": "intermediate",
+    "question":[
+      { "type":"text","value":"Which AWS tool helps package ML models and dependencies into portable environments?" }
+    ],
+    "options":[
+      { "label":"A","type":"text","value":"SageMaker Inference Containers" },
+      { "label":"B","type":"text","value":"IAM Policies" },
+      { "label":"C","type":"text","value":"Athena SQL" },
+      { "label":"D","type":"text","value":"S3 Select" }
+    ],
+    "correct":"A",
+    "explanation":[
+      { "type":"text","value":"Custom containers allow flexible, reproducible ML environments." }
+    ]
+  }
+]

@@ -1,0 +1,1139 @@
+[
+  {
+    "id": 1,
+    "topic": "GCP Fundamentals",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which Google Cloud service is commonly used to store large machine learning datasets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Cloud Storage" },
+      { "label": "B", "type": "text", "value": "Cloud Functions" },
+      { "label": "C", "type": "text", "value": "Cloud Run" },
+      { "label": "D", "type": "text", "value": "Pub/Sub" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cloud Storage is used for scalable, durable, and cost-effective dataset storage." }
+    ]
+  },
+
+  {
+    "id": 2,
+    "topic": "BigQuery Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "BigQuery is primarily used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Analyzing large datasets using SQL" },
+      { "label": "B", "type": "text", "value": "Deploying ML models only" },
+      { "label": "C", "type": "text", "value": "Running virtual machines" },
+      { "label": "D", "type": "text", "value": "Creating version control systems" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "BigQuery is Google Cloud’s serverless data warehouse for analytics." }
+    ]
+  },
+
+  {
+    "id": 3,
+    "topic": "BigQuery ML",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is a key benefit of BigQuery ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Allows training ML models using SQL queries" },
+      { "label": "B", "type": "text", "value": "Automatically deploys Kubernetes clusters" },
+      { "label": "C", "type": "text", "value": "Provides built-in image labeling tools" },
+      { "label": "D", "type": "text", "value": "Generates GPUs automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "BigQuery ML makes ML accessible by using simple SQL syntax." }
+    ]
+  },
+
+  {
+    "id": 4,
+    "topic": "Vertex AI Overview",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Vertex AI is used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Building, training, and deploying ML models on Google Cloud" },
+      { "label": "B", "type": "text", "value": "Hosting websites" },
+      { "label": "C", "type": "text", "value": "Monitoring network traffic" },
+      { "label": "D", "type": "text", "value": "Providing DNS services" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Vertex AI is an end-to-end ML platform." }
+    ]
+  },
+
+  {
+    "id": 5,
+    "topic": "Vertex AI AutoML",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "AutoML in Vertex AI is best suited for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Training ML models without deep coding experience" },
+      { "label": "B", "type": "text", "value": "Developing mobile apps" },
+      { "label": "C", "type": "text", "value": "Creating SQL queries automatically" },
+      { "label": "D", "type": "text", "value": "Designing UI components" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AutoML enables automated model training with minimal manual tuning." }
+    ]
+  },
+
+  {
+    "id": 6,
+    "topic": "Model Training Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which GCP service provides managed Jupyter notebooks for ML development?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Vertex AI Workbench" },
+      { "label": "B", "type": "text", "value": "Cloud Scheduler" },
+      { "label": "C", "type": "text", "value": "Cloud Armor" },
+      { "label": "D", "type": "text", "value": "Anthos" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Vertex AI Workbench provides integrated notebook environments for ML." }
+    ]
+  },
+
+  {
+    "id": 7,
+    "topic": "Data Preparation",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service can preprocess and transform ML datasets at scale?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Dataflow" },
+      { "label": "B", "type": "text", "value": "Cloud Armor" },
+      { "label": "C", "type": "text", "value": "Cloud VPN" },
+      { "label": "D", "type": "text", "value": "Secret Manager" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dataflow is ideal for distributed data processing using Apache Beam." }
+    ]
+  },
+
+  {
+    "id": 8,
+    "topic": "Data Engineering Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Pub/Sub is used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Streaming data ingestion" },
+      { "label": "B", "type": "text", "value": "Hosting ML models" },
+      { "label": "C", "type": "text", "value": "Running Jupyter notebooks" },
+      { "label": "D", "type": "text", "value": "Building dashboards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pub/Sub enables real-time messaging pipelines." }
+    ]
+  },
+
+  {
+    "id": 9,
+    "topic": "AI Platform",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Vertex AI Training is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Train custom ML models using managed compute" },
+      { "label": "B", "type": "text", "value": "Compress videos" },
+      { "label": "C", "type": "text", "value": "Create mobile applications" },
+      { "label": "D", "type": "text", "value": "Manage billing alerts" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Vertex AI Training supports custom code, containers, and GPUs/TPUs." }
+    ]
+  },
+
+  {
+    "id": 10,
+    "topic": "Feature Engineering Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why is feature scaling important in ML?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Prevents large-valued features from dominating the model" },
+      { "label": "B", "type": "text", "value": "Improves image clarity" },
+      { "label": "C", "type": "text", "value": "Reduces GCP billing automatically" },
+      { "label": "D", "type": "text", "value": "Encrypts dataset files" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Scaling ensures equal contribution from all features." }
+    ]
+  },
+
+  {
+    "id": 11,
+    "topic": "Model Types",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which type of problem uses regression algorithms?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Predicting continuous values" },
+      { "label": "B", "type": "text", "value": "Grouping images" },
+      { "label": "C", "type": "text", "value": "Classifying text sentiment" },
+      { "label": "D", "type": "text", "value": "Detecting anomalies" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Regression predicts numeric outcomes (e.g., price, temperature)." }
+    ]
+  },
+
+  {
+    "id": 12,
+    "topic": "Evaluation Metrics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Accuracy is most appropriate when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classes are balanced" },
+      { "label": "B", "type": "text", "value": "Dataset is highly imbalanced" },
+      { "label": "C", "type": "text", "value": "Predicting continuous values" },
+      { "label": "D", "type": "text", "value": "Input images have noise" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Accuracy can be misleading for imbalanced datasets." }
+    ]
+  },
+
+  {
+    "id": 13,
+    "topic": "ML Workflow Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "The first step in any ML workflow is usually:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Understanding the problem and collecting data" },
+      { "label": "B", "type": "text", "value": "Deploying the model" },
+      { "label": "C", "type": "text", "value": "Scaling Kubernetes clusters" },
+      { "label": "D", "type": "text", "value": "Creating dashboards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Clear objective and data collection are essential before modeling." }
+    ]
+  },
+
+  {
+    "id": 14,
+    "topic": "Model Deployment Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Vertex AI Endpoints are used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Serve ML models for online predictions" },
+      { "label": "B", "type": "text", "value": "Store training datasets" },
+      { "label": "C", "type": "text", "value": "Create dashboards" },
+      { "label": "D", "type": "text", "value": "Monitor network traffic" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Endpoints allow real-time inference for deployed models." }
+    ]
+  },
+
+  {
+    "id": 15,
+    "topic": "Version Control",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Model versioning is important because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It helps track changes and rollback if needed" },
+      { "label": "B", "type": "text", "value": "It increases GPU count" },
+      { "label": "C", "type": "text", "value": "It reduces training data size" },
+      { "label": "D", "type": "text", "value": "It compresses logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Versioning is critical for auditability and reproducibility." }
+    ]
+  },
+
+  {
+    "id": 16,
+    "topic": "Monitoring Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Model monitoring helps detect:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Performance drops or data drift" },
+      { "label": "B", "type": "text", "value": "Train/test split ratios" },
+      { "label": "C", type: "text", "value": "Network bandwidth usage" },
+      { "label": "D", "type": "text", "value": "DNS routing issues" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Monitoring reveals prediction quality degradation." }
+    ]
+  },
+
+  {
+    "id": 17,
+    "topic": "Security Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which service stores API keys and credentials securely?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Secret Manager" },
+      { "label": "B", "type": "text", "value": "Cloud Logging" },
+      { "label": "C", "type": "text", "value": "BigQuery" },
+      { "label": "D", "type": "text", "value": "Pub/Sub" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Secret Manager keeps sensitive values encrypted and safe." }
+    ]
+  },
+
+  {
+    "id": 18,
+    "topic": "Explainable AI Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Why is explainability important in ML?" }
+    ],
+    "options": [
+      { "label": "A", type: "text", "value": "It helps understand why a model makes certain predictions" },
+      { "label": "B", type: "text", "value": "It increases image resolution" },
+      { "label": "C", type: "text", "value": "It reduces storage costs" },
+      { "label": "D", type: "text", "value": "It compresses datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Explainable AI builds trust and transparency." }
+    ]
+  },
+
+  {
+    "id": 19,
+    "topic": "Cloud Functions",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cloud Functions are often used in ML workflows to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Trigger preprocessing or inference jobs automatically" },
+      { "label": "B", "type": "text", "value": "Train GPU models" },
+      { "label": "C", "type": "text", "value": "Store large datasets" },
+      { "label": "D", "type": "text", "value": "Create dashboards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Functions work as lightweight triggers in ML pipelines." }
+    ]
+  },
+
+  {
+    "id": 20,
+    "topic": "Cloud Run",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cloud Run is useful in ML because it allows you to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Deploy containerized ML inference services" },
+      { "label": "B", "type": "text", "value": "Train deep neural networks automatically" },
+      { "label": "C", "type": "text", "value": "Create BigQuery datasets" },
+      { "label": "D", "type": "text", "value": "Manage TPU clusters" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cloud Run scales serverless containers for ML inference workloads." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "TPUs Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What are TPUs primarily designed for in Google Cloud?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Accelerating deep learning workloads" },
+      { "label": "B", "type": "text", "value": "Hosting SQL databases" },
+      { "label": "C", "type": "text", "value": "Managing Pub/Sub topics" },
+      { "label": "D", "type": "text", "value": "Scaling virtual desktops" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TPUs are specialized for neural network training and inference." }
+    ]
+  },
+
+  {
+    "id": 22,
+    "topic": "Object Detection Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Object detection models typically output:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Bounding boxes and class labels" },
+      { "label": "B", "type": "text", "value": "Encrypted images" },
+      { "label": "C", "type": "text", "value": "Sorted database rows" },
+      { "label": "D", "type": "text", "value": "Audio waveforms" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Object detection identifies objects and their locations." }
+    ]
+  },
+
+  {
+    "id": 23,
+    "topic": "Classification Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Binary classification models predict:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Two possible outcomes" },
+      { "label": "B", "type": "text", "value": "Exact numeric values" },
+      { "label": "C", "type": "text", "value": "Multiple topics" },
+      { "label": "D", "type": "text", "value": "Clusters of unlabeled data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Binary classification chooses between two categories." }
+    ]
+  },
+
+  {
+    "id": 24,
+    "topic": "Clustering Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Clustering algorithms are used when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Labels are not available in the dataset" },
+      { "label": "B", "type": "text", "value": "Data must be translated" },
+      { "label": "C", "type": "text", "value": "GPU memory needs expansion" },
+      { "label": "D", "type": "text", "value": "Database indexes must be tuned" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Clustering identifies natural groupings without labels." }
+    ]
+  },
+
+  {
+    "id": 25,
+    "topic": "Neural Networks Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which component of a neural network performs computations?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Neurons (nodes)" },
+      { "label": "B", "type": "text", "value": "TCP sockets" },
+      { "label": "C", "type": "text", "value": "Load balancers" },
+      { "label": "D", "type": "text", "value": "Pub/Sub push endpoints" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Neurons compute weighted sums and apply activation functions." }
+    ]
+  },
+
+  {
+    "id": 26,
+    "topic": "Image Classification Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Image classification models predict:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The category of the object in the image" },
+      { "label": "B", "type": "text", "value": "The number of objects only" },
+      { "label": "C", "type": "text", "value": "The camera model used" },
+      { "label": "D", "type": "text", "value": "Pixel compression formats" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Image classification assigns a label to the image." }
+    ]
+  },
+
+  {
+    "id": 27,
+    "topic": "Text Classification Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Sentiment analysis determines:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Whether text expresses positive or negative emotions" },
+      { "label": "B", "type": "text", "value": "Audio frequency ranges" },
+      { "label": "C", "type": "text", "value": "Document page count" },
+      { "label": "D", "type": "text", "value": "Image resolution" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Sentiment models classify emotional tone in text." }
+    ]
+  },
+
+  {
+    "id": 28,
+    "topic": "Training Concepts",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "What is the purpose of a training dataset?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To teach the model patterns from examples" },
+      { "label": "B", "type": "text", "value": "To test production readiness" },
+      { "label": "C", "type": "text", "value": "To store metadata" },
+      { "label": "D", "type": "text", "value": "To create dashboards" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Training data is used to fit model parameters." }
+    ]
+  },
+
+  {
+    "id": 29,
+    "topic": "Validation Concepts",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "The validation dataset is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Tune hyperparameters and evaluate performance during training" },
+      { "label": "B", "type": "text", "value": "Deploy models" },
+      { "label": "C", "type": "text", "value": "Encrypt data" },
+      { "label": "D", "type": "text", "value": "Manage user identities" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Validation sets help optimize model settings." }
+    ]
+  },
+
+  {
+    "id": 30,
+    "topic": "Testing Concepts",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "The purpose of the test dataset is to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Evaluate final model performance on unseen data" },
+      { "label": "B", "type": "text", "value": "Train neural networks" },
+      { "label": "C", "type": "text", "value": "Change hyperparameters" },
+      { "label": "D", "type": "text", "value": "Store logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Testing measures generalization ability." }
+    ]
+  },
+
+  {
+    "id": 31,
+    "topic": "Overfitting Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Overfitting occurs when a model:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Performs well on training data but poorly on new data" },
+      { "label": "B", "type": "text", "value": "Ignores training data entirely" },
+      { "label": "C", "type": "text", "value": "Has too few parameters" },
+      { "label": "D", "type": "text", "value": "Runs on GPUs only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Overfitting means memorization without generalization." }
+    ]
+  },
+
+  {
+    "id": 32,
+    "topic": "Underfitting Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Underfitting happens when a model:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Is too simple to learn the underlying patterns" },
+      { "label": "B", "type": "text", "value": "Uses too many neurons" },
+      { "label": "C", "type": "text", "value": "Has excess GPU memory" },
+      { "label": "D", "type": "text", "value": "Only processes images" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Underfitting leads to high error on both training and test sets." }
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "Hyperparameters Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Learning rate is a hyperparameter that controls:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "How fast the model updates weights" },
+      { "label": "B", "type": "text", "value": "Image resolution" },
+      { "label": "C", "type": "text", "value": "Dataset size" },
+      { "label": "D", "type": "text", "value": "Network speed" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The learning rate affects convergence behavior during training." }
+    ]
+  },
+
+  {
+    "id": 34,
+    "topic": "Activation Functions",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which activation function is commonly used in hidden layers of neural networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "ReLU" },
+      { "label": "B", "type": "text", "value": "Mean" },
+      { "label": "C", "type": "text", "value": "Sum" },
+      { "label": "D", "type": "text", "value": "Max Pool" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "ReLU introduces non-linearity and is efficient to compute." }
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "Loss Functions",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cross-entropy loss is typically used for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classification problems" },
+      { "label": "B", "type": "text", "value": "Clustering tasks" },
+      { "label": "C", "type": "text", "value": "Regression tasks" },
+      { "label": "D", "type": "text", "value": "Audio encoding" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cross-entropy measures how well predicted probabilities match true labels." }
+    ]
+  },
+
+  {
+    "id": 36,
+    "topic": "Evaluation Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Precision measures:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "How many predicted positives are correct" },
+      { "label": "B", "type": "text", "value": "How many predictions are fast" },
+      { "label": "C", "type": "text", "value": "Model size" },
+      { "label": "D", "type": "text", "value": "Data throughput" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Precision evaluates exactness of positive predictions." }
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "Recall Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Recall measures:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "How many actual positives were correctly predicted" },
+      { "label": "B", "type": "text", "value": "Image sharpness" },
+      { "label": "C", "type": "text", "value": "CPU utilization" },
+      { "label": "D", "type": "text", "value": "Dataset size limits" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Recall evaluates sensitivity to positive cases." }
+    ]
+  },
+
+  {
+    "id": 38,
+    "topic": "Confusion Matrix Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "A confusion matrix is used to evaluate:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classification model performance" },
+      { "label": "B", "type": "text", "value": "Image resolution" },
+      { "label": "C", "type": "text", "value": "Audio clarity" },
+      { "label": "D", "type": "text", "value": "Storage latency" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Confusion matrices show true/false positives/negatives." }
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "Data Collection Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Data quality is important because:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Poor data leads to poor model performance" },
+      { "label": "B", "type": "text", "value": "It reduces RAM usage" },
+      { "label": "C", "type": "text", "value": "It eliminates the need for validation sets" },
+      { "label": "D", "type": "text", "value": "It improves network speed automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Data quality directly influences model accuracy and behavior." }
+    ]
+  },
+
+  {
+    "id": 40,
+    "topic": "Feature Store Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Vertex AI Feature Store helps by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Managing, storing, and serving ML features consistently" },
+      { "label": "B", "type": "text", "value": "Deploying Kubernetes clusters" },
+      { "label": "C", "type": "text", "value": "Creating dashboards" },
+      { "label": "D", "type": "text", "value": "Generating SQL tables automatically" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature Store supports consistency between training and serving features." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Feature Importance Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Feature importance helps identify:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Which features contribute most to model predictions" },
+      { "label": "B", "type": "text", "value": "Image resolution in datasets" },
+      { "label": "C", "type": "text", "value": "GPU cluster size" },
+      { "label": "D", "type": "text", "value": "Type of cloud storage used" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature importance shows the influence of each input feature." }
+    ]
+  },
+
+  {
+    "id": 42,
+    "topic": "Data Labeling Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Google Cloud Data Labeling Service helps with:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Creating labeled datasets for ML models" },
+      { "label": "B", "type": "text", "value": "Deploying Kubernetes clusters" },
+      { "label": "C", "type": "text", "value": "Encrypting datasets" },
+      { "label": "D", "type": "text", "value": "Monitoring endpoints" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The service provides human labeling for images, text, and video." }
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "Model Registry Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Vertex AI Model Registry is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Store, version, and manage ML models centrally" },
+      { "label": "B", "type": "text", "value": "Train TPUs" },
+      { "label": "C", "type": "text", "value": "Run SQL queries" },
+      { "label": "D", "type": "text", "value": "Stream real-time messages" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Registry enables tracking and lifecycle management of models." }
+    ]
+  },
+
+  {
+    "id": 44,
+    "topic": "Pipeline Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "ML pipelines are useful because they:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Automate multi-step ML workflows like preprocessing and training" },
+      { "label": "B", "type": "text", "value": "Provide SQL optimization automatically" },
+      { "label": "C", "type": "text", "value": "Resize images automatically" },
+      { "label": "D", "type": "text", "value": "Reduce BigQuery storage cost by 90%" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipelines standardize and automate ML operations." }
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "Batch Inference Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Batch prediction should be used when:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "You need to process large amounts of data offline" },
+      { "label": "B", "type": "text", "value": "You need real-time predictions" },
+      { "label": "C", "type": "text", "value": "You require a live chatbot" },
+      { "label": "D", "type": "text", "value": "You are training a model" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batch prediction handles large datasets asynchronously." }
+    ]
+  },
+
+  {
+    "id": 46,
+    "topic": "Online Inference Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Online prediction is best for:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Making real-time, low-latency predictions" },
+      { "label": "B", "type": "text", "value": "Processing large historical datasets" },
+      { "label": "C", "type": "text", "value": "Data labeling" },
+      { "label": "D", "type": "text", "value": "Compressing datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Online endpoints provide fast, synchronous predictions." }
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "Cloud Logging Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cloud Logging helps ML engineers by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Tracking errors, warnings, and model activity logs" },
+      { "label": "B", "type": "text", "value": "Deleting training datasets" },
+      { "label": "C", "type": "text", "value": "Building dashboards only" },
+      { "label": "D", "type": "text", "value": "Reducing RAM usage" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Logging helps detect failures and performance drops." }
+    ]
+  },
+
+  {
+    "id": 48,
+    "topic": "Cloud Monitoring Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Cloud Monitoring is used to track:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Metrics like latency, CPU, and memory usage" },
+      { "label": "B", "type": "text", "value": "Dataset images" },
+      { "label": "C", "type": "text", "value": "Notebook execution history" },
+      { "label": "D", "type": "text", "value": "Cloud billing invoices" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Cloud Monitoring helps identify resource bottlenecks." }
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "Model Explainability Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Which tool provides feature attribution for models on Google Cloud?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Vertex Explainable AI" },
+      { "label": "B", "type": "text", "value": "Cloud Spanner" },
+      { "label": "C", "type": "text", "value": "Cloud Armor" },
+      { "label": "D", "type": "text", "value": "Pub/Sub" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Explainable AI tools highlight influential features." }
+    ]
+  },
+
+  {
+    "id": 50,
+    "topic": "Artifact Registry Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Artifact Registry is used to store:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Container images and model artifacts" },
+      { "label": "B", "type": "text", "value": "Billing logs" },
+      { "label": "C", "type": "text", "value": "Training datasets only" },
+      { "label": "D", "type": "text", "value": "Streaming data" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Artifact Registry stores Docker images and files used in ML pipelines." }
+    ]
+  },
+
+  {
+    "id": 51,
+    "topic": "AI Hub Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "AI Hub provides access to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Reusable ML assets like notebooks and pipelines" },
+      { "label": "B", "type": "text", "value": "GPU hardware" },
+      { "label": "C", "type": "text", "value": "Encryption keys" },
+      { "label": "D", "type": "text", "value": "Virtual machines" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AI Hub is a repository for ML workflows and artifacts." }
+    ]
+  },
+
+  {
+    "id": 52,
+    "topic": "Model Evaluation Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "An ROC curve is used to evaluate:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Binary classification performance" },
+      { "label": "B", "type": "text", "value": "Regression predictions" },
+      { "label": "C", "type": "text", "value": "Clustering quality" },
+      { "label": "D", "type": "text", "value": "Image resolution" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "ROC curves reflect model sensitivity and specificity." }
+    ]
+  },
+
+  {
+    "id": 53,
+    "topic": "Data Pipeline Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "TFX (TensorFlow Extended) is primarily used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Build production-ready ML pipelines" },
+      { "label": "B", "type": "text", "value": "Design mobile apps" },
+      { "label": "C", "type": "text", "value": "Generate SQL tables" },
+      { "label": "D", "type": "text", "value": "Monitor network logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TFX provides end-to-end components for ML pipelines." }
+    ]
+  },
+
+  {
+    "id": 54,
+    "topic": "Kubernetes Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Kubeflow is used to:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Run ML workflows on Kubernetes" },
+      { "label": "B", "type": "text", "value": "Encrypt storage buckets" },
+      { "label": "C", "type": "text", "value": "Create BigQuery tables" },
+      { "label": "D", "type": "text", "value": "Manage billing actions" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Kubeflow provides machine learning pipelines and training operators over Kubernetes." }
+    ]
+  },
+
+  {
+    "id": 55,
+    "topic": "Responsibility & Ethics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Responsible AI ensures that:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Models behave fairly, transparently, and safely" },
+      { "label": "B", "type": "text", "value": "Models never require retraining" },
+      { "label": "C", "type": "text", "value": "Data is always balanced by default" },
+      { "label": "D", "type": "text", "value": "Training is always cheaper" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Responsible AI ensures ethical and reliable ML behavior." }
+    ]
+  },
+
+  {
+    "id": 56,
+    "topic": "Bias Detection Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Bias in ML models can be reduced by:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Using diverse and representative training data" },
+      { "label": "B", "type": "text", "value": "Using only GPU clusters" },
+      { "label": "C", "type": "text", "value": "Training the same example repeatedly" },
+      { "label": "D", "type": "text", "value": "Compressing outputs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Good data coverage reduces bias." }
+    ]
+  },
+
+  {
+    "id": 57,
+    "topic": "Data Governance Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Data governance ensures that:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data is secure, high quality, and well managed" },
+      { "label": "B", "type": "text", "value": "Models train automatically" },
+      { "label": "C", "type": "text", "value": "Storage is always free" },
+      { "label": "D", "type": "text", "value": "Data is always labeled" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Governance ensures proper control over ML data assets." }
+    ]
+  },
+
+  {
+    "id": 58,
+    "topic": "Data Security Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "PII (Personally Identifiable Information) must be:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Protected and anonymized when necessary" },
+      { "label": "B", "type": "text", "value": "Stored in plain text" },
+      { "label": "C", "type": "text", "value": "Ignored during preprocessing" },
+      { "label": "D", "type": "text", "value": "Stored in logs" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Protecting PII is key to safe ML development." }
+    ]
+  },
+
+  {
+    "id": 59,
+    "topic": "ML Workflows",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "Reproducibility in ML means:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Others can run your code and get the same results" },
+      { "label": "B", "type": "text", "value": "Your model never changes" },
+      { "label": "C", "type": "text", "value": "Your datasets shrink automatically" },
+      { "label": "D", "type": "text", "value": "You do not need version control" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Reproducibility ensures reliable ML outputs across runs." }
+    ]
+  },
+
+  {
+    "id": 60,
+    "topic": "Model Lifecycle Basics",
+    "difficulty": "beginner",
+    "question": [
+      { "type": "text", "value": "ML model lifecycle includes:" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data → Training → Evaluation → Deployment → Monitoring" },
+      { "label": "B", "type": "text", "value": "Only training the model" },
+      { "label": "C", "type": "text", "value": "Only deploying the model" },
+      { "label": "D", "type": "text", "value": "Skipping evaluation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "ML lifecycle includes all steps from data to monitoring." }
+    ]
+  }
+]

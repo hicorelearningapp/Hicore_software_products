@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "topic": "Basic Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of an index in a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the storage space."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up the retrieval of data."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance data security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase data redundancy."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used to find rows with specific column values quickly. Without an index, SQL must scan the whole table to locate relevant rows."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Configuration Settings",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number MongoDB listens to upon installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "27017"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "8080"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5432"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as MongoDB by default listens on port 27017."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to Aggregation Framework",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a stage in the MongoDB Aggregation Pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$collect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$collect is not a recognized stage in the MongoDB Aggregation Pipeline. The correct stages include operations like $match, $group, and $sort."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Authentication Mechanisms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a default authentication mechanism provided by MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SCRAM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OAuth"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SAML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OpenID Connect"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SCRAM (Salted Challenge Response Authentication Mechanism) is the default authentication mechanism provided by MongoDB."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MongoDB Collections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the equivalent of a table in a relational database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Collection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Field"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Record"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, the equivalent of a table in a relational database is called a Collection."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Concepts of Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using indexes in database management systems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To decrease data retrieval time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase data storage requirements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To complicate data manipulation"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are primarily used to speed up the retrieval of data from a database by minimizing the number of disk accesses required."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Updating Documents",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to update a specific document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.findAndModify()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.updateMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.updateOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.replaceOne()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.collection.updateOne() is used to update the first document that matches the filter criteria."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Storage in MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the equivalent of a table in a relational database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Field"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Collection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Row"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, a collection is the equivalent of a table in a relational database. It is where MongoDB stores documents."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Replication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of implementing replication in a MongoDB database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy and availability"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce storage usage"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To replace backup systems"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To slow down write operations"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Replication increases data redundancy and ensures high availability by maintaining copies of data across different database servers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Aggregation Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of applying the COUNT() function in a SQL query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It returns the sum of the specified column values."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It returns the average of the specified column values."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It returns the number of rows that match a specified criterion."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It modifies the data in the database."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The COUNT() function is used to return the number of rows that match a specified criterion in a SQL query."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which schema design principle improves read performance by grouping related data together?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Denormalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sharding"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Denormalization involves embedding related data within a single document, which can improve read performance by reducing the number of read operations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Sharding Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing sharding in MongoDB, what is the purpose of the shard key?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To encrypt data stored in the database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To distribute data across multiple shards"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the size of the data storage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To create backups of collections"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The shard key is used to distribute data across multiple shards effectively, which helps in balancing the load and improving query performance by locating data in specific shards."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL aggregate function would you use to return the number of unique values in a column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "AVG()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "COUNT(DISTINCT)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "COUNT(DISTINCT) is used to count the number of unique (distinct) entries in a column, which distinguishes it from the regular COUNT() function that counts all entries, including duplicates."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Document Schema Design",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB schema design approach allows for more efficient reads at the expense of more complex writes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Denormalization"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Normalization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Indexing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Aggregation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Denormalization involves embedding related data within a single document to reduce the need for joins, thereby optimizing read performance at the cost of more complex update operations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Bitmap Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical use case for bitmap indexes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Managing large databases with numerous distinct values in a column"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Handling columns with a low number of distinct values"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Efficient querying in data warehousing scenarios"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optimizing read operations for columns with high cardinality"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are ideal for columns with a low number of distinct values, not for those with high cardinality or numerous distinct values, as this would reduce the effectiveness and efficiency of the index."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Role-Based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB roles ensures a user can perform backup operations but not read the data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "backup"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dbAdmin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "root"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'backup' role in MongoDB is specifically designed to allow users to perform backup operations without granting access to the actual data."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "MongoDB Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to start MongoDB server after installation on a Unix-like system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mongo-start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongodb-service"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "start-mongodb"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'mongod' command is used to start the MongoDB server. The other commands do not exist or are not used for starting the server."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Modeling in NoSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about MongoDB's schema-less feature is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All documents in a collection require a uniform schema."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Documents within a collection can have different structures."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MongoDB enforces foreign key constraints."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Schema-less design is not supported in MongoDB."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB is schema-less, which means documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection's documents may hold different types of data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Indexing Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is a covered query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A query that can be satisfied entirely using an index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A query that requires scanning every document in a collection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A query that updates data in the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A query that returns all fields in the documents"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A covered query in MongoDB is one that can be entirely satisfied using an index, meaning that all the fields used in the query are part of an index and that no document data needs to be examined."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query and Projection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following MongoDB query do? db.users.find({}, {name: 1, _id: 0})"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Finds all documents in the 'users' collection displaying only the 'name' field."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Finds all documents in the 'users' collection displaying all fields except 'name'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updates all documents in the 'users' collection to include only the 'name' field."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deletes the 'name' field from all documents in the 'users' collection."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "This query retrieves all documents in the 'users' collection but only includes the 'name' field in the output, excluding the '_id' field."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Bitmap Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a database using bitmap indexing, what is the time complexity of performing a bitmap AND operation on two attributes A and B, each consisting of n-bits?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(1)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The time complexity for AND operation on two bitmap indexes is O(n), where n is the number of bits, as each bit in the bitmap needs to be accessed and ANDed with the corresponding bit in the other bitmap."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encryption key management service is NOT supported by MongoDB for implementing Encryption at Rest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "AWS Key Management Service (KMS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Azure Key Vault"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Google Cloud KMS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IBM Cloud Key Protect"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB supports integration with AWS KMS, Azure Key Vault, and Google Cloud KMS, but not with IBM Cloud Key Protect for encryption key management."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing and Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a collection 'orders' with documents containing the fields 'customer_id', 'order_date', and 'amount'. You need to support frequent queries filtering by 'customer_id' and sorting by 'order_date'. Which of the following index configurations would be most efficient for this scenario?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "{ 'customer_id': 1, 'order_date': 1 }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{ 'customer_id': 1, 'order_date': -1 }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{ 'order_date': 1, 'customer_id': 1 }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "{ 'order_date': -1, 'customer_id': 1 }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly indexes 'customer_id' for filtering and 'order_date' for sorting in ascending order, which is the typical use case scenario."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following aggregation pipeline stages allows you to incorporate conditional logic into the processing pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$cond"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$lookup"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $cond stage allows you to perform conditional logic in aggregation, similar to if/else statements, enabling different outputs based on specified conditions."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact of creating a compound index in MongoDB, where the order of fields is reversed, considering the field usage in query conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "No impact as MongoDB re-orders fields internally"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreased performance due to lack of index utilization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increased disk usage but faster query response"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improved index compression"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reversing the order of fields in a compound index compared to the order in which they are used in queries can lead to decreased performance, as MongoDB might not be able to effectively use the index, resulting in full collection scans."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB aggregation pipeline stages will allow you to optimize performance by reducing the number of documents passed to the next stage?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the $match stage early in the pipeline can greatly reduce the number of documents processed in subsequent stages, thus optimizing the overall performance of the aggregation pipeline."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Atomicity of Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB operations are atomic at the document level?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inserting a new document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Updating multiple fields in a single document using $set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updating multiple documents using $multi"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both A and B are correct"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB ensures atomicity at the document level which means operations like inserting a new document or updating multiple fields in a single document using $set are atomic. However, updating multiple documents even with a single query using $multi is not atomic at the document level."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encryption mechanism does MongoDB use for 'Encryption at Rest' to enhance data security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transport Layer Security (TLS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Secure Hash Algorithm (SHA-256)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WiredTiger Encryption at Rest"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Advanced Encryption Standard (AES)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB uses WiredTiger's built-in encryption at rest framework to encrypt data stored on the server disk."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which schema design consideration is most critical when planning to store large arrays inside MongoDB documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensuring that the array does not cause the document to exceed MongoDB's 16MB document size limit."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating a separate collection for each item in the array."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using a relational database instead of MongoDB for array storage."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing sharding at the document level."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, the maximum BSON document size is 16MB. Storing large arrays in a document can easily breach this limit, leading to insertion errors."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following is NOT a recommended practice for optimizing an aggregation pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using $project to remove unnecessary fields early in the pipeline"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using $lookup for large unindexed collections"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Limiting the amount of processed documents with $limit"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using $lookup on large unindexed collections is not recommended as it can significantly degrade performance. Indexing the foreign collection can help improve the performance of the $lookup stage."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a MongoDB schema, what is a major consideration when deciding between embedding and referencing documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The type of indexing used"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The size of individual documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Network latency"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both data access patterns and the size of the documents"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Choosing between embedding and referencing depends on both the data access patterns (how often data is accessed together) and the size of the documents, as large embedded documents can lead to performance issues."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the most effective optimization for a complex aggregation pipeline involving multiple $lookup and $group stages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the RAM of the server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Splitting the pipeline into smaller, independent aggregations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Indexing all fields used in the $lookup and $group stages"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline effectively reduces the amount of data processed in subsequent stages, increasing overall efficiency. While indexing and increasing server resources may help, they do not address the core efficiency of the pipeline's logic as directly as strategic use of $match does."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what granularity level do roles operate at when specifying access controls for collections and databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Database level only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Collection level only"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both database and collection levels"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Server level only"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, roles can be specified at both the database and collection levels, allowing for fine-grained access control."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which encryption mechanism does not provide encryption at rest by itself?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transparent Data Encryption (TDE)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encrypted Storage Engine"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TLS/SSL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Field Level Encryption"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TLS/SSL provides encryption in transit rather than encryption at rest. It secures data as it travels between the client and the server but not when it is stored."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Sharding Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is a potential downside of choosing a shard key that has high cardinality and high frequency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can lead to hotspots, affecting write scalability."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It often causes ignored transactions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It reduces the overall data security and integrity."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It increases the durability of the data."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because a shard key with high cardinality and high frequency can lead to uneven data and workload distribution across the shards, thereby creating hotspots which negatively impact write scalability."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Sharding in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a sharded MongoDB setup, which of the following components is responsible for directing the operations to the appropriate shard or shards?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Config servers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Query routers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Replica sets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Shard keys"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Query routers (mongos instances) in a MongoDB sharded cluster are responsible for directing the operations to the appropriate shard or shards. They act as the interface between client applications and the sharded cluster."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Schema Design for Read and Write Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a schema in MongoDB, what is a primary consideration for choosing to embed one document inside another?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The frequency of updates to the embedded document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The size of the parent document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The storage engine used by MongoDB"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Network latency between application and database servers"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents should be considered when the embedded data does not frequently change, as frequent updates can lead to performance degradation due to document movement on disk."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Indexing and Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When querying a MongoDB collection, which index type can significantly improve the performance of queries that sort on multiple fields?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multikey index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Geospatial index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index, which includes multiple fields within a single index, is ideal for improving the performance of queries involving sorting on multiple fields."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Indexing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What indexing strategy can significantly improve the performance of read operations in a MongoDB collection with diverse and complex query patterns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field indexes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Geospatial indexes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Text indexes"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compound indexes support queries on multiple fields, optimizing performance by reducing the need for additional processing to satisfy complex query patterns."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "MongoDB Replica Set Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring a replica set in MongoDB, what is the impact of setting the 'writeConcern' to a majority on the performance of write operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases the latency of write operations due to the need for acknowledgment from the majority of nodes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases the latency of write operations as it requires fewer acknowledgments."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Has no impact on the latency of write operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases the reliability of write operations."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'writeConcern' to a majority increases the latency of write operations because it requires acknowledgment from the majority of nodes before considering the operation successful. This ensures data durability and consistency at the cost of increased latency."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB database, a 'book' document contains an array of 'chapters', each with its own 'title' and 'text'. If you need to frequently update the text of specific chapters, which schema design would enhance performance and minimize potential data corruption?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Storing each chapter as a separate document in a 'chapters' collection, linked by book_id."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Storing all chapters within a single 'book' document as an embedded array."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Storing only chapter titles in the 'book' document, and chapter text in a separate 'texts' collection."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a hybrid approach with chapter titles in the 'book' document and texts as separate documents in a 'chapters' collection."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is optimal as it allows each chapter to be independently updated without risking data corruption in other parts of the book, which is more likely in a large embedded array."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Encryption at Rest in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which storage engine supports the built-in encryption at rest in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "In-memory Storage Engine"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WiredTiger Storage Engine"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MMAPv1 Storage Engine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WiredTiger, the default storage engine since MongoDB version 3.2, supports built-in encryption at rest, providing security for data stored on disk without requiring changes to the application code."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Indexing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the main advantage of using a compound index over a single-field index when querying on multiple fields?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases storage space"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increases write performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Improves query performance by reducing the number of documents scanned"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Simplifies query syntax"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index can cover multiple query fields, allowing the database to perform index-only scans which significantly reduces the number of documents that need to be examined."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the $unwind stage do in a MongoDB aggregation pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It condenses multiple documents into a single document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It groups input documents by a specified identifier"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It deconstructs an array field from input documents to output a document for each element"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It creates a new array with elements that match the specified condition"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $unwind stage is used in aggregation pipelines to deconstruct an array field from the input documents to output a document for each element of the array."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Sharding Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a critical consideration when deciding on the shard key for a MongoDB sharded cluster?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The shard key should be an indexed field in every document of the collection."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Choosing a frequently updated field as the shard key optimizes the performance of the cluster."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The shard key must uniquely identify each document in the collection."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is recommended to use a random value as a shard key to ensure even distribution of data."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Selecting an indexed field as the shard key is crucial because it ensures that MongoDB can efficiently locate and route queries to the appropriate shards. This optimizes query performance across the cluster. A shard key that is not indexed would slow down these operations significantly, impacting overall performance."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Sharding Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB sharded cluster, which of the following components is responsible for directing operations to the appropriate shard or shards?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Config Server"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Mongos Router"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Shard Server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Query Optimizer"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because the Mongos Router acts as a query router in a sharded MongoDB cluster, directing operations to the appropriate shard or shards based on the cluster's configuration."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Atomic Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When performing an update operation in MongoDB, which of the following statements ensures atomicity on document-level modifications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$set"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$isolated"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$atomic"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$snapshot"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $set operator in MongoDB is used to replace the value of a field with a specified value, ensuring atomicity at the document level during an update operation."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Atomic Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB operations ensures atomicity on document-level modifications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.updateMany()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.updateOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.find().limit(1)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.aggregate()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because updateOne() ensures atomicity for the modifications made to a single document identified by the query."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following actions is NOT permissible under the 'readWrite' built-in role?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Insert documents"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Update documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Drop collections"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Query documents"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'readWrite' role in MongoDB allows the user to perform read and write operations on databases, but it does not permit dropping collections. Dropping collections requires 'dbAdmin' or higher privileges."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "MongoDB Security Configurations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring MongoDB with TLS/SSL, which file format must the server certificate and private key be in to ensure compatibility with default settings?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PEM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PKCS12"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DER"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CRT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB requires the server certificate and key to be in the PEM file format when setting up TLS/SSL with default configurations."
+      }
+    ]
+  }
+]

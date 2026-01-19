@@ -1,0 +1,2010 @@
+[
+  {
+    "id": 9,
+    "topic": "C++ Project Setup",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is crucial when setting up a multi-platform C++ project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Choosing a specific C++ version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a platform-specific compiler"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Configuring a cross-platform build system"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing on a single platform during development"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Configuring a cross-platform build system is crucial for ensuring that the C++ project can be built and run on multiple platforms, which involves tools like CMake or Bazel that handle different environments efficiently."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Creating Your First C++ Program",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the standard output statement in C++ used to display 'Hello, World!' in the console?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "System.out.println('Hello, World!');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "print('Hello, World!');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "cout << 'Hello, World!' << endl;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "echo 'Hello, World!';"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, the correct syntax to output 'Hello, World!' to the console uses the cout object and the stream insertion operator (<<), followed by endl to move to the next line. Options A, B, and D represent syntax from other programming languages."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Selection Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C++ code snippet if the variable 'x' is 15?\n\nif (x > 20) {\n  cout << \"Greater than 20\";\n} else if (x > 10) {\n  cout << \"Greater than 10\";\n} else {\n  cout << \"10 or less\";\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Greater than 20"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10 or less"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 15 is greater than 10 but not greater than 20, the output will be 'Greater than 10'. The program checks conditions from top to bottom and selects the first true condition."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class Constructors and Destructors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C++ code if the input is 4?"
+      },
+      {
+        "type": "text",
+        "value": "class Number {\npublic:\n  Number() { cout << \"Default Constructor\\n\"; }\n  Number(int x) { cout << \"Parameterized Constructor\\n\"; }\n  ~Number() { cout << \"Destructor\\n\"; }\n};\n\nint main() {\n  Number n1;\n  int num;\n  cin >> num;\n  Number n2(num);\n  return 0;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Default Constructor\nParameterized Constructor\nDestructor\nDestructor"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Parameterized Constructor\nDefault Constructor\nDestructor\nDestructor"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Default Constructor\nDestructor\nParameterized Constructor\nDestructor"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Default Constructor\nParameterized Constructor\nDestructor"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default constructor is called when 'n1' is created, and the parameterized constructor is called when 'n2' is created with 'num' as an argument. Both objects are destroyed when they go out of scope at the end of 'main', calling the destructor twice."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Encapsulation and Access Modifiers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of private access modifiers in a C++ class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow code outside the class to access the class members directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To restrict access to the class members from the code outside the class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To allow all class members to be accessed anywhere in the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To make debugging and testing of the code easier."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Private access modifiers are used in object-oriented programming to encapsulate data. This means that the class controls its internal state and hides its implementation details from the outside, leading to more secure and robust code."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Class Constructors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement about constructors in C++ is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A constructor must always return a value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Constructors cannot be declared as private."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "You can have more than one constructor in a class, as long as each has a different set of parameters."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Constructors are automatically called when an object goes out of scope."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, constructors are special class functions which initializes objects of a class. Having multiple constructors with different sets of parameters (overloading constructors) is valid, allowing different ways of initializing objects."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Templates and Generic Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using templates in C++ programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the execution speed of programs"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enforce strict type checking at compile time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To allow the same function or class to operate with different data types"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the memory usage of programs"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Templates in C++ allow for type-independent programming. By using templates, you can write a function or class once and use it with any data type, which facilitates code reusability and flexibility without sacrificing performance."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of control structure in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sequential"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Iteration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Expression"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, the primary control structures are sequential, selection, and iteration. 'Expression' is not a control structure."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Iteration Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not an iteration control structure in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do-while"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if-else"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The if-else statement is a selection control structure, not an iteration control structure. Iteration structures like for, while, and do-while are used for repeating a block of code multiple times."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Setting Up C++ Development Environment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the first step in setting up a C++ development environment according to the introductory lessons?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Installing a C++ compiler"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Writing your first C++ program"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Selecting an Integrated Development Environment (IDE)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Configuring system variables"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The first step in setting up a C++ development environment is selecting an Integrated Development Environment (IDE), which facilitates the creation, compilation, and execution of C++ programs."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Access Specifiers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which access specifier in a C++ class makes member variables and functions accessible only to the methods of the same class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "private"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "protected"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "internal"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'private' access specifier restricts access to the member variables and functions of a class such that they can only be accessed by other methods within the same class."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "C++ Build Process",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of setting up a C++ project for multiple platforms and configurations during the build process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase compilation time"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance code portability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To use more memory resources"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To limit the target audience"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting up a project for multiple platforms and configurations enhances code portability, allowing it to run on different systems without modification."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "C++ Build Process",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of a Makefile in a C++ project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To document the project's codebase."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To automate the building of the project."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the performance of the executable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To manage project versions."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Makefile automates the building of a project by describing the relationships among files in the program and providing commands for updating each file. It simplifies the build process for large projects with multiple files."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Class Constructors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if a class in C++ has no constructors defined?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The compiler generates a syntax error."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The class cannot be instantiated."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The compiler provides a default constructor."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The objects of the class are created with uninitialized data members."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If a class in C++ does not have any constructors defined, the compiler automatically provides a default constructor that initializes the object."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "C++ Project Setup",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which C++ feature is essential when setting up a project to ensure code is reusable and modular?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Functions"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Preprocessor Directives"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Namespaces"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Classes are essential in setting up a C++ project as they help encapsulate and modularize code making it reusable. This object-oriented programming feature is crucial for large-scale software development."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the C++ code snippet 'int x = 10; int y = x++;', what will be the value of 'y' after execution?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "undefined"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In this code, the post-increment operator is used, which means the value of 'x' (10) is assigned to 'y' before 'x' is incremented. Therefore, 'y' will have the value 10."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Setting Up the C++ Development Environment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Integrated Development Environment (IDE) is commonly used for C++ development and supports cross-platform capabilities?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Microsoft Visual Studio"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sublime Text"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Notepad++"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Eclipse"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Microsoft Visual Studio is widely recognized for its comprehensive features supporting C++ development, including cross-platform capabilities."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "C++ Build Process",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a necessary step in the build process for a typical multi-platform C++ project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Defining a single execution path for all platforms"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a platform-specific compiler for each target platform"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Ignoring platform-specific optimizations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Writing platform-independent code only"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a platform-specific compiler for each target platform is essential because different platforms may have different system architectures and require different binary formats."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Compiling a Basic C++ Program",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of a basic C++ 'Hello, World!' program when successfully compiled and run?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello, World!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "hello, world"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When the 'Hello, World!' program is compiled and run successfully in C++, it outputs 'Hello, World!' to the console."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Creating the First C++ Program",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the first fundamental program typically written to test a new C++ development setup?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Input and Output program"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "\"Hello, World!\" program"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data Types listing program"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sorting algorithm"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The \"Hello, World!\" program is traditionally used as the simplest way to demonstrate a basic functioning C++ environment setup, as it only involves outputting text to the console."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C++ function call if input x is 5? int func(int x) { return x*x; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "25"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function func(int x) returns x multiplied by itself (x*x). When x is 5, the function returns 5*5, which is 25."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types and Variable Initialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to initialize an integer variable 'x' with the value 10 in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int x = 10;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int x := 10;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x = 10;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "integer x = 10;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, an integer variable is correctly initialized with the syntax 'int variable_name = value;'. Therefore, 'int x = 10;' is the correct initialization."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the size, in bytes, of a 'double' data type in C++ on a typical architecture?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In most typical architectures, a 'double' data type occupies 8 bytes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Selection Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which control structure allows for multiple conditions to be evaluated sequentially in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if statement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "switch statement"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ternary operator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "goto statement"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A switch statement allows for multiple conditions to be evaluated sequentially based on the value of a single variable or expression."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which operator would you use to compare if two variables, a and b, are not equal in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "=="
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "!="
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ">="
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<="
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '!=' operator is used to check if two variables are not equal in C++."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Encapsulation and Access Specifiers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the use of private access specifiers in C++ classes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Private members can be accessed directly from any function outside the class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Private members are accessible only within the class itself and by friends of the class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Private members can be inherited but are not accessible in the derived class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Private members can be accessed through any object of the class."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Private members of a class are accessible only within the class itself and by functions or classes declared as friends of the class, not outside of these contexts."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Operator Precedence",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the expression: 5 + 3 * 2. What is the result in C++ assuming standard operator precedence?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "11"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to operator precedence in C++, multiplication (*) has a higher precedence than addition (+). Hence, the expression 3 * 2 is evaluated first, resulting in 6, and then 5 + 6 equals 11."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "C++ Project Development",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++ project development, why is breaking down the application into functions beneficial?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases the complexity of the code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It makes the code less reusable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It facilitates easier testing and debugging"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It requires more processing power"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Breaking down the application into functions facilitates easier testing and debugging by isolating code blocks, which helps in identifying and fixing issues more efficiently."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Template Specialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C++ code snippet if 'char' type is used as the template parameter?"
+      },
+      {
+        "type": "text",
+        "value": "template<typename T>\nvoid test() {\n  std::cout << \"General template\";\n}\ntemplate<>\nvoid test<char>() {\n  std::cout << \"Specialized template for char\";\n}\nint main() {\n  test<char>();\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "General template"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Specialized template for char"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The specialized template function for the 'char' type is invoked, which outputs 'Specialized template for char'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Memory Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following smart pointers in C++ automatically manages the memory of a dynamically allocated object and is reference counted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "auto_ptr"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "unique_ptr"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shared_ptr"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "weak_ptr"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "shared_ptr is a smart pointer that manages the memory of a dynamically allocated object. It is reference counted, meaning the allocated memory is automatically freed when its reference count drops to zero."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Standard Template Library (STL)",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which container in the Standard Template Library (STL) is a sequence container that allows constant time insert and erase operations anywhere within the sequence?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "vector"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "deque"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "array"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "list is an STL container that allows constant time insert and erase operations anywhere within the sequence, unlike vectors and deques."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Writing First C++ Program",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is typically used as the first program when learning C++ to test the development setup?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int main() { return 0; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "cout << 'Hello, World!' << endl;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "#include <iostream>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "using namespace std;"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Hello, World!' program using cout is typically used as the first program to test the setup of the C++ development environment because it outputs simple text to the console, verifying that the system can compile and run C++ code."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Templates and STL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a component of the Standard Template Library (STL)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Vector"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Map"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pipeline"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Pipeline is not a component of the Standard Template Library (STL), which primarily includes containers like Vector, Map, and List, along with algorithms and iterators."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which operator would you use to check if two variables, a and b, are NOT equal in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "=="
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "!="
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "="
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, the '!=' operator is used to check if two variables are not equal."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Memory Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C++, which of the following smart pointers automatically manages the memory of a single allocated object and deallocates that object when the smart pointer itself is destroyed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "auto_ptr"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "unique_ptr"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shared_ptr"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "weak_ptr"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "unique_ptr is a smart pointer that owns and manages another object through a pointer and disposes of that object when the unique_ptr goes out of scope."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following function prototype indicate?\nint compute(int, int);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function returns an integer and takes two integer parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function returns an integer and takes no parameters."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function returns a float and takes two integer parameters."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function does not return anything and takes two integer parameters."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function prototype 'int compute(int, int);' indicates that the function named 'compute' returns an integer value and takes two integer parameters."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Class Member Accessibility",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the accessibility of class members in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Private members are accessible anywhere within the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Protected members can be accessed by any function in the same class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Public members cannot be accessed by derived classes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Private members are accessible only within the class they are declared."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Private members of a class are only accessible within the class itself and not by any outside entity, including derived classes. This encapsulation ensures data integrity and security."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "C++ Build Process",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT typically involved in the C++ build process for creating executable programs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compilation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Linking"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Interpretation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optimization"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the C++ build process, the steps include compilation, linking, and optimization. Interpretation is not typically involved as C++ is a compiled language, not an interpreted one."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Setting Up the C++ Development Environment",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT typically required when setting up a C++ development environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Integrated Development Environment (IDE)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compiler"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Web Server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Text Editor"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A web server is not typically required for setting up a C++ development environment as C++ is generally used for system software, game development, and applications that do not necessarily need a web server."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Iteration Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which loop structure checks its condition at the end of each iteration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while loop"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "do-while loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "none of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The do-while loop checks its condition at the end of each iteration, allowing the loop body to execute at least once regardless of the condition."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of a return statement in a C++ function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To exit the program"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To send back a value from a function to the calling function"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To print a value on the screen"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To declare a variable"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The return statement in C++ is used to send back a value from a function to the function that called it."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Compiling a C++ Program",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of compiling a C++ program?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To optimize the code for faster execution"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To convert the source code into machine code that the computer can execute"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To upload the code to a remote server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To check the code for syntax errors only"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compiling a C++ program converts the source code written by the developer into machine code (binary code) that the computer's processor can execute directly."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Memory Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'delete' operator do in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Allocates memory on the heap."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deallocates memory from the stack."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deallocates memory allocated by 'new'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Clears memory leaks automatically."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'delete' operator in C++ is used to deallocate memory that was previously allocated by the 'new' operator. It helps in managing dynamic memory and preventing memory leaks by freeing up unused memory."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Arithmetic Operators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following code: int a = 10, b = 4; cout << a / b; What is the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2.5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The division of two integers in C++ results in an integer. The fractional part is discarded, so 10 / 4 results in 2."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of control structure in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sequence"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Iteration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Conversion"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "C++ primarily has three control structures: Sequence, Selection, and Iteration. 'Conversion' is not a control structure."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types and Variable Initialization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C++ code snippet? int x; cout << x;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Garbage value"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 'x' is an uninitialized local variable of type int, it will hold a garbage value. Local variables are not initialized by default."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "C++ Project Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a cross-platform C++ project, what tool is often used to manage different build configurations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Docker"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GNU Compiler Collection (GCC)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CMake"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CMake is a cross-platform build system generator that manages multiple build environments using simple configuration files. It simplifies the process of generating makefile across different platforms."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the size of a 'double' data type in C++ on a standard 64-bit system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "4 bytes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "8 bytes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "16 bytes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2 bytes"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a standard 64-bit system, the size of a 'double' data type is 8 bytes."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Class Constructors",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which constructor is automatically called when a new object of a class is created in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Member Constructor"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Default Constructor"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Static Constructor"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Copy Constructor"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default constructor is automatically called when a new object of a class is created. It initializes the object's member variables with default values if no arguments are provided."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of control structure in C++?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Iteration"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Modification"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sequence"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C++, the primary control structures are iteration, selection, and sequence. 'Modification' is not a recognized control structure in C++."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 3,
+    "topic": "Load Balancing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of a load balancer in Node.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To distribute incoming network traffic across multiple servers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the storage capacity of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To compile Node.js code into machine language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To monitor the performance of the application only"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A load balancer helps to distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, thereby increasing the availability and reliability of the application."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Routing in Express.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method would you use to handle a GET request in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.get()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.post()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.put()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.all()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "app.get() is used specifically to handle GET requests in Express.js."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "NPM Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the command 'npm init'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To update a package"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To uninstall a package"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initialize a new Node.js project"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To list installed packages"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'npm init' command is used to create a new package.json file in the root of a Node.js project, initializing a new project."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Express.js Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is used in Express.js to transfer a request to the next middleware function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "next()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pass()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "continue()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "skip()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Express.js, the 'next()' function is used to pass control to the next middleware function. If not called, the request will be left hanging or unhandled."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Node.js Package Manager",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default package manager for Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NPM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Yarn"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "NuGet"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bower"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NPM stands for Node Package Manager, and it is the default package manager for Node.js."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js File System Module",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the File System module is used to read the contents of a file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.writeFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.appendFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.readURL()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.readFile() is the correct method to asynchronously read the entire contents of a file."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Node.js Packages",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default package manager for Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Yarn"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NPM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "NodePack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bower"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NPM is the default package manager for Node.js, used for installing libraries and packages."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Mongoose Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Mongoose, what method is used to create a new document in the database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "create()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insert()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "add()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'create()' method is used in Mongoose to create and save new documents to the database."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic MongoDB Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to find one document in a MongoDB collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "findOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "findSingle()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "searchOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The findOne() method is used to find the first document that matches the query."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "File System Module",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the File System module is used to read the contents of a file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.writeFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.appendFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.copyFile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.readFile() is used to asynchronously read the entire contents of a file."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Routing in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use in Express.js to handle a POST request at the route '/submit-form'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.get('/submit-form', callback);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.post('/submit-form', callback);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.put('/submit-form', callback);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.all('/submit-form', callback);"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To handle a POST request specifically, you would use the app.post() method, specifying the route and the callback function to execute."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Load Balancing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Node.js module is primarily used to ensure even distribution of requests over multiple server instances?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "http"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "express"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "cluster"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "net"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'cluster' module allows you to easily create child processes that all share server ports, helping in load balancing across multiple CPU cores."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Routing in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to handle GET requests for a specific path in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "express.get()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "router.get()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.get()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "get.router()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "app.get() is the method used in Express.js to set up a route handler for GET requests to a specified path."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Querying Documents",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is used in Mongoose to find all documents that match a query condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "find()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "findOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "search()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "query()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The find() method in Mongoose is used to retrieve all documents from a MongoDB collection that match the given query condition."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Installation of Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands is used to verify that Node.js is installed correctly on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node --version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node install"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "node verify"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm --version"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node --version' outputs the version of Node.js installed, confirming its successful installation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "HTTP Module",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in Node.js's HTTP module is used to create a new server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "http.createServer()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "http.newServer()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "http.createServerRequest()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "http.requestServer()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The http.createServer() method is used to create an HTTP server which listens for requests on a given port."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Promises in Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Node.js code snippet if the 'resolve' function is called with an argument of '42'?"
+      },
+      {
+        "type": "formula",
+        "value": "Promise.resolve().then(() => 42).then((x) => x * 2)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "84"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error is thrown"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The promise initially resolves to undefined, but the first then() turns it into 42. The second then() receives 42, multiplies it by 2, and returns 84."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Loop and Timers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Node.js code. What will be the order of output?"
+      },
+      {
+        "type": "text",
+        "value": "console.log('Start'); setTimeout(() => console.log('Timer'), 0); process.nextTick(() => console.log('Next Tick')); console.log('End');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start, End, Timer, Next Tick"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Start, Timer, Next Tick, End"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Start, Next Tick, End, Timer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Start, End, Next Tick, Timer"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The event loop handles all asynchronous callbacks. 'process.nextTick()' has a higher priority and gets executed right after the current operation completes, even before 'setTimeout' and other I/O operations. Thus, the correct order is Start, End, Next Tick, followed by Timer."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Loop in Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the role of the Event Loop in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Handling asynchronous operations only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executing synchronous and asynchronous code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Managing all operations, both in the call stack and in the Node.js API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Facilitating event-driven programming by looping through event queues"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Event Loop in Node.js facilitates event-driven programming by continuously looping through different event queues and executing callbacks associated with events. This allows Node.js to perform non-blocking I/O operations despite JavaScript being single-threaded."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Node.js Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify if Node.js is installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node --version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm install node"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "verify node"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node -v' is used to display the current version of Node.js installed, verifying its presence on your system."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Middleware in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of middleware in Express.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To handle database operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage client-side scripts"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To modify the request and response objects"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To authenticate user sessions exclusively"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Middleware in Express.js is primarily used to modify the request and response objects, and to end the request-response cycle."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Middleware in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'next' function in Express.js middleware?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To terminate the request-response cycle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass control to the next middleware function in the stack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To render a template"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To send a JSON response"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'next' function is used to pass control to the next middleware function. Without calling 'next()', the request will be left hanging or unprocessed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Routing in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to handle a POST request to the '/submit' route in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.get('/submit', callback)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.post('/submit', callback)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.use('/submit', callback)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.all('/submit', callback)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To handle a POST request to the '/submit' route in Express.js, you should use the app.post method. This method is specifically designed to handle POST requests."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Node.js Event Loop",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about the Node.js event loop?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The event loop allows Node.js to perform non-blocking I/O operations."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Node.js uses a single thread for event looping."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The event loop is executed once all scripts are executed and then it stops."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Each Node.js application runs in multiple instances of an event loop to enhance performance."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the event loop is fundamental to Node.js operation, allowing it to handle multiple operations on a single thread through non-blocking I/O operations."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Node.js Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify that Node.js is installed successfully on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node --version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "verify node"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "check node"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'node -v' command is used to display the version of Node.js installed, which verifies its successful installation."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "NPM Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file is automatically updated when you install a new package in Node.js using npm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "package.json"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node_modules"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm.js"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "config.json"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'package.json' file is updated to include the new package as a dependency or devDependency, depending on the installation command used."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js Installation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify that Node.js is installed correctly on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node --version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "node verify"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "check node"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node -v' or 'node --version' are both commonly used to check the version of Node.js, which verifies its installation."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "NPM Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'package-lock.json' file in an NPM project?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To keep track of the exact versions of each package installed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manually lock the versions of packages for security"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the installation speed by caching downloaded packages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To specify the project dependencies in a more detailed manner"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'package-lock.json' file is automatically generated to ensure that the same versions of each package are used in all installations, thereby improving consistency across environments."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Promises in Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the output be when the following code is executed in Node.js? \n\n console.log('A'); \n new Promise((resolve, reject) => { \n console.log('B'); \n resolve(); \n }).then(() => { \n console.log('C'); \n }); \n console.log('D');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A, B, D, C"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A, B, C, D"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "B, A, D, C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "B, A, C, D"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The output is 'A, B, D, C' because the console.log inside the Promise constructor is executed immediately, and then the .then() callback is placed in the microtask queue, which will execute after all the synchronous tasks are completed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Node.js Environment Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'NODE_ENV' environment variable in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To specify the entry point file of the application"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To set the network port for the server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To define the environment in which an app is running"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To configure the maximum memory usage"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'NODE_ENV' environment variable is used to specify the environment (like development, production, or test) in which the Node.js application is running."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Promises and Async/Await",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Node.js code snippet if the promise resolves to 'Node.js'?"
+      },
+      {
+        "type": "text",
+        "value": "async function getNode() { return await Promise.resolve('Node.js'); } console.log(getNode());"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[object Promise]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'Node.js'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Promise { 'Node.js' }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function getNode() returns a promise. Although it uses await internally, the function itself is async and thus returns a promise. The console.log prints '[object Promise]' because it logs the promise object itself, not the resolution of the promise."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Middleware in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of middleware in Express.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To render HTML pages"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle HTTP requests and responses"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To directly interact with the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To authenticate user sessions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Middleware functions are primarily used in Express.js to handle requests and responses by intercepting them and executing any code necessary before passing control to the next middleware function in the stack."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Load Balancing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing technique allows the distribution of client requests across multiple Node.js application instances based on client IP addresses?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IP Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Least Connection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Random"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IP Hash technique distributes the requests based on the hash of the client's IP address, ensuring that the same client will always reach the same server node. This can be useful in session persistence."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Process Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Node.js process manager is recommended for ensuring zero downtime during deployments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PM2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Forever"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Nodemon"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cluster Module"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PM2 is widely used for Node.js applications because it offers built-in load balancing and is capable of automatic restarts, ensuring zero downtime."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "File System Module",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the Node.js File System module is used to read the contents of a directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.readdir()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.readDirectory()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.openDir()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.readdir() is the correct method to read the contents of a directory. The fs.readFile() method is used for reading files, not directories."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "NPM Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file is automatically updated when you install a new package in Node.js using npm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "server.js"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node_modules"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "package.json"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "package-lock.json"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a new package is installed using npm, the 'package-lock.json' file is automatically updated to reflect the changes and lock the installed versions."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Mongoose Schema Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Mongoose Schema type is used to store an array of string values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[String]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "String[]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{ type: Array }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Array<String>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Mongoose, to declare a Schema type that holds an array of strings, [String] is used. This indicates an array where each element is a String."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "File System Module",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the File System module is used to read the contents of a directory synchronously?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFileSync()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.writeFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.readdirSync()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.readDir()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.readdirSync() is the correct method to synchronously read the contents of a directory. fs.readFileSync() is used for reading files, not directories."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Load Balancing Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing technique would be the most efficient for a Node.js application handling non-uniform and dynamic workloads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Least Connection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IP Hash"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Random"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Least Connection load balancing is most effective for non-uniform and dynamic workloads as it directs traffic to the server with the fewest active connections, helping to manage load effectively."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Node.js Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default scope for Node.js modules?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Local to each module"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Local to each function"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Global to all modules"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because in Node.js, modules are encapsulated and can only expose their functionality to other modules if explicitly asked to do so, indicating a local scope."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "MongoDB Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operator can be used in aggregation pipelines to filter documents on a condition that compares two fields from the same document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$eq"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$expr"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$expr allows the use of aggregation expressions within the query language, enabling operations that compare two fields from the same document."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct order of middleware usage where 'middleware1' modifies a request object, 'middleware2' uses the modification to perform operations, and 'middleware3' sends a response back to the client?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.use(middleware3); app.use(middleware1); app.use(middleware2);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.use(middleware1); app.use(middleware2); app.use(middleware3);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.use(middleware2); app.use(middleware1); app.use(middleware3);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.use(middleware1); app.use(middleware3); app.use(middleware2);"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "middleware1 must run first to modify the request object, middleware2 uses this modification to perform further operations, and finally middleware3 uses the result to send a response."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Mongoose Schema",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Mongoose, when defining a schema, what does the 'set' property in a schema type do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It sets default values for the document."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It modifies the input value of the property before saving."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It specifies a pre-save validation rule."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It locks the schema to prevent further modifications."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'set' property in a Mongoose schema type is a custom setter modifier which modifies the input value of the property before it is saved to the database."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Loop and Non-blocking I/O",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of blocking the Node.js event loop with CPU-intensive operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance by utilizing multiple CPU cores"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Causes an increase in the memory usage of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Leads to delays in processing I/O operations, degrading application responsiveness"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Has no significant impact as Node.js automatically manages CPU-intensive tasks"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Blocking the event loop in Node.js with CPU-intensive tasks prevents it from handling other asynchronous non-blocking operations, leading to delays in I/O operations and affecting the responsiveness of the application."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Error Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best practice for structuring an asynchronous error handling middleware in Express.js to catch errors from both synchronous and asynchronous operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use try-catch blocks inside all middleware and manually pass errors to next()."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use a centralized error handling middleware with async-await and try-catch blocks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only use next() for asynchronous operations and throw for synchronous."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Wrap all middleware functions with a higher-order function that handles errors."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because wrapping middleware functions with a higher-order function that intercepts and handles errors ensures that both synchronous and asynchronous errors are caught and processed appropriately, simplifying error management across the application."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Modules and NPM",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the 'require' and 'import' statements in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'require' is used for importing ECMAScript modules (ESM), while 'import' is used for CommonJS modules."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'require' can dynamically load modules during runtime, while 'import' cannot."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'import' is synchronous and can be called conditionally within functions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both 'require' and 'import' can always be used interchangeably in Node.js without any system configuration."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Node.js, 'require' is used to load CommonJS modules and can dynamically import modules during runtime, whereas 'import' is used for ECMAScript modules and must be declared at the beginning of a file, not conditionally or within functions."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js Streams",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid stream in Node.js when considering the types of streams available?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Duplex"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quartet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Transform"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Writable"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Node.js, the available stream types are Duplex, Transform, and Writable. 'Quartet' is not a valid stream type."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When utilizing compound indexes in MongoDB, what is the impact of field order in the index on query performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Field order in the index does not affect query performance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Field order can significantly affect query performance by determining whether the index can be used for sorting."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Field order impacts only write performance, not read performance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Field order affects the size of the index but not query performance."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The order of fields in a MongoDB compound index is crucial as it determines the types of queries the index can efficiently support. It affects whether the index can be used not only for filtering but also for sorting operations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "NPM Dependency Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary difference between dependencies listed under 'dependencies' and those under 'devDependencies' in a package.json file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'dependencies' are required to run, 'devDependencies' are only needed during development."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'dependencies' are installed globally, whereas 'devDependencies' are installed locally."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "There is no difference; it is only for organizational purposes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "'devDependencies' can also include binary files, unlike 'dependencies'."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'dependencies' are the modules needed at runtime, while 'devDependencies' are required only for development processes like testing, building, or compiling code. When the project is deployed, only 'dependencies' are installed unless specified otherwise."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event Emitter in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an event-driven architecture where an 'eventEmitter' object emits a 'data_received' event which triggers multiple listeners. If one of these listeners throws an error, what will happen to the execution of the other registered listeners?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All other listeners will not execute."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All other listeners will execute unless the error is caught."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Node.js will crash unless the error is caught within the listener."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only the listener throwing the error will stop execution; other listeners will not be affected."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is D because each listener functions independently in an event-driven architecture. An error in one listener does not prevent other listeners from executing unless it crashes the Node.js process."
+      }
+    ]
+  }
+]

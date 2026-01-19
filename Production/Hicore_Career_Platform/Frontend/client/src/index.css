@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+.waveform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 4px;
+}
+
+.wave-bar {
+  width: 4px;
+  height: 20px;
+  background-color: #3D3584;
+  border-radius: 2px;
+  animation: wave 1.2s infinite ease-in-out;
+}
+
+.wave-bar:nth-child(2) {
+  animation-delay: -1.1s;
+}
+.wave-bar:nth-child(3) {
+  animation-delay: -1.0s;
+}
+.wave-bar:nth-child(4) {
+  animation-delay: -0.9s;
+}
+.wave-bar:nth-child(5) {
+  animation-delay: -0.8s;
+}
+
+@keyframes wave {
+  0%, 40%, 100% {
+    transform: scaleY(0.3);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 2,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C# code snippet?\n\nint x = 10;\nif (x > 5)\n{\n    Console.WriteLine(\"x is greater than 5\");\n}\nelse\n{\n    Console.WriteLine(\"x is not greater than 5\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is not greater than 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code checks if 'x' is greater than 5. Since 'x' is 10, which is indeed greater than 5, the output will be 'x is greater than 5'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the concept of encapsulation in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encapsulation involves the inheritance of properties from a base class to a derived class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation is about hiding the internal state of an object and requiring all interaction to be performed through methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Encapsulation refers to the conversion of one data type to another, such as from an integer to a string."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encapsulation is a process where objects are instantiated from classes at runtime."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation is a fundamental concept in object-oriented programming where the internal state of an object is hidden from the outside and can only be accessed through methods. This helps in maintaining the integrity of the data and the behavior of the object."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Entity Framework Core Functionality",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Entity Framework method is primarily used for loading related data along with the main entity data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FirstOrDefault()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SingleOrDefault()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Find()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Include()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Include() method in Entity Framework is used to specify related data to be included in query results, thereby enabling eager loading of the data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid C# numeric data type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "decimal"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "real"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, 'real' is not a defined numeric data type. The valid numeric data types are 'int', 'double', and 'decimal'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types in C# has the smallest range of values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "short"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "byte"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "long"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The byte data type in C# has the smallest range, which is from 0 to 255."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Delegates and Multicast Delegates",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the main difference between a delegate and a multicast delegate in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A delegate can hold a reference to a single method, while a multicast delegate can hold references to multiple methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A multicast delegate can hold a reference to a single method, while a delegate can hold references to multiple methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A delegate is used only in event handling, while a multicast delegate is used in method callbacks."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no difference; both terms can be used interchangeably."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A delegate in C# is capable of storing a reference to a single method. In contrast, a multicast delegate extends this by holding references to multiple methods, allowing it to invoke all of them sequentially when the delegate is called."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Inheritance and Polymorphism",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which keyword is used to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "base"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the 'base' keyword is used within a derived class to call the constructor of a base class."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types and Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the default value of an uninitialized boolean variable in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "true"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "false"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the default value of an uninitialized boolean variable is 'false'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Querying with LINQ",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in LINQ is used to filter collections based on a predicate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Select()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Where()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OrderBy()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GroupBy()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Where()' method in LINQ is used to filter collections based on a predicate, allowing you to specify which elements should be included in the result set."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Technologies in WinForms and WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which technology does WinForms use for rendering its user interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DirectX"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OpenGL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GDI+"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Vulkan"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WinForms uses GDI+ for rendering its user interface, which is a graphics library used to interface with graphics hardware to render 2D graphics, text, and images."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Delegates and Method Invocation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide collections of methods that can be called without an instance of the class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To encapsulate a method in an object."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To define interfaces that classes must implement."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To declare variables and data types."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates are used in C# to encapsulate a method within an object, allowing methods to be passed as parameters and invoked dynamically."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Querying with LINQ",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to query all the items from a DbSet named 'Products' using LINQ in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var result = from p in Products select p;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var result = select p from Products;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var result = Products.Select(p => p);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var result = Products.GetAll(p => p);"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because it uses the extension method Select() on the DbSet 'Products' with a lambda expression, which is a common method to query data in LINQ."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Lambda Expressions in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary use case of lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To declare explicitly typed variables."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create multi-threading applications."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To define anonymous methods that simplify code syntax."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To replace all uses of traditional function definitions."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions are used to create anonymous methods which help in writing cleaner and more concise code, especially for short methods that are not reused outside the current context."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Understanding Delegates",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement accurately describes the relationship between delegates and methods in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Delegates can hold references to multiple methods at once."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Delegates must always hold references to static methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Delegates cannot be passed as parameters to methods."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Delegates are not type-safe."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are powerful because they can hold references to multiple methods, allowing for multicast delegates."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax for a conditional statement in C# that checks if 'x' is greater than 'y'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if x > y { }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "if (x > y) { }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "if x > y then { }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if (x > y) then { }"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the correct syntax for an if statement requires parentheses around the condition. Therefore, 'if (x > y) { }' is the correct syntax."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Entity Framework Features",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature of Entity Framework allows for loading related entities along with the main entity data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Lazy Loading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Eager Loading"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deferred Loading"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selective Loading"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because Eager Loading involves loading of related entities from the database as part of the initial query."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary class used for data binding in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DataContext"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BindingSource"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "INotifyPropertyChanged"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ObservableCollection"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DataContext is the primary class used in WPF for data binding. It represents the data context for a particular element, allowing binding of properties to UI elements."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C# code snippet? \nint x = 10;\nif (x > 5)\n    x += 5;\nelse\n    x -= 5;\nConsole.WriteLine(x);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "20"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x initially is 10, which is greater than 5, the code inside the 'if' block executes and increments x by 5. Thus, x becomes 15."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Object-Oriented Programming Principles",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which principle of Object-Oriented Programming ensures that sensitive data is hidden from the users?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Abstraction"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation is the Object-Oriented Programming principle that restricts access to sensitive data, providing controlled access through methods."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "UI Controls in WinForms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which control in WinForms is best suited for displaying a list of items in a customizable grid format?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ListBox"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ListView"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DataGridView"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Panel"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DataGridView is the most appropriate control for displaying items in a grid, allowing extensive customization and configuration."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Delegates in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of delegates in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide dynamic memory allocation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To hold references to methods with a specific signature"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To declare variables within a method"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance graphical user interface"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Delegates in C# are used to hold references to methods with a specific signature, allowing methods to be passed as parameters and invoked dynamically."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Polymorphism in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What enables polymorphism in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using static methods in classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Declaring classes as sealed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing multiple interfaces or inheritance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using conditional statements like if-else."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism in C# is enabled through implementing multiple interfaces or through inheritance. It allows methods to do different things based on the object it is acting upon, even though they share the same name."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements best defines the concept of data binding in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A method to manipulate UI elements directly from the code-behind."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A feature that allows separate UI and business logic layers to communicate without direct interaction."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A tool to convert data into XAML-readable format."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A method for generating UI elements programmatically."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data binding in WPF is a feature that enables automatic synchronization of data between the business logic and the UI layers, allowing them to communicate without direct code interaction."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Inheritance in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'base' keyword represent in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The current instance of the class and its derived classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The parent class from which the current class is derived."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A special class that cannot be instantiated."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The lowest access level for a class member."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the 'base' keyword is used to access members of the base class from within a derived class."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following C# code snippet?\n\nint x = 10;\nif (x > 10)\n{\n    Console.WriteLine(\"x is greater than 10\");\n}\nelse\n{\n    Console.WriteLine(\"x is not greater than 10\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is not greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No output"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code checks if 'x' is greater than 10, which it is not since x equals 10. Therefore, the else block executes, and the output is 'x is not greater than 10'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Entity Framework Core Features",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a feature of Entity Framework Core?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Lazy Loading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Model-First Development"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Change Tracking"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Native SQL Queries"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Model-First Development is not a feature of Entity Framework Core. Entity Framework Core primarily supports Code-First and Database-First development approaches."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Lambda Expressions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Lambda expressions cannot be used to create delegates."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Lambda expressions can only be used within LINQ queries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Lambda expressions provide a concise way to represent anonymous methods."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Lambda expressions must always have input parameters."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions are a concise way to represent anonymous methods in C#. They are not limited to LINQ queries and can be used to create delegates or expression trees."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Polymorphism in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does polymorphism allow objects to do in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Change their type at runtime based on the environment."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Permanently modify their declared type."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Perform different actions based on their type and the attributes passed to their methods."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Create unlimited instances of themselves without restriction."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism in C# allows objects to perform different actions depending on their type or the parameters passed to their methods. It enables one interface to be used for a general class of actions, and specific actions are determined by the exact nature of the situation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Entity Framework Usage",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Entity Framework, what is the purpose of the DbSet class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To update the database schema"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To map CLR classes to database tables"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide a connection to the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To represent a collection of entities that can be queried"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DbSet class in Entity Framework represents a collection of entities that can be queried, updated, or deleted. It serves as a bridge between the application's domain classes and the database."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Handling in WinForms",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to subscribe to an event in Windows Forms?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "button1.Click += new EventHandler(button1_Click);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "button1.Click.Equals(button1_Click);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "button1.Click(button1_Click);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "button1.Click == button1_Click;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to subscribe to an event in Windows Forms is using the += operator along with the event handler. This adds the event handler to the invocation list for the event."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Encapsulation in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the concept of encapsulation in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The conversion of one type of object to another."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Grouping related variables and methods into a single unit or class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The ability of different classes to use the same interface."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Breaking a program into smaller, manageable parts."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation in C# refers to the bundling of data (variables) and methods that operate on the data into a single unit or class, thereby restricting access to some components. This protects the integrity of the data and prevents accidental modification from outside the class."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Encapsulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of properties in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure that object states are hidden from external modification."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide a public way of getting and setting values, while hiding implementation or verification code."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To indicate that the method will not modify the object."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle events raised by a button in the user interface."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Properties in C# provide a way to access fields of a class by using get and set accessors, which may contain additional computation or validation before storing or returning the data, thus encapsulating the implementation."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key advantage of using data binding in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases memory usage significantly"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Automatically updates the UI when data changes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increases application startup time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Restricts data flow to one-direction"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data binding in WPF allows the UI elements to update automatically when the underlying data changes, enhancing responsiveness and reducing code overhead for UI control updates."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Inheritance in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In C#, which keyword is used to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "base"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'base' keyword in C# is used to inherit a class. It is also used to access members of the base class from within a derived class."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a principle of Object-Oriented Programming in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Multiprocessing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Multiprocessing is not a principle of Object-Oriented Programming. OOP principles include Encapsulation, Inheritance, and Polymorphism."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Manipulation with LINQ",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the LINQ method 'OrderByDescending' accomplish in a query when used with Entity Framework?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Filters out elements based on a condition"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sorts the elements of a sequence in ascending order"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sorts the elements of a sequence in descending order"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Groups elements that share a common attribute"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "OrderByDescending sorts the elements of a sequence in descending order according to a key."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Object-Oriented Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about polymorphism in C# is NOT correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Polymorphism allows methods to do different things based on the object it is acting upon."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Polymorphism can be achieved by using many classes that are related to each other by inheritance."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C# supports both compile-time and run-time polymorphism."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Polymorphism in C# can only be implemented using interfaces."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism in C# can be implemented using both abstract classes and interfaces, not only interfaces."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Lambda Expressions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using lambda expressions in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases execution speed of methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Provides syntax for inline delegate declaration."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Eliminates the need for using classes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically manages memory allocation and deallocation."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions provide a concise syntax to declare delegates inline, simplifying code especially for operations that can be expressed in a single line or expression."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types and Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid numeric data type in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "decimal"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bytefloat"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, 'int', 'double', and 'decimal' are valid numeric data types. 'bytefloat' is not a recognized data type in C#."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Encapsulation and Access Modifiers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding encapsulation in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encapsulation is only achieved through the use of public access modifiers."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation can be achieved by using access modifiers like private, protected, or internal."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Encapsulation does not allow for any data hiding in C#."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encapsulation is not supported in C#."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation in C# is achieved by using access modifiers to restrict access to the object's components, commonly using private, protected, or internal, not just public."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about data binding in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data binding in WPF only supports one-way binding."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data binding can be used to link two data sources or properties without additional code."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WPF data binding does not support binding to XML data."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data binding is exclusively available in WPF and not in other .NET frameworks."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data binding in WPF can indeed link properties or data sources directly, supporting both one-way and two-way bindings, and can also bind to XML data."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following C# code snippet?\n\nint x = 10;\nif (x > 5)\n    Console.WriteLine(x);\nelse\n    Console.WriteLine(x + 5);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The condition in the if statement (x > 5) is true since x is 10, which is greater than 5. Therefore, the code inside the if block executes, and '10' is printed."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Querying with LINQ",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method in LINQ is used primarily to filter collections based on a condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Select()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Where()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OrderBy()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GroupBy()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Where() method in LINQ is used to filter collections based on a specified condition, allowing for the selection of elements that meet certain criteria."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Encapsulation in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the concept of encapsulation in C#?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A programming method where the data is not hidden."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A way to ensure that object data is accessible only through methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A process of creating new classes using the syntax of existing ones."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A design pattern used for creating a single instance of a class."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encapsulation in C# refers to the bundling of data with the methods that operate on that data. It restricts direct access to some of an object's components, which can prevent the accidental modification of data. To achieve encapsulation, data members are declared as private and can be accessed only via public methods."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Querying with LINQ",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method in LINQ is commonly used to filter collections based on a condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Select()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Where()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GroupBy()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OrderBy()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Where() method is used in LINQ to filter collections based on a specified condition, returning a new collection that includes only those elements that satisfy the condition."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types and Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid C# variable declaration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int num = 100;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double rate = 3.14;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "char category = 'A';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean isActive = true;"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, the correct keyword for declaring a boolean variable is 'bool', not 'boolean'. Therefore, 'boolean isActive = true;' is not a valid declaration."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Lambda Expressions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct example of a lambda expression in C# that takes an integer and returns its square?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int x => x * x;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "(int x) => x * x;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "func<int, int> square = x => x * x;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "(x) => { return x * x; };"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for a lambda expression in C# that takes an integer (indicated by '(int x)') and returns its square is '(int x) => x * x;'. Options A and D lack the correct type indication or use incorrect syntax, and C incorrectly uses the 'func' type declaration outside of its context."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in WPF",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the purpose of data binding in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create static UI that cannot be changed at runtime."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To facilitate communication between the UI and business logic without manual intervention."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the graphical effects such as shadows and animations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the compilation time of applications."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data binding in WPF applications connects UI elements to data sources and allows changes in data to automatically update the UI and vice versa, thus facilitating seamless communication between the UI and underlying business logic."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Types and Control Flow in C#",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which C# keyword is used to handle exceptions that might occur in a block of code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "try"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "throw"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "catch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "finally"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'catch' keyword in C# is used within try-catch blocks to handle exceptions that might occur during the execution of the try block."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types and Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about C# variable naming conventions is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Variable names can begin with an underscore or a number."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Variable names should be case-insensitive."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Variable names can begin with an underscore or a letter."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Variable names cannot contain special characters like @, #, %."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In C#, variable names can begin with either a letter or an underscore. They cannot start with a number, and they are case-sensitive, which invalidates the other options."
+      }
+    ]
+  }
+]

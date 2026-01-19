@@ -1,0 +1,2005 @@
+{
+  "AngularJS_questions_advanced":
+  [
+  {
+    "id": 6,
+    "topic": "Service Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, what type of service is created and provided by Angular's injector once, and shared across the application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transient service"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Singleton service"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scoped service"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Instance service"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Singleton service in Angular is created and provided by Angular's injector once and shared across the entire application, ensuring a single instance is used."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Function of Directives",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a directive in AngularJS primarily used for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To extend HTML with custom attributes and elements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To process server-side logic"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create secure connections to the server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To manage user authentication"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Directives in AngularJS are used to extend HTML with custom attributes and elements, allowing for the creation of reusable components."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Service Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, what type of service is typically created to be shared across multiple components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transient service"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Singleton service"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scoped service"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Module service"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Singleton services are designed to be shared across multiple components, maintaining a single instance throughout the application."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "AngularJS Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a recommended practice for optimizing AngularJS applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Minimizing watchers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the use of $scope"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Avoiding the use of services"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Frequent DOM manipulation using jQuery"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minimizing watchers in AngularJS is crucial as they are often responsible for performance issues. Reducing the number of watchers helps in enhancing the application's performance."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Concepts of AngularJS Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of routing in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the loading speed of the application"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To allow navigation between different views without reloading the page"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To connect the application to a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To style the application"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Routing in AngularJS enables navigation between different views within the application without requiring a page reload, thereby enhancing user experience and application efficiency."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Singleton Services",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Angular feature is used to ensure a service remains a singleton across the application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Component-level provider"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NgModule-level provider"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@Injectable({ providedIn: 'root' })"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@Component({ providers: [Service] })"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using @Injectable({ providedIn: 'root' }) ensures that a service is available as a singleton by providing it at the root level."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Dependency Injection Methods",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method of Dependency Injection involves providing dependencies through a class constructor?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Constructor Injection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Method Injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setter Injection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Interface Injection"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Constructor Injection is the method where dependencies are provided directly through a class's constructor, making them available as soon as the object is created."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basics of Controllers",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary role of a controller in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manipulate the DOM directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage the data and logic of the application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To style the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle the routing."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Controllers in AngularJS are responsible for managing the data and logic of the application, interacting with the model and updating the view."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Concepts of Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AngularJS module is primarily used for handling routing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ngRoute"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngView"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ngModel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ngBind"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ngRoute is the module in AngularJS that provides routing and deeplinking services and directives."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Types of Dependency Injection",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of dependency injection involves the dependency's interface providing an injector method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Constructor injection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setter injection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Interface injection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Method injection"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Interface injection involves the dependency's interface providing an injector method to inject the dependency into any client passed to it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ngRoute vs UI-Router",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key difference between ngRoute and UI-Router in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "UI-Router supports multiple named views, whereas ngRoute does not."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngRoute supports dynamic parameters, but UI-Router does not."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UI-Router is not officially supported by AngularJS."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ngRoute allows for nested states, which UI-Router does not support."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The key difference is that UI-Router supports multiple named views which allows for more complex and nested views in an application, while ngRoute does not support this feature."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "AngularJS Dependency Injection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about the 'minification' process in AngularJS applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It changes the application's functionality to improve performance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can break dependency injections if not handled properly."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically injects dependencies wherever needed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is recommended to avoid minification in AngularJS."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Minification is a process of compressing the code by shortening variable and function names. In AngularJS, this can break dependency injections unless the dependencies are properly annotated, as AngularJS depends on parameter names to inject the correct services."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Hosting Environments for AngularJS",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of hosting environment is generally preferred for deploying a production-level AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Shared hosting"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dedicated server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cloud-based platforms"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Virtual private servers (VPS)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Cloud-based platforms are generally preferred for deploying production-level AngularJS applications due to their scalability, reliability, and the wide range of services and integrations they offer."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Two-Way Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the key feature of AngularJS that allows automatic synchronization of data between the model and view components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directives"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two-way data binding"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Services"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Modules"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Two-way data binding refers to the automatic synchronization of data between the model and view components in AngularJS, making it easy to build dynamic SPAs."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Singleton Services in Angular",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Angular, how is a service declared as a singleton?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Providing the service in the AppModule only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Providing the service in a specific component only"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decorating the service class with @Injectable({ providedIn: 'root' })"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a special singleton decorator"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Angular, a service is made singleton by decorating the service class with @Injectable({ providedIn: 'root' }). This ensures that only one instance of the service exists throughout the application."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "AngularJS Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AngularJS directive is used to start the AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-init"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-model"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-app"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-bind"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ng-app is the directive that bootstraps an AngularJS application, marking the root element and automatically initializing the AngularJS framework."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Routing Concepts",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the $route service in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enable the linking of controllers to templates."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle dependency injection in the application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manage the different states of the application."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To update the view content based on the current URL path."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary purpose of the $route service in AngularJS is to update the view content based on the current URL path, which makes D the correct answer. A is incorrect because controllers are linked to templates via other means, not directly by $route. B is incorrect as $route is not used for handling dependency injection. C is incorrect because managing different states is typically handled by the ui-router, not $route."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "AngularJS Directives",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive would you use to hide an HTML element based on a given condition in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-hide"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-show"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-view"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-model"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ng-hide directive in AngularJS is used to hide an HTML element based on the evaluation of the specified condition. If the condition evaluates to true, the element is hidden."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "AngularJS Controllers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is commonly used to initialize data in an AngularJS controller?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$init()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$onInit()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$construct()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$setup()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$onInit() is often used for initialization purposes in AngularJS controllers, especially to ensure that bindings are available."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Controller Implementation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid method to define a controller in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "angular.controller('MyCtrl', function($scope) { /* code */ });"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "angular.module('MyCtrl', function($scope) { /* code */ });"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "angular.directive('MyCtrl', function($scope) { /* code */ });"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "angular.service('MyCtrl', function($scope) { /* code */ });"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to define a controller in AngularJS is using the angular.controller function, passing the name of the controller and its implementation function as arguments."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "AngularJS Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about AngularJS expressions is false?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They can contain loops."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They do not support filters."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They support data binding."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They can be written inside HTML."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "AngularJS expressions do not support loops; they are used primarily for binding data to HTML, which makes option A false."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Directive Controllers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, when integrating a directive with a controller, what is a 'directive controller' specifically responsible for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Managing the DOM manipulations specific to that directive"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Handling service injections and dependencies for the entire application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Controlling model data across multiple directives"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Direct communication with the backend server APIs"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A 'directive controller' in AngularJS is responsible for managing the DOM manipulations specific to that directive, ensuring the directive's encapsulated functionality is properly executed."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transclusion Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, which directive configuration option enables transclusion of multiple named slots?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "multiSlotTransclude"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "complexTransclude"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "multiElement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "transcludeSlots"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'transcludeSlots' configuration option in a directive is used to enable transclusion of multiple named slots, allowing for more complex and flexible template structures."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Directives",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive would you use in AngularJS to conditionally start the child elements in the DOM based on the evaluation of an expression?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ng-show"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ng-if"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ng-bind"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ng-model"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ng-if directive in AngularJS removes or recreates a portion of the DOM tree based on an expression. If the expression evaluates to true, Angular will add the element to the DOM. If it evaluates to false, Angular will remove the element from the DOM. Unlike ng-show, which only changes the display CSS of the element, ng-if completely removes or recreates the elements, which can be beneficial for performance when the conditionally shown element is large or complex."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "ngRoute Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a true statement about the ngRoute module in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ngRoute allows the use of multiple named views simultaneously within a single route."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ngRoute provides capabilities for URL routing, deep-linking services and directives."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The $routeProvider is used to configure routes within the ngRoute module."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Route changes in ngRoute can be listened to via $routeChangeStart and $routeChangeSuccess events."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A because ngRoute does not support multiple named views within a single route; this functionality is provided by the ui-router module, not ngRoute."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "AngularJS Directives",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'transclude' option in an AngularJS directive do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It stops the compilation of the current directive."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It enables the insertion of custom content within the directive."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It overrides the default controller of the directive."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It compiles the directive into plain HTML."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'transclude' option in AngularJS directives allows you to include custom content inside the directive, creating more dynamic and reusable components."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "AngularJS Data Binding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering two-way data binding in AngularJS, what is the correct syntax to bind the property 'username' of a model to an input field within an AngularJS application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<input value='{{username}}'>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<input ng-model='username'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<input bind='username'>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<input ng-bind='username'>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for two-way data binding in AngularJS using the 'ng-model' directive is '<input ng-model='username'>'. This binds the value of the 'username' property to the value of the input field, allowing for two-way data synchronization."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "ngRoute Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using the ngRoute module in AngularJS, which service is pivotal in defining the routes and associated controllers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$routeProvider"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$routeService"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$routerConfig"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$routeProviderService"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $routeProvider is the correct service used within the ngRoute module to define routes and associate them with controllers."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Method Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Angular's Dependency Injection, which scenario is most appropriate for using Method Injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To initialize service properties directly after the service is instantiated."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To provide dependencies to a method only when required for specific functionality within that method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To inject dependencies into all methods of a class regardless of their individual requirements."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To replace constructor injection when multiple services depend on each other cyclically."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Method Injection is specifically useful when a method within a class requires dependencies uniquely for its functionality, differentiating it from other methods which might not need these dependencies."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Route Provider Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which configuration block is responsible for setting up the base path for all routes in an AngularJS application when using `ngRoute`?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$routeProvider.basePath()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$routeProvider.when()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$locationProvider.html5Mode(true)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$route.base()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The `$locationProvider.html5Mode(true)` configuration enables HTML5 mode which allows pretty URLs and changes the base path for all routes to the root of the application, removing the need for the hashbang `#` in URLs."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, what is the primary purpose of using $injector.annotate() function in the context of dependency injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a new dependency instance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To retrieve an array of service names that a function is dependent on."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To manually start the dependency injection process."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To register a new service with a module."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $injector.annotate() function is used in AngularJS to retrieve an array of service names that a function is dependent on, which is crucial for debugging and dynamic injection scenarios."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Singleton Services",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a potential drawback of using a singleton service in Angular for application-wide state management?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can lead to tight coupling between components."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It increases the overall size of the Angular application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It restricts the lazy loading of its containing module."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It requires additional resources for state synchronization across modules."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing a singleton service for state management can lead to tight coupling between components, as they all rely on a single instance, which may hinder modular design and testing."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Scope in Controllers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using an isolated scope in a directive's controller in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow the directive to inherit scope properties from its parent controller"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the performance of the application by reducing watchers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To prevent the directive's scope from affecting or being affected by other parts of the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To make the directive reusable and modular by not depending on the parent scope"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using an isolated scope in a directive's controller helps to prevent the directive's scope from affecting or being affected by other parts of the application, maintaining encapsulation and modularity."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Directive Controllers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, when a directive requires a controller and attempts to access an ngController-based controller, what is the primary limitation enforced by the framework?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The directive can only communicate through a shared service."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The directive has direct access to the ngController-based controller's scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The directive does not have direct access to the ngController-based controller's functionality."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The directive can modify the ngController's properties without restrictions."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In AngularJS, directive controllers do not have direct access to ngController-based controllers. They can only interact through shared scopes or services, enforcing a separation of concerns and modular architecture."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Scope and Controller Interaction",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, what occurs if a child controller modifies an object that belongs to a parent controller's scope?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The parent controller's scope is updated, reflecting changes in the child controller."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The changes are restricted to the child controller's scope and do not affect the parent controller's scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A new copy of the object is created in the child controller's scope, leaving the parent's object unchanged."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AngularJS throws an error due to scope contamination."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In AngularJS, child controllers inherit the scope of their parent controllers. Thus, any modification to an object in the parent's scope by a child controller will reflect in the parent controller's scope because both are referencing the same object."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Singleton Services",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an Angular application, when a service is provided in the 'providers' array of an NgModule, which of the following statements is true regarding its scope and instantiation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The service is instantiated once per component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The service is instantiated once per application."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The service is instantiated once per the module."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The service is instantiated every time it is injected."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a service is provided in the 'providers' array of an NgModule, it is instantiated once per the module, not per application, component, or each injection. This creates a singleton service scoped to the module."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Directive Isolation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When defining an isolated scope in AngularJS directives, what does the scope property '@' specifically represent?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "One-way binding from the parent scope."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two-way binding between the directive and parent scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function binding from the parent scope."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A method to isolate the directive's scope completely from the parent."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '@' symbol in the scope property of a directive in AngularJS is used for one-way binding. It binds a local scope property to the value of a DOM attribute."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Scopes in Directives",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'scope' property in an AngularJS directive definition object primarily determine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Whether the directive has its own scope or shares the parent scope"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The HTML template associated with the directive"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The controller used by the directive"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data-binding strategy within the directive"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'scope' property in a directive's definition object determines whether the directive will create a new isolated scope, use its parent's scope, or create a child scope."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dependency Injection in AngularJS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, which of the following is true about the $injector service when it comes to dependency injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is used to retrieve object instances as defined by provider."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It solely creates new instances of JavaScript objects."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It cannot instantiate types, only retrieve instances."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It uses a querying mechanism similar to SQL to retrieve dependencies."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $injector service is used to retrieve object instances as defined by provider, inject them into services and components, and also instantiate types when necessary."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "AngularJS Scopes and Digest Cycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, what would be the outcome if a child scope modifies a primitive property inherited from its parent scope?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The parent scope's property is updated."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The child scope creates its own property."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The modification throws an error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The change is ignored."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In AngularJS, when a child scope modifies a primitive property inherited from its parent, it creates a new property in the child scope instead of modifying the parent scope's property."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scope Inheritance in AngularJS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an AngularJS application where a directive utilizes scope: true. What is the implication of this scope setting within the directive?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The directive does not create a new scope, and it shares the scope with its parent controller."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The directive creates a new isolated scope that does not inherit from the parent scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The directive creates a new child scope that prototypically inherits from the parent scope."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The directive creates multiple independent scopes for each instance of its usage."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting scope: true in a directive configures it to create a new child scope that prototypically inherits from the parent scope, allowing it to access parent properties while maintaining scope isolation for property modifications."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, which of the following is a valid approach to enforce minification-safe dependency injection without using inline array annotations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$injector.invoke(['$scope', function($scope) {...}])"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "module.config(['$controllerProvider', function($controllerProvider) {...}])"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function MyController($scope) {}; MyController.$inject = ['$scope'];"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$provide.decorator('$http', ['$delegate', '$log', function($delegate, $log) {...}])"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C correctly describes the use of the $inject property to manually annotate the controller\u2019s dependencies, which is safe against minification."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Controller Implementation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the implementation of controllers in AngularJS, what is a critical consideration when defining a controller method intended to be used across different parts of an application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The method should directly manipulate the DOM."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The method should be defined in the global scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The method should be implemented as a part of a service rather than a controller."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method should always trigger a digest cycle in AngularJS."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For methods that need to be reused across different parts of an AngularJS application, these should ideally be implemented as part of a service. This approach aligns with AngularJS's design philosophy of using controllers for handling data binding and event handling specific to views, while services manage reusable business logic."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Configuration and Environment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS deployment, setting the base href correctly is crucial. What problem might occur if the base href is not set correctly in a multi-environment deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application might not load any scripts or assets"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The build process will fail during the compilation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It will disable lazy loading of modules"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automated testing scripts will not run"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If the base href is not correctly configured, the browser might not be able to locate the scripts and assets of the application, leading to a failure to load any of them."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "AngularJS Server Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying an AngularJS application, which server configuration ensures that all routes are redirected to the same entry file, facilitating proper functioning of a single-page application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Configuring server to use SSL/TLS encryption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting up server-side rendering"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing URL rewriting to redirect all routes to index.html"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enabling HTTP/2"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In single-page applications like those built with AngularJS, implementing URL rewriting to redirect all routes to index.html is crucial as it ensures that the AngularJS router handles the routing internally rather than the server attempting to resolve routes."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using the $injector.invoke() method in AngularJS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows manual instantiation of services without declaring them in a controller's dependencies."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It enhances the minification process by explicitly handling dependency annotations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It automatically initializes all services upon application startup."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It provides a mechanism for child controllers to access parent controller properties."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $injector.invoke() method is primarily used for instantiating and injecting services manually. This is particularly useful in advanced scenarios where services need to be initialized conditionally or in a specific order not determined by Angular's dependency injection mechanism."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Route Parameters",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the route configuration in AngularJS using ngRoute, which of the following is the correct way to access route parameters within a controller?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$routeParams['id']"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$route.params.id"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$router.params('id')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$route.get('id')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In AngularJS, route parameters can be accessed in controllers using the $routeParams service, with the syntax $routeParams['paramName']."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "ngRoute Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an AngularJS application using ngRoute, which of the following is the correct way to inject the routing module into an application module?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var app = angular.module('myApp', ['ngRoute']);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var app = angular.module('myApp', [ngRoute]);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var app = angular.module('myApp', ['route']);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var app = angular.module('myApp', [route]);"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ngRoute module is injected into an AngularJS application by including it as a dependency in the module definition inside an array of strings. The correct syntax is ['ngRoute']."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Route Parameters",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In AngularJS, how can you retrieve parameters from a route URL defined as '/product/:id' in the associated controller?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$routeParams.id"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$route.params['id']"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$routeParams['id']"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$route.id"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to retrieve a parameter named 'id' from a route URL in the controller is by using $routeParams['id']."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Deployment Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of AngularJS application deployment, which of the following server configurations is crucial for supporting deep linking in single-page applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Enabling CORS (Cross-Origin Resource Sharing)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Setting up URL rewriting to redirect all requests to index.html"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Configuring load balancer to manage traffic"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Setting MIME types for file extensions"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting up URL rewriting to redirect all requests to index.html is essential for SPA deep linking, allowing the AngularJS router to handle routing internally."
+      }
+    ]
+  }
+  ]
+}

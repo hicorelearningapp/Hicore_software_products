@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 7,
+    "topic": "Basic Concepts of Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using indexes in database management systems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To decrease data retrieval time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase data storage requirements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To complicate data manipulation"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are primarily used to speed up the retrieval of data from a database by minimizing the number of disk accesses required."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Role-Based Access Control",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does RBAC stand for in the context of MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Role-Based Access Control"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read-Based Access Control"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Role-Bound Access Control"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Rights-Based Access Command"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "RBAC stands for Role-Based Access Control, a method in MongoDB to regulate access to database resources based on roles."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Replication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the primary role of a replica set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Backup data for recovery"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Provide data redundancy and high availability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increase data write speed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decrease data storage requirements"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A replica set in MongoDB is used to provide data redundancy and high availability, thus ensuring that the database is robust against the loss of a single server."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Installation Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install MongoDB on Ubuntu using the default package manager?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install mongodb"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install mongodb"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo brew install mongodb"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sudo snap install mongodb"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Ubuntu, 'sudo apt-get install mongodb' is the correct command to install MongoDB using the apt package manager."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Replication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a benefit of replication in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data redundancy and high availability"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increased data write time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Higher data inconsistency"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reduced read performance"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Replication provides data redundancy and high availability by maintaining copies of data on multiple servers."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Updating Documents",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB command is used to update a specific document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.findAndModify()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.updateMany()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.updateOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.replaceOne()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "db.collection.updateOne() is used to update the first document that matches the filter criteria."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Deleting Documents",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method would you use to remove a single document in MongoDB based on a specified condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "deleteOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "removeOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "deleteSingle()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "eraseOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'deleteOne()' method is specifically used for removing a single document that matches a specified condition in MongoDB."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB index types is most suitable for a text search?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Text Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GeoSpatial Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Hashed Index"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Text Index is specifically designed for text search in MongoDB, supporting efficient search through string content."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Role-Based Access Control",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which role in MongoDB provides the ability to perform any administrative action on any database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "dbAdmin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "readWrite"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "root"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "userAdmin"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'root' role in MongoDB has the most extensive privileges, including administrative permissions across all databases."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Installation of MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following commands is used to install MongoDB on Ubuntu?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install -y mongodb"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install mongodb"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo apt-get install mongodb"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "install mongodb"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'sudo apt-get install mongodb' is used to install MongoDB on Ubuntu systems using apt package manager."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of implementing indexes in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce storage space"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance search performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enforce security protocols"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes in MongoDB are primarily used to enhance search performance by efficiently locating the data without scanning every document in a collection."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Features of NoSQL Databases",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a common feature of NoSQL databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fixed schema"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "High scalability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ACID transactions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Complex joins"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NoSQL databases are known for their high scalability, which is a result of their flexible schema and ability to handle large volumes of data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Creating Documents",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to insert a new document into a collection in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insertNew()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "addOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "newDocument()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'insertOne()' method is used to add a single document to a collection in MongoDB."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Service Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to start the MongoDB service on a system using systemd?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "systemctl start mongod"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "service mongodb start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mongod --start"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mongodb start"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'systemctl start mongod' is used to start MongoDB service on systems that use systemd as their service manager."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Authentication Mechanisms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid MongoDB authentication mechanism?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SCRAM-SHA-256"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WEP"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SHA-1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OpenSSH"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SCRAM-SHA-256 is a MongoDB-supported authentication mechanism designed to authenticate users and protect user credentials."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic CRUD Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in MongoDB is used to insert a new document into a collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "updateOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "deleteOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "findOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The insertOne() method is specifically used to insert a new document into a MongoDB collection."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Installation Process",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install MongoDB on Ubuntu using the default package management system?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install mongodb"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install mongodb"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo mongodb install"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sudo apt-get mongodb download"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because 'sudo apt-get install mongodb' is the standard command to install packages on Ubuntu using its package management system."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Storage in MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the equivalent of a table in a relational database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Field"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Collection"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Row"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, a collection is the equivalent of a table in a relational database. It is where MongoDB stores documents."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Authentication Methods",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which authentication mechanism does MongoDB support for verifying users?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SCRAM-SHA-256"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WPA2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "OAuth"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SAML"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SCRAM-SHA-256 is the default authentication mechanism used by MongoDB to securely verify users."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Encryption",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which feature in MongoDB provides encryption for data stored at rest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encryption at Rest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Transport Layer Security"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Role-Based Access Control"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JSON Web Tokens"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Encryption at Rest in MongoDB ensures that data stored on the server's disk is encrypted, thus safeguarding sensitive data from unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Replication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the primary role of a replica set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To distribute data across different geographical locations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To perform daily backups of data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide redundancy and high availability"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase write performance by writing to multiple disks simultaneously"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A replica set in MongoDB is a group of mongod processes that maintain the same data set. Replica sets provide redundancy and high data availability and are the basis for all production deployments."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to Aggregation Framework",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a stage in the MongoDB Aggregation Pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$collect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$collect is not a recognized stage in the MongoDB Aggregation Pipeline. The correct stages include operations like $match, $group, and $sort."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basics of MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of database is MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document-oriented"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Relational"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Graph-based"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Key-value store"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB is classified as a document-oriented database which is a type of NoSQL database."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "MongoDB Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid data format stored in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CSV"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BSON"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "YAML"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB stores data in BSON format, which is a binary-encoded serialization of JSON-like documents."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Configuration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which file format is used to configure MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "YAML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TXT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB uses the YAML file format for its configuration files."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Concepts of NoSQL",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does 'NoSQL' stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Not Only SQL"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "No SQL at all"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Network SQL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "New SQL"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NoSQL stands for 'Not Only SQL'. It represents a variety of database systems that store data differently than the traditional relational databases."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Role-Based Access Control",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What MongoDB feature limits the actions and commands that a user can execute?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data Encryption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Audit Logs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Role-Based Access Control (RBAC)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SSL/TLS"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Role-Based Access Control (RBAC) limits the actions and commands that a user can execute based on their assigned roles."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MongoDB Configuration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What file format is typically used for MongoDB configuration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "YAML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TXT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB configuration files are typically written in YAML, a human-readable data serialization format."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to Aggregation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operation is used to calculate the sum of a specified field across documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$sum"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$avg"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$max"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$min"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $sum operator in MongoDB is used to sum up the value of specified fields across documents in an aggregation pipeline."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of database is MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Relational"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NoSQL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Graph"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Network"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB is a NoSQL database, which means it handles unstructured data and has a dynamic schema."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Indexing Concepts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of an index in a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the performance of search queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To consume more storage space"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the security of the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To make the database look more organized"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used to find rows with specific column values quickly. Without an index, SQL must begin with the first row and then read through the entire table to find the relevant rows."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Key Concepts in NoSQL",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of NoSQL database is MongoDB classified as?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document store"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Key-value store"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Graph database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Wide-column store"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB is classified as a Document store type of NoSQL database, which stores data in JSON-like documents."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Replication",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the primary role of a secondary node in a replica set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To serve write operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To serve read operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase data storage capacity"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To replace the primary node"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Secondary nodes primarily serve read operations and act as backups for failover situations, not for increasing storage capacity or replacing primary nodes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of an index in a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the storage space."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up the retrieval of data."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance data security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase data redundancy."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used to find rows with specific column values quickly. Without an index, SQL must scan the whole table to locate relevant rows."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basics of MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid MongoDB data type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dataframe"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Pointer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Structure"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, one of the fundamental data types is the 'Document', which is used to represent complex hierarchical relationships with dynamic schemas."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Indexing Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of creating indexes in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the storage space used by the database"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the performance of search operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To add more collections to the database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To change the data structure of documents"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e., scan every document in a collection, to select those documents that match the query statement."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of indexing in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the performance of search queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To consume more storage space"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To decrease database security"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase data redundancy"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexing improves the performance of search queries by storing the data's parts in an easy-to-retrieve manner."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basics of MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of database is MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Relational"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Document-oriented"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Graph-based"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Key-value"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB is a document-oriented database, which stores data in JSON-like documents with dynamic schema."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Indexing Concepts",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of indexing in databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease storage space"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase query processing speed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance data integrity"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase data redundancy"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexing enhances query processing speed by allowing quick retrieval of records from a database."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic CRUD Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to insert a document into a MongoDB collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "insertOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insertDocument()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "addNew()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "createOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The insertOne() method is used to insert a single document into a MongoDB collection."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid BSON data type used in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Date"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ObjectId"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML is not a BSON data type. BSON types include String, Date, and ObjectId among others."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Installation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the first step to install MongoDB on a Windows machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Download the MongoDB .msi installer from the official MongoDB website."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Create a database directory."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Set environment variables."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Run the MongoDB server."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The first step in setting up MongoDB on a Windows environment is to download the official .msi installer from the MongoDB website."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Basic CRUD Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'D' in CRUD stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Delete"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deploy"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Develop"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In CRUD operations, the 'D' stands for Delete, which is used to remove data from the database."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Document Schemas in MongoDB",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB feature allows you to enforce data validation rules for a collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Validation rules"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Schemas"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Collections"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Documents"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, schemas can be defined to enforce certain validation rules on the documents within a collection."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Concepts of Indexing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a primary function of an index in a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To reduce disk usage"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up data retrieval"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To expand data storage"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance data security"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used primarily to speed up data retrieval, making read operations faster by reducing the number of disk accesses."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Schema Design",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following is true about schemas?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Schemas are not required."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Schemas need to be defined strictly before data insertion."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Schemas must be approved by a database administrator."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Schemas are identical to relational database schemas."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, schemas are flexible and not required to be defined before data insertion, unlike in relational databases."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of creating indexes in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the performance of query operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To consume more storage space"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance security features"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To change the data format"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes support the efficient execution of queries in MongoDB by providing high-performance read operations for frequently used queries."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Configuration Settings",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default port number MongoDB listens to upon installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3306"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "27017"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "8080"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5432"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as MongoDB by default listens on port 27017."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Authentication Mechanisms",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a default authentication mechanism provided by MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SCRAM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "OAuth"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SAML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "OpenID Connect"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SCRAM (Salted Challenge Response Authentication Mechanism) is the default authentication mechanism provided by MongoDB."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Role-Based Access Control",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of implementing Role-Based Access Control (RBAC) in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage network traffic"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To encrypt data at rest"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To control user access to data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase data retrieval speed"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "RBAC is used to control user access to database resources based on their roles, enhancing security by limiting unnecessary access."
+      }
+    ]
+  }
+]

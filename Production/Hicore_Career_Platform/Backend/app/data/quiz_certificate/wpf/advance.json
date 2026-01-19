@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Templating and Visual States",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you modify the visual state of a control in WPF when using a ControlTemplate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "By defining VisualState elements within the VisualStateManager.VisualStateGroups inside the ControlTemplate."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By directly setting properties on the control instance outside the ControlTemplate."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using a Binding to the control's properties with a Converter that checks the state."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is not possible to modify the visual state within a ControlTemplate."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To modify the visual state of a control using a ControlTemplate, the VisualState elements must be defined within the VisualStateManager.VisualStateGroups of the ControlTemplate. This allows for customization of control appearance and behavior based on different states."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "WPF Application Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a WPF application using ClickOnce, which configuration setting ensures that the full .NET Framework is included in the installation package if it's not already present on the target machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Publish prerequisites in the Application Files dialog"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Target .NET Framework in the Application properties"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bootstrapper package in the Publish Options"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Include .NET Framework in the prerequisites in the Publish Wizard"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because including the .NET Framework in the prerequisites during the setup of the Publish Wizard ensures that it is installed on the target machine if it is not already present."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Memory Management in WPF Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, which of the following techniques effectively helps in reducing memory leaks related to event handlers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using standard event handlers without deregistration"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implementing WeakEventManager for managing event subscriptions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Avoiding the use of any event handlers in the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing WeakEventManager helps manage event subscriptions and unsubscribes automatically to prevent memory leaks, unlike standard handlers which may hold references and cause leaks if not deregistered properly."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What must be implemented to correctly use data binding on custom objects in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ICloneable Interface"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INotifyPropertyChanged Interface"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IEnumerable Interface"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IDisposable Interface"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The INotifyPropertyChanged interface is used to notify clients, typically binding clients, that a property value has changed. It's essential for WPF to update the UI dynamically when the data changes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Templates in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using a DataTemplate in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To define the UI representation of data objects."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage data connections to external databases."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt data before it is stored locally."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the speed of data retrieval from the server."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A DataTemplate in WPF is used to define how data objects are displayed in the UI. It allows developers to customize the presentation of data without altering the underlying data model."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Templates in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the use of a ControlTemplate in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A ControlTemplate can be applied to any type of control."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A ControlTemplate can include triggers to change the properties of the control based on events."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A ControlTemplate does not need to include a template for the control's children."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ControlTemplate in WPF can be applied to any control, can include triggers for property changes based on events, and does not necessarily have to have a template for the control's children; the content can be entirely replaced."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Styling and Templating",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using a DrawingBrush over an ImageBrush in WPF when designing complex user interfaces?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DrawingBrush uses vector graphics which are resolution-independent and thus scale better."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DrawingBrush supports direct image manipulation within the UI."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ImageBrush allows easier integration with third-party graphics software."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ImageBrush provides better performance with large images."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because DrawingBrush uses vector graphics which are not pixel-based and hence are scalable without loss of quality, making them ideal for complex and resizable user interfaces."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, when using data binding in a performance-critical application, which of the following practices should be avoided to minimize performance degradation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using low-level bindings with base classes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employing complex data templates"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Binding directly to fields instead of properties"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because using complex data templates can significantly increase the CPU usage for rendering, and binding directly to fields bypasses the notification mechanism of properties, leading to UI inconsistencies and lack of updates. Low-level bindings should be used carefully to avoid unnecessary overhead."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Dynamic Resource vs Static Resource",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what would be the outcome if a DynamicResource to a non-existent key is used within a Style Setter?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application compiles, but throws a runtime error when the style is applied."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The application fails to compile."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The application compiles and runs, ignoring the invalid resource key."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The style uses a default system value in place of the missing resource."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DynamicResource does not resolve the resource until runtime, which allows the application to compile successfully. However, if the key does not exist at runtime, it results in a runtime error when trying to apply the style."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Debugging Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF application debugging, which tool allows you to visualize the logical and visual tree structure of the running application's UI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Profiler"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "XAML Spy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WPF Inspector"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Snoop"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Snoop is a popular tool for debugging WPF applications, providing a real-time view of the visual and logical trees, helping developers understand the structure and behavior of the UI components in their applications."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true when implementing a two-way data binding in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The DataContext property must be set directly on the data-bound element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two-way binding is the default mode for TextBox control."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A static property cannot be used as a source in two-way data binding."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UpdateSourceTrigger is set to PropertyChanged by default for all controls."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Two-way binding is indeed the default mode for TextBox control in WPF, allowing automatic updates between the bound source and the UI element."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Template Binding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of using a TemplateBinding inside a ControlTemplate to bind the Background property in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the control to inherit the Background property of its parent."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It binds the Background property of the control to a static resource."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It creates a two-way binding automatically between the property of the control and the property of the template."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It binds the Background property of the control using the property of the template, but only supports one-way binding."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TemplateBinding is used inside a ControlTemplate to bind control properties to the template in which they are defined. However, TemplateBinding only supports one-way binding from the template to the control, not vice versa."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in XAML",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application using MVVM, what would be the most appropriate way to bind a property that updates from multiple sources and requires complex validation rules?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a TwoWay binding with a ValidationRule."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use a OneWay binding and handle updates manually in the ViewModel."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use a MultiBinding with a converter and ValidationRule."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implement the INotifyPropertyChanged interface only on the ViewModel."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because MultiBinding allows binding a property to multiple sources. Using a converter, you can amalgamate the sources into a single bindable property, and ValidationRule can be applied to ensure the data meets the defined rules."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Styles and Templates in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, if a style is defined in App.xaml without a key, which of the following controls will be affected by this style?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only controls of the same type as the TargetType property of the style."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All controls within the application regardless of type."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Controls that explicitly reference the style by key."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No controls will be affected as a key is required for the style to be applied."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A style defined in App.xaml without a key is implicitly applied to all controls of the same type specified in the TargetType property across the application."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Deployment Scenarios",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a WPF application using ClickOnce deployment, what will happen if the application attempts to write data to a subdirectory in the Program Files directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application will succeed without issues."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The application throws an access violation exception."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The data is redirected to a virtual store directory specific to the user."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The application will ask for administrator privileges."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to Windows' UAC settings, attempts by non-administrative applications to write to protected directories like Program Files are redirected to a per-user virtual store directory, ensuring compatibility while maintaining system security."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MediaElement Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using a MediaElement in WPF to play video, which property must be set to 'Manual' to allow for frame-by-frame video scrubbing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ScrubbingEnabled"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BufferingTime"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "LoadBehavior"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "UnloadedBehavior"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting the 'ScrubbingEnabled' property to 'Manual' allows the user to manually change the position of the video using the Position property, which supports frame-by-frame navigation in the video."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Templates and Resources",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, how can you apply a DataTemplate conditionally based on property values of the bound data object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "By using a DataTemplateSelector to choose the template at runtime."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By implementing a Converter that changes the appearance based on conditions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "By using Triggers within the DataTemplate."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Directly in XAML using the Path property in a Binding."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A DataTemplateSelector allows for dynamic selection of a data template based on the properties of the data object and logic implemented in the selector's SelectTemplate method."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Resource Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most effective method to enhance WPF application performance when dealing with numerous and frequent updates to UI elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Regularly force garbage collection"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use manual UI element creation and disposal"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing virtualization for UI elements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increase the application's base priority"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because implementing virtualization allows the application to only create and retain UI elements that are currently in view, which drastically reduces the memory footprint and improves the performance of the application when dealing with a large set of UI elements."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Animation Easing Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following applies an elastic effect in animations when using Easing Functions in WPF?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "QuadraticEase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BounceEase"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ElasticEase"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CircleEase"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ElasticEase creates an animation that resembles a spring oscillating back and forth until it comes to rest."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "WPF Application Debugging",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, if you encounter a XAML parse exception during runtime, which debugging approach helps in identifying the exact line and position of the error in the XAML file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the Immediate Window in Visual Studio"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Enabling Common Language Runtime Exceptions in Exception Settings"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inspecting the Output window for XAML parsing errors"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Attaching a debugger to the WPF application and setting a breakpoint"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because the Output window displays detailed error messages, including line numbers and positions, which helps in precisely locating and resolving XAML parsing errors."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "3D Graphics in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using a Quaternion rotation rather than an Axis-Angle rotation in WPF 3D animations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quaternions prevent gimbal lock and provide smoother interpolation between rotations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quaternions require fewer computational resources"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Axis-Angle representations are not supported in WPF"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Quaternions provide more intuitive control over animations"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quaternion rotations are preferred in 3D graphics, including WPF, due to their ability to prevent gimbal lock and ensure smooth interpolation, which is crucial for realistic 3D animation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Binding Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following properties, when set to True, helps in reducing the overhead of dependency property changes in a WPF application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "IsAsync"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BindsDirectlyToSource"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Freeze"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IsVirtualizing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting IsAsync to True can help improve performance by allowing the UI thread to remain responsive while the bound property is being processed on a separate thread. This is particularly beneficial when dealing with dependency properties that incur a high computational load or need to fetch data asynchronously."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "UI Virtualization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, which control does not support UI virtualization by default and requires manual optimization when dealing with large datasets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ListBox"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DataGrid"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ListView"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "StackPanel"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "StackPanel does not support virtualization inherently. Unlike ListView and DataGrid, which have built-in support for UI virtualization, StackPanel requires manual intervention to handle large data sets efficiently."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Templates in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'TemplateBinding' in a WPF ControlTemplate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To bind data between source and target at runtime"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To create a recursive data template for hierarchical data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To connect the properties of the control template to the properties of the control"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To allow for complex mathematical computations within the template"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TemplateBinding is used within a ControlTemplate to bind the properties of the control itself to the properties defined in the ControlTemplate, thus allowing template authors to customize the appearance of the control based on the control's own properties."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Template Binding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using TemplateBinding in a ControlTemplate in WPF, what is the primary limitation compared to a regular Binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TemplateBinding does not support validation rules."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TemplateBinding cannot be used with non-dependency properties."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TemplateBinding only works within Style setters."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TemplateBinding does not support two-way binding by default."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TemplateBinding is a lighter and faster version of regular Binding but does not support two-way binding by default, which can be a limitation when two-way data flow is required."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Security in Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which configuration setting in a WPF application's deployment is crucial to prevent unauthorized access during updates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Enable ClickOnce security settings"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set application as a full trust application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use application-level encryption techniques"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Disable user access control (UAC) prompts"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Enabling ClickOnce security settings ensures that the application checks for the authenticity and integrity of the application's update source, thereby preventing unauthorized access."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XAML Syntax and Structure",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XAML element is used to declare a space where developers can define and switch between multiple UI views within the same window in WPF applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Frame"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Canvas"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Grid"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "StackPanel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Frame element in XAML is used to host a set of pages that can be navigated within a window. It's particularly useful for defining areas that switch between different content views."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Dynamic Resource Lookup",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, if a dynamic resource for a Brush is updated at runtime, which of the following best describes the behavior of elements using this resource?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only elements loaded after the resource update will reflect the change."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All elements using the resource will reflect the change immediately."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Elements will reflect the change only upon reinitialization."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The application will crash due to runtime modification."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic resources in WPF are resolved at runtime, allowing all elements that use the resource to automatically update when the resource changes."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Resource Lookup",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, if a dynamic resource reference is made to a resource that does not exist at runtime, which of the following best describes the application's behavior?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application throws a runtime exception immediately when the resource is not found."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The application continues to run, but the control referencing the resource fails to render."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The resource reference is ignored, and the application defaults to the system settings."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The application throws a runtime exception only when the control requiring the resource is loaded."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In WPF, if a dynamic resource is referenced and not found at runtime, the application does not throw an exception immediately. Instead, it continues to run, but the specific control referencing the resource fails to render properly."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Binding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What would be an appropriate use of the FallBackValue in WPF data binding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a default value if the source of a binding does not exist"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To revert changes if a validation fails"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the performance of the binding update"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FallbackValue is used to debug data bindings"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The FallBackValue in WPF data binding is used to provide a default value when the source of a binding cannot be resolved, ensuring that the application can handle such cases gracefully without crashing or displaying erroneous data."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Command Binding in MVVM",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an MVVM application, what is the most appropriate way to ensure that a command is enabled based on the state of the ViewModel?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a DataTrigger in the View to enable or disable the command."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement the CanExecute method in the command, binding it to a property in the ViewModel."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Handle the command's execution logic directly in the code-behind of the View."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use the CommandManager.RequerySuggested event to manually enable or disable the command."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CanExecute method should be used to enable or disable a command based on the ViewModel's state. This allows the command to be aware of changes in the ViewModel and adjust its enabled state appropriately."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Binding and Resource Usage",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, which binding property should be used to ensure that the UI does not freeze during the collection processing of a data-bound ItemsControl?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "UpdateSourceTrigger"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IsAsync"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IsSynchronizedWithCurrentItem"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BindingGroup"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the IsAsync property in bindings allows the data retrieval process to run asynchronously, preventing the UI from freezing while processing large collections."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what is the correct way to implement a two-way binding on a TextBox control to ensure that changes in the UI update the source property, and source property changes update the UI, only when the TextBox loses focus?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Binding Path=Text, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Binding Path=Text, Mode=TwoWay, UpdateSourceTrigger=LostFocus"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Binding Path=Text, Mode=TwoWay, UpdateSourceTrigger=Explicit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Binding Path=Text, Mode=OneWay, UpdateSourceTrigger=LostFocus"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because setting UpdateSourceTrigger to LostFocus ensures that the source is updated only when the TextBox control loses focus, which supports the requirement of updating on UI focus loss."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Dynamic Resource vs Static Resource",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, what will happen if a dynamic resource reference is used and the resource is not found at runtime?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application throws a runtime exception."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The application uses a default system value if available."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The resource usage is ignored and no value is set."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The application continues to search up the logical tree until it finds a matching resource."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic resources are resolved at runtime and the application continues to search up the logical tree until it finds a resource that matches the key. If no resource is found, it simply won't apply any value but won't throw an exception unless explicitly programmed to do so."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "WPF Deployment Security",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a WPF application that involves ClickOnce deployment with partial trust, which of the following is a necessary requirement for ensuring code access security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application must be installed on a local intranet."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Code must be obfuscated to prevent reverse engineering."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Application deployment should include a manifest specifying required permissions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All external libraries must be registered in the Global Assembly Cache (GAC)."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For a ClickOnce deployment with partial trust, specifying the required permissions in the application manifest is essential. This ensures that the application does not attempt to perform operations that exceed its granted permissions, thereby maintaining the security constraints."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XAML syntax correctly sets up a two-way binding on the Text property of a TextBox, ensuring any formatting errors are indicated by a tooltip?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Path=YourProperty, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}\"/>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding YourProperty, Mode=TwoWay, NotifyOnValidationError=false}\"/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Source=YourProperty, Mode=TwoWay}\"/>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<TextBox Text=\"{Binding Path=YourProperty, Mode=OneWay}\"/>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it not only establishes a two-way binding but also enables validation and error notification directly within the UI, which are crucial for user feedback on input errors."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Storyboard Animation Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, how does setting the HandoffBehavior property to 'SnapshotAndReplace' affect a new animation applied to a property already being animated?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It stops the current animation and starts the new one, disregarding the previous animation state."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It merges the new animation with the current one, creating a blend of both animations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It pauses the current animation until the new one completes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It queues the new animation to start after the current one completes."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'SnapshotAndReplace' causes the new animation to immediately replace the existing animation, starting from the current value of the property being animated but disregarding any influence from the previous animation's trajectory or endpoint."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Virtualization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How does enabling UI virtualization affect the performance of a WPF application when dealing with large data sets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases performance due to increased memory usage."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Has no impact on performance."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Improves performance by only creating UI elements that are visible."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improves performance by loading all data at startup."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "UI virtualization enhances performance by constructing and maintaining only those UI elements that are currently in view or required, thereby reducing the memory footprint and load times when dealing with large sets of data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Command Binding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF using MVVM, how can Command Binding be used to disable a button when a certain condition is met?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implement ICommand and use CanExecute method to evaluate the condition."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bind the Button's IsEnabled property directly to the ViewModel's boolean property."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use a ValueConverter to convert the condition to a boolean and bind to the IsEnabled property."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Create an event in the ViewModel to trigger enabling or disabling the button."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ICommand interface in MVVM allows the use of the CanExecute method, which determines if the command can execute in its current state. Binding this with Command on the Button allows the button to be enabled or disabled based on the condition evaluated in CanExecute."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dynamic Resource Lookup",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what will happen if a dynamic resource reference is made to a resource that does not exist at the time of application load but is defined later at runtime?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application throws a runtime exception"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The resource reference will resolve after the resource is defined, and the UI will update accordingly"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The application will crash immediately at startup"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic resources in WPF are resolved at runtime rather than at compile time. This means that if the resource is defined later, the UI element referencing it will automatically update to reflect the new resource once it becomes available."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Storyboard Animation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, how can you apply a sequential non-overlapping animation scheme using Storyboards when dealing with multiple animations on a single UI element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the BeginTime property for each subsequent animation to start after the previous one ends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Applying a parallel property in XAML"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setting the SpeedRatio to different values for each animation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linking animations with EventTriggers for sequential execution"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The BeginTime property of each animation can be set to delay the start time based on the duration of the previous animations ensuring a sequential, non-overlapping execution."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Templates and Styles",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what is the difference between a ControlTemplate and a DataTemplate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ControlTemplate is used for appearance and behavior, DataTemplate for data structure and hierarchy."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ControlTemplate is for data rendering, DataTemplate for control styling."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ControlTemplate can include triggers, DataTemplate cannot."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no difference, they are interchangeable."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ControlTemplate defines the visual structure and visual behavior of a control, whereas DataTemplate defines how to display data objects."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Custom Control Creation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What must be done to create a new WPF user control that supports dependency properties?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Just inherit from UserControl and use normal .NET properties."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inherit from UserControl and implement dependency properties using DependencyProperty.Register method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Override the existing properties of the base UserControl class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use attached properties instead of dependency properties."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because to support dependency properties in a custom user control, one must inherit from UserControl and register the dependency properties using the DependencyProperty.Register method."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Binding in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing data binding in a WPF application, which property ensures that the target property updates only when the bound source loses focus?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "UpdateSourceTrigger.Explicit"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UpdateSourceTrigger.LostFocus"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UpdateSourceTrigger.PropertyChanged"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BindingMode.TwoWay"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The UpdateSourceTrigger.LostFocus causes the source property to update only when the target element loses focus, which is critical for performance optimization in certain UI scenarios."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "MediaElement Usage",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to ensure a MediaElement in WPF plays smoothly when embedded in a complex UI layout with multiple animations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increase the system's main thread priority."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use a separate thread for the MediaElement control."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reduce the framerate of other animations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implement a lower resolution for the MediaElement."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Running the MediaElement on a separate thread can prevent UI delays and performance issues caused by the main UI thread being overloaded with too many tasks, thereby ensuring smoother playback."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Validation in MVVM",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF using MVVM, how can you implement data validation so that the UI indicates errors to the user as they enter data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Utilize the INotifyDataErrorInfo interface in the ViewModel to handle validation and error reporting."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Invoke MessageBox.Show for each data entry error detected in the ViewModel."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Apply a Converter on each binding that checks the validity of data upon entry."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Write custom event handlers in the code-behind for each control to validate data."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing the INotifyDataErrorInfo interface in the ViewModel is the best practice in MVVM for validating data. It allows the ViewModel to independently manage validation logic while providing UI feedback about errors."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Styles and Resources in WPF",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what is the key difference between a StaticResource and a DynamicResource?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A StaticResource can be changed at runtime, whereas a DynamicResource cannot."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A StaticResource is evaluated at compile-time, while a DynamicResource is evaluated at runtime."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A StaticResource does not support data binding, but a DynamicResource does."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A StaticResource provides a faster retrieval time compared to a DynamicResource which is slower due to its runtime evaluation."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The key difference between StaticResource and DynamicResource lies in their evaluation time. A StaticResource is resolved and assigned during the loading of the XAML which happens at compile time. In contrast, a DynamicResource is resolved at runtime, meaning it can respond to changes in the resource's value or definition after the application has started."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dependency Property Behavior",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In WPF, what happens when a dependency property set locally on an element is also influenced by a style setter with a data trigger?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The local value is overridden only when the data trigger condition is true."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The style setter and local value are blended, regardless of the data trigger."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The data trigger condition has no impact if a local value is set."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The local value always overrides the style setter, including the data trigger."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In WPF, the local value temporarily overrides the style setter when a data trigger condition is met. When the condition is false, the style setter value prevails unless the local value is specifically changed."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Storyboard Targeting",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a WPF application, what would be the outcome if a Storyboard attempts to animate a property that does not support animation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The application compiles but throws a runtime exception when the storyboard is executed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The storyboard will silently fail and no animation will be visible."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The property is animated with default settings."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The storyboard will automatically find a similar animatable property to target."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WPF only allows certain properties to be animated. Attempting to animate a non-animatable property will result in a runtime exception, as the animation system relies on the property being able to generate animation frames."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Commands and Executability",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How does the 'CanExecute' method in WPF command binding affect UI responsiveness when bound to a button?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It disables the button when returning false, preventing command execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It only changes the button's style to indicate executability without disabling it."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It has no effect on the button but uses additional resources to check conditions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It triggers the command repeatedly as long as it returns true."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'CanExecute' method directly influences the enabled state of the UI element, such as a button, by disabling it when the method returns false, thus preventing the command from executing."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2010 @@
+[
+  {
+    "id": 2,
+    "topic": "HTML Text Formatting Tags",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the need to emphasize a word within a paragraph semantically for accessibility tools, which element is the most suitable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<b>Important</b>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<strong>Important</strong>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<i>Important</i>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<em>Important</em>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as the <strong> tag is designed to indicate that the text is of strong importance, which includes semantic meaning and is picked up by screen readers and other accessibility tools, unlike <b>, which purely applies visual bolding without semantic importance."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Nested Lists",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following HTML code snippet, which behavior will it produce in the browser?"
+      },
+      {
+        "type": "text",
+        "value": "<ul><li>Item 1<ol><li>Subitem 1.1</li></ol></li><li>Item 2</li></ul>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A single unordered list with 'Item 1' and 'Item 2', where 'Item 1' contains an ordered sub-list with 'Subitem 1.1'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two separate lists, one unordered with 'Item 1' and 'Item 2', and another ordered with 'Subitem 1.1'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A single unordered list with 'Item 1' and 'Item 2', where 'Item 1' contains an unordered sub-list with 'Subitem 1.1'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error in the list structure rendering no lists visible."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct structure is an unordered list that includes 'Item 1' and 'Item 2', with 'Item 1' having an ordered sub-list containing 'Subitem 1.1'. The HTML tags are properly nested to reflect this hierarchy."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Link Attributes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following HTML snippet, which attribute would you add to the anchor tag to ensure that the linked document opens in a new browser tab?"
+      },
+      {
+        "type": "formula",
+        "value": "<a href='https://www.example.com'>Visit Example</a>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "target='_blank'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "target='_self'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "rel='noopener'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "type='text/html'"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'target='_blank'' attribute in an anchor tag instructs the browser to open the linked document in a new tab or window."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML SEO Basics: Meta Descriptions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary SEO disadvantage of duplicating meta descriptions across multiple pages on a website?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases the website's loading speed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can lead to keyword stuffing penalties."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It might dilute the relevancy of the content to search queries."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It directly decreases the page's rank in search engine results."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Duplicating meta descriptions can dilute the relevancy of content to search queries because search engines might not be able to distinguish and accurately rank pages based on specific user queries."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Text Formatting in HTML",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following HTML tags is used to emphasize text that is stylistically offset from the normal prose without conveying extra importance, such as keywords or phrases in a document, product names in a review, or other spans of text whose typical typographic presentation is bold?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<b>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<strong>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<em>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<mark>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <strong> tag is used to indicate strong emphasis which typically represents a change in meaning of the surrounding text, causing the enclosed text to be rendered as bold by default. It's used to signify that the text is of greater importance compared to the <b> tag, which is stylistically different text without indicating added importance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Shadow DOM Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using Shadow DOM in web components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase the performance of web applications by asynchronous operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle HTTP requests asynchronously"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encapsulate styles and markup structure and avoid leakage to the global scope"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enhance the semantic structure of HTML"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Shadow DOM enables encapsulation of styles and DOM structure in web components, preventing styles from leaking out and external styles from coming in."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "ARIA Relationship Attributes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an HTML form, which ARIA attribute would be most suitable to link a text label describing a CAPTCHA input field to the CAPTCHA field itself for better accessibility?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "aria-describedby"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "aria-labelledby"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "aria-label"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "aria-details"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'aria-labelledby' attribute is appropriate for establishing a relationship between the visual label and the input field, as it helps assistive technology users understand the purpose of the input field by referencing elements that label it."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Shadow DOM Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the encapsulation properties of the Shadow DOM in web component design?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Global styles can penetrate a shadow DOM."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Shadow DOM ensures style encapsulation by isolating the CSS of the main document from the shadow tree."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Shadow DOM can be disabled using a CSS property."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "External scripts are required to implement shadow DOM."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Shadow DOM provides style encapsulation by keeping the styles of the components within the shadow tree isolated from the main document. This prevents global styles from affecting the inside of a shadow DOM."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Image Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing responsive images in HTML, which attribute combination is most appropriate to ensure that different image resolutions are served based on the device's display characteristics?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<img src='low-res.jpg' srcset='high-res.jpg 2x, low-res.jpg 1x'>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<img src='default.jpg' srcset='low-res.jpg 600w, high-res.jpg 1200w' sizes='(max-width: 600px) 600px, 1200px'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<img src='default.jpg' alt='responsive image'>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<img href='high-res.jpg' media='(min-width: 800px)'>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B uses srcset with different image widths and sizes attribute to specify the condition under which each image is shown, making it the best choice for responsive image implementation."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Complex HTML Tables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML markup correctly creates a table with a header that spans two columns and includes a footer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<table><thead><tr><th colspan='2'>Header</th></tr></thead><tbody><tr><td>Data 1</td><td>Data 2</td></tr></tbody><tfoot><tr><td colspan='2'>Footer</td></tr></tfoot></table>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<table><tr><th>Header</th><th></th></tr><tr><td>Data 1</td><td>Data 2</td></tr><tr><td>Footer</td><td></td></tr></table>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<table><thead><tr><th>Header</th></tr></thead><tbody><tr><td>Data 1</td><td>Data 2</td></tr></tbody><tfoot><tr><td>Footer</td></tr></tfoot></table>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<table><thead><tr><th colspan='2'>Header</th></tr></thead><tbody><tr><td>Data 1</td></tr><tr><td>Data 2</td></tr></tbody><tfoot><tr><td colspan='2'>Footer</td></tr></tfoot></table>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the 'colspan' attribute correctly in both the header and footer to span two columns, aligning with the table's structure."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Debugging HTML Code",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an HTML document that is not displaying images as intended, which of the following would be the most effective method to debug the issue?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Checking the browser's console for errors related to the image paths."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Rewriting all image tags to use a different image format."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Changing the DOCTYPE of the HTML document."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Modifying the CSS file to include 'display: image;' for all img tags."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Checking the browser's console can reveal errors such as incorrect paths or access issues, which are common causes for images not displaying correctly."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "HTML Multimedia Tags",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute in the <video> tag specifies that the video will start over again, every time it is finished?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "autoplay"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "controls"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "preload"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'loop' attribute when applied to a <video> tag, specifies that the video will automatically start over once it finishes, allowing it to play in a continuous loop."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML History",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements best describes the initial purpose for which Tim Berners-Lee developed HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a user-friendly interface for early operating systems"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To structure and link documents to facilitate information sharing between researchers at CERN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To design visually appealing layouts for digital magazines"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To develop a proprietary software for data analysis"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML was developed by Tim Berners-Lee to structure and link documents, enabling information sharing among researchers at CERN."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Interactive Content Integration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using an <iframe> to embed a third-party video, which of the following is NOT a potential issue that could arise?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Cross-origin resource sharing (CORS) errors"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increased page rendering time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Direct access to the embedding site's cookies by the third-party"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The third-party content not resizing automatically"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While iframes can create issues like CORS errors, slow rendering, and resizing problems, they do not provide the embedded content access to the host site's cookies directly due to the same-origin policy."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Script Embedding Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a correct way to embed client-side JavaScript code in HTML documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Between a pair of <script> and </script> tags."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "From an external file specified by the src attribute of a <script> tag."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "In a URL that uses the special javascript: protocol."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Embedded directly into a CSS file to style elements dynamically."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JavaScript code cannot be embedded directly into CSS files. JavaScript is used to manipulate the DOM or interact with HTML elements, while CSS is used solely for styling purposes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "HTML Document Structure",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an HTML document, which of the following elements must directly contain the 'title' element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<body>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<head>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<footer>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<header>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'title' element should be placed inside the 'head' element of an HTML document. It is used to define the title of the document, which is displayed in a browser's title bar or tab."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Debugging HTML Code",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When debugging HTML code, which of the following tools can directly inspect and modify the HTML and CSS in real-time within the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Integrated Development Environment (IDE)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Web-based HTML validators"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Browser Developer Tools"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Command Line Interface (CLI) tools"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Browser Developer Tools allow developers to inspect, debug, and modify HTML and CSS directly in the browser, providing real-time feedback and changes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Semantic Elements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about the use of <section> elements in HTML5 is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Each <section> should be followed by a <header> and a <footer>."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A <section> is appropriate for grouping thematically related content, even if the grouped content is not part of a single outline."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<section> tags are interchangeable with <div> tags for better SEO."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<section> should be used instead of <article> when the content is part of a thematic grouping."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <section> element is used to group related content, and it does not necessarily need to be part of a single outline, unlike <article> which is used for independent, self-contained content."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Fluid Grids",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a fluid grid system in responsive web design, what is the effect of setting the width of a column to 'percentage' instead of a 'fixed' unit?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the column width to adjust according to the screen size, enhancing flexibility."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It fixes the column width, making it unresponsive to screen size changes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It hides the column on devices smaller than a certain width."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It enlarges the text within the column disproportionately."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting the width of a column to a percentage ensures that the column's width is a percentage of its containing element. This makes the grid system fluid and adaptable to different screen sizes, which is a key component of responsive web design."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "HTML Heading Tags for SEO",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering SEO best practices, which of the following is a recommended approach to using heading tags in HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using multiple <h1> tags per page to emphasize various important topics."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Restricting the use of <h1> tags to once per page to define the main topic."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Avoiding <h2> tags to streamline content hierarchy for simpler topics."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilizing <h1> to <h6> randomly for visual variety and layout design."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "It is recommended to use one <h1> tag per page to clearly define the main topic. This tag carries significant weight in SEO as it helps search engines understand the primary focus of the page."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Embed Optimization Challenges",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a major challenge of embedding iframes for advertisements in web development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased page load times and potential security vulnerabilities"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Enhanced SEO ranking automatically"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Simplified content management"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreased need for bandwidth"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding iframes, especially for advertisements, can lead to increased page load times due to additional HTTP requests and potential security risks from third-party content."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "HTML International Standardization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In what year did HTML officially become an international standard under ISO/IEC 15445:2000?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1999"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "2000"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2001"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2004"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML became an international standard in the year 2000 as per ISO/IEC 15445:2000."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Semantic Elements and Accessibility",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 element is specifically designed to offer extended capabilities for form controls, such as sliders, date pickers, and other enhanced inputs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<figure>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<canvas>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<datalist>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<section>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <datalist> element in HTML5 is used to provide an 'autocomplete' feature on form elements, facilitating user input by offering a list of predefined options."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "HTML Tags and Elements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is correct regarding the HTML structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The <div> tag is self-closing."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<meta> tags must always be placed within the body tag."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Elements nested within a <ul> tag should be enclosed in <li> tags."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The <br> tag should have a closing pair."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct structure for a <ul> (unordered list) element involves nesting each item within <li> (list item) tags. This is essential for proper rendering and semantic accuracy in HTML."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dynamic Content Accessibility",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which ARIA role is most appropriate for a dynamically updating content area, such as a stock price ticker?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "role=\"log\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "role=\"alert\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "role=\"status\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "role=\"marquee\""
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The role='status' is used for content that presents advisory information to the user but does not need to interrupt the user's current task. 'role=\"log\"' is for ongoing updates, 'role=\"alert\"' is for important changes, and 'role=\"marquee\"' is for non-essential updates."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Content Accessibility",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which ARIA role is most appropriate for a user interface component that creates live alerts to notify users of a change in an application's state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "aria-live"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "role=\"alert\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "aria-atomic"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "role=\"log\""
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The role=\"alert\" is specifically designed for such UI components that need to send accessible alert messages dynamically."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "HTML Attributes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the use of custom data attributes in HTML5?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Custom data attributes are discouraged and should be avoided."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Custom data attributes can be named freely without any specific prefix."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Custom data attributes are prefixed by 'data-' and allow you to store extra information."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Custom data attributes modify the default behavior of HTML elements."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Custom data attributes in HTML5 are prefixed with 'data-' and are intended to store custom data private to the page or application, without any changes in the presentation or behavior of the elements."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "HTML Multimedia Best Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When embedding a video that should be accessible and performant on multiple devices, which combination of HTML attributes is most appropriate?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<video width='320' height='240' controls autoplay><source src='movie.mp4' type='video/mp4'></video>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<video controls preload='auto' style='max-width:100%;'><source src='movie.mp4' type='video/mp4'></video>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<video controls><source src='movie.mp4' type='video/mp4' media='(min-width: 650px)'></video>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<video controls preload='metadata'><source src='movie.mp4' type='video/mp4'></video>"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is the best practice for embedding videos for accessibility and performance. The 'preload=metadata' attribute allows the user's device to fetch metadata (like length) without downloading the entire video, which enhances performance without autoplaying the content."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Embedding Scripts in HTML",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary security concern when embedding scripts using the <script> tag from external sources?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased load times for the web page"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cross-Site Scripting (XSS) attacks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Incompatibility with older browsers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All scripts function identically regardless of source"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding scripts from external sources can expose the site to XSS attacks where malicious scripts are injected into the web page, potentially compromising user data and site integrity."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Embed Optimization and Script Loading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the challenges related to delayed script loading in a webpage with multiple interactive embeds, which of the following techniques ensures that your third-party scripts don't affect the initial page load performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Embed all scripts synchronously in the head section"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use the async attribute on script tags"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Place all scripts at the bottom of the HTML document"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use the defer attribute on script tags"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the defer attribute on script tags allows scripts to be downloaded in parallel with the HTML parsing process and executed after the document has been fully parsed, thus not affecting the initial load performance."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Semantic HTML",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary semantic difference between using <b> and <strong> tags in HTML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<b> is used for styling while <strong> indicates importance and urgency."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<b> and <strong> have no semantic difference, only stylistic."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<strong> is used for general emphasis, while <b> is used for strong emphasis."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<strong> is for indicating strong importance, while <b> is purely stylistic."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <strong> tag is semantically used to give text strong importance, and browsers typically render it as bold. The <b> tag, however, is used purely for styling purposes without conveying any special importance or urgency, making its usage more about the style than the semantic meaning."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "HTML5 Form Enhancements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which input type introduced in HTML5 is specifically used for creating a slider control to select a value from a range?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "range"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "number"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "search"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'range' input type is used for input fields that should allow the user to select a value from a range using a slider control."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "HTML Element Hierarchy",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a web page that contains the following HTML code: <div><p><span>Text</span></p></div>. What is the correct description of the HTML element hierarchy in this code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The <div> element is a child of the <p> element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The <span> element is a descendant of the <div> element."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The <p> element is a sibling of the <span> element."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The <p> element is a parent of the <div> element."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the provided HTML code, the <span> element is nested inside the <p> element, which in turn is nested inside the <div> element. Therefore, the <span> element is a descendant of the <div> element, making option B correct. The other options incorrectly describe the relationships between the elements."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Semantic Elements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the use of the <section> element in HTML5?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It should be used as a generic container for any part of a page."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is interchangeable with the <div> tag when considering accessibility."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to define a thematic grouping of content, typically with a heading."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It should only be used for defining external content sources."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <section> element is specifically meant for thematic grouping of content which should logically be grouped together, and typically includes a heading. It is not just a generic container like <div>."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "HTML5 Advanced Input Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to implement a form in HTML that utilizes the 'autocomplete' attribute for a field, ensuring that it supports both autofilling address and disabling the feature explicitly for security reasons?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<form><input type='text' name='address' autocomplete='on'></form>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<form autocomplete='on'><input type='text' name='address'></form>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<form autocomplete='on'><input type='text' name='address' autocomplete='off'></form>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<form><input type='text' name='address' autocomplete='nope'></form>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because it enables autocomplete for the form which allows the browser to predict values based on user input history, and explicitly disables it for a particular sensitive input field for security reasons."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Modern APIs and HTML5",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML5 API provides the ability to store data locally within the user's browser, which can then be accessed even when offline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Canvas API"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Geolocation API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Web Storage API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Media Capture API"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Web Storage API allows sites to store data in a local storage object securely and efficiently, retrievable by the client-side, thus enabling applications to function offline."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Nested HTML Lists",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the requirement for a multi-level nested list where each sublist is of a different list type, which is the correct HTML structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<ul><li>Item 1<ol><li>Subitem 1</li></ol></li></ul>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<ol><li>Item 1<ul><li>Subitem 1</li></ul></li></ol>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<ul><li>Item 1<li>Subitem 1</li></li></ul>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<ol><li>Item 1<li>Subitem 1</li></li></ol>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as it showcases a proper multi-level nested list with each level having a different list type (ordered and unordered), adhering to HTML standards for list nesting."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Dynamic Content Accessibility",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which ARIA role is most appropriate for a region of a webpage that provides updated and time-sensitive information, such as notifications or alerts?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "role=\"log\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "role=\"status\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "role=\"alert\""
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "role=\"timer\""
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ARIA role=\"alert\" is designed for messages that require immediate attention and assist users by informing them of changes in content that are not generally visible, making it ideal for notifications and alerts."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "CSS Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using CSS media queries for responsive web design, which combination correctly applies a style rule only to screens smaller than 768px and in landscape orientation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media (max-width: 768px) and (orientation: landscape) { ... }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media (max-width: 768px) or (orientation: landscape) { ... }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media (min-width: 768px) and (orientation: portrait) { ... }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media (min-width: 768px) or (orientation: landscape) { ... }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A because the CSS media query uses 'max-width' to target screens smaller than the specified pixel width and 'and' to combine it with the landscape orientation condition."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Attributes of Anchor Tags",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using the 'download' attribute in an anchor tag, what file name will be assigned to the downloaded file if the attribute is set as follows: <a href=\"path/to/file\" download=\"example\">Download</a>?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The file will be named 'example' with the appropriate file extension derived from the MIME type."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The file will be named 'example' without any file extension."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The file will retain the original file name specified in the href attribute."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The download attribute will be ignored since the file path is relative."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'download' attribute specifies the filename that the user will be prompted to save the file as. When set to 'example', the browser will use 'example' as the filename, adding any necessary extensions based on the file's MIME type."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "HTML Multimedia Best Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When embedding a video that should be accessible and function across various browsers and platforms, which combination of video file formats should be included?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MP4 and WebM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AVI and MKV"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MP4 and AVI"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WebM and MKV"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MP4 and WebM are two video formats widely supported across different browsers and devices, ensuring cross-platform compatibility and accessibility. MP4 is supported by most browsers, while WebM covers compatibility with browsers like Firefox and Opera which may not support MP4."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced HTML Lists",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct HTML structure to create a nested list where an unordered list contains an ordered list as one of its items?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<ul><li><ol><li>Item 1</li><li>Item 2</li></ol></li><li>Item 3</li></ul>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<ul><ol><li>Item 1</li><li>Item 2</li></ol><li>Item 3</li></ul>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<ul><li>Item 1</li><li><ol><li>Item 2</li></ol></li></ul>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<ol><ul><li>Item 1</li></ul><li>Item 2</li></ol>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly nests an ordered list within an unordered list item, maintaining valid HTML structure."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Link Behavior Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When you want a linked document to open in a new browser window or tab, which attribute should you use within an anchor tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "window"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "_blank"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "tab"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '_blank' attribute value in an <a> tag's target attribute is used to open the linked document in a new window or tab."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced HTML Table Attributes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a complex HTML table, which attribute combination correctly implements accessibility features, such as headers with scope and captions, but also includes inline styling for width?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<table style='width:100%'><caption>Table Description</caption><tr><th scope='col' style='width:50%'>Header</th></tr></table>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<table width='100%'><caption>Table Description</caption><tr><th scope='row'>Header</th></tr></table>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<table style='width:100%'><tr><th scope='col'>Header</th></tr></table>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<table><caption>Table Description</caption><tr><th scope='col'>Header</th></tr></table>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it includes a 'caption' for accessibility, uses 'scope' attribute on 'th' for column header designation, and applies an inline style for the table width and column width, which is necessary for specific layout adjustments."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "HTML Features and Capabilities",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a direct feature of HTML as a markup language?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Enabling the creation and viewing of formatted documents."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Facilitating the addition of hyperlinks to connect web resources."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Allowing the execution of complex algorithms and logical operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Supporting the embedding of multimedia elements like images and videos."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HTML does not support the execution of complex algorithms and logical operations. Those are functionalities typically handled by programming languages like JavaScript."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Embedding Scripts and Interactive Content",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which HTML element is specifically designed to embed external resources like PDF files, and is part of the trio including <iframe> and <embed>?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<object>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<link>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<script>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<media>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <object> element is used for embedding external resources such as PDF files into web pages. It is part of a set that includes <iframe> for embedding other web pages and <embed> for media like video and audio."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Anchor Tags and Attributes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which attribute of the <a> tag should you use if you want the linked document to open in a new browser window?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "href"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "target"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "type"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "rel"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'target' attribute is used to define where to open the linked document. The value '_blank' opens the link in a new window or tab."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Complex HTML Table Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which combination of tags is necessary to create a complex HTML table that includes merged cells spanning multiple rows and columns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<table>, <tr>, <td>, <th>, <colgroup>, <col>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<table>, <tr>, <td rowspan='2' colspan='2'>, <th>, <thead>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<table>, <tr>, <td>, <th>, <thead>, <tbody>, <col>"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because it includes <td rowspan='2' colspan='2'> which is necessary for merging cells across multiple rows and columns, alongside essential table structure tags."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Complex HTML Form Elements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'accept' attribute in an HTML form's file input field?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It sets the file path for the file submission."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It restricts the file types that the server will accept for uploading."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It provides a way to automatically submit the form after the file is selected."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It specifies the types of files that users can pick from the file input dialog box."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'accept' attribute specifies a comma-separated list of file types that the server accepts, which helps the browser filter out files incompatible with the accept criteria, aiding users to select the correct file types from the dialog box."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "CSS Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a web application that should display a specific layout when the device is in landscape mode and has a width between 600px and 900px, which of the following CSS media queries is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media only screen and (orientation: landscape) and (min-width: 600px) and (max-width: 900px)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media only screen and (min-width: 600px) or (max-width: 900px) and (orientation: landscape)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media only screen and (max-width: 600px) and (min-width: 900px) and (orientation: landscape)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media only screen and (width >= 600px) and (width <= 900px) and (orientation: landscape)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly uses the 'and' logical operator to combine the conditions for landscape orientation and a width between 600px and 900px. The properties min-width and max-width are correctly used to define the range."
+      }
+    ]
+  }
+]

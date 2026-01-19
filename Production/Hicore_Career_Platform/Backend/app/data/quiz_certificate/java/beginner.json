@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Synchronization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'synchronized' keyword in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a mechanism for consistently updating multiple threads"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To speed up the execution of threads"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create new threads"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To serialize objects"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'synchronized' keyword in Java is used to control the access of multiple threads to any shared resource. It is used to prevent thread interference and memory consistency errors."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to create a new object in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "struct"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "create"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the 'new' keyword is used to create new instances of an object."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Default Methods in Interfaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a default method in a Java interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A method that is defined and implemented in the interface itself."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A method that must be overridden in classes that implement the interface."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A static method defined in the interface."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An abstract method that provides default functionality."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A default method in a Java interface is a method that has a body and is defined in the interface itself. It allows developers to add new methods to interfaces without breaking the existing implementations of these interfaces."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "JAR Files",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the command to create a JAR file in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "jar cvf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "jar xvf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java -jar"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "javac"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'jar cvf' is used to create a new JAR file with the specified archive name and the inclusion of the file names."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encapsulation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using private access modifiers in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To secure data by restricting access to the members of a class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To make all members accessible to everyone"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To indicate that these members are to be shared with subclasses only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To make the class easier to inherit"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Private access modifiers restrict access to the members of a class from any other class, which secures data by encapsulation."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Variable Initialization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of a boolean variable in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "false"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "true"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default value of a boolean variable in Java is false."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Types of Exceptions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a checked exception in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NullPointerException"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IOException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ArithmeticException"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ArrayIndexOutOfBoundsException"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IOException is a checked exception which must be either caught or declared in the method it might be thrown."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "File Writing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to write a string to a file using FileWriter in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "writeString()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "write()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "print()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "append()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The write() method of FileWriter is used to write a string to a file."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface type does a lambda expression in Java implement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Functional Interface"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Abstract Interface"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Generic Interface"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dynamic Interface"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda expressions implement the abstract method of a functional interface."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Components of Swing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a component of Java Swing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JFrame"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JButton"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JApplet"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JLabel"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JApplet is a component of Java Applet, not Swing. JFrame, JButton, and JLabel are all components of Java Swing."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ServerSocket",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the accept() method of the ServerSocket class do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sends data to the client"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reads data from the client"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Listens for connections from clients"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Accepts connections from clients"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The accept() method of the ServerSocket class listens for a connection to be made to the socket and accepts it."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Naming Conventions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a recommended naming convention for a class in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "firstClass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FirstClass"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "firstclass"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FIRSTCLASS"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, class names should start with an uppercase letter and follow the CamelCase convention."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Socket Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is used to listen for client requests in server sockets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "accept()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "listen()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "receive()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The accept() method of the ServerSocket class is used to listen for client requests and accept them."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Streams API",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the return type of the map function in Java Streams API?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stream"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "List"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Set"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Map"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The map function in Java Streams API returns a Stream consisting of the results of applying the given function to the elements of this stream."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Servlets",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the init() method in a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is used to destroy a servlet."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is called to initialize a servlet."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is invoked only when the servlet sends an error."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It manages the HTTP session."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The init() method is called by the servlet container to indicate to a servlet that the servlet is being placed into service. It is called once all the required initialization is complete."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Thread Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method signature is correct for starting a new thread in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public void start()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public void run()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "public void execute()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public void begin()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The start() method of the Thread class is used to begin the execution of a new thread. The run() method defines what the thread will do, but start() is what actually launches the new thread."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variable Initialization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet? \n\nint x;\nSystem.out.println(x);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "compiler error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java will produce a compiler error because local variables must be initialized before use."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a variable in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int num = 10;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int 10 = num;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "num = 10 int;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10 = int num;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, variables are declared by first specifying the type, followed by the variable name and optionally initializing it. Option A follows this rule."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would be best for storing a simple true or false value in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "String"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'boolean' data type is used in Java to store one of two values: true or false."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'super' keyword in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To call a method of the parent class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To declare static variables"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To define constants"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To implement interfaces"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'super' keyword in Java is used to refer to parent class objects and is commonly used to invoke constructors or methods of the parent class."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic File Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to read a line of text from a file in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "readLine()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "read()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "readText()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The readLine() method from BufferedReader class is used to read a line of text from a file in Java."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet?\n\nif (true) {\n    System.out.println(\"Hello, world!\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello, world!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "No output"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "true"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the condition in the if statement is 'true', the code inside the if block will execute, printing 'Hello, world!' to the console."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type would you use to store a simple true or false value in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "boolean"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "string"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the 'boolean' data type is used to store a value that can only be either true or false."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to inherit a class in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "derive"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'extends' keyword is used in Java for a class to inherit the properties and behavior from another class."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Switch Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data types can be used as switch expression in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int, byte, short, char, String"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float, double, long, boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ArrayList, LinkedList, HashMap"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, only the int, byte, short, char, and String data types can be used as expressions in switch statements."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "IDE Setup",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Integrated Development Environment (IDE) is widely used for Java development and supports direct integration with Maven?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IntelliJ IDEA"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Eclipse"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sublime Text"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IntelliJ IDEA is widely recognized for its robust support for Java development, including built-in support for Maven, which simplifies project management and builds processes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Socket Programming",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the method 'getLocalPort()' return when called on a socket instance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The local port the socket is bound to"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The remote port the socket is connected to"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The IP address of the remote machine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The maximum number of allowable connections"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'getLocalPort()' method returns the local port number to which the socket is bound. The local port is the port on the host machine."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Naming Conventions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a recommended practice for naming classes in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start with a lowercase letter and use camelCase."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Start with an underscore followed by an uppercase letter."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Start with an uppercase letter and use CamelCase."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use only lowercase letters."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, it is a best practice to name classes starting with an uppercase letter and follow CamelCase convention."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class is used to create a simple frame in a Java GUI application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JFrame"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JPanel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JButton"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JLabel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JFrame is the class used for creating a window in Java Swing applications where components like panels and buttons can be added."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Default Methods in Interfaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of a default method in a Java interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide a method implementation that can be shared among multiple classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enforce that all classes must override this method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To declare constants used by the interface."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To define static methods only."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Default methods enable developers to add new functionality to interfaces without breaking existing implementation by providing a default implementation that can be shared or overridden by implementing classes."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Lambda Expressions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface must a lambda expression implement if it is taking two integers and returning their difference?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Runnable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Supplier"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BiFunction"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BiFunction takes two arguments and returns a value, which matches the requirement for a lambda taking two integers and returning their difference."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Java Application Packaging",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the standard format for packaging Java web applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WAR"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "EXE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ZIP"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WAR (Web Application Archive) format is used to package Java web applications."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "JUnit Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which annotation is used in JUnit to specify a method that should be executed before each test method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@Before"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@After"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@BeforeEach"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@AfterEach"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The @BeforeEach annotation is used to specify a method that should be executed before each test method in JUnit 5."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "If-Else Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet if the value of 'x' is 10?\n\nif (x > 10) {\n    System.out.println(\"X is greater than 10\");\n} else {\n    System.out.println(\"X is not greater than 10\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "X is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "X is not greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the value of 'x' is equal to 10 and not greater, the condition 'x > 10' evaluates to false, hence the else block is executed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Commenting Code",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Why is it important to include comments in Java code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To make the code run faster."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To change the behavior of the code."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To document what the code is doing and why."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the memory usage of the program."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Comments are crucial for documentation purposes, helping others understand the purpose and functionality of the code, and do not affect the runtime or behavior of the program."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Class Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword is used to define a class in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "className"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "new"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, a class is defined using the lowercase keyword 'class'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Method Overloading",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about method overloading in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Methods must differ in the type and/or number of their parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Methods must differ in their return types."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Methods must have different names."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Methods must belong to different classes."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Method overloading occurs within the same class when two or more methods have the same name but differ in parameters (type or number)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is commonly used to add an event listener to a button in a Java application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "addActionListener()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "addMouseListener()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "addWindowListener()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "addKeyListener()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "addActionListener() is used to add an ActionListener to a button, which triggers an action event when the button is pressed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface in Java is used for listening to button click events?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "KeyListener"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MouseListener"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ActionListener"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WindowListener"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ActionListener is used for handling actions like button clicks. The other interfaces handle different types of events."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Java Application Packaging",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the standard format for packaging Java applications for deployment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JAR file"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "EXE file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ZIP file"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DOC file"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JAR (Java ARchive) file is the standard format used to bundle all components of Java applications for deployment."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "If-Else Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet if the variable x is 10? \nif (x > 10) {\n  System.out.println(\"x is greater than 10\");\n} else {\n  System.out.println(\"x is not greater than 10\");\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is not greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No Output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since x equals 10, the condition x > 10 is false. Therefore, the else block executes, printing 'x is not greater than 10'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "IDE Setup for Java",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Integrated Development Environment (IDE) is widely used for Java application development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Visual Studio Code"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IntelliJ IDEA"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sublime Text"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Notepad++"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IntelliJ IDEA is a popular IDE specifically designed for Java development, offering extensive features and support for the language."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Server Sockets",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to listen for client requests in a ServerSocket?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listen()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "accept()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "receive()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The accept() method of ServerSocket class is used to listen for and accept a connection to the socket."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Handling in Java GUI",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface must a class implement to handle action events in Java GUI applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ActionListener"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MouseListener"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "KeyListener"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WindowListener"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ActionListener is used to receive action events like button clicks. Classes that need to handle these events should implement this interface."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "If Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax for an if statement in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if (condition) { ... }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "if condition { ... }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "if [condition] { ... }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if (condition) [ ... ]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, an if statement must be written with parentheses around the condition, followed by curly braces around the block of code to execute."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Naming Conventions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a recommended practice for naming methods in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start with an uppercase letter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use underscores between words"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use a verb-noun pair"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use special characters like $"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, it is a common practice to use verb-noun pairs for method names to indicate actions and the object they act upon, enhancing readability."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Java Web Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is primarily used for deploying Java applications to a web server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Apache Tomcat"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Java Development Kit"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Java Virtual Machine"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Eclipse IDE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Apache Tomcat is a web server and servlet container that is used to deploy Java applications to a web environment."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is used to execute a block of code multiple times in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for loop"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "if statement"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variable declaration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "method declaration"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A 'for loop' is used in Java to repeat a block of code a specified number of times, making it the correct answer."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "List Interface",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following classes implements the List interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ArrayList"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "HashSet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HashMap"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TreeMap"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ArrayList implements the List interface, allowing for ordered collections that can contain duplicate elements."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Writing to Files",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to write a single character to a FileWriter?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "write()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "print()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "put()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "setChar()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The write() method of FileWriter is used to write a single character or an array of characters to a file."
+      }
+    ]
+  }
+]

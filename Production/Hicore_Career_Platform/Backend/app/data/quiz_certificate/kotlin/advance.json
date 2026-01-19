@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid reason for using structured concurrency in Kotlin coroutines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It automatically propagates cancellation through coroutines"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It ensures that no coroutines are left running accidentally"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It simplifies error handling and debugging"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It increases the execution speed of individual coroutines"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Structured concurrency does not affect the execution speed of individual coroutines, but it helps manage their lifecycle and error handling more effectively."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Declarations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of the following Kotlin code snippet: 'val x: Int = 10; val y: Int = x; y += 5;'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The code will compile successfully and y will be 15."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The code will compile successfully and y will be 10."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The code will not compile because 'y' is declared as a val and cannot be reassigned."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The code will not compile because of an incompatible type error."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'val' defines a read-only variable, meaning its value cannot be changed once assigned. The line 'y += 5' attempts to modify 'y', which is not allowed for 'val' declarations, resulting in a compilation error."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Concurrency in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using coroutines in Kotlin for concurrency, which of the following is a valid reason to choose structured concurrency over traditional approaches?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It automatically runs operations on the main thread."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It provides better error handling and resource management."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the performance of single-threaded operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It simplifies the syntax of the Kotlin code."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Structured concurrency in Kotlin simplifies managing the lifecycle of concurrent operations, ensuring that all launched coroutines complete before moving forward, thus reducing the likelihood of memory leaks and providing better error handling and resource management."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Kotlin Type System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the '!!' operator in Kotlin explicitly assert?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The variable is not null."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The variable may be null."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The variable is definitely null."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The variable is not zero."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '!!' operator in Kotlin is used to explicitly assert that the expression to its left is not null; it throws a NullPointerException if the expression is null."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Kotlin Type System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? 'val a: Int? = null\nval b: Int? = 10\nval c = a ?: b ?: 0'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The elvis operator (?:) returns the first non-null value. Since 'a' is null, it evaluates 'b', which is 10."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Classes and Delegation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a Kotlin program that needs to manage user profiles efficiently with 'data class UserProfile(val id: Int, val name: String)'. How would you implement a delegation pattern to allow a 'UserProfileManager' class to handle updates and retrievals while maintaining immutability of 'UserProfile'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class UserProfileManager { var profiles = mutableListOf<UserProfile>() fun updateProfile(id: Int, newName: String) { profiles.find { it.id == id }?.let { profiles[profiles.indexOf(it)] = it.copy(name = newName) } } }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class UserProfileManager(userProfiles: List<UserProfile>) { private val profiles = userProfiles.toMutableList() fun updateProfile(id: Int, newName: String) { val index = profiles.indexOfFirst { it.id == id } if (index != -1) { profiles[index] = UserProfile(id, newName) } } }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class UserProfileManager : UserProfile { private var profiles = mutableListOf<UserProfile>() override fun updateProfile(id: Int, newName: String) { val profile = profiles.find { it.id == id } profile?.name = newName } }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "class UserProfileManager { private val profiles = mutableListOf<UserProfile>() fun updateProfile(id: Int, newName: String) { val profile = profiles.find { it.id == id } profile?.let { val updatedProfile = it.copy(name = newName) profiles[profiles.indexOf(it)] = updatedProfile } } }"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct as it maintains the immutability of 'UserProfile' by using the 'copy' method provided by data classes in Kotlin. This method creates a new instance with the updated field, which is then replaced in the list, making sure the original data class remains unchanged."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Tail Recursion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Kotlin function:\n\nfun factorial(n: Int, acc: Int = 1): Int {\n    return if (n == 1) acc else factorial(n - 1, n * acc)\n}\n\nWhat is the value of the accumulator (acc) just before the final recursive call in 'factorial(5)'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "24"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "120"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the factorial function using tail recursion, 'acc' accumulates the factorial value. For 'factorial(5)', the calls evolve as factorial(5, 1), factorial(4, 5), factorial(3, 20), and factorial(2, 60). The call right before the last one is factorial(2, 60), where 'acc' is 24 in the prior call 'factorial(3, 20)'. Therefore, in the final recursive call, 'acc' is 120, but just before it, 'acc' was 24."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Inheritance and Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, if you have a 'sealed class Shape' and classes 'Circle', 'Square', and 'Triangle' extending 'Shape', how do you correctly implement a function to check the type of 'Shape' and return its area using smart casts and when expression?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun calculateArea(shape: Shape): Double = when(shape) { is Circle -> Math.PI * shape.radius * shape.radius is Square -> shape.side * shape.side is Triangle -> 0.5 * shape.base * shape.height else -> throw IllegalArgumentException(\"Unknown shape\") }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun calculateArea(shape: Shape): Double = when(shape) { is Circle -> 3.14 * shape.radius ^ 2 is Square -> shape.side ^ 2 is Triangle -> 0.5 * shape.base * shape.height else -> 0 }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun calculateArea(shape: Shape): Double = if(shape is Circle) { Math.PI * shape.radius * shape.radius } else if(shape is Square) { shape.side * shape.side } else if(shape is Triangle) { 0.5 * shape.base * shape.height } else { 0 }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun calculateArea(shape: Shape): Double = when(shape) { shape is Circle -> Math.PI * shape.radius * shape.radius shape is Square -> shape.side * shape.side shape is Triangle -> 0.5 * shape.base * shape.height else -> throw IllegalArgumentException(\"Unknown shape\") }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it uses the 'when' expression with smart casts properly. It checks the type of 'shape' using 'is' keyword and calculates area based on the specific type, adhering to the best practices of Kotlin's type checking and smart casting."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Coroutines and Thread Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Kotlin coroutines in a multi-threaded environment, which Dispatcher is suitable for CPU-intensive tasks and why?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dispatchers.Main due to its ability to interact with the main thread efficiently"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dispatchers.IO for best performance on input/output operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dispatchers.Default, optimized for CPU-intensive work leveraging shared pool of threads"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dispatchers.Unconfined for unrestricted execution on any available thread"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dispatchers.Default is the suitable choice for CPU-intensive tasks in Kotlin coroutines as it uses a shared pool of threads optimized for such operations, helping in efficient resource use and better performance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Higher-Order Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a higher-order function in Kotlin that takes a function as a parameter and returns a function. Which of the following is a correct implementation of a function that takes a predicate and returns a function that applies this predicate to its input?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun <T> applyPredicate(predicate: (T) -> Boolean): (T) -> Boolean = { it -> predicate(it) }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun <T> applyPredicate(predicate: (T) -> Boolean): (T) -> T = { it -> predicate(it) }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun <T> applyPredicate(predicate: (T) -> T): (T) -> Boolean = { it -> predicate(it) }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun <T> applyPredicate(predicate: T): (T) -> Boolean = { predicate }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly shows a higher-order function that takes a predicate as a parameter and returns a function. This function uses the predicate to determine its return value on any given input, adhering to the predicate's signature."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about structured concurrency in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows creation of coroutines without a parent job."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Child coroutines don't have to complete before the parent coroutine finishes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It ensures that all launched child coroutines complete before their parent completes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Structured concurrency can be disabled for specific coroutines."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Structured concurrency ensures that a parent coroutine does not complete until all its child coroutines have completed, hence ensuring proper resource management and avoiding leaks."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Kotlin Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the following Kotlin code snippet? \n\nval x: Short = 10\nval y: Byte = 20\nval z = x + y"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30L"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Type mismatch error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "30.0"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin handles numbers in operations by upgrading to Int if any operand is smaller. Thus, 'x + y' results in 30 of type Int."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if a Kotlin coroutine is launched in GlobalScope and the application finishes before the coroutine completes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The coroutine will complete execution before the application fully stops."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The coroutine will get canceled automatically."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The coroutine will continue to run even after the application has stopped."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The coroutine's behavior is unpredictable and depends on the Android OS version."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Coroutines launched in GlobalScope are not tied to the lifecycle of the application, and they get canceled automatically if the application process is killed."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Kotlin Type-Safety",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? \n\nval numbers: List<Number> = listOf(1, 2, 3)\nval doubles: List<Double> = numbers"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "List containing 1.0, 2.0, 3.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List containing 1, 2, 3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code results in a compilation error because Kotlin enforces type-safety and does not allow implicit casting of a list of Numbers to a list of Doubles."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Higher-Order Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Kotlin function definition: fun applyTwice(f: (Int) -> Int, x: Int) = f(f(x)), what is the result of applyTwice({ it * 3 }, 2)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "18"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "24"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function applyTwice takes a function f and an integer x. It applies f to x (resulting in f(x) = 2*3 = 6), then applies f again to the result (f(6) = 6*3 = 18). Thus, the answer is 18."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kotlin Type System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what does the '!!' operator do, and why should its use be minimized in idiomatic Kotlin code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It safely casts nullable types to non-nullable types, and its use is discouraged because it can lead to runtime exceptions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It increments the value of a variable in a thread-safe manner."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to concatenate strings in an optimized way."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It reverses the boolean value of a variable."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '!!' operator in Kotlin forcefully casts a nullable type to a non-nullable type, throwing a NullPointerException if the type is null. Its use is generally avoided because it negates the safety feature of nullability in Kotlin, leading to potential runtime exceptions."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Kotlin Type Inference",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Kotlin code snippet, what is the type of 'value'? var value = listOf(1, 2.5, \"Kotlin\")"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "List<Any>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "List<Number>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List<Int>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "List<Double>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'listOf' function in Kotlin creates a list of elements with the most specific type that fits all elements, in this case 'Any', which is the super type of Int, Double, and String."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Advanced Android Intents",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, which Intent flag should be used to bring an existing task to the foreground rather than starting a new instance of an activity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FLAG_ACTIVITY_NEW_TASK"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FLAG_ACTIVITY_SINGLE_TOP"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "FLAG_ACTIVITY_CLEAR_TOP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FLAG_ACTIVITY_REORDER_TO_FRONT"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "FLAG_ACTIVITY_REORDER_TO_FRONT brings an existing instance of the called activity to the foreground instead of creating a new one."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Declaration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a nullable variable in Kotlin and initialize it with null?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var variableName: String = null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var variableName: String? = null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var variableName = null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "var variableName: String? = \"null\""
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because in Kotlin, in order to hold a null value, a variable must be explicitly declared as nullable by adding a '?' after the type."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Polymorphism in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following class hierarchy in Kotlin, select the correct output of the code snippet: class Animal { open fun speak() = 'Quiet' } class Cat : Animal() { override fun speak() = 'Meow' } class Dog : Animal() { override fun speak() = 'Woof' } fun printSound(animal: Animal) { println(animal.speak()) } fun main() { val myAnimal: Animal = Dog() printSound(myAnimal) }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quiet"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Meow"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Woof"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The output of the code will be 'Woof' because the 'myAnimal' reference variable is of type 'Animal' but points to an instance of 'Dog'. In Kotlin, due to polymorphism, the actual method invoked is determined at runtime, not compile-time, hence the 'Dog' class's 'speak' method is called."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Kotlin Type-Safety",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? \n\nval list: List<Int> = listOf(1, 2, 3)\nval map: Map<Int, Int> = list.associate { it to it * it }\nprintln(map[4])"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An exception is thrown"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since there is no key '4' in the map generated from the list, Kotlin's map access returns 'null' for non-existing keys."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Android Lifecycle and Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin for Android development, what is the correct order of execution when using LiveData with ViewModel to update the UI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ViewModel updates LiveData -> LiveData notifies Observer -> Observer updates UI"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Observer updates LiveData -> LiveData updates ViewModel -> ViewModel updates UI"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "LiveData updates ViewModel -> ViewModel updates Observer -> Observer updates UI"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ViewModel notifies Observer -> LiveData updates UI -> Observer updates ViewModel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it describes the typical flow for LiveData with ViewModel where the ViewModel updates LiveData, which then notifies its observers to update the UI accordingly."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, why would you use an inline function with reified type parameters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To reduce the runtime overhead associated with function calls"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To allow type-checking and type-casting within the function body at runtime"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To ensure that the function can only be called with non-nullable types"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enable higher-order functions to accept lambda expressions more efficiently"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because reified type parameters in inline functions allow for type operations such as type-checking and type-casting to be performed directly within the function at runtime."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Inheritance and Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a Kotlin program where class Dog inherits class Animal. Both classes have a function named 'speak'. If a method in Animal is marked with 'open' and in Dog with 'override', what happens when the 'speak' method is called on an object of type Dog?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The 'speak' method in Dog is called, overriding the Animal's method."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The 'speak' method in Animal is called, ignoring the override."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A runtime error occurs due to method ambiguity."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both 'speak' methods are called sequentially starting from the base class."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, when a base class method is marked as 'open', it allows derived classes to override it. Thus, calling 'speak' on Dog executes the overridden version in Dog, not the version in Animal."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Higher-Order Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Kotlin code snippet, what will be the output? \n\nfun main() {\n    val numbers = listOf(1, 2, 3, 4)\n    val result = numbers.map { it * 2 }.filter { it > 5 }\n    println(result)\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[6, 8]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[2, 4, 6, 8]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[1, 2, 3, 4]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The map function doubles each element, resulting in [2, 4, 6, 8]. The filter function then removes all elements less than or equal to 5, leaving [6, 8]."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an invalid way of handling exceptions in Kotlin coroutines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using try/catch inside the coroutine block"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a CoroutineExceptionHandler at the GlobalScope level"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using a SupervisorJob combined with CoroutineExceptionHandler"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing a try/catch in the coroutine builder parameter"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is incorrect because you cannot implement a try/catch directly in the coroutine builder parameter; it should be inside the coroutine block or as part of the CoroutineContext."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Function Definitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid Kotlin function to add two numbers and return the sum?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun add(x: Int, y: Int): Int = return x + y"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun add(x: Int, y: Int): Int { return x + y }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function add(x: Int, y: Int): Int = x + y"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun add(x: Int, y: Int) => x + y"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is the correct syntax for defining a function in Kotlin that takes two integers as parameters and returns their sum. The function keyword in Kotlin is 'fun', followed by the function name, parameters (with types), the return type, and the function body enclosed in braces."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Kotlin coroutines, which Dispatcher is best suited for CPU-intensive work that doesn't involve UI updates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dispatchers.Main"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dispatchers.IO"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dispatchers.Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dispatchers.Unconfined"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dispatchers.Default is optimized for CPU-intensive tasks that can be parallelizable and does not involve updating the UI, which makes it the best choice for such scenarios."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Kotlin DSL",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Kotlin DSLs, what is the primary benefit of using 'apply' over 'with' when configuring an object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Apply allows for changing the object's class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "With can execute in a different scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Apply returns the receiver object allowing for chaining."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "With provides stronger type-safety."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'apply' in Kotlin DSLs returns the receiver object, making it ideal for chaining multiple configuration calls on the same object, whereas 'with' returns the result of the last expression and is not suitable for chaining."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Kotlin Type-Safety",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, which feature ensures type safety by enabling smart casts and exhaustive when statements, particularly helping to avoid ClassCastException at runtime?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inline functions"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sealed classes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Companion objects"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sealed classes limit subclassing to only those classes defined in the same file, enabling more predictable and safe type casting and the use of exhaustive when statements."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kotlin Variables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what happens when you try to assign a value of type Int to a variable declared as a Float without explicit type casting?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The code compiles and the variable holds the converted Float value"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The code does not compile"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The code compiles but throws a runtime exception"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The code compiles but the variable value remains unchanged"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, unlike some other languages, implicit conversions are not supported for numbers. The code will not compile without explicit type casting."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What can be a consequence of using an inline function with a lambda that captures a large number of variables in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased memory usage due to multiple copies of variables"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreased execution time always"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax error during compilation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No impact on memory or execution time"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inlining a function that captures many variables can lead to increased memory usage because each call to the inline function creates real copies of these captured variables."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Higher-Order Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the higher-order function 'applyOperation' in Kotlin, which is designed to apply a provided operation on two integers, what would be the result of 'applyOperation(7, 3, { x, y -> x * y - x + y })'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "17"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "24"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "21"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'applyOperation' is called with arguments 7 and 3, and a lambda expression '{ x, y -> x * y - x + y }' which evaluates to (7*3) - 7 + 3 = 21 - 7 + 3 = 17. Thus, the correct answer is 17."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, how can you ensure that a coroutine is cancellable only at specific suspension points within a computation-heavy operation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use yield() function at desired points within the block."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Invoke cancel() on the CoroutineScope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Add the @Cancellable annotation at the start of the function."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use a non-cancellable context with withContext()."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The yield() function is used within the coroutine block to allow cancellation to be checked at those points, making the coroutine cancellable only at those specific suspension points."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Lazy Evaluation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Kotlin sequences, what will be the result of executing the following code snippet? `sequenceOf(1, 2, 3, 4).map { it * it }.filter { it > 10 }.first()`"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "16"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin sequences support lazy evaluation. The `map` function squares each element, resulting in [1, 4, 9, 16]. The `filter` function then excludes all elements less than 10, leaving only [16]. The `first` function returns the first element of the resulting sequence, which is 16."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about inline functions in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inline functions increase the overall size of the compiled code due to code duplication."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inline functions can only be used with functions that have lambda parameters."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inline functions cannot access private members of a class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inline functions are recommended for functions that are called frequently and contain complex logic."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inline functions can lead to increased compiled code size due to the duplication of code each time the function is called, which is a trade-off for eliminating the overhead of function calls."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inline Functions and Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, how does the use of inline functions impact the generated bytecode compared to traditional function calls, particularly in the context of higher-order functions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reduces bytecode size by not generating function objects for lambdas"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increases bytecode size due to duplication of code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Has no impact on bytecode size but improves runtime performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases performance due to increased compilation time"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inline functions in Kotlin help reduce the bytecode size, particularly when using higher-order functions by inlining the lambda expressions directly into the call sites, thus avoiding the overhead of creating function objects."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Kotlin Function Definitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? fun calculate(x: Int, y: Int = 2, z: Int): Int = x + y + z\nprintln(calculate(z = 4, x = 3))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Runtime Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code results in a compilation error because the parameter 'y' is defined with a default value and placed before the parameter 'z' which does not have a default value. Kotlin requires that all parameters with default values be placed at the end of the parameter list."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, if you need to launch a coroutine that is confined to the dispatcher associated with the UI thread, which dispatcher would you use?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dispatchers.Main"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dispatchers.IO"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dispatchers.Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dispatchers.Unconfined"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dispatchers.Main is used for coroutines that interact with the UI and perform quick updates in response to user actions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encapsulation and Access Modifiers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, if a class has a member variable declared as 'private', and you try to access it from an instance of a derived class, what is the result?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The variable is accessible as it is inherited by the derived class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A compilation error occurs due to visibility restrictions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The variable is accessible after a type cast to the base class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The derived class can access the variable through a public or protected getter method, if available."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, a 'private' modifier restricts the visibility to within the class itself. Therefore, attempting to access such a variable directly from a derived class leads to a compilation error."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Interface Implementation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Kotlin interface and class implementation:\n\ninterface Driveable {\n  fun accelerate(): String\n}\n\nclass Car : Driveable {\n  override fun accelerate() = \"Speeding up!\"\n}\n\nfun main() {\n  val myCar: Driveable = Car()\n  println(myCar.accelerate())\n}\n\nWhat will be the output of the main function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "\"Speeding up!\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "\"Accelerating\""
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No Output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Car class correctly implements the Driveable interface and overrides the accelerate method to return 'Speeding up!'. When myCar.accelerate() is called on a Car instance, it will correctly output \"Speeding up!\"."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Kotlin Null Safety",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Kotlin code return? val data: Int? = null\nval result = data?.let { it * 2 } ?: \"No data\""
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "\"No data\""
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'let' function will not execute because 'data' is null, and the Elvis operator ?: will return \"No data\" as the alternative."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about Kotlin's structured concurrency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It doesn't enforce any parent-child relationship in coroutines."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Child coroutines do not have their own scope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Failure in a child coroutine may not necessarily affect its parent."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cancellation of the parent coroutine immediately propagates to all its children."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In structured concurrency, when a parent coroutine is cancelled, all its children are immediately cancelled as well, ensuring a predictable cleanup."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin for Android, which CoroutineDispatcher is best suited for performing CPU-intensive tasks that should be limited to a small, fixed number of threads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dispatchers.Main"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dispatchers.IO"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dispatchers.Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dispatchers.Unconfined"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dispatchers.Default is optimized for CPU-intensive tasks and maintains a small number of threads for maximum efficiency."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Delegation in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement correctly defines the use of the 'by' keyword for property delegation in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows a property to be initialized by a specific setter method."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It designates a class as delegating all its public members to a specified object."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to delegate the getter and setter responsibilities of a property to a delegate object."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is used to force the compiler to inline functions marked with this keyword."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'by' keyword is used for property delegation, where the getter and setter responsibilities of a property can be delegated to a different object, known as the delegate. This allows for separating the property storage and behaviors."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements are true about the structured concurrency in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Child coroutines do not have to complete before the parent coroutine."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A parent coroutine always waits for all of its child coroutines to complete before it completes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Structured concurrency can be bypassed by launching a GlobalScope coroutine."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Coroutines launched in GlobalScope are automatically structured."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In structured concurrency, a parent coroutine always waits for all of its child coroutines to complete before it completes. This ensures proper resource management and avoids leaks."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Tail Recursion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a tail-recursive Kotlin function that calculates the factorial of a number. If the function is called with a large number, such as 10000, which of the following is a likely consequence considering Kotlin's handling of tail recursion?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stack overflow error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function executes successfully without error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function returns a wrong result due to integer overflow"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime exception due to long execution time"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin supports tail recursion optimization through the tailrec modifier. This optimization converts the recursion into a loop, preventing a stack overflow error. Therefore, the function executes successfully without a stack overflow error."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Delegation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, when using the 'by' keyword for property delegation, which of the following is a necessary condition for the delegate class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It must override the equals() method."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It must provide implementations for getValue() and setValue() methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It must implement the Cloneable interface."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It must be a data class."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For a class to be used as a delegate in property delegation with the 'by' keyword, it must provide implementations of getValue() and setValue() methods, which are called when the property is read and written, respectively."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kotlin DSL",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a DSL in Kotlin, what is the primary reason for using lambda with receiver function types?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a more concise and readable code structure."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the execution speed of functions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the security features of the DSL."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To facilitate asynchronous programming."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda with receiver function types are used in DSLs to create a domain-specific language that is more concise and readable, allowing the developer to use the 'this' context implicitly."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin coroutines, what is the primary reason to prefer 'suspendCancellableCoroutine' over 'suspendCoroutine'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It supports structured concurrency"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can be cancelled, allowing better resource management"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It has a simpler syntax"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It performs faster in high-load systems"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'suspendCancellableCoroutine' allows the coroutine to be cancellable, which is crucial for freeing up resources and preventing potential memory leaks in asynchronous programming."
+      }
+    ]
+  }
+]

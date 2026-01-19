@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 3,
+    "topic": "FileSystem Module",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the Node.js FileSystem module is used to read the contents of a directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readdir()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.writeFileSync()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.appendFile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The fs.readdir() method is specifically used for reading the contents of a directory."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Load Balancing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of a load balancer in Node.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To distribute incoming network traffic across multiple servers"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the storage capacity of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To compile Node.js code into machine language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To monitor the performance of the application only"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A load balancer helps to distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, thereby increasing the availability and reliability of the application."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Middleware in Express.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to mount middleware functions at a specific path in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.use()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.run()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.mount()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.middleware()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "app.use() is used to mount middleware functions at a specific path; this is the function where middleware can be specified to run during the lifecycle of a request."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scaling Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which scaling strategy increases the number of instances of the Node.js application to handle more load?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Vertical Scaling"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Horizontal Scaling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Diagonal Scaling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Linear Scaling"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Horizontal scaling involves adding more instances of the application across different machines or processes to handle increased load, which is a common approach for Node.js applications."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "NPM Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the command 'npm init'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To update a package"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To uninstall a package"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To initialize a new Node.js project"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To list installed packages"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'npm init' command is used to create a new package.json file in the root of a Node.js project, initializing a new project."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Node.js Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which object is used to handle file operations in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "URL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "path"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'fs' module in Node.js is used to perform file operations like reading and writing files."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Node.js Packages",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default package manager for Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Yarn"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NPM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "NodePack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bower"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NPM is the default package manager for Node.js, used for installing libraries and packages."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Mongoose Schema",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Mongoose, what is used to define the structure of a MongoDB document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Document Template"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Schema"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Blueprint"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Model Outline"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A 'Schema' in Mongoose is used to define the structure of a MongoDB document, including the types and properties of each field."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Loop Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the event loop in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A mechanism that handles synchronous tasks only."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A process that continually checks if the call stack is empty to run asynchronous callbacks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A feature that stops all execution until asynchronous code is completed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A type of API provided by Node.js for networking."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The event loop in Node.js checks if the call stack is empty and then runs asynchronous callbacks, allowing non-blocking operations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Installing Node.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to check if Node.js is installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node --version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm -v"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm --check"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node -v' outputs the version of Node.js installed, verifying its presence on your system."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Load Balancing in Node.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Node.js module is primarily used for load balancing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Express"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cluster"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Async"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PM2"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Cluster module allows you to easily create child processes that all share server ports, aiding in load balancing."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "NPM Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary function of the 'npm init' command?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To remove a package"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To update all packages"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a new package.json file"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To install all dependencies"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'npm init' command is used to create a new package.json file in your project directory."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Installing Node.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify if Node.js is installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node install"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "install node"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "verify node"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node -v' displays the current version of Node.js installed, verifying its presence."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Node.js Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is Node.js primarily used for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Front-end development"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Back-end development"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Graphic design"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "3D modeling"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Node.js is primarily used for back-end development, allowing JavaScript to be run server-side."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Load Balancing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is commonly used to achieve load balancing in Node.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round-robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Square filling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Linear distribution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Random allocation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Round-robin is a commonly used method for load balancing in Node.js as it distributes incoming requests evenly among available servers."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js File System Module",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the File System module is used to read the contents of a file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.writeFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.appendFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.readURL()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.readFile() is the correct method to asynchronously read the entire contents of a file."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic MongoDB Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to find one document in a MongoDB collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "findOne()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "findSingle()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "searchOne()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getOne()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The findOne() method is used to find the first document that matches the query."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Node Package Manager (NPM)",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the command to install a Node.js package globally using NPM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm install -g <package-name>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm install <package-name>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "node install <package-name>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm global <package-name>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'npm install -g <package-name>' command is used to install packages globally so they can be used in any project."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Version Management",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Node.js version manager allows you to install, manage, and switch between multiple versions of Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Node"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NVM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "NodeSwitch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "NodeManage"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NVM (Node Version Manager) is the correct tool that allows you to install, manage, and switch between multiple versions of Node.js easily."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event-Driven Architecture",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which core module in Node.js is used to facilitate event-driven programming?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Events"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Querystring"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Events' module, including the EventEmitter class, is used in Node.js to handle events and facilitate event-driven programming."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method would you use to handle a GET request in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.get()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.post()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.put()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.delete()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "app.get() is used to handle GET requests in Express.js, allowing the server to read data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Node.js Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an advantage of using Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "High performance due to non-blocking I/O operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Built-in support for multithreading"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Focus on object-relational mapping"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Strong data typing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Node.js provides high performance for I/O-heavy applications due to its non-blocking, event-driven architecture."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Node.js Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which built-in module is used in Node.js to serve HTTP requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "http"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "path"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "querystring"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'http' module in Node.js is specifically used to handle HTTP requests and responses."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Node.js Modules",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which built-in module is used in Node.js to serve HTTP requests?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "http"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "url"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "querystring"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'http' module in Node.js provides the functionality to create HTTP server."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Load Balancing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing technique can be used to distribute client requests across multiple Node.js instances?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Random Selection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sequential Allocation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Static Allocation"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Round Robin is a common technique used for distributing incoming requests evenly to a pool of servers in a cyclic manner, making it suitable for Node.js applications."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "NPM Essentials",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command is used to install a new Node.js package using npm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm install <package-name>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm update <package-name>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm delete <package-name>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm start <package-name>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'npm install <package-name>' is used to add new packages to your Node.js project."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Using npm",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does 'npm' stand for in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Node Package Manager"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Network Protocol Module"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Node Protocol Manager"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "New Programming Module"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "npm stands for Node Package Manager, which manages packages and modules for Node.js."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basics of Asynchronous Programming",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of Node.js's asynchronous programming model?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To make use of multi-threading"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To handle multiple requests simultaneously without waiting for tasks to complete"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase memory usage efficiency"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To compile JavaScript into machine code"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Node.js's asynchronous programming model allows handling multiple requests simultaneously, enabling non-blocking I/O operations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Mongoose Schema",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Mongoose, what is used to define the shape and content of documents within a collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Schema"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Model"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Structure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Blueprint"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Schema in Mongoose is used to define the structure of the document, including the possible fields, types, and constraints."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Installing Node.js",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to verify that Node.js is installed on your machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "node -v"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "node version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm -v"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm version"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'node -v' prints the version of Node.js installed, verifying its presence on your system."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Event Loop",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what does the event loop primarily handle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only synchronous tasks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only asynchronous tasks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both synchronous and asynchronous tasks"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Memory allocation and garbage collection"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Node.js, the event loop is designed to handle asynchronous tasks only. It allows Node.js to perform non-blocking I/O operations, despite JavaScript being single-threaded. Synchronous tasks are handled directly by the system without going through the event loop."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Middleware in Express.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'next' function in Express.js middleware?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To terminate the request-response cycle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass control to the next middleware function in the stack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To throw an error in the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reboot the server"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'next' function in Express.js middleware is used to pass control to the next middleware function in the stack. It is essential for maintaining the middleware chain."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Loop in Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the role of the Event Loop in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Handling asynchronous operations only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executing synchronous and asynchronous code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Managing all operations, both in the call stack and in the Node.js API"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Facilitating event-driven programming by looping through event queues"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Event Loop in Node.js facilitates event-driven programming by continuously looping through different event queues and executing callbacks associated with events. This allows Node.js to perform non-blocking I/O operations despite JavaScript being single-threaded."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MongoDB Indexing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a direct benefit of indexing in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased write performance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduced response time for queries"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Efficient execution of queries"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Effective use of RAM for query data"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexing primarily enhances reading speed and query performance, but it can actually decrease write performance since each write operation also has to update the indexes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js Event Loop",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the Node.js event loop primarily handle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "I/O operations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CPU-intensive computations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Memory allocation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Network configuration"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Node.js event loop is designed to handle asynchronous I/O operations and offloads more CPU-intensive tasks to separate threads."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Promises in Node.js",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Node.js code snippet if the 'resolve' function is called with an argument of '42'?"
+      },
+      {
+        "type": "formula",
+        "value": "Promise.resolve().then(() => 42).then((x) => x * 2)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "84"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error is thrown"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The promise initially resolves to undefined, but the first then() turns it into 42. The second then() receives 42, multiplies it by 2, and returns 84."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Promises and Async/Await",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Node.js code snippet if the promise resolves to 'Node.js'?"
+      },
+      {
+        "type": "text",
+        "value": "async function getNode() { return await Promise.resolve('Node.js'); } console.log(getNode());"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[object Promise]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'Node.js'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Promise { 'Node.js' }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function getNode() returns a promise. Although it uses await internally, the function itself is async and thus returns a promise. The console.log prints '[object Promise]' because it logs the promise object itself, not the resolution of the promise."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Loop and Timers",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Node.js code. What will be the order of output?"
+      },
+      {
+        "type": "text",
+        "value": "console.log('Start'); setTimeout(() => console.log('Timer'), 0); process.nextTick(() => console.log('Next Tick')); console.log('End');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Start, End, Timer, Next Tick"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Start, Timer, Next Tick, End"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Start, Next Tick, End, Timer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Start, End, Next Tick, Timer"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The event loop handles all asynchronous callbacks. 'process.nextTick()' has a higher priority and gets executed right after the current operation completes, even before 'setTimeout' and other I/O operations. Thus, the correct order is Start, End, Next Tick, followed by Timer."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Node.js Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which module in Node.js is used to create a web server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HTTP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "URL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "FS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Querystring"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The HTTP module in Node.js is used for creating web servers that can listen to client requests on a given port."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event Loop and Call Stack",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what does the event loop primarily handle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only synchronous tasks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only asynchronous I/O operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both synchronous and asynchronous tasks"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It does not handle tasks, only events"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The event loop in Node.js is designed to handle asynchronous I/O operations, delegating synchronous tasks to the call stack."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Node.js Version Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool enables the use of multiple Node.js versions on a single system without affecting globally installed packages specific to each version?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NVM (Node Version Manager)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Node Package Manager"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Babel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NVM allows you to run multiple versions of Node.js concurrently on the same machine, each with its own set of global packages, thereby avoiding version conflicts."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Environment Variables in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to set and use environment variables securely in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Storing variables in a .env file and accessing via process.env"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Storing variables directly in the code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hard-coding variables in a JSON file"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using global variables"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Storing sensitive variables in a .env file and accessing them through process.env is a secure method as it keeps the data out of source control."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scaling Node.js Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Node.js application, which tool is primarily used to ensure that the application can automatically scale across multiple servers and manage the instances efficiently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PM2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Nodemon"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Babel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PM2 is a process manager for Node.js applications with a built-in load balancer. It helps in deploying applications across multiple servers and managing them, which is crucial for effective scaling."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Loop and Non-blocking I/O",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of blocking the Node.js event loop with CPU-intensive operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance by utilizing multiple CPU cores"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Causes an increase in the memory usage of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Leads to delays in processing I/O operations, degrading application responsiveness"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Has no significant impact as Node.js automatically manages CPU-intensive tasks"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Blocking the event loop in Node.js with CPU-intensive tasks prevents it from handling other asynchronous non-blocking operations, leading to delays in I/O operations and affecting the responsiveness of the application."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a custom middleware in Express.js that logs the method of the request, what property of the request object is accessed to retrieve this information?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "req.method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "req.type"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "req.data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "req.info"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Express.js, the request object 'req' has a property called 'method' which contains the HTTP method of the request. Accessing this property as 'req.method' provides the method used in the HTTP request, making option A correct."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Loop and Non-blocking I/O",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what will be the order of execution for the following code snippet? console.log('1'); setTimeout(() => console.log('2'), 1000); setImmediate(() => console.log('3')); process.nextTick(() => console.log('4')); console.log('5');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1, 5, 4, 3, 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 5, 4, 2, 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1, 4, 5, 3, 2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 4, 5, 2, 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "First, synchronous logs are executed. 'process.nextTick()' callbacks are executed after the current operation completes, so '4' comes after '1' and '5'. 'setImmediate()' is executed in the next iteration of the event loop, and 'setTimeout()' is executed after the specified delay."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "File System Module",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, which method in the fs module should be used to efficiently read a file without consuming excessive memory for large files?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.read()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.createReadStream()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.writeFileSync()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.createReadStream() is the correct method for reading large files in a memory-efficient manner, as it reads data in chunks, rather than loading the entire file into memory at once."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Implementing Event Emitters in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of these is NOT a common use case for using Event Emitters in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Handling HTTP request events"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Facilitating real-time data updates in websockets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Executing synchronous file reading operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Managing custom logging events"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Event Emitters are typically used for handling asynchronous operations. Synchronous file reading does not require and does not benefit from Event Emitters, which are designed for non-blocking, event-driven operations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Handling Race Conditions in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, if two async functions are accessing and modifying the same resource simultaneously, which technique can be effectively used to prevent race conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the async.waterfall method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implementing mutex locks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilizing the Event Emitter pattern"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Applying the singleton pattern"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Mutex locks help manage race conditions by ensuring that only one async function can access the resource at a time, preventing simultaneous modifications."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Node.js Core Modules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which core Node.js module method is used to monitor changes in the file system but does not work recursively for all operating systems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fs.watch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fs.watchFile()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fs.readFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fs.createReadStream()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "fs.watch() is used to monitor changes in the file system. However, it does not support recursive watching in all operating systems, such as Linux."
+      }
+    ]
+  }
+]

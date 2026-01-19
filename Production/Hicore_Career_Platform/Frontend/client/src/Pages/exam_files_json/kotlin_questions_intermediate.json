@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 10,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used in Kotlin to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, a class must be marked with the 'open' keyword to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Class and Objects",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what keyword is used to create a new object of a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "new"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "object"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "create"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'object' keyword is used to create a new singleton object of a class directly."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that can be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var myVariable = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val myVariable = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "variable myVariable = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const myVariable = 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables, which means the variable can be reassigned after its initial declaration."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inline Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using an inline function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance by eliminating the cost of function call overhead."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Allows for functions to be called with dynamic names."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Permits the function to return multiple values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically converts the function to an abstract class."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inline functions in Kotlin are primarily used to improve performance by inlining the function at the call site, hence eliminating the cost of function call overhead."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used in Kotlin to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, a class must be declared as 'open' to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Type System",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the type of the variable 'val age = 30' in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Double"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Int"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "String"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Float"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin infers the type 'Int' for 'age' since 30 is an integer literal."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to Kotlin",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary construct for creating an immutable list in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listOf()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mutableListOf()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "arrayOf()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "immutableListOf()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function listOf() is used in Kotlin to create an immutable list where elements cannot be added or removed post-creation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is true about higher-order functions in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They cannot accept functions as parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They can return functions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They can only modify global variables."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are only available in Kotlin, not in other programming languages."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Higher-order functions in Kotlin can both accept functions as parameters and return functions, making option B correct."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Higher-Order Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a valid higher-order function in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun modifyString(str: String, operation: (String) -> String): String = operation(str)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun modifyString(str: String, operation: String): String = operation(str)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fun modifyString(operation: (String) -> String): String = operation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun modifyString(str: String): (String) -> String = str"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A higher-order function takes one or more functions as parameters or returns a function. Option A correctly defines a higher-order function where 'operation' is a function that takes a String and returns a String."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Immutable Collections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a type of immutable collection in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ArrayList"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LinkedList"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "listOf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mutableListOf"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'listOf' creates an immutable list, whereas 'ArrayList', 'LinkedList', and 'mutableListOf' provide mutable collections."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Inline Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of declaring a Kotlin function as 'inline'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases the compilation time."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduces memory usage by avoiding object creation during function calls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Allows the function to access private members of the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatically makes the function thread-safe."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary benefit of an inline function is that it helps to reduce memory overhead by avoiding object creation for each function call, especially in the case of higher-order functions where lambda expressions are involved."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "High Order Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet if the input is 5? \n\nfun main() {\n    println(transform(5, { it * 2 }))\n}\n\nfun transform(number: Int, operation: (Int) -> Int): Int {\n    return operation(number)\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "25"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function transform takes a number and a function as parameters. It applies the function to the number. Here, the function doubles the input (it * 2), hence the output is 10 when input is 5."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Kotlin Setup",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to start a Kotlin console application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "main()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "start()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "run()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "init()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'main()' function is the entry point of a console application. It is where the execution of the program begins."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Higher-Order Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Kotlin code snippet achieve? val result = listOf(1, 2, 3, 4).map { it * 2 }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Duplicates each element in the list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Multiplies each element in the list by 2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Squares each element in the list"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reduces the list by summing elements"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'map' function applies the given lambda function (it * 2) to each element in the list, resulting in each element being multiplied by 2."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Classes in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about data classes in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data classes cannot have secondary constructors."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data classes can contain only properties."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "All properties in a data class must be var."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data classes automatically generate equals(), hashCode(), and toString() methods."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, data classes automatically generate equals(), hashCode(), and toString() methods among others, which are useful for storing pure data without having to write boilerplate code."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kotlin Variable Declaration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "How do you correctly declare a mutable variable of type Int in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val number: Int = 5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "var number: Int = 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int number = 5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Int number = 5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables which allows their values to be changed. 'val' is used for immutable variables."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Collections",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid way to instantiate an immutable list in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listOf(1, 2, 3)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mutableListOf(1, 2, 3)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "arrayListOf(1, 2, 3)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "immutableListOf(1, 2, 3)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'listOf' is used to create an immutable list, 'mutableListOf' and 'arrayListOf' create mutable lists. However, there is no function called 'immutableListOf' to create lists, making option D incorrect."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kotlin Coroutines",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to mark a suspending function in Kotlin Coroutines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "suspendCoroutine"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "suspend"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "launch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "async"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'suspendCoroutine' function is used to mark a function as suspending, allowing it to be paused and resumed at a later time."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Coroutines",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about Kotlin's coroutine scope?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GlobalScope is recommended for long-running operations and application-wide coroutines."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CoroutineScope should be created using Job() only."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A CoroutineScope does not propagate its cancellation status to its children."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CoroutineScope can be cancelled, which will cancel all coroutines launched in this scope."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CoroutineScope can indeed be cancelled, leading to the cancellation of all coroutines that were launched within that scope. This is a core feature for managing the lifecycle of coroutines efficiently."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Function Declaration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to define a function in Kotlin that takes a String parameter and returns an Int?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "fun calculate(input: String): Int { ... }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "function calculate(String input): Int { ... }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def calculate(input: String) -> Int { ... }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "fun calculate(input: Int): String { ... }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, functions are defined using the 'fun' keyword, followed by the function name, parameters in parentheses, and the return type after a colon."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Classes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a characteristic of data classes in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They can inherit from other classes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They cannot contain any methods"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They are automatically provided with getter and setter methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They must contain at least one primary constructor"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin automatically provides getter and setter methods for properties defined in the primary constructor of data classes."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Kotlin Functions and Coroutines",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to define a suspend function in Kotlin that returns an integer?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "suspend fun calculateResult(): Int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "fun suspend calculateResult(): Int"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "function suspend calculateResult(): Int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "suspend calculateResult(): Int"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the correct syntax for defining a suspend function is to place the 'suspend' modifier before the function keyword and the function name, followed by its return type."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Coroutines",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the function of 'suspend' keyword in Kotlin coroutines?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It makes the function block until it completes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It pauses the function execution and resumes it later without blocking."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It converts a normal function into a high-performance function."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It immediately terminates the function."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'suspend' keyword is used to pause the execution of the current coroutine, saving all local variables, without blocking the underlying thread."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Higher-Order Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Kotlin code snippet if the input is 6?\n\nfun modifyNumber(n: Int, operation: (Int) -> Int): Int = operation(n)\n\nfun main() {\n    val result = modifyNumber(6) { it * 2 }\n    println(result)\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "36"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "18"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function modifyNumber takes an integer and a function as arguments. The function passed multiplies the input by 2. Therefore, passing 6 results in 6 * 2 = 12."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Classes in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary feature of data classes in Kotlin that differentiates them from regular classes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Automatic creation of getter and setter methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implicit override of hashCode and equals methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "All properties must be mutable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They cannot implement interfaces."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data classes in Kotlin automatically provide implementations of hashCode and equals, which use all the properties declared in the primary constructor to calculate equality. This is a key feature that differentiates them from regular classes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Class Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what keyword is used to inherit a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "super"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'open' keyword is used on a class to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Inheritance in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about superclass constructors in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They must always be empty."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are called using the keyword 'super'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They can be called using the keyword 'this'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They are automatically called without any specific keyword."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, superclass constructors are called using the keyword 'super'. This must be done explicitly in the subclass constructor if the superclass does not have a no-argument constructor."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Kotlin Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? \n\nfun main() {\n    val numbers = listOf(1, 2, 3)\n    val doubled = numbers.map { it * 2 }\n    println(doubled)\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 2, 3]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[2, 4, 6]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[3, 6, 9]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'map' function is used to transform the original list by applying the given lambda function to each element. In this case, each number is doubled."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Declarations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a mutable variable of type Int in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var count: Int = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val count: Int = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "int count = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Int var count = 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'var' is used for declaring mutable variables, which means the value can be changed. 'Int' specifies the type, and '10' initializes the variable."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types and Variables",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default data type of a floating point number in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Float"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Double"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Int"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Long"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, if you initialize a floating point number without specifying the type, it defaults to Double."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Kotlin Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in Kotlin that cannot be reassigned?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "var variableName: Int = 10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int variableName = 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "val variableName: Int = 10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "const variableName: Int = 10"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, 'val' is used to declare a read-only variable, meaning it cannot be reassigned once initialized."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Binding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to set up data binding in an Android activity using Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "val binding = setContentView<ActivityMainBinding>(R.layout.activity_main)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "val binding = BindingUtil.setContentView(this, R.layout.activity_main)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "val binding = LayoutInflater.inflate(R.layout.activity_main)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because DataBindingUtil.setContentView is used in Android with Kotlin to set up data binding for an activity layout."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, what does the '!!' operator signify when applied to a variable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It converts any value to a non-nullable type and throws an exception if the value is null."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It increments the value by one."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is a form of safe cast that safely casts to the specified type."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It denotes an infinite loop."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '!!' operator in Kotlin is used to explicitly assert that an expression, typically a variable, is not null, converting any value to a non-nullable type and throwing an exception if the value is null. This is used when the developer is sure that an object is not null."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Classes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary feature of data classes in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They cannot hold state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They automatically provide getter methods"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They automatically provide copy, equals, and hashCode methods"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They support multiple inheritance"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Data classes in Kotlin automatically provide implementations for methods like copy, equals, and hashCode which are essential for classes that are used to hold data."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Flow",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a looping construct in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "while"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "do-while"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'for', 'while', and 'do-while' are valid looping constructs in Kotlin. There is no 'loop' construct."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inheritance in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, which keyword is used to inherit a class or interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin, the 'open' keyword is used before a class to allow it to be inherited by other classes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Lifecycle of Android Activities",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Kotlin method corresponds to the point when an Android activity becomes visible to the user?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "onStart()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "onResume()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "onCreate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "onPause()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "onStart() is called when the activity becomes visible to the user, right before it starts interacting with the user."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "High-Order Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Kotlin code snippet? fun calculate(x: Int, y: Int, operation: (Int, Int) -> Int): Int { return operation(x, y) } fun sum(x: Int, y: Int) = x + y fun main() { val result = calculate(2, 3, ::sum) println(result) }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'calculate' takes another function as a parameter and applies it to x and y. The '::sum' refers to a function that adds two numbers, hence 2 + 3 equals 5."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to start a coroutine in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "launch()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "run()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "call()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "execute()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "launch() is part of Kotlin's coroutines library used to start a new coroutine."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using suspend functions within coroutines for network operations in Android development?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They block the main thread to ensure data consistency."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They execute in parallel by default."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They allow for non-blocking execution and can be paused and resumed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They automatically handle exceptions within the coroutine."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Suspend functions allow for non-blocking execution within coroutines, enabling them to be paused and resumed, which is useful for performing long-running tasks such as network operations without blocking the main thread."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Inline Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, why would you use an inline function with reified type parameters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To reduce the runtime overhead associated with function calls"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To allow type-checking and type-casting within the function body at runtime"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To ensure that the function can only be called with non-nullable types"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enable higher-order functions to accept lambda expressions more efficiently"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because reified type parameters in inline functions allow for type operations such as type-checking and type-casting to be performed directly within the function at runtime."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Kotlin coroutines, which Dispatcher is best suited for CPU-intensive work that doesn't involve UI updates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dispatchers.Main"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dispatchers.IO"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Dispatchers.Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dispatchers.Unconfined"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dispatchers.Default is optimized for CPU-intensive tasks that can be parallelizable and does not involve updating the UI, which makes it the best choice for such scenarios."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What would be the result of running the following Kotlin coroutine code snippet if 'functionThatThrowsException()' throws an IOException? 'GlobalScope.launch { try { functionThatThrowsException() } catch (e: IOException) { println(\"Caught IOException\") } finally { println(\"Finally block\") } }'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program prints 'Caught IOException' followed by 'Finally block' and continues execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program only prints 'Finally block'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program prints 'Caught IOException' and then the program crashes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The program prints nothing as the exception is not properly handled within the coroutine scope."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kotlin coroutines, exceptions are caught just like in regular code. The IOException is caught, handled, and the finally block executes afterwards, continuing normal execution."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Kotlin DSL",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a DSL in Kotlin, what is the primary reason for using lambda with receiver function types?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To create a more concise and readable code structure."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the execution speed of functions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the security features of the DSL."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To facilitate asynchronous programming."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Lambda with receiver function types are used in DSLs to create a domain-specific language that is more concise and readable, allowing the developer to use the 'this' context implicitly."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Polymorphism in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following class hierarchy in Kotlin, select the correct output of the code snippet: class Animal { open fun speak() = 'Quiet' } class Cat : Animal() { override fun speak() = 'Meow' } class Dog : Animal() { override fun speak() = 'Woof' } fun printSound(animal: Animal) { println(animal.speak()) } fun main() { val myAnimal: Animal = Dog() printSound(myAnimal) }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quiet"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Meow"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Woof"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The output of the code will be 'Woof' because the 'myAnimal' reference variable is of type 'Animal' but points to an instance of 'Dog'. In Kotlin, due to polymorphism, the actual method invoked is determined at runtime, not compile-time, hence the 'Dog' class's 'speak' method is called."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Tail Recursion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a tail-recursive Kotlin function that calculates the factorial of a number. If the function is called with a large number, such as 10000, which of the following is a likely consequence considering Kotlin's handling of tail recursion?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stack overflow error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function executes successfully without error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function returns a wrong result due to integer overflow"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime exception due to long execution time"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Kotlin supports tail recursion optimization through the tailrec modifier. This optimization converts the recursion into a loop, preventing a stack overflow error. Therefore, the function executes successfully without a stack overflow error."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Coroutines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin coroutines, what is the primary reason to prefer 'suspendCancellableCoroutine' over 'suspendCoroutine'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It supports structured concurrency"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can be cancelled, allowing better resource management"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It has a simpler syntax"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It performs faster in high-load systems"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'suspendCancellableCoroutine' allows the coroutine to be cancellable, which is crucial for freeing up resources and preventing potential memory leaks in asynchronous programming."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Kotlin Type-Safety",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Kotlin, which feature ensures type safety by enabling smart casts and exhaustive when statements, particularly helping to avoid ClassCastException at runtime?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inline functions"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sealed classes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Companion objects"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Sealed classes limit subclassing to only those classes defined in the same file, enabling more predictable and safe type casting and the use of exhaustive when statements."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Coroutines in Kotlin",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What happens if you use .launch in a coroutine without specifying a Dispatcher in Kotlin?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It defaults to Dispatcher.Main"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It defaults to Dispatcher.IO"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It defaults to Dispatcher.Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The code will not compile"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If you do not specify a Dispatcher, .launch uses the Dispatcher.Default which is optimized for CPU-intensive work."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Kotlin Type System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Kotlin code snippet? 'val a: Int? = null\nval b: Int? = 10\nval c = a ?: b ?: 0'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compilation Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The elvis operator (?:) returns the first non-null value. Since 'a' is null, it evaluates 'b', which is 10."
+      }
+    ]
+  }
+]

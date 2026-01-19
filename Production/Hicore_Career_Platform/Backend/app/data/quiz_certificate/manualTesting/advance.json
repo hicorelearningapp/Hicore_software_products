@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "topic": "Severity vs Priority",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios best illustrates a situation where the defect severity is high, but the priority to fix it might be low?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A typo in the main logo of an e-commerce website"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A broken link in a rarely used internal reporting tool"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A security vulnerability in a feature under development not yet in production"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A frequent app crash during peak usage hours"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because the security vulnerability could lead to severe consequences if exploited, but since the feature is not yet in production, the immediate priority to fix it could be lower compared to issues affecting current users."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an input domain for a password validation system ranging from 5 to 15 characters inclusive, using Equivalence Partitioning, how many valid partitions should be considered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "One"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Three"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Four"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The valid partitions are two: one for the range 5-15 characters, and another for invalid inputs outside this range (less than 5 or more than 15 characters)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Continuous Improvement in QA",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a primary principle of Total Quality Management (TQM) that directly involves iterative testing and feedback loops to improve product quality?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Benchmarking"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employee Empowerment"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Continuous Improvement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Customer Focus"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Continuous Improvement, or Kaizen, is a TQM principle emphasizing iterative improvements through repeated testing and feedback, making it the correct choice."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Statistical Process Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a manufacturing process, if a control chart shows eight consecutive points on one side of the mean, what is the most likely implication?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The process is under control"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "There is a possible shift in the process"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The equipment needs immediate replacement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Random variation is detected"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to the rules of statistical process control, eight consecutive points on one side of the mean suggest a non-random pattern, indicating a possible shift in the process."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Test Suite Maintenance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which strategy is most effective for managing a test suite when the software undergoes frequent and diverse changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increasing the size of the test suite exponentially with each software update"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a static test suite without modifications"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Regularly pruning and updating the test suite to align with changes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Conducting only manual testing to adapt faster"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Regular pruning and updating of the test suite ensure that the tests remain relevant and effective, reflecting changes in the software while removing obsolete or redundant tests, thus maintaining efficiency and coverage."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Statistical Process Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of quality assurance, which statistical tool would be most appropriate for analyzing the stability of manufacturing processes over time?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fishbone Diagram"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Control Chart"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Histogram"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Flowchart"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Control charts are used to monitor process stability and control by displaying variations in process data over time, making them the best tool for this purpose."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Mock Data Generation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In testing environments, which of the following methods is least effective for generating mock data that adheres to complex conditional constraints between fields?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a custom script that generates data based on predefined rules"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employing a generic data generation tool without customization options"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing AI-based tools that learn from existing data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Manual data entry by domain experts"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is least effective as generic tools without customization options cannot ensure compliance with complex conditional constraints that often exist between fields in real datasets."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Severity and Priority in Bug Reports",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In defect reporting, which combination of severity and priority levels indicates a critical issue that typically leads to a system crash, but does not require immediate resolution because it occurs under rare conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "High Severity, Low Priority"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Low Severity, High Priority"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "High Severity, High Priority"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Medium Severity, Medium Priority"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "High Severity indicates a critical impact on the system, such as a crash. Low Priority is assigned because the issue occurs under rare conditions, thus not requiring immediate fix."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios best illustrates the application of equivalence partitioning in test case design?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dividing the input domain of a password field into valid and invalid partitions based on length."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing a calculator app by checking addition with only positive numbers."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using boundary value analysis for a field accepting values from 1 to 100."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creating a test case for every possible input of a Boolean function."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it effectively utilizes equivalence partitioning by categorizing input data into groups (partitions) that are expected to exhibit similar behavior, thus minimizing the number of test cases while maintaining coverage."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In equivalence partitioning, identify the correct statement concerning the boundary values of partitions:"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Boundary values should only be tested for valid partitions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Boundary values should be tested for both valid and invalid partitions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boundary values are not essential to equivalence partitioning."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only the smallest and largest partitions should be tested."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Testing both valid and invalid partition boundaries ensures more thorough coverage and identifies potential edge case errors."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Integrity in Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a distributed testing environment, which strategy ensures data integrity when multiple test cases are executed concurrently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sequential execution of test cases."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use of a centralized version control system."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing database transactions with rollback capabilities."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Applying a lock and key mechanism on the test data."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Implementing database transactions with rollback capabilities ensures that any changes made by a test case can be undone, thus maintaining data integrity across concurrent test executions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Test Case Prioritization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following factors is least impactful when determining the priority of test cases in a regression testing scenario?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The complexity of the test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The frequency of defects identified historically"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The test execution time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The critical business functionality covered"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While test execution time affects scheduling, it is generally less impactful on the priority decision compared to factors directly related to risk and critical functionality."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Failure Mode and Effects Analysis (FMEA)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which aspect is NOT typically included in the Risk Priority Number (RPN) calculation in FMEA?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Severity of the failure"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Probability of occurrence"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cost of failure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ability to detect the failure"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is incorrect because RPN is calculated based on severity, occurrence, and detection, not the cost of failure."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Bug Triaging Process",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the process of bug triaging, which role is primarily responsible for deciding the priority of a bug after it has been reported?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quality Assurance Engineer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Software Developer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Project Manager"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Technical Support"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Project Manager typically has the oversight to assess the impact of the bug on the project timeline and resources, hence deciding its priority."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Decision Table Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In decision table testing, what is the implication of a 'Limited Entry' decision table having more conditions than actions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It simplifies the testing process"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It may indicate an overly complex decision logic that could be simplified"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the number of test cases exponentially"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is typically an indication of an error in the test design"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A 'Limited Entry' decision table with more conditions than actions usually signifies complex decision logic, which could potentially be simplified to improve understanding and reduce errors."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Applying Boundary Value Analysis, select the effective test cases for a function accepting integers from 1 to 100 inclusive."
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 1, 50, 100, 101"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 49, 50, 99, 100"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0, 1, 2, 99, 100"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 2, 50, 100, 101"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "0 and 101 are just out of the valid range, and 1, 50, and 100 are critical points within the range, making these the most effective test cases for boundary value analysis."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Defect Lifecycle Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of defect lifecycle management, which of the following is NOT a common state for a defect?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Resolved"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Rejected"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Deferred"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignored"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While defects can be resolved, rejected, or deferred, 'Ignored' is not commonly recognized as an official state in defect lifecycle management. Typically, all defects are addressed in some manner."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Failure Mode and Effects Analysis (FMEA)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In FMEA, which factor is quantified by the Detection (D) rating?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Probability of failure occurrence"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Severity of the failure"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Probability of detecting the failure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cost associated with the failure"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Detection (D) rating in FMEA quantifies the probability of detecting the failure before it reaches the customer, thereby assessing the effectiveness of the current controls in detecting the potential failures."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Decision Table Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In decision table testing, which scenario describes a correct approach when dealing with a large number of conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Test every possible combination of conditions and actions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduce the number of tests by eliminating similar conditions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Prioritize and test only the most likely combinations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use a cause-effect graph to simplify the decision table and then select key combinations for testing."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a cause-effect graph helps to simplify complex decision tables by focusing on key relationships and interactions, enabling more targeted and effective testing."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "ISO 9001 Standards",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a principle of the ISO 9001 quality management systems?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Continual improvement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Customer focus"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Documented procedures"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decision-making based solely on price"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decision-making based solely on price is not a principle of ISO 9001, which emphasizes the importance of making decisions based on evidence and multiple factors to ensure quality."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When performing boundary value analysis on a software system that accepts integer input from 1 to 100, which set of values is most appropriate to test for an off-by-one error?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 1, 100, 101"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 50, 100"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1, 99, 100"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "-1, 0, 101, 102"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary value analysis targets the edges of input ranges. Testing values 0 and 101 checks immediately outside the valid range (1-100), and 1 and 100 verify the boundaries themselves."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Bug Life Cycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the 'Resolved' status in a typical bug life cycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The developer has fixed the bug, and it is ready for the next release."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The tester has retested and closed the bug as no longer reproducible."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The bug has been fixed, and it is awaiting verification by a tester."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The bug report has been created but not yet assigned."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Resolved' status indicates that the developer believes the bug is fixed and it is now pending verification by a tester to confirm the resolution before it can be closed."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In equivalence partitioning, if a function is expected to accept input integers from 1 to 100, which set of test cases would be most effective for manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Test with values -1, 50, and 101"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Test with values 0, 1, 100, and 101"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Test with values 1, 2, 99, and 100"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Test with values 0, 10, 90, and 200"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Effective equivalence partitioning involves selecting values that represent different partitions. Testing should include values just outside the valid partition (0 and 101) and at the edges of the valid partition (1 and 100)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Root Cause Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tools would NOT typically be used during the initial data-gathering phase of root cause analysis for a software development process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Pareto Chart"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fishbone Diagram"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scatter Diagram"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Affinity Diagram"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Affinity Diagrams are generally used to organize ideas and data rather than during the initial data-gathering phase, where specific, structured tools like Pareto Charts, Fishbone Diagrams, or Scatter Diagrams are more applicable."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Isolation in Testing Environments",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the process of maintaining data integrity in a shared testing environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use of the same dataset for multiple tests to ensure consistency"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Regularly refreshing environments to mirror the production data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implementing strict access controls and using synthetic data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Allowing developers to copy data freely between environments"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because implementing strict access controls and using synthetic data ensures that the test data remains isolated and secure, preventing cross-contamination of data across different testing scenarios."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Testing Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following techniques would be most appropriate for testing the boundary values of an input domain in a software application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Stress testing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Boundary value analysis"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Black-box testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "White-box testing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary value analysis is specifically focused on the boundary values of input domains, making it the most appropriate choice for this task."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Anonymization Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of database testing, which data anonymization technique involves generating new values that maintain operational and statistical accuracy without revealing any actual data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Data Masking"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Data Shuffling"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Synthetic Data Generation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Data Encryption"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Synthetic Data Generation creates entirely new datasets based on patterns and correlations found in the original data, effectively maintaining usability without compromising privacy."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios is LEAST likely to be considered as a separate partition in equivalence partitioning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Input values that cause different error messages to be displayed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Input values that result in different outputs but undergo the same process."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Input values that are valid but rare in practical scenarios."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Input values that trigger boundary value analysis."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While rare values should be tested, they typically do not represent a unique partition unless they trigger a specific different behavior in the system."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Test Environment Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most efficient method to manage data states across different test environments when conducting integration testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a single shared database for all environments to ensure consistency."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement environment-specific data sets and use data masking techniques."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Copy data from production to test environments on a nightly basis."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilize synthetic data generation to create realistic, non-sensitive test data."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using synthetic data generation allows for the creation of realistic test data that does not compromise sensitive information, making it the most efficient and secure method for managing data states across different test environments."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Anonymization Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data anonymization technique can potentially lead to the re-identification of individuals when dealing with sparse high-dimensional data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "k-anonymity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Differential privacy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Data masking"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pseudonymization"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "k-anonymity can be less effective in high-dimensional datasets due to the curse of dimensionality, potentially leading to easier re-identification of individuals."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Error Guessing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios is the best example of error guessing in manual testing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Executing a test case suite that covers all the functional requirements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using an automated tool to generate random input data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Relying on the tester's experience to anticipate common errors in specific functionalities"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Following a structured method to generate test cases based on the specification"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Error guessing relies on the tester's intuition and experience to predict the most probable areas where bugs might occur, without a structured underlying method."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary risk of not considering boundary values in equivalence partitioning testing for a software application that handles numeric input ranges?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Underestimation of storage space"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Overestimation of system performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Ignoring potential critical defects at the edge of partitions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increased processing time for valid inputs"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Ignoring boundary values can lead to missing critical defects that occur at the edges of input ranges, which are common spots for defects in partitioning."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In boundary value analysis, what is the correct set of test cases for an input field accepting values from 1 to 500?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 1, 2, 499, 500, 501"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 250, 500"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0, 500, 501"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 499, 500"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary value analysis focuses on the values at the boundaries. For an input field accepting 1 to 500, appropriate test cases include the boundary values, their immediate predecessors (0 and 499), and successors (2 and 501)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When applying Boundary Value Analysis, which of the following is a common error that can lead to incorrect test case creation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ignoring values that are out of valid boundaries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Testing only within the valid boundary values"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Considering values on the boundary as well as just inside and just outside the boundaries"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Focusing solely on maximum and minimum boundary values"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Focusing solely on maximum and minimum boundary values often leads to neglecting other critical boundary conditions, such as just inside or just outside the boundaries, which can also reveal defects."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "For a software module that categorizes an age input into child, adult, or senior where child is 0-17, adult is 18-64, and senior is 65+, which set of test cases best represents Equivalence Partitioning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 18, 65"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "17, 18, 64, 65"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10, 30, 70"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "16, 20, 66"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence Partitioning involves testing one value from each partition to ensure that all cases are handled correctly. 17, 18, 64, and 65 are critical values that mark the transitions between categories."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In boundary value analysis, if you are testing a password field that accepts a minimum of 6 characters and a maximum of 12 characters, which input configuration would be considered a valid boundary test case?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5 characters"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "6 characters"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "12 characters"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "13 characters"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because 6 characters represent the minimum boundary condition which should be tested to verify if the boundary is inclusive or exclusive."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Regression Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the phase of regression testing, which approach is most effective in managing test data when the underlying schema of the database changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Static Data Allocation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dynamic Data Generation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Manual Data Entry"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Schema-agnostic Data Layering"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic Data Generation is most effective as it allows for the automatic creation of test data that adapts to new schema requirements, ensuring compatibility and comprehensive testing coverage."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Test Suite Maintenance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key challenge associated with maintaining a large test suite in agile development environments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreased test coverage over time"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increased execution time of the suite"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Difficulty in integrating new tests"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "All of the mentioned challenges are significant when maintaining a large test suite in agile environments, including managing increased execution time, integrating new tests, and ensuring consistent test coverage."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Statistical Process Control (SPC)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SPC tool is most effective for identifying variations in a manufacturing process that are caused by specific, identifiable factors?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Histogram"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Control Chart"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Fishbone Diagram"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pareto Chart"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Control Chart is the most effective tool for identifying variations due to specific factors as it helps in monitoring process behavior over time, distinguishing between common cause variation and special cause variation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Test Case Prioritization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following factors is LEAST likely to influence the prioritization of test cases in a typical software development lifecycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The criticality of the software features"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The personal preference of the testing team"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The complexity of the code"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The business impact of potential defects"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While the personal preference of the testing team can impact test case prioritization, it is generally considered the least professional and systematic approach compared to factors like software criticality, code complexity, and potential business impacts of defects."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Test Case Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In manual testing, what is the primary objective of a test case?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To achieve maximum code coverage"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To identify as many defects as possible"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To ensure that the application performs as expected under specified conditions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To document the testing process for future reference"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The primary objective of a test case in manual testing is to verify that the application performs as expected under specified conditions."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In boundary value analysis, why is it crucial to test the values on the edges of input ranges?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Because errors are most frequent at boundaries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure compatibility with older software versions"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To make the software more user-friendly"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To comply with international testing standards"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Testing values on the edges of input ranges is crucial because this is where errors are most frequently found. Developers often make mistakes with boundary conditions, either by including or excluding boundaries incorrectly, which can lead to critical failures."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Regression Testing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of regression testing, which technique would be most efficient for a large system with thousands of test cases after a minor change in code?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Re-testing all test cases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selective re-test based on impact analysis"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only re-test new test cases"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a test suite automation tool without analysis"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because performing a selective re-test based on impact analysis is the most efficient approach. It focuses on areas affected by the changes, saving time and resources compared to re-testing all existing test cases."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Statistical Process Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of quality assurance, which of the following is NOT a true statement about the significance of using control charts?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They allow for the differentiation between common cause variation and special cause variation."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are used primarily to track the stability of process adjustments over time."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They can replace the need for other forms of product quality testing."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They help in identifying the need for corrective actions if the process goes out of control."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is incorrect because control charts are used to monitor process stability and detect unusual variations, not to replace all other forms of quality testing."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Boundary Value Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a function that accepts an integer input from 1 to 100, which of the following sets of input values best represents the Boundary Value Analysis technique?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 1, 100, 101"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 50, 100"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "25, 50, 75"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0, 50, 100"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Boundary Value Analysis involves testing at the boundaries between partitions. Here, 0 and 101 are just outside the valid input range (1-100), and 1 and 100 are the boundaries of the valid input range."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Defect Lifecycle Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a typical status in a defect life cycle?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Confirmed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Assigned"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reviewed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Deprecated"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The term 'Deprecated' is generally not used as a status in defect life cycles; statuses commonly include 'New', 'Assigned', 'Confirmed', 'Fixed', and 'Closed'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Test Case Prioritization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of software testing, what is the primary advantage of employing a risk-based testing approach for test case prioritization?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensures the most aesthetically pleasing tests are run first"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Guarantees 100% defect detection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Focuses testing on high-risk areas that have the greatest impact on business"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases the necessity for regression testing"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Risk-based testing focuses resources on testing parts of the software that carry the highest risk of failure and where failure would have the most severe consequences, thus optimizing the test effort towards critical areas that impact business operations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Test Environment Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of managing multiple test environments, what is the primary risk of not using configuration management tools?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased risk of environment drift leading to inconsistent test results"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduced communication between team members"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increased costs of environment setup"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreased time spent on actual testing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Not using configuration management tools can lead to environment drift where different environments become inconsistent with each other, leading to unreliable test results and potentially faulty software deployments."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Defect Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which phase of the defect lifecycle does the defect get retested after the necessary modifications have been made?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Verification"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Detection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Resolution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Closure"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the Verification phase is where the defect is retested to ensure the modifications have resolved the issue before it can be closed."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Equivalence Partitioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a password field accepting values from 6 to 12 characters, which of the following represents a correct set of equivalence partitions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "< 6, 6-12, > 12"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0-5, 6-11, > 12"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "< 5, 5-12, > 12"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "< 7, 7-12, > 12"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Equivalence partitioning divides input data into valid and invalid partitions. For a password field of 6-12 characters, partitions should be: <6 (invalid), 6-12 (valid), >12 (invalid)."
+      }
+    ]
+  }
+]

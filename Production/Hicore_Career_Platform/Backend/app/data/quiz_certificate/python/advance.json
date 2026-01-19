@@ -1,0 +1,2038 @@
+[
+  {
+    "id": 5,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a decorator 'log_calls' that logs function calls, what would the output be when applied to the following function 'f' called with '3'?"
+      },
+      {
+        "type": "formula",
+        "value": "\\text{def log_calls(func):}\\newline\\text{    def wrapper(*args, **kwargs):}\\newline\\text{        print(f\"Calling {func.__name__!r}\")}\\newline\\text{        return func(*args, **kwargs)}\\newline\\text{    return wrapper}\\newline\\text{@log_calls}\\newline\\text{def f(x):}\\newline\\text{    return x * 2}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Calling 'f'\\n6"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'f'\\n6"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Calling f\\n3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Calling 'f'\\n3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator 'log_calls' first prints a log message including the function name, then calls the function 'f' with the argument '3'. The function 'f' returns '3 * 2', which equals '6', so the output is 'Calling 'f'\\n6'."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Function Definitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code snippet? def multiplier(x): return lambda y: x * y; result = multiplier(5); print(result(3))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "8"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SyntaxError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'multiplier' returns a lambda function that multiplies its argument 'y' by 'x', which is 5 in this case. Thus, 'result(3)' equals 5*3, which is 15."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Assignment and Memory",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python code:\n\nx = 256\ny = 256\nz = y\n\nIs the identity of z the same as x?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Yes, because small integers are cached by Python and x, y, z all refer to the same object."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "No, because y and z are different variables."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Yes, but only because z is explicitly assigned to y, which is the same as x."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No, because each assignment creates a new object in memory."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, small integers (between -5 and 256) are cached and reused. Thus, x, y, and z all reference the same integer object 256 in memory."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Control Structures - Loops",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Analyzing the following Python loop, what will be the final value of 'a' after execution?"
+      },
+      {
+        "type": "text",
+        "value": "a = 10\nfor i in range(5):\n  a += i\n  if i == 2:\n    break"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "15"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop starts with a = 10. It increments by 0 (i=0), then by 1 (i=1), and finally by 2 (i=2) before the break is executed. Therefore, a becomes 10 + 0 + 1 + 2 = 13."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Using 'with' in File Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using the 'with' statement for file handling in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It provides a shorter syntax for file operations."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It automatically closes the file, even if an error occurs during file operations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It enhances the file reading speed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It encrypts the file content for security."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'with' statement simplifies exception handling by encapsulating common preparation and cleanup tasks. In file handling, it ensures that a file is properly closed after its suite finishes, even if an exception is raised at some point."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Generators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python generator function when executed as list(my_generator(3))? def my_generator(x): i = 0 while i < x: yield i * 2 i += 1"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 2, 4]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 1, 2]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[1, 2, 3]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[2, 4, 6]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generator function 'my_generator' initializes 'i' to 0 and iterates until 'i' is less than 'x' (3 in this case). For each iteration, it yields 'i * 2'. The values yielded are 0, 2, and 4, resulting in the list [0, 2, 4]."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Method Resolution Order (MRO)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following class hierarchy, which method will be called when my_obj.method() is executed? class A: def method(self): return 'A' class B(A): def method(self): return 'B' class C(A): def method(self): return 'C' class D(B, C): pass my_obj = D()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Method from Class A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Method from Class B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Method from Class C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Method from Class D"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python's method resolution order (MRO) determines that the method from Class B is called first due to the order of inheritance specified in Class D (B, C). Thus, when my_obj.method() is executed, the method from Class B is called."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Custom Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, if a custom exception MyCustomError is defined and needs to be raised with a specific message if a file operation fails, what is the correct way to implement this?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "raise MyCustomError from file_operation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "raise MyCustomError('File operation failed')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "throw MyCustomError('Error in file operation')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "except MyCustomError as e: raise e"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because the 'raise' statement is used to raise an exception in Python. The exception class name followed by a message string in parentheses will correctly create an instance of MyCustomError with the specified message."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Context Managers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the state of the file after executing this Python context manager code?"
+      },
+      {
+        "type": "formula",
+        "value": "\\text{with open('example.txt', 'w') as file:}\\newline\\text{    file.write('Hello World')}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The file contains 'Hello World' and is closed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The file is empty and is closed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The file contains 'Hello World' and is open."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The file is empty and is open."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'with' statement ensures that the file is properly closed after its suite finishes, even if an exception is raised on the way. It writes 'Hello World' to 'example.txt' before closing it, thus the file contains 'Hello World' and is closed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Dynamic Import in Python",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Python function dynamically imports a module named 'my_module' and accesses a function 'my_function' from it?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "__import__('my_module').my_function()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "importlib.import_module('my_module').my_function()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "module = __import__('my_module'); module.my_function()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "importlib.load_module('my_module').my_function()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as 'importlib.import_module' is the preferred method for dynamic imports in Python, allowing access to functions directly after importing."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Immutability of Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "After executing the code `a = (1, 2, [3, 4]); a[2][0] = 5; print(a)`, what will be the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "(1, 2, [5, 4])"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "(1, 2, [3, 4])"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tuples are immutable, but the list inside the tuple can be modified. Thus, the list element '3' is replaced by '5', resulting in the output (1, 2, [5, 4])."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python decorator function below:\n\ndef debug(func):\n    def wrapper(*args, **kwargs):\n        print(f\"Function {func.__name__} with args {args} and kwargs {kwargs} is called\")\n        return func(*args, **kwargs)\n    return wrapper\n\n@debug\ndef add(x, y):\n    return x + y\n\nWhat will be the output when add(3, 4) is called?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function add with args (3, 4) and kwargs {} is called\n7"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function add with args (3, 4) is called\n7"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Function add with args (3, 4) and kwargs {} is called"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator 'debug' wraps the function 'add' with additional functionality to print the function name along with its arguments and keyword arguments before executing it. After printing, it calls the original 'add' function with the provided arguments, resulting in the output 'Function add with args (3, 4) and kwargs {} is called\\n7'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Multiple Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python classes. What will be the output of the code snippet below?"
+      },
+      {
+        "type": "text",
+        "value": "class A:\n    def method(self):\n        return 'A'\nclass B(A):\n    def method(self):\n        return 'B'\nclass C(A):\n    def method(self):\n        return 'C'\nclass D(B, C):\n    pass\nd = D()\nprint(d.method())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "D"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to Python's method resolution order (MRO), class D will first look in class B for the 'method' before looking in class C."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Custom Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following implementations correctly defines a custom exception called 'DatabaseError' that also captures the error message and logs it?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "class DatabaseError(Exception):\n    def __init__(self, message):\n        self.message = message\n        log_error(message)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "class DatabaseError(Exception):\n    def __init__(self, message):\n        super().__init__(message)\n        log_error(message)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class DatabaseError(Exception):\n    pass"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "class DatabaseError(Exception):\n    def __init__(self, message):\n        raise Exception(message)\n        log_error(message)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because it correctly inherits from the base Exception class, initializes with the provided message using 'super()', and logs the error message. The use of 'super()' ensures that the base class initialization is not bypassed."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Python Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python decorator definition, what will be the output of calling @decorator_func def foo(): return 'Hello'? def decorator_func(func): def wrapper(): print('Function called:', func()) return wrapper"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function called: Hello"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator modifies the function 'foo' by wrapping its output within the 'wrapper' function, which first prints 'Function called:' followed by the result of 'foo()'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Lambda Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the lambda function below, what is the output when it is applied to the list [1, 2, 3, 4] using the map function?\n\nsquare = lambda x: x ** 2\nlist(map(square, [1, 2, 3, 4]))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 4, 9, 16]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 2, 3, 4]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[2, 4, 6, 8]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lambda function squares each element in the list, so applying it to [1, 2, 3, 4] results in [1, 4, 9, 16]."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Python Module Path Manipulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the effect of appending a directory to sys.path in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It temporarily adds the directory to the list of locations that the interpreter will search for modules during the current session."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It permanently modifies the Python installation's module search paths."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It removes other paths from the sys.path during the session."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It has no effect unless the directory contains an __init__.py file."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Appending a directory to sys.path adds it to the current session's search paths, allowing Python to load modules from this directory for the duration of the session. This modification is not permanent and only affects the ongoing session."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Custom Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a Python program that defines a custom exception class 'NegativeNumberError' which is raised when a negative number is input. If the exception is raised, which of the following exception handling structures will correctly handle and print 'Negative numbers are not allowed'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "try: \\n    if num < 0: \\n        raise NegativeNumberError() \\nexcept NegativeNumberError: \\n    print('Negative numbers are not allowed')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "try: \\n    if num < 0: \\n        raise ValueError('NegativeNumberError') \\nexcept NegativeNumberError: \\n    print('Negative numbers are not allowed')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "try: \\n    if num < 0: \\n        raise NegativeNumberError() \\nexcept Exception: \\n    print('Negative numbers are not allowed')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try: \\n    if num < 0: \\n        raise Exception('NegativeNumberError') \\nexcept NegativeNumberError: \\n    print('Negative numbers are not allowed')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly pairs the custom exception 'NegativeNumberError' with its handling block. The raise statement correctly throws the custom exception when num is negative, and the except block matches the exception type, handling it as specified."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Generator Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\n gen_exp = (x**2 for x in range(5, 10))\n print(next(gen_exp), next(gen_exp))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "25, 36"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "25, 49"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "36, 49"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generator expression squares each number in the range from 5 to 9. The first two outputs are the squares of 5 and 6, which are 25 and 36 respectively."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Exception Propagation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if an exception is raised in a function that does not handle it, and no external try-except block is present in the calling function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program will terminate and print the exception traceback."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The exception will be ignored, and the program will continue execution."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The exception will be logged silently by Python's default logger."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function will return None."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, if an exception is not handled within a function, it propagates (bubbles up) to the calling function. If no handling mechanism (try-except block) is present up the call stack, the program will terminate and print a traceback detailing the exception."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "File Management with Error Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Python script designed to read from a file 'data.txt' and process its contents, which implementation ensures that the file is closed after reading, even if an error occurs while processing the data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "file = open('data.txt', 'r') \\ndata = file.read() \\nprocess_data(data) \\nfile.close()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "with open('data.txt', 'r') as file: \\n    data = file.read() \\n    process_data(data)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "try: \\n    file = open('data.txt', 'r') \\n    data = file.read() \\n    process_data(data) \\nfinally: \\n    file.close()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try: \\n    file = open('data.txt', 'r') \\n    data = file.read() \\nexcept IOError: \\n    print('Error reading file') \\nelse: \\n    process_data(data) \\nfinally: \\n    file.close()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is the best choice as it uses a try-finally block, ensuring that 'file.close()' is executed regardless of whether an error occurs during the reading or processing of the file data. This ensures the file is properly closed under all circumstances."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the list comprehension statement below, what is the output?\n\noutput = [x for x in range(10) if x % 2 == 0 and x > 5]"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[6, 8]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 2, 4, 6, 8]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[5, 7, 9]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension iterates over numbers from 0 to 9 (range(10)). It includes only numbers that are even (% 2 == 0) and greater than 5. Hence, the output is [6, 8]."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Polymorphism in Python",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python classes and method invocations, what will be the output?"
+      },
+      {
+        "type": "text",
+        "value": "class Animal:\n    def speak(self):\n        return 'Some noise'\nclass Dog(Animal):\n    def speak(self):\n        return 'Bark'\nclass Cat(Animal):\n    def speak(self):\n        return 'Meow'\ndef make_sound(animal):\n    print(animal.speak())\n\nmake_sound(Dog())\nmake_sound(Cat())\nmake_sound(Animal())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bark\\nMeow\\nSome noise"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Some noise\\nBark\\nMeow"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bark\\nBark\\nBark"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Meow\\nMeow\\nMeow"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The output is determined by the speak method of the respective classes being called. Dog and Cat classes override the speak method of the Animal class, resulting in 'Bark', 'Meow', and then 'Some noise' as each class's method is called."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet if executed?\n\ndef debug(func):\n    def wrapper(*args, **kwargs):\n        print(f'Function {func.__name__} was called with args={args} and kwargs={kwargs}')\n        return func(*args, **kwargs)\n    return wrapper\n\ndef add(x, y):\n    return x + y\n\nadd = debug(add)\nprint(add(3, 4))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function add was called with args=(3, 4) and kwargs={}\\n7"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Function add was called with args={} and kwargs={3, 4}\\n7"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Function add was called with args=(3, 4) and kwargs={}\\nNone"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator 'debug' wraps the 'add' function, logging its call details before calling the original function. The 'add' function then executes, returning 7, which is printed after the debug information."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Recursion in Python",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python recursive function when called as `func(6)`?"
+      },
+      {
+        "type": "formula",
+        "value": "def func(n):\\n    if n > 0:\\n        result = n + func(n - 2)\\n        return result\\n    else:\\n        return 0"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "12"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function adds 6, 4, 2 sequentially (all even numbers less than or equal to 6). Thus, 6 + 4 + 2 = 12."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Module Import Mechanics",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a Python script that imports a module using 'importlib.reload'. What is a potential side effect of using reload on a module that was already imported?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reload can introduce memory leaks if not handled properly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It will reset all initialized variables in the script."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Reload will permanently delete the original module from the system."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There will be no side effects."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'importlib.reload' can introduce memory leaks if the reloaded module had already initialized complex data structures or started background threads that were not properly stopped before reloading."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following list comprehension code?\n\n[x*2 for x in range(5) if x%2 == 0]"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 4, 8]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 2, 4, 6, 8]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[1, 3, 5]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[0, 2, 4]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension iterates over range(5), which generates numbers from 0 to 4. The condition 'if x%2 == 0' filters out odd numbers, leaving 0, 2, and 4. Each of these numbers is then multiplied by 2, resulting in [0, 4, 8]."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Decorators with Arguments",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the Python decorator definition below, what will be the output when calling @decorator_with_args(arg='test') on a function?\n\n def decorator_with_args(arg):\n    def decorator(fn):\n        def wrapper(*args, **kwargs):\n            print(f'Argument passed to decorator: {arg}')\n            return fn(*args, **kwargs)\n        return wrapper\n    return decorator"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Argument passed to decorator: test"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "test"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An error occurs"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator is passed an argument 'test' which is then used within the wrapper function to print before the actual function call. Thus, it prints 'Argument passed to decorator: test'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Immutability of Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python code snippet:\n\ns = 'Hello, World!'\ns[7] = 'w'\nprint(s)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello, world!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hello, World!"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SyntaxError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python strings are immutable, meaning they cannot be changed after they are created. Attempting to modify a string directly by index results in a TypeError."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet? \n\nlst = [1, 2, 3, 4]\nresult = [x**2 for x in lst if x > 2]\nprint(result)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[9, 16]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 4, 9, 16]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[3, 4]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SyntaxError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension checks for elements greater than 2 and squares them. Elements 3 and 4 meet this condition, resulting in their squares, 9 and 16, respectively."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the list comprehension: [x**2 for x in range(10) if x**2 % 2 == 0], what will be the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 3, 5, 7, 9]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[0, 4, 16, 36, 64]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[2, 4, 6, 8]"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension generates squares of numbers from 0 to 9, but only includes those squares that are even numbers. The even squares from 0 to 9 are 0, 4, 16, 36, and 64."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python classes, which method call will fail?"
+      },
+      {
+        "type": "text",
+        "value": "class Animal:\n    def speak(self):\n        return 'Some sound'\nclass Dog(Animal):\n    def speak(self):\n        return 'Bark'\nclass Cat(Animal):\n    def speak(self):\n        return 'Meow'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Animal().speak()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dog().speak()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cat().speak()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "All classes have a defined 'speak' method, so none of the method calls will fail."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How can you make an attribute in a Python class private and inaccessible directly from outside the class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "By declaring it with one underscore (e.g., _attribute)."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By declaring it with double underscores (e.g., __attribute)."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "By declaring it as a public attribute."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "By using a special decorator @private."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, prefixing an attribute name with double underscores (e.g., __attribute) makes it private. This triggers a feature called name mangling, whereby the interpreter changes the name of the variable in a way that makes it harder to create subclasses that accidentally override the private attributes and methods."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encapsulation and Private Members",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a Python class is defined as below, what is the result of trying to access __privateMember outside of the class?"
+      },
+      {
+        "type": "text",
+        "value": "class MyClass:\n    def __init__(self):\n        self.__privateMember = 42\n\nobj = MyClass()\nprint(obj.__privateMember)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AttributeError"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python uses name mangling to make it harder to access private members from outside the class. Trying to access __privateMember results in an AttributeError because externally the name is mangled."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Dynamic Module Import",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming 'module_name' is a variable holding the name of a module, which Python statement correctly imports this module dynamically?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "__import__(module_name)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "importlib.import_module(module_name)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "import(module_name)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "load(module_name)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to dynamically import a module in Python using the name stored in a variable is by using 'importlib.import_module(module_name)'. The other options either do not use correct syntax or do not exist in Python."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Importing of Modules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming you have multiple module names stored in a list called mod_names and you want to import them dynamically using a loop. Which of the following is the correct way to import these modules using Python's built-in functions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for name in mod_names:\n  __import__(name)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for name in mod_names:\n  importlib.import_module(name)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "for name in mod_names:\n  import(name)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "for name in mod_names:\n  load_module(name)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to dynamically import modules stored in a list is by using the importlib.import_module() function from the importlib library, which allows the dynamic import of modules at runtime."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Variable Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python code:\n\nx = 10\ny = '20'\nz = x + int(y)\nprint(z == 30.0)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "True"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "False"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ValueError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While the sum of x and y (converted to integer) results in 30, it is an integer. The comparison 'z == 30.0' checks against a float, making the statement evaluate to False."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "File Handling Error Trapping",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the following Python code snippet, which option correctly handles a potential FileNotFoundError when trying to read a file 'data.txt'? \n\ntry:\n    with open('data.txt', 'r') as file:\n        data = file.read()\nexcept:"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "except FileNotFoundError: pass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "except FileNotFoundError as fe: print('File not found:', fe)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "except Exception as e: raise e"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "finally: print('Attempted file read')"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because it specifically catches FileNotFoundError and provides useful feedback by printing a message along with the error itself, which can help in debugging or informing the user."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Lambda Functions and Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python code snippet. What will be the output of the code `print(x(2))`?"
+      },
+      {
+        "type": "formula",
+        "value": "x = (lambda z: (lambda y: y + z))(3)\\ny = 2"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error occurs"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lambda function is a closure that captures the variable `z` with a value of 3. When `x(2)` is called, it uses the captured value of `z` (3) and the passed argument `2`, resulting in 5."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Variable Type Deduction",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet: `x = 10; y = 2; print(type(x/y))`?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<class 'int'>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<class 'float'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<class 'str'>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<class 'complex'>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python 3, the division of two integers results in a float. Therefore, the output is <class 'float'>."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Dynamic Loading of Modules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the Python code 'importlib.import_module(name, package=None)', what would happen if the 'name' parameter refers to a submodule that is not officially part of the package defined in the 'package' parameter?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An ImportError is raised"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The submodule is loaded without any errors"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function returns None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A ValueError is raised"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An ImportError is raised because the submodule does not belong to the specified package, thus cannot be resolved correctly."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a decorator 'debug' that prints 'Function running: func_name' before executing any function 'f'. What will be the output when applying '@debug' to the following function 'compute' and calling 'compute(1, 2)'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Function running: compute\n3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Function running: debug\n3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Function running: f\n3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'debug' decorator is designed to print the function name using func_name, which in the case of 'compute' is correctly identified as 'compute'. After printing, the original function 'compute' is executed, returning 3."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code if executed? class Animal: def speak(self): return 'unknown' class Dog(Animal): def speak(self): return 'woof' class Cat(Animal): def speak(self): return 'meow' animals = [Animal(), Dog(), Cat()] sounds = [animal.speak() for animal in animals] print(sounds)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "['unknown', 'woof', 'meow']"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "['woof', 'woof', 'meow']"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "['unknown', 'unknown', 'unknown']"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Each class has its own implementation of the speak() method, demonstrating polymorphism. The list comprehension calls the speak method on instances of Animal, Dog, and Cat classes, respectively, which returns 'unknown', 'woof', and 'meow'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Python List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following list comprehension: [x**2 for x in range(5) if x%2 == 0]?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 2, 4]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 3, 5]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[0, 4, 16]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Syntax Error"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension filters elements x from range(5) that are even (x%2 == 0), and calculates the square of each filtered element."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Exception Propagation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, if a function does not handle an exception, what is the typical behavior observed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The exception is ignored, and the program continues execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The exception is suppressed, and no error message is shown."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The exception is propagated back to the caller, and if not handled, the program stops execution."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function automatically handles the exception and resumes execution."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, if an exception is not handled within a function, it will be propagated back to the calling function. If it continues to be unhandled, it propagates up the call stack, ultimately stopping the program if no suitable handling is found."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "File Handling Errors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which error will be raised when attempting to write to a file that was opened in mode 'r'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FileNotFoundError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IOException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ValueError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PermissionError"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Opening a file in 'r' mode allows for reading only. Attempting to write to such a file will result in a ValueError because the file is not open for writing."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Mutable vs Immutable Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python code snippet: x = (1, [2], '3'); x[1][0] = 3; What is the value of x?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "(1, [3], '3')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "(1, [2], '3')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "(3, [2], '3')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tuples in Python are immutable, but the list inside the tuple is mutable. The modification was made to the list, not the tuple itself."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a list 'x = [1, 2, 3, 4, 5]', what will be the output of '[i**2 for i in x if i%2 != 0]'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 9, 25]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 4, 9, 16, 25]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[2, 4, 6, 8, 10]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[4, 16]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension squares each element in the list 'x' that is odd (i.e., not divisible by 2). Thus, resulting in squares of 1, 3, and 5."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Understanding Namespace in Python",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a variable 'x' is defined inside a module 'mymodule' and you import mymodule, how do you correctly access 'x' from the importing script?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mymodule.x"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "import.x"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "module.mymodule.x"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Variables defined within a module are accessed using the module name followed by a dot and the variable name, i.e., 'mymodule.x'. Directly referencing 'x' leads to a NameError unless explicitly imported using a different syntax."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Handling Module Not Found Error",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When dynamically importing modules, it is possible to encounter a ModuleNotFoundError. Which of the following code snippets correctly handles this exception and continues executing the program?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "try:\n  importlib.import_module(module_name)\nexcept ImportError:\n  pass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "try:\n  __import__(module_name)\nexcept ModuleNotFoundError:\n  continue"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "try:\n  importlib.import_module(module_name)\nexcept ModuleNotFoundError:\n  continue"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try:\n  importlib.import_module(module_name)\nexcept ModuleNotFoundError:\n  pass"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to handle a ModuleNotFoundError when importing modules dynamically is to catch the exception using a try-except block specifically catching ModuleNotFoundError and using 'pass' to ignore the exception and continue with the program execution."
+      }
+    ]
+  }
+]

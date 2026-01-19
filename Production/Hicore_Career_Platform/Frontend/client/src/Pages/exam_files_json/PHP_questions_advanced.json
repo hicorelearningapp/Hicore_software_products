@@ -1,0 +1,2010 @@
+[
+  {
+    "id": 8,
+    "topic": "SQL Injection Prevention",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the recommended way to prevent SQL injection in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using prepared statements and parameterized queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Concatenating queries directly with input data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Escaping strings with addslashes()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using regex to filter input data"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using prepared statements and parameterized queries ensures that SQL commands are separated from user data, effectively preventing SQL injection."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Sanitization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function can be used to remove tags from a string?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlentities()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "url_encode()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "addslashes()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The strip_tags() function in PHP is specifically used to strip HTML and PHP tags from a string which helps in preventing XSS (Cross-site Scripting) attacks."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic Function Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to define a function in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction() {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "new Function myFunction() {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "create myFunction() {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "define myFunction() {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, a function is defined using the keyword 'function' followed by the function name and parentheses."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Connecting PHP to MySQL",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in PHP to connect to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used to open a new connection to the MySQL server in PHP."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Control Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP statement is used to execute one block of code among many alternatives?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "switch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "while"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'switch' statement is used to perform different actions based on different conditions, making it suitable for executing one block of code among many alternatives."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Array Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function is used in PHP to count the number of elements in an array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "count()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "length()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "size()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sizeof()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The count() function is used to return the number of elements in an array."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "PHP Error Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in PHP is used to handle errors by setting a user-defined function to handle them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "set_error_handler()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error_handle()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle_error()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error_set_handler()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The set_error_handler() function in PHP is used to set a user-defined function as the new error-handling function."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "PHP Basic Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to define a function in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction() {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "create myFunction() {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "def myFunction() {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "new function myFunction() {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, functions are defined using the 'function' keyword followed by the function name and curly braces to encapsulate the function code."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "PHP Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$variableName = 'value';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "variableName = 'value';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var $variableName = 'value';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set $variableName = 'value';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, a variable is declared with a dollar sign ($) followed by the name of the variable and equals sign (=), and then the value."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic PHP Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to end a PHP statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "With a semicolon (;)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "With a colon (:)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "With a comma (,)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "With a period (.)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, each statement must end with a semicolon (;) to denote the end of the statement."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "PHP Custom Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following PHP code if the input is 3?\n\nfunction double($num) {\n  return $num * 2;\n}\n\necho double(3);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "6"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'double' takes a number as an argument and returns the number multiplied by 2. Therefore, double(3) returns 3 * 2 = 6."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "PHP Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, which of the following statements correctly declares a constant?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "define('CONSTANT', 'Hello, World!');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "const CONSTANT = 'Hello, World!';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "constant CONSTANT = 'Hello, World!';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set('CONSTANT', 'Hello, World!');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to declare a constant in PHP is using the define() function. The const keyword is also used to define constants but only inside classes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Connecting PHP to MySQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in PHP is used to open a new connection to a MySQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to open a connection to a MySQL server using MySQL Improved (mysqli) extension."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following PHP code?\n\n<?php\n$x = 1;\nswitch ($x) {\n  case 0:\n    echo \"zero\";\n    break;\n  case 1:\n    echo \"one\";\n    break;\n  default:\n    echo \"unknown\";\n}\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "zero"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "one"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "unknown"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "zerooneunknown"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The switch statement checks against the value of $x which is 1, hence the case for 1 matches and 'one' is printed."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Dependency Injection",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about dependency injection in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It requires the use of a PHP framework."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is a technique used only for testing."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is a design pattern used to manage class dependencies."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It can only inject objects through constructors."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dependency injection is a design pattern used to manage class dependencies, making classes less dependent on the specific implementations of the components they use."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "MySQLi and Prepared Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using prepared statements in MySQLi?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased performance on repeated queries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Ability to use multiple databases simultaneously"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automatic conversion of data types"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reduced memory usage on the server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Prepared statements primarily benefit performance when the same statement is executed multiple times, differing only in the parameters passed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "PHP Error Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to handle errors in PHP using a custom function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "set_error_handler('myErrorFunction');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error_handle('myErrorFunction');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle_error('myErrorFunction');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error_set('myErrorFunction');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to set a user-defined function to handle errors in PHP is 'set_error_handler'. The correct syntax is set_error_handler('myErrorFunction');"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Variable Scope",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements correctly explains how a global variable can be accessed inside a function in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "By declaring the variable as global inside the function using the global keyword."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By passing the variable as an argument to the function."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "By declaring the variable as static inside the function."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "By using the include statement inside the function."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Global variables can be accessed within a function by declaring them as global inside the function using the global keyword. This allows the function to access the reference of the variable defined outside the function scope."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Polymorphism in PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is Polymorphism in PHP used to achieve?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To restrict the visibility of methods and properties in classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enable changing the behavior of a method in a derived class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide a single interface to different data types."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To prevent classes from inheriting from each other."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism in PHP is primarily used to alter the behavior of a method in a derived class, allowing methods with the same name to behave differently in different classes."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Input Validation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most effective method to prevent SQL injection attacks when using PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using addslashes() function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using mysql_real_escape_string() function"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using Prepared Statements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using strip_tags() function"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Prepared Statements separate SQL logic and data, ensuring that user input is treated strictly as data, not executable code, effectively preventing SQL injection."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Scope of Variables in PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following PHP code snippet:\n\n<?php\n  $x = 10;\n  function test() {\n    echo $x;\n  }\n  test();\n?>\n\nWhat will be the output of the code above?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$x"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Nothing"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable $x inside the function test() is not recognized since it is declared outside the function and is not passed as a parameter or declared as global, leading to an error."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Cross-Site Scripting (XSS) Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the most efficient method to mitigate XSS attacks when handling user-generated HTML content in PHP applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use base64 encoding for user input."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Apply htmlspecialchars() with ENT_QUOTES flag."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Strip tags from user input using strip_tags()."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use PHP\u2019s addslashes() function."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Applying htmlspecialchars() with ENT_QUOTES flag is effective because it converts special characters to HTML entities, preventing scripts from executing."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Design Patterns",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the Singleton design pattern in PHP, which of the following statements is true regarding its cloning?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Cloning a singleton object is permitted to create multiple instances."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cloning is typically disabled by making the __clone() method private."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The __clone() method should be public and return the instance itself."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Singleton pattern in PHP does not involve the __clone() method."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the Singleton design pattern, cloning is prevented to ensure that only one instance of the class is created throughout the application. This is typically achieved by declaring the __clone() method as private."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "PHP Function Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, given a class that uses the __call() magic method for method overloading, what will happen if a non-existent method 'processData' is called with three arguments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "__call() automatically creates the method with three parameters."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PHP will throw a fatal error indicating undefined method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "__call() will be invoked with 'processData' and an array of the three arguments."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The script will exit silently without any error."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The __call() magic method is used in PHP for handling calls to undefined methods. It takes the method name and an array of arguments, allowing the program to handle the situation dynamically, thus 'processData' and its three arguments are passed to __call()."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cross-Site Scripting (XSS) Defense",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, which function is the most appropriate for escaping output to prevent XSS attacks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "urlencode()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "htmlspecialchars() is most appropriate for escaping output to prevent XSS as it converts special characters to HTML entities, thus neutralizing potentially harmful scripts."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Cross-Site Scripting (XSS) Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following practices is LEAST effective in preventing XSS attacks in a PHP application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using htmlspecialchars() to escape output"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Validating and sanitizing user inputs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Employing HTTP-only cookies"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Relying solely on client-side JavaScript validation"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Relying solely on client-side JavaScript validation is the least effective method because it can be easily bypassed by an attacker. Server-side validation and output escaping are crucial for preventing XSS."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Ternary Operators in PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will the following PHP code output?\n\n<?php\n  $status = true;\n  echo ($status ? 'yes' : 'no');\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "yes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "no"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "True"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ternary operator checks the condition of the variable $status. Since $status is true, the output will be 'yes'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Dependency Injection",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Dependency Injection in PHP, which of the following statements is true when using constructor injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dependencies can be changed at runtime."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is primarily used for optional dependencies."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It helps in creating fully initialized objects."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It cannot be used with immutable objects."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Constructor injection ensures that the object can never exist without its dependencies, hence creating a fully initialized object."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code snippet?\n\n<?php\nfunction test() {\n  static $count = 0;\n  $count++;\n  echo $count;\n}\ntest();\ntest();\ntest();\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2 3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 1 1"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3 3 3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The variable 'count' is declared as static. Therefore, its value is preserved between function calls, incrementing each time the function is called."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Custom Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a custom exception class 'MyException' in PHP. If 'MyException' extends the base Exception class, which method should be overridden to customize the error message format when the exception is thrown?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "__toString()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "__construct()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getMessage()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getFile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The __toString() method should be overridden to customize the string output of the exception. This allows formatting the error message when the exception object is treated as a string."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Database Transactions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of PHP and MySQL, what is the primary reason for using transactions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To improve query performance by executing multiple queries simultaneously"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure data integrity by grouping several operations into a single unit of work that either fully succeeds or fully fails"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To lock the database, preventing other users from accessing it while a set of queries is being executed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To automatically index database tables to speed up data retrieval"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Transactions ensure data integrity by grouping multiple operations into a single, atomic unit that either completes entirely or not at all, thereby preventing partial updates to the data."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Cross-Site Scripting (XSS) Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following PHP functions is MOST effective for preventing XSS attacks when displaying user-submitted content?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "urlencode()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The htmlspecialchars() function converts special characters to HTML entities. This is effective in preventing XSS attacks as it stops scripts from executing by treating them as plain text."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Variable Scope in PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code?\n\n<?php\nfunction test() {\n    $x = 5;\n    echo $x;\n}\ntest();\necho $x;\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5 followed by an error or notice"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Nothing is outputted"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function test() declares a local variable $x and outputs its value, which is 5. Outside the function, $x is not defined, resulting in an error or a notice depending on the error reporting level."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Design Patterns",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which design pattern would be most appropriate for creating complex objects with multiple optional attributes and a fixed construction process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Factory Method Pattern"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Singleton Pattern"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Builder Pattern"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Prototype Pattern"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Builder Pattern is suitable for constructing complex objects with multiple steps and optional parameters, allowing for more controlled and readable object creation."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "String Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If you need to reverse the individual words in a sentence in PHP while keeping the words in the original order, which approach is the most efficient?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using explode() to split the sentence, array_map() with strrev(), and implode() to reassemble."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using strrev() directly on the sentence."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using preg_match_all() to find words and then strrev() each match."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using substr() and manually reversing each word."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is the most efficient as it correctly utilizes explode() to break the sentence into words, array_map() with strrev() to reverse each word, and implode() to reassemble the words into the sentence. This approach maintains the order of the words and reverses each word individually."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "PHP Frameworks: Laravel",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Laravel, what is the primary purpose of using Service Providers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To handle HTTP requests and responses."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the performance of database queries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To serve as a central place where application services are bootstrapped."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To manage user authentication and authorization."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Service Providers in Laravel are a central place to configure and bootstrap application services. They are used to bind services into the service container and to configure services upon booting the application."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "PHP Anonymous Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code if the input is 'Hello World'? $output = function($str) { return str_replace('World', 'PHP', $str); }; echo $output();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello PHP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello World"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PHP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code will result in an error because the anonymous function expects one argument, but none is provided when the function is called."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "String Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code?\n\n<?php\n$str = 'Hello, World!';\necho substr_count($str, 'o', -1, 3);\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function call will result in an error because the 'length' parameter for 'substr_count' must be greater than or equal to zero."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "String Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming the mbstring extension is enabled, what will be the output of the following PHP code?"
+      },
+      {
+        "type": "text",
+        "value": "<?php\necho mb_strpos('\u00fcmlaut', 'ml');\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "false"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mb_strpos function correctly counts the multibyte character \u00fc as a single position, thus 'ml' starts at the second index."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Custom Error Handlers",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, when implementing a custom error handler function, what does the function need to return in order to bypass the default PHP error handler after logging a custom error?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "true"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "false"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Returning 'false' from a custom error handler allows the default PHP error handler to continue processing the error, which is necessary for the error to be handled correctly by both the custom and default handlers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "SQL Injection Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of PHP, which PDO attribute should be set to TRUE to help prevent SQL Injection attacks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PDO::ATTR_EMULATE_PREPARES"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PDO::ATTR_ERRMODE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "PDO::ATTR_DEFAULT_FETCH_MODE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PDO::ATTR_CASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting PDO::ATTR_EMULATE_PREPARES to TRUE helps prevent SQL Injection attacks by using real prepared statements, which separates SQL logic from data, unlike emulated prepares."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Persistent Connections and Database Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PHP application using persistent connections to a MySQL database, what is a potential consequence of improperly handling these connections?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reduced number of connections needed simultaneously"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Improved performance and quicker query execution"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Connection leaks leading to too many open connections and potential database server overload"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Automatic handling of SQL injections"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because improper handling of persistent connections can lead to connection leaks where connections aren't properly closed, thus accumulating over time and potentially overloading the database server."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SQL Injection Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, which of the following is considered the most secure practice for preventing SQL Injection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using mysql_real_escape_string()."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing PDO with prepared statements."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Escaping inputs using addslashes()."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Employing regular expressions to filter data."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing PDO with prepared statements is considered the most secure because it separates SQL logic from data, thus effectively preventing SQL injection."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP script if the input value is 3?"
+      },
+      {
+        "type": "formula",
+        "value": "$x = 1;\\nfunction addNum($x) {\\n  $x += 2;\\n}\\naddNum($x);\\necho $x;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Variables in PHP have a function scope. Since $x is defined outside the function, the modifications inside do not affect the global $x. The function modifies a local copy of $x."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced SQL Injection Prevention with PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PHP application interfacing with a MySQL database, which of the following techniques is the most secure method to prevent SQL injection when executing a query that includes user input?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using addslashes() function on user inputs"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Manually escaping special characters in user inputs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Employing prepared statements with parameterized queries"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Filtering user inputs with regular expressions"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The most secure method to prevent SQL injection is to use prepared statements with parameterized queries as it ensures that the SQL interpreter differentiates between code and data, regardless of user input."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "String Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a PHP string handling function that reverses the string '12345' to '54321'. What standard PHP function achieves this?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "str_reverse"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "reverse_str"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "strrev"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "revstr"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to reverse a string in PHP is 'strrev'. Options A, B, and D are not valid PHP functions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Design Patterns in PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true regarding the use of the Singleton design pattern in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows the creation of multiple instances of a class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It ensures that there is one and only one instance of a class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is mainly used for creating complex object graphs."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It provides a way to access elements in a collection without exposing the underlying representation."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Singleton pattern ensures that a class has only one instance, and provides a global point of access to it. This is useful when exactly one object is needed to coordinate actions across the system."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Anonymous Functions and Closures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, what is the primary reason to use a 'use' statement in an anonymous function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To import classes from other namespaces"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enable the function to inherit variables from the parent scope"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To use built-in PHP functions within the anonymous function"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To declare function parameters"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'use' statement in an anonymous function is used to inherit variables from the parent scope into the scope of the anonymous function, allowing the function to access and manipulate these variables."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "SQL Injection Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which technique should be employed to prevent SQL injection in PHP applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using addslashes() function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Employing mysql_escape_string()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilizing prepared statements with PDO"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Relying on magic_quotes_gpc"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing prepared statements with PDO is the recommended method to prevent SQL injection. It separates SQL logic from data, ensuring that user input cannot alter SQL statements."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "MVC Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the role of a Controller in the MVC architecture pattern as implemented in PHP frameworks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It serves as a template engine to render the view based on the model data."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It modifies the database directly according to business rules."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It handles the user input, processes it (possibly modifying the model), and selects the view for response."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It acts as a data access layer that abstracts the model from the database operations."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the MVC (Model-View-Controller) architecture pattern, the Controller is responsible for handling user input. It processes this input, possibly updates the model based on business rules, and finally selects the appropriate view for the response. It acts as an intermediary between the Model, which handles data logic, and the View, which handles presentation logic."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2006 @@
+[
+  {
+    "id": 3,
+    "topic": "Basic Thread Creation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method signature correctly starts a new thread in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "new Thread(r).start();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "new Thread(r).run();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new Thread.start(r);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Thread.run(new r);"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct way to start a new thread is by creating an instance of Thread with a Runnable target and calling start() on that instance."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Java Installation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the command to check the version of Java installed on a machine?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java -version"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "java --check"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java -v"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "check_java"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'java -version' is used to display the version of Java installed on your machine."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "SQL Query Execution",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface represents a SQL statement in JDBC?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Statement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "PreparedStatement"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SQLStatement"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Query"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Statement interface is used in JDBC to represent a SQL statement that can be executed against a database."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Set Interface",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which implementation of the Set interface does not maintain any order of its elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HashSet"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LinkedHashSet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TreeSet"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "EnumSet"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HashSet does not maintain any order of its elements as it uses the hash code of the elements to store them, which does not keep track of the insertion order."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Defining Methods",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to define a method in Java that returns an integer and takes no parameters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public int myMethod()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public void myMethod(int)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "private int myMethod()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "public int myMethod(int)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because 'public int myMethod()' defines a public method that returns an integer and takes no parameters."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Event Handling in Java GUI",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which interface must a class implement to handle action events in Java GUI applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ActionListener"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "MouseListener"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "KeyListener"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WindowListener"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ActionListener is used to receive action events like button clicks. Classes that need to handle these events should implement this interface."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Java Stream API",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class in Java provides the Stream API functionalities for operations like filter, map, and reduce?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java.util.stream.Stream"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "java.util.Stream"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java.stream.Stream"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "java.util.streams.Stream"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "java.util.stream.Stream is the correct class that provides functionalities for handling streams including operations like filter, map, and reduce."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Components of Swing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a component of Java Swing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JFrame"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JButton"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JApplet"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JLabel"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JApplet is a component of Java Applet, not Swing. JFrame, JButton, and JLabel are all components of Java Swing."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encapsulation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using private access modifiers in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To secure data by restricting access to the members of a class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To make all members accessible to everyone"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To indicate that these members are to be shared with subclasses only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To make the class easier to inherit"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Private access modifiers restrict access to the members of a class from any other class, which secures data by encapsulation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "List Interface",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is used to add an element at a specific index in ArrayList?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "add(int index, E element)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "insert(int index, E element)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "put(int index, E element)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set(int index, E element)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The add(int index, E element) method inserts the specified element E at the specified position index in a list."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Servlet Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method is called by the servlet container to handle a GET request in a servlet?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "doGet(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "doPost(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "doHandle(HttpServletRequest req, HttpServletResponse resp)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "doRequest(HttpServletRequest req, HttpServletResponse resp)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The doGet(HttpServletRequest req, HttpServletResponse resp) method is explicitly designed to handle GET requests in a servlet."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Java Stream API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following methods is used to find the sum of elements in a stream of integers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "collect(Collectors.summingInt())"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mapToInt().sum()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sum()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "reduce(0, Integer::sum)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The mapToInt().sum() method converts the elements of the stream to integers and then calculates their sum."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Java File Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method would you use to check if a file exists in Java using the java.nio.file package?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Files.exists(Path path, LinkOption... opts)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "File.exists()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Files.getFile()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Path.exists()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to check if a file exists in Java using the java.nio.file package is Files.exists(Path path, LinkOption... opts). It takes a Path object and optionally some LinkOption as parameters."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Swing Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which class is used to create frames in Java Swing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JFrame"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JPanel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JContainer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JComponent"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'JFrame' class is used to create a window in Java Swing where components like buttons, labels, text fields can be added."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Map Interface",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if a null value is used as a key in a HashMap?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HashMap will store the null key successfully."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "HashMap throws a NullPointerException."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HashMap ignores the null key."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HashMap replaces the null key with a default value."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "HashMap allows one null key and multiple null values, so it will successfully store the null key without any issues."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Handling Exceptions in Java",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Java class is used to handle both checked and unchecked exceptions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "RuntimeException"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Exception"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Throwable"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Throwable' class is the superclass of all errors and exceptions in the Java language. Both checked and unchecked exceptions can be handled by catching 'Throwable' type."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Try-Catch Blocks",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, what will happen if a 'throw' statement is executed inside a try block and there is no corresponding catch block handling that specific exception type?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program will compile, but it will throw a runtime error when executed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program will compile and execute successfully, handling the exception with a default catch block."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The exception will propagate up the call stack until it finds a matching catch block or terminates the program."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The compiler will report an error and the program will not compile."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If an exception is thrown inside a try block and is not caught by a corresponding catch block within the same try-catch structure, it will propagate up the call stack. If it isn't caught anywhere, it will eventually cause the program to terminate."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Using Java Stream API",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to create a stream from a list in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list.stream();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stream.getList(list);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Stream.of(list);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "list.toStream();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to create a stream from a list in Java is using list.stream(). This method returns a sequential stream considering the collection as its source."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Socket Programming",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What method is used to listen for client requests in server sockets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "accept()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "listen()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "receive()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The accept() method is used in server sockets to listen for client requests and accept them to establish a connection."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Default Methods in Interfaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a major benefit of using default methods in interfaces in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They can declare object field variables."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They make multiple inheritance of behavior possible."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They override methods from the java.lang.Object class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They allow creation of fully abstract classes similar to interfaces."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as default methods enable developers to add new methods to interfaces without breaking the existing implementation of these interfaces."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "JDBC Commit and Rollback",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a transaction involving multiple updates to a database using JDBC, if one update fails, what is the default behavior concerning the previously successful updates before an explicit rollback is called?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They are also rolled back automatically"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are committed automatically"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They remain pending and can be committed or rolled back later"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The JDBC driver decides based on the SQL dialect"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "By default, JDBC operates in auto-commit mode, which means each individual SQL statement is treated as a transaction and is automatically committed right after it is executed, unless explicitly set to manual commit mode. In manual mode, if an update fails, previously successful updates will not be automatically rolled back unless an explicit rollback is called."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java IDE Configurations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a new IDE for Java development, which of the following is NOT a necessary step for integrating Maven into the IDE?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Configuring Maven home directory (M2_HOME)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Adding Maven dependencies manually to the project classpath"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setting up the location of the local Maven repository"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ensuring the IDE's Maven plugin is activated or installed"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Maven automatically handles dependencies based on the pom.xml file, so manually adding Maven dependencies to the classpath is not necessary when integrating Maven into an IDE."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "File Channels and Locks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is correct about the lock() method in the FileChannel class in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The lock() method is an asynchronous call and does not block other threads from accessing the file."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can place locks beyond the file size."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It throws a NonWritableChannelException if the channel was not opened for writing."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It only locks the file for reading by other processes."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lock() method in the FileChannel class allows placing a lock on any portion of the file, even beyond its current size, which can later grow into the locked area."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Mockito Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the Mockito framework, which of the following is the correct way to verify that a method 'processData()' is called exactly three times with any Integer as an argument?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "verify(mockObject, times(3)).processData(any(Integer.class));"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "verify(mockObject, times(3)).processData(anyInt());"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "verify(mockObject, exact(3)).processData(anyInt());"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mockObject.processData(verify(times(3), anyInt()));"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because 'anyInt()' is the correct matcher to use with primitive int arguments in Mockito, and 'times(3)' correctly specifies the number of invocations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "JSP Directives",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive in JSP is used to make the container preload the servlet and create an instance at the time of server startup?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "taglib"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "include"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "page"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "preload"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'page' directive in JSP can be used with the attribute 'loadOnStartup' set to a positive integer to instruct the container to load the servlet on startup."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Java Generics",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Java method declaration: public static <T extends Comparable<T>> T max(T x, T y). Which of the following statements is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The method can compare any type of objects as long as they are Comparable."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The method requires that T implements Comparable with a different generic type."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x and y must be instances of the same exact class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The method cannot compare String objects."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the method signature specifies that T must be a subtype of Comparable<T>, meaning any objects passed to this method must implement Comparable of their own type or a super type, allowing them to be compared to each other."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Memory Consistency Errors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Java application using multiple threads, if a thread modifies a shared variable without synchronization, which of the following issues is most likely to occur?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Race condition"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stack overflow error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Arithmetic exception"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because modifying a shared variable without proper synchronization can lead to a race condition where the value of the variable is unpredictable and depends on the sequence in which threads execute."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Concurrency in Java",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Java code snippet, what will be the output if the program is executed with two threads? \n\n public class Counter {\n private int count = 0;\n public synchronized void increment() {\n count++;\n }\n public int getCount() {\n return count;\n }\n }\n\n Each thread executes the increment method on the same Counter object 1000 times."
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The output can vary between 1000 and 2000, depending on the thread scheduler."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The output is always 2000."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The output is always 1000."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The output can be any number from 1 to 2000."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the 'increment' method is synchronized, it guarantees that the method will be executed atomically, preventing concurrent modifications. Thus, each of the 1000 calls per thread will be executed sequentially, ensuring the count reaches 2000."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of trying to connect a Java Socket at localhost on port 80, assuming no server is listening on that port?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The program will execute normally without any exceptions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The program will throw a SocketException."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program will throw an UnknownHostException."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The program will throw a ConnectException."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If no server is listening on the specified port, attempting to connect a socket will throw a ConnectException, indicating that the connection was refused."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Java Web Application Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a web application using Java Servlets, which deployment descriptor file must be accurately configured to ensure the application's correct execution in a Servlet Container?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "web.xml"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "manifest.mf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pom.xml"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "build.gradle"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "web.xml is the deployment descriptor used by Java Servlets to configure web application parameters, mappings, and settings."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Floating Point Precision",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of the following Java expression? double a = 0.1; double b = 0.2; double c = a + b;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0.3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0.30000000000000004"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0.29999999999999999"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0.4"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Due to floating-point precision errors in Java, the result of adding 0.1 and 0.2 results in a small error, leading to 0.30000000000000004 instead of the mathematically expected 0.3."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Debugging",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, which tool is used to inspect the JVM and analyze the memory usage of a Java application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JUnit"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JProfiler"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Java Decompiler"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Eclipse IDE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JProfiler is a tool specifically designed for analyzing the memory consumption and other performance aspects of a Java application."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "FileChannel Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java's NIO package, which method correctly transfers data from a source FileChannel to a destination FileChannel, ensuring the position of the source channel remains unaltered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sourceChannel.transferTo(0, sourceChannel.size(), destinationChannel);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "destinationChannel.transferFrom(sourceChannel, 0, sourceChannel.size());"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sourceChannel.position(0); destinationChannel.write(sourceChannel.map(FileChannel.MapMode.READ_ONLY, 0, sourceChannel.size()));"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ByteBuffer buffer = ByteBuffer.allocateDirect((int)sourceChannel.size()); sourceChannel.read(buffer); buffer.flip(); destinationChannel.write(buffer); sourceChannel.position(0);"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because it manually reads data into a ByteBuffer, writes it to the destination channel, and then explicitly resets the source channel's position to zero. This ensures the source channel\u2019s position remains unchanged after the operation, which is not guaranteed by the transferTo and transferFrom methods."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Switch Case Execution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code snippet if the variable 'day' is set to 3?"
+      },
+      {
+        "type": "image",
+        "value": "/assets/switch_case_code.png"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Wednesday"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Tuesday"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Thursday"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Compile-time error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code will cause a compile-time error because the case labels are not unique, violating the rules of the switch case structure in Java."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "JavaFX Scene Graph",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using JavaFX, which statement is true regarding the modification of the scene graph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can be modified from any thread."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can only be modified from the JavaFX Application thread."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It does not allow modifications once set."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It can be modified by any thread without restrictions."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JavaFX scene graph is not thread-safe and must be modified on the JavaFX Application thread to prevent issues."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Event Handling in Swing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java Swing, which of the following is true about handling an ActionEvent when multiple listeners are added to a JButton?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Only the last listener added will be notified of the event."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All listeners are notified in the order they were added."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Listeners are notified in a random order."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The first listener added will be the only one notified."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java Swing, all registered listeners to a component are notified of an event in the sequence they were added. This follows the Observer pattern where the subject notifies all observers."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Java class definition:\n\npublic class Student {\n    private String name;\n    private int age;\n\n    public Student(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n\n    public void setName(String name) { this.name = name; }\n    public void setAge(int age) { this.age = age; }\n    public String getName() { return name; }\n    public int getAge() { return age; }\n}\n\nWhich of the following statements accurately represents the principle of encapsulation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encapsulation is violated because the attributes are private and not accessible outside the class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encapsulation is maintained as the attributes are private and only accessible through public methods."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Encapsulation does not require methods to access the attributes; making them private is enough."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encapsulation is only about hiding the complexity and not about data protection."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because encapsulation in object-oriented programming involves restricting direct access to some of an object's components, which is achieved here by making the attributes private and providing public methods to access and modify them."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Classpath Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When setting up a Java development environment, what is the correct command to permanently set the CLASSPATH variable on a Linux-based system to include the /usr/local/java/classes directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "export CLASSPATH=$CLASSPATH:/usr/local/java/classes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "set CLASSPATH=/usr/local/java/classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "export CLASSPATH=/usr/local/java/classes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CLASSPATH=$CLASSPATH:/usr/local/java/classes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the 'export' command to set the environment variable permanently for the session, and correctly appends the new directory to the existing CLASSPATH using $CLASSPATH."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, considering the Java Memory Model, which statement is true about the 'volatile' keyword?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A volatile variable guarantees that the value of the variable will be read from and written to main memory."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Declaring a variable as volatile provides mutual exclusion access similar to synchronized blocks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Volatile variables can be cached in the thread's local cache just like non-volatile variables."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The volatile keyword can be applied to object reference variables, but not to primitive data types."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A volatile variable ensures visibility of changes to variables across threads. Each read and write is done directly to and from main memory, not cached locally first. This does not provide mutual exclusion but ensures that a value written by one thread is immediately visible to other threads."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following code, what is the output of the program?\npublic class Animal {\n    void makeSound() {\n        System.out.println(\"Generic Animal Sound\");\n    }\n}\n\nclass Dog extends Animal {\n    void makeSound() {\n        System.out.println(\"Bark\");\n    }\n}\n\nclass Main {\n    public static void main(String[] args) {\n        Animal myAnimal = new Dog();\n        myAnimal.makeSound();\n    }\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bark"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generic Animal Sound"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No output"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Runtime Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A. This is an example of polymorphism where the Dog class overrides the makeSound method of its superclass Animal. Even though the reference type is Animal, the object type is Dog, and thus the overridden method in Dog is called."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a multi-threaded server handling multiple client connections simultaneously, which Java class is ideally used to manage client-specific tasks within a new thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java.net.ServerSocket"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "java.net.Socket"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java.lang.Thread"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "java.util.concurrent.ExecutorService"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The java.util.concurrent.ExecutorService is ideal for managing multiple threads efficiently, allowing the server to handle each client connection in a separate thread without the need to manually manage thread lifecycle."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Locks and Synchronization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the intrinsic lock in Java when using the synchronized keyword on a static method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The lock is held on the Class object associated with the instance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The lock is held on the specific instance of the class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The lock is held on the Class object of the class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No lock is used when a static method is synchronized."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a static method is synchronized, the lock is on the Class object of the class, not any instance."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Serialization in Java",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if a Serializable object contains a member which is not serializable and you attempt to serialize the object?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The object will be partially serialized, skipping the non-serializable member."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Serialization will fail, throwing a NotSerializableException."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Java automatically makes the non-serializable member serializable."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The non-serializable member is set to its default value upon serialization."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If an object contains a member that does not implement Serializable, serialization of the object will fail and raise a NotSerializableException, indicating that the object cannot be serialized due to the non-serializable member."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Java Stream API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, which of the following correctly demonstrates the use of the 'flatMap' function in Stream API for flattening a stream of Lists of integers to a stream of integers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listOfIntStream.flatMap(list -> list.stream())"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "intStream.flatMap(list -> list.stream())"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "listOfIntStream.map(list -> list.stream())"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "listOfIntStream.flatMapToInt(list -> list.stream())"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because 'flatMap' is used to flatten a Stream of Streams by applying a flat transformation function, which in this case is 'list.stream()', converting a List of integers into a Stream of integers."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the Java Memory Model, what does 'happens-before consistency' imply for actions within a single thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Each action in a thread appears to be executed in the same order as in the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Actions in a single thread can be reordered as long as no synchronization is involved."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Actions in different threads are always executed concurrently."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Each action in a thread can be delayed indefinitely unless synchronized."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Happens-before consistency ensures that within the same thread, all actions appear to happen in the order specified by the program, regardless of the actual execution order by the JVM. This provides predictability and correctness in single-threaded execution contexts."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Java Primitive Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the default value of a local variable of type float in a method in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0.0f"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0.0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "null"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Local variables in Java do not have a default value and must be explicitly initialized before use."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, what happens to the local variables once a method call is completed and the stack frame is popped off the stack?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They are transferred to the heap."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are kept in the stack for future method calls."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They are subject to garbage collection."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They continue to exist until the application ends."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Local variables are stored in the stack frame of a method. When the method completes, the stack frame is removed, making local variables no longer accessible and subject to garbage collection if no other references to them exist."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "JUnit Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In JUnit, what is the purpose of the @Rule annotation and how does it differ from @Before and @After annotations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@Rule allows for more flexible and powerful initialization and cleanup, with the ability to create custom rules."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@Rule replaces both @Before and @After by combining their functionalities."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@Rule is deprecated and should not be used in modern JUnit tests."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@Rule is specifically used for parameterized tests only."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "@Rule in JUnit provides a means to implement custom rules which can take the place of setup and teardown code, usually encapsulated in the @Before and @After annotations. Unlike these annotations which are limited to fixed methods, @Rule can be used to create flexible and powerful initialization and cleanup procedures."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Abstract Methods in Interfaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an interface in Java with an abstract method. If a class implements this interface but does not provide the implementation of the abstract methods, which of the following is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The class must be declared abstract."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The class can omit method body with no issues."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The class should be declared as final."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The abstract method can be omitted entirely."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If a class implements an interface but does not implement all of its abstract methods, the class must itself be declared abstract. This prevents instantiation of the class while still allowing its use as a superclass."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Configuring System Variables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of setting up a Java development environment, why is it necessary to append the JDK installation path to the PATH system variable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow the operating system to locate Java executables like javac and java"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the system performance when running Java applications"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enable automatic updates for the JDK"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To secure the JDK installation from unauthorized modifications"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Appending the JDK installation path to the PATH system variable enables the operating system to locate and execute Java binaries like javac (Java compiler) and java (Java runtime) directly from the command line, without needing to specify their full paths."
+      }
+    ]
+  }
+]

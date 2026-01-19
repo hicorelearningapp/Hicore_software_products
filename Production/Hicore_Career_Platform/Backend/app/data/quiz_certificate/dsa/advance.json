@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 5,
+    "topic": "Binary Search Variations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a sorted array that has been rotated at an unknown pivot, which of the following modifications to the traditional binary search algorithm is necessary to efficiently find an element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Modify the algorithm to first find the pivot where the array is rotated."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Adjust the binary search to start from the midpoint regardless of the pivot."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Implement a linear search instead of binary search."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No modification is necessary; traditional binary search will still work."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To find an element in a rotated sorted array, you must first identify the pivot point where the order breaks. After finding the pivot, you can apply binary search on one of the two subarrays which are normally sorted."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Binary Search Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a binary search tree (BST) which initially contains values 10, 20, 30, 40, 50. Which of the following sequences of values can be an in-order traversal after inserting a single new value into the BST?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10, 15, 20, 30, 40, 50"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10, 20, 35, 30, 40, 50"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10, 20, 30, 35, 40, 50"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10, 20, 30, 40, 50, 60"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In-order traversal of a BST provides elements in a non-decreasing order. Option C is the only sequence that maintains this order after inserting a new value (35)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Hash Tables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of hash tables, what is the worst-case time complexity of searching for an element in a poorly implemented hash table using chaining as a collision resolution technique?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst case, all items could end up in the same bucket, leading to a time complexity of O(n) for search operations, where n is the number of elements in the hash table."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Recursion and Backtracking",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a recursive function designed to find the maximum path sum from top to bottom in a binary tree, what is the time complexity if every node has at most two children and the height of the tree is h?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(h)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log h)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(h^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(2^h)"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The recursive function is called for each node in the binary tree, leading to a time complexity of O(2^h), where h is the height of the tree."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Binary Search Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a binary search tree, which of the following operations has a worst-case time complexity of O(n) when the tree degenerates into a linked list?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Insertion"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deletion"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Searching"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a binary search tree degenerates into a linked list, all operations such as insertion, deletion, and searching require traversing the list from the start to the point of interest, leading to a worst-case time complexity of O(n)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Algorithm Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a function that calculates the nth Fibonacci number using a naive recursive approach, what is the time complexity?"
+      },
+      {
+        "type": "formula",
+        "value": "T(n) = T(n-1) + T(n-2) + O(1)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(2^n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The naive recursive approach for Fibonacci sequence computation has a time complexity of O(2^n) due to the exponential growth of recursive calls, as each call generates two additional calls except for the base cases."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Dynamic Arrays",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a dynamic array that doubles its size when it reaches capacity. Starting with an initial capacity of 4, how many total copies of the array are made by the time 17 elements have been added, including the initial allocation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Initially, the array has a capacity of 4. After 4 elements, it doubles to 8 (first copy), and after 8 elements, it doubles to 16 (second copy). At 17 elements, it doubles again to 32 (third copy). Thus, there are three copies made after the initial allocation."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Graph Traversal Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a directed acyclic graph (DAG), if we perform a topological sort and then reverse the order of the resulting list, what specific ordering of the nodes do we achieve?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Reverse topological order"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Lexicographical order"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Depth-first search completion order"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Breadth-first search order"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reversing the topological sort of a DAG results in the reverse topological order. This order is the exact opposite of the dependencies direction in the DAG."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Graph Traversal",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a directed acyclic graph (DAG), which of the following statements is true regarding a Depth First Search (DFS) traversal?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DFS will always visit all nodes in the graph if started from any node"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The finish time of a node will always be greater than all nodes reachable from it"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The start time of a node will always be less than all nodes reachable from it"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DFS cannot be used to find the shortest path in a DAG"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a DFS of a DAG, once a node is finished, all nodes reachable from that node have already been explored and finished, hence their finish time is less."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Binary Search Application",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a sorted array that has been rotated at some unknown pivot, how would you efficiently find the minimum element using binary search?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compare middle element with the last element to decide the search direction"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compare middle element with the first element to decide the search direction"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use linear search after finding the middle element"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Always select the middle element as the minimum"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a rotated sorted array, to find the minimum element, compare the middle element with the last element. If the middle element is greater, the minimum is in the right half; if not, it's in the left half. This binary search modification efficiently finds the minimum in O(log n) time."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Algorithmic Problem Solving in Real-world Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a large dataset of student records that need to be sorted based on multiple fields (name, grade, and date of birth). Which sorting algorithm would be best suited for this scenario, assuming that comparison operations are costly?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Merge Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Heap Sort"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge Sort is ideal for scenarios where comparison is expensive because it minimizes the number of comparisons in the worst case. For large datasets like this, its stability and efficiency in handling large data make it the optimal choice."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Segment Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary advantage of using a Segment Tree over a Fenwick Tree (Binary Indexed Tree) for range queries and updates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Segment Trees provide faster query times."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Segment Trees support more complex operations like finding the maximum or minimum in a range, not just sum."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Segment Trees use less memory."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Segment Trees are easier to implement."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "While both data structures provide logarithmic time complexity for range queries and updates, Segment Trees support a wider variety of operations beyond just sum, including minimum or maximum range queries, which Fenwick Trees do not inherently support."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Algorithm Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a sorted array of integers and a target value, which of the following algorithmic approaches is the most efficient for determining if the target exists in the array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linear search"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Binary search"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bubble sort and search"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Recursive search"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search is the most efficient for sorted arrays, with a time complexity of O(log n), compared to linear search's O(n). Bubble sort is not needed as the array is already sorted, and recursive search lacks the specific efficiency of binary search in this context."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Arrays",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an unsorted array of n integers, which of the following operations is most efficient in terms of time complexity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Finding the maximum element"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Deleting a specific element given its index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inserting an element at a specific index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Searching for a specific element"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Finding the maximum element in an unsorted array can be achieved in O(n) by iterating through the array once, which is more efficient than deleting or inserting at a specific index (O(n) but requires additional operations), or searching for a specific element (O(n) but with potentially higher constant factors depending on the data)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Sorting Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following sorting algorithms has the best worst-case runtime complexity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Quick Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Merge Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Insertion Sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Merge Sort has a worst-case time complexity of O(n log n), which is more efficient compared to Quick Sort's O(n^2) and both Bubble Sort's and Insertion Sort's O(n^2) in their worst-case scenarios."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Complexity of Sorting Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is TRUE about the space complexity of merge sort and quick sort?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Merge sort and quick sort both have a space complexity of O(log n)."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Merge sort has a space complexity of O(n) while quick sort has a space complexity of O(log n)."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Merge sort has a space complexity of O(log n) while quick sort has a space complexity of O(1)."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both merge sort and quick sort have a space complexity of O(n log n)."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because merge sort requires additional space for the temporary arrays used in merging, leading to a space complexity of O(n), whereas quick sort, which is generally implemented in place, has a space complexity of O(log n) due to the call stack during recursion."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Tree Traversal",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a binary search tree, which traversal method would you use to print the elements of the tree in descending order?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "In-order Traversal"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Pre-order Traversal"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Post-order Traversal"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Reverse In-order Traversal"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In-order traversal of a binary search tree prints the elements in ascending order. To print in descending order, a reverse in-order traversal (right-left-root) is used."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a directed graph where every vertex is connected to every other vertex via a unique directed edge. If there are 5 vertices in the graph, how many unique shortest paths exist from vertex A to vertex E assuming there are no weights on the edges?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "24"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "120"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "4"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a fully connected directed graph, there is exactly one direct edge from any vertex A to vertex E, making the unique shortest path count 1."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Sorting Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a stable sorting algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Merge Sort"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Insertion Sort"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bubble Sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Quick Sort"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quick Sort is not a stable sorting algorithm because the relative order of equal sort items is not necessarily preserved."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Complexity Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of algorithms, what is the time complexity of finding an element in a balanced binary search tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The time complexity of finding an element in a balanced binary search tree is O(log n) because each step cuts the search space in half."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Complexity in Searching Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a sorted array of 1 million integers, what is the worst-case time complexity of finding an element using binary search?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search divides the array into halves iteratively, leading to a logarithmic complexity O(log n), where n is the size of the array."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Recursion and Iteration Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "A recursive algorithm and an iterative algorithm are implemented to solve the same problem. If the time complexity of the recursive algorithm is represented by T(n) = 2T(n/2) + n and the iterative version has a time complexity of O(n log n), which scenario would lead to a better performance of the recursive algorithm over the iterative one with respect to space complexity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the depth of the recursion tree is less than log n"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When the depth of the recursion tree is greater than log n"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When auxiliary space used by recursion is optimized using tail recursion"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The iterative algorithm always has better space complexity"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because tail recursion, an optimized form of recursion, helps in reducing the space complexity by reusing stack frames and hence can be more space-efficient than an iterative approach which uses separate space for each loop iteration."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Algorithm Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best time complexity that can be achieved through any comparison-based sorting algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(N)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(N log N)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(log N)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(N^2)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lower bound for any comparison-based sorting algorithm is O(N log N), as proven by the decision tree model of computations, which shows that at least log_2(N!) comparisons are necessary."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Amortized Analysis",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of amortized analysis, which data structure typically uses an incremental strategy where the structure is expanded by doubling its size each time it reaches capacity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Linked List"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash Table"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Binary Search Tree"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Dynamic Array"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic arrays typically use an incremental strategy for expansion. Each time the array reaches its capacity, it doubles in size. This strategy is analyzed using amortized analysis to show that the average time per operation is constant, even though individual operations might be costly."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an undirected graph with V vertices and E edges, what is the time complexity of using Depth-First Search (DFS) to determine if a cycle exists in the graph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(E)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(V + E)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(V^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(E log V)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DFS explores each vertex once and examines an edge at most twice. The time complexity is O(V + E), accounting for the time to visit each vertex and explore each edge."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Array Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of inserting an element at the beginning of an array with 'n' elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element at the beginning of an array requires shifting all existing elements one position to the right, resulting in a time complexity of O(n)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Time Complexity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider two algorithms. Algorithm A has a time complexity of O(n log n) and Algorithm B has a time complexity of O(n^2). For large values of n, which algorithm is more efficient and why?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Algorithm A, because logarithmic growth is slower than polynomial growth."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Algorithm B, because polynomial growth is slower than logarithmic growth."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both are equally efficient as their time complexities are polynomial."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cannot determine without knowing more about the specific tasks the algorithms perform."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Algorithm A is more efficient for large values of n because O(n log n) grows slower compared to O(n^2). This means Algorithm A will generally have fewer steps as n becomes large."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Collision Resolution Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios best justifies the use of Quadratic Probing over Linear Probing in a hash table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "When the hash table is less than half full"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "When the hash function is not uniformly distributing the keys"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "When there are many sets of keys that map to the same hash value"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "When the keys to be inserted are known in advance"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Quadratic probing helps to reduce clustering better than linear probing, especially beneficial when the hash function has not distributed keys uniformly across the table."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a directed graph, what is the time complexity of finding all pairs shortest path using the Floyd-Warshall algorithm?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(N^2)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(N^3)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(N log N)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(2^N)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Floyd-Warshall algorithm iterates through all pairs of vertices and updates the shortest paths, which leads to a time complexity of O(N^3)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a directed graph where each edge has a positive weight. You are given the task to find the shortest path from a source vertex to a target vertex. Which algorithm would be most appropriate if the graph contains negative weight cycles?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dijkstra's Algorithm"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Bellman-Ford Algorithm"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Floyd-Warshall Algorithm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A* Search Algorithm"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dijkstra's algorithm is not suitable for graphs with negative weight cycles; it fails to compute the correct shortest path. The Bellman-Ford algorithm, however, can accommodate graphs with negative weight cycles and is capable of reporting if no solution exists due to these cycles."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Binary Search Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a Binary Search Tree (BST) where each node contains integer values, which of the following operations will result in an unbalanced BST if performed repeatedly?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inserting an element greater than all existing elements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inserting an element less than all existing elements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inserting random elements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inserting elements in ascending order"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inserting an element greater than all existing elements repeatedly causes right-skewed growth, which unbalances the BST as it takes the form of a linked list, increasing search operation complexity to O(n)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Hash Table Collision Resolution Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a hash table that uses chaining for collision resolution, what is the worst-case time complexity for searching for an element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(1)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(logN)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(N)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(N^2)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst case, all elements could be hashed to the same bucket, leading to a time complexity of O(N) as each element in the bucket must be checked."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Binary Search",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an infinite sorted array where numbers are not consecutive but are in increasing order. You are given a target number to search. Which of the following methods optimizes the time complexity for finding the target?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a simple binary search from the start without modifications."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Expanding the search range exponentially, then performing a binary search within the range."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Performing a linear search from the start of the array."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sorting the array again in descending order and using binary search."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because initially expanding the range exponentially (like 2^0, 2^1, ... until the upper bound is greater than the target) and then performing binary search within that known range optimizes the time complexity for an infinite sorted array scenario."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a directed graph, which of the following statements is TRUE regarding a depth-first search (DFS) traversal starting from a node u?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DFS traversal will visit all nodes reachable from u in increasing order of their distances from u."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DFS traversal guarantees to find the shortest path from u to any other node in the graph."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DFS traversal may not visit all nodes in the graph if there are cycles."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DFS traversal can be used to detect cycles and topologically sort the graph."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DFS traversal can indeed be used to detect cycles in directed graphs by checking for back edges during the traversal. Additionally, DFS can be utilized for topological sorting by ordering vertices according to their finishing times."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Binary Search Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a Binary Search Tree (BST) in which each node has an additional field that is the size of the subtree rooted at that node. What is the time complexity to find the kth smallest element in the BST?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(k)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(k log n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "With the size of each subtree available, a modified binary search can be applied, making the time complexity O(log n) on average if the tree is balanced."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Arrays",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the time complexity of finding the median in an unsorted array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(log n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(1)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Finding the median in an unsorted array can be achieved in O(n) time complexity using the Quickselect algorithm, which is a selection algorithm to find the kth smallest element in an unordered list."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Recursive Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a recursive algorithm designed to find the factorial of a number. What is a potential drawback of using recursion for this problem in real-world applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased memory usage due to stack overflow"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreased accuracy of the result"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Longer execution time compared to iterative solutions"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Recursive algorithms, especially for calculating factorial, can lead to increased memory usage due to the large number of stack frames created for each function call. This can lead to stack overflow if the recursion is too deep. Accuracy is not typically affected, and execution time can be similar to iterative solutions, although it can vary."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a sequence, a1, a2, ..., an, the function f(i, j) represents the sum of ai, ..., aj inclusive. If f(i, j) is exactly divisible by n, count the number of possible (i, j) pairs. The sequence is [2, 4, 1, 3, 5]. What is the count of such pairs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "5"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Calculate the sum for each possible (i, j) pair and check its divisibility by n. Pairs (3, 4) and (1, 5) match the criteria."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Hash Table Collision Resolution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which collision resolution technique in hash tables does NOT require additional memory outside the initial array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Separate Chaining"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Open Addressing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Double Hashing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Rehashing"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Open addressing resolves collisions by probing, or searching through alternate locations in the array (by following a sequence determined usually by another hash function). Unlike separate chaining, it does not require additional memory for storing elements outside the initial array."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Algorithmic Efficiency",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering an algorithm that sorts a list of integers using a divide and conquer approach with a complexity of O(n log n), which of the following modifications would most likely increase its efficiency in terms of time complexity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increasing the number of divisions in the divide phase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Applying a hybrid sorting method that switches to a different algorithm for smaller subarrays"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decreasing the threshold for recursion to a smaller size"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a single, fixed pivot in every division phase"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because using a hybrid sorting method, such as switching to insertion sort for small subarrays, can optimize the overall sorting process by reducing overhead and improving cache efficiency, which is especially beneficial for smaller data sets within the divide and conquer framework."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Complexity Analysis of Recursive Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a recursive algorithm that splits a problem into 5 subproblems of half the size each iteration, with a linear-time combination step. Which of the following represents the time complexity of the algorithm?"
+      },
+      {
+        "type": "formula",
+        "value": "T(n) = 5T(\\frac{n}{2}) + cn"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "formula",
+        "value": "O(n^\\log_2{5})"
+      },
+      {
+        "label": "B",
+        "type": "formula",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "C",
+        "type": "formula",
+        "value": "O(n \\log n)"
+      },
+      {
+        "label": "D",
+        "type": "formula",
+        "value": "O(n)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the Master Theorem, we find that a = 5, b = 2, and f(n) = cn. Comparing log_b(a) = log_2(5) with the polynomial degree of f(n), which is 1, log_2(5) > 1, thus the solution by the Master Theorem falls in Case 1 where T(n) = Theta(n^log_b(a))."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Sorting Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the worst-case time complexity of QuickSort when all elements of the input array are identical?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(n)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(log n)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the worst-case scenario, particularly when all elements are identical, QuickSort degrades to a quadratic time complexity, O(n^2), due to unbalanced partitioning."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Control Structures",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a complex system where multiple conditions influence the execution path, which control structure allows for multiple conditions to be checked sequentially until one of the conditions is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Nested if-else"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Switch-case"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Do-while loop"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Else-if ladder"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An else-if ladder is appropriate for checking multiple conditions sequentially, where each condition is checked only if the previous ones are false."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Graph Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a directed graph, what is the time complexity of detecting a cycle using Depth-First Search (DFS)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(V)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O(V + E)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(V^2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(E^2)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The time complexity of cycle detection using DFS in a directed graph is O(V + E) where V is the number of vertices and E is the number of edges. This accounts for visiting each vertex and exploring each edge."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Master Theorem",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a recurrence relation T(n) = 2T(n/2) + n log n, which of the following is the correct asymptotic complexity using the Master Theorem?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "O(n log n)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "O((n log n)^2)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "O(n log^2 n)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "O(n^2)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the Master Theorem, we first identify a = 2, b = 2, and f(n) = n log n. This places us in the third case of the Master Theorem where f(n) grows faster than n^log_b(a) = n. Comparing the growth rate of f(n) with n log_b(a), we find that f(n) = n log n is the dominant term. Thus, the solution to the recurrence is Theta(n log^2 n)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Hash Table Collision Resolution",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What advanced method of collision resolution in hash tables allows for constant time complexity on average for search, insert, and delete operations, but increases space complexity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Separate chaining with linked lists"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Open addressing with quadratic probing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Open addressing with double hashing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Cuckoo hashing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Cuckoo hashing is an advanced method that provides constant time complexity on average for search, insert, and delete by using two or more hash functions and a well-defined system of relocating keys. However, this method uses more space to achieve these time complexities."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Binary Search Variants",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an infinite sorted array where elements follow a pattern, with every nth element being the square of an integer (e.g., [1, 4, 9, 16, ...]). Using a modified binary search, which is the minimum number of steps required to find the position of the number 256?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "8 steps"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "16 steps"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "12 steps"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10 steps"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the array follows the squares of integers, the position of 256 (which is 16^2) can be calculated by finding the square root of 256, giving 16. Using binary search, it takes log2(16) which is 4, then doubling the window size logarithmically requires an additional 4 steps."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Binary Search Trees",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a binary search tree, if you perform an in-order traversal, which of the following sequences could represent the output for a correctly structured binary search tree?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1, 3, 4, 6, 8, 10, 11"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10, 6, 4, 3, 8, 11, 1"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "11, 10, 8, 6, 4, 3, 1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 3, 4, 6, 11, 8, 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A presents a sequence that could result from an in-order traversal of a binary search tree (smallest to largest), which adheres to the left-root-right rule inherent to in-order traversals. The other sequences do not reflect the necessary ascending order."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Structures and Algorithm Complexity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an array of integers where each element represents the maximum number of steps that can be jumped going forward from that element, write the function 'minJumps(start, end)' to determine the minimum number of jumps you must take to go from the start position to the end position."
+      },
+      {
+        "type": "formula",
+        "value": "function minJumps(start, end) { // function definition }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a greedy approach to take the furthest reachable step at each move."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement a depth-first search to explore all possible paths and choose the shortest."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Apply dynamic programming to find the minimum jumps from start to end by building a jumps table."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sort the array and linearly iterate to find the minimum jumps."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Dynamic programming is the most efficient way to solve this problem. By building a jumps table that records the minimum jumps needed to reach each index from the start, one can efficiently determine the minimum jumps needed to reach the end."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Efficiency of Sorting Algorithms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an array consisting of n elements that are initially sorted but then rotated k positions, what is the most efficient way to find the minimum element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use linear search to find the minimum."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use binary search to find the minimum."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sort the array again and select the first element."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use quicksort and select the first element after sorting."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Binary search can be modified to efficiently find the minimum element in a rotated sorted array with a complexity of O(log n), which is more efficient than linear search O(n) or re-sorting the array O(n log n)."
+      }
+    ]
+  }
+]

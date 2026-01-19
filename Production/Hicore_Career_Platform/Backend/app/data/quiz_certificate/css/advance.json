@@ -1,0 +1,2030 @@
+[
+  {
+    "id": 5,
+    "topic": "Advanced CSS Animations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What CSS property combination allows a developer to create a continuous animation that rotates an element 360 degrees indefinitely?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@keyframes rotate { 100% { transform: rotate(360deg); } }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "transition: transform 2s; transform: rotate(360deg);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "animation: rotate 2s infinite linear;"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because it combines the use of the 'animation' shorthand property with the necessary parameters to create an infinite, linear, 2-second animation cycle named 'rotate'. The @keyframes rule should define the rotating effect from 0 degrees to 360 degrees."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Scope in Sass and LESS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Sass, what is the output of compiling the following code snippet when the variable $color is globally declared as 'blue' outside of the nested structure, and locally declared as 'red' within the nested structure? \n\n$color: blue;\n.outer {\n  .inner {\n    $color: red;\n    color: $color;\n  }\n  color: $color;\n}"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".outer { color: blue; }\n.outer .inner { color: red; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".outer { color: red; }\n.outer .inner { color: red; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".outer { color: blue; }\n.outer .inner { color: blue; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, the local variable declaration within the nested structure does not affect the global scope outside of it. Hence, inside .inner, $color is red, but in .outer, it remains blue as defined globally."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Responsive Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a responsive web design, what advanced technique can be used to switch between Flexbox and CSS Grid based on the viewport size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use media queries to change the display property from Flexbox to Grid or vice versa."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement JavaScript to dynamically adjust the CSS based on viewport size."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Assign a fixed width and height that adjusts automatically to the screen size."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use percentage-based sizing in Flexbox to match the Grid's fractional units."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Media queries are the most effective method for altering layout properties such as switching from Flexbox to CSS Grid based on the viewport dimensions, facilitating optimal layout rendering in different devices."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Combining Flexbox and CSS Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating Flexbox and CSS Grid, what is the most efficient method to ensure that Flexbox-managed items align consistently with CSS Grid-defined columns in a complex layout?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use the 'align-self' property on Flexbox items to match the grid alignment."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Apply 'margin: auto' to Flexbox items to automatically align them with the grid."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Define explicit grid lines in CSS Grid and use 'order' in Flexbox to align items accordingly."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Utilize CSS custom properties to sync values between Flexbox and CSS Grid properties."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using CSS custom properties allows for synchronization of layout properties between Flexbox and CSS Grid, enabling consistent alignment across different layout models."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced Nesting and Scope in Sass",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a nested Sass structure, if you have a local variable declared within a nested rule that has the same name as a global variable, which variable will be used within the scope of the nested rule?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The global variable"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The local variable"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both will be combined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None, it results in an error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, when a local variable is declared within a nested rule and shares the same name as a global variable, the local variable takes precedence within that scope."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "CSS Combinators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If you have the following HTML and CSS, what color will the text inside the <span> element be?"
+      },
+      {
+        "type": "text",
+        "value": "HTML: <div><p>Paragraph <span>Important</span></p></div>\nCSS: div > p > span { color: yellow; }\ndiv p span { color: orange; }\nspan { color: purple; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "yellow"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "orange"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "purple"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The color will change depending on the browser."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The selector 'div > p > span { color: yellow; }' is a direct child selector and is more specific compared to the other selectors, hence it applies."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following HTML and CSS, what will be the color of the text within the <p> tag? <html><head><style>body p { color: blue; } div p { color: green; }</style></head><body><div><p>Hello World!</p></div></body></html>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Blue"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Green"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Red"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Black"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CSS selector 'div p' has higher specificity compared to 'body p' because it targets a p element specifically within a div element."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "CSS Frameworks and Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating a CSS framework into a project, what is a crucial consideration regarding media queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensuring that the framework\u2019s breakpoints do not conflict with the custom media queries."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Making sure the framework uses only 'min-width' media features for compatibility."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Checking if the framework supports JavaScript-based animations for responsive designs."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Confirming the framework includes polyfills for all CSS selectors used."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "It's essential to ensure that the breakpoints defined by the CSS framework do not interfere with any custom media queries you might add to your project, to avoid unexpected behavior in the layout at certain resolutions."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the HTML element <div id='unique' class='info important'>, which CSS selector will have the highest specificity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "div.important"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "#unique"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "div#important"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".info"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ID selector (#unique) has a higher specificity score (100) compared to class (.important or .info) which has a specificity score of 10, and element (div) which has a specificity score of 1."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Nesting Capabilities in Sass and LESS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Sass code snippet:\n\n$font-stack: Helvetica, sans-serif;\n$primary-color: #333;\n\nbody {\n  font: 100% $font-stack;\n  color: $primary-color;\n  nav {\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n    }\n    li { display: inline-block; }\n    a {\n      display: block;\n      padding: 6px 12px;\n      text-decoration: none;\n    }\n  }\n}\n\nWhat will be the compiled CSS for 'nav li a' selector?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "nav li a { display: block; padding: 6px 12px; text-decoration: none; font: 100% Helvetica, sans-serif; color: #333; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "nav li a { display: block; padding: 6px 12px; text-decoration: none; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "nav li a { display: block; padding: 6px 12px; text-decoration: none; margin: 0; padding: 0; list-style: none; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "nav li a { font: 100% Helvetica, sans-serif; color: #333; }"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, when using nesting, each nested selector is independent unless it inherits properties from a higher-level parent selector. The 'nav li a' selector only inherits the display, padding, and text-decoration properties explicitly defined within its block."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Nesting and Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Sass code snippet: #main { $width: 5em; #sidebar { width: $width; } } What will be the width of the sidebar?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5em"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0em"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error thrown"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, variables are accessible within the scope they are defined, including nested rules. The $width variable is correctly scoped to be accessible within #sidebar, thus the width of the sidebar is 5em."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "CSS Transitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact of using 'translateZ(0)' in a CSS transition on a 2D element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It forces the element into a new layer, improving performance by enabling hardware acceleration."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It causes the element to rotate in 3D space, which can distort the text."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It creates a blur effect on the element for the duration of the transition."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It has no impact as 'translateZ(0)' is ineffective on 2D transforms."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'translateZ(0)' in transitions for 2D elements forces the browser to create a new layer for the element, which can enable hardware acceleration and potentially enhance performance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Mixin Usage in Sass",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to create a mixin in Sass that includes an if-else statement to apply different styles based on a passed condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@mixin style($condition) { @if $condition { color: blue; } @else { color: red; } }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@mixin style($condition) { if $condition { color: blue; } else { color: red; } }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@function style($condition) { @if $condition { color: blue; } @else { color: red; } }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@mixin style($condition) { if ($condition == true) { color: blue; } else { color: red; } }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly uses the @mixin directive with the @if and @else directives to conditionally apply CSS rules based on the passed condition."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "CSS Transitions and User Perception",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS property is essential for creating a transition effect that changes the layout from a grid to a flexbox while hovering, ensuring a perceived smooth transformation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "transition-property: display;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "display: flex;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "transition: all 0.5s ease;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "flex-direction: column;"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because 'transition: all 0.5s ease;' applies a half-second transition to all properties that change during the hover state, including display changes from grid to flex, ensuring a smooth perceptual transition."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Media Query Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following media query conditions is correct for targeting high-density retina displays with a minimum resolution of 300 dpi?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media (min-resolution: 300dpi) { ... }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media (min-device-resolution: 300dpi) { ... }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media (resolution: >300dpi) { ... }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media (device-resolution: 300dpi) { ... }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for targeting screens with a minimum resolution of 300 dpi is '@media (min-resolution: 300dpi) { ... }'. The other options use incorrect or non-existent media features."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "CSS Transitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the role of the 'cubic-bezier' function in CSS transitions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows for the creation of complex chained transitions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It defines a custom timing function to control a transition's speed curve."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to delay the start of a transition."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It specifies the number of times a transition should repeat."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'cubic-bezier' function in CSS transitions is used to define a custom timing function, which allows developers to specify the speed curve of the transition, controlling how the transition progresses over its duration."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Combining Flexbox and CSS Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When combining Flexbox and CSS Grid in a complex web layout, what is the primary reason to use Flexbox for inner content items instead of just using CSS Grid for all layout elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To utilize Flexbox's simpler syntax for one-dimensional layout control"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To rely solely on CSS Grid for performance optimization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Because Flexbox does not support responsive design"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Flexbox is outdated and less powerful compared to CSS Grid"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Flexbox is primarily used for one-dimensional layouts (either a row or a column), which offers simpler control and syntax for aligning content items within a container, making it ideal for inner content layouts within a complex CSS Grid structure."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS rules, which color will the text of a <p> element with class 'info' and id 'news' be if the HTML page contains exactly this snippet: <p class='info' id='news'>Latest News</p>?"
+      },
+      {
+        "type": "text",
+        "value": "#news { color: blue; } .info { color: red; } p { color: green; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "blue"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "red"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "green"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "none of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ID selector (#news) has higher specificity than class (.info) and type (p) selectors, so it will override the others and the text color will be blue."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "CSS Frameworks and Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS framework uses a mobile-first approach and what would be the correct media query to hide elements only on extra small devices?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap; @media (max-width: 576px) { .hidden-xs { display: none; } }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Foundation; @media only screen and (max-width: 40em) { .hide-for-small-only { display: none; } }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Bootstrap; @media (min-width: 576px) { .hidden-xs { display: none; } }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Skeleton; @media (max-width: 480px) { .hide-on-mobile { display: none; } }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because Bootstrap uses a mobile-first approach and the provided media query correctly targets devices with a maximum width of 576px to hide elements with the class .hidden-xs."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Responsive Design with Grid and Flexbox",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In responsive web design, what is a key advantage of using Flexbox over CSS Grid for individual component layouts within a larger grid structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Flexbox better handles dynamic content that changes size based on content."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CSS Grid is not compatible with Flexbox."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Flexbox is more performant in rendering large scale layouts."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CSS Grid simplifies the syntax needed for complex alignments."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Flexbox excels in managing space distribution and alignment in one dimension, making it ideal for handling dynamic content that may change size, such as varying text lengths or images within a component."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a high-density display, how would you correctly write a media query to target devices with a minimum device pixel ratio of 2 and a width of at least 768 pixels?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@media (min-resolution: 2dppx) and (min-width: 768px) { /* styles */ }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@media (min-resolution: 192dpi) and (width >= 768px) { /* styles */ }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@media (device-pixel-ratio: 2) and (width > 768px) { /* styles */ }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@media only screen and (2dppx) and (min-width: 768px) { /* styles */ }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the standard syntax for media queries targeting both device pixel ratio and screen width using min-resolution and min-width respectively."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced CSS Animations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS keyframes animation, what could be a potential issue if the element also has a 'transform: scale(1.5);' applied in its static state outside the animation?"
+      },
+      {
+        "type": "formula",
+        "value": "@keyframes example { from { transform: translateY(0); } to { transform: translateY(100px); } }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The animation overwrites the static scale, causing the element to revert to scale(1) during the animation."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The static scale multiplies the translation, moving it 150px instead of 100px."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The animation and static transform properties merge, causing no visual change."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The element becomes invisible during the animation."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The defined keyframes animation overwrites any existing transform properties on the element for the duration of the animation. The static 'transform: scale(1.5);' is ignored, and only 'transform: translateY(...);' from the animation is applied, causing the element to appear at scale(1) instead."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Responsive Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS framework would automatically apply responsive styles without the need for explicit media queries in the user-defined stylesheets?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Tailwind CSS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Foundation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PureCSS"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap, among the options listed, is designed with a mobile-first approach and includes a responsive grid system that automatically adjusts to the screen size without the need for explicit media queries in the user-defined stylesheets."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Responsive Design Using Flexbox and CSS Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a significant advantage of using CSS Grid over Flexbox when designing a layout that requires both columns and rows to dynamically adjust based on the viewport size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Flexbox automatically adjusts columns and rows"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CSS Grid is limited to fixed layouts and cannot adapt"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CSS Grid provides a more robust control for two-dimensional space management"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no difference in capabilities between CSS Grid and Flexbox in responsive design"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CSS Grid offers comprehensive control over both rows and columns, allowing developers to design more complex, two-dimensional layouts that adapt based on the viewport size, unlike Flexbox which primarily manages either rows or columns but not both simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "CSS Animations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS property combination ensures that an animation runs even when its visibility is toggled off and on, but without consuming excess memory when not visible?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "animation-play-state: paused; visibility: hidden;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "display: none; animation-fill-mode: forwards;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "animation-fill-mode: both; display: none;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "visibility: hidden; animation-fill-mode: forwards;"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting visibility to 'hidden' keeps the element in the layout but not visible, while 'animation-fill-mode: forwards' ensures the styles at the end of the animation are maintained without running the animation continuously."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "CSS Frameworks and Media Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When integrating a CSS framework like Bootstrap in a project, how should media queries be used to ensure minimal conflicts between custom styles and framework styles?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use media queries inside the framework's CSS file."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Override the framework's styles using higher specificity outside media queries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Match the framework's breakpoints in custom media queries to enhance consistency."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoid using media queries and modify the framework's base styles directly."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To ensure consistency and reduce conflicts when using CSS frameworks like Bootstrap, it is best to align custom media queries with the predefined breakpoints used by the framework. This approach maintains uniformity across styles and leverages the framework's responsive design efficiently."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "CSS Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the following CSS rules, if <div class='outer'><p>Text</p></div> is the HTML structure, what will be the computed font-size of the <p> tag text? .outer { font-size: 16px; } p { font-size: 0.75em; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "12px"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "16px"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "24px"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0.75px"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'em' unit is relative to the font-size of the parent element. Since the parent's font-size is 16px, 0.75em will be 75% of 16px, which computes to 12px."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "CSS Pseudo-classes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS pseudo-class should be used to style only the first line of text inside a paragraph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "::first-line"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "::first-letter"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ":first-of-type"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ":first-child"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '::first-line' pseudo-class is used to apply styles to the first line of text inside an element, such as a paragraph."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced Media Query Usage",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS media query, what will be the effect on a device with a screen width of 800px and height of 600px? @media (min-width: 700px) and (max-height: 500px) { .container { display: none; } }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The container will not be displayed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The container will be displayed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The display property of the container will change to inline."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The query will not apply due to conflicting conditions."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The media query applies styles when the screen width is at least 700px, which is true for an 800px width. However, it also specifies a maximum height of 500px, which does not apply since the height is 600px. Therefore, the style inside the media query does not apply, and the container remains displayed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Responsive Design Frameworks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS framework uses a 12-column grid system and includes media query mixins for responsiveness?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Bootstrap"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Foundation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Materialize"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Bulma"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bootstrap uses a 12-column grid system and includes media query mixins for easy and efficient responsive design implementation. Foundation also uses a 12-column grid but is less known for its media query mixins compared to Bootstrap."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Combining Flexbox and CSS Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When combining Flexbox and CSS Grid in a layout, what would be a primary reason to use Flexbox for specific components rather than CSS Grid?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To take advantage of Flexbox's ability to manage space distribution between items in a single dimension more efficiently."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To utilize the grid-template-columns property for detailed alignment."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To implement responsive design using the auto-fill keyword in CSS Grid."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To use the justify-content property in CSS Grid for alignment."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Flexbox is particularly strong at distributing space along a single axis and aligning items in complex ways within a single row or column, which can be more efficient for certain design patterns than using CSS Grid."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "CSS Transition Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What CSS property should be avoided in transitions if minimizing repaints and reflows is a priority for performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "opacity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "color"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "top"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "transform"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'top' in CSS transitions causes the browser to perform repaints and potentially reflows, impacting performance. It is more efficient to use properties like 'transform' that can be handled by the GPU and do not cause layout changes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "CSS Specificity and Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the CSS rules `body { color: black; }` and `div.special { color: blue; }`, what color will the text be in the following HTML element?"
+      },
+      {
+        "type": "text",
+        "value": "<div class='special' style='color: green;'><p>Sample Text</p></div>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "black"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "blue"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "green"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The color cannot be determined from the given information."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The inline style has the highest specificity among the given CSS rules. Therefore, the text 'Sample Text' inside the <p> tag inherits the color green from its parent <div> element."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Performance Implications of CSS Transitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a critical consideration when implementing CSS transitions on frequently-updated properties (like scrolling effects) in terms of rendering performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using ease-in-out timing functions for smoother visual effects."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Minimizing the number of transition properties to reduce reflow."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Applying transitions to properties that do not trigger layout or paint."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increasing the duration of transitions to decrease CPU usage."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When implementing transitions, it's pivotal to apply them to properties that do not trigger layout (reflow) or paint stages, such as opacity or transform. This approach avoids expensive recalculations and re-rendering, thereby enhancing performance, especially in scenarios involving frequent property updates like scrolling effects."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "CSS Specificity Rules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS rules, which selector has the highest specificity in CSS?"
+      },
+      {
+        "type": "text",
+        "value": "#nav li.active > a { color: blue; }\nh2 { color: green; }\n.nav li a:hover { color: red; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "#nav li.active > a"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "h2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".nav li a:hover"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All have the same specificity"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The selector '#nav li.active > a' has the highest specificity. It includes an ID selector which contributes significantly to its specificity, outweighing classes and elements in other selectors."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Advanced CSS Selectors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which CSS selector is correctly formatted to select all <p> elements inside <div> elements, only when <div> is a child of any <section> element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "section > div p"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "div section > p"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "section div + p"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "section div p"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The selector 'section > div p' correctly targets all <p> elements inside <div> elements that are direct children of any <section> element."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "CSS Variables in Animation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a CSS animation that requires different keyframes to adapt dynamically to user preferences such as themes, which approach is most efficient?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use JavaScript to adjust CSS properties directly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilize CSS variables in the keyframe declarations and modify these variables using JavaScript."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hard-code multiple keyframe sets for each theme."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use media queries to switch between different keyframes based on user preferences."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using CSS variables within keyframe declarations enhances flexibility and maintainability of animations. These variables can be dynamically adjusted using JavaScript based on user preferences, such as switching themes, without needing multiple predefined keyframe sets or relying heavily on JavaScript to manipulate styles directly."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS rules, which rule will apply to the <p> element if the HTML structure is <div id='container'><p class='text'>Hello World!</p></div>?"
+      },
+      {
+        "type": "text",
+        "value": "#container p { color: blue; }\n.text { color: red; }\np { color: green; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "color: blue;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "color: red;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "color: green;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All colors will apply, creating a mixed color effect."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The rule '#container p { color: blue; }' is more specific because it includes an ID selector combined with an element selector, hence it overrides the other rules."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "CSS Attribute Selectors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following CSS selectors correctly targets an <input> element with both a 'type' attribute of 'checkbox' and a 'checked' attribute?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "input[type='checkbox'][checked]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "input[type='checkbox'] + [checked]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "input[checked='checkbox']"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "input[type+checked='checkbox']"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for targeting an element with multiple attribute selectors is to chain them without spaces. Option A does this correctly by using input[type='checkbox'][checked]."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "CSS Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following properties is not inherited by default in CSS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "color"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "border"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "font-family"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "line-height"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'border' property is not inherited by default. Properties related to box model dimensions and decorations, such as border, margin, and padding, do not inherit in CSS."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Function and Mixin Interactions in LESS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In LESS, what happens when you pass a mixin as an argument to a function that expects a color value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function executes with the default color"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The mixin is evaluated to extract a color value, if possible"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It results in a compilation error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function converts the mixin to a color value using type coercion"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In LESS, passing a mixin (which is a block of styles) to a function expecting a specific data type like a color results in a compilation error as the types are incompatible."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS rules which one will apply if an element has both classes 'alpha' and 'beta'?"
+      },
+      {
+        "type": "text",
+        "value": ".alpha { color: blue; } .beta { color: red; } .alpha.beta { color: green; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "blue"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "red"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "green"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "none of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CSS rule '.alpha.beta { color: green; }' has higher specificity because it targets an element with both classes 'alpha' and 'beta'."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Combining Flexbox and CSS Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When combining Flexbox and CSS Grid in a layout, what is the primary reason for using Grid as the base layout method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CSS Grid is less compatible with older browsers."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CSS Grid provides more robust control over both columns and rows simultaneously."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Flexbox alone is sufficient for complex layouts."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CSS Grid consumes more resources and slows down the page load time."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using CSS Grid as the base layout method allows for more robust control over both columns and rows, making it efficient for designing complex layouts that require consistent alignment in both dimensions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "CSS Specificity",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following CSS rules, which rule will apply to the <div> element assuming all selectors are valid and applicable to a single <div> element on the page? \n1. div { color: blue; }\n2. #container div { color: red; }\n3. body > .wrapper > div { color: green; }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Blue"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Red"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Green"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The rule 'body > .wrapper > div { color: green; }' has the highest specificity because it contains one class selector, one child combinator, and two type selectors, overriding the other less specific rules."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "CSS Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which property value is NOT inherited by default in CSS?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "color"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "border"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "font-family"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "font-size"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'border' property does not inherit its value by default. Properties like 'color', 'font-family', and 'font-size' are inherited by default, meaning child elements will take the same value as their parent unless otherwise specified."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Function and Mixin Differences in LESS and Sass",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the following Sass and LESS code snippets, which statement is true about the output? \nSass: \n@mixin adjust-color($color, $amount) {\n  @return lighten($color, $amount);\n}\n.color-div { color: adjust-color(blue, 20%); }\n\nLESS: \n.adjust-color(@color, @amount) {\n  color: lighten(@color, @amount);\n}\n.color-div { .adjust-color(blue, 20%); }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Both will compile to the same CSS output"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sass compiles but LESS does not"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "LESS compiles but Sass does not"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both will not compile"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Both snippets are correct and compile to the same CSS output. Both preprocessors have similar functionalities for mixins/functions and color manipulation methods."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced CSS Selectors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What selector is appropriate to select all paragraphs inside a div, but only if the div is the nth-of-type(2) within its parent?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "div:nth-of-type(2) p"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "div + p:nth-of-type(2)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "div p:nth-of-type(2)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "nth-of-type(2) > p"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct selector is 'div:nth-of-type(2) p', which selects all p elements inside the second div of its type in its parent."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Variables and Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Sass, if you have a variable $size: 10px and you perform an operation $new-size: $size * 2 + 10px, what is the value of $new-size?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "30px"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "20px"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "20"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of these"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Sass, operations on variables with units are performed as expected in mathematics, adding the unit at the end. Thus, $size (10px) multiplied by 2 gives 20px, and adding 10px results in 30px."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Responsive Design with Flexbox and Grid",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What would be an effective strategy for using Flexbox within a CSS Grid-based layout for building responsive web designs?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use Flexbox for the entire layout, ignoring CSS Grid."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Apply Flexbox to individual grid items to control their internal alignment."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use CSS Grid for alignment of text within grid items only."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Set fixed dimensions to all grid items and manage responsiveness with media queries."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Applying Flexbox to individual grid items can be particularly effective for managing their internal content alignment, offering additional flexibility within the robust framework provided by CSS Grid."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Variable Scope in Sass and LESS",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following LESS code:\n\n@width: 10px;\n.class {\n  @width: 100px;\n  .inner { width: @width; }\n}\n\nWhat will be the width of the '.inner' class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10px"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "100px"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "undefined"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0px"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In LESS, variables are scoped locally to the block they are defined in. Therefore, the '.inner' class will use the closest '@width' definition in its scope, which is 100px defined in '.class'."
+      }
+    ]
+  }
+]

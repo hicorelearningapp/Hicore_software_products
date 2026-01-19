@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "PHP Frameworks",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP framework uses the 'artisan' command line tool?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Symfony"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Laravel"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CakePHP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Zend Framework"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'artisan' command line tool is associated with the Laravel framework."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Connecting PHP to MySQL",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a connection to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_mysql()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the correct function to establish a new connection to a MySQL server."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a scalar data type in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Array"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Object"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Null"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, Boolean is a scalar data type which represents two possible truth values: true and false."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Array Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function in PHP is used to count the number of elements in an array?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "count()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "length()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "size()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sizeof()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The count() function is used to count all elements in an array or something in an object."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Connecting PHP to MySQL",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in PHP to connect to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used to open a new connection to the MySQL server in PHP."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Interfaces in PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to implement an interface in a PHP class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "uses"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "creates"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, the 'implements' keyword is used for a class to adopt the methods defined in an interface."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "SQL Injection Prevention",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a recommended method to prevent SQL injection in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using prepared statements with PDO or MySQLi"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using addslashes()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Concatenating user inputs directly into SQL query strings"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using mysql_query()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using prepared statements with either PDO or MySQLi is the most effective way to prevent SQL injection as it separates SQL logic from the data being input."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "SQL Injection",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function helps prevent SQL Injection by escaping special characters in a string for use in an SQL statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlentities()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "addslashes()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_real_escape_string()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "strip_tags()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_real_escape_string() is specifically designed to escape special characters in a string for SQL queries in PHP, thus helping prevent SQL Injection attacks."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following PHP code output? \n<?php \nif (3 > 2) { \necho 'Yes'; \n} else { \necho 'No'; \n} \n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Yes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "No"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Nothing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 3 is greater than 2, the condition (3 > 2) evaluates to true, and 'Yes' is printed."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Error Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to handle errors in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "error_function()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "set_error_handler()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle_error()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error_handler()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "set_error_handler() is the PHP function used to set a user-defined function to handle errors."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Connecting to MySQL using PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in PHP to connect to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used to open a new connection to the MySQL server in PHP."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to end a PHP statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "With a semicolon (;)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "With a colon (:)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "With a comma (,)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "With a period (.)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, every statement must end with a semicolon to indicate the end of the statement."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "String Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to find the length of a string?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "length()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strlen()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "strlength()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "count()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function strlen() is used to find the length of a string in PHP."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Executing MySQL Queries in PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PHP function is used to execute a query that does not return a result set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_query()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysqli_exec()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysqli_command()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysqli_none()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_query() is used to perform both non-result generating queries like INSERT, UPDATE, DELETE and result set generating queries like SELECT."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic PHP Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to end a PHP statement?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "End with a comma (,)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "End with a semicolon (;)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "End with a period (.)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "End with a colon (:)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, each statement must end with a semicolon (;) to indicate the end of the statement."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "PHP Custom Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to create a function in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function myFunction() {}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "create myFunction() {}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "new_function myFunction() {}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "def myFunction() {}"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, functions are defined using the 'function' keyword followed by the function name and parentheses."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a string variable in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$var = 'Hello, World!';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$var == 'Hello, World!';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var = 'Hello, World!';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$var = Hello, World!;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, variables are declared with a dollar sign followed by the variable name. Strings must be enclosed in quotes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which symbol is used to denote a variable in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The percent sign (%)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The dollar sign ($)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The at symbol (@)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The hash sign (#)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, a variable is denoted by the dollar sign ($) followed by the name of the variable."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "PHP Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What symbol is used to prefix a variable in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "#"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "&"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, all variables must be prefixed with the dollar sign symbol '$'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic Array Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "How would you access the third element in an array named 'colors' in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$colors[2];"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$colors[3];"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$colors[1];"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$colors[0];"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Arrays in PHP are zero-indexed, which means the first element is at index 0. Therefore, the third element is at index 2."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Input Validation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of input validation in PHP security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure that the inputs meet the application's data requirements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the website's loading speed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance the visual design of the website"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce the cost of hosting"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Input validation is crucial for security to ensure that all inputs conform to expected formats and values, thereby preventing injection attacks and other malicious inputs."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "String Functions",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function would you use to find the length of a string in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "len()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "str_length()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "strlen()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "string_length()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'strlen()' is used in PHP to determine the length of a string."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Input Validation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of input validation in PHP security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure that the data fits expected types and values"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase the speed of data processing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To improve the user interface"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reduce storage space on the server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Input validation is crucial to ensure that only properly formatted data, which meets the predefined criteria, is allowed to enter the workflow of an application, thus preventing malicious data from harming the system."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "PHP Variables",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to declare a variable in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$variableName = 'value';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "variableName = 'value';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var $variableName = 'value';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set $variableName = 'value';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, a variable is declared with a dollar sign ($) followed by the name of the variable and equals sign (=), and then the value."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "PHP Control Structures",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a correct if statement in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if $x > 5 { echo 'Greater'; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "if ($x > 5) { echo 'Greater'; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "if $x > 5: echo 'Greater'; endif;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if ($x > 5) echo 'Greater';"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, an if statement must be enclosed in parentheses. The correct syntax also includes curly braces for the code block to be executed if the condition is true."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Inheritance in PHP",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which keyword is used to inherit a class in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "extends"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "implements"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "inherit"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "use"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PHP, one class can inherit another using the 'extends' keyword."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Connecting to MySQL Database",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to connect to a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db_connect()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is the function used to open a new connection to the MySQL server in PHP."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Input Validation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function can be used to sanitize input to prevent XSS attacks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "addslashes()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "htmlspecialchars() converts special characters to HTML entities, making it safer to output user input and prevent XSS attacks."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "PHP Error Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function in PHP is used to handle errors by setting a user-defined function to handle them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "set_error_handler()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error_handle()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle_error()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error_set_handler()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The set_error_handler() function in PHP is used to set a user-defined function as the new error-handling function."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Framework Integration",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP framework uses the 'Artisan' command-line interface?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Laravel"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Symfony"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CodeIgniter"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Yii"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Laravel uses the 'Artisan' command-line interface, which allows developers to perform a number of tasks including migrations, testing, and application installation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to write an if statement in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "if $x > 10 { echo \"Greater\"; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "if ($x > 10) echo \"Greater\";"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "if ($x > 10) { echo 'Greater' }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "if $x > 10 echo \"Greater\";"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is the correct syntax. The parentheses are necessary, and the statement can be written without braces if only one statement follows the condition."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Default Function Arguments",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code if no argument is passed to the function?\n\nfunction makeCoffee($type = \"Espresso\") {\n  return \"Making a cup of $type\";\n}\necho makeCoffee();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Making a cup of Espresso"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Making a cup of"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error: Missing argument"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function makeCoffee has a default argument of 'Espresso'. When called without any argument, it uses the default value."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Variable Scope",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP script if it is run as a standalone script? \n\n<?php\nfunction test() {\n    $x = 5;\n    echo $x;\n}\ntest();\necho $x;\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5 followed by an error or a notice about undefined variable $x"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Nothing is printed"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An error about undefined function test()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function test() will print '5' when called, but after this, an error or notice will be triggered because $x is not defined in the global scope - it's local to the function test()."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Array Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code snippet? \\n\\n$array1 = array('a' => 'apple', 'b' => 'banana');\\n$array2 = array('a' => 'pear', 'b' => 'strawberry', 'c' => 'cherry');\\n$result = array_merge($array1, $array2);\\nprint_r($result);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Array ( [a] => apple [b] => banana [c] => cherry )"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Array ( [a] => pear [b] => strawberry [c] => cherry )"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Array ( [0] => apple [1] => banana [2] => pear [3] => strawberry [4] => cherry )"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Array ( [a] => apple, pear [b] => banana, strawberry [c] => cherry )"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "array_merge() function merges the elements of one or more arrays together such that the values of one are appended to the end of the previous one. It returns the resulting array. If the input arrays have the same string keys, then the later value for that key will overwrite the previous one."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inheritance in PHP",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following best describes the concept of 'inheritance' in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Allowing one class to use properties or methods of another class without extending it."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A method where one class can extend the functionality of another class."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A way to encapsulate code in order to hide the internal functionality of the program."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A PHP framework feature that allows multiple classes to be combined into one."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inheritance in PHP allows one class to inherit the properties and methods of another class by extending it, thereby promoting code reusability and extension."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Namespaces and Autoloading",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance performance by optimizing backend calculations"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To include multiple files with the same name"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a scope for variables, functions, and classes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To interface with external libraries without including them in the project"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces are primarily used in PHP to create a scope where classes, functions, and variables can co-exist without name conflicts."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Input Validation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is commonly used to prevent XSS attacks by encoding special characters in output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "addslashes()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "htmlspecialchars() function converts special characters to HTML entities. This prevents attackers from exploiting the code by injecting scripts."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "PHP Error Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to handle errors in PHP using a custom function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "set_error_handler('myErrorFunction');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error_handle('myErrorFunction');"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "handle_error('myErrorFunction');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "error_set('myErrorFunction');"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to set a user-defined function to handle errors in PHP is 'set_error_handler'. The correct syntax is set_error_handler('myErrorFunction');"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Array Manipulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following PHP code snippet? $arr = array('a', 'b', 'c', 'd', 'e'); unset($arr[2]); array_values($arr); print_r($arr);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Array ( [0] => a [1] => b [2] => d [3] => e )"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Array ( [0] => a [1] => b [3] => d [4] => e )"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Array ( [0] => a [1] => b [2] => c [3] => d )"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Array ( [0] => a [1] => b [2] => d [3] => c )"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The unset function removes the element at index 2, but does not reorder the array, hence index 3 and 4 remain unchanged."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Connection Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PHP function is used to open a new connection to a MySQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "mysqli_connect()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mysql_connect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "connect_db()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_mysql()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "mysqli_connect() is used in PHP to establish a new connection to a MySQL database server. The mysql_connect() function was used in older PHP versions and is now deprecated."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "String Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following PHP code snippet? $str = 'Hello, World!'; echo substr_count($str, 'o', 4, 10);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The substr_count function counts the number of occurrences of 'o' starting from the 4th position up to the next 10 characters. In 'Hello, World!', two 'o's fall within this range."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Database Transactions in PHP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following options correctly demonstrates how to initiate a transaction in PDO (PHP Data Objects) with error handling for a MySQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$pdo->beginTransaction(); try { /* database operations here */ $pdo->commit(); } catch (Exception $e) { $pdo->rollback(); }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$pdo->start(); try { /* database operations here */ $pdo->end(); } catch (Exception $e) { $pdo->cancel(); }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$pdo->openTransaction(); /* database operations here */ $pdo->closeTransaction();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$pdo->executeTransaction(); try { /* database operations here */ } finally { $pdo->finishTransaction(); }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it uses the proper PDO methods to begin and commit a transaction, with a catch block for rolling back the transaction in case of errors. The other options use non-existent PDO methods."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Function Overloading",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, which magic method is utilized to implement function overloading for undefined or inaccessible methods within a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "__call()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "__set()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "__get()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "__invoke()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "__call() is used for overloading methods that are not visible or not defined in the scope of the calling code. It allows a class to handle method calls that do not match a predefined method name."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Variable Scope",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following PHP code snippet?\n\n<?php\nfunction test() {\n    $num = 10;\n    function inner() {\n        global $num;\n        $num += 5;\n    }\n    inner();\n    echo $num;\n}\ntest();\n?>"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function 'inner' will cause an error because the variable '$num' declared in the 'test' function is not accessible as a global variable in the scope of 'inner' function."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Anonymous Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an anonymous function in PHP that uses a variable 'x' from the parent scope. If 'x' is modified within the anonymous function using the 'use' keyword, what must be done to ensure that changes to 'x' persist outside the function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use 'use (&$x)'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use 'global $x'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use 'static $x'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No extra action needed"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using 'use (&$x)' makes the variable 'x' by reference in the anonymous function, allowing changes to 'x' within the function to affect the original variable outside the function."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Cross-Site Scripting (XSS) Prevention",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following PHP functions is MOST effective for preventing XSS attacks when displaying user-submitted content?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "urlencode()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The htmlspecialchars() function converts special characters to HTML entities. This is effective in preventing XSS attacks as it stops scripts from executing by treating them as plain text."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Design Patterns",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the Singleton design pattern, which statement is true regarding the constructor method within a Singleton class in PHP?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The constructor should be public and take parameters to configure the singleton instance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The constructor should be private or protected to prevent external instantiation."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The constructor should be public and contain static variables only."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The constructor should not exist; singletons are created without constructors."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the Singleton design pattern, the constructor is made private or protected. This ensures that the class cannot be instantiated from outside the class, thereby controlling the number of instances (limited to one) and providing a global point of access to the instance."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Error Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a PHP application using a custom error handler function that intercepts all types of errors. If the error type is E_USER_ERROR, it throws an exception. What should the exception message contain if the error message was 'Critical database failure'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Critical database failure"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "E_USER_ERROR"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "User Error: Critical database failure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Database Error"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since the custom error handler is set to throw an exception for E_USER_ERROR with the error message, the exception message should be prefixed by the error type to provide more context, making 'User Error: Critical database failure' the correct answer."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Cross-Site Scripting (XSS) Defense",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PHP, which function is the most appropriate for escaping output to prevent XSS attacks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "htmlspecialchars()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "strip_tags()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "mysql_real_escape_string()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "urlencode()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "htmlspecialchars() is most appropriate for escaping output to prevent XSS as it converts special characters to HTML entities, thus neutralizing potentially harmful scripts."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Handling Large Data Sets in PHP with MySQL",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When handling very large datasets in a PHP application with a MySQL backend, what is the most efficient way to reduce memory consumption when fetching rows from a result set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the mysql_fetch_array() function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Utilizing unbuffered queries with mysql_unbuffered_query()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Fetching all results at once with mysql_fetch_all()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Increasing the PHP memory limit in php.ini"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Utilizing unbuffered queries with mysql_unbuffered_query() is most efficient for large datasets as it retrieves rows one at a time directly from the database without storing the entire result set in memory first."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 9,
+    "topic": "Backup Strategies",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using the pg_dump utility in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To monitor real-time database performance"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To restore data from a backup"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To create a backup of a database"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To increase the storage capacity of the database"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_dump utility is primarily used for creating a backup of a database, allowing for data preservation in case of failure or corruption."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Database Connections",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which function is used to terminate a database connection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DISCONNECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "CLOSE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "EXIT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "QUIT"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CLOSE function is used to terminate a connection to a database in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It updates the query planner's statistics."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It executes a query and returns the result set."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It shows the execution plan of a query."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It rewrites queries for better performance."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN command in PostgreSQL is used to show the execution plan of a query which includes how the tables involved in the query will be scanned \u2013 by plain sequential scan, index scan, etc., and if multiple tables are involved, what kind of join algorithms will be used."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of creating indexes in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To decrease the database size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To speed up query performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To change data types of columns"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are used primarily to enhance database performance (though inappropriate use can result in slower performance). The idea is that indexes help PostgreSQL find rows much faster than it could do without an index."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to retrieve data from a database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INSERT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DELETE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SELECT command is used to query the database and retrieve data, matching the specified criteria."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Query Planning",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Modifies database schema"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inserts data into tables"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Displays the execution plan for a query"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Updates data in tables"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN command in PostgreSQL is used to display the execution plan of a query, showing how the tables involved in the query will be scanned \u2013 by plain sequential scan, index scan, etc., and if multiple tables are involved, what join algorithms will be used."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Database Connection Maintenance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command is used in PostgreSQL to test and ensure that your database connection is still active?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT version();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SHOW status;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CONNECT DATABASE;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PING DATABASE;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'SELECT version();' doesn't just return the version of the PostgreSQL server but also serves as a simple query to ensure the connection to the database is still active."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Error Logging and Monitoring",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which configuration file should be modified to change the logging level in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_log.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_data.conf"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To change the logging level in PostgreSQL, modifications should be made in the postgresql.conf file. This file contains various settings that can be adjusted to control PostgreSQL's logging behavior."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SQL Commands",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CLEAR"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on a specified condition."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Routine Database Maintenance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of running VACUUM in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To delete unused databases"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To update the PostgreSQL version"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To recover disk space and optimize database performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To reset user permissions"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The VACUUM command in PostgreSQL is used to reclaim storage occupied by dead tuples. By doing this, it optimizes database performance and recovers disk space."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using a partial index in PostgreSQL for a table with both active and archived entries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases the storage space."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It speeds up queries that do not involve archived entries."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows faster updates to archived entries."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It provides automatic data archiving."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A partial index only indexes a portion of the table's rows, thus speeding up queries that target that specific subset and reducing index size and maintenance overhead."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Pooling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, what is a key benefit of implementing connection pooling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases the storage space required for data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduces the load on the database by managing active connections"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automatically upgrades the database software"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encrypts data automatically"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Connection pooling significantly reduces the overhead involved in creating and managing multiple database connections by reusing existing connections, thus reducing load on the database."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types in PostgreSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in PostgreSQL would be best for storing an object with properties that have predefined values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ARRAY"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENUM"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "XML"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ENUM is the correct choice because it allows for defining a column with a static, ordered set of values (e.g., small, medium, large)."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Usage",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL can be most beneficial for full-text searching?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GIN (Generalized Inverted Indexes) are particularly useful for indexing array data types and full-text search, as they can efficiently handle values that contain multiple component values."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role-based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DROP ROLE is the correct SQL command to remove an existing role in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It updates statistics used by the planner to determine the most efficient query plan."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It executes the query and returns the result."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It displays the execution plan that the PostgreSQL planner generates for the supplied query."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It modifies query syntax to optimize performance."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN command in PostgreSQL is used to display the execution plan that the PostgreSQL query planner creates for the supplied query. This plan shows how the tables involved in the query will be scanned\u2014by plain sequential scan, index scan, etc.\u2014and if multiple tables are involved, what join algorithms will be used to bring together the required rows from each input table."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic SQL Commands",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table without deleting the table structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TRUNCATE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The DELETE command is used to remove rows from a table based on a specific condition while leaving the table structure intact."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended approach for optimizing a slow PostgreSQL query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using EXPLAIN ANALYZE to find and understand performance bottlenecks."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreasing work_mem to ensure less memory is used per operation."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating appropriate indexes based on the query's WHERE clauses."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Refactoring complex subqueries into simpler, more manageable parts."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decreasing work_mem might lead to less memory available for sorting and hashing operations, which can actually degrade performance rather than improving it."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Vacuuming Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of running the VACUUM operation in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases query performance by optimizing indexes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It frees up disk space by removing dead row versions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It resets user passwords for database security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It encrypts the data to enhance data privacy."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "VACUUM reclaims storage occupied by dead tuples. In PostgreSQL, updating or deleting rows does not immediately remove the old version of the row. Thus, VACUUM is essential to clean up these dead tuples and free up space."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Privilege Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command in PostgreSQL is used to provide a role with the ability to connect to a specific database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT CONNECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GRANT ACCESS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ALLOW CONNECTION"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ENABLE DATABASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT CONNECT command is used in PostgreSQL to give a role permission to connect to a specific database."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Transaction Control Language (TCL)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If an error occurs during the execution of a transaction block in SQL, which TCL command should be used to ensure that none of the operations within the block are committed to the database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ROLLBACK"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SAVEPOINT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "END"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ROLLBACK is used to undo transactions that have not already been saved to the database, which is necessary if an error occurs to ensure the database's integrity."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "SQL Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "An SQL query involves a subquery that selects customer IDs from a Customers table that are not in a Orders table. The appropriate index exists on the Orders table customer_id column. What would be a more performant method than using NOT IN?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using an INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using a LEFT OUTER JOIN and checking for NULLs"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using EXISTS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using GROUP BY on customer_id"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a LEFT OUTER JOIN on the Orders table and checking for NULL values in the Orders table's customer_id column is more performant. This method efficiently finds customers not present in the Orders table by utilizing the index on customer_id and immediately identifies unmatched rows through the NULL check."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "PostgreSQL Authentication Methods",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PostgreSQL authentication method can be used to implement two-factor authentication, requiring both a password and an authentication token?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "scram-sha-256"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "cert"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pam"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "md5"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The PAM (Pluggable Authentication Modules) method allows PostgreSQL to use external authentication systems, enabling configurations like two-factor authentication."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Configuration Parameters",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of PostgreSQL, what is the impact of setting the 'work_mem' parameter too high on a system with limited memory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It improves the overall performance of complex queries by allowing more data to be processed in memory."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It has no impact as PostgreSQL dynamically adjusts memory usage."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It may lead to increased disk swapping, reducing the performance of the database."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It decreases the risk of out-of-memory errors during large operations."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'work_mem' too high can lead to excessive memory usage during query operations, causing the system to swap to disk more frequently, which severely impacts performance."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transaction Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a database transaction in SQL. If a transaction is running that inserts records into a table and at the same time, an attempt is made to execute a SELECT query on that table, what isolation level prevents the SELECT query from reading uncommitted data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "READ UNCOMMITTED"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "READ COMMITTED"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REPEATABLE READ"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SERIALIZABLE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "READ COMMITTED is the isolation level that prevents the SELECT query from seeing uncommitted changes made by other transactions. It ensures that any data read is committed at the moment it is read."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Joins",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a database schema where two tables 'Orders' and 'Products' are joined on 'product_id', and each product's price is listed in 'Products', how would you write a SQL query to find the total revenue generated by each product category, assuming the category field is in the 'Products' table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT p.category, SUM(o.quantity * p.price) AS Total_Revenue FROM Orders o INNER JOIN Products p ON o.product_id = p.product_id GROUP BY p.category"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT p.category, COUNT(p.price) AS Total_Revenue FROM Products p JOIN Orders o ON p.product_id = o.product_id GROUP BY p.category"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT p.category, SUM(o.quantity) AS Total_Revenue FROM Orders o RIGHT JOIN Products p ON o.product_id = p.product_id GROUP BY p.category"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT p.category, SUM(p.price) AS Total_Revenue FROM Orders o LEFT JOIN Products p ON o.product_id = p.product_id GROUP BY p.category"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly calculates the total revenue by multiplying the quantity of each order by the price of the product, summing these amounts per product category."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Complex Queries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of executing a non-correlated subquery in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The subquery is evaluated once and used as a constant throughout the execution of the main query."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The subquery is re-executed for each row processed by the main query."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The subquery results are ignored."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The subquery modifies the main query execution plan dynamically."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A non-correlated subquery does not depend on the outer query and is thus evaluated only once, with its result reused as a constant in the main query."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Replication Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL setup, what is the correct method to configure synchronous replication in the postgresql.conf file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Set synchronous_standby_names to '*' and restart the database."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set synchronous_commit to 'remote_write'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Set synchronous_standby_names to the name of the standby servers separated by commas."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enable wal_level to 'minimal' for synchronous replication."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method is to set synchronous_standby_names to a list of standby servers. This parameter specifies which standby servers are to be considered synchronous."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command is used to manually set the isolation level of a transaction to 'Serializable'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SET ISOLATION LEVEL SERIALIZABLE;"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "BEGIN TRANSACTION SERIALIZABLE;"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "START TRANSACTION WITH SERIALIZABLE;"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, 'SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;' is the correct syntax to set the transaction isolation level to 'Serializable'. This ensures that all transactions occur in a completely isolated manner."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Security Inheritance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, considering a role hierarchy where 'manager' inherits from 'employee' and 'employee' has a LOGIN privilege, which statement is true regarding the LOGIN capability of 'manager'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'manager' can log in as 'employee' does not inherit LOGIN privilege."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'manager' automatically inherits LOGIN privilege and can log in."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'manager' cannot log in as LOGIN is not an inheritable privilege."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The ability for 'manager' to log in must be set independently of 'employee'."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, LOGIN is a non-inheritable privilege. Even if a role inherits from another role with LOGIN privilege, it does not gain the ability to log in unless the LOGIN privilege is explicitly granted to it."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PostgreSQL feature can be used to automatically analyze and optimize query plans based on the actual runtime statistics?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "EXPLAIN ANALYZE statement"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cost-based optimizer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Just-in-time (JIT) compilation"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The pg_stat_statements extension"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_stat_statements extension is instrumental in PostgreSQL for tracking execution statistics of all SQL statements executed by a server, allowing for automatic analysis and optimization of queries based on these statistics."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact on performance when using a GIN index over a JSONB column containing mostly unique keys?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Significantly improves performance as each key has its own entry in the index."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Performance degrades due to the overhead of maintaining a large index."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No impact, as GIN indexes are not suited for unique keys."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improves write performance but reads remain unaffected."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GIN indexes are optimized for columns containing multiple values per row and can become inefficient and large when indexing columns with predominantly unique keys, leading to performance degradation."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Transaction Isolation Levels",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which transaction isolation level ensures that a transaction will only read committed data and does not allow dirty, non-repeatable reads, or phantom reads?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Uncommitted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Serializable"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Serializable' level is the highest isolation level in PostgreSQL and prevents dirty reads, non-repeatable reads, and phantom reads by ensuring transactions operate with a consistent view of the data."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Complex Subqueries",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a database with a 'Customers' table and an 'Orders' table, how would you write a SQL query to find the customers who have placed more than 5 orders but less than 10 orders?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT c.customer_name FROM Customers c WHERE (SELECT COUNT(*) FROM Orders o WHERE o.customer_id = c.customer_id) BETWEEN 6 AND 9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) > 5 AND COUNT(*) < 10)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) > 5)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT customer_name FROM Customers WHERE customer_id IN (SELECT customer_id FROM Orders GROUP BY customer_id HAVING COUNT(*) < 10)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct as it uses a subquery to count the number of orders per customer and correctly filters out those who have placed more than 5 but fewer than 10 orders."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, if a role 'user1' is granted the 'SELECT' privilege on a table 'employees' by 'admin', and later the 'admin' role revokes this privilege, what will happen if 'user1' had already granted 'SELECT' to another role 'user2' before the revocation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'user2' will still have the 'SELECT' privilege on 'employees'."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'user2' will lose the 'SELECT' privilege immediately when 'admin' revokes it from 'user1'."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'user2' will retain the 'SELECT' privilege until 'user1' explicitly revokes it."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The revoke operation will fail because 'user1' has granted the privilege to 'user2'."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, revoking a privilege from a role does not affect the privileges that role has granted to others unless 'CASCADE' is specified. Thus, 'user2' will retain the 'SELECT' privilege until 'user1' explicitly revokes it."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Maintenance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using the REINDEX command in a PostgreSQL production environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To remove duplicate index entries"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To repair corrupted indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To change the index method"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To decrease the storage space"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The REINDEX command in PostgreSQL is primarily used to repair corrupted indexes, which can occur due to various issues such as hardware failures or bugs. This command rebuilds an index to ensure its consistency with the table data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which isolation level prevents dirty reads, non-repeatable reads, and phantom reads, but might require transaction rollbacks under high concurrency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Uncommitted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Serializable"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Serializable is the strictest isolation level that deals with all phenomena, including dirty reads, non-repeatable reads, and phantom reads. It ensures full serializability but may lead to transaction rollbacks when there's a high level of concurrency."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which clause should be used in PostgreSQL to prevent the planner from choosing a parallel plan for a specific query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SET enable_parallel_query = OFF"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SET max_parallel_workers_per_gather = 0"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SET force_parallel_mode = OFF"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "DISABLE PARALLEL QUERY"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'max_parallel_workers_per_gather' to 0 will prevent the planner from choosing a parallel plan for a specific query."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Transaction Logs",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command is used to force the writing of all in-memory modified buffers to disk without shutting down the server, thus ensuring data durability in case of a crash?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CHECKPOINT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "FLUSH"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SAVEPOINT"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The CHECKPOINT command forces all previously modified buffers to be written to disk, ensuring that the transaction log does not need to be replayed from the beginning in the event of a crash, thus preserving data integrity and speeding up recovery."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Index Usage in Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, when might the planner decide not to use an index, even if one is available for a query filter on a large table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The table is very small."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The indexed columns are not part of the SELECT statement."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The cost of index scanning is estimated to be higher than a sequential scan due to low cardinality."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "PostgreSQL always uses indexes if available."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The planner might opt for a sequential scan over using an index if the cost of index scanning is estimated to be higher, typically in cases where the indexed column has low cardinality, resulting in a large portion of the table needing to be scanned."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Backup and Disaster Recovery",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring PostgreSQL Point-in-Time Recovery (PITR), which of the following parameters must be set correctly in the postgresql.conf file to ensure that the logs are stored efficiently for recovery purposes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "checkpoint_timeout and max_wal_size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "wal_level and wal_compression"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "archive_mode and archive_command"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "hot_standby and hot_standby_feedback"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For PITR, 'archive_mode' must be set to 'on', and 'archive_command' must be configured to specify the command to write the WAL file to archive storage. This ensures logs are stored correctly for recovery."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which technique can be applied to execute a sub-optimal plan repeatedly in an efficient manner, especially when the query planner's estimates are off?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a covering index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing work_mem setting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using prepared statements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Setting higher cost parameters for the planner"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because using prepared statements allows PostgreSQL to reuse the execution plan for repeated executions of the same query, which can bypass potentially costly replanning, especially when original estimates are not accurate."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Index Rebuilding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When experiencing performance degradation due to index bloat in PostgreSQL, which of the following strategies is most effective?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Rebuild indexes during off-peak hours using the REINDEX command"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increase the maintenance_work_mem parameter to improve index performance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Decrease the fillfactor of the index to prevent page splits"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Drop and recreate the database"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Rebuilding indexes using the REINDEX command during off-peak hours effectively addresses index bloat by recreating the index from scratch, which eliminates the bloat and restores index performance without adversely affecting the production workload."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following actions can lead to increased transaction contention when using a BRIN index in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreasing the pages per range value"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the fillfactor value"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Disabling index-only scans"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enabling synchronous commit"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Decreasing the pages per range value for a BRIN index results in a smaller range of table blocks that each index entry points to, increasing the likelihood of multiple transactions modifying the same index entry, thus increasing contention."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Advanced Security Settings",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the 'pg_hba.conf' file in the context of PostgreSQL security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To schedule automatic database backups."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To list databases and their corresponding sizes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To configure client authentication and connection settings."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To log database activities and audit data access."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'pg_hba.conf' file is used to configure client authentication and connection settings in PostgreSQL. It defines which hosts are allowed to connect, which methods are used for authentication, and the level of access granted."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Transaction Isolation and Lock Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL production environment, which level of transaction isolation guarantees that all data written during a transaction can be seen by other transactions once it is committed, but not before?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read Committed"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Repeatable Read"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Serializable"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Read Uncommitted"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Read Committed isolation level in PostgreSQL ensures that any data written during a transaction is visible to other transactions only after it has been committed, maintaining a balance between consistency and performance."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Transaction Control in PostgreSQL",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement correctly describes the behavior of a SERIALIZABLE isolation level in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It allows dirty reads but not non-repeatable reads or phantom reads."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It prevents dirty reads, non-repeatable reads, and phantom reads."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It only prevents dirty reads."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It allows both non-repeatable reads and phantom reads."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SERIALIZABLE isolation level in PostgreSQL is the strictest, preventing dirty reads, non-repeatable reads, and phantom reads to ensure full serializability."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Connection Security",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring host-based authentication in PostgreSQL, which file must be edited to specify that a user connecting from a specific IP should use SSL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_ident.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ssl.conf"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'pg_hba.conf' file is used to control client authentication in PostgreSQL. To enforce SSL for a specific IP, you would specify 'hostssl' in this file."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Performance Tuning and Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which combination of the following factors will most likely lead to a reduction in the effectiveness of the index due to index bloat?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Frequent updates and deletions on indexed columns"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Infrequent updates and no deletions on indexed columns"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Frequent updates on non-indexed columns only"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No operations performed on indexed columns"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Frequent updates and deletions on indexed columns cause changes in the index structure, leading to spaces that are not reclaimed automatically, thus causing index bloat."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Connection Pooling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, when configuring PgBouncer for connection pooling, which mode should be used to ensure transaction consistency while allowing multiple users to manage different sets of database connections?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Session mode"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Transaction mode"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Statement mode"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pool mode"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Transaction mode in PgBouncer allows each server session to be used for only one transaction, ensuring that different users can manage different sets of database connections without interfering with each other's transactions."
+      }
+    ]
+  }
+]

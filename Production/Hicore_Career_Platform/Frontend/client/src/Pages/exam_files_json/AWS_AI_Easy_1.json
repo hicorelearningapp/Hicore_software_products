@@ -1,0 +1,1176 @@
+[
+  {
+    "id": 1,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AWS service enables you to visually explore, transform, and prepare data for machine learning?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon QuickSight" },
+      { "label": "B", "type": "text", "value": "Amazon SageMaker Data Wrangler" },
+      { "label": "C", "type": "text", "value": "Amazon Redshift" },
+      { "label": "D", "type": "text", "value": "AWS Glue DataBrew" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Data Wrangler provides a visual interface to explore, clean, and prepare data for ML."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AWS service provides a fully managed feature store for machine learning?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Feature Store" },
+      { "label": "B", "type": "text", "value": "Amazon DynamoDB" },
+      { "label": "C", "type": "text", "value": "Amazon RDS" },
+      { "label": "D", "type": "text", "value": "Amazon S3 Glacier" }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Feature Store is a purpose-built repository for storing, retrieving, and sharing ML features."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which AWS service is most commonly used to store and retrieve training datasets for SageMaker?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon EFS" },
+      { "label": "B", "type": "text", "value": "Amazon S3" },
+      { "label": "C", "type": "text", "value": "Amazon RDS" },
+      { "label": "D", "type": "text", "value": "Amazon DynamoDB" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Amazon S3 is the standard storage for ML data due to its scalability, durability, and integration with SageMaker."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of data normalization in machine learning?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "To increase data redundancy" },
+      { "label": "B", "type": "text", "value": "To scale numeric features to a common range" },
+      { "label": "C", "type": "text", "value": "To remove missing values" },
+      { "label": "D", "type": "text", "value": "To encode categorical variables" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Normalization ensures all numeric features are on similar scales to prevent bias during training."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encoding method is suitable for categorical features with no ordinal relationship?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Label Encoding" },
+      { "label": "B", "type": "text", "value": "One-Hot Encoding" },
+      { "label": "C", "type": "text", "value": "Standardization" },
+      { "label": "D", "type": "text", "value": "Discretization" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "One-hot encoding is used for nominal categorical data without any order."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of SageMaker Ground Truth?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Deploying ML models" },
+      { "label": "B", "type": "text", "value": "Labeling and preparing training data" },
+      { "label": "C", "type": "text", "value": "Optimizing model inference" },
+      { "label": "D", "type": "text", "value": "Running batch transformations" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Ground Truth helps create high-quality labeled datasets using human and machine labeling workflows."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a typical first step when handling missing values in a dataset?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Remove the entire dataset" },
+      { "label": "B", "type": "text", "value": "Inspect the percentage of missing values per feature" },
+      { "label": "C", "type": "text", "value": "Replace all with zeros" },
+      { "label": "D", "type": "text", "value": "Ignore them" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Understanding the extent and distribution of missing data is key before deciding whether to impute or drop."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SageMaker feature provides managed Jupyter notebooks for developing ML models?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Training Jobs" },
+      { "label": "B", "type": "text", "value": "SageMaker Ground Truth" },
+      { "label": "C", "type": "text", "value": "SageMaker Studio Notebooks" },
+      { "label": "D", "type": "text", "value": "SageMaker Model Monitor" }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Studio Notebooks offer fully managed Jupyter environments for interactive model development."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is hyperparameter tuning used for?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Improving model performance by finding the best combination of parameters" },
+      { "label": "B", "type": "text", "value": "Changing dataset features" },
+      { "label": "C", "type": "text", "value": "Improving inference speed" },
+      { "label": "D", "type": "text", "value": "Saving model checkpoints" }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Hyperparameter tuning helps find the optimal settings (e.g., learning rate, batch size) that maximize performance."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which algorithm type is most suitable for predicting a continuous numeric value?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Classification" },
+      { "label": "B", "type": "text", "value": "Clustering" },
+      { "label": "C", "type": "text", "value": "Regression" },
+      { "label": "D", "type": "text", "value": "Reinforcement Learning" }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Regression models predict continuous outcomes, such as prices or temperatures."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which metric is best for evaluating imbalanced binary classification problems?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Accuracy" },
+      { "label": "B", "type": "text", "value": "F1 Score" },
+      { "label": "C", "type": "text", "value": "R-Squared" },
+      { "label": "D", "type": "text", "value": "MAE" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "F1 Score balances precision and recall, making it suitable for imbalanced datasets."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which regularization method adds a penalty proportional to the absolute value of coefficients?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "L1 Regularization (Lasso)" },
+      { "label": "B", "type": "text", "value": "L2 Regularization (Ridge)" },
+      { "label": "C", "type": "text", "value": "Dropout" },
+      { "label": "D", "type": "text", "value": "Batch Normalization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "L1 regularization encourages sparsity by penalizing the absolute value of coefficients."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which deep learning framework is integrated with SageMaker for training models?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "TensorFlow" },
+      { "label": "B", "type": "text", "value": "PyTorch" },
+      { "label": "C", "type": "text", "value": "MXNet" },
+      { "label": "D", "type": "text", "value": "All of the above" }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker supports multiple deep learning frameworks like TensorFlow, PyTorch, and MXNet."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SageMaker feature is designed for low-latency real-time predictions?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Batch Transform" },
+      { "label": "B", "type": "text", "value": "SageMaker Endpoints" },
+      { "label": "C", "type": "text", "value": "SageMaker Neo" },
+      { "label": "D", "type": "text", "value": "Ground Truth" }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Endpoints are optimized for real-time, low-latency inference."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the benefit of using SageMaker Neo?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Optimize trained models for faster inference on multiple hardware platforms" },
+      { "label": "B", "type": "text", "value": "Provide labeling tools" },
+      { "label": "C", "type": "text", "value": "Host training jobs" },
+      { "label": "D", "type": "text", "value": "Manage datasets" }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "SageMaker Neo compiles models for optimized performance across different hardware."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which deployment approach allows traffic to be gradually shifted from one model version to another?"
+      }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Blue/Green Deployment" },
+      { "label": "B", "type": "text", "value": "Shadow Deployment" },
+      { "label": "C", "type": "text", "value": "Direct Replacement" },
+      { "label": "D", "type": "text", "value": "Endpoint Override" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Blue/Green deployment lets you shift traffic gradually to minimize downtime and rollback risk." }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What does Amazon SageMaker Batch Transform do?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Handles real-time inference" },
+      { "label": "B", "type": "text", "value": "Processes large datasets offline for predictions" },
+      { "label": "C", "type": "text", "value": "Performs feature engineering" },
+      { "label": "D", "type": "text", "value": "Tunes hyperparameters" }
+    ],
+    "correct": "B",
+    "explanation": [
+      { "type": "text", "value": "Batch Transform is used for offline, large-scale predictions using stored data." }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker component lets you deploy multiple models behind a single endpoint?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Multi-Model Endpoint" },
+      { "label": "B", "type": "text", "value": "SageMaker Pipelines" },
+      { "label": "C", "type": "text", "value": "Ground Truth" },
+      { "label": "D", "type": "text", "value": "Model Monitor" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Multi-Model Endpoints allow hosting multiple models efficiently under one endpoint." }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service can automate ML workflows including data processing, training, and deployment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Pipelines" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "AWS Lambda" },
+      { "label": "D", "type": "text", "value": "Amazon EMR" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Pipelines provides CI/CD orchestration for machine learning workflows." }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker feature can automatically adjust instance count to meet traffic demands?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Auto Scaling" },
+      { "label": "B", "type": "text", "value": "Batch Transform" },
+      { "label": "C", "type": "text", "value": "Ground Truth" },
+      { "label": "D", "type": "text", "value": "Pipelines" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Endpoints support auto-scaling to dynamically handle changing inference workloads." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which service helps detect data drift and bias in deployed ML models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Model Monitor" },
+      { "label": "B", "type": "text", "value": "AWS CloudWatch" },
+      { "label": "C", "type": "text", "value": "SageMaker Processing" },
+      { "label": "D", "type": "text", "value": "Amazon SNS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Model Monitor automatically checks prediction data for drift, bias, and quality issues." }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service is typically used to collect and visualize model logs and metrics?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon CloudWatch" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "Amazon Inspector" },
+      { "label": "D", "type": "text", "value": "SageMaker Ground Truth" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Amazon CloudWatch collects, stores, and visualizes logs and metrics from ML workflows." }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What does data drift indicate in deployed ML models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Change in model accuracy" },
+      { "label": "B", "type": "text", "value": "Change in statistical distribution of input features" },
+      { "label": "C", "type": "text", "value": "Server downtime" },
+      { "label": "D", "type": "text", "value": "Model overfitting" }
+    ],
+    "correct": "B",
+    "explanation": [
+      { "type": "text", "value": "Data drift happens when the distribution of input features changes over time, impacting predictions." }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which metric measures the difference between predicted and actual continuous values?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Mean Absolute Error (MAE)" },
+      { "label": "B", "type": "text", "value": "F1 Score" },
+      { "label": "C", "type": "text", "value": "Precision" },
+      { "label": "D", "type": "text", "value": "Recall" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MAE calculates the average absolute difference between predicted and true values." }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker feature allows model version tracking and comparison?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Model Registry" },
+      { "label": "B", "type": "text", "value": "SageMaker Processing" },
+      { "label": "C", "type": "text", "value": "Ground Truth" },
+      { "label": "D", "type": "text", "value": "SageMaker Debugger" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Registry tracks different model versions, metadata, and approval statuses for deployment." }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What is the principle of least privilege?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Granting full admin rights to all users" },
+      { "label": "B", "type": "text", "value": "Giving only necessary permissions required for a task" },
+      { "label": "C", "type": "text", "value": "Disabling access control lists" },
+      { "label": "D", "type": "text", "value": "Allowing public bucket access" }
+    ],
+    "correct": "B",
+    "explanation": [
+      { "type": "text", "value": "Least privilege means granting users minimal permissions needed to perform their role." }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service can manage encryption keys used by SageMaker?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Key Management Service (KMS)" },
+      { "label": "B", "type": "text", "value": "AWS Secrets Manager" },
+      { "label": "C", "type": "text", "value": "AWS CloudTrail" },
+      { "label": "D", "type": "text", "value": "AWS Glue" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS KMS handles encryption keys for securing data in transit and at rest in SageMaker." }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps you securely store and retrieve credentials used by ML workloads?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Secrets Manager" },
+      { "label": "B", "type": "text", "value": "Amazon S3" },
+      { "label": "C", "type": "text", "value": "Amazon GuardDuty" },
+      { "label": "D", "type": "text", "value": "AWS CloudFormation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS Secrets Manager securely stores credentials, API keys, and tokens used in ML applications." }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which feature enables secure network isolation for SageMaker training and inference jobs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "VPC Integration" },
+      { "label": "B", "type": "text", "value": "IAM Roles" },
+      { "label": "C", "type": "text", "value": "Data Wrangler" },
+      { "label": "D", "type": "text", "value": "Model Registry" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "VPC integration ensures jobs run in private networks, securing data traffic." }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which service logs API calls made to SageMaker for auditing?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS CloudTrail" },
+      { "label": "B", "type": "text", "value": "AWS CloudWatch" },
+      { "label": "C", "type": "text", "value": "AWS Config" },
+      { "label": "D", "type": "text", "value": "Amazon SNS" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS CloudTrail records all API calls for security auditing and compliance tracking." }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which step ensures all features contribute equally to distance calculations in algorithms like K-Means?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Normalization or Standardization" },
+      { "label": "B", "type": "text", "value": "Label Encoding" },
+      { "label": "C", "type": "text", "value": "Dimensionality Reduction" },
+      { "label": "D", "type": "text", "value": "Feature Selection" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Normalization or standardization keeps feature scales consistent for distance-based algorithms." }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service automates data cleaning and transformation tasks using a visual interface?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Glue DataBrew" },
+      { "label": "B", "type": "text", "value": "SageMaker Processing" },
+      { "label": "C", "type": "text", "value": "AWS Batch" },
+      { "label": "D", "type": "text", "value": "Amazon Athena" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Glue DataBrew lets users visually clean, normalize, and prepare data without writing code." }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Why is data splitting (train/test) important before model training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It prevents the model from memorizing training data and allows unbiased evaluation." },
+      { "label": "B", "type": "text", "value": "It increases dataset size artificially." },
+      { "label": "C", "type": "text", "value": "It helps improve batch size selection." },
+      { "label": "D", "type": "text", "value": "It ensures only categorical features are used." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Splitting ensures fair evaluation by testing the model on unseen data." }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which optimizer adapts the learning rate for each parameter during training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Adam" },
+      { "label": "B", "type": "text", "value": "SGD" },
+      { "label": "C", "type": "text", "value": "Momentum" },
+      { "label": "D", "type": "text", "value": "RMSProp" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The Adam optimizer automatically adjusts learning rates for each weight, improving convergence." }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which technique is commonly used to prevent overfitting in neural networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Dropout" },
+      { "label": "B", "type": "text", "value": "Batch normalization" },
+      { "label": "C", "type": "text", "value": "ReLU activation" },
+      { "label": "D", "type": "text", "value": "Pooling" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Dropout randomly disables neurons during training to reduce overfitting." }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service provides built-in algorithms like XGBoost for model training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "Amazon EMR" },
+      { "label": "D", "type": "text", "value": "AWS Lambda" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker includes built-in optimized algorithms like XGBoost, Linear Learner, and BlazingText." }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker capability automatically adjusts training parameters to find the best model?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Automatic Model Tuning" },
+      { "label": "B", "type": "text", "value": "Ground Truth" },
+      { "label": "C", "type": "text", "value": "Batch Transform" },
+      { "label": "D", "type": "text", "value": "Feature Store" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Automatic Model Tuning (hyperparameter tuning) searches for the best parameter combinations." }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which deep learning task involves classifying pixels in an image?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Image segmentation" },
+      { "label": "B", "type": "text", "value": "Object detection" },
+      { "label": "C", "type": "text", "value": "Image classification" },
+      { "label": "D", "type": "text", "value": "Clustering" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Image segmentation classifies each pixel into categories (e.g., background, object)." }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What does overfitting indicate?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Model performs well on training but poorly on unseen data" },
+      { "label": "B", "type": "text", "value": "Model generalizes perfectly" },
+      { "label": "C", "type": "text", "value": "Model lacks enough parameters" },
+      { "label": "D", "type": "text", "value": "Model uses too much dropout" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Overfitting occurs when a model memorizes the training data instead of learning general patterns." }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS feature helps version, approve, and deploy trained ML models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Model Registry" },
+      { "label": "B", "type": "text", "value": "AWS CodeDeploy" },
+      { "label": "C", "type": "text", "value": "AWS Lambda" },
+      { "label": "D", "type": "text", "value": "SageMaker Debugger" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Registry manages model versions and approvals before deployment." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service simplifies deploying ML models as REST APIs?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Endpoints" },
+      { "label": "B", "type": "text", "value": "AWS Lambda" },
+      { "label": "C", "type": "text", "value": "Amazon EC2" },
+      { "label": "D", "type": "text", "value": "AWS Glue" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Endpoints expose models via scalable HTTPS REST APIs for real-time inference." }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which tool can automatically detect training anomalies like loss spikes in SageMaker?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Debugger" },
+      { "label": "B", "type": "text", "value": "CloudWatch Logs" },
+      { "label": "C", "type": "text", "value": "AWS Glue" },
+      { "label": "D", "type": "text", "value": "Ground Truth" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Debugger monitors training in real-time and identifies anomalies automatically." }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "Model Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps manage alerts for model failures or drift detection?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SNS" },
+      { "label": "B", "type": "text", "value": "Amazon SES" },
+      { "label": "C", "type": "text", "value": "AWS Glue" },
+      { "label": "D", "type": "text", "value": "AWS Batch" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Amazon SNS sends notifications or triggers when events like drift or failure occur." }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What type of metric is Precision?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "The ratio of true positives to all predicted positives" },
+      { "label": "B", "type": "text", "value": "The ratio of true positives to all actual positives" },
+      { "label": "C", "type": "text", "value": "Average of predictions" },
+      { "label": "D", "type": "text", "value": "Error between true and predicted values" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Precision measures how many predicted positives are actually correct." }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which metric is best for regression model performance?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Mean Squared Error (MSE)" },
+      { "label": "B", "type": "text", "value": "Precision" },
+      { "label": "C", "type": "text", "value": "Recall" },
+      { "label": "D", "type": "text", "value": "AUC" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "MSE measures the average squared difference between predicted and actual continuous values." }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service provides real-time threat detection for ML workloads?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon GuardDuty" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "Amazon S3" },
+      { "label": "D", "type": "text", "value": "AWS Secrets Manager" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GuardDuty continuously monitors AWS accounts for malicious activity and unauthorized behavior." }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What does encrypting data at rest mean?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Data is encrypted while stored in physical or cloud storage" },
+      { "label": "B", "type": "text", "value": "Data is encrypted during transmission only" },
+      { "label": "C", "type": "text", "value": "Data is compressed" },
+      { "label": "D", "type": "text", "value": "Data is anonymized" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Encryption at rest secures data stored on disk using KMS-managed keys." }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service ensures secure API access control via identity and permissions?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS IAM" },
+      { "label": "B", "type": "text", "value": "Amazon EC2" },
+      { "label": "C", "type": "text", "value": "AWS Batch" },
+      { "label": "D", "type": "text", "value": "AWS Glue" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AWS IAM manages users, roles, and permissions across AWS, ensuring secure access." }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What does feature scaling achieve?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Makes numerical features comparable by bringing them to similar ranges" },
+      { "label": "B", "type": "text", "value": "Removes outliers" },
+      { "label": "C", "type": "text", "value": "Encodes labels" },
+      { "label": "D", "type": "text", "value": "Drops missing columns" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature scaling ensures all numerical features contribute equally to learning." }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which deployment type is ideal for running predictions on huge offline datasets?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Batch Transform" },
+      { "label": "B", "type": "text", "value": "Real-Time Endpoint" },
+      { "label": "C", "type": "text", "value": "Edge Deployment" },
+      { "label": "D", "type": "text", "value": "Pipeline Deployment" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Batch Transform performs inference on large datasets in bulk without endpoint hosting costs." }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which visualization tool is often used to track SageMaker metrics in real time?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon CloudWatch Dashboard" },
+      { "label": "B", "type": "text", "value": "AWS Glue Studio" },
+      { "label": "C", "type": "text", "value": "QuickSight" },
+      { "label": "D", "type": "text", "value": "Redshift Console" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CloudWatch Dashboards allow real-time monitoring of SageMaker performance metrics." }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which type of learning uses labeled data for training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Supervised Learning" },
+      { "label": "B", "type": "text", "value": "Unsupervised Learning" },
+      { "label": "C", "type": "text", "value": "Reinforcement Learning" },
+      { "label": "D", "type": "text", "value": "Self-Learning" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Supervised learning uses labeled data to train predictive models." }
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which metric evaluates clustering quality?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Silhouette Score" },
+      { "label": "B", "type": "text", "value": "F1 Score" },
+      { "label": "C", "type": "text", "value": "AUC" },
+      { "label": "D", "type": "text", "value": "RMSE" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Silhouette Score measures how well clusters are separated and cohesive." }
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker deployment allows inference on edge devices?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker Edge Manager" },
+      { "label": "B", "type": "text", "value": "SageMaker Neo" },
+      { "label": "C", "type": "text", "value": "Model Monitor" },
+      { "label": "D", "type": "text", "value": "Batch Transform" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Edge Manager manages and monitors ML models deployed to edge devices." }
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which metric evaluates binary classification models’ discrimination ability?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AUC-ROC" },
+      { "label": "B", "type": "text", "value": "R-Squared" },
+      { "label": "C", "type": "text", "value": "MSE" },
+      { "label": "D", "type": "text", "value": "MAE" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "AUC-ROC measures how well a model distinguishes between classes." }
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS tool can visualize SageMaker training job metrics historically?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon CloudWatch" },
+      { "label": "B", "type": "text", "value": "AWS Lambda" },
+      { "label": "C", "type": "text", "value": "AWS Glue" },
+      { "label": "D", "type": "text", "value": "AWS Config" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CloudWatch logs and stores all SageMaker training metrics for historical analysis." }
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "Security",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "What is IAM Role chaining used for?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Allowing temporary role access from another role securely" },
+      { "label": "B", "type": "text", "value": "Encrypting credentials" },
+      { "label": "C", "type": "text", "value": "Sending notifications" },
+      { "label": "D", "type": "text", "value": "Disabling user accounts" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Role chaining securely delegates temporary access between AWS roles." }
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "Data Preparation",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service can be used to query S3 data using SQL without loading into a database?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon Athena" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "Amazon RDS" },
+      { "label": "D", "type": "text", "value": "SageMaker Studio" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Amazon Athena allows running SQL queries directly on S3 data without database ingestion." }
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "Model Development",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which AWS service helps you build reinforcement learning environments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SageMaker RL" },
+      { "label": "B", "type": "text", "value": "AWS Step Functions" },
+      { "label": "C", "type": "text", "value": "Glue" },
+      { "label": "D", "type": "text", "value": "Kinesis" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker RL provides built-in simulators and environments for reinforcement learning." }
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "Model Deployment",
+    "difficulty": "easy",
+    "question": [
+      { "type": "text", "value": "Which SageMaker feature reduces cost by shutting down idle notebook resources?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Idle Timeout Settings" },
+      { "label": "B", "type": "text", "value": "Auto Scaling" },
+      { "label": "C", "type": "text", "value": "Batch Transform" },
+      { "label": "D", "type": "text", "value": "Pipeline Scheduler" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker notebooks can be configured to auto-stop when idle to save compute costs." }
+    ]
+  }
+]
+

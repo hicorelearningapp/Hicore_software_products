@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 4,
+    "topic": "XML Schema",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML Schema define?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The structure and data types of an XML document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The stylesheet for an XML document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The encryption protocol for XML"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The namespace URIs used in XML applications"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML Schema is used to define the structure of XML data including elements and attributes, as well as data types."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Schema",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML schema data type is used to define numeric values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xs:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xs:integer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xs:boolean"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xs:date"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xs:integer is used to define whole numeric values in XML Schema."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Namespaces",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names and avoid name conflicts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML parsing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their schemas"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt XML documents"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces in XML help avoid element name conflicts by providing a way to qualify names with unique identifiers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XSD Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in XML Schema Definition is used for textual data?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xs:integer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xs:boolean"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xs:string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xs:decimal"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xs:string is used for textual data, capable of containing any character or sequence of characters allowed by the XML."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a self-closing XML tag?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<tag></tag>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<tag/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<\\tag>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<tag><tag/>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XML, a self-closing tag ends with '/>' and does not require an explicit closing tag. Option B, '<tag/>' is the correct format for a self-closing tag."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Using XQuery",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the XQuery expression 'doc(\"library.xml\")//book' do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Deletes all book elements from library.xml"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Selects all book elements from library.xml"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updates all book elements in library.xml"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creates new book elements in library.xml"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XQuery expression 'doc(\"library.xml\")//book' selects all book elements from the document library.xml."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XPath Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the XPath expression '//book[1]' select?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The first book element in the document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All book elements in the document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The first book element in each subtree"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XPath expression '//book[1]' selects the first book element that appears in the document."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic XSLT Elements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT element is used to write text to the output document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:text>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:output>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:template>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xsl:value-of>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <xsl:text> element is used specifically to write text content to the output document in XSLT."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic XML Structure",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does XML stand for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Extensible Markup Language"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executable Multiple Language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Extra Multi-Program Language"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Examine Multiple Language"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML stands for Extensible Markup Language, which is used to define set of rules for encoding documents in a format that is both human-readable and machine-readable."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Types in XSD",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a built-in primitive data type in XML Schema Definition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "integer"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "paragraph"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "document"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "stylesheet"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XML Schema Definition, 'integer' is a built-in primitive data type used to define numeric values without decimal."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Namespaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using XML namespaces?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names within an XML document, avoiding element name conflicts."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML processing by defining specific schema locations."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To link XML documents to their respective databases."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt XML documents."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "XML namespaces are used to avoid element name conflicts by providing uniquely named elements in an XML document."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XQuery Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XQuery, what does the function 'count()' return when applied to a sequence of nodes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The number of nodes in the sequence."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A boolean value indicating if the sequence is empty or not."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The first node of the sequence."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A list of attribute values from the nodes in the sequence."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'count()' function in XQuery returns the total number of items in the sequence it is applied to. This helps in determining the size of the node-set selected by the query."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XML Elements and Attributes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid attribute usage in XML?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using an attribute to store metadata about an element"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using an attribute to specify the namespace of an element"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using an attribute to replace child elements"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using an attribute to store the data content of an element"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Attributes in XML should not be used to store the data content of an element, as this is the purpose of child elements or text nodes within the element."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "XML Namespaces",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of using namespaces in XML documents in the context of SOAP web services?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To provide unique names for elements and attributes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance the speed of XML parsing."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt the XML document."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To link to the document schema."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Namespaces are used in XML to provide uniquely named elements and attributes in an XML document. This is crucial in SOAP web services to avoid naming conflicts when integrating multiple XML schemas."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does a 'well-formed' XML document imply?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The document conforms to a specific schema."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The document adheres strictly to XML syntax rules."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The document includes a reference to an XSLT stylesheet."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The document contains only character data."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A 'well-formed' XML document means that the document adheres strictly to XML syntax rules. Options A, C, and D are not requirements for an XML document to be considered well-formed."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XSLT Basic Syntax",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to apply a template in XSLT?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xsl:apply-template select=\"node()\"/>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xsl:template apply=\"node()\"/>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xsl:execute-template match=\"node()\"/>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<apply-template node=\"node()\"/>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax for applying a template in XSLT is <xsl:apply-template select=\"node()\"/>, which is used to apply the template rule to the selected nodes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XML Syntax and Structure",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following XML declarations is correctly formatted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xml version='1.0' encoding='UTF-8'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<?xml version='1.0'; encoding='UTF-8'?>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<?xml version=\"1.0\", encoding=\"UTF-8\"?>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the proper syntax for XML declarations, including the use of double quotes and a self-closing tag."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XML Prolog and Encoding",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML declaration specifies the correct version and encoding?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding='UTF-8'?>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xml version=\"1.0\" encoding=\"UTF-8\">"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<?xml version=1.0 encoding=\"UTF-8\"?>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct XML declaration must use double quotes for attributes, and be properly closed with ?>. Option A meets these criteria."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XML Schema",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in data type in XML Schema?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsd:string"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xsd:date"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsd:integer"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsd:customType"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "xsd:customType is not a built-in data type in XML Schema. The built-in types include xsd:string, xsd:date, and xsd:integer among others."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XPath Axes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the XPath query '//book/ancestor::library' select?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The closest ancestor <library> element of each <book>."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All descendant <library> elements of each <book>."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The parent <library> element of each <book>."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All <library> elements that have a <book> descendant."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'ancestor' axis selects all ancestor nodes (parent, grandparent, etc.) of the current node, up to the root. In this query, it selects the closest <library> element that is an ancestor of each <book>."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XSLT Output Methods",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using xsl:output, which method should be used to ensure the output is well-formed XML, but without the XML declaration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xml"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "html"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "none"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'none' method is used when the output needs to be well-formed XML but without the XML declaration. Other methods like 'xml', 'html', or 'text' include additional formatting or declarations unsuitable for this requirement."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "XML Namespaces and Schema",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a complex XML application, which approach ensures that XML namespaces are consistently managed across multiple XML schemas?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a centralized XML registry"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Manually synchronizing namespaces in each schema"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Relying on XML schema default namespace declarations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Assigning namespace management to the schema consumer"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using a centralized XML registry allows for consistent management of namespaces across schemas by serving as a single reference point, thus avoiding conflicts and redundancy."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Security in SOAP",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a true statement about WS-Security in SOAP-based web services?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "WS-Security provides end-to-end security at the messaging level only."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "WS-Security can encrypt the entire SOAP message, including the SOAP envelope."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WS-Security supports encryption but not authentication."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "WS-Security is deprecated and replaced entirely by SSL/TLS."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "WS-Security can indeed encrypt the entire SOAP message, including the envelope, providing confidentiality, integrity, and authentication."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XSLT Template Matching",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XSLT, which of the following is the correct syntax to apply templates only to child elements that have a specific attribute value?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<apply-templates select=\"child::*[@attr='value']\" />"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<apply-templates select=\"@attr='value'\" />"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<apply-templates select=\"child::[@attr='value']\" />"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<apply-templates select=\"*[attr='value']\" />"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the correct XPath syntax inside the select attribute to select all child elements ('child::*') that have a specific attribute ('[@attr='value']'). This ensures that the templates are applied only to those children with the specified attribute value."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XML Namespaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XML, if a default namespace is declared in the root element, which of the following statements is true regarding the scope of the namespace?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The default namespace applies only to the root element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The default namespace applies to the root element and all child elements unless overridden."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The default namespace does not apply to any attributes, regardless of their position."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The default namespace can be overridden in a child element but will continue to apply to its sibling elements."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The default namespace declared in the root element applies to all child elements as well, unless it is explicitly overridden by another namespace declaration in the child elements."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XML Namespaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which option correctly declares a default namespace and a prefixed namespace in an XML document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.com\" xmlns:ex=\"http://www.example.org\">"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<root xmlns:default=\"http://www.example.com\" xmlns=\"http://www.example.org\">"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.org\" ex=\"http://www.example.com\">"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<root default=\"http://www.example.com\" xmlns:ex=\"http://www.example.org\">"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A correctly declares a default namespace to be used throughout the XML document and a prefixed namespace 'ex' for specific elements or attributes."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "XPath Axes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an XML structure with multiple nested nodes, which XPath expression correctly selects all text nodes that are grandchildren of the 'book' elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "/book/*/text()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "//book/*/node()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "//book//text()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "/book/descendant::text()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The XPath expression '//book//text()' correctly selects all text nodes under any element that is a grandchild of the 'book' elements because it uses the descendant axis which navigates to all descendants (children, grandchildren, etc.) of the specified node, including text nodes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Type Facets",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which facet in XML Schema can be used to restrict the XML document to have specific starting characters for string type elements?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pattern"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "length"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "enumeration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "totalDigits"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'pattern' facet is used to define the regular expression that the string content must match, which can include specific starting characters."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XML Namespace",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following XML declarations correctly defines a default namespace and a prefixed namespace?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.com\" xmlns:x=\"http://www.example.com/x\"> </root>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.com\" xmlns=\"http://www.example.com/x\"> </root>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<root xmlns:x=\"http://www.example.com\" xmlns:x=\"http://www.example.com/x\"> </root>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<root xmlns:x=\"http://www.example.com\" xmlns:y=\"http://www.example.com/x\"> </root>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it appropriately defines a default namespace applicable to all unqualified elements and a prefixed namespace for elements qualified by 'x'. Option B is incorrect because it attempts to redefine the default namespace. Option C uses the same prefix for two different namespaces, which is not allowed. Option D correctly defines two different prefixed namespaces, but does not address the default namespace."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Complex Type Definitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an XML Schema, an element is defined to be of a complex type with a sequence of sub-elements. If one of these sub-elements is optional and has a minimum occurrence of 0, how does this affect the validation of documents against the schema?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The document is valid whether the optional sub-element is present or not."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The document is only valid if the optional sub-element is present."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The document is only valid if the optional sub-element is not present."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The presence or absence of the sub-element does not affect the document's validity."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XML Schema, setting the minOccurs attribute to 0 for a sub-element marks it as optional. This means the document can be valid both with and without this sub-element, hence option A is correct."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "XQuery FLWOR Expressions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XQuery, what does a FLWOR statement do when it includes a 'let' clause that defines a variable based on a sequence, followed by an 'order by' clause?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It orders the entire input sequence based on the variable definition before returning the result."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It returns the input sequence unchanged because 'let' does not allow reordering."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It evaluates the 'let' clause for each item and orders the results of these evaluations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It discards the variable defined in the 'let' clause when the 'order by' is executed."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct behavior of a FLWOR statement with a 'let' clause followed by an 'order by' clause is to evaluate the 'let' clause for each item in the sequence and then order the results of these evaluations. This allows for complex sorting criteria based on computed values."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XSLT Output Methods",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XSLT, which output method should be used when the transformation result needs to be well-formed XML but without a DOCTYPE declaration?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "html"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xml"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "text"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xhtml"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'xml' output method in XSLT ensures that the output is well-formed XML. Unlike 'html' or 'xhtml', it doesn't add a DOCTYPE declaration, making it suitable for general XML transformations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XML Schema",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "You are designing an XML Schema for a library system. Given the requirement that the 'book' element can contain either one 'author' element or one 'editor' element but not both, which of the following XSD snippets correctly implements this constraint?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xs:element name='book'><xs:complexType><xs:choice><xs:element name='author' type='xs:string'/><xs:element name='editor' type='xs:string'/></xs:choice></xs:complexType></xs:element>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xs:element name='book'><xs:complexType><xs:sequence><xs:element name='author' type='xs:string' minOccurs='0' maxOccurs='1'/><xs:element name='editor' type='xs:string' minOccurs='0' maxOccurs='1'/></xs:sequence></xs:complexType></xs:element>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xs:element name='book'><xs:complexType><xs:all><xs:element name='author' type='xs:string'/><xs:element name='editor' type='xs:string'/></xs:all></xs:complexType></xs:element>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xs:element name='book'><xs:complexType><xs:group ref='authorOrEditorGroup'/></xs:complexType></xs:element><xs:group name='authorOrEditorGroup'><xs:choice><xs:element name='author' type='xs:string'/><xs:element name='editor' type='xs:string'/></xs:choice></xs:group>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A uses the xs:choice model group which correctly allows either one 'author' or one 'editor', but not both, fulfilling the specified requirement."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Complex Type Definitions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML schema definition will correctly restrict an element to accept only positive integers excluding zero?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<xs:simpleType><xs:restriction base=\"xs:positiveInteger\"></xs:restriction></xs:simpleType>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<xs:simpleType><xs:restriction base=\"xs:integer\"><xs:minInclusive value=\"1\"/></xs:restriction></xs:simpleType>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<xs:simpleType><xs:restriction base=\"xs:int\"><xs:minExclusive value=\"0\"/></xs:restriction></xs:simpleType>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<xs:simpleType><xs:restriction base=\"xs:nonNegativeInteger\"><xs:minExclusive value=\"0\"/></xs:restriction></xs:simpleType>"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because 'xs:nonNegativeInteger' includes zero and positive integers, and the 'minExclusive' restriction correctly excludes zero."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "XPath Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an XML document with multiple 'employee' elements, each containing 'name' and 'age' elements, what XPath expression returns the average age of employees who are over 30?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "avg(/employee[age > 30]/age)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sum(/employee[age > 30]/age) div count(/employee[age > 30])"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "/employee[age > 30]/avg(age)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "average(/employee[age > 30]/age)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because it correctly uses the 'sum' function to add all ages over 30 and divides by the count of employees over 30, which is the proper method to calculate the average in XPath."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "XML Namespaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following XML declarations correctly defines a default namespace and a prefixed namespace?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.com\" xmlns:x=\"http://www.example.org\"></root>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<root xmlns=\"http://www.example.com\" x=\"http://www.example.org\"></root>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<root xmlns:x=\"http://www.example.com\" xmlns=\"http://www.example.org\"></root>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<root x=\"http://www.example.com\" xmlns=\"http://www.example.org\"></root>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it properly declares a default namespace with 'xmlns' for all elements and a prefixed namespace 'x' for elements specifically prefixed with 'x'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XSLT Functions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT function is used to apply a template to each selected node and return a combined result that replaces each node in the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsl:apply-templates"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "xsl:value-of"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsl:copy-of"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsl:template"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The xsl:apply-templates function selects nodes and applies templates to each of them sequentially, combining their results into a single output stream, thus transforming each node."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "XPath Axes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an XML structure with nested elements, what XPath query would correctly select all text nodes within the descendant elements of <book> that have an attribute 'lang' set to 'en'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "//book//*[@lang='en']/text()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "//book/*[@lang='en']/text()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "//book//*/@lang='en'/text()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "/book/*[@lang='en']//text()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the double slash (//) before book selects descendants at any level under <book> that have the specified attribute 'lang' with value 'en'. The '/text()' selects all text nodes of these elements."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "XML Schema Definition",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of setting the 'maxOccurs' attribute of an XML element to 'unbounded' in its XSD definition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The element can appear an unlimited number of times within its parent element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The element cannot appear more than once."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The element's occurrence is strictly limited to one."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The element is optional and may not appear at all."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'maxOccurs' to 'unbounded' allows the element to repeat indefinitely within its parent element, as opposed to being restricted to a specified number of times."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "XML Optimization Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of XML-based applications, what optimization technique involves reducing the depth of the XML document tree while maintaining data integrity?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Vertical Compression"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Horizontal Compression"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Node Pruning"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tree Flattening"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tree Flattening is a technique where the nested structure of an XML document is simplified by reducing its depth, thus optimizing the parsing process while ensuring data integrity is maintained."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Complex Type Restriction",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When restricting a complex type in XSD, which of the following is NOT a valid modification?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Adding new elements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Changing the data type of an existing element to a derived type"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Adding new attributes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Removing optional attributes"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When restricting a complex type in XSD, you cannot add new elements as it would violate the base type's constraints. Changes should be restrictive, not additive."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XQuery FLWOR",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In an XML document with nested 'book' elements under 'library', how would you write an XQuery that lists all books that cost more than $20, sorted by price in descending order?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for $b in /library/book where $b/price > 20 order by $b/price descending return $b"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for $b in /library/book where $b/price > 20 return sort($b/price, descending)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "for $b in /library/book order by $b/price descending where $b/price > 20 return $b"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "/library/book[price > 20] sort by price descending"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it uses the FLWOR expression correctly by filtering books over $20 first, then ordering them in descending order by price, and finally returning the books that meet these criteria."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "XML Transformation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XSLT function is used to dynamically generate unique IDs for nodes in an XML document during transformation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "xsl:value-of"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "generate-id()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "xsl:copy-of"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "xsl:apply-templates"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generate-id() function in XSLT is specifically designed to create a unique identifier for each node processed, which is crucial for tasks that require unique node handling during transformations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Schema Design Patterns",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML schema design pattern is most appropriate for ensuring extensibility while maintaining strict version control?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Russian Doll"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Venetian Blind"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Salami Slice"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Garden of Eden"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Venetian Blind pattern allows for strong encapsulation and versioning, which is vital for maintaining extensibility in evolving XML schema environments."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "REST Constraints",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which constraint of REST architectural style does the uniform interface principle enforce?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Statelessness"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Cacheability"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Layered system"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Client-server architecture"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The uniform interface constraint, which includes using standard HTTP methods, enforces statelessness by requiring that each request from client to server must contain all the information needed to understand the request."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "XML Namespaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XML, when defining a namespace, what is the primary reason for using a URI?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure the namespace is a valid URL that can be accessed on the internet."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To uniquely identify the namespace using a string that is a valid URI format."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To provide a direct link to a webpage containing the namespace's documentation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enable automatic downloading of schema definitions from the internet."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The use of a URI in XML namespaces is to uniquely identify the namespace, not necessarily to provide a working URL or link. URIs are chosen because they can be globally unique strings."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "XML Encoding",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which XML declaration is correct when using an encoding that supports characters not covered by UTF-8?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<?xml version=\"1.1\" encoding=\"UTF-8\"?>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"ASCII\"?>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ISO-8859-1 is a character encoding that supports additional characters not available in UTF-8, making it suitable for documents needing such characters."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Element Default Values",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XML Schema Definition (XSD), which scenario will ignore the default value specified for an element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The element is present with an empty value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The element is absent in the XML document."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The element is present with a non-empty value."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both A and C are correct."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In XSD, a default value is used when the element is absent from the document. If the element is present, even with an empty value, the default is ignored."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XML Encryption and Security",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In XML encryption, which method ensures that an intermediary can transform portions of a document without accessing the entire document content?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Element-wise encryption"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Document encryption"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hybrid encryption"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Transport Layer Security (TLS)"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Element-wise encryption allows specific elements within the XML document to be encrypted, enabling transformations on unencrypted parts without exposing the entire document."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "XPath Axes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given an XML document with nested elements, which XPath expression correctly selects all text nodes that are directly or indirectly inside a 'book' element but not inside a 'summary' element?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "//book//text()[not(ancestor::summary)]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "//book/*/text()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "//book//summary//text()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "//book/descendant::text()[not(parent::summary)]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct as it selects all text nodes inside 'book' while excluding those that are descendants of 'summary'. It utilizes the 'ancestor' axis to ensure that no ancestor element is a 'summary'."
+      }
+    ]
+  }
+]

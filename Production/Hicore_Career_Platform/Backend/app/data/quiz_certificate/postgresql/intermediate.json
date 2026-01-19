@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Aggregation Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the SQL COUNT function return?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The sum of the specified column"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The average value of a specified column"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The total number of non-NULL values in a specified column"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The total number of rows that matches a specified condition, including duplicates and NULLs"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The COUNT function in SQL returns the total number of rows that matches a specified criterion, including all duplicates and rows with NULL values in other columns."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which aggregate function would you use to find the total number of distinct (non-duplicate) entries in a column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "COUNT(DISTINCT column_name)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MAX()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "COUNT(DISTINCT column_name) is used to count the number of unique entries in a column, excluding duplicates."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of PostgreSQL index would be most efficient for queries involving a range of values on a column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "BRIN Index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "B-tree indexes are most efficient for queries that involve range or equality searches, as they keep data sorted and allow searches, insertions, and deletions in logarithmic time."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL function is used to return the total sum of a numeric column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TOTAL()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "AVG()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'SUM()' function is used to return the total sum of a numeric column. 'COUNT()' returns the number of rows, 'TOTAL()' is not a standard SQL function, and 'AVG()' returns the average value."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Troubleshooting Performance Issues",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which view in PostgreSQL provides the most comprehensive details about the current activities and waiting events in the server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_stat_activity"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_stat_user_tables"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_locks"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_stat_io"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The pg_stat_activity view is essential for monitoring the database as it provides information on all active processes, what command they are executing, their current state, and any locks or wait events they are involved in."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Indexing in PostgreSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of using a GIN index in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance of full-text searches"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Enhances sorting of numerical data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increases speed of insertion operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Supports unique constraints on columns"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GIN (Generalized Inverted Index) indexes are particularly useful for indexing array values and full-text searches, providing faster search results over large datasets."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Joins and Relationships",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to return only different values from the columns in the result set?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT UNIQUE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT DISTINCT"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT DIFFERENT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT VARIOUS"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'SELECT DISTINCT' statement is used to return only distinct (different) values. 'UNIQUE', 'DIFFERENT', and 'VARIOUS' are not valid commands in SQL."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Backup Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PostgreSQL function can be used to create a consistent backup even when the database is being actively modified?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pg_start_backup()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_backup()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pg_dump()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pg_stop_backup()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "pg_start_backup() is used to initiate a base backup of a running PostgreSQL database, allowing for a consistent state snapshot even with concurrent writes."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Data Types and Casting",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What data type does PostgreSQL automatically cast an input string 'true' or 'false' to if the context expects a boolean?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "VARCHAR"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "BOOLEAN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TEXT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "INTEGER"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PostgreSQL automatically casts strings 'true' or 'false' to BOOLEAN when the expected context is a boolean data type."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which aggregate function in PostgreSQL would you use to calculate the total sum of a column containing numeric values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COUNT()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AVG()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SUM()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MAX()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SUM() function is used to calculate the total sum of a set of numeric values in a column."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Backup and Recovery Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What PostgreSQL feature ensures data integrity after a crash, by recording transaction logs that can be replayed during recovery?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Point-in-time recovery (PITR)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Write-Ahead Logging (WAL)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Continuous Archiving"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Transaction Control System (TCS)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Write-Ahead Logging (WAL) is a feature in PostgreSQL that helps maintain data integrity by logging changes before any changes are made to the database. In the event of a crash, these logs can be replayed to ensure that no data is lost."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following PostgreSQL commands would you use to analyze and store the statistics about a table for query optimization?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "EXPLAIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "VACUUM"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ANALYZE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REINDEX"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ANALYZE command is used in PostgreSQL to collect statistics about the contents of tables in the database, which can then be used by the planner to choose the most efficient query plans."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Usage",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL can be most beneficial for full-text searching?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "B-tree"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hash"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GIN (Generalized Inverted Indexes) are particularly useful for indexing array data types and full-text search, as they can efficiently handle values that contain multiple component values."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Data Types in PostgreSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which data type in PostgreSQL would be best for storing an object with properties that have predefined values?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JSON"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ARRAY"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ENUM"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "XML"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ENUM is the correct choice because it allows for defining a column with a static, ordered set of values (e.g., small, medium, large)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "User and Database Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to create a new user in PostgreSQL with login privileges?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "CREATE USER username WITH PASSWORD 'password';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NEW USER username IDENTIFIED BY 'password';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ADD USER username SET PASSWORD 'password';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REGISTER USER username WITH PASSWORD 'password';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The SQL command 'CREATE USER username WITH PASSWORD 'password';' is the correct syntax in PostgreSQL to create a new user with login privileges."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Join Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL clause is used to combine rows from two or more tables, based on a related column between them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COMBINE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MERGE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "LINK"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JOIN clause is used in SQL to combine rows from two or more tables based on a related column between them."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Granting Privileges",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the GRANT command do in the context of PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Deletes user privileges on a database object"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Grants system-level access to users"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Grants user-specific privileges on a database object"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Creates a new user role"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT command is used to give specific privileges on a database object to one or more roles."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Transaction Controls",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, which command is used to roll back a transaction that has not yet been committed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "COMMIT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ROLLBACK"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UNDO"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REVERSE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ROLLBACK command is used to undo transactions that have not been saved to the database, effectively rolling back any changes made during the transaction."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the MOST effective method to speed up a query that involves a WHERE clause which filters on a non-primary key attribute?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increase the database\u2019s cache size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating an index on the attribute"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Normalizing the database structure"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Converting the attribute data type to VARCHAR"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Creating an index on the attribute used in the WHERE clause directly improves the search speed by allowing the database to quickly locate the data without scanning the entire table."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Index Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL is particularly effective for improving the performance of LIKE queries?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hash Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B-Tree Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "GIN Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "GiST Index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "GiST Indexes are particularly useful for wildcard searches, such as those used with the LIKE operator, because they can efficiently search through large data sets using tree structures."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "JOIN Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of JOIN operation would you use to return all records from the LEFT table and the matched records from the RIGHT table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FULL OUTER JOIN"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A LEFT JOIN operation returns all the records from the LEFT table along with the matched records from the RIGHT table. If there is no match, the result is NULL on the side of the RIGHT table."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Configuring PostgreSQL Authentication",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the pg_hba.conf file allows connection only if the user connecting has the same username as the operating system user initiating the connection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ident"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "peer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "md5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "trust"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'peer' authentication method uses the operating system's user name of the client's process to determine the allowed PostgreSQL username. Therefore, it only allows connection if the PostgreSQL username matches the operating system username."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "PostgreSQL Connection Settings",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the postgresql.conf file, which setting specifies the maximum number of concurrent connections allowed to the database server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "listen_addresses"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "max_connections"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shared_buffers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "wal_buffers"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'max_connections' setting in the postgresql.conf file determines how many concurrent connections to the database server are allowed. Setting this value appropriately is crucial for managing server resources and performance."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Join Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of JOIN returns only the rows that have a match in both joined tables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FULL OUTER JOIN"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "INNER JOIN returns a result set that includes rows from both joined tables where the join condition is met."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL function is used to return the highest value of the selected column?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "MAX()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TOP()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPPER()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SUM()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MAX() function is used to return the highest value of the selected column."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Performance Tuning",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following tools is used to collect and display performance data from a PostgreSQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pgAdmin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pgBouncer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pgBadger"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pgPool"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "pgBadger is a PostgreSQL tool used to analyze PostgreSQL logs and generate performance reports, which is crucial for identifying performance bottlenecks and tuning the database for better performance."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Installation and Initial Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to start PostgreSQL on a system using systemd?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo systemctl start postgresql"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo service postgresql start"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo start postgresql"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sudo init postgresql"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to start PostgreSQL on a system using systemd is 'sudo systemctl start postgresql'. The systemctl command is used to examine and control the systemd system and service manager."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Join Operations",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL statement is used to return only different values from two tables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SELECT DISTINCT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "SELECT UNIQUE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "SELECT DIFFERENT"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SELECT VARIOUS"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'SELECT DISTINCT' statement is used to return only distinct (different) values. 'SELECT UNIQUE' and the others are not standard SQL commands."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Database Indexes",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using indexes in a PostgreSQL database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To increase data redundancy"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enforce data integrity"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To reduce storage space"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To improve query performance"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Indexes are primarily used to enhance database performance (though inappropriate use can result in slower performance). They allow the database server to find and retrieve specific rows much faster than it could do without an index."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Configuring PostgreSQL",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which file needs to be edited to change the default listening address of a PostgreSQL server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "postgresql.conf"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pg_hba.conf"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.conf"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "server.conf"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The file 'postgresql.conf' contains server configuration including the listening address. The parameter 'listen_addresses' in this file is used to set the IP address(es) on which the server is to listen for incoming connections."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "User and Permission Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "How would you change the password of a PostgreSQL user named 'dbuser'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER USER dbuser PASSWORD 'newpassword';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UPDATE USER dbuser SET PASSWORD 'newpassword';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MODIFY USER dbuser PASSWORD 'newpassword';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET USER dbuser PASSWORD 'newpassword';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to change a user's password in PostgreSQL is using the ALTER USER command followed by the user name and the new password in single quotes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Integrity",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which constraint ensures that all values in a column are different?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "FOREIGN KEY"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "NOT NULL"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UNIQUE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "CHECK"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The UNIQUE constraint ensures that all values in a column are different, preventing duplicate entries."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic SQL Commands",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table without deleting the table structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TRUNCATE"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TRUNCATE is used to delete all rows in a table without affecting the table's schema."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Authentication Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which authentication method allows PostgreSQL to perform authentication securely by using SSL certificates?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "SCRAM-SHA-256"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Certificate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Kerberos"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MD5"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Certificate authentication method uses SSL certificates to verify the identity of the user, providing a secure method of authentication."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Performance Monitoring",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'EXPLAIN ANALYZE' statement in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To update database statistics"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To execute and show the execution plan of a query"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To recover corrupted data files"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To export data into SQL format"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'EXPLAIN ANALYZE' statement is used to execute a query and show the execution plan, including the timing of each operation, helping in performance tuning."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Indexes and Performance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of index in PostgreSQL can be used to speed up NULL searches?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Partial Index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unique Index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multicolumn Index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Expression Index"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Partial Index is an index built over a subset of a table; it is particularly useful when you need to query columns with NULL values frequently."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which PostgreSQL command is used to rebuild an index to improve query performance and reduce storage space?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "REINDEX"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "INDEX REBUILD"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "UPDATE INDEX"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REFRESH INDEX"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The REINDEX command is used to rebuild an existing index or all indexes on a table, thereby improving query performance and potentially reducing storage space."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Joins",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which type of JOIN will return all records from the LEFT table and the matched records from the RIGHT table?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "INNER JOIN"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "LEFT JOIN"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "RIGHT JOIN"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FULL OUTER JOIN"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A LEFT JOIN in PostgreSQL will return all the records from the left table (table specified first in the JOIN clause) and the matched records from the right table. If there is no match, the result is NULL on the side of the right table."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Basic SQL Commands",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove rows from a PostgreSQL table without deleting the table structure?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP TABLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "TRUNCATE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "DELETE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "REMOVE"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TRUNCATE is used to quickly remove all rows from a table, but the table structure remains intact."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Installation and Initial Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install PostgreSQL on Ubuntu using the apt package manager?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "sudo apt-get install postgresql"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "sudo yum install postgresql"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sudo apt-get install pgsql"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "sudo dnf install postgresql"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The command 'sudo apt-get install postgresql' is the correct command to install PostgreSQL on Ubuntu using the apt package manager, as Ubuntu uses apt for package management."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Role Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct SQL command to remove a role in PostgreSQL is 'DROP ROLE'. The other commands are not valid for this action in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role-based Access Control",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which SQL command is used to remove a role in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DROP ROLE"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "DELETE ROLE"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "REMOVE ROLE"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ERASE ROLE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DROP ROLE is the correct SQL command to remove an existing role in PostgreSQL."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the EXPLAIN command do in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It updates statistics used by the planner to determine the most efficient query plan."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It executes the query and returns the result."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It displays the execution plan that the PostgreSQL planner generates for the supplied query."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It modifies query syntax to optimize performance."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The EXPLAIN command in PostgreSQL is used to display the execution plan that the PostgreSQL query planner creates for the supplied query. This plan shows how the tables involved in the query will be scanned\u2014by plain sequential scan, index scan, etc.\u2014and if multiple tables are involved, what join algorithms will be used to bring together the required rows from each input table."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Privilege Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command in PostgreSQL is used to provide a role with the ability to connect to a specific database?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "GRANT CONNECT"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "GRANT ACCESS"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ALLOW CONNECTION"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ENABLE DATABASE"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The GRANT CONNECT command is used in PostgreSQL to give a role permission to connect to a specific database."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregate Functions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of the following SQL query: 'SELECT COUNT(DISTINCT column_name) FROM table_name WHERE column_name IS NOT NULL;'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The total number of entries in column_name"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The total number of unique non-null entries in column_name"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The total number of null entries in column_name"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The total number of repeated entries in column_name"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The query counts the distinct non-null values in the specified column. It filters out the null values due to the WHERE clause and counts only the unique entries due to the DISTINCT keyword."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Vacuuming Strategies",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary benefit of running the VACUUM operation in PostgreSQL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It increases query performance by optimizing indexes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It frees up disk space by removing dead row versions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It resets user passwords for database security."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It encrypts the data to enhance data privacy."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "VACUUM reclaims storage occupied by dead tuples. In PostgreSQL, updating or deleting rows does not immediately remove the old version of the row. Thus, VACUUM is essential to clean up these dead tuples and free up space."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Pooling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In PostgreSQL, what is a key benefit of implementing connection pooling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases the storage space required for data"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Reduces the load on the database by managing active connections"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automatically upgrades the database software"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Encrypts data automatically"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Connection pooling significantly reduces the overhead involved in creating and managing multiple database connections by reusing existing connections, thus reducing load on the database."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Query Optimization",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which EXPLAIN ANALYZE output attribute indicates the time taken to execute each operation in a query plan?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Total Cost"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Execution Time"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Actual Time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Plan Rows"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Actual Time' attribute in the EXPLAIN ANALYZE output shows the actual time spent on each node (start and finish times), which provides insights into the time taken to execute each specific operation in the query plan."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Role Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command would you use to change the password of a PostgreSQL user?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ALTER USER name PASSWORD 'newpassword';"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UPDATE USER name SET PASSWORD 'newpassword';"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MODIFY USER name PASSWORD 'newpassword';"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SET USER name PASSWORD 'newpassword';"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to change a user's password in PostgreSQL is using the ALTER USER command followed by the user's name and the PASSWORD keyword with the new password enclosed in single quotes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Connection Configuration",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a PostgreSQL configuration file, which parameter specifies the maximum number of concurrent connections to the database server?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "max_connections"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "listen_addresses"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shared_buffers"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "effective_cache_size"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'max_connections' parameter in the PostgreSQL configuration file sets the maximum number of concurrent connections to the database server."
+      }
+    ]
+  }
+]

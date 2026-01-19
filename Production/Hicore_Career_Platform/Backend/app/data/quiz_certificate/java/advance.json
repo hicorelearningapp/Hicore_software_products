@@ -1,0 +1,2018 @@
+[
+  {
+    "id": 1,
+    "topic": "Java Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of the following Java code snippet?\n\nshort s = 10;\nshort t = 3;\nshort u = (short)(s * t);"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "30"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "13"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Java, the multiplication of two short data types results in an int type. Here, explicit casting to short is done correctly, so it compiles and computes the value 30."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Java Memory Model, which statement is true about the 'happens-before' consistency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Actions in a single thread always happen-before each other."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A thread can access its own local variables without synchronization."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The unlock on a monitor lock happens-before every subsequent lock on the same monitor."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above statements are true."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The unlock on a monitor lock happens-before every subsequent lock on the same monitor, ensuring changes to the state of the monitor are visible to all threads."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT true about the difference between TCP sockets and UDP sockets in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TCP sockets are connection-oriented, while UDP sockets are connection-less."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "UDP is faster than TCP because it does not guarantee reliable data transfer."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TCP sockets use DatagramSocket while UDP uses Socket class."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TCP uses the handshake protocol and error correction features which UDP lacks."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "UDP uses DatagramSocket and TCP uses Socket class, not the other way around as stated in option C."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Java code if the integer x is 0?"
+      },
+      {
+        "type": "formula",
+        "value": "try { int result = 25 / x; System.out.println(result); } catch (ArithmeticException e) { System.out.println(\"Error\"); } finally { System.out.println(\"Finally\"); }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Error Finally"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Finally"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java throws an ArithmeticException due to division by zero, which is caught, printing 'Error'. The 'finally' block executes regardless of the exception, printing 'Finally'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Java Stream API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java Stream operation given the list values [3, 2, 2, 3, 7, 3, 5]?"
+      },
+      {
+        "type": "code",
+        "value": "list.stream().distinct().filter(x -> x % 2 != 0).map(x -> x * x).collect(Collectors.toList());"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[9, 49, 25]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[9, 25]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[3, 7, 5]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[9, 49]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The stream operation first removes duplicates, leaving [3, 2, 7, 5]. Filtering out even numbers results in [3, 7, 5]. Mapping to squares results in [9, 49, 25]."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Java classes:\n\npublic class Animal {\n    public void makeSound() { System.out.println(\"Generic Animal Sound\"); }\n}\n\npublic class Dog extends Animal {\n    public void makeSound() { System.out.println(\"Bark\"); }\n}\n\npublic class Cat extends Animal {\n    public void makeSound() { System.out.println(\"Meow\"); }\n}\n\nWhich method call demonstrates polymorphism?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Animal a = new Dog(); a.makeSound();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Dog d = new Dog(); d.makeSound();"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cat c = new Cat(); c.makeSound();"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Animal a = new Animal(); a.makeSound();"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses a reference of type Animal to invoke the makeSound method on an object of type Dog, demonstrating polymorphism through method overriding."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Performance of Collections",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, which collection should you use to ensure the fastest retrieval time for frequent search operations while maintaining an ordered collection?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "LinkedList"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ArrayList"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "HashSet"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "LinkedHashSet"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "LinkedHashSet maintains a linked list of the entries in the set, in the order in which they were inserted. This provides predictable iteration order and allows for faster search operations compared to other ordered collections like LinkedList or ArrayList."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "JUnit Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In JUnit, what is the primary purpose of the @Rule annotation and how does it differ from @Before and @After annotations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "@Rule is used to modify the behavior of test methods by adding additional functionality like logging, whereas @Before and @After are used for setting up and tearing down test conditions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "@Rule replaces the functionality of @Before and @After, rendering them obsolete."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "@Rule can only be used to set up external resources, unlike @Before and @After which are used within the code."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "@Rule is used for repeating tests, while @Before and @After are not."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The @Rule annotation in JUnit is used to add or redefine the behavior of test methods by applying additional rules like error handling or providing external resources. This is different from @Before and @After which are specifically used for setting up before and cleaning up after each test method but do not modify the test method behavior itself."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Iterator Fail-Fast Property",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a HashMap's iterator, under what condition might a ConcurrentModificationException NOT be thrown when the map is structurally modified after the iterator's creation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "If the modification is done through the iterator itself."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "If the map is empty."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "If only the value of an existing key is changed."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "If the map is accessed by multiple threads simultaneously."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A ConcurrentModificationException is typically not thrown if the modification to the map is made through the iterator itself using methods like remove(). This is because these operations are aware of the iterator's state and can adjust accordingly."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Functional Interfaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a functional interface IntProcessor with a single abstract method process that accepts an integer and returns an integer, which of the following lambda expressions is invalid?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "(int x) -> return x*x;"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x -> x + 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "(x) -> { return x / 2; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "(x) -> x > 10 ? x : 10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is invalid because lambda expressions do not allow the use of 'return' in single-expression bodies. The correct form would be without 'return', as in '(int x) -> x*x;'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Serialization in Java",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When serializing an object in Java, which scenario will cause a NotSerializableException?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The object being serialized does not implement the Serializable interface."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All fields of the object are transient."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The object is a singleton."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The ObjectOutputStream used for serialization is null."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A NotSerializableException is thrown when an instance requires a Serializable interface and the class does not implement it. Transient fields, being singletons, or a null ObjectOutputStream do not inherently cause this exception."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Generics",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the result of compiling and running the following Java code?"
+      },
+      {
+        "type": "formula",
+        "value": "class Gen<T> { T ob; Gen(T o) { ob = o; } void showType() { System.out.println(\"Type of T is \" + ob.getClass().getName()); } } public class Main { public static void main(String args[]) { Gen<int> iOb = new Gen<int>(88); iOb.showType(); } }"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Type of T is int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compilation Error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Runtime Exception"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Type of T is Integer"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Java generics do not support primitive types like 'int'. The correct way to use generics here would be using the wrapper class 'Integer'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Multithreaded Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a multithreaded server handling multiple clients, which method should be synchronized to ensure thread safety when multiple threads are accessing a shared resource?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "run()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "start()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "stop()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "a custom method that accesses the shared resource"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To ensure thread safety, any custom method that accesses a shared resource should be synchronized, not the standard thread methods like run() or start()."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Connection Pooling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements about using connection pooling in a Java application is NOT correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Connection pools decrease the resource consumption by reusing existing connections instead of creating new ones every time."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Connection pooling involves a collection of JDBC connection objects cached in memory for faster reuse."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Setting up connection pooling can be done solely within the Java code without any need for server or database configuration."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Most connection pool configurations allow you to specify the minimum and maximum number of connections."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Connection pooling requires configuration at the database or server level as well as within the Java application, making option C incorrect."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "JDBC Connection Pooling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a web application using JDBC connection pooling, what could be the potential impact of improperly closing database connections?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increased memory use on the server."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Slower database performance and potential denial of service."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Automatic disconnection after a timeout period."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No impact, as the pool manager will handle unclosed connections."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Failing to properly close connections can lead to exhausted connection pools, which significantly slows down database performance and can even lead to a denial of service as new connections cannot be established."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Java Memory Model and Visibility",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the Java Memory Model, which of the following statements is true about the 'happens-before' relationship in multithreaded environments?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It guarantees that memory writes by one specific statement are visible to another specific statement."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It is only applicable to synchronized methods and blocks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It refers to the chronological execution order of threads."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It ensures that deadlock cannot occur in concurrent programs."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'happens-before' relationship in the Java Memory Model ensures that memory writes by one action are visible to another, where one action is said to 'happen-before' another if it comes before it in the execution order and there is a causal relationship that ensures visibility of changes."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Exception Handling",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following code snippet, which exception will be thrown at runtime? String s = null; int length = s.length();"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NullPointerException"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ArrayIndexOutOfBoundsException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IllegalArgumentException"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No Exception"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Attempting to call a method on a null reference (s in this case) will lead to a NullPointerException."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Switch Statement",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Java code snippet?\n\nswitch(x) {\n  case 1:\n    System.out.println(\"One\");\n    break;\n  case 2:\n    System.out.println(\"Two\");\n  default:\n    System.out.println(\"Default\");\n}\n\nAssuming int x = 2;"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Two"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Two\nDefault"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Default"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "One\nTwo"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In a switch statement without a 'break' following a case, the execution falls through to the next case. Here, after case 2, it goes to the default case."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Thread Coordination",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a scenario where multiple threads are waiting to enter a synchronized block guarded by object 'X'. If notifyAll() is called on 'X', which of the following outcomes is guaranteed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All threads immediately execute the synchronized block in a sequence determined by the JVM."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All threads are moved to the Runnable state, but order of execution is not guaranteed."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only one thread is selected to execute the synchronized block."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All threads execute the synchronized block simultaneously."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "notifyAll() moves all waiting threads to the Runnable state, but does not guarantee the order in which they will access the block."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Java JDK Installation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following paths is almost never a valid path to set as JAVA_HOME on a Windows machine during a JDK installation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "C:\\Program Files\\Java\\jdk-15.0.1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "C:\\Users\\<username>\\Java\\jdk-15.0.1"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C:\\Java\\jdk-15.0.1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "D:\\Java\\jdk-15.0.1"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JAVA_HOME path is typically set to a system-wide accessible directory. The path under C:\\Users\\<username>\\ is user-specific and not usually used for system-wide installations like the JDK."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "JDBC Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a JDBC transaction, if a Savepoint named 'Savepoint1' is set after updating three rows and another 'Savepoint2' is set after updating five more rows, how many rows will be affected if a rollback is issued to 'Savepoint1'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3 rows"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "5 rows"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "8 rows"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Rolling back to 'Savepoint1' undoes all changes made after this point. Therefore, the updates made to the five additional rows after setting 'Savepoint1' will be undone, affecting 5 rows."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "JUnit Testing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using JUnit, what is the purpose of the '@Test(expected = IndexOutOfBoundsException.class)' annotation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It indicates that the test should pass if the IndexOutOfBoundsException is thrown during the test execution."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It confirms that IndexOutOfBoundsException is never thrown during the test execution."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used to benchmark the performance of the exception handling mechanism."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It forces the test to throw IndexOutOfBoundsException."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because the '@Test(expected = ...)' annotation in JUnit is used to specify that a test method should throw a particular exception to pass."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Concurrent Collections",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true regarding the CopyOnWriteArrayList in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It is not thread-safe and should be synchronized externally."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Every mutation operation creates a fresh copy of the underlying array."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Iterators of this list support the remove operation."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It is less memory-efficient than ArrayList for read-intensive operations."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "CopyOnWriteArrayList, being a part of the java.util.concurrent package, makes a fresh copy of the underlying array with every mutation, ensuring thread safety without the need for external synchronization."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Java Web Container Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a production environment, which JVM argument is crucial for security but often neglected during the deployment of Java web applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "-Xmx1024m"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "-Djava.security.manager"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "-server"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "-verbose:gc"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The -Djava.security.manager argument enables the Java Security Manager, which helps to restrict the actions that can be performed by parts of a Java program, thus providing an additional layer of security against potential vulnerabilities."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java, which method is used to set a timeout for socket operations, and what exception does it throw if the timeout expires?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setSoTimeout(int timeout); throws SocketTimeoutException"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "setTimeout(int timeout); throws TimeoutException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "setNetworkTimeout(int timeout); throws NetworkTimeoutException"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "setSocketTimeout(int timeout); throws SocketException"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setSoTimeout(int timeout) method is used to specify the timeout when reading from an Input Stream in a Socket. The SocketTimeoutException is thrown if the timeout expires."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Reflection API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in the Java Reflection API can be used to invoke a private method of a class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getDeclaredMethod()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "invoke()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "setAccessible()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getPrivateMethod()"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because 'setAccessible(true)' method is used to change the accessibility of a private method to true, which allows its invocation via the 'invoke()' method."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "JavaServer Pages (JSP)",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which JSP lifecycle method allows the servlet to handle HTTP GET requests and is not typically overridden?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "_jspService()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "_jspInit()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "_jspDestroy()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "jspInit()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The '_jspService()' method handles all requests to the JSP, including GET requests, and is automatically implemented by the JSP container. It is not typically overridden by developers unlike 'jspInit()' or '_jspDestroy()', which are used for initialization and cleanup tasks."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Mockito Testing Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will Mockito do if a non-void method has no explicit behavior defined?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It throws an exception"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It returns a default value based on the type"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It returns null for all types"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It does nothing and moves to the next instruction"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Mockito returns default values (0, null, or empty collections) for non-void methods if no behavior is specified."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "File Locking Mechanisms",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the FileChannel's lock() method in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It guarantees both mutual exclusion and synchronous access."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It only guarantees mutual exclusion, not synchronous access."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It can be interrupted by other threads while waiting for the lock."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It throws an exception if the file is already locked by another process."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The lock() method in FileChannel can be interrupted by other threads while waiting for the lock, thus allowing the thread to be responsive to interrupts. The other options are incorrect as lock() does not guarantee synchronous access, does not throw an exception if the file is locked (it blocks until the lock is released), and mutual exclusion is not the only guarantee."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Socket Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a multi-threaded server handling multiple client connections simultaneously, which Java class is ideally used to manage client-specific tasks within a new thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "java.net.ServerSocket"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "java.net.Socket"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "java.lang.Thread"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "java.util.concurrent.ExecutorService"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The java.util.concurrent.ExecutorService is ideal for managing multiple threads efficiently, allowing the server to handle each client connection in a separate thread without the need to manually manage thread lifecycle."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Java Stream API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the following Stream operation sequence? stream().filter(x -> x > 2).map(x -> x * 2).findFirst()"
+      },
+      {
+        "type": "formula",
+        "value": "Let \\( S = \\{1, 2, 3, 4\\} \\) be the input stream."
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Optional[3]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Optional[6]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Optional.empty"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Optional[4]"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The filter operation retains elements greater than 2, resulting in {3, 4}. The map operation doubles each element to {6, 8}. findFirst returns an Optional describing the first element, which is 6."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Concurrency in Java",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a multithreaded Java application, which option correctly ensures that a variable count is safely incremented by multiple threads concurrently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "private int count = 0; public synchronized void increment() { count++; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "private volatile int count = 0; public void increment() { count++; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "private int count = 0; public void increment() { ++count; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "private AtomicInteger count = new AtomicInteger(0); public void increment() { count.getAndIncrement(); }"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because AtomicInteger provides a thread-safe way to increment the count. The getAndIncrement() method atomically increments the count by one. Option A uses synchronization, which is correct but less efficient than AtomicInteger. Option B is incorrect because volatile only guarantees visibility, not atomicity. Option C is incorrect as it is not thread-safe."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Java Memory Model",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of the Java Memory Model, what does 'happens-before consistency' imply for actions within a single thread?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Each action in a thread appears to be executed in the same order as in the program."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Actions in a single thread can be reordered as long as no synchronization is involved."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Actions in different threads are always executed concurrently."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Each action in a thread can be delayed indefinitely unless synchronized."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Happens-before consistency ensures that within the same thread, all actions appear to happen in the order specified by the program, regardless of the actual execution order by the JVM. This provides predictability and correctness in single-threaded execution contexts."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "JDBC Transaction Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a JDBC transaction, what is the impact of setting auto-commit to true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The transaction will not commit unless explicitly specified by the user."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Each individual SQL statement is treated as a transaction and is committed upon completion."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It allows multiple transactions to be batched together for performance enhancement."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Auto-commit mode locks the database until the transaction is manually committed."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting auto-commit to true means that each SQL statement is committed to the database as an individual transaction immediately after it is executed, which matches option B."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Default Methods in Interfaces",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java 8 and later, interfaces can contain default methods. What happens if a class inherits two interfaces that both define the same default method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Java automatically selects one of the methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The class must override the default method."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The program throws a runtime exception."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The class does not need to do anything special."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "When a class inherits a default method from multiple interfaces with the same signature, the class must explicitly override the method to resolve the conflict."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Java Development Kit Installation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming multiple JDK versions are installed on a system, what is the result of setting JAVA_HOME to point to an older JDK version while the PATH environment variable includes a path to a newer JDK's bin directory?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The system will use the newer JDK version for compiling and running Java applications."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The system will use the older JDK version for compiling Java applications and the newer one for running them."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The system will default to using the JDK version that was installed first."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The JAVA_HOME setting overrides the PATH, forcing the system to use the older JDK for both compiling and running applications."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The PATH environment variable takes precedence for runtime and command line operations, so the newer JDK version specified in the PATH will be used for compiling and running Java applications, regardless of the JAVA_HOME setting."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Serialization and Deserialization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When dealing with object serialization in Java, what will happen if a superclass implements Serializable but its subclass does not?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The subclass will still serialize its attributes, but with default values."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Serialization of the subclass will fail at runtime."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The subclass attributes are not serialized, and deserialization will restore them to default constructor values."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The subclass is serialized normally as if it has implemented Serializable."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "If a superclass is Serializable but the subclass is not, the serialization process will ignore the non-Serializable subclass. During deserialization, the non-serializable subclass fields are initialized using the public or protected no-arg constructor of the class. If the subclass does not explicitly define these constructors, the subclass fields will be set to default values."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Mockito Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using Mockito for unit testing in Java, which of the following is the correct way to ensure that a method, which returns void, was called exactly once?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "verify(mockedObject, times(1)).methodName();"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "mockedObject.verify(methodName, times(1));"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "verify(methodName).times(1);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mockedObject.methodName(times(1));"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Mockito, the correct syntax to verify that a method was called exactly once involves using the 'verify' method with the mocked object as the first parameter, followed by 'times(1)' to specify the exact number of invocations, and then the method name."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a class 'UserProfile' in Java with a private field 'age'. Which of the following is the correct way to allow access to the 'age' field while maintaining encapsulation?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "public int getAge() { return age; }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "public void setAge(int age) { this.age = age; }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "public int showAge() { return this.age; }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both A and B"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct as providing a getter method (A) allows reading the age, and a setter method (B) allows safely modifying the age, all while keeping the field private and controlling access through methods."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "JSP Directives",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which directive in JSP is used to make the container preload the servlet and create an instance at the time of server startup?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "taglib"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "include"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "page"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "preload"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'page' directive in JSP can be used with the attribute 'loadOnStartup' set to a positive integer to instruct the container to load the servlet on startup."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "JSP Elements",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Java Server Pages (JSP), which element dynamically writes Java code into the servlet that results from the JSP page?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Directives"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Declarations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Scriptlets"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Expressions"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Scriptlets are used in JSP to embed Java code that will be executed at request time, dynamically writing into the servlet code."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Exception Handling Mechanism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Java program, you have a superclass with a method that does not throw any exceptions. If you override this method in a subclass, which of the following is true regarding exception handling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The overridden method in the subclass may declare any checked exceptions."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The overridden method in the subclass cannot declare new checked exceptions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The overridden method in the subclass must throw an unchecked exception."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The overridden method in the subclass can declare more general checked exceptions than the superclass method."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "According to Java's method overriding rules, if the superclass method does not throw any checked exceptions, the overridden method in the subclass cannot declare new checked exceptions. This ensures compatibility and substitutability of subclasses."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "JavaFX Scene Graph",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using JavaFX, which statement is true regarding the modification of the scene graph?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can be modified from any thread."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can only be modified from the JavaFX Application thread."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It does not allow modifications once set."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It can be modified by any thread without restrictions."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The JavaFX scene graph is not thread-safe and must be modified on the JavaFX Application thread to prevent issues."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Locks in Concurrency",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which option correctly describes the behavior of the ReentrantLock in Java when a thread already holding the lock attempts to acquire it again?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The thread will deadlock since it cannot acquire a lock it already holds."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The thread successfully acquires the lock again, incrementing the hold count."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The thread throws an IllegalMonitorStateException because reentrant locks do not allow re-acquisition by the same thread."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The thread will be put into a waiting state until other threads have released the lock."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "ReentrantLock allows the thread that holds the lock to acquire it again, incrementing an internal counter each time the lock is acquired and requiring the same amount of releases to fully release the lock. This prevents deadlocks in scenarios where recursive locking is necessary."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Java Stream API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following operations is not supported by the Stream API in Java?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "map"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "filter"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sort"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "direct modification of stream elements"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Stream API in Java does not support direct modification of the stream elements. It only allows operations that return a new stream without altering the original data source."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Memory Consistency Errors",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Java application using multiple threads, if a thread modifies a shared variable without synchronization, which of the following issues is most likely to occur?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Race condition"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Stack overflow error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Syntax error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Arithmetic exception"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because modifying a shared variable without proper synchronization can lead to a race condition where the value of the variable is unpredictable and depends on the sequence in which threads execute."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Locks in Java",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement about the ReentrantLock class in Java is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ReentrantLock allows lock stripping."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ReentrantLock does not allow the interruption of thread waiting for a lock."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ReentrantLock supports a fairness policy."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ReentrantLock increases the priority of the longest-waiting thread to prevent starvation."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The ReentrantLock class in Java does support a fairness policy if its constructor is explicitly instructed to do so. This ensures that the longest-waiting thread gets the lock next, promoting fairness among threads."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Handling in JavaFX",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When using JavaFX, which of the following is the correct way to handle an event where multiple events are chained together, and each event may throw an exception?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a single try-catch block for all events within the event handler."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use separate try-catch blocks for each event within the event handler."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use a global exception handler for all JavaFX applications."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Exceptions cannot be thrown from within an event handler in JavaFX."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using separate try-catch blocks for each event allows handling exceptions specifically thrown by each individual event, ensuring more precise control and error management within complex event chains."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Polymorphism",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Java code snippet:\n\npublic class Animal {\n  void sound() { System.out.println(\"Animal makes a sound\"); }\n}\n\nclass Dog extends Animal {\n  void sound() { System.out.println(\"Dog barks\"); }\n}\n\npublic class Test {\n  public static void main(String[] args) {\n    Animal myAnimal = new Dog();\n    myAnimal.sound();\n  }\n}\n\nWhat is the output of the code above?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dog barks"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Animal makes a sound"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The code throws a runtime exception"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The code does not compile"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code uses polymorphism to call the overridden method sound() of the Dog class, even though the object is referenced by a variable of type Animal."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Java Application Scalability",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Java Virtual Machine (JVM) parameter is crucial for optimizing performance in a high-load, multi-threaded application environment?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "-Xms and -Xmx to set the initial and maximum heap size"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "-XX:MaxPermSize to set the size of the permanent generation space"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "-XX:+UseConcMarkSweepGC to enable the concurrent mark-sweep collector"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "-XX:+UseSerialGC to use the serial garbage collector"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For high-load, multi-threaded environments, enabling -XX:+UseConcMarkSweepGC helps in managing the application's memory more efficiently by using concurrent mark-sweep collection, thereby improving performance."
+      }
+    ]
+  }
+]

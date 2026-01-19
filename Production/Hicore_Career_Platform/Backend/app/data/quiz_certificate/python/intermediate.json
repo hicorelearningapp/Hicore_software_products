@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 3,
+    "topic": "Loop Control Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is used to skip the current iteration of a loop in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "continue"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "break"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "yield"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'continue' statement is used to skip the rest of the code inside a loop for the current iteration only. The loop does not terminate but continues on with the next iteration."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Type Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the result of the expression `int('101', base=2)` in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "101"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The expression converts the binary string '101' to its decimal equivalent, which is 5."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python function call my_func(2, 5) given the function definition below?\n\ndef my_func(x, y):\n    return x ** y"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "7"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "25"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "32"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the function 'my_func', the return statement 'return x ** y' calculates the power of x raised to y. Thus, 2 raised to the power of 5 equals 32."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax to create a for loop in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for x < 10:"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for 10 > x:"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "for x in range(10):"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "for x to 10:"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the correct syntax for a for loop is 'for variable in range(number):', making option C correct."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Loop Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\nfor i in range(1, 5):\n    if i == 3:\n        break\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 2 3 4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop starts at 1 and ends before 5. It breaks when i equals 3, thus only 1 and 2 are printed before the loop terminates."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Control Flow in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\nx = 10\nwhile x > 0:\n    if x % 2 == 0:\n        print(x, end=' ')\n    x -= 3"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "10 7 4 1"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10 8 6 4 2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "10 7 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "10 7 4 0"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The while loop starts with x = 10 and decreases by 3 in each iteration. The if condition prints x only when it is even. The even numbers printed before x becomes negative are 10 and 4."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Loop Control Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code?\n\nfor i in range(1, 5):\n    if i == 3:\n        break\n    print(i)\n"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop starts at 1 and increments by 1 each iteration. When i equals 3, the break statement is executed, which stops the loop immediately. Therefore, only 1 and 2 are printed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python generator function do?\n\ndef sequence(x):\n    while x < 50:\n        yield x\n        x += 5\n\nfor num in sequence(10):\n    print(num)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Prints numbers from 10 to 45 increasing by 5."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generates an infinite sequence of numbers starting from 10."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Prints numbers from 5 to 50 decreasing by 5."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Throws a syntax error."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generator function 'sequence' starts at the given input 'x' and yields numbers less than 50, incrementing 'x' by 5 on each iteration. Thus, starting from 10, it prints 10, 15, 20, 25, 30, 35, 40, 45."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Data Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which Python data structure is primarily used for storing multiple items in a single variable where order matters and duplicates are allowed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Dictionary"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "List"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Tuple"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A List is an ordered collection which is changeable and allows duplicate members, fitting the description given in the question."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, how can a subclass access a method from a superclass that has been overridden?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the super() function"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By calling the method directly on the superclass"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "By renaming the method in the subclass"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It cannot access the overridden method"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the super() function allows you to call methods of a superclass in your subclass. The function returns a temporary object of the superclass that allows access to all of its methods."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\nfor i in range(1, 5):\n    if i == 3:\n        continue\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2 3 4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2 4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2 3 4"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'continue' statement skips the current iteration when i equals 3. Therefore, the numbers 1, 2, and 4 are printed, skipping 3."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to import a submodule named 'submodule' from a module named 'module'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import module.submodule"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "import submodule from module"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "from module import submodule"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "import module as submodule"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To correctly import a submodule, you use the syntax 'from module import submodule'. This allows direct access to the submodule without prefix."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Decision Making in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code?\n\nx = 20\nif x > 15:\n    print('x is greater than 15')\nelif x > 10:\n    print('x is greater than 10')\nelse:\n    print('x is 10 or less')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x is greater than 15"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "x is greater than 10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "x is 10 or less"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The condition in the if statement (x > 15) is true because x is 20, therefore 'x is greater than 15' is printed and the rest of the conditions are not evaluated."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python generator function:\n\ndef my_generator():\n    for i in range(3):\n        yield i\n\nWhat will be the output of calling next() three times on an instance of this generator?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0, 1, 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0, 1, StopIteration"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0, 1, 2, StopIteration"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 2, 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The generator yields values 0, 1, and 2 sequentially. The next call after yielding 2 will raise StopIteration, but only the results from the first three calls are considered here."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Inheritance in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code if 'class Derived(Base)' implies that 'Derived' is a subclass of 'Base'?"
+      },
+      {
+        "type": "formula",
+        "value": "class Base:\\n    def method(self):\\n        print('Hello from Base')\\n\\nclass Derived(Base):\\n    def method(self):\\n        print('Hello from Derived')\\n\\nd = Derived()\\nd.method()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello from Base"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello from Derived"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The method in the Derived class overrides the method in the Base class. When 'd.method()' is called, it refers to the 'method' of the 'Derived' class, hence it prints 'Hello from Derived'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Understanding Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet if executed?\n\n@decorator\ndef some_function():\n    return \"Hello!\"\n\ndef decorator(func):\n    def wrapper():\n        return func() + \" World\"\n    return wrapper\n\nprint(some_function())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello World"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "decorator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is D because the decorator is used before its definition which leads to a NameError as the decorator function is not defined before its use."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Inheritance in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code?\nclass A:\n    def __init__(self, x=1):\n        self.x = x\n\nclass B(A):\n    def __init__(self, y=2):\n        super().__init__()\n        self.y = y\n\ndef main():\n    obj = B(y=3)\n    print(obj.x, obj.y)\n\nmain()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The constructor of class B calls the constructor of class A with the default value of x=1, and sets y=3. Hence, obj.x is 1 and obj.y is 3."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Understanding Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code if 'function_arg()' is an ordinary function that returns 'Hello'?"
+      },
+      {
+        "type": "formula",
+        "value": "@decorator\\ndef function_arg():\\n    return 'Hello'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An error occurs because 'decorator' is not defined."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'Hello'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The output of the 'decorator' applied to 'Hello'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 'decorator' is not defined in the given code, Python will throw a NameError."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code if executed? \n\n@decorator\n def some_func():\n    return 'Hello!'\n\ndef decorator(func):\n    def wrapper():\n        return func() + ' World'\n    return wrapper"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello! World"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "World"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator function is defined after it is used to decorate some_func, resulting in a NameError since Python does not recognize the decorator at the time of decoration."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Polymorphism in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python code, which method is a demonstration of polymorphism?\nclass Animal:\n    def sound(self):\n        print('Animal sound')\n\nclass Dog(Animal):\n    def sound(self):\n        print('Bark')\n\nclass Cat(Animal):\n    def sound(self):\n        print('Meow')\n\n# Polymorphism demonstration here\nanimals = [Dog(), Cat()]\nfor animal in animals:\n    animal.sound()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The definition of the sound method in Animal class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The definition of the sound method in Dog and Cat classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The loop that calls animal.sound()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism is demonstrated where objects of different classes (Dog, Cat) are treated as objects of a common superclass (Animal) and the method specific to their actual class is called (sound). The loop calling animal.sound() showcases this."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to import a submodule named 'submodule' from a module named 'module'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import module.submodule"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "import submodule from module"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "from module import submodule"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "import module as submodule"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because the 'from module import submodule' statement directly imports the submodule from the specified module."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Libraries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function from the 'math' library would you use to calculate the ceiling of a floating point number in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "math.ceil()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "math.round()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "math.floor()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "math.max()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because math.ceil() is used to round a number up to the nearest integer, not down like math.floor(), or rounding to the nearest integer like math.round()."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary feature of a generator in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Generators allow the creation of iterators without the __iter__ and __next__ methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generators enhance the speed of list comprehensions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Generators can only generate numerical data types."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generators execute all their code at once when called."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Generators simplify the creation of iterators using functions, which yield items instead of returning a list."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Polymorphism in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about polymorphism in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Polymorphism does not allow for flexibility in using different data types and classes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Polymorphism only applies to methods in classes derived from the same base."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism allows methods to use objects of different types."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Polymorphism in Python is achieved through overloading operators only."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism allows methods to use objects of different types, increasing the flexibility and functionality in OOP by allowing the same method to perform different functions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Functions in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python function do when called as shown?\ndef my_func(n):\n    return [x**2 for x in range(n) if x % 2 == 0]\n\nmy_func(6)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 1, 4, 9, 16, 25]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 1, 2, 3, 4, 5]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[0, 4, 16]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[1, 9, 25]"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function returns a list of the squares of all even numbers from 0 up to but not including n. For n=6, the even numbers are 0, 2, and 4, and their squares are 0, 4, and 16, respectively."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about Python generators?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Generators allow the generation of items one at a time and only as needed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generators pre-load all potential output into memory at the start of execution."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Generators cannot use the 'yield' keyword."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generators execute fully on the first call."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Generators are a type of iterable that generate new items as they are needed, using the 'yield' keyword, and do not load all items into memory simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Using External Libraries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which command is used to install an external library in Python using pip?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pip install library-name"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "pip add library-name"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "pip setup library-name"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "install pip library-name"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To install a library in Python using pip, the correct command is 'pip install library-name'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Type Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet: str(int('5') + float('5.0'))?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'10'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'10.0'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'55.0'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "'55'"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The int() function converts '5' to 5, and float() converts '5.0' to 5.0. Adding 5 + 5.0 results in 10.0, which when converted back to string with str() becomes '10'."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Understanding Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code if it is executed?"
+      },
+      {
+        "type": "image",
+        "value": "/assets/decorator_code_example.png"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A modified output due to the decorator's influence"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The original output of the function without any modification"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A syntax error"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator modifies the behavior of the original function, adding or altering functionality before and/or after the original function is called."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code?\n\nclass A:\n    def test(self):\n        return 'A'\n\nclass B(A):\n    def test(self):\n        return 'B'\n\nclass C(A):\n    pass\n\nclass D(B, C):\n    pass\n\nobj = D()\nprint(obj.test())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "D"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The method resolution order in Python follows the depth-first, left-to-right rule. Hence, class D inherits the 'test' method from class B before class C or A."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Naming Conventions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an invalid variable name in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "my_var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3_data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "_user1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FirstName"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, variable names cannot start with a number. '3_data' starts with a number, making it invalid."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Using Libraries",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function from the math library is used to calculate the exponential of a given number?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "factorial()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "exp()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "sqrt()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "pow()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'exp()' function from the math library is used to calculate the exponential of a number, specifically e raised to the power of the input number."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does it mean when we say that the + operator is overloaded in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can perform addition as well as concatenation based on the operand type"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can only add numbers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the value of a variable by one"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It calls a special method in the background"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Operator overloading means operators can perform differently based on their operands. In Python, the + operator is overloaded to perform arithmetic addition when used with numbers, and concatenation when used with strings."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "File Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'with' statement when working with file operations in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure that the file is properly closed after its suite finishes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To improve the read and write speed of the file."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt the file contents automatically."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To check if the file exists before opening it."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'with' statement simplifies exception handling by encapsulating common preparation and cleanup tasks, ensuring that the file is closed properly even if an error occurs during file operations."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement about the following function definition in Python is true?\ndef my_function(a, b=10):\n    return a + b"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function cannot be called without any arguments."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function can be called with either one or two arguments."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function will raise an error if called with two arguments."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function only accepts keyword arguments."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function defined accepts one mandatory parameter 'a' and one optional parameter 'b' with a default value of 10. It can be called with either one argument (a) or two arguments (a and b)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in exception in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ValueError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IOException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IndexError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "KeyError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IOException is not a built-in exception in Python. Instead, Python has IOError for input/output operations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Functions in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following function call?\n\ndef check_number(n):\n    if n % 2 == 0:\n        return 'Even'\n    else:\n        return 'Odd'\n\nprint(check_number(9))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Even"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Odd"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function check_number(n) returns 'Odd' when the number n is not divisible by 2 without remainder. Since 9 % 2 equals 1, the output is 'Odd'."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code if the input is 'hello'?\\ntry:\\n    print(int('hello'))\\nexcept ValueError:\\n    print('Error occurred')\\nfinally:\\n    print('Executing finally clause')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Error occurred\\nExecuting finally clause"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Executing finally clause"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ValueError occurred"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The input 'hello' causes a ValueError when trying to convert to an integer, triggering the except block. The finally block executes afterward, regardless of the exception."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Type Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the type of the variable 'x' after executing the code: x = int(3.5)?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the int() function converts the float 3.5 to an integer, truncating the decimal part."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following code snippet. What is demonstrated by the function call 'obj.display()'?\n\nclass Shape:\n    def display(self):\n        print(\"Shape\")\n\nclass Circle(Shape):\n    def display(self):\n        print(\"Circle\")\n\nobj = Circle()\nobj.display()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Encapsulation"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inheritance"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Polymorphism"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Composition"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism in object-oriented programming allows methods in a subclass to have the same name as methods in the parent class but behave differently. Here, 'display' in 'Circle' overrides the 'display' in 'Shape'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Mutable vs Immutable Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is immutable in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dictionary"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, tuples are immutable, meaning they cannot be changed after their creation."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Exception Handling Basics",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\ntry:\n    x = 5 / 0\nexcept ZeroDivisionError:\n    print('Error Caught')\nfinally:\n    print('Cleanup')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Error Caught followed by Cleanup"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Error Caught"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cleanup"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "No output"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'try' block raises a ZeroDivisionError, which is caught by the 'except' block, printing 'Error Caught'. Regardless of the exception, the 'finally' block executes, printing 'Cleanup'."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Control Flow",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider the following Python code:\n\nnumbers = [1, 2, 3, 4, 5]\nfor num in numbers:\n    if num % 2 == 0:\n        print(num)\n        break\nelse:\n    print('No even numbers')\nWhat gets printed when this code is executed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "No even numbers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 2"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The number 2 is the first even number in the list. The 'break' statement terminates the loop as soon as 2 is printed, so only '2' is printed."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What output does the following Python code snippet produce?\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0 1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0 1 2 3 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 2 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates over the range from 0 to 4. The 'break' statement is executed when i equals 3, stopping the loop prematurely and skipping the print statement for i = 3."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python code snippet produce?\n\ndef numbers(x):\n    for i in range(x):\n        if i % 2 == 0:\n            yield i\n\nlist(numbers(10))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 2, 4, 6, 8]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[1, 3, 5, 7, 9]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SyntaxError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A. The generator 'numbers' yields only even numbers up to the number specified (exclusive), hence the output is [0, 2, 4, 6, 8]."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "File Management in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to open a file for reading in binary mode in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open('file.txt', 'rb')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "open('file.txt', 'r')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "open('file.txt', 'wb')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open('file.txt', 'b')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'rb' mode opens the file in binary format for reading, which is necessary for non-text files such as images or binary data."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of data is the result of: 4 + 3.7?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "str"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "bool"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python promotes the integer to a float for mixed arithmetic operations, resulting in a float type."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet? \n\n import math \n print(math.ceil(4.2))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4.2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The math.ceil() function returns the ceiling value of a number, i.e., the smallest integer greater than or equal to the number. Therefore, math.ceil(4.2) returns 5."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Encapsulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, how do you make an instance variable private and inaccessible outside the class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Prefix the variable name with a double underscore (__)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Prefix the variable name with a single underscore (_)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use the keyword 'private' before the variable name"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use the keyword 'hidden' before the variable name"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, prefixing a variable name with a double underscore (__var) makes it a private member. It is not accessible directly outside the class, enforcing encapsulation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet: 'import math\nprint(math.ceil(3.4))'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3.4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The math.ceil() function returns the smallest integer greater than or equal to the specified number. 3.4 is rounded up to 4."
+      }
+    ]
+  }
+]

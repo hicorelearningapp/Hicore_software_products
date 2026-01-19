@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "Exploring useEffect",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which scenario is an appropriate use case for the useEffect hook?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Updating the document title upon state changes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Styling components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Handling button click events"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Passing props to child components"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The useEffect hook is used for performing side effects in functional components, such as updating the document title, which can depend on the component's state or props."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Basic React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to create a React functional component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "function MyComponent() { return <div>Hello World</div> }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "create MyComponent() { return <div>Hello World</div> }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "class MyComponent() { render() { return <div>Hello World</div> }}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MyComponent => () { return <div>Hello World</div> }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A functional component is defined using a function that returns JSX. Option A uses this correct syntax."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Component Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to output 'Hello World' in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React.render('Hello World');"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ReactDOM.render('Hello World', document.getElementById('root'));"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "React.createElement('Hello World');"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "React.output('Hello World');"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax is ReactDOM.render('Hello World', document.getElementById('root')); which renders 'Hello World' to the DOM in the element with id 'root'."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What component in React Router v5 is used to wrap the entire application to enable routing?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BrowserRouter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Router"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Routes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "BrowserRouter is the component in React Router v5 used to wrap the entire application to enable routing capabilities."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass data and event handlers to components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To perform HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Jest Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary use of Jest in a React application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "State management"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Routing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Testing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Styling components"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jest is primarily used for testing in React applications, allowing developers to write unit tests for their components."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a type of component in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Class component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Functional component"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Stylistic component"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Pure component"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Stylistic component is not a recognized type in React. React mainly uses class and functional components, along with pure components."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "React Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the command used to create a new React application named 'MyApp'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "react-create app MyApp"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "create-react-app MyApp"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm install MyApp"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm start MyApp"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct command to initialize a new React application using the Create React App toolchain is 'create-react-app MyApp'."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Link Component Usage",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component is used in React Router to create navigable links in your application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "RouterLink"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Anchor"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Link"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Href"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The Link component is used in React Router to create clickable links that navigate to different URLs within the application."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "JSX Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does JSX stand for in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "JavaScript XML"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "JavaScript Xtra"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "JavaScript X-files"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "JavaScript Xtreme"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JSX stands for JavaScript XML. It allows us to write HTML in React."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Deployment",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is commonly used to create production builds of React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Gulp"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Babel"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ESLint"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Webpack is a popular module bundler used in React applications for creating optimized production builds."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method in React is called immediately after a component is mounted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentDidMount is called immediately after a component is mounted, making it useful for initializing DOM nodes or making API calls."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Link Component",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component is used in React Router to create navigable links?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "<Navigate>"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<Link>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<RouterLink>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "<Href>"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The <Link> component is used in React Router to enable navigation around the application."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Props in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To maintain internal state"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To pass data and event handlers to child components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To enhance CSS styling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To handle HTTP requests"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are used in React to pass data and event handlers down to child components from a parent component."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Understanding useState",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the useState hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To manage local state in a functional component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To interact with an API"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To navigate between different components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To render components on the server"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState is a Hook that lets you add React state to functional components. Using this hook, you can manage local state within a functional component."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Component Testing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool is commonly used for testing React components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Jest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Mocha"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Cypress"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Selenium"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Jest is a popular testing framework that is often used alongside React for component testing due to its simplicity and support for React's features."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "useEffect Fundamentals",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "When is the cleanup function in useEffect executed?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Before the component unmounts and after every re-render"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "After the component mounts"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only after the component updates"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Once when the component mounts"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The cleanup function in useEffect is executed before the component unmounts and after every re-render, except for the initial render."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Components",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React, what is a component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A function or class that returns a React element."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A package used to increase performance."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A database connection tool."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A styling framework."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React, a component is either a function or a class that returns a React element, representing part of the user interface."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React, what is the correct order of lifecycle phases for mounting a component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Mounting -> Updating -> Unmounting"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Updating -> Mounting -> Unmounting"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Unmounting -> Mounting -> Updating"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Mounting -> Unmounting -> Updating"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React, the lifecycle phases commence with Mounting, followed by Updating, and finally Unmounting."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "JSX Basics",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is JSX in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A syntax extension for JavaScript"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A database query language"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A CSS framework"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "An HTML template"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "JSX is a syntax extension for JavaScript that allows you to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Debugging in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool can be used for debugging React applications in the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Postman"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "ESLint"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Webpack"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "React Developer Tools is a browser extension for Chrome and Firefox that helps developers inspect the React component hierarchy, including props and state."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "React Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method in a React Class component is called immediately after a component is mounted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentWillMount()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The componentDidMount() method is called immediately after the component is mounted (inserted into the tree). This is where you should run statements that require the component to be already placed in the DOM."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Debugging Techniques",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool can be used for debugging React applications in the browser?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Chrome DevTools"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Both A and B"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Visual Studio Code"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Both React Developer Tools and Chrome DevTools are essential for debugging React applications directly in the browser."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React Testing Library",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following queries is recommended for selecting form elements in React Testing Library?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "getByText"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getByRole"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "getByLabelText"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "getAllByRole"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'getByLabelText' query is most suitable for selecting form elements, as it mirrors how users interact with forms."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method is called first when a component is mounted?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "constructor"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillMount"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The constructor method is the first lifecycle method called in the mounting phase, used for initializing state and binding event handlers."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Exploring useEffect",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is a common use case for the useEffect hook?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fetching data when a component mounts"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Styling components"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Rendering child components"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Passing props to parent components"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useEffect is often used to perform side effects in functional components, such as fetching data on component mount."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "State in React",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method in a React component should be used to change the state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setState()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "state()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "changeState()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "modifyState()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The setState() method is used in class components in React to update the component's state."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Components and Props",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true about props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Props can be modified inside the component."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Props are read-only."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Props are used to maintain internal state."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Props are only available for class components."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props are read-only, meaning they cannot be modified inside the component. They are used to pass data from parent to child components."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "useState Hook",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which hook in React is used to add state to functional components?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useReducer()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useEffect()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useContext()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useState()"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState() is the hook that allows functional components in React to have state."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Basic Routing",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which component in React Router v5 is used to define a route?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Router"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Route"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Switch"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Link"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Route' component is used to define how different components are rendered based on the URL path in React Router v5."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Debugging Techniques",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a common practice for debugging React applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using React Developer Tools"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Console logging React component states"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using breakpoints in browser developer tools"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignoring PropTypes warnings"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Ignoring PropTypes warnings is not recommended as these are vital for catching bugs related to incorrect data types passed to components."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "State and Props",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will happen if you update a component's state using setState inside the render method?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It will cause a re-render without any issues."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It will result in an infinite loop."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It will throw an error preventing the update."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It will ignore the update and render the component once."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Updating state using setState inside the render method will cause the component to re-render, leading to an infinite loop as each render triggers another state update."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Components and Props",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a key property in a list of React components primarily used for?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To enhance CSS styling."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To ensure components are unique and re-render efficiently."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To store data externally."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To encrypt component data."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The key property helps React identify which items have changed, are added, or are removed, which aids in efficient updates to the user interface."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Routing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What component in React Router v6 is used to define the mapping between the URL and your route component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "BrowserRouter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Routes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Link"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Route"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router v6, the 'Routes' component is used to define the mapping of URLs to components, replacing the 'Switch' component used in previous versions."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "State and Props",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary difference between state and props in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Props are immutable and state can be changed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "State can't be passed to child components, but props can."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Props are used to store data, while state is used to render components."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There is no difference, both are used interchangeably."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Props (short for properties) are read-only and are passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function)."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Component Lifecycle Methods",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which lifecycle method is called when a component is being removed from the DOM?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentWillUnmount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillMount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "componentWillUnmount is used to clean up any subscriptions, timers, or other ongoing operations to prevent memory leaks when the component is removed from the DOM."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Routing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In React Router v6, which hook is primarily used for accessing the current route parameters?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useRouter"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useParams"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useNavigate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useRoutes"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useParams is the correct hook for accessing parameters of the current route in React Router v6."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Route Parameters",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "How can you access route parameters in a component rendered by React Router?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the 'document.query' method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using the 'useParams' hook"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using the 'useState' hook"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using the 'useRouter' method"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In React Router, the 'useParams' hook is used to access the route parameters. It allows you to extract the parameters from the URL and use them within your component."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Dynamic Routing",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the 'Route' component in React Router?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To configure a new route path and its corresponding component"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To link to different parts of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To handle state management within the application"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To optimize the rendering performance of the application"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'Route' component is used in React Router to define paths in the URL that correspond to different components, allowing for navigation and rendering of specific components based on the URL."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Using useState in Functional Components",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to set an initial state using the useState hook in a functional component?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "const [state, setState] = useState(initialState);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "const state = useState(initialState);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useState = (initialState) => [state, setState];"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "setState(initialState);"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it uses the useState hook to initialize 'state' with 'initialState' and provides 'setState' function to update the state."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "React State Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a functional component using hooks, which statement about the useState and useEffect hooks is true?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useState can only be initialized with a null or undefined value."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useEffect runs synchronously after a component renders and before the browser updates the screen."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useState provides a way to add state to functional components, while useEffect is used to perform side effects in the component."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useEffect can only be used once inside a component, and it does not have access to props or state."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "useState allows functional components to have state, and useEffect is used for performing side effects (such as data fetching or manual DOM manipulations), making option C correct. The other statements contain inaccuracies about how these hooks function."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Testing Hooks in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a recommended approach to isolate and test a custom hook in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using React Testing Library to render a component that uses the hook"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Directly invoking the hook in the test file"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using Jest mock functions to replace hook functionality"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Testing the hook as part of larger component integration tests"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using React Testing Library to render a component that uses the hook allows you to test the hook in a more realistic environment, as hooks are tied to React's lifecycle and state."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "React Component Lifecycle",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In which lifecycle method should you call setState to avoid triggering an extra rendering?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidMount"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "componentDidUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shouldComponentUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Calling setState in componentDidUpdate will not trigger an extra rendering phase as the update process is already in the update phase. This ensures efficient rendering and performance."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React State Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a React component, what does the setState function do when called with an object that only updates a subset of the component's state?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Replaces the entire state with the new object"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Throws an error because the state must be updated fully"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Merges the new object with the existing state, only updating the specified properties"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignores any properties not explicitly defined in the new object"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "setState function in React merges the object you provide into the current state. It only updates the properties specified in the object you pass to it, leaving the rest of the state unchanged."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Optimizing Production Builds",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary reason for using code splitting in a React production build?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To keep all component codes in a single file"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To reduce the size of the asset that is loaded by splitting the code into various bundles"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To increase the overall build size"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To compile faster in the development mode"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Code splitting is used to reduce the initial load time and resource usage by splitting the code into smaller bundles which can be loaded on demand. This improves the performance of the application."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "React Context API",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true when using the React Context API in a component that renders frequently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Context is less efficient because it causes unnecessary re-renders."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The useContext hook should be avoided because it breaks the component isolation."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using Context will always prevent components from re-rendering."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Context API can lead to optimizations by avoiding prop drilling."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the Context API can actually lead to optimizations in large applications by avoiding prop drilling, which simplifies the code and can reduce the number of re-renders needed as updates are handled more efficiently."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "React Deployment",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a React application using Docker, which of the following statements about optimizing the Dockerfile for production is correct?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the latest tag for the base image ensures the smallest build size."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "COPY command should precede RUN npm install to take advantage of Docker's layer caching."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multi-stage builds are recommended to separate the build environment from the runtime environment."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoid using .dockerignore files as they can increase the build context size unnecessarily."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Multi-stage builds allow you to separate your build environment from your runtime environment, which not only reduces the overall size of your image but also secures your application by not including unnecessary build dependencies in the runtime image."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Error Boundaries in React",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following lifecycle methods should be used for defining an error boundary in a class component in React?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "componentDidCatch"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "getSnapshotBeforeUpdate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "shouldComponentUpdate"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "componentWillUnmount"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "An error boundary is a React component that catches JavaScript errors in its child component tree, logs those errors, and displays a fallback UI. The lifecycle method componentDidCatch is used to define an error boundary."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Optimizing React Build Process",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What webpack plugin should be used to precompile all your dependencies into a single bundle, improving the load time for projects with a large number of small modules?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "DllPlugin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "ModuleConcatenationPlugin"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "CommonsChunkPlugin"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ProvidePlugin"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "DllPlugin is used to move all the node_modules references into a dll file which can significantly improve the build time and also the browser can cache this dll file to speed up the initial load time."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "React Hooks",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which hook should be used to remember the latest value of a prop or state without triggering a re-render when it changes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "useState"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "useReducer"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "useEffect"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "useRef"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The useRef hook can be used to keep track of a value across re-renders without causing additional renders itself, as changes to a ref do not trigger component updates."
+      }
+    ]
+  }
+]

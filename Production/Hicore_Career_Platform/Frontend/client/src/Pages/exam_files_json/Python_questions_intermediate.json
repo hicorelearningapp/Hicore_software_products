@@ -1,0 +1,2014 @@
+[
+  {
+    "id": 4,
+    "topic": "Using Libraries",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function from the random library is used to generate a random integer within a specified range?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "randint()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "random()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "randrange()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "range()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'randint()' function from the random library is used to generate a random integer within a specified range, including both endpoints."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Basic File Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What function is used in Python to open a file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "file()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fopen()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open_file()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to open a file in Python is open()."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Understanding Basic Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the data type of the following value in Python: 3.14?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "float"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "string"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "boolean"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "3.14 has a decimal point, which makes it a float (floating-point number) in Python."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Generators",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the 'yield' keyword do in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It exits the program"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It creates a new list"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It generates the next value in a generator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It declares a variable"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'yield' keyword is used in a generator function to yield values one at a time, pausing the function\u2019s execution and saving its state until the next value is requested."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Conditional Statements",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python code print?\\nif 5 > 2:\\n  print('Five is greater than two!')"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Five is greater than two!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "True"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "False"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Syntax Error"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The condition 5 > 2 evaluates to True, hence the print statement inside the if block executes."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic File Operations",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used to open a file in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "file()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "fopen()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "openfile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the open() function is used to open a file in the specified mode."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Inheritance",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about inheritance in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inheritance allows us to define a class that inherits all the methods and properties from another class."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Inheritance allows multiple child classes to inherit from multiple parent classes simultaneously."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Inheritance is not supported in Python."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Inheritance allows us to change the behavior of the built-in Python functions."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Inheritance in Python allows us to define a class that inherits all the methods and properties from another class. This is a core concept in object-oriented programming."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Basic Syntax",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct way to create a variable 'x' with the value 5 in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "x = 5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "int x = 5"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "var x = 5"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "x := 5"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, a variable is created the moment you first assign a value to it. The correct syntax is 'x = 5'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Data Types",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct way to declare a list in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 2, 3]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{1, 2, 3}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "(1, 2, 3)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "\"1, 2, 3\""
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, lists are declared with square brackets []."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Error Handling",
+    "difficulty": "easy",
+    "question": [
+      {
+        "type": "text",
+        "value": "What keyword in Python is used to handle exceptions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "handle"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "error"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "except"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "try"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The keyword 'except' is used in Python to handle exceptions in a try-except block."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Variable Naming Conventions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is an invalid variable name in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "my_var"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "3_data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "_user1"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "FirstName"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, variable names cannot start with a number. '3_data' starts with a number, making it invalid."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Understanding Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code if 'function_arg()' is an ordinary function that returns 'Hello'?"
+      },
+      {
+        "type": "formula",
+        "value": "@decorator\\ndef function_arg():\\n    return 'Hello'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "An error occurs because 'decorator' is not defined."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'Hello'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The output of the 'decorator' applied to 'Hello'."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Since 'decorator' is not defined in the given code, Python will throw a NameError."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code snippet if executed?\nclass Animal:\n    def speak(self):\n        return 'I am an animal'\nclass Dog(Animal):\n    def speak(self):\n        return 'I am a dog'\n\nanimal = Animal()\ndog = Dog()\nprint(animal.speak(), dog.speak())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "I am an animal I am a dog"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "I am a dog I am an animal"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "I am an animal I am an animal"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "I am a dog I am a dog"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The output of the code is 'I am an animal I am a dog'. This demonstrates polymorphism where the method speak() is overridden in the Dog class, allowing different behaviors for the method based on the object (Animal or Dog) calling it."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Class Inheritance",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code?\n\nclass A:\n    def test(self):\n        return 'A'\n\nclass B(A):\n    def test(self):\n        return 'B'\n\nclass C(A):\n    pass\n\nclass D(B, C):\n    pass\n\nobj = D()\nprint(obj.test())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "D"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The method resolution order in Python follows the depth-first, left-to-right rule. Hence, class D inherits the 'test' method from class B before class C or A."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "File Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which function is used in Python to open a file for reading as a binary file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "open(file, 'rb')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "open(file, 'r')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "open(file, 'wb')"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "open(file, 'w')"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct function to open a file for reading as a binary file in Python is 'open(file, 'rb')'. The 'rb' mode opens the file in binary format for reading."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Using Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is a primary feature of a generator in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Generators allow the creation of iterators without the __iter__ and __next__ methods."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generators enhance the speed of list comprehensions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Generators can only generate numerical data types."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generators execute all their code at once when called."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Generators simplify the creation of iterators using functions, which yield items instead of returning a list."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What output does the following Python code snippet produce?\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "0 1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "0 1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "0 1 2 3 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 2 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop iterates over the range from 0 to 4. The 'break' statement is executed when i equals 3, stopping the loop prematurely and skipping the print statement for i = 3."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Understanding Decorators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet if executed?\n\n@decorator\ndef some_function():\n    return \"Hello!\"\n\ndef decorator(func):\n    def wrapper():\n        return func() + \" World\"\n    return wrapper\n\nprint(some_function())"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Hello World"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "decorator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "TypeError"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is D because the decorator is used before its definition which leads to a NameError as the decorator function is not defined before its use."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\nfor i in range(1, 5):\n    if i == 3:\n        continue\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2 3 4"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2 4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "2 3 4"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'continue' statement skips the current iteration when i equals 3. Therefore, the numbers 1, 2, and 4 are printed, skipping 3."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Exception Handling in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is true regarding the finally block in Python exception handling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The finally block will not execute if the program exits unexpectedly."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The finally block will execute if the try block raises an error."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The finally block only executes if no exceptions are thrown in the try block."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The finally block executes only if an exception is successfully handled in the except block."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The finally block in Python will execute regardless of whether an exception is raised or not in the try block, making it useful for cleanup activities."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Function Definitions",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement about the following function definition in Python is true?\ndef my_function(a, b=10):\n    return a + b"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The function cannot be called without any arguments."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The function can be called with either one or two arguments."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The function will raise an error if called with two arguments."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "The function only accepts keyword arguments."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function defined accepts one mandatory parameter 'a' and one optional parameter 'b' with a default value of 10. It can be called with either one argument (a) or two arguments (a and b)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Loop Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\nfor i in range(1, 5):\n    if i == 3:\n        break\n    print(i)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1 2 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1 2 4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1 2 3 4"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The loop starts at 1 and ends before 5. It breaks when i equals 3, thus only 1 and 2 are printed before the loop terminates."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Encapsulation",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Python, how do you make an instance variable private and inaccessible outside the class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Prefix the variable name with a double underscore (__)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Prefix the variable name with a single underscore (_)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use the keyword 'private' before the variable name"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use the keyword 'hidden' before the variable name"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, prefixing a variable name with a double underscore (__var) makes it a private member. It is not accessible directly outside the class, enforcing encapsulation."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Mutable vs Immutable Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is mutable in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "int"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "str"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, lists are mutable, meaning they can be changed after their creation. Integers, tuples, and strings are immutable."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true about Python generators?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Generators allow the generation of items one at a time and only as needed."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Generators pre-load all potential output into memory at the start of execution."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Generators cannot use the 'yield' keyword."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Generators execute fully on the first call."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Generators are a type of iterable that generate new items as they are needed, using the 'yield' keyword, and do not load all items into memory simultaneously."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Functions in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following function call?\n\ndef check_number(n):\n    if n % 2 == 0:\n        return 'Even'\n    else:\n        return 'Odd'\n\nprint(check_number(9))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "9"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Even"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Odd"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The function check_number(n) returns 'Odd' when the number n is not divisible by 2 without remainder. Since 9 % 2 equals 1, the output is 'Odd'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "File Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which method should be used to read an entire text file in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "read()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "readlines()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "readline()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "readfile()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The read() method reads the whole file at once into a single string, which is often useful for fully loading the file content."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct syntax to import only the sqrt function from the math module?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "import sqrt from math"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "from math import sqrt"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "import math.sqrt"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "load sqrt from math"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct syntax to import a specific function from a module is 'from module_name import function_name'. Therefore, 'from math import sqrt' is correct."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Type Conversion",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following code snippet: str(123) + '456'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "579"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "123456"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The str() function converts the integer 123 to a string, and concatenates it with '456' resulting in '123456'."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Polymorphism",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does it mean when we say that the + operator is overloaded in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can perform addition as well as concatenation based on the operand type"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can only add numbers"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the value of a variable by one"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It calls a special method in the background"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Operator overloading means operators can perform differently based on their operands. In Python, the + operator is overloaded to perform arithmetic addition when used with numbers, and concatenation when used with strings."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "File Management",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the 'with' statement when working with file operations in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To ensure that the file is properly closed after its suite finishes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To improve the read and write speed of the file."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To encrypt the file contents automatically."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To check if the file exists before opening it."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'with' statement simplifies exception handling by encapsulating common preparation and cleanup tasks, ensuring that the file is closed properly even if an error occurs during file operations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Mutable vs Immutable Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types is immutable in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dictionary"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, tuples are immutable, meaning they cannot be changed after their creation."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Loop Control Statements",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is used to skip the current iteration of a loop in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "pass"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "continue"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "break"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "yield"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'continue' statement is used to skip the rest of the code inside a loop for the current iteration only. The loop does not terminate but continues on with the next iteration."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is not a mutable data type in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dictionary"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tuples are immutable in Python, which means their values cannot be changed after they are created."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Immutable vs Mutable Types",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following data types in Python is immutable?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "list"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dict"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "tuple"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "set"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, tuples are immutable, meaning once a tuple is created, its contents cannot be changed."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Polymorphism in Python",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python code, which method is a demonstration of polymorphism?\nclass Animal:\n    def sound(self):\n        print('Animal sound')\n\nclass Dog(Animal):\n    def sound(self):\n        print('Bark')\n\nclass Cat(Animal):\n    def sound(self):\n        print('Meow')\n\n# Polymorphism demonstration here\nanimals = [Dog(), Cat()]\nfor animal in animals:\n    animal.sound()"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The definition of the sound method in Animal class"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The definition of the sound method in Dog and Cat classes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The loop that calls animal.sound()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All of the above"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Polymorphism is demonstrated where objects of different classes (Dog, Cat) are treated as objects of a common superclass (Animal) and the method specific to their actual class is called (sound). The loop calling animal.sound() showcases this."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Control Structures",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is the correct syntax to create a for loop in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for x < 10:"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for 10 > x:"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "for x in range(10):"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "for x to 10:"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, the correct syntax for a for loop is 'for variable in range(number):', making option C correct."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Exception Handling",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a built-in exception in Python?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "ValueError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "IOException"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IndexError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "KeyError"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IOException is not a built-in exception in Python. Instead, Python has IOError for input/output operations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Importing Modules",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet: 'import math\nprint(math.ceil(3.4))'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "3"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "4"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "3.4"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The math.ceil() function returns the smallest integer greater than or equal to the specified number. 3.4 is rounded up to 4."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Generators",
+    "difficulty": "medium",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the following Python code snippet produce?\n\ndef numbers(x):\n    for i in range(x):\n        if i % 2 == 0:\n            yield i\n\nlist(numbers(10))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 2, 4, 6, 8]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[1, 3, 5, 7, 9]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SyntaxError"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is A. The generator 'numbers' yields only even numbers up to the number specified (exclusive), hence the output is [0, 2, 4, 6, 8]."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the following Python decorator definition, what will be printed when calling decorated_function('world')? \n\n def shout(func):\n    def wrapper(*args, **kwargs):\n        original_result = func(*args, **kwargs)\n        modified_result = original_result.upper() + '!!!'\n        return modified_result\n    return wrapper\n\n@shout\ndef say_hello(name):\n    return f'Hello, {name}'"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "HELLO, WORLD!!!"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hello, world!!!"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "hello, world!!!"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "HELLO, WORLD"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator 'shout' wraps the function 'say_hello'. It takes the output of 'say_hello', converts it to uppercase letters, and appends three exclamation marks. Thus, the output for 'world' would be 'HELLO, WORLD!!!'."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encapsulation and Private Members",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a Python class is defined as below, what is the result of trying to access __privateMember outside of the class?"
+      },
+      {
+        "type": "text",
+        "value": "class MyClass:\n    def __init__(self):\n        self.__privateMember = 42\n\nobj = MyClass()\nprint(obj.__privateMember)"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "42"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AttributeError"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "None"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "0"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Python uses name mangling to make it harder to access private members from outside the class. Trying to access __privateMember results in an AttributeError because externally the name is mangled."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the list comprehension: [x**2 for x in range(10) if x**2 % 2 == 0], what will be the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 3, 5, 7, 9]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[0, 4, 16, 36, 64]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[2, 4, 6, 8]"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension generates squares of numbers from 0 to 9, but only includes those squares that are even numbers. The even squares from 0 to 9 are 0, 4, 16, 36, and 64."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Decorators with Arguments",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given the Python decorator definition below, what will be the output when calling @decorator_with_args(arg='test') on a function?\n\n def decorator_with_args(arg):\n    def decorator(fn):\n        def wrapper(*args, **kwargs):\n            print(f'Argument passed to decorator: {arg}')\n            return fn(*args, **kwargs)\n        return wrapper\n    return decorator"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Argument passed to decorator: test"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "test"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An error occurs"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None of the above"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The decorator is passed an argument 'test' which is then used within the wrapper function to print before the actual function call. Thus, it prints 'Argument passed to decorator: test'."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Immutability of Data Types",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "After executing the code `a = (1, 2, [3, 4]); a[2][0] = 5; print(a)`, what will be the output?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "(1, 2, [5, 4])"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "(1, 2, [3, 4])"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "None"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Tuples are immutable, but the list inside the tuple can be modified. Thus, the list element '3' is replaced by '5', resulting in the output (1, 2, [5, 4])."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Decorators",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the output of the following Python code snippet using decorators?\n\n@decorator\ndef function(arg1, arg2):\n    return arg1 + arg2\n\nfunction(5, 10)"
+      },
+      {
+        "type": "image",
+        "value": "/assets/PythonDecoratorSnippet.png"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "5"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "10"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "15"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error message or the output depends on the implementation of 'decorator'"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Without knowing the implementation of the 'decorator' function, we cannot determine the exact output of the program. It could alter the behavior of 'function' in numerous ways or could even raise an error."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Encapsulation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "How can you make an attribute in a Python class private and inaccessible directly from outside the class?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "By declaring it with one underscore (e.g., _attribute)."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "By declaring it with double underscores (e.g., __attribute)."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "By declaring it as a public attribute."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "By using a special decorator @private."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Python, prefixing an attribute name with double underscores (e.g., __attribute) makes it private. This triggers a feature called name mangling, whereby the interpreter changes the name of the variable in a way that makes it harder to create subclasses that accidentally override the private attributes and methods."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Data Type Conversion",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output of the following Python code snippet?\n\nprint(type(float(str(int('123.456')))))"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TypeError"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "<class 'float'>"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "<class 'int'>"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "ValueError"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The code attempts to convert the string '123.456' to an integer, which is invalid and raises a ValueError, as '123.456' is not a valid integer string."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Dynamic Importing of Modules",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming you have multiple module names stored in a list called mod_names and you want to import them dynamically using a loop. Which of the following is the correct way to import these modules using Python's built-in functions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "for name in mod_names:\n  __import__(name)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "for name in mod_names:\n  importlib.import_module(name)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "for name in mod_names:\n  import(name)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "for name in mod_names:\n  load_module(name)"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct method to dynamically import modules stored in a list is by using the importlib.import_module() function from the importlib library, which allows the dynamic import of modules at runtime."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given a list 'x = [1, 2, 3, 4, 5]', what will be the output of '[i**2 for i in x if i%2 != 0]'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "[1, 9, 25]"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "[1, 4, 9, 16, 25]"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "[2, 4, 6, 8, 10]"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "[4, 16]"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The list comprehension squares each element in the list 'x' that is odd (i.e., not divisible by 2). Thus, resulting in squares of 1, 3, and 5."
+      }
+    ]
+  }
+]

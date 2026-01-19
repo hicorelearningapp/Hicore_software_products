@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 8,
+    "topic": "NPM Dependency Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary difference between dependencies listed under 'dependencies' and those under 'devDependencies' in a package.json file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'dependencies' are required to run, 'devDependencies' are only needed during development."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'dependencies' are installed globally, whereas 'devDependencies' are installed locally."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "There is no difference; it is only for organizational purposes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "'devDependencies' can also include binary files, unlike 'dependencies'."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "'dependencies' are the modules needed at runtime, while 'devDependencies' are required only for development processes like testing, building, or compiling code. When the project is deployed, only 'dependencies' are installed unless specified otherwise."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Event Emitter in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider an event-driven architecture where an 'eventEmitter' object emits a 'data_received' event which triggers multiple listeners. If one of these listeners throws an error, what will happen to the execution of the other registered listeners?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All other listeners will not execute."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "All other listeners will execute unless the error is caught."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Node.js will crash unless the error is caught within the listener."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Only the listener throwing the error will stop execution; other listeners will not be affected."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The correct answer is D because each listener functions independently in an event-driven architecture. An error in one listener does not prevent other listeners from executing unless it crashes the Node.js process."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Load Balancing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing technique allows Node.js applications to distribute incoming requests efficiently across multiple servers, considering the CPU usage and memory footprint?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Least Connection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Least Response Time"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Resource-Based"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Resource-Based load balancing takes into account the current load and the available resources on each server, such as CPU and memory, to optimize the response time and efficiency of Node.js applications."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "NPM Versioning",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the caret (^) symbol signify in a version number in a package.json file, such as '^4.17.1'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Updates are accepted only if they do not change the leftmost non-zero digit in the version number."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Only patch updates are allowed for the package."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Any version is acceptable as long as it is higher than 4.17.1."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "This is a fixed version with no updates allowed."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The caret (^) in the version number '^4.17.1' allows changes that do not modify the leftmost non-zero digit in the version number, meaning any minor or patch version updates are acceptable as long as they do not result in a change in the major version number."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Routing with Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Express.js, how can you ensure that a specific middleware function is executed conditionally only when a certain route parameter is present in the URL?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use app.use() with a conditional statement inside the middleware function."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use router.param() to define middleware specific to a parameter."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Define the middleware directly inside the route handling function."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Use a regular expression to match the route and execute middleware conditionally."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because router.param() allows you to manage middleware when a specific route parameter is identified, providing a clean and efficient way to run conditional logic based on the presence of route parameters."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Load Balancing Techniques",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of Node.js applications, which load balancing technique allows session persistence necessary for sticky sessions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin DNS"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Least Connections"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IP Hash"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Random Choice"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "IP Hash technique is utilized for load balancing where the same client IP address will always reach the same server. This is crucial for session persistence in applications that need sticky sessions."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "NPM Version Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What command would you use in npm to ensure that all dependencies of a project are restored to their exact versions as specified in the package-lock.json?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "npm install --save"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "npm update"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "npm ci"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "npm install --no-save"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "npm ci (clean install) is a command that installs dependencies directly from the package-lock.json file, ignoring the package.json, and thereby ensuring exact versions of all dependencies are installed."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Advanced Mongoose Schemas",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When defining a virtual property in a Mongoose schema that depends on other fields, which method must be used to ensure the virtual property is included in the output when using `console.log()` on a model instance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "schema.set('toObject', { virtuals: true });"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "schema.set('toJSON', { getters: true });"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "schema.virtual('virtualName').get(function() {});"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "schema.add({ virtual: true });"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "To include virtuals in `console.log()` and other object transformations, the correct method is to set the 'toObject' option in the schema configuration to include virtuals."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct order of middleware usage where 'middleware1' modifies a request object, 'middleware2' uses the modification to perform operations, and 'middleware3' sends a response back to the client?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.use(middleware3); app.use(middleware1); app.use(middleware2);"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.use(middleware1); app.use(middleware2); app.use(middleware3);"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.use(middleware2); app.use(middleware1); app.use(middleware3);"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.use(middleware1); app.use(middleware3); app.use(middleware2);"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "middleware1 must run first to modify the request object, middleware2 uses this modification to perform further operations, and finally middleware3 uses the result to send a response."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering an Express.js application, which of the following is true when implementing asynchronous middleware that performs I/O operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The middleware must return a Promise to handle the completion of the I/O operations."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Asynchronous operations in middleware do not affect the request-response cycle."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The next() function should be called before the asynchronous operation completes."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Error handling for asynchronous operations in middleware should be managed using try/catch blocks within the middleware function."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Asynchronous middleware in Express.js should return a Promise to ensure that the server waits for the completion of all I/O operations before moving to the next middleware or ending the response. This avoids unhandled errors and incomplete operations affecting the application's stability."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Node.js Version Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool enables the use of multiple Node.js versions on a single system without affecting globally installed packages specific to each version?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NVM (Node Version Manager)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Node Package Manager"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Babel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "NVM allows you to run multiple versions of Node.js concurrently on the same machine, each with its own set of global packages, thereby avoiding version conflicts."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Event Loop Utilization in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What effect does using the setImmediate() function have on Node.js\u2019 event loop compared to setTimeout() with a delay of 0?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "setImmediate() is processed at the beginning of the next event loop phase."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "setImmediate() and setTimeout(0) are processed at the same time in the event loop."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "setImmediate() is processed after any I/O events but before setTimeout(0)."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "setTimeout(0) is processed before setImmediate() in the check phase."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "setImmediate() callbacks are executed after I/O events but before setTimeout() and setInterval() callbacks that have a delay of 0 ms. This means they are prioritized differently in the event loop phases."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB's aggregation framework, which operator allows you to perform operations similar to JOIN in SQL databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$lookup"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$aggregate"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$match"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $lookup operator allows you to join documents from another collection into the pipeline, which can be used to perform operations similar to joins in relational databases."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "MongoDB Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which aggregation pipeline stage must be used immediately after the `$unwind` stage to group the documents back together based on a specified condition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "After using `$unwind` to deconstruct an array field from the input documents, `$group` is used to group the documents back together by a specified `_id` expression."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Promises and Async/Await",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what is the impact of incorrectly handling a rejected promise returned from an async function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It leads to a memory leak"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It can cause an unhandled promise rejection"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases the application's performance"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It has no impact, as Node.js handles it internally"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Not properly handling a rejected promise from an async function can lead to 'unhandled promise rejection', risking application crashes or unexpected behaviors."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Error Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Express.js, how should you modify the middleware stack to handle errors that occur in asynchronous processes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use next() within a try-catch block in asynchronous middleware"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Call res.send() with the error message directly"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Return the error object"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Ignore the error in the middleware"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For error handling in asynchronous middleware within Express.js, you should wrap the asynchronous operation in a try-catch block and use next() with the error in the catch block. This passes the error to the next error handling middleware in the stack, making option A correct."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Handling Race Conditions in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, if two async functions are accessing and modifying the same resource simultaneously, which technique can be effectively used to prevent race conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using the async.waterfall method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implementing mutex locks"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Utilizing the Event Emitter pattern"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Applying the singleton pattern"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Mutex locks help manage race conditions by ensuring that only one async function can access the resource at a time, preventing simultaneous modifications."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Event Loop and Non-blocking I/O",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what will be the order of execution for the following code snippet? console.log('1'); setTimeout(() => console.log('2'), 1000); setImmediate(() => console.log('3')); process.nextTick(() => console.log('4')); console.log('5');"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "1, 5, 4, 3, 2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "1, 5, 4, 2, 3"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "1, 4, 5, 3, 2"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "1, 4, 5, 2, 3"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "First, synchronous logs are executed. 'process.nextTick()' callbacks are executed after the current operation completes, so '4' comes after '1' and '5'. 'setImmediate()' is executed in the next iteration of the event loop, and 'setTimeout()' is executed after the specified delay."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Route Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a complex Express.js application, what is the recommended approach to handle routes that involve multiple conditional checks and potentially throw several different errors?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use a single route handler with nested if-else statements to manage all conditions and errors."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Implement multiple middleware functions for each condition, cascading from generic to specific cases."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Divide the route into sub-routes each handling a specific part of the conditions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Avoid using Express.js for such scenarios due to its limitations in handling complex routing logic."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "For complex routing logic, it is advisable to use multiple middleware functions arranged sequentially. This method allows for clean, maintainable code where each middleware can handle specific conditions or errors, leading to a more modular and understandable structure."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Load Balancing in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a Node.js application using the cluster module, what is the primary purpose of the master process?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To directly handle client requests and send responses"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To manage worker processes and distribute incoming requests among them"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To serve static files and manage cache operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To monitor and restart failed worker processes only"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The master process in a Node.js cluster does not handle client requests directly. Its primary role is to manage worker processes, which includes distributing incoming client requests among the worker processes."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "MongoDB Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operator can be used in aggregation pipelines to filter documents on a condition that compares two fields from the same document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$eq"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$expr"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$expr allows the use of aggregation expressions within the query language, enabling operations that compare two fields from the same document."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Error Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Assuming an asynchronous middleware is used, what is the correct way to pass an error to the global error handler in Express.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "next('Error occurred')"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "throw new Error('Error occurred')"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "next(new Error('Error occurred'))"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "response.send('Error occurred')"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In asynchronous middleware, errors should be passed to next() with an Error object to ensure they are handled by the global error handler."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What will be the output if you try to send a response twice in an Express.js middleware function?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The server crashes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The first response is sent successfully, and the second is ignored."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "An error is thrown due to headers already being sent."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both responses are sent successfully."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Express.js, once a response is sent, attempting to send another response will result in an error stating that the headers have already been sent."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js Streams",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a valid stream in Node.js when considering the types of streams available?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Duplex"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Quartet"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Transform"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Writable"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Node.js, the available stream types are Duplex, Transform, and Writable. 'Quartet' is not a valid stream type."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Error Handling in Asynchronous Programming",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the appropriate strategy to handle errors in Node.js when using the async/await syntax?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using a try/catch block surrounding the await statements"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using .catch() method at the end of each promise"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using process.on('uncaughtException', handler)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Errors in async/await cannot be caught or handled"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In the async/await syntax, the try/catch block is used to catch and handle errors directly around asynchronous operations which is more intuitive than attaching a .catch() method to each promise."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Modules and Require System",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "If a cyclic dependency occurs in Node.js, where module A depends on module B, and module B in turn depends on module A, what will the exported value of module A be when it is required in module B?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The initial export of module A prior to any modification"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The final export of module A after all modifications"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "null"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "undefined"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In case of a cyclic dependency, Node.js will return the exports of module A as it is at the time module B requires it, which is typically its state before any modifications made during runtime."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Advanced Mongoose Schema",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Mongoose, when defining a schema, what does the 'set' property in a schema type do?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It sets default values for the document."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It modifies the input value of the property before saving."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It specifies a pre-save validation rule."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It locks the schema to prevent further modifications."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'set' property in a Mongoose schema type is a custom setter modifier which modifies the input value of the property before it is saved to the database."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Load Balancing in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing strategy would be most effective for a Node.js application handling compute-intensive tasks that are unevenly distributed among users?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round Robin"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Least Connection Method"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "IP Hash"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Resource-Based Balancing"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Resource-Based Balancing is most effective for compute-intensive tasks as it considers the server load and capacity, distributing tasks based on resource availability rather than just connection counts or sessions."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Environment Variables in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to set and use environment variables securely in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Storing variables in a .env file and accessing via process.env"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Storing variables directly in the code"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hard-coding variables in a JSON file"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using global variables"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Storing sensitive variables in a .env file and accessing them through process.env is a secure method as it keeps the data out of source control."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Scaling Node.js Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following is NOT a recommended practice for optimizing Node.js application performance during scaling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Implementing clustering"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using process managers like PM2"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Frequent synchronous I/O operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Caching frequently accessed data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Frequent synchronous I/O operations can block the Node.js event loop, leading to decreased performance. Asynchronous I/O should be used to prevent blocking and optimize performance during scaling."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Load Balancing in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which load balancing technique allows Node.js applications to optimize resource usage, avoid overload, and ensure high availability, especially under a microservices architecture?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Round-robin DNS load balancing"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Server-Side Session load balancing"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Client-Side Load Balancing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IP Hash load balancing"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Round-robin DNS load balancing allows the distribution of client requests across multiple servers, ensuring no single server bears too much load which is essential in microservices architecture."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Node.js Version Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which tool allows for the installation of multiple versions of Node.js and enables easy switching between them?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "NPM"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "nvm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Babel"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "nvm (Node Version Manager) is specifically designed to manage multiple installations of Node.js and allows developers to switch between versions easily."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Node.js Streams",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary purpose of the 'duplex' stream in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To allow for simultaneous read and write operations."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To enhance performance by queuing data for read and write operations separately."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To only write data to the stream."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To transform data during the read or write process."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Duplex streams in Node.js are used to handle both read and write operations independently but within the same stream, allowing for simultaneous operations."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Event-driven Architecture in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the primary mechanism Node.js uses under the hood to handle asynchronous operations such as I/O bound tasks?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Multi-threading model"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Event loop and callback queue"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Single-threaded synchronous execution"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Child process fork"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The event loop and callback queue are central to this mechanism, enabling asynchronous processing."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Scaling Node.js Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Node.js application deployed using Kubernetes, what is the role of a 'pod' in the context of scaling?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A pod represents a collection of network settings only"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A pod acts as a storage volume for application data"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A pod is the smallest deployable unit that can be managed and scaled independently"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A pod is used primarily for load balancing between different server nodes"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Kubernetes, a pod is considered the smallest and simplest unit in the Kubernetes object model that you create or deploy. It represents a single instance of a running process in your cluster and can contain one or more containers. Pods are the units of scaling, meaning each pod can be managed and scaled independently."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Node.js Installation",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When installing Node.js using nvm on a Linux system, which of the following hidden files must be modified to ensure the Node version remains persistent across new terminal sessions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".bashrc"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": ".nvmrc"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": ".profile"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": ".bash_profile"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The .bashrc file needs to be sourced to load nvm and set the default Node version for all new terminal sessions."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When utilizing compound indexes in MongoDB, what is the impact of field order in the index on query performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Field order in the index does not affect query performance."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Field order can significantly affect query performance by determining whether the index can be used for sorting."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Field order impacts only write performance, not read performance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Field order affects the size of the index but not query performance."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The order of fields in a MongoDB compound index is crucial as it determines the types of queries the index can efficiently support. It affects whether the index can be used not only for filtering but also for sorting operations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Event Loop Utilization in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, why might using too many synchronous operations inside callbacks lead to poor performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can cause memory leaks over time"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Synchronous operations can block the event loop, leading to delayed processing of other asynchronous operations"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It increases CPU utilization unnecessarily"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It increases the load on the garbage collector"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Synchronous operations within callbacks can block the event loop. Since Node.js is essentially single-threaded, blocking the event loop prevents the system from processing other asynchronous callbacks, leading to increased response times and poor performance."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Scaling Node.js Applications",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a Node.js application, which tool is primarily used to ensure that the application can automatically scale across multiple servers and manage the instances efficiently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "PM2"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Nodemon"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Webpack"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Babel"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "PM2 is a process manager for Node.js applications with a built-in load balancer. It helps in deploying applications across multiple servers and managing them, which is crucial for effective scaling."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Error Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Given that 'err' is an error object, which middleware function correctly handles errors that occur in Express.js applications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "app.use((req, res, next) => { if (err) { console.log(err); res.status(500).send('Error'); } next(); });"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "app.use((err, req, res, next) => { console.log(err); res.status(500).send('Error'); });"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "app.use((req, res) => { if (err) { console.log(err); res.send('Error'); } });"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "app.use((err, req, res) => { console.log(err); res.status(500).send('Error'); });"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is the correct way to define an error-handling middleware. It uses four parameters (err, req, res, next), which is required by Express.js to recognize it as error handling middleware."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Modules and NPM",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which statement is true about the 'require' and 'import' statements in Node.js?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "'require' is used for importing ECMAScript modules (ESM), while 'import' is used for CommonJS modules."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "'require' can dynamically load modules during runtime, while 'import' cannot."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "'import' is synchronous and can be called conditionally within functions."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both 'require' and 'import' can always be used interchangeably in Node.js without any system configuration."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Node.js, 'require' is used to load CommonJS modules and can dynamically import modules during runtime, whereas 'import' is used for ECMAScript modules and must be declared at the beginning of a file, not conditionally or within functions."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Event Loop",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements accurately describes the behavior of the Node.js event loop when executing a set of asynchronous operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The event loop can execute multiple JavaScript operations simultaneously."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Node.js offloads the execution of asynchronous code to the operating system and uses a callback once complete."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Node.js uses a single thread for the event loop, but utilizes worker threads for certain asynchronous APIs."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "All I/O operations in Node.js are blocking by default to simplify code execution flow."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because Node.js handles I/O operations in a non-blocking manner using a single-threaded event loop along with a pool of worker threads available in libuv, the underlying library."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Event Loop and Non-blocking I/O",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the consequence of blocking the Node.js event loop with CPU-intensive operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance by utilizing multiple CPU cores"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Causes an increase in the memory usage of the application"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Leads to delays in processing I/O operations, degrading application responsiveness"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Has no significant impact as Node.js automatically manages CPU-intensive tasks"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Blocking the event loop in Node.js with CPU-intensive tasks prevents it from handling other asynchronous non-blocking operations, leading to delays in I/O operations and affecting the responsiveness of the application."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Error Handling in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the best practice for structuring an asynchronous error handling middleware in Express.js to catch errors from both synchronous and asynchronous operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use try-catch blocks inside all middleware and manually pass errors to next()."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Use a centralized error handling middleware with async-await and try-catch blocks."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Only use next() for asynchronous operations and throw for synchronous."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Wrap all middleware functions with a higher-order function that handles errors."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option D is correct because wrapping middleware functions with a higher-order function that intercepts and handles errors ensures that both synchronous and asynchronous errors are caught and processed appropriately, simplifying error management across the application."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Event Loop and Process Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In Node.js, what is the sequence of events when executing a script containing a setTimeout function set at 0 ms, an I/O operation, and a normal console log?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "I/O operation, setTimeout callback, console.log"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "setTimeout callback, console.log, I/O operation"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "console.log, I/O operation, setTimeout callback"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "console.log, setTimeout callback, I/O operation"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Node.js first completes all initial synchronous operations; thus, console.log is executed first. It then processes the I/O operations before the timers, meaning the I/O operation is next, and finally, the setTimeout callback occurs."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Node.js Environment Variables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the purpose of the NODE_ENV environment variable in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "To specify the entry point file of the application"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "To set the network port for the application server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "To define the environment in which the app is running, such as development, production, or test"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "To enable automatic updates for Node.js"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The NODE_ENV environment variable is used to specify the environment (development, production, test) the application is running in, which can enable specific settings optimized for each environment."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Advanced Querying in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which MongoDB operation allows you to transform document shapes, perform joins, and include computed fields in a single query?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "aggregate()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "find()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "update()"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "mapReduce()"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The aggregate() function in MongoDB allows for complex querying, transformations, and computations, which is not directly possible with find(), update(), or mapReduce()."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Middleware in Express.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing a custom middleware in Express.js that logs the method of the request, what property of the request object is accessed to retrieve this information?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "req.method"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "req.type"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "req.data"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "req.info"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Express.js, the request object 'req' has a property called 'method' which contains the HTTP method of the request. Accessing this property as 'req.method' provides the method used in the HTTP request, making option A correct."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Node.js Environment Variables",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When deploying a Node.js application using Docker, which file is used to securely manage environment variables?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": ".env"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "docker-compose.yml"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "package.json"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "server.config"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In Docker deployments, 'docker-compose.yml' is commonly used to manage environment variables securely, separate from the codebase, to avoid leaking sensitive information."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Implementing Event Emitters in Node.js",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of these is NOT a common use case for using Event Emitters in a Node.js application?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Handling HTTP request events"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Facilitating real-time data updates in websockets"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Executing synchronous file reading operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Managing custom logging events"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Event Emitters are typically used for handling asynchronous operations. Synchronous file reading does not require and does not benefit from Event Emitters, which are designed for non-blocking, event-driven operations."
+      }
+    ]
+  }
+]

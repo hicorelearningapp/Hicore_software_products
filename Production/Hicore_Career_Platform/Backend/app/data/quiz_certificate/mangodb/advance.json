@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 9,
+    "topic": "Bitmap Indexes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a database using bitmap indexes, which query scenario would most benefit from a composite bitmap index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Queries filtering on a single highly cardinal attribute"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Queries performing a full table scan"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Queries filtering on multiple low cardinality attributes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Queries that update a small portion of the table frequently"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Composite bitmap indexes are highly effective when the query involves multiple low cardinality attributes because they allow the database to quickly combine these bitmaps using bitwise operations, leading to faster query performance."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Index Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the impact of creating a compound index in MongoDB, where the order of fields is reversed, considering the field usage in query conditions?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "No impact as MongoDB re-orders fields internally"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreased performance due to lack of index utilization"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Increased disk usage but faster query response"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Improved index compression"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Reversing the order of fields in a compound index compared to the order in which they are used in queries can lead to decreased performance, as MongoDB might not be able to effectively use the index, resulting in full collection scans."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When optimizing a MongoDB database with complex queries, which indexing strategy minimizes performance overhead while maximizing query efficiency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Creating a single compound index that includes all fields accessed by the query"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using multiple single field indexes for each field accessed by the query"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Creating partial indexes for each query operator"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Relying on MongoDB's auto-indexing feature"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A single compound index that includes all fields used in the query can significantly reduce the number of index entries scanned, hence improving query performance and reducing overhead."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Replica Set Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to configure a three-node replica set in MongoDB where each node is on a different server and one node is designated as an arbiter?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Use mongod --replSet with the same set name on all nodes, then configure the arbiter on only one node."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Configure all nodes with the same set name and include the arbiter in the replica set configuration document."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Use rs.initiate() on one node, then use rs.add() on each additional node specifying the arbiter with rs.addArb()."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Run each node as a standalone server and manually synchronize data between them."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because initiating a replica set with rs.initiate() and then adding nodes with rs.add() while specifying the arbiter with rs.addArb() correctly sets up a distributed replica set with an arbiter."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Sharding Practices",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is a potential downside of choosing a shard key that has high cardinality and high frequency?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It can lead to hotspots, affecting write scalability."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It often causes ignored transactions."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It reduces the overall data security and integrity."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It increases the durability of the data."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because a shard key with high cardinality and high frequency can lead to uneven data and workload distribution across the shards, thereby creating hotspots which negatively impact write scalability."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Bitmap Indexing",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a database with highly repetitive data, which of the following is true about bitmap indexes?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "They consume more storage space than a B-tree index for the same data."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "They are less efficient for equality queries compared to hash indexes."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "They are more efficient in environments where write operations are more frequent than read operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "They offer efficient querying in read-heavy scenarios."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are particularly efficient in scenarios with low cardinality and high repetitiveness, making them suitable for read-heavy environments where their structure allows for quick filtering and aggregation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering a collection with documents having fields 'username' and 'email', which index type would be most efficient for a query that sorts on 'username' and then filters on 'email'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field index on 'username'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index on 'username' and 'email'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Text index on 'username' and 'email'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Multikey index on 'username' and 'email'"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index on both 'username' and 'email' would allow MongoDB to efficiently sort and filter the query by using the index for both operations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Role-Based Access Control",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following roles allows a user to perform actions on any database except for the config, admin, and local databases?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "readWriteAnyDatabase"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "dbAdminAnyDatabase"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "userAdminAnyDatabase"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "backup"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The readWriteAnyDatabase role allows a user to read and write data on all databases except the system databases such as config, admin, and local."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Indexing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB database, if a user executes a query to find documents based on a non-indexed field, which of the following best describes the performance implications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The query will be faster because MongoDB optimizes runtime for non-indexed fields."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The query will utilize a collection scan, potentially increasing the query execution time."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "MongoDB automatically creates a temporary index for such queries, thus maintaining optimal performance."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "There will be no impact on performance as MongoDB treats indexed and non-indexed fields equally."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Queries on non-indexed fields result in a collection scan where each document in the collection is scanned, which increases execution time significantly compared to indexed queries."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing and Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Consider a collection 'orders' with documents containing the fields 'customer_id', 'order_date', and 'amount'. You need to support frequent queries filtering by 'customer_id' and sorting by 'order_date'. Which of the following index configurations would be most efficient for this scenario?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "{ 'customer_id': 1, 'order_date': 1 }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{ 'customer_id': 1, 'order_date': -1 }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{ 'order_date': 1, 'customer_id': 1 }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "{ 'order_date': -1, 'customer_id': 1 }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because it correctly indexes 'customer_id' for filtering and 'order_date' for sorting in ascending order, which is the typical use case scenario."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encryption mechanism does MongoDB use for 'Encryption at Rest' to enhance data security?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transport Layer Security (TLS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Secure Hash Algorithm (SHA-256)"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "WiredTiger Encryption at Rest"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Advanced Encryption Standard (AES)"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB uses WiredTiger's built-in encryption at rest framework to encrypt data stored on the server disk."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Sharding in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a sharded MongoDB cluster, which of the following statements is true regarding the role of a shard key?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It determines the distribution of documents across shards."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It encrypts the documents for security."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It acts as a replication factor for the cluster."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It provides timestamps for all operations within the database."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A shard key determines how data is distributed across the various shards in a MongoDB cluster, which is crucial for load balancing and efficient querying."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Role-Based Access Control in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the minimum set of built-in roles required to manage both users and roles in MongoDB, while also performing backup operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "dbAdmin, userAdmin, and backup"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "userAdminAnyDatabase, dbAdminAnyDatabase, and readWrite"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "userAdmin, dbOwner, and backup"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "userAdminAnyDatabase, dbAdminAnyDatabase, and backup"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The 'userAdminAnyDatabase' role grants the ability to manage users and roles on all databases, 'dbAdminAnyDatabase' provides administrative access across all databases except for the configuration of the database itself, and 'backup' allows the user to perform backup operations."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Replication in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB replica set, what is the role of the oplog?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It stores user credentials and security settings for database access."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It acts as a transaction log recording all the changes made to the data in the database."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It is used for sharding data across multiple servers in a cluster."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It serves as a cache layer to speed up read queries."
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in the databases of a MongoDB replica set. This log is used by secondary members to replicate changes from the primary."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Atomicity of Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB operations are atomic at the document level?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Inserting a new document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Updating multiple fields in a single document using $set"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Updating multiple documents using $multi"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both A and B are correct"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB ensures atomicity at the document level which means operations like inserting a new document or updating multiple fields in a single document using $set are atomic. However, updating multiple documents even with a single query using $multi is not atomic at the document level."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Replication Lag",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What could be a probable cause of replication lag in a MongoDB replica set that is not related to network issues?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "All members of the replica set are located in the same data center"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Insufficient write capacity on the primary"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The secondary members have indexes that are not present on the primary"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A large number of unacknowledged write operations"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because having additional indexes on the secondary members that are not present on the primary can cause additional overhead during the replication process. This overhead can lead to replication lag as the secondary members take longer to apply the operations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB's aggregation pipeline, which of the following stages allows you to restrict the content of documents based on conditions that refer to other fields in the same document?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$redact"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$limit"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "$redact stage uses conditions to determine if a document or sub-document should be included in the output set from the aggregation pipeline."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregation Pipelines",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Considering the MongoDB aggregation pipeline, what is the impact of using the $sort stage before the $group stage on performance?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Decreases memory usage as documents are pre-sorted"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Improves performance by reducing the number of documents processed"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Has no impact as $sort and $group are independent stages"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Can lead to increased memory usage and potential performance degradation"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using $sort before $group can significantly increase memory usage because all documents need to be loaded and sorted in memory before grouping. This can degrade performance, especially with large datasets."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB aggregation pipeline stages will allow you to optimize performance by reducing the number of documents passed to the next stage?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$group"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$sort"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using the $match stage early in the pipeline can greatly reduce the number of documents processed in subsequent stages, thus optimizing the overall performance of the aggregation pipeline."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Advanced Query Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, when performing a query on a collection with a compound index on {a: 1, b: 1}, which type of sort operation will not use the index efficiently?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sorting by {a: 1, b: -1}"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Sorting by {a: 1, b: 1}"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Sorting by {b: 1, a: 1}"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sorting by {a: -1, b: -1}"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option C is correct because the index is optimized for queries sorted in the order of {a, b}. Sorting by {b, a} does not follow the order of the index fields, leading to inefficiencies."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encryption mechanism does MongoDB use to provide encryption at rest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "TLS/SSL"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "AES256-CBC"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "AES256-GCM"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "SHA-256"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB uses AES256-GCM, an advanced encryption standard with Galois/Counter Mode, for encryption at rest, providing confidentiality and integrity of data."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Indexing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What indexing strategy can significantly improve the performance of read operations in a MongoDB collection with diverse and complex query patterns?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field indexes"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound indexes"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Geospatial indexes"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Text indexes"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compound indexes support queries on multiple fields, optimizing performance by reducing the need for additional processing to satisfy complex query patterns."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Index Management",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following statements is true when creating a compound index on `{ field1: 1, field2: -1 }` in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The index will sort `field1` in ascending order and `field2` in descending order within each `field1`."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The index will only sort `field1` and ignore `field2`."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The index will sort both `field1` and `field2` in descending order."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "MongoDB does not support compound indexes."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, a compound index on `{ field1: 1, field2: -1 }` sorts documents first by `field1` in ascending order, and then within each `field1` group, it sorts by `field2` in descending order."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "MongoDB Replica Set Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When configuring a replica set in MongoDB, what is the impact of setting the 'writeConcern' to a majority on the performance of write operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Increases the latency of write operations due to the need for acknowledgment from the majority of nodes."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases the latency of write operations as it requires fewer acknowledgments."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Has no impact on the latency of write operations."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Decreases the reliability of write operations."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Setting 'writeConcern' to a majority increases the latency of write operations because it requires acknowledgment from the majority of nodes before considering the operation successful. This ensures data durability and consistency at the cost of increased latency."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When implementing compound indexes in MongoDB, what is the effect of index prefixing on query performance and why?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Improves performance as it allows for both range-based queries and sort operations to be efficient."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Decreases performance due to increased memory use."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "No impact, as MongoDB treats all compound indexes equally."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Worsens performance because it leads to higher disk I/O."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is correct because prefixing in compound indexes allows MongoDB to effectively use the index for both matching documents (range queries) and for sorting those documents, thereby enhancing the performance of queries involving these operations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, what is the most effective optimization for a complex aggregation pipeline involving multiple $lookup and $group stages?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Increasing the RAM of the server"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Splitting the pipeline into smaller, independent aggregations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Indexing all fields used in the $lookup and $group stages"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline effectively reduces the amount of data processed in subsequent stages, increasing overall efficiency. While indexing and increasing server resources may help, they do not address the core efficiency of the pipeline's logic as directly as strategic use of $match does."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which encryption mechanism does not provide encryption at rest by itself?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Transparent Data Encryption (TDE)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Encrypted Storage Engine"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "TLS/SSL"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Field Level Encryption"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "TLS/SSL provides encryption in transit rather than encryption at rest. It secures data as it travels between the client and the server but not when it is stored."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a MongoDB schema, what is a major consideration when deciding between embedding and referencing documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The type of indexing used"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The size of individual documents"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Network latency"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Both data access patterns and the size of the documents"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Choosing between embedding and referencing depends on both the data access patterns (how often data is accessed together) and the size of the documents, as large embedded documents can lead to performance issues."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Replication Mechanics",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB replica set, which of the following mechanisms ensures data consistency across nodes during a network partition?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Read preference nearest"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Write concern majority"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Journaling"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Sharding"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Write concern 'majority' ensures that the data is written to the majority of nodes, thus maintaining consistency even if a part of the system goes down during a network partition."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Atomic Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB operations ensures atomicity on document-level modifications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "db.collection.updateMany()"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "db.collection.updateOne()"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "db.collection.find().limit(1)"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "db.collection.aggregate()"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option B is correct because updateOne() ensures atomicity for the modifications made to a single document identified by the query."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Indexing Strategies in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB collection, you have documents with the fields 'username', 'email', and 'signup_date'. Which index type would be most efficient for a query that filters on 'email' and sorts on 'signup_date'?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field index on 'email'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index on 'email' and 'signup_date'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multikey index on 'email' and 'signup_date'"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Text index on 'email'"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index on 'email' and 'signup_date' optimizes both the filter and sort operations in one index, avoiding the need for additional sorting in memory."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Encryption at Rest",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which encryption key management service is NOT supported by MongoDB for implementing Encryption at Rest?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "AWS Key Management Service (KMS)"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Azure Key Vault"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Google Cloud KMS"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "IBM Cloud Key Protect"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "MongoDB supports integration with AWS KMS, Azure Key Vault, and Google Cloud KMS, but not with IBM Cloud Key Protect for encryption key management."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Index Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which index type can significantly improve performance of range queries on multi-key fields in MongoDB?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Hashed index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Multikey index"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Multikey indexes are specifically designed for indexing array data, improving the efficiency of queries that specify conditions on array elements, including range queries."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Indexing and Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When querying a MongoDB collection, which index type can significantly improve the performance of queries that sort on multiple fields?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Single field index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Multikey index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Geospatial index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A compound index, which includes multiple fields within a single index, is ideal for improving the performance of queries involving sorting on multiple fields."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Bitmap Indexes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a database with high cardinality fields, which scenario is LEAST suitable for a bitmap index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Fields with many unique values"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Fields with few unique values"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Fields frequently involved in AND operations"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Fields rarely updated"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are less efficient in scenarios with high cardinality (many unique values) because they require extensive space and slow down updates."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which schema design consideration is most critical when planning to store large arrays inside MongoDB documents?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Ensuring that the array does not cause the document to exceed MongoDB's 16MB document size limit."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Creating a separate collection for each item in the array."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using a relational database instead of MongoDB for array storage."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Implementing sharding at the document level."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "In MongoDB, the maximum BSON document size is 16MB. Storing large arrays in a document can easily breach this limit, leading to insertion errors."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Atomic Operations",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When performing an update operation in MongoDB, which of the following statements ensures atomicity on document-level modifications?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$set"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$isolated"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$atomic"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$snapshot"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $set operator in MongoDB is used to replace the value of a field with a specified value, ensuring atomicity at the document level during an update operation."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What type of index in MongoDB ensures that the indexed fields do not store duplicate values and rejects any document that attempts to violate this constraint?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Sparse index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Unique index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Hashed index"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A Unique index in MongoDB ensures that the indexed fields contain no duplicate values. It enforces uniqueness for the indexed fields. Any attempt to insert or update data that would result in a duplicate key error is rejected."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Sharding in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a sharded MongoDB cluster, which of the following statements is true regarding the placement of the config servers?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Config servers must be placed within a single shard."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Config servers must be deployed on each shard node."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Config servers are deployed as a separate replica set independent of the shards."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Config servers can be optionally deployed if the number of shards exceeds five."
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Config servers in a sharded MongoDB cluster are deployed as a separate replica set to manage cluster's metadata and are independent of the shards."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Bitmap Indexes",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following scenarios is the LEAST efficient for implementing a bitmap index?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A database with a small number of unique values in a column"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A database with a large number of rows and a small number of unique values"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A database with a large number of unique values in a column"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A database that rarely updates its data"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Bitmap indexes are less efficient in scenarios where there are a large number of unique values in a column because each unique value requires a separate bitmap, which can lead to space inefficiencies and slower search performance."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following index types in MongoDB would be most efficient for queries that perform range-based operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Text index"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hashed index"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Compound index"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Geospatial index"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Compound index is most efficient for range-based operations because it allows MongoDB to perform range queries on multiple fields efficiently."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following aggregation pipeline stages allows you to incorporate conditional logic into the processing pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "$project"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "$match"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "$cond"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "$lookup"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $cond stage allows you to perform conditional logic in aggregation, similar to if/else statements, enabling different outputs based on specified conditions."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Aggregation Framework",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What does the $unwind stage do in a MongoDB aggregation pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "It condenses multiple documents into a single document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "It groups input documents by a specified identifier"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "It deconstructs an array field from input documents to output a document for each element"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "It creates a new array with elements that match the specified condition"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The $unwind stage is used in aggregation pipelines to deconstruct an array field from the input documents to output a document for each element of the array."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Aggregation Pipeline Optimization",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In MongoDB, which of the following is NOT a recommended practice for optimizing an aggregation pipeline?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Using $match as early as possible in the pipeline"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Using $project to remove unnecessary fields early in the pipeline"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Using $lookup for large unindexed collections"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Limiting the amount of processed documents with $limit"
+      }
+    ],
+    "correct": "C",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Using $lookup on large unindexed collections is not recommended as it can significantly degrade performance. Indexing the foreign collection can help improve the performance of the $lookup stage."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "MongoDB Sharding Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In the context of configuring a sharded cluster, which of the following options is the most efficient shard key for a collection that is expected to have a high write throughput with evenly distributed write operations?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "A key with low cardinality."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "A compound key based on frequently accessed fields."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "A monotonically increasing key, such as a timestamp."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "A hashed key based on a high-cardinality field."
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "A hashed key based on a high-cardinality field provides the most efficient distribution of data across shards. This distribution helps in balancing the load and optimizing write throughput in a sharded MongoDB environment."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Sharding Strategies",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB cluster configured with shard key on a non-monotonically increasing field, which of the following issues is LEAST likely to be encountered?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Write scalability issues"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Hotspotting on a single shard"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Jittery performance due to frequent rebalancing"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Effective utilization of all shards"
+      }
+    ],
+    "correct": "D",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Choosing a non-monotonically increasing field as a shard key typically avoids hotspotting, thereby promoting effective utilization across all shards. Write scalability and rebalancing issues may still occur depending on data distribution and workload characteristics."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Schema Design for Read and Write Performance",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "When designing a schema in MongoDB, what is a primary consideration for choosing to embed one document inside another?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "The frequency of updates to the embedded document"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "The size of the parent document"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "The storage engine used by MongoDB"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Network latency between application and database servers"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Embedding documents should be considered when the embedded data does not frequently change, as frequent updates can lead to performance degradation due to document movement on disk."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "MongoDB Security Configuration",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "What is the correct method to enforce authentication in a MongoDB deployment by modifying the configuration file?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Set security.authorization to 'disabled'"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Set security.authorization to 'enabled'"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Add user credentials directly into the mongodb.conf file"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Enable network encryption by setting security.authentication to 'enabled'"
+      }
+    ],
+    "correct": "B",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Enforcing authentication in a MongoDB setup requires setting 'security.authorization' to 'enabled' in the configuration file. This mandates that all connecting clients provide valid credentials before accessing the database contents."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "topic": "Indexing in MongoDB",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "Which of the following MongoDB indexing options ensures that the field contains no duplicate values, but does not necessarily create an index if it does not exist?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "{ unique: true, sparse: true }"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "{ unique: true }"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "{ unique: true, dropDups: true }"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "{ sparse: true }"
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "The option { unique: true, sparse: true } ensures uniqueness and does not index null values, thus not creating an index if the field does not exist in some documents."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Schema Design",
+    "difficulty": "hard",
+    "question": [
+      {
+        "type": "text",
+        "value": "In a MongoDB database, a 'book' document contains an array of 'chapters', each with its own 'title' and 'text'. If you need to frequently update the text of specific chapters, which schema design would enhance performance and minimize potential data corruption?"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "value": "Storing each chapter as a separate document in a 'chapters' collection, linked by book_id."
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "value": "Storing all chapters within a single 'book' document as an embedded array."
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "value": "Storing only chapter titles in the 'book' document, and chapter text in a separate 'texts' collection."
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "value": "Using a hybrid approach with chapter titles in the 'book' document and texts as separate documents in a 'chapters' collection."
+      }
+    ],
+    "correct": "A",
+    "explanation": [
+      {
+        "type": "text",
+        "value": "Option A is optimal as it allows each chapter to be independently updated without risking data corruption in other parts of the book, which is more likely in a large embedded array."
+      }
+    ]
+  }
+]

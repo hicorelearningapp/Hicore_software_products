@@ -1,0 +1,1084 @@
+[
+  {
+    "id": 1,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You have terabytes of semi-structured JSON logs stored in S3. What’s the most efficient AWS workflow to preprocess and feed them into a SageMaker training job?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use AWS Glue ETL to flatten and transform data, store in Parquet, and point SageMaker to S3 output." },
+      { "label": "B", "type": "text", "value": "Manually download logs and preprocess locally using Pandas." },
+      { "label": "C", "type": "text", "value": "Use Amazon Athena to export as CSV for SageMaker input." },
+      { "label": "D", "type": "text", "value": "Stream directly using Amazon Kinesis without transformation." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Glue ETL efficiently processes large JSON datasets at scale, producing optimized Parquet files for SageMaker training." }
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "When handling class imbalance in a fraud detection dataset, which approach maintains model generalization best?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Combine SMOTE oversampling with class-weighted loss function." },
+      { "label": "B", "type": "text", "value": "Randomly duplicate minority samples." },
+      { "label": "C", "type": "text", "value": "Remove majority class examples." },
+      { "label": "D", "type": "text", "value": "Apply PCA before training." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Balancing synthetic oversampling (SMOTE) with weighted loss penalizes misclassification while preserving distribution." }
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Your dataset contains 200 categorical features with high cardinality. Which SageMaker feature or method optimizes training performance?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use SageMaker Feature Store with feature hashing for categorical encoding." },
+      { "label": "B", "type": "text", "value": "Apply one-hot encoding directly on raw data." },
+      { "label": "C", "type": "text", "value": "Convert all categorical columns to integers without encoding." },
+      { "label": "D", "type": "text", "value": "Use CSV format with unprocessed text." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature hashing efficiently handles high-cardinality categorical variables without memory explosion." }
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you ensure data consistency between training and inference pipelines in a distributed ML environment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Centralize transformations in SageMaker Feature Store." },
+      { "label": "B", "type": "text", "value": "Maintain separate preprocessing codebases for training and inference." },
+      { "label": "C", "type": "text", "value": "Apply ad-hoc normalization during inference only." },
+      { "label": "D", "type": "text", "value": "Train models without preprocessing." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Feature Store enforces consistent feature logic across training and inference workflows." }
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "During SageMaker hyperparameter tuning, which strategy can minimize cost while ensuring robust results?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use Bayesian optimization with early stopping and spot instances." },
+      { "label": "B", "type": "text", "value": "Train all combinations exhaustively." },
+      { "label": "C", "type": "text", "value": "Use random search with fixed epochs." },
+      { "label": "D", "type": "text", "value": "Manually adjust parameters iteratively." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Bayesian optimization explores promising regions efficiently; spot instances and early stopping save cost." }
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "In deep learning, which issue can arise from improper batch normalization placement?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Internal covariate shift may persist, slowing convergence." },
+      { "label": "B", "type": "text", "value": "Exploding gradient always occurs." },
+      { "label": "C", "type": "text", "value": "Model fails to compile." },
+      { "label": "D", "type": "text", "value": "Regularization stops working." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Placing BatchNorm incorrectly prevents stable activation scaling, reintroducing covariate shift." }
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which optimization technique can escape saddle points during training of deep models?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Adam optimizer with momentum and adaptive learning rate." },
+      { "label": "B", "type": "text", "value": "Stochastic Gradient Descent without momentum." },
+      { "label": "C", "type": "text", "value": "Gradient clipping only." },
+      { "label": "D", "type": "text", "value": "Early stopping." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Adam’s momentum and adaptive step size allow escaping flat or saddle regions faster than plain SGD." }
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "A model trained on streaming data shows non-stationary distributions. Which learning technique addresses this?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Online learning with incremental updates." },
+      { "label": "B", "type": "text", "value": "Batch retraining weekly." },
+      { "label": "C", "type": "text", "value": "Static model tuning." },
+      { "label": "D", "type": "text", "value": "Fixed data windowing." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Online learning continuously updates model parameters to adapt to shifting data patterns." }
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Your SageMaker real-time endpoint needs to handle unpredictable traffic surges. What configuration achieves cost-efficient scalability?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Enable SageMaker Endpoint Auto Scaling with target invocation metrics." },
+      { "label": "B", "type": "text", "value": "Use fixed instance count." },
+      { "label": "C", "type": "text", "value": "Deploy via Batch Transform." },
+      { "label": "D", "type": "text", "value": "Manually adjust instance count daily." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Auto Scaling automatically adjusts instance capacity based on traffic, maintaining cost and performance balance." }
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "When deploying multiple models sharing the same preprocessing logic, which approach minimizes deployment overhead?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use Multi-Model Endpoints with shared inference containers." },
+      { "label": "B", "type": "text", "value": "Deploy separate endpoints for each model." },
+      { "label": "C", "type": "text", "value": "Chain models with Lambda triggers." },
+      { "label": "D", "type": "text", "value": "Use SageMaker Ground Truth pipelines." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Multi-Model Endpoints dynamically load models on demand, reducing cost and maintenance overhead." }
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "A real-time fraud detection model requires inference under 50ms latency. What deployment architecture ensures this?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use SageMaker Edge with compiled model via Neo for local inference." },
+      { "label": "B", "type": "text", "value": "Use Batch Transform daily." },
+      { "label": "C", "type": "text", "value": "Deploy through Lambda synchronous invocations only." },
+      { "label": "D", "type": "text", "value": "Use SageMaker Pipelines for on-demand scoring." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Compiling with Neo and running on Edge provides ultra-low latency inference near data sources." }
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You observe a slow accuracy decline in production with stable input distributions. What’s the most likely cause?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Concept drift — the relationship between features and target has changed." },
+      { "label": "B", "type": "text", "value": "Data drift — the input features’ distribution shifted." },
+      { "label": "C", "type": "text", "value": "Model overfitting during training." },
+      { "label": "D", "type": "text", "value": "Feature scaling issue." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "When input data is stable but target relationships change, it indicates concept drift." }
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which AWS service automates drift detection across multiple deployed endpoints?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Model Monitor" },
+      { "label": "B", "type": "text", "value": "AWS Config" },
+      { "label": "C", "type": "text", "value": "AWS Glue" },
+      { "label": "D", "type": "text", "value": "Amazon Inspector" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Model Monitor continuously evaluates deployed endpoints for input, output, and concept drift." }
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What’s the best approach to automatically retrain models when drift is detected?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Trigger SageMaker Pipelines retraining via CloudWatch event from Model Monitor." },
+      { "label": "B", "type": "text", "value": "Retrain manually once per quarter." },
+      { "label": "C", "type": "text", "value": "Use Lambda to delete old endpoints." },
+      { "label": "D", "type": "text", "value": "Send email alerts and do nothing." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Integrating Model Monitor with CloudWatch and Pipelines enables automated retraining when drift triggers alarms." }
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which advanced metric evaluates calibration and discrimination jointly for binary classifiers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Expected Calibration Error (ECE)" },
+      { "label": "B", "type": "text", "value": "Precision" },
+      { "label": "C", "type": "text", "value": "AUC" },
+      { "label": "D", "type": "text", "value": "Recall" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "ECE measures how well predicted probabilities align with actual outcomes, capturing both discrimination and calibration." }
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which combination provides the highest level of security for sensitive model artifacts?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Encrypt artifacts with KMS-managed keys and store in private S3 buckets with VPC endpoints." },
+      { "label": "B", "type": "text", "value": "Store artifacts in public S3 with IAM authentication." },
+      { "label": "C", "type": "text", "value": "Rely on EC2 instance storage only." },
+      { "label": "D", "type": "text", "value": "Disable encryption for faster inference." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "KMS and VPC endpoints enforce both encryption and network isolation for maximum artifact protection." }
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How do you ensure inference requests are authenticated without embedding static credentials?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use temporary AWS STS tokens via IAM roles." },
+      { "label": "B", "type": "text", "value": "Embed API keys in code." },
+      { "label": "C", "type": "text", "value": "Use plaintext passwords." },
+      { "label": "D", "type": "text", "value": "Disable authentication." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "STS provides temporary credentials that enhance security by minimizing exposure risk." }
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which AWS feature enforces least-privilege access across multiple SageMaker resources?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "IAM policies with resource-level constraints." },
+      { "label": "B", "type": "text", "value": "Open S3 bucket permissions." },
+      { "label": "C", "type": "text", "value": "Group-wide AdministratorAccess." },
+      { "label": "D", "type": "text", "value": "Shared root account credentials." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Resource-level IAM policies restrict access precisely, following the principle of least privilege." }
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What’s the best way to log and audit ML pipeline executions securely?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Integrate SageMaker Pipelines with CloudTrail and CloudWatch Logs." },
+      { "label": "B", "type": "text", "value": "Store logs in local EC2 memory." },
+      { "label": "C", "type": "text", "value": "Export logs to public S3." },
+      { "label": "D", "type": "text", "value": "Rely only on terminal printouts." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "CloudTrail and CloudWatch enable full audit and traceability for ML pipeline actions securely." }
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can SageMaker protect model endpoints from DDoS attacks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Integrate SageMaker endpoints with AWS WAF and API Gateway throttling." },
+      { "label": "B", "type": "text", "value": "Disable authentication." },
+      { "label": "C", "type": "text", "value": "Allow unlimited traffic." },
+      { "label": "D", "type": "text", "value": "Run endpoints without load balancing." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "WAF and API Gateway rate limits protect ML endpoints from abuse and DDoS attempts." }
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You are training models on multi-terabyte clickstream data. How do you efficiently shuffle and feed batches to distributed training on SageMaker?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use SageMaker Pipe Mode to stream shuffled data from S3 during training." },
+      { "label": "B", "type": "text", "value": "Download all data to a single EC2 instance first." },
+      { "label": "C", "type": "text", "value": "Store data unshuffled and rely on the optimizer." },
+      { "label": "D", "type": "text", "value": "Use Athena to query every batch in real time." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Pipe Mode streams data directly from S3 across workers, enabling distributed, memory-efficient training with on-the-fly shuffling." }
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "When building a recommendation system, why is negative sampling critical?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It balances implicit feedback datasets by adding non-interacted samples." },
+      { "label": "B", "type": "text", "value": "It reduces overfitting on positive ratings." },
+      { "label": "C", "type": "text", "value": "It increases training speed only." },
+      { "label": "D", "type": "text", "value": "It replaces data augmentation." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Negative sampling introduces contrastive examples so models learn to distinguish true interactions from random noise." }
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you diagnose exploding gradients during deep model training on SageMaker?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Enable SageMaker Debugger tensor collection for gradients." },
+      { "label": "B", "type": "text", "value": "Check CloudWatch CPU metrics only." },
+      { "label": "C", "type": "text", "value": "Inspect logs manually after completion." },
+      { "label": "D", "type": "text", "value": "Disable checkpointing." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker Debugger captures gradient tensors in real time, flagging anomalies like exploding or vanishing gradients." }
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What technique can help large language models fit into limited GPU memory during training?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Gradient checkpointing with mixed precision training." },
+      { "label": "B", "type": "text", "value": "Disable back-propagation." },
+      { "label": "C", "type": "text", "value": "Increase batch size arbitrarily." },
+      { "label": "D", "type": "text", "value": "Use float64 precision." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Checkpointing recomputes partial activations and mixed precision halves memory use without major accuracy loss." }
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Why might ensemble stacking outperform bagging in complex ML pipelines?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It combines predictions of multiple models via a meta-learner trained to minimize overall error." },
+      { "label": "B", "type": "text", "value": "It trains identical models repeatedly." },
+      { "label": "C", "type": "text", "value": "It increases model variance." },
+      { "label": "D", "type": "text", "value": "It relies solely on averaging probabilities." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Stacking adds a higher-level learner that exploits complementary strengths of base models for superior generalization." }
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You need to serve a TensorFlow and a PyTorch model behind one API endpoint. What SageMaker approach supports this?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Multi-Container Endpoint using both frameworks." },
+      { "label": "B", "type": "text", "value": "Deploy via separate endpoints only." },
+      { "label": "C", "type": "text", "value": "Use Lambda for one and SageMaker for the other." },
+      { "label": "D", "type": "text", "value": "Combine both into one serialized model." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SageMaker multi-container endpoints can host heterogeneous frameworks under a unified API." }
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can SageMaker Pipelines guarantee model lineage and reproducibility?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "By tracking artifacts, parameters, and executions in ML Lineage Tracking." },
+      { "label": "B", "type": "text", "value": "By saving logs only." },
+      { "label": "C", "type": "text", "value": "By disabling caching." },
+      { "label": "D", "type": "text", "value": "By retraining manually for each run." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Lineage Tracking records datasets, code, and parameters, ensuring reproducibility and compliance." }
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How would you detect subtle concept drift when both input and target drift slowly?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Monitor performance metrics over rolling windows and apply KS-tests on residuals." },
+      { "label": "B", "type": "text", "value": "Rely solely on input mean comparison." },
+      { "label": "C", "type": "text", "value": "Retrain daily regardless." },
+      { "label": "D", "type": "text", "value": "Ignore until accuracy drops 20%." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Combining rolling-window metrics with residual-based statistical tests reveals gradual concept drift." }
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which metric best measures uncertainty in probabilistic neural networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Predictive Entropy" },
+      { "label": "B", "type": "text", "value": "Precision" },
+      { "label": "C", "type": "text", "value": "Recall" },
+      { "label": "D", "type": "text", "value": "R-Squared" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Predictive entropy quantifies distributional spread in predicted probabilities, indicating model uncertainty." }
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What security design ensures that SageMaker jobs can access only specific S3 prefixes?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "IAM policy with ARN-level prefix conditions." },
+      { "label": "B", "type": "text", "value": "Public S3 bucket policy." },
+      { "label": "C", "type": "text", "value": "Shared credentials in environment variables." },
+      { "label": "D", "type": "text", "value": "Disable bucket versioning." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Prefix-scoped ARNs restrict SageMaker access to defined S3 directories, following least-privilege principles." }
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which technique helps balance exploration and exploitation in reinforcement learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Epsilon-Greedy or Upper Confidence Bound policies." },
+      { "label": "B", "type": "text", "value": "Static reward functions only." },
+      { "label": "C", "type": "text", "value": "Batch learning updates." },
+      { "label": "D", "type": "text", "value": "Dropout regularization." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "RL algorithms use Epsilon-Greedy and UCB strategies to explore new actions while exploiting known rewards." }
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you quantify model drift when ground truth labels arrive after a delay?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Compare input feature distributions using Population Stability Index (PSI)." },
+      { "label": "B", "type": "text", "value": "Wait for labels to compute accuracy." },
+      { "label": "C", "type": "text", "value": "Ignore monitoring." },
+      { "label": "D", "type": "text", "value": "Estimate via MSE immediately." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PSI detects input distribution shifts without labels, serving as a proxy for drift detection in delayed-label scenarios." }
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which feature transformation best stabilizes variance in highly skewed continuous variables?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Log or Box-Cox transformation." },
+      { "label": "B", "type": "text", "value": "Min-max scaling." },
+      { "label": "C", "type": "text", "value": "Label encoding." },
+      { "label": "D", "type": "text", "value": "Z-score normalization only." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Logarithmic transformations reduce skewness, stabilizing variance for continuous features." }
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How does using AWS Step Functions with SageMaker enhance MLOps scalability?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It orchestrates distributed and conditional workflow steps with retries and branching." },
+      { "label": "B", "type": "text", "value": "It replaces SageMaker Pipelines." },
+      { "label": "C", "type": "text", "value": "It only monitors logs." },
+      { "label": "D", "type": "text", "value": "It accelerates GPU usage." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Step Functions scale complex ML workflows reliably, handling retries and conditional execution across AWS services." }
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which AWS service can automatically detect anomalous API usage in SageMaker environments?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon GuardDuty" },
+      { "label": "B", "type": "text", "value": "AWS Glue" },
+      { "label": "C", "type": "text", "value": "AWS Lambda" },
+      { "label": "D", "type": "text", "value": "CloudFormation" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "GuardDuty identifies suspicious activities like unusual SageMaker API calls or privilege escalations." }
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What’s the main advantage of using distributed data parallel (DDP) over model parallelism?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "DDP scales training across GPUs by splitting batches, keeping model replica consistent." },
+      { "label": "B", "type": "text", "value": "It partitions model layers across GPUs." },
+      { "label": "C", "type": "text", "value": "It stores gradients centrally." },
+      { "label": "D", "type": "text", "value": "It disables synchronization." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Data parallelism replicates models across GPUs, each training on different mini-batches with synchronized updates." }
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which visualization best detects seasonal drift in model error metrics?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Time-series plot of rolling error means with confidence intervals." },
+      { "label": "B", "type": "text", "value": "Box plot of features." },
+      { "label": "C", "type": "text", "value": "Confusion matrix snapshot." },
+      { "label": "D", "type": "text", "value": "Scatter plot of two features." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Rolling time-series plots expose temporal drift patterns in errors that align with seasonality." }
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How does label smoothing improve generalization in classification networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It prevents over-confidence by softening one-hot targets during training." },
+      { "label": "B", "type": "text", "value": "It increases learning rate." },
+      { "label": "C", "type": "text", "value": "It augments dataset size." },
+      { "label": "D", "type": "text", "value": "It removes class imbalance." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Label smoothing regularizes the classifier by reducing certainty, improving calibration and robustness." }
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What’s the benefit of monitoring SHAP value drift across model versions?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It reveals how feature contributions change, explaining shifts in prediction behavior." },
+      { "label": "B", "type": "text", "value": "It measures accuracy directly." },
+      { "label": "C", "type": "text", "value": "It tracks inference cost." },
+      { "label": "D", "type": "text", "value": "It detects hardware issues." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SHAP drift highlights changes in feature importance patterns, critical for explainability and trust." }
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What AWS feature ensures inference requests are securely encrypted in transit?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use HTTPS with TLS 1.2 enforced for all SageMaker endpoints." },
+      { "label": "B", "type": "text", "value": "Use HTTP for speed." },
+      { "label": "C", "type": "text", "value": "Encrypt model weights only." },
+      { "label": "D", "type": "text", "value": "Store logs unencrypted." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TLS encryption protects inference data in transit from interception and tampering." }
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You need to preprocess petabyte-scale logs for ML while maintaining schema evolution. Which AWS architecture handles this efficiently?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS Glue Data Catalog with ETL jobs writing Parquet to S3" },
+      { "label": "B", "type": "text", "value": "Lambda function reading files sequentially" },
+      { "label": "C", "type": "text", "value": "Redshift COPY command only" },
+      { "label": "D", "type": "text", "value": "Athena querying raw JSON files directly" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Glue ETL and Data Catalog handle schema inference and evolution efficiently, optimizing data for ML pipelines." }
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "In distributed model training, how can you avoid gradient staleness when scaling to hundreds of workers?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use synchronous all-reduce algorithms like Horovod’s ring-allreduce" },
+      { "label": "B", "type": "text", "value": "Use asynchronous SGD with no synchronization" },
+      { "label": "C", "type": "text", "value": "Disable learning rate decay" },
+      { "label": "D", "type": "text", "value": "Reduce batch size only" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "All-reduce ensures gradients are averaged across all nodes synchronously, preventing stale updates." }
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "When fine-tuning a pre-trained BERT model on SageMaker, which technique prevents catastrophic forgetting?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use gradual unfreezing and discriminative learning rates" },
+      { "label": "B", "type": "text", "value": "Retrain from scratch" },
+      { "label": "C", "type": "text", "value": "Freeze all layers permanently" },
+      { "label": "D", "type": "text", "value": "Use dropout rate of 0" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Gradually unfreezing layers and using lower learning rates for base layers preserves pre-trained knowledge." }
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You are training a reinforcement learning model using SageMaker RL. Which AWS feature helps parallelize simulation environments efficiently?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Amazon SageMaker Distributed Rollouts" },
+      { "label": "B", "type": "text", "value": "AWS Glue jobs" },
+      { "label": "C", "type": "text", "value": "S3 Batch Operations" },
+      { "label": "D", "type": "text", "value": "AWS Config Rules" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Distributed Rollouts allow scaling RL environments horizontally across EC2 instances for faster policy learning." }
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "You need to deploy an ensemble of models that depend on shared pre-processing logic. Which approach optimizes latency and maintainability?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use a single inference container with a routing layer for model selection" },
+      { "label": "B", "type": "text", "value": "Deploy each model on separate endpoints" },
+      { "label": "C", "type": "text", "value": "Trigger all models sequentially" },
+      { "label": "D", "type": "text", "value": "Use SageMaker Ground Truth for routing" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "A routing layer can multiplex inference requests to models efficiently while sharing preprocessing steps." }
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can SageMaker Pipelines integrate model governance into CI/CD workflows?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "By combining Model Registry approvals with conditional deployment steps" },
+      { "label": "B", "type": "text", "value": "By skipping approval stages" },
+      { "label": "C", "type": "text", "value": "By storing models directly in EC2 volumes" },
+      { "label": "D", "type": "text", "value": "By hardcoding endpoint names" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Integrating the Model Registry enforces version control and manual/automated approval gates before deployment." }
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which metric helps quantify prediction uncertainty for Bayesian neural networks?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Posterior Predictive Variance" },
+      { "label": "B", "type": "text", "value": "Mean Absolute Error" },
+      { "label": "C", "type": "text", "value": "F1 Score" },
+      { "label": "D", "type": "text", "value": "AUC" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Posterior predictive variance captures uncertainty in Bayesian networks’ output distributions." }
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you enforce encryption of data in transit for all ML pipeline stages?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use VPC endpoints, TLS, and KMS integration in all data paths" },
+      { "label": "B", "type": "text", "value": "Use public S3 buckets with encryption disabled" },
+      { "label": "C", "type": "text", "value": "Encrypt training data only" },
+      { "label": "D", "type": "text", "value": "Disable SSL verification" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "TLS and VPC endpoints ensure secure transit; KMS secures all in-transit encryption keys." }
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "When using distributed GPU training, how do you minimize synchronization overhead?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Overlap gradient communication with computation using async all-reduce" },
+      { "label": "B", "type": "text", "value": "Disable gradient accumulation" },
+      { "label": "C", "type": "text", "value": "Use larger learning rates" },
+      { "label": "D", "type": "text", "value": "Run one GPU at a time" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Overlapping communication with compute hides latency, improving distributed GPU utilization efficiency." }
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What technique helps explain feature contribution changes between two model versions?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "SHAP Difference Plots" },
+      { "label": "B", "type": "text", "value": "ROC Curves" },
+      { "label": "C", "type": "text", "value": "Precision-Recall Curves" },
+      { "label": "D", "type": "text", "value": "Calibration Curves" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "SHAP difference plots visualize how feature importance shifts across versions, aiding drift analysis." }
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Why use AWS Glue DynamicFrames over DataFrames for ML preprocessing?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "They handle schema inference and semi-structured data flexibly." },
+      { "label": "B", "type": "text", "value": "They are faster for all workloads." },
+      { "label": "C", "type": "text", "value": "They disable schema enforcement." },
+      { "label": "D", "type": "text", "value": "They require manual schema updates." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "DynamicFrames automatically adapt to changing schemas in semi-structured data, ideal for large ML pipelines." }
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "Model Deployment",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "In an MLOps pipeline, how can you rollback automatically when a deployed model underperforms?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use CloudWatch alarms to trigger CodePipeline rollback to previous model version." },
+      { "label": "B", "type": "text", "value": "Manually terminate endpoint." },
+      { "label": "C", "type": "text", "value": "Use Lambda to delete model files." },
+      { "label": "D", "type": "text", "value": "Disable endpoint scaling." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Automated rollback ensures resiliency by reverting to stable models when monitoring detects degradation." }
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which visualization technique is best for spotting multi-dimensional data drift?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "t-SNE or UMAP projection comparison between reference and live data" },
+      { "label": "B", "type": "text", "value": "Box plot of one feature" },
+      { "label": "C", "type": "text", "value": "Time-series of model loss only" },
+      { "label": "D", "type": "text", "value": "Histogram of target variable" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "t-SNE and UMAP help visualize non-linear separations and feature drift in high-dimensional spaces." }
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "What optimization technique mitigates catastrophic interference in continual learning?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Elastic Weight Consolidation (EWC)" },
+      { "label": "B", "type": "text", "value": "Momentum" },
+      { "label": "C", "type": "text", "value": "Gradient Clipping" },
+      { "label": "D", "type": "text", "value": "Dropout Regularization" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "EWC penalizes changes to weights crucial for old tasks, retaining prior knowledge during continual learning." }
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you prevent accidental exposure of model endpoints?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Deploy endpoints within VPCs and restrict public access." },
+      { "label": "B", "type": "text", "value": "Use open security groups." },
+      { "label": "C", "type": "text", "value": "Use public IPs for easy testing." },
+      { "label": "D", "type": "text", "value": "Disable IAM." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Hosting endpoints in private subnets ensures only authorized VPC traffic can reach them." }
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "Model Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Why might PSI thresholds differ between features?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Feature importance and volatility vary, requiring different sensitivity levels." },
+      { "label": "B", "type": "text", "value": "PSI must always be fixed at 0.1." },
+      { "label": "C", "type": "text", "value": "All features drift identically." },
+      { "label": "D", "type": "text", "value": "PSI ignores sample size." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Important or volatile features may need tighter PSI thresholds to trigger alerts faster." }
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "Model Development",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which technique ensures numerical stability in deep learning loss computation?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Log-sum-exp trick" },
+      { "label": "B", "type": "text", "value": "Gradient Accumulation" },
+      { "label": "C", "type": "text", "value": "Batch Normalization" },
+      { "label": "D", "type": "text", "value": "Dropout" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "The log-sum-exp trick prevents overflow/underflow in exponential loss functions like softmax." }
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "How can you validate model fairness continuously after deployment?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "Use SageMaker Clarify to compute bias metrics on live traffic samples periodically" },
+      { "label": "B", "type": "text", "value": "Retrain model without checking fairness" },
+      { "label": "C", "type": "text", "value": "Compare feature means only" },
+      { "label": "D", "type": "text", "value": "Rely on training accuracy" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Clarify can be scheduled to re-evaluate fairness metrics post-deployment using live inference logs." }
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "Data Preparation",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Why should missing values not always be imputed with mean or median in categorical-encoded features?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "It can create invalid category encodings and bias predictions." },
+      { "label": "B", "type": "text", "value": "It always improves accuracy." },
+      { "label": "C", "type": "text", "value": "It prevents model convergence." },
+      { "label": "D", "type": "text", "value": "It removes bias automatically." }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "Imputing encoded categories numerically may introduce unintended ordinal meaning or bias." }
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": [
+      { "type": "text", "value": "Which AWS feature ensures training data privacy when collaborating across accounts?" }
+    ],
+    "options": [
+      { "label": "A", "type": "text", "value": "AWS PrivateLink and resource-based access policies" },
+      { "label": "B", "type": "text", "value": "Public dataset sharing" },
+      { "label": "C", "type": "text", "value": "IAM group sharing via public links" },
+      { "label": "D", "type": "text", "value": "Disabling encryption" }
+    ],
+    "correct": "A",
+    "explanation": [
+      { "type": "text", "value": "PrivateLink and scoped access policies allow secure cross-account data sharing without exposing endpoints publicly." }
+    ]
+  }
+]
+
+
