@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+
+.figma-gradient-bg {
+  background: linear-gradient(110.48deg, #000048 2.49%, #000000 52.8%, #000000 87.7%, #000048 103.46%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.circuit-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #facc15, transparent 50%, #facc15);
+  background-size: 200% 100%;
+  animation: circuit-run 2s linear infinite;
+  z-index: 1;
+
+  /* Mask to show only the border */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  padding: 2px;
+  pointer-events: none;
+}
+
+@keyframes circuit-run {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+
+
+
+/* Wrapper */
+.logo-marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Track */
+.logo-track {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  /* RESPONSIVE SPACE BETWEEN LOGOS */
+  gap: clamp(15rem, 4vw, 8rem);
+
+  width: max-content;
+  animation: scrollLeft 20s linear infinite;
+}
+
+/* Responsive logo size */
+.logo {
+  /* auto-scales based on screen width */
+  width: clamp(140px, 15vw, 250px);
+  height: clamp(100px, 10vw, 180px);
+
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+
+.arrow-line {
+  position: relative;
+  height: 3px;
+  width: 540px;
+  background-color: #47198d; /* Tailwind purple-800 */
+}
+
+/* Arrow base style */
+.arrow-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: solid transparent;
+  border-width: 10px 0 10px 16px;
+}
+
+/* Arrow pointing to the right */
+.arrow-left::after {
+  right: -16px;
+  border-left-color: #47198d;
+}
+
+/* Arrow pointing to the left */
+.arrow-right::after {
+  left: -16px;
+  transform: translateY(-50%) rotate(180deg);
+  border-left-color: #47198d;
+}
+
+/* ✅ Mobile view: shrink arrow line and arrow head */
+@media (max-width: 768px) {
+  .arrow-line {
+    width: 120px; /* Smaller width on mobile */
+    height: 2px;
+  }
+
+  .arrow-line::after {
+    border-width: 6px 0 6px 10px; /* Smaller arrow head */
+  }
+
+  .arrow-left::after {
+    right: -10px; /* Adjust position of smaller arrow */
+  }
+
+  .arrow-right::after {
+    left: -10px;
+  }
+}
+
+
+
