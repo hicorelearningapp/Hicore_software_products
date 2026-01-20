@@ -1,0 +1,61 @@
+# FastAPI Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+
+# Auth
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+slowapi==0.1.9
+google-auth==2.26.2
+requests==2.31.0
+python-dotenv==1.0.0
+
+# PDF Processing
+PyPDF2==3.0.1
+pikepdf==8.10.1
+PyMuPDF==1.23.8
+reportlab==4.0.7
+pdf2docx==0.5.6
+pdf2image==1.16.3
+pandas==2.1.4
+pdfplumber==0.11.0
+
+# Document Conversion
+python-docx==1.1.0
+openpyxl==3.1.2
+Pillow==10.2.0
+python-pptx==0.6.23
+
+# Async Support
+aiofiles==23.2.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# --- REQUIRED for PDF password encryption ---
+pycryptodome==3.20.0
+
+# --- AI & ML Dependencies ---
+requests==2.31.0
+sentence-transformers==2.3.1
+faiss-cpu==1.7.4
+pytesseract==0.3.10
+langdetect==1.0.9
+deep-translator==1.11.4
+
+# --- SYSTEM DEPENDENCIES (not pip) ---
+# Poppler required for pdf2image:
+# Windows: https://github.com/oschwartz10612/poppler-windows
+# macOS:   brew install poppler
+# Linux:   apt-get install poppler-utils
+
+# LibreOffice (system install, not pip):
+# Windows: Install from official website; ensure soffice.exe exists
+# Linux:   sudo apt install -y libreoffice libreoffice-core libreoffice-writer libreoffice-impress python3-uno
+# macOS:   Install LibreOffice DMG
