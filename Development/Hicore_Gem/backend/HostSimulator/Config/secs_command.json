@@ -1,0 +1,176 @@
+{
+  "// ================= STREAM 1 =================": "",
+
+  "// Are You There Request": "",
+  "S1F1": "<L [0]\n>",
+
+  "// Selected Equipment Status Request (Control + Process + Temps)": "",
+  "S1F3": "<L [4]\n\t<U4 2001>\n\t<U4 2002>\n\t<U4 2003>\n\t<U4 2006>\n>",
+
+  "// Formatted Status Request": "",
+  "S1F5": "< >",
+
+  "// Status Variable Names Request": "",
+  "S1F11": "<L [5]\n\t<U2 2001>\n\t<U2 2002>\n\t<U2 2003>\n\t<U2 2004>\n\t<U2 2005>\n>",
+
+  "// Establish Communication Request": "",
+  "S1F13": "<L\n\t<A \"HOST_MES\">\n\t<A \"1.0\">\n>",
+
+  "// Request OFF-LINE": "",
+  "S1F15": "<L\n\t<L\n\t\t<U2 0>\n\t\t<U2 0>\n\t>\n>",
+
+  "// Request ON-LINE": "",
+  "S1F17": "< >",
+
+
+  "// ================= STREAM 2 =================": "",
+
+  "// Equipment Constant Request (read EC values)": "",
+  "S2F1": "<L [5]\n\t<U2 1001>\n\t<U2 1003>\n\t<U2 1006>\n\t<U2 1026>\n\t<U2 1030>\n>",
+
+  "// Equipment Constant Names Request": "",
+  "S2F3": "<L [3]\n\t<U2 1001>\n\t<U2 1003>\n\t<U2 1026>\n>",
+
+  "// Equipment Constant Value Request": "",
+  "S2F13": "<L [3]\n\t<U2 1007>\n\t<U2 1011>\n\t<U2 1027>\n>",
+
+  "// New Equipment Constant Send": "",
+  "S2F15": "<L [2]\n\t<L\n\t\t<U2 1003>\n\t\t<F4 90.0>\n\t>\n\t<L\n\t\t<U2 1007>\n\t\t<U1 85>\n\t>\n>",
+
+  "// Date and Time Request": "",
+  "S2F17": "<L [0]\n>",
+
+  "// Date and Time Set": "",
+  "S2F31": "<A \"20251228134500+0530\">",
+
+
+  "// ================= REMOTE COMMAND =================": "",
+
+  "// Remote Command Send - PUMP_DOWN": "",
+  "S2F41_PUMP_DOWN": "<L [2]\n\t<A \"PUMP_DOWN\">\n\t<L [0]>\n>",
+
+  "// Remote Command Send - CLEAN_CHAMBER": "",
+  "S2F41_CLEAN": "<L [2]\n\t<A \"CLEAN_CHAMBER\">\n\t<L [0]>\n>",
+
+  "S2F41": "<L [2]\n\t<A \"PPSELECT\">\n\t<L [1]\n\t\t<L [2]\n\t\t\t<A \"PPID\">\n\t\t\t<A \"ETCH_RECIPE_01\">\n\t\t>\n\t>\n>",
+
+  "S2F41_PPSTART": "<L [2]\n\t<A \"PPSTART\">\n\t<L [0]>\n>",
+
+  "S2F41_PPSTOP": "<L [2]\n\t<A \"PPSTOP\">\n\t<L [0]>\n>",
+
+  "S2F41_REMOTE": "<L [2]\n\t<A \"REMOTE\">\n\t<L [0]>\n>",
+
+  "S2F41_LOCAL": "<L [2]\n\t<A \"LOCAL\">\n\t<L [0]>\n>",
+
+  "S2F41_PAUSE": "<L [2]\n\t<A \"PAUSE\">\n\t<L [0]>\n>",
+
+  "S2F41_RESUME": "<L [2]\n\t<A \"RESUME\">\n\t<L [0]>\n>",
+
+  "S2F41_ABORT": "<L [2]\n\t<A \"ABORT\">\n\t<L [0]>\n>",
+
+  "S2F41_SPOOLING_ENABLE": "<L [2]\n\t<A \"SPOOLING\">\n\t<L [1]\n\t\t<L [2]\n\t\t\t<A \"ENABLE\">\n\t\t\t<B 1>\n\t\t>\n\t>\n>",
+
+  "S2F41_SPOOLING_ENABLE": "<L [2]\n\t<A \"SPOOLING\">\n\t<L [1]\n\t\t<L [2]\n\t\t\t<A \"ENABLE\">\n\t\t\t<B 1>\n\t\t>\n\t>\n>",
+
+
+
+  "// Remote Command List Request": "",
+  "S2F43": "<L [0]>",
+
+
+  "// ================= TRACE / EVENT =================": "",
+
+  "// Trace Initialize": "",
+  "S2F23": "<L [5]\n\t<U2 1>\n\t<A \"TRACE01\">\n\t<U2 60>\n\t<U2 1>\n\t<L [6]\n\t\t<U2 2001>\n\t\t<U2 2002>\n\t\t<U2 2003>\n\t\t<U2 2006>\n\t\t<U2 2018>\n\t\t<U2 2019>\n\t>\n>",
+
+  "// Define Report": "",
+  "S2F33": "<L [1]\n\t<L\n\t\t<U2 1>\n\t\t<L [4]\n\t\t\t<U2 3001>\n\t\t\t<U2 3002>\n\t\t\t<U2 3004>\n\t\t\t<U2 3007>\n\t\t>\n\t>\n>",
+
+  "// Link Event Report (Process End CEID = 200)": "",
+  "S2F35": "<L [1]\n\t<L\n\t\t<U2 200>\n\t\t<L [1]\n\t\t\t<U2 1>\n\t\t>\n\t>\n>",
+
+  "// Enable Event Reports": "",
+  "S2F37": "<L [2]\n\t<BOOLEAN TRUE>\n\t<L [0]>\n>",
+
+
+  "// ================= STREAM 3 =================": "",
+
+  "// Material Status Inquiry (Lot)": "",
+  "S3F1": "<L\n\t<A \"LOT-2025-001\">\n>",
+
+  "// Lot Location Request": "",
+  "S3F3": "<L\n\t<A \"LOT-2025-001\">\n>",
+
+  "// Carrier Inquiry": "",
+  "S3F5": "<A \"PORT1\">",
+
+
+  "// ================= STREAM 4 =================": "",
+
+  "// Binary Data Transfer": "",
+  "S4F1": "<L [2]\n\t<U2 1001>\n\t<B [4] 0x01 0x02 0x03 0x04>\n>",
+
+
+  "// ================= STREAM 5 =================": "",
+
+  "// Alarm Enable / Disable": "",
+  "S5F3": "<L [2]\n\t<B 0x80>\n\t<U2 0>\n>",
+
+  "// List Alarm Request": "",
+  "S5F5": "<L [5]\n\t<U2 1001>\n\t<U2 1002>\n\t<U2 1003>\n\t<U2 1004>\n\t<U2 1015>\n>",
+
+
+  "// ================= STREAM 6 =================": "",
+  "S6F1": "<L [4]\n\t<U4 1>\n\t<U4 1000>\n\t<U4 0>\n\t<L [3]\n\t\t<U4 2001>\n\t\t<U4 2002>\n\t\t<U4 2003>\n\t>\n>",
+
+  "S6F1_10SAMPLES": "<L [4]\n\t<U4 3>\n\t<U4 1000>\n\t<U4 10>\n\t<L [2]\n\t\t<U4 2001>\n\t\t<U4 2002>\n\t>\n>",
+
+  "S6F3": "<L [1]\n\t<U4 1>\n>",
+
+  "S6F5": "<L [1]\n\t<U4 1>\n>",
+
+  "// Request Event Report Data": "",
+  "S6F15": "<U2 200>",
+
+  "// Request Individual Report": "",
+  "S6F19": "<U2 1>",
+
+  "// Request Spooled Data": "",
+  "S6F23": "<U2 1>",
+
+
+  "// ================= STREAM 7 =================": "",
+
+  "// Process Program Send": "",
+  "S7F1": "<L [0]\n>",
+
+
+  "// Process Program Upload Request": "",
+  "S7F3": "<L [2]\n\t<A \"NITRIDE_ETCH_200\">\n\t<A \"# Recipe: NITRIDE_ETCH_12\\n# Process: Nitride Etch\\n\\nSTEP=ETCH\\nRF_POWER=550\\nPRESSURE=220\\nGAS=SF6\\nGAS_FLOW=100\\nTIME=60\\n\\nEND\">\n>",
+
+  "// Process Program DownLoad": "",
+
+  "S7F5": "<L\n\t<A \"NITRIDE_ETCH_02\">\n>",
+
+  "// Process Program Delete": "",
+  "S7F17": "<L\n\t<A \"RCP002\">\n>",
+
+  "// Process Program List Request": "",
+  "S7F19": "< >",
+
+
+
+  "// ================= STREAM 10 =================": "",
+
+  "// Terminal Message (acknowledged)": "",
+  "S10F1": "<L\n\t<A \"PLEASE CHECK CHAMBER 1\">\n>",
+
+  "// Terminal Display (no ack)": "",
+  "S10F3": "<L [2]\n\t<U2 1>\n\t<A \"PROCESS STARTED\">\n>",
+
+
+  "// ================= STREAM 12 =================": "",
+
+  "// Cassette Map Request": "",
+  "S12F1": "<U1 1>"
+}

@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="HostSimulator.View.RemoteCommandView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HostSimulator.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <!-- ======= Group 1 – Equipment Control ======= -->
+                <GroupBox Header="Equipment Control" Margin="0 0 0 10">
+                    <ItemsControl ItemsSource="{Binding EquipmentCommands}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}"
+                                    Margin="5"
+                                    Height="32"
+                                    Command="{Binding DataContext.RunCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </GroupBox>
+
+                <!-- ======= Group 2 – Recipe Control ======= -->
+                <GroupBox Grid.Column="1" Header="Recipe Control" Margin="0 0 0 10">
+                    <ItemsControl ItemsSource="{Binding RecipeCommands}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}"
+                                    Margin="5"
+                                    Height="32"
+                                    Command="{Binding DataContext.RunCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </GroupBox>
+
+                <!-- ======= Group 3 – Material Handling ======= -->
+                <GroupBox Grid.Row="1" Header="Material Handling" Margin="0 0 0 10">
+                    <ItemsControl ItemsSource="{Binding MaterialCommands}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}"
+                                    Margin="5"
+                                    Height="32"
+                                    Command="{Binding DataContext.RunCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </GroupBox>
+
+                <!-- ======= Group 4 – Maintenance ======= -->
+                <GroupBox Grid.Column="1" Grid.Row="1" Header="Maintenance Commands">
+                    <ItemsControl ItemsSource="{Binding MaintenanceCommands}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}"
+                                    Margin="5"
+                                    Height="32"
+                                    Command="{Binding DataContext.RunCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </GroupBox>
+
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

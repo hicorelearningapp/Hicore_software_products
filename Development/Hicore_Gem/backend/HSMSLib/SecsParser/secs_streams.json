@@ -1,0 +1,170 @@
+[
+  {
+    "StreamId": 1,
+    "Description": "Status",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Are You There",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "S1F1",
+            "DataType": "L",
+            "Children": [
+              { "Name": "MDLN", "DataType": "A", "Value": "ABC-3000" },
+              { "Name": "SOFTREV", "DataType": "A", "Value": "3.10" }
+            ]
+          }
+        ]
+      },
+      {
+        "FunctionId": 2,
+        "Name": "On Line Data",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "COMMACK",
+            "DataType": "B",
+            "Value": "00"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 2,
+    "Description": "Control",
+    "Functions": [
+      {
+        "FunctionId": 17,
+        "Name": "Request On-Line",
+        "IsPrimary": true,
+        "Parameters": [
+          { "Name": "ONLACK", "DataType": "B", "Value": "01" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 3,
+    "Description": "Material",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Carrier ID Read",
+        "IsPrimary": true,
+        "Parameters": [
+          { "Name": "CARRIERID", "DataType": "A", "Value": "LOT12345" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 4,
+    "Description": "Process Status",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Process State",
+        "IsPrimary": true,
+        "Parameters": [
+          { "Name": "STATE", "DataType": "U1", "Value": 5 }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 5,
+    "Description": "Alarms",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Enable/Disable Alarms",
+        "IsPrimary": true,
+        "Parameters": [
+          { "Name": "ALID", "DataType": "U2", "Value": 101 }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 6,
+    "Description": "Events",
+    "Functions": [
+      {
+        "FunctionId": 11,
+        "Name": "Event Report",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "EVENT",
+            "DataType": "L",
+            "Children": [
+              { "Name": "CEID", "DataType": "U2", "Value": 2001 },
+              {
+                "Name": "RPT",
+                "DataType": "L",
+                "Children": [
+                  { "Name": "Temperature", "DataType": "F4", "Value": 25.5 },
+                  { "Name": "Pressure", "DataType": "U2", "Value": 740 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": 7,
+    "Description": "Recipe Management",
+    "Functions": [
+      {
+        "FunctionId": 2,
+        "Name": "Recipe Upload",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "PPBODY",
+            "DataType": "L",
+            "Children": [
+              { "Name": "RecipeName", "DataType": "A", "Value": "ETCH100" },
+              {
+                "Name": "Body",
+                "DataType": "L",
+                "Children": [
+                  { "Name": "StepTime", "DataType": "U2", "Value": 60 },
+                  { "Name": "Power", "DataType": "U2", "Value": 300 },
+                  {
+                    "Name": "GasList",
+                    "DataType": "L",
+                    "Children": [
+                      { "Name": "O2", "DataType": "U2", "Value": 50 },
+                      { "Name": "CF4", "DataType": "U2", "Value": 120 }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  { "StreamId": 8, "Description": "Tool Management", "Functions": [] },
+  { "StreamId": 9, "Description": "Diagnostics", "Functions": [] },
+  { "StreamId": 10, "Description": "Terminal Messages", "Functions": [] },
+  { "StreamId": 11, "Description": "Data Collection", "Functions": [] },
+  { "StreamId": 12, "Description": "Equipment Constants", "Functions": [] },
+  { "StreamId": 13, "Description": "Files", "Functions": [] },
+  { "StreamId": 14, "Description": "Process Programs", "Functions": [] },
+  { "StreamId": 15, "Description": "Material Movement", "Functions": [] }
+]

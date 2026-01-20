@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="EquipmentSimulator.View.HsmsConnectionBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EquipmentSimulator.View"
+             mc:Ignorable="d" 
+              d:DesignHeight="80" d:DesignWidth="800">
+
+    <Border Background="#020617"
+            Padding="8"
+            BorderThickness="0,0,0,1"
+            BorderBrush="#1E293B">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Product / Tool -->
+            <StackPanel>
+                <TextBlock Text="HiCore GEM"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Foreground="White"/>
+                <TextBlock Text="Equipment Simulator"
+                           FontSize="16"
+                           Foreground="#CBD5E1"/>
+            </StackPanel>
+
+            <!-- HSMS -->
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="HSMS State"
+                           FontSize="15"
+                           Foreground="White"/>
+                <TextBlock Text="{Binding HsmsConnectionsState}"
+                           FontWeight="Bold"
+                           Foreground="White"
+                         
+                           />
+            </StackPanel>
+
+            <!-- GEM -->
+            <StackPanel Grid.Column="3">
+                <TextBlock Text="GEM Comm"
+                           FontSize="15"
+                           Foreground="White"/>
+                <TextBlock Text="{Binding GemState}"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           />
+            </StackPanel>
+
+            <!-- CONTROL / PROCESS -->
+            <StackPanel Grid.Column="4">
+                <TextBlock Text="GEM CONTROL / PROCESS"
+                           FontSize="15"
+                           Foreground="White"/>
+                <TextBlock Foreground="White">
+                    <Run Text="{Binding ControlState}" />
+                    <Run Text=" / " />
+                    <Run Text="{Binding ProcessState}" />
+                </TextBlock>
+            </StackPanel>
+
+            <Button Content="{Binding OnlineStatus}" Grid.Column="5" Width="100" Command="{Binding ChangeRemoteCommand }" Margin="5" />
+
+            <!-- ALARMS -->
+            <StackPanel Grid.Column="6">
+                <TextBlock Text="ALARMS"
+                           FontSize="15"
+                           Foreground="White"/>
+                <TextBlock Text="{Binding ActiveAlarmCount}"
+                           FontWeight="Bold"
+                           Foreground="Red"/>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+    
+</UserControl>

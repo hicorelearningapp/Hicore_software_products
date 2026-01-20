@@ -1,0 +1,1 @@
+https://www.figma.com/proto/5Fst3O17Ivy9LaPzOuqCa2/HiCore-Website?node-id=54-1257&starting-point-node-id=54%3A1257

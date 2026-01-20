@@ -1,0 +1,72 @@
+﻿<Application x:Class="HostSimulator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HostSimulator" 
+             xmlns:View="clr-namespace:HostSimulator.View" 
+             xmlns:ViewModel="clr-namespace:HostSimulator.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <DataTemplate DataType="{x:Type ViewModel:AlarmViewModel}">
+            <View:AlarmView/>
+        </DataTemplate>
+
+
+        <DataTemplate DataType="{x:Type ViewModel:EquipmentConstantStatusViewModel}">
+            <View:ECIDConstantView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:EventsReportViewModel}">
+            <View:EventsReportView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:HomeViewModel}">
+            <View:HomeView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:HsmsConnectionBarViewModel}">
+            <View:HsmsConnectionBarView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:MessageViewModel}">
+            <View:MessageView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:NavigationMenuViewModel}">
+            <View:NavigationMenuView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:RecipeViewModel}">
+            <View:RecipeView/>
+        </DataTemplate>
+
+
+        <DataTemplate DataType="{x:Type ViewModel:RemoteCommandViewModel}">
+            <View:RemoteCommandView/>
+        </DataTemplate>
+
+
+        <DataTemplate DataType="{x:Type ViewModel:ScriptEngineViewModel}">
+            <View:ScriptEngineView/>
+        </DataTemplate>
+
+
+        <DataTemplate DataType="{x:Type ViewModel:SettingViewModel}">
+            <View:SettingView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:SmlRunnerViewModel}">
+            <View:SmlRunnerView/>
+        </DataTemplate>
+               
+        <DataTemplate DataType="{x:Type ViewModel:StatusVariableStatusViewModel}">
+            <View:StatusVariableStatusView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModel:FooterViewModel}">
+            <View:FooterView/>
+        </DataTemplate>
+        
+
+    </Application.Resources>
+</Application>

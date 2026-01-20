@@ -1,0 +1,101 @@
+﻿<Window x:Class="HostSimulator.View.HsmsSettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HostSimulator.View"
+        mc:Ignorable="d"
+        Title="HSMS Settings"  Width="270" Height="280"
+        WindowStartupLocation="CenterScreen" Background="#FAFAFA" >
+    <Grid Margin="5">
+
+        <!-- 3 columns: Label / Input / Units -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="60"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- IP -->
+            <RowDefinition Height="Auto"/>
+            <!-- Port -->
+            <RowDefinition Height="20"/>
+            <!-- spacer -->
+            <RowDefinition Height="Auto"/>
+            <!-- T3 -->
+            <RowDefinition Height="Auto"/>
+            <!-- T5 -->
+            <RowDefinition Height="Auto"/>
+            <!-- T6 -->
+            <RowDefinition Height="Auto"/>
+            <!-- T7 -->
+            <!-- spacer -->
+            <RowDefinition Height="Auto"/>
+            <!-- buttons -->
+        </Grid.RowDefinitions>
+
+        <!-- ========== IP Address ========== -->
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="IP Address:"
+                   VerticalAlignment="Center" />
+        <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+                 Margin="5"
+                 Text="{Binding IpAddress, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <!-- ========== Port ========== -->
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Port:"
+                   VerticalAlignment="Center" />
+        <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
+                  Margin="5"
+                 Text="{Binding Port, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <!-- Spacer row -->
+
+        <!-- ========== Timeout Settings ========== -->
+
+        <!-- T3 -->
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="T3 Timeout:" VerticalAlignment="Center"/>
+        <TextBox  Grid.Row="3" Grid.Column="1" Margin="5"
+                  Text="{Binding T3Timeout, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="Seconds"  Margin="5"  VerticalAlignment="Center"/>
+
+        <!-- T5 -->
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="T5 Timeout:"  VerticalAlignment="Center"/>
+        <TextBox  Grid.Row="4" Grid.Column="1"  Margin="5"
+                  Text="{Binding T5Timeout, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="4" Grid.Column="2" Text="Seconds" Margin="5"  VerticalAlignment="Center"/>
+
+        <!-- T6 -->
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="T6 Timeout:" VerticalAlignment="Center"/>
+        <TextBox  Grid.Row="5" Grid.Column="1"  Margin="5"
+                  Text="{Binding T6Timeout, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="5" Grid.Column="2" Text="Seconds" Margin="5"  VerticalAlignment="Center"/>
+
+        <!-- T7 -->
+        <TextBlock Grid.Row="6" Grid.Column="0" Text="T7 Timeout:" VerticalAlignment="Center"/>
+        <TextBox  Grid.Row="6" Grid.Column="1"  Margin="5"
+                  Text="{Binding T7Timeout, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="6" Grid.Column="2" Text="Seconds" Margin="5"  VerticalAlignment="Center"/>
+
+        <!-- ========== Buttons ========== -->
+
+        <StackPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0 10 0 0">
+
+            <Button Content="Save" Width="90" Margin="0 0 10 0"
+                    Padding="6,3"
+                    Command="{Binding SaveCommand}" />
+
+            <Button Content="Cancel" Width="90" Padding="6,3"
+                    Command="{Binding CancelCommand}" />
+
+        </StackPanel>
+
+    </Grid>
+</Window>

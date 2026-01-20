@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="HostSimulator.View.SmlRunnerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HostSimulator.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT : SCRIPT LIST + ACTIONS -->
+        <StackPanel>
+            <GroupBox Header="SML Scripts">
+                <ListBox ItemsSource="{Binding SmlFiles}"
+                         SelectedItem="{Binding SelectedSmlFile}"
+                         DisplayMemberPath="FileName"
+                         Height="300"/>
+            </GroupBox>
+
+            <Button Content="New Script"
+                    Margin="0,10,0,0"
+                    Command="{Binding NewScriptCommand}"/>
+
+            <Button Content="Refresh"
+                    Margin="0,5,0,0"
+                    Command="{Binding RefreshCommand}"/>
+        </StackPanel>
+
+        <!-- RIGHT : EDITOR -->
+        <Grid Grid.Column="1" Margin="10,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- FILE INFO -->
+            <TextBlock Text="{Binding CurrentFileTitle}"
+                       FontWeight="Bold"
+                       Margin="0,0,0,5"/>
+
+            <!-- EDITOR -->
+            <TextBox Grid.Row="1"
+                     Text="{Binding ScriptText, UpdateSourceTrigger=PropertyChanged}"
+                     FontFamily="Consolas"
+                     FontSize="13"
+                     AcceptsReturn="True"
+                     AcceptsTab="True"
+                     VerticalScrollBarVisibility="Auto"
+                     HorizontalScrollBarVisibility="Auto"/>
+
+            <!-- ACTION BUTTONS -->
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Margin="0,10,0,0">
+
+                <Button Content="Save"
+                        Width="80"
+                        Margin="0,0,10,0"
+                        Command="{Binding SaveCommand}"
+                        IsEnabled="{Binding CanSave}"/>
+
+                <Button Content="Save As"
+                        Width="80"
+                        Margin="0,0,10,0"
+                        Command="{Binding SaveAsCommand}"/>
+
+                <Button Content="Send Script"
+                        Width="120"
+                        Command="{Binding SendScriptCommand}"
+                        IsEnabled="{Binding CanSend}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

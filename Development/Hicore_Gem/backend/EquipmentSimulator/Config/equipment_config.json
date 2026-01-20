@@ -1,0 +1,762 @@
+{
+  "EquipmentId": "EQP-5000",
+  "ModelName": "ETCH-PRO-X100",
+  "SoftwareRevision": "EXP 2.0",
+
+  "ControlState": "Offline",
+  "ProcessState": "IDLE",
+
+  "CpuUsage": 12.5,
+  "MemoryUsage": 35.2,
+
+  "Temperatures": {
+    "Chamber1": 65.0,
+    "Chamber2": 67.5,
+    "Robot": 45.2
+  },
+
+  "Variables": {
+    "V001": 123,
+    "V002": "READY",
+    "V003": 45.8,
+    "TEMP_CH1": 65,
+    "TEMP_CH2": 67
+  },
+
+
+  "EquipmentConstants": [
+    {
+      "ECID": 1001,
+      "Name": "MaxProcessTimeSec",
+      "DataType": "U4",
+      "DefaultValue": 1800,
+      "Min": 0,
+      "Max": 7200,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1002,
+      "Name": "MinProcessTimeSec",
+      "DataType": "U4",
+      "DefaultValue": 10,
+      "Min": 0,
+      "Max": 600,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1003,
+      "Name": "ChamberMaxTempC",
+      "DataType": "F4",
+      "DefaultValue": 85.0,
+      "Min": 20,
+      "Max": 120,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1004,
+      "Name": "ChamberMinTempC",
+      "DataType": "F4",
+      "DefaultValue": 25.0,
+      "Min": 10,
+      "Max": 60,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1005,
+      "Name": "VacuumPressureMaxTorr",
+      "DataType": "F4",
+      "DefaultValue": 1.20,
+      "Min": 0.1,
+      "Max": 10.0,
+      "Writable": true,
+      "Persistent": true
+    },
+
+    {
+      "ECID": 1006,
+      "Name": "VacuumPumpEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1007,
+      "Name": "RobotSpeedPercent",
+      "DataType": "U1",
+      "DefaultValue": 80,
+      "Min": 10,
+      "Max": 100,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1008,
+      "Name": "DoorInterlockEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1009,
+      "Name": "AutoRecipeStartEnable",
+      "DataType": "U1",
+      "DefaultValue": 0,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1010,
+      "Name": "AlarmBuzzerEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+
+    {
+      "ECID": 1011,
+      "Name": "GasFlowMaxSccm",
+      "DataType": "U2",
+      "DefaultValue": 500,
+      "Min": 50,
+      "Max": 2000,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1012,
+      "Name": "RFPowerMaxWatt",
+      "DataType": "U2",
+      "DefaultValue": 800,
+      "Min": 100,
+      "Max": 2000,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1013,
+      "Name": "RFPowerMinWatt",
+      "DataType": "U2",
+      "DefaultValue": 50,
+      "Min": 10,
+      "Max": 500,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1014,
+      "Name": "CoolingWaterMaxTempC",
+      "DataType": "F4",
+      "DefaultValue": 35.0,
+      "Min": 10,
+      "Max": 60,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1015,
+      "Name": "CoolingWaterFlowLpm",
+      "DataType": "F4",
+      "DefaultValue": 3.5,
+      "Min": 1.0,
+      "Max": 10.0,
+      "Writable": true,
+      "Persistent": true
+    },
+
+    {
+      "ECID": 1016,
+      "Name": "AutoCleanEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1017,
+      "Name": "AutoCleanIntervalRuns",
+      "DataType": "U2",
+      "DefaultValue": 50,
+      "Min": 1,
+      "Max": 500,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1018,
+      "Name": "MaxIdleTimeMin",
+      "DataType": "U2",
+      "DefaultValue": 120,
+      "Min": 0,
+      "Max": 1440,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1019,
+      "Name": "SystemLanguage",
+      "DataType": "A",
+      "DefaultValue": "EN",
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1020,
+      "Name": "TimeZoneOffsetMin",
+      "DataType": "I2",
+      "DefaultValue": 330,
+      "Min": -720,
+      "Max": 840,
+      "Writable": true,
+      "Persistent": true
+    },
+
+    {
+      "ECID": 1021,
+      "Name": "LotMaxWaferCount",
+      "DataType": "U2",
+      "DefaultValue": 25,
+      "Min": 1,
+      "Max": 50,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1022,
+      "Name": "CassetteSlotCount",
+      "DataType": "U1",
+      "DefaultValue": 25,
+      "Min": 1,
+      "Max": 50,
+      "Writable": false,
+      "Persistent": true
+    },
+    {
+      "ECID": 1023,
+      "Name": "EquipmentMode",
+      "DataType": "A",
+      "DefaultValue": "PRODUCTION",
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1024,
+      "Name": "MaintenanceReminderHr",
+      "DataType": "U4",
+      "DefaultValue": 1000,
+      "Min": 0,
+      "Max": 10000,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1025,
+      "Name": "DataLoggingEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+
+    {
+      "ECID": 1026,
+      "Name": "RemoteCommandEnable",
+      "DataType": "U1",
+      "DefaultValue": 1,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1027,
+      "Name": "HostTimeoutSec",
+      "DataType": "U2",
+      "DefaultValue": 30,
+      "Min": 5,
+      "Max": 300,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1028,
+      "Name": "LocalUiTimeoutMin",
+      "DataType": "U2",
+      "DefaultValue": 15,
+      "Min": 1,
+      "Max": 120,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1029,
+      "Name": "RecipeChangeLock",
+      "DataType": "U1",
+      "DefaultValue": 0,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    },
+    {
+      "ECID": 1030,
+      "Name": "SimulationModeEnable",
+      "DataType": "U1",
+      "DefaultValue": 0,
+      "Min": 0,
+      "Max": 1,
+      "Writable": true,
+      "Persistent": true
+    }
+  ],
+
+  "StatusVariables": [
+    {
+      "SVID": 2001,
+      "Name": "ControlState",
+      "DataType": "A",
+      "Value": "REMOTE",
+      "Description": "Equipment control state"
+    },
+    {
+      "SVID": 2002,
+      "Name": "ProcessState",
+      "DataType": "A",
+      "Value": "IDLE",
+      "Description": "Equipment process state"
+    },
+    {
+      "SVID": 2003,
+      "Name": "Chamber1Temperature",
+      "DataType": "F4",
+      "Unit": "C",
+      "Value": 65.0,
+      "Description": "Process chamber 1 temperature"
+    },
+    {
+      "SVID": 2004,
+      "Name": "Chamber2Temperature",
+      "DataType": "F4",
+      "Unit": "C",
+      "Value": 67.5,
+      "Description": "Process chamber 2 temperature"
+    },
+    {
+      "SVID": 2005,
+      "Name": "RobotTemperature",
+      "DataType": "F4",
+      "Unit": "C",
+      "Value": 45.2,
+      "Description": "Robot arm temperature"
+    },
+    {
+      "SVID": 2006,
+      "Name": "VacuumPressure",
+      "DataType": "F4",
+      "Unit": "Torr",
+      "Value": 1.05,
+      "Description": "Current chamber vacuum pressure"
+    },
+    {
+      "SVID": 2007,
+      "Name": "RFPowerActual",
+      "DataType": "U2",
+      "Unit": "W",
+      "Value": 750,
+      "Description": "Actual RF power output"
+    },
+    {
+      "SVID": 2008,
+      "Name": "GasFlowActual",
+      "DataType": "U2",
+      "Unit": "sccm",
+      "Value": 480,
+      "Description": "Actual process gas flow"
+    },
+    {
+      "SVID": 2009,
+      "Name": "CoolingWaterTemperature",
+      "DataType": "F4",
+      "Unit": "C",
+      "Value": 32.5,
+      "Description": "Cooling water temperature"
+    },
+    {
+      "SVID": 2010,
+      "Name": "CoolingWaterFlow",
+      "DataType": "F4",
+      "Unit": "LPM",
+      "Value": 3.2,
+      "Description": "Cooling water flow rate"
+    },
+    {
+      "SVID": 2011,
+      "Name": "DoorClosed",
+      "DataType": "Boolean",
+      "Value": true,
+      "Description": "Equipment door closed status"
+    },
+    {
+      "SVID": 2012,
+      "Name": "VacuumPumpRunning",
+      "DataType": "Boolean",
+      "Value": true,
+      "Description": "Vacuum pump running status"
+    },
+    {
+      "SVID": 2013,
+      "Name": "RobotHomed",
+      "DataType": "Boolean",
+      "Value": true,
+      "Description": "Robot homing status"
+    },
+    {
+      "SVID": 2014,
+      "Name": "CurrentRecipe",
+      "DataType": "A",
+      "Value": "RCP001",
+      "Description": "Currently active recipe name"
+    },
+    {
+      "SVID": 2015,
+      "Name": "CurrentLotId",
+      "DataType": "A",
+      "Value": "LOT-2025-001",
+      "Description": "Current lot identifier"
+    },
+    {
+      "SVID": 2016,
+      "Name": "ProcessedWaferCount",
+      "DataType": "U2",
+      "Value": 0,
+      "Description": "Number of wafers processed in current lot"
+    },
+    {
+      "SVID": 2017,
+      "Name": "IdleTimeMinutes",
+      "DataType": "U2",
+      "Unit": "min",
+      "Value": 12,
+      "Description": "Equipment idle time"
+    },
+    {
+      "SVID": 2018,
+      "Name": "SystemCpuUsage",
+      "DataType": "F4",
+      "Unit": "%",
+      "Value": 14.8,
+      "Description": "Controller CPU usage"
+    },
+    {
+      "SVID": 2019,
+      "Name": "SystemMemoryUsage",
+      "DataType": "F4",
+      "Unit": "%",
+      "Value": 38.6,
+      "Description": "Controller memory usage"
+    },
+    {
+      "SVID": 2020,
+      "Name": "AlarmActive",
+      "DataType": "Boolean",
+      "Value": false,
+      "Description": "Indicates whether any alarm is active"
+    }
+  ],
+
+  "DataVariables": [
+    {
+      "DVID": 3001,
+      "Name": "CompletedRecipe",
+      "DataType": "A",
+      "Description": "Recipe completed at process end"
+    },
+    {
+      "DVID": 3002,
+      "Name": "CompletedLotId",
+      "DataType": "A",
+      "Description": "Lot ID at process completion"
+    },
+    {
+      "DVID": 3003,
+      "Name": "ProcessedWaferCount",
+      "DataType": "U2",
+      "Description": "Total wafers processed during event"
+    },
+    {
+      "DVID": 3004,
+      "Name": "ProcessEndStatus",
+      "DataType": "A",
+      "Description": "PASS or FAIL status"
+    },
+    {
+      "DVID": 3005,
+      "Name": "ProcessStartTime",
+      "DataType": "A",
+      "Description": "Process start timestamp"
+    },
+    {
+      "DVID": 3006,
+      "Name": "ProcessEndTime",
+      "DataType": "A",
+      "Description": "Process end timestamp"
+    },
+    {
+      "DVID": 3007,
+      "Name": "ProcessDurationSec",
+      "DataType": "U4",
+      "Description": "Total process duration in seconds"
+    },
+    {
+      "DVID": 3008,
+      "Name": "AbortReason",
+      "DataType": "A",
+      "Description": "Reason for process abort"
+    },
+    {
+      "DVID": 3009,
+      "Name": "RecipeVersion",
+      "DataType": "A",
+      "Description": "Recipe version identifier"
+    },
+    {
+      "DVID": 3010,
+      "Name": "OperatorId",
+      "DataType": "A",
+      "Description": "Operator who initiated the process"
+    },
+
+    {
+      "DVID": 3011,
+      "Name": "CarrierId",
+      "DataType": "A",
+      "Description": "Carrier identifier"
+    },
+    {
+      "DVID": 3012,
+      "Name": "SlotStart",
+      "DataType": "U1",
+      "Description": "Starting slot number"
+    },
+    {
+      "DVID": 3013,
+      "Name": "SlotEnd",
+      "DataType": "U1",
+      "Description": "Ending slot number"
+    },
+    {
+      "DVID": 3014,
+      "Name": "TotalSlotsProcessed",
+      "DataType": "U1",
+      "Description": "Total slots processed"
+    },
+    {
+      "DVID": 3015,
+      "Name": "ChamberUsed",
+      "DataType": "A",
+      "Description": "Chamber used for processing"
+    },
+
+    {
+      "DVID": 3016,
+      "Name": "AvgChamberTemp",
+      "DataType": "F4",
+      "Description": "Average chamber temperature during process"
+    },
+    {
+      "DVID": 3017,
+      "Name": "MaxChamberTemp",
+      "DataType": "F4",
+      "Description": "Maximum chamber temperature during process"
+    },
+    {
+      "DVID": 3018,
+      "Name": "MinChamberTemp",
+      "DataType": "F4",
+      "Description": "Minimum chamber temperature during process"
+    },
+    {
+      "DVID": 3019,
+      "Name": "AvgVacuumPressure",
+      "DataType": "F4",
+      "Description": "Average vacuum pressure during process"
+    },
+    {
+      "DVID": 3020,
+      "Name": "RFPowerAvg",
+      "DataType": "U2",
+      "Description": "Average RF power"
+    },
+
+    {
+      "DVID": 3021,
+      "Name": "GasFlowAvg",
+      "DataType": "U2",
+      "Description": "Average gas flow"
+    },
+    {
+      "DVID": 3022,
+      "Name": "CoolingWaterTempAvg",
+      "DataType": "F4",
+      "Description": "Average cooling water temperature"
+    },
+    {
+      "DVID": 3023,
+      "Name": "AlarmCountDuringProcess",
+      "DataType": "U2",
+      "Description": "Number of alarms occurred during process"
+    },
+    {
+      "DVID": 3024,
+      "Name": "LastAlarmId",
+      "DataType": "U2",
+      "Description": "Last alarm ID triggered"
+    },
+    {
+      "DVID": 3025,
+      "Name": "AbortStepName",
+      "DataType": "A",
+      "Description": "Recipe step at which process aborted"
+    },
+
+    {
+      "DVID": 3026,
+      "Name": "SystemCpuUsageAvg",
+      "DataType": "F4",
+      "Description": "Average CPU usage during process"
+    },
+    {
+      "DVID": 3027,
+      "Name": "SystemMemoryUsageAvg",
+      "DataType": "F4",
+      "Description": "Average memory usage during process"
+    },
+    {
+      "DVID": 3028,
+      "Name": "MaintenanceDueFlag",
+      "DataType": "Boolean",
+      "Description": "Indicates maintenance was due at process end"
+    },
+    {
+      "DVID": 3029,
+      "Name": "ProcessResultCode",
+      "DataType": "I2",
+      "Description": "Numeric result code"
+    },
+    {
+      "DVID": 3030,
+      "Name": "EventSequenceNumber",
+      "DataType": "U4",
+      "Description": "Sequential event number"
+    }
+  ],
+
+  "Alarms": [
+    {
+      "AlarmId": 1001,
+      "Description": "Chamber Overheat"
+    },
+    {
+      "AlarmId": 1002,
+      "Description": "Robot Not Homed"
+    },
+    {
+      "AlarmId": 1003,
+      "Description": "Vacuum Pressure Too High"
+    },
+    {
+      "AlarmId": 1004,
+      "Description": "Vacuum Pump Failure"
+    },
+    {
+      "AlarmId": 1005,
+      "Description": "Gas Flow Out of Range"
+    },
+    {
+      "AlarmId": 1006,
+      "Description": "RF Power Fault"
+    },
+    {
+      "AlarmId": 1007,
+      "Description": "Cooling Water Temperature High"
+    },
+    {
+      "AlarmId": 1008,
+      "Description": "Cooling Water Flow Low"
+    },
+    {
+      "AlarmId": 1009,
+      "Description": "Door Interlock Open"
+    },
+    {
+      "AlarmId": 1010,
+      "Description": "Emergency Stop Activated"
+    },
+    {
+      "AlarmId": 1011,
+      "Description": "Recipe Data Invalid"
+    },
+    {
+      "AlarmId": 1012,
+      "Description": "Cassette Not Present"
+    },
+    {
+      "AlarmId": 1013,
+      "Description": "Wafer Transfer Error"
+    },
+    {
+      "AlarmId": 1014,
+      "Description": "System Communication Timeout"
+    },
+    {
+      "AlarmId": 1015,
+      "Description": "Maintenance Due"
+    }
+  ],
+
+    "Recipes": [
+    {
+      "Id": "RCP001",
+      "BodyBase64": "UkVDSVBFIERBVEEgU0FNUExF"
+    },
+    {
+      "Id": "RCP002",
+      "BodyBase64": "U0VDT05EIFJFQ0lQRSBEQVRB"
+    }
+  ],
+
+  "SupportedEvents": [ 100, 101, 200, 201 ],
+
+  "SupportedCommands": [
+    "INITIALIZE",
+    "RESET",
+    "PUMP_DOWN",
+    "VENT",
+    "CLEAN_CHAMBER"
+  ],
+
+  "CarrierSlotMap": {
+    "1": "W001",
+    "2": "W002",
+    "3": "",
+    "4": ""
+  }
+}

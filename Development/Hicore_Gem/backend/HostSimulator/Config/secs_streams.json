@@ -1,0 +1,350 @@
+[
+  {
+    "StreamId": "S1",
+    "Description": "Equipment Status",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Are You There", "IsPrimary": true,
+        "Parameters":[ { "Name":"S1F1", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 2, "Name": "Are You There (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"S1F2", "DataType":"L", "Children":[] } ] },
+
+      { "FunctionId": 3, "Name": "Selected Equipment Status", "IsPrimary": true,
+        "Parameters":[ { "Name":"SECS_STATUS_REQUEST", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 4, "Name": "Selected Equipment Status (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"SECS_STATUS_REPLY", "DataType":"L", "Children":[] } ] },
+
+      { "FunctionId": 11, "Name": "Event Report Enable/Disable", "IsPrimary": true,
+        "Parameters":[ { "Name":"CEIDLIST", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 12, "Name": "Event Report Enable/Disable (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"HCACK", "DataType":"B", "Value":"00" } ] },
+
+      { "FunctionId": 13, "Name": "Equipment Constants (ID Request)", "IsPrimary": true,
+        "Parameters":[ { "Name":"REQ", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 14, "Name": "Equipment Constants (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"EC_LIST", "DataType":"L", "Children":[] } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S2",
+    "Description": "Host Command / Control",
+    "Functions": [
+      { "FunctionId": 13, "Name": "Host Command (Request)", "IsPrimary": true,
+        "Parameters":[ { "Name":"CMD", "DataType":"A", "Value":"" } ] },
+      { "FunctionId": 14, "Name": "Host Command (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"HCACK", "DataType":"B", "Value":"00" } ] },
+
+      { "FunctionId": 17, "Name": "Request On-Line", "IsPrimary": true,
+        "Parameters":[ { "Name":"ONLREQ", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 18, "Name": "Request On-Line (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"ONLACK", "DataType":"B", "Value":"01" } ] },
+
+      { "FunctionId": 31, "Name": "Remote Command", "IsPrimary": true,
+        "Parameters":[ { "Name":"RCCMD", "DataType":"A", "Value":"" } ] },
+      { "FunctionId": 32, "Name": "Remote Command (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"RCACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S3",
+    "Description": "Material / Carrier Handling",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Carrier ID Read", "IsPrimary": true,
+        "Parameters":[ { "Name":"CARRIERID", "DataType":"A", "Value":"LOT12345" } ] },
+      { "FunctionId": 2, "Name": "Carrier ID Read (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"CARRIERID_REPLY", "DataType":"A", "Value":"LOT12345" } ] },
+
+      { "FunctionId": 11, "Name": "Load/Unload", "IsPrimary": true,
+        "Parameters":[ { "Name":"LOADLIST", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 12, "Name": "Load/Unload (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"LULIST_REPLY", "DataType":"L", "Children":[] } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S4",
+    "Description": "Process / Operation Status",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Process State", "IsPrimary": true,
+        "Parameters":[ { "Name":"STATE", "DataType":"U1", "Value":0 } ] },
+      { "FunctionId": 2, "Name": "Process State (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"STATE_REPLY", "DataType":"U1", "Value":0 } ] },
+
+      { "FunctionId": 11, "Name": "Process Data Report", "IsPrimary": true,
+        "Parameters":[ { "Name":"PDR", "DataType":"L", "Children":[ { "Name":"PARAM", "DataType":"A" } ] } ] },
+      { "FunctionId": 12, "Name": "Process Data Report (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"PDR_ACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S5",
+    "Description": "Alarms",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Alarm Report", "IsPrimary": true,
+        "Parameters":[ { "Name":"ALARM", "DataType":"L", "Children":[ { "Name":"ALID", "DataType":"U2" }, { "Name":"ALARMTEXT", "DataType":"A" } ] } ] },
+      { "FunctionId": 2, "Name": "Alarm Report (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"ALARM_ACK", "DataType":"B", "Value":"00" } ] },
+
+      { "FunctionId": 3, "Name": "Enable/Disable Alarms", "IsPrimary": true,
+        "Parameters":[ { "Name":"ALIDLIST", "DataType":"L", "Children":[] } ] },
+      { "FunctionId": 4, "Name": "Enable/Disable Alarms (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"ALARM_ENABLE_ACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S6",
+    "Description": "Event Reports / Data Collection",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Define Report", "IsPrimary": true,
+        "Parameters":[ { "Name":"RPTID", "DataType":"U2" }, { "Name":"ITEMLIST", "DataType":"L" } ] },
+      { "FunctionId": 2, "Name": "Define Report (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"RPTDEF_ACK", "DataType":"B", "Value":"00" } ] },
+
+      { "FunctionId": 11, "Name": "Event Report", "IsPrimary": true,
+        "Parameters":[ { "Name":"CEID", "DataType":"U2", "Value":2001 }, { "Name":"RPT", "DataType":"L", "Children":[ { "Name":"TEMP", "DataType":"F4" } ] } ] },
+      { "FunctionId": 12, "Name": "Event Report (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"ER_ACK", "DataType":"B", "Value":"00" } ] },
+
+      { "FunctionId": 15, "Name": "Start/Stop Spooling", "IsPrimary": true,
+        "Parameters":[ { "Name":"SPOOL", "DataType":"L" } ] },
+      { "FunctionId": 16, "Name": "Start/Stop Spooling (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"SPOOL_ACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S7",
+    "Description": "Recipe Management / Process Program",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Request Recipe", "IsPrimary": true,
+        "Parameters":[ { "Name":"RECIPEID", "DataType":"A", "Value":"RECIPE1" } ] },
+      { "FunctionId": 2, "Name": "Recipe Upload (Host→Equip)", "IsPrimary": true,
+        "Parameters":[ { "Name":"PPBODY", "DataType":"L", "Children":[ { "Name":"RecipeName", "DataType":"A" } ] } ] },
+      { "FunctionId": 3, "Name": "Recipe Download (Equip→Host)", "IsPrimary": false,
+        "Parameters":[ { "Name":"PPBODY", "DataType":"L", "Children":[ { "Name":"RecipeName", "DataType":"A" } ] } ] },
+
+      { "FunctionId": 5, "Name": "Delete Recipe", "IsPrimary": true,
+        "Parameters":[ { "Name":"RECIPEID", "DataType":"A" } ] },
+      { "FunctionId": 6, "Name": "Delete Recipe (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"DEL_ACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S8",
+    "Description": "Tool Management / Equipment Specific",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Tool Status Request", "IsPrimary": true,
+        "Parameters":[ { "Name":"TOOLREQ", "DataType":"L" } ] },
+      { "FunctionId": 2, "Name": "Tool Status Reply", "IsPrimary": false,
+        "Parameters":[ { "Name":"TOOLREP", "DataType":"L" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S9",
+    "Description": "Diagnostics",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Diagnostic Request", "IsPrimary": true,
+        "Parameters":[ { "Name":"DIAGREQ", "DataType":"L" } ] },
+      { "FunctionId": 2, "Name": "Diagnostic Reply", "IsPrimary": false,
+        "Parameters":[ { "Name":"DIAGREP", "DataType":"L" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S10",
+    "Description": "Terminal Messages",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Host Terminal Send", "IsPrimary": true,
+        "Parameters":[ { "Name":"TEXT", "DataType":"A", "Value":"Message from host" } ] },
+      { "FunctionId": 2, "Name": "Equipment Terminal Send (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"TEXT", "DataType":"A", "Value":"Reply from equipment" } ] },
+
+      { "FunctionId": 3, "Name": "Terminal Message", "IsPrimary": true,
+        "Parameters":[ { "Name":"TEXT", "DataType":"A" } ] },
+      { "FunctionId": 4, "Name": "Terminal Message (Reply)", "IsPrimary": false,
+        "Parameters":[ { "Name":"TERM_ACK", "DataType":"B", "Value":"00" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S11",
+    "Description": "Data Collection (Result Reports)",
+    "Functions": [
+      { "FunctionId": 1, "Name": "Result Data Request", "IsPrimary": true,
+        "Parameters":[ { "Name":"DATA_REQUEST", "DataType":"L" } ] },
+      { "FunctionId": 2, "Name": "Result Data Reply", "IsPrimary": false,
+        "Parameters":[ { "Name":"DATA", "DataType":"L" } ] }
+    ]
+  },
+
+  {
+    "StreamId": "S12",
+    "Description": "Equipment Constants / Configuration",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Read EC List",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "ECIDLIST",
+            "DataType": "L"
+          }
+        ]
+      },
+      {
+        "FunctionId": 2,
+        "Name": "Read EC List (Reply)",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "ECLIST",
+            "DataType": "L"
+          }
+        ]
+      },
+
+      {
+        "FunctionId": 3,
+        "Name": "Write EC",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "EC_WRITE",
+            "DataType": "L"
+          }
+        ]
+      },
+      {
+        "FunctionId": 4,
+        "Name": "Write EC (Reply)",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "EC_WRITE_ACK",
+            "DataType": "B",
+            "Value": "00"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": "S13",
+    "Description": "Files",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "File Upload Request",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "FILENAME",
+            "DataType": "A"
+          }
+        ]
+      },
+      {
+        "FunctionId": 2,
+        "Name": "File Upload Reply",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "FILE_ACK",
+            "DataType": "B",
+            "Value": "00"
+          }
+        ]
+      },
+
+      {
+        "FunctionId": 11,
+        "Name": "File Download Request",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "FILENAME",
+            "DataType": "A"
+          }
+        ]
+      },
+      {
+        "FunctionId": 12,
+        "Name": "File Download Reply",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "FILE_DATA",
+            "DataType": "B"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": "S14",
+    "Description": "Process Programs",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "PP Select",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "PPID",
+            "DataType": "A"
+          }
+        ]
+      },
+      {
+        "FunctionId": 2,
+        "Name": "PP Select (Reply)",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "PP_ACK",
+            "DataType": "B",
+            "Value": "00"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "StreamId": "S15",
+    "Description": "Material Movement / Transport",
+    "Functions": [
+      {
+        "FunctionId": 1,
+        "Name": "Transfer Request",
+        "IsPrimary": true,
+        "Parameters": [
+          {
+            "Name": "TRID",
+            "DataType": "A"
+          }
+        ]
+      },
+      {
+        "FunctionId": 2,
+        "Name": "Transfer Reply",
+        "IsPrimary": false,
+        "Parameters": [
+          {
+            "Name": "TR_ACK",
+            "DataType": "B",
+            "Value": "00"
+          }
+        ]
+      }
+    ]
+  }
+]

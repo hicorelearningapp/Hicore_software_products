@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="HostSimulator.View.SeparateSecsMessage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HostSimulator.View"
+             mc:Ignorable="d"
+             >
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Stream:" VerticalAlignment="Center" Grid.Column="0" FontWeight="Bold"/>
+            <ComboBox Grid.Column="1" Margin="4"
+                  ItemsSource="{Binding Streams}"
+                  DisplayMemberPath="StreamId"
+                  SelectedItem="{Binding SelectedStream}" />
+            <!-- FUNCTION Combo -->
+            <TextBlock Text="Function:" Grid.Column="2" VerticalAlignment="Center" Margin="4" FontWeight="Bold"/>
+            <ComboBox Grid.Column="3" Margin="4"
+                  ItemsSource="{Binding SelectedStream.Functions}"
+                  DisplayMemberPath="FunctionId"
+                  SelectedItem="{Binding SelectedFunction}" />
+
+            <Border Grid.Row="2" Grid.ColumnSpan="4"  BorderThickness="1" BorderBrush="Black">
+                <ItemsControl ItemsSource="{Binding SelectedFunction.Parameters}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+
+                        <StackPanel Orientation="Horizontal" Margin="4">
+                            <TextBlock Text="{Binding Name}" Width="50"/>
+                            <TextBlock Text="{Binding DataType}" Width="50"/>
+
+                            <TextBox Width="100"  Text="{Binding Value}"  />
+                        </StackPanel>
+
+
+
+                    </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Border>
+            <Button Grid.Row="3" Grid.ColumnSpan="4" Margin="8" >Send</Button>
+
+        </Grid>
+ </UserControl>

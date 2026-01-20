@@ -1,0 +1,1 @@
+https://www.figma.com/proto/FpLTs4RvU1OanJMPrkdnQs/HiCore-Career-Platform?node-id=55-590&starting-point-node-id=55%3A590

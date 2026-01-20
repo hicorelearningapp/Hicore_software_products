@@ -1,0 +1,165 @@
+﻿<UserControl x:Class="EquipmentSimulator.View.TerminalMessageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EquipmentSimulator.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- ================= HEADER ================= -->
+        <Border Grid.Row="0"
+                Padding="10"
+                CornerRadius="6"
+                Background="#1F2937">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Equipment Terminal Message Console"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="White"/>
+
+                    <TextBlock Text="Control: Online-Remote   |   HSMS: Connected   |   GEM: Enabled"
+                               FontSize="12"
+                               Foreground="#D1D5DB"/>
+                </StackPanel>
+
+                <TextBlock Grid.Column="1"
+                           VerticalAlignment="Center"
+                           Foreground="#A7F3D0"
+                           FontWeight="Bold"
+                           Text="EQUIPMENT SIDE"/>
+            </Grid>
+        </Border>
+
+        <!-- ================= BODY ================= -->
+        <Grid Grid.Row="1" Margin="0,10,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- ===== RECEIVED FROM HOST (S10F1) ===== -->
+            <GroupBox Header="Received from Host (S10F1)"
+                      Grid.Column="0"
+                      Margin="0,0,8,0">
+                <Grid Margin="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                        <TextBlock Text="Time:" FontWeight="SemiBold"/>
+                        <TextBlock Text="{Binding HostMessageTime}"
+                                   Margin="6,0,0,0"/>
+                    </StackPanel>
+
+                    <ListBox Grid.Row="1" ItemsSource="{Binding HostMessageText}"
+                        Background="White"
+                        Foreground="Lime"
+                        FontFamily="Consolas"
+                        FontSize="14"
+                        BorderThickness="1"
+                        BorderBrush="Gray" />
+
+
+
+                    <Button Content="Clear" Grid.Row="2" 
+                                Width="90"
+                                Margin="0,0,6,0"
+                                Command="{Binding ClearHostMessageCommand}"/>
+                       
+
+                </Grid>
+            </GroupBox>
+
+            <!-- ===== SEND TO HOST (S10F3) ===== -->
+            <GroupBox Header="Send Message to Host (S10F3)"
+                      Grid.Column="1"
+                      Margin="8,0,0,0">
+                <Grid Margin="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Severity -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                        <TextBlock Text="Severity:" FontWeight="SemiBold"/>
+                        <RadioButton Content="Info"
+                                     Margin="8,0,0,0"
+                                     IsChecked="{Binding IsInfo}"/>
+                        <RadioButton Content="Warning"
+                                     Margin="8,0,0,0"
+                                     IsChecked="{Binding IsWarning}"/>
+                        <RadioButton Content="Error"
+                                     Margin="8,0,0,0"
+                                     IsChecked="{Binding IsError}"/>
+                    </StackPanel>
+
+                    <!-- Message -->
+                    <TextBox Grid.Row="1"
+                             Text="{Binding EquipmentMessageText}"
+                             AcceptsReturn="True"
+                             TextWrapping="Wrap"
+                             VerticalScrollBarVisibility="Auto"/>
+
+                    <!-- Actions -->
+                    <StackPanel Grid.Row="2"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Margin="0,8,0,0">
+                        <Button Content="Send to Host"
+                                Width="120"
+                                Margin="0,0,6,0"
+                                Command="{Binding SendToHostCommand}"/>
+                        <Button Content="Clear"
+                                Width="80"
+                                Command="{Binding ClearEquipmentMessageCommand}"/>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+        <!-- ================= HISTORY ================= -->
+        <GroupBox Grid.Row="2"
+                  Header="Terminal Message History">
+            <DataGrid ItemsSource="{Binding MessageHistory}"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      Height="220">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Time"
+                                        Binding="{Binding Time}"
+                                        Width="150"/>
+                    <DataGridTextColumn Header="Direction"
+                                        Binding="{Binding Direction}"
+                                        Width="100"/>
+                    <DataGridTextColumn Header="SECS"
+                                        Binding="{Binding SecsFunction}"
+                                        Width="100"/>
+                    <DataGridTextColumn Header="Message"
+                                        Binding="{Binding Message}"
+                                        Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+    </Grid>
+</UserControl>
