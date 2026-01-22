@@ -1,0 +1,4576 @@
+{
+  "Mathematics": [
+    {
+      "chapterName": "Number Systems",
+      "class": "Class 9",
+      "id": 1,
+      "title": "Unit 1: Number Systems",
+      "topics": [
+        {
+          "name": "Real Numbers",
+          "notes": [
+            {
+              "title": "Introduction to Real Numbers",
+              "points": [
+                "Real numbers include all rational and irrational numbers",
+                "Number line represents all real numbers",
+                "Every point on the number line corresponds to a unique real number"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Absolute Value",
+              "formula": "|a| = a if a ≥ 0, -a if a < 0",
+              "explanation": "The absolute value represents the distance of a number from zero on the number line"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Temperature Scales",
+              "concept": "Absolute Value in Temperature",
+              "description": "Understanding negative temperatures in weather forecasting using absolute values"
+            }
+          ]
+        },
+        {
+          "name": "Rational and Irrational Numbers",
+          "notes": [
+            {
+              "title": "Understanding Rational Numbers",
+              "points": [
+                "Numbers that can be expressed as p/q where p and q are integers and q ≠ 0",
+                "Examples: 1/2, -3/4, 5/1, 0.75 (which is 3/4)",
+                "Terminating and recurring decimals are rational"
+              ]
+            },
+            {
+              "title": "Understanding Irrational Numbers",
+              "points": [
+                "Numbers that cannot be expressed as simple fractions",
+                "Non-terminating, non-recurring decimals",
+                "Examples: √2, π, e"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Pythagorean Theorem",
+              "formula": "a² + b² = c²",
+              "explanation": "In a right-angled triangle, the square of the hypotenuse equals the sum of squares of other two sides"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Construction and Architecture",
+              "concept": "Irrational Numbers in Construction",
+              "description": "Using √2 in diagonal measurements of square rooms or buildings"
+            }
+          ]
+        },
+        {
+          "name": "Decimal Representation of Real Numbers",
+          "notes": [
+            {
+              "title": "Types of Decimal Expansions",
+              "points": [
+                "Terminating decimals: Have finite number of digits after decimal",
+                "Non-terminating repeating: Have infinite repeating digits after decimal",
+                "Non-terminating non-repeating: Have infinite non-repeating digits"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Converting Recurring Decimal to Fraction",
+              "formula": "x = 0.abcabc... then 1000x = abc.abcabc...",
+              "explanation": "Subtract the first equation from the second to eliminate the repeating part"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Financial Calculations",
+              "concept": "Interest Rates",
+              "description": "Understanding recurring decimals in interest rate calculations"
+            }
+          ]
+        },
+        {
+          "name": "Laws of Exponents",
+          "notes": [
+            {
+              "title": "Fundamental Laws",
+              "points": [
+                "aᵐ × aⁿ = aᵐ⁺ⁿ (Product Law)",
+                "aᵐ ÷ aⁿ = aᵐ⁻ⁿ (Quotient Law)",
+                "(aᵐ)ⁿ = aᵐⁿ (Power of a Power)",
+                "(ab)ᵐ = aᵐ × bᵐ (Power of a Product)",
+                "a⁰ = 1 (Zero Exponent)",
+                "a⁻ᵐ = 1/aᵐ (Negative Exponent)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Exponent Rules",
+              "formula": "(a/b)⁻ⁿ = (b/a)ⁿ",
+              "explanation": "Negative exponents in fractions can be simplified by inverting the fraction"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Scientific Notation",
+              "concept": "Very Large and Small Numbers",
+              "description": "Using exponents to represent distances between planets or sizes of atoms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Algebra",
+      "class": "Class 9",
+      "id": 2,
+      "title": "Unit 2: Algebra",
+      "topics": [
+        {
+          "name": "Algebraic Expressions",
+          "notes": [
+            {
+              "title": "Introduction to Algebraic Expressions",
+              "points": [
+                "Combination of variables and constants using operations (+, -, ×, ÷)",
+                "Terms: Parts of expression separated by + or - signs",
+                "Coefficient: Numerical factor of a term",
+                "Like and Unlike terms: Terms with same variables and powers"
+              ]
+            },
+            {
+              "title": "Types of Expressions",
+              "points": [
+                "Monomial: Expression with one term (e.g., 3x)",
+                "Binomial: Expression with two unlike terms (e.g., 2x + 3y)",
+                "Trinomial: Expression with three unlike terms (e.g., x² + 2x + 1)",
+                "Polynomial: Expression with one or more terms"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Addition of Algebraic Expressions",
+              "formula": "(a + b) + c = a + (b + c)",
+              "explanation": "Associative property of addition for algebraic expressions"
+            },
+            {
+              "title": "Subtraction of Algebraic Expressions",
+              "formula": "a - (b + c) = (a - b) - c",
+              "explanation": "Distributive property of subtraction over addition"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Shopping Budget",
+              "concept": "Cost Calculation",
+              "description": "Calculating total cost when buying multiple items with different prices and quantities"
+            }
+          ]
+        },
+        {
+          "name": "Polynomials",
+          "notes": [
+            {
+              "title": "Introduction to Polynomials",
+              "points": [
+                "Expression with variables and coefficients using operations (+, -, ×)",
+                "Degree: Highest power of the variable",
+                "Standard form: Terms written in descending order of their degrees",
+                "Zero polynomial: All coefficients are zero"
+              ]
+            },
+            {
+              "title": "Types of Polynomials",
+              "points": [
+                "Linear polynomial: Degree 1 (e.g., 2x + 3)",
+                "Quadratic polynomial: Degree 2 (e.g., x² - 5x + 6)",
+                "Cubic polynomial: Degree 3 (e.g., 2x³ - x² + 4x - 1)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Remainder Theorem",
+              "formula": "If p(x) is divided by (x - a), remainder is p(a)",
+              "explanation": "Helps find remainder without actual division"
+            },
+            {
+              "title": "Factor Theorem",
+              "formula": "(x - a) is a factor of p(x) if p(a) = 0",
+              "explanation": "Determines if (x - a) is a factor of given polynomial"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Projectile Motion",
+              "concept": "Path of a Ball",
+              "description": "Quadratic polynomials model the trajectory of a thrown ball"
+            }
+          ]
+        },
+        {
+          "name": "Factorisation",
+          "notes": [
+            {
+              "title": "Methods of Factorisation",
+              "points": [
+                "Common factor method: ab + ac = a(b + c)",
+                "Grouping method: ax + bx + ay + by = (a + b)(x + y)",
+                "Using identities: a² - b² = (a + b)(a - b)",
+                "Middle term splitting: x² + (a + b)x + ab = (x + a)(x + b)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Difference of Squares",
+              "formula": "a² - b² = (a + b)(a - b)",
+              "explanation": "Factorizing difference of two perfect squares"
+            },
+            {
+              "title": "Perfect Square Trinomial",
+              "formula": "a² + 2ab + b² = (a + b)²",
+              "explanation": "Factorizing perfect square trinomials"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Area Calculations",
+              "concept": "Garden Design",
+              "description": "Factoring helps in determining dimensions from area measurements"
+            }
+          ]
+        },
+        {
+          "name": "Algebraic Identities",
+          "notes": [
+            {
+              "title": "Standard Algebraic Identities",
+              "points": [
+                "(a + b)² = a² + 2ab + b²",
+                "(a - b)² = a² - 2ab + b²",
+                "(a + b)(a - b) = a² - b²",
+                "(x + a)(x + b) = x² + (a + b)x + ab"
+              ]
+            },
+            {
+              "title": "Applications",
+              "points": [
+                "Simplifying complex expressions",
+                "Quick calculations using identities",
+                "Verification of algebraic expressions"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Cube of a Binomial",
+              "formula": "(a + b)³ = a³ + b³ + 3ab(a + b)",
+              "explanation": "Expansion of cube of sum of two terms"
+            },
+            {
+              "title": "Sum and Difference of Cubes",
+              "formula": "a³ + b³ = (a + b)(a² - ab + b²)",
+              "explanation": "Factorizing sum of two cubes"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Volume Calculations",
+              "concept": "Container Design",
+              "description": "Using cubic identities to calculate volumes of containers with given dimensions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Coordinate Geometry",
+      "class": "Class 9",
+      "id": 3,
+      "title": "Unit 3: Coordinate Geometry",
+      "topics": [
+        {
+          "name": "Cartesian Plane",
+          "notes": [
+            {
+              "title": "Introduction to Cartesian Plane",
+              "points": [
+                "Developed by René Descartes",
+                "Formed by two perpendicular number lines intersecting at origin (0,0)",
+                "X-axis: Horizontal number line (abscissa)",
+                "Y-axis: Vertical number line (ordinate)",
+                "Quadrants: Four regions formed by axes (I, II, III, IV)"
+              ]
+            },
+            {
+              "title": "Key Concepts",
+              "points": [
+                "Origin: Intersection point (0,0)",
+                "Axes divide plane into four quadrants",
+                "Positive and negative directions on both axes",
+                "Scale: Uniform distance between numbers on axes"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Distance from Axes",
+              "formula": "For point (x,y):\n- Distance from Y-axis = |x|\n- Distance from X-axis = |y|",
+              "explanation": "Absolute value of coordinates gives distance from respective axes"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "City Planning",
+              "concept": "Map Grid System",
+              "description": "Using Cartesian coordinates to locate places on city maps and navigation systems"
+            }
+          ]
+        },
+        {
+          "name": "Coordinates of a Point",
+          "notes": [
+            {
+              "title": "Understanding Coordinates",
+              "points": [
+                "Ordered pair (x,y) represents a point's position",
+                "x-coordinate (abscissa): Distance from Y-axis",
+                "y-coordinate (ordinate): Distance from X-axis",
+                "Signs in different quadrants: (+,+), (-,+), (-,-), (+,-)"
+              ]
+            },
+            {
+              "title": "Special Points",
+              "points": [
+                "Origin: (0,0)",
+                "X-axis points: (x,0)",
+                "Y-axis points: (0,y)",
+                "Points on line x = a: (a,y)",
+                "Points on line y = b: (x,b)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Midpoint Formula",
+              "formula": "For points A(x₁,y₁) and B(x₂,y₂):\nMidpoint M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+              "explanation": "Finds the exact middle point between two given points"
+            },
+            {
+              "title": "Section Formula (Internal Division)",
+              "formula": "Point dividing A(x₁,y₁) and B(x₂,y₂) in ratio m:n is\n((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))",
+              "explanation": "Finds coordinates of a point dividing line segment internally in given ratio"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Location Services",
+              "concept": "GPS Coordinates",
+              "description": "Using latitude and longitude (similar to x,y coordinates) to pinpoint locations on Earth"
+            }
+          ]
+        },
+        {
+          "name": "Plotting of Points",
+          "notes": [
+            {
+              "title": "Steps to Plot Points",
+              "points": [
+                "Start at origin (0,0)",
+                "Move right if x is positive, left if negative",
+                "From that position, move up if y is positive, down if negative",
+                "Mark the point at final position"
+              ]
+            },
+            {
+              "title": "Verification of Points",
+              "points": [
+                "Check if point lies on X-axis: y-coordinate must be 0",
+                "Check if point lies on Y-axis: x-coordinate must be 0",
+                "Check if point lies in a particular quadrant based on signs of (x,y)",
+                "Verify distance from both axes"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Distance Between Two Points",
+              "formula": "For points A(x₁,y₁) and B(x₂,y₂):\nDistance AB = √[(x₂ - x₁)² + (y₂ - y₁)²]",
+              "explanation": "Pythagorean theorem applied to coordinate geometry"
+            },
+            {
+              "title": "Area of Triangle",
+              "formula": "For vertices A(x₁,y₁), B(x₂,y₂), C(x₃,y₃):\nArea = ½ |x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)|",
+              "explanation": "Shoelace formula for area using coordinates"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Architecture Design",
+              "concept": "Floor Planning",
+              "description": "Using coordinate geometry to plot room dimensions and furniture placement in architectural designs"
+            },
+            {
+              "title": "Game Development",
+              "concept": "2D Game Coordinates",
+              "description": "Positioning game elements and characters using coordinate system"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Geometry",
+      "class": "Class 9",
+      "id": 4,
+      "title": "Unit 4: Geometry",
+      "topics": [
+        {
+          "name": "Lines and Angles",
+          "notes": [
+            {
+              "title": "Basic Terms and Definitions",
+              "points": [
+                "Point: A location with no size or dimension",
+                "Line: A straight one-dimensional figure extending infinitely in both directions",
+                "Line Segment: Part of a line with two endpoints",
+                "Ray: Part of a line with one endpoint extending infinitely in one direction"
+              ]
+            },
+            {
+              "title": "Types of Angles",
+              "points": [
+                "Acute Angle: Less than 90°",
+                "Right Angle: Exactly 90°",
+                "Obtuse Angle: Between 90° and 180°",
+                "Straight Angle: Exactly 180°",
+                "Reflex Angle: Between 180° and 360°"
+              ]
+            },
+            {
+              "title": "Pairs of Angles",
+              "points": [
+                "Complementary Angles: Sum is 90°",
+                "Supplementary Angles: Sum is 180°",
+                "Adjacent Angles: Share a common vertex and side",
+                "Linear Pair: Adjacent angles forming a straight line (sum 180°)",
+                "Vertically Opposite Angles: Equal angles formed by intersecting lines"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Angle Sum Property of a Line",
+              "formula": "Sum of angles on a straight line = 180°",
+              "explanation": "When two or more angles form a linear pair, their sum is 180 degrees"
+            },
+            {
+              "title": "Vertically Opposite Angles",
+              "formula": "∠AOC = ∠BOD and ∠AOD = ∠BOC",
+              "explanation": "When two lines intersect, the vertically opposite angles are equal"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Architecture",
+              "concept": "Building Design",
+              "description": "Using different angles in roof designs and structural support systems"
+            },
+            {
+              "title": "Sports",
+              "concept": "Billiards",
+              "description": "Understanding angles for bank shots and rebounds in billiards"
+            }
+          ]
+        },
+        {
+          "name": "Triangles",
+          "notes": [
+            {
+              "title": "Types of Triangles by Sides",
+              "points": [
+                "Scalene: All sides of different lengths",
+                "Isosceles: Two sides equal in length",
+                "Equilateral: All three sides equal (each angle 60°)"
+              ]
+            },
+            {
+              "title": "Types of Triangles by Angles",
+              "points": [
+                "Acute-angled: All angles less than 90°",
+                "Right-angled: One angle exactly 90°",
+                "Obtuse-angled: One angle greater than 90°"
+              ]
+            },
+            {
+              "title": "Important Points",
+              "points": [
+                "Sum of interior angles = 180°",
+                "Exterior angle = Sum of opposite interior angles",
+                "Triangle Inequality Theorem: Sum of any two sides > third side"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Angle Sum Property",
+              "formula": "∠A + ∠B + ∠C = 180°",
+              "explanation": "The sum of all interior angles of a triangle is always 180 degrees"
+            },
+            {
+              "title": "Exterior Angle Property",
+              "formula": "Exterior angle = Sum of opposite interior angles\n∠ACD = ∠A + ∠B",
+              "explanation": "An exterior angle of a triangle is equal to the sum of the two opposite interior angles"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Construction",
+              "concept": "Roof Trusses",
+              "description": "Using triangular structures in roof trusses for strength and stability"
+            },
+            {
+              "title": "Navigation",
+              "concept": "Triangulation",
+              "description": "Using triangles to determine distances and locations in navigation"
+            }
+          ]
+        },
+        {
+          "name": "Congruence of Triangles",
+          "notes": [
+            {
+              "title": "Congruent Figures",
+              "points": [
+                "Identical in shape and size",
+                "Corresponding parts are equal",
+                "Symbol: ≅"
+              ]
+            },
+            {
+              "title": "Criteria for Triangle Congruence",
+              "points": [
+                "SSS (Side-Side-Side): All three sides equal",
+                "SAS (Side-Angle-Side): Two sides and included angle equal",
+                "ASA (Angle-Side-Angle): Two angles and included side equal",
+                "AAS (Angle-Angle-Side): Two angles and non-included side equal",
+                "RHS (Right angle-Hypotenuse-Side): Right triangles with hypotenuse and one side equal"
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Engineering",
+              "concept": "Structural Design",
+              "description": "Ensuring identical components in structures through congruent parts"
+            },
+            {
+              "title": "Manufacturing",
+              "concept": "Quality Control",
+              "description": "Using congruence to ensure identical parts in mass production"
+            }
+          ]
+        },
+        {
+          "name": "Properties of Triangles",
+          "notes": [
+            {
+              "title": "Inequalities in a Triangle",
+              "points": [
+                "Angle opposite to longer side is larger",
+                "Side opposite to larger angle is longer",
+                "Sum of any two sides > third side"
+              ]
+            },
+            {
+              "title": "Special Lines in a Triangle",
+              "points": [
+                "Median: Line from vertex to midpoint of opposite side",
+                "Altitude: Perpendicular from vertex to opposite side",
+                "Angle Bisector: Line that divides angle into two equal parts",
+                "Perpendicular Bisector: Perpendicular line passing through midpoint of a side"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Pythagoras Theorem",
+              "formula": "In right ΔABC, right-angled at B:\nAC² = AB² + BC²",
+              "explanation": "In a right-angled triangle, the square of the hypotenuse equals the sum of squares of the other two sides"
+            },
+            {
+              "title": "Heron's Formula",
+              "formula": "Area = √[s(s-a)(s-b)(s-c)]\nwhere s = (a+b+c)/2 (semi-perimeter)",
+              "explanation": "Formula to find area of a triangle when all three sides are known"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Surveying",
+              "concept": "Land Measurement",
+              "description": "Using triangle properties to measure large areas of land"
+            },
+            {
+              "title": "Art and Design",
+              "concept": "Perspective Drawing",
+              "description": "Applying triangle properties in creating perspective and proportion in art"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Mensuration",
+      "class": "Class 9",
+      "id": 5,
+      "title": "Unit 5: Mensuration",
+      "topics": [
+        {
+          "name": "Area of Plane Figures",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Area is the space occupied by a two-dimensional shape",
+                "Measured in square units (cm², m², etc.)",
+                "Different shapes have different area formulas"
+              ]
+            },
+            {
+              "title": "Area Formulas",
+              "points": [
+                "Rectangle: Length × Breadth",
+                "Square: Side × Side or Side²",
+                "Triangle: ½ × Base × Height",
+                "Parallelogram: Base × Height",
+                "Circle: πr² (where r is radius)",
+                "Trapezium: ½ × (Sum of parallel sides) × Height"
+              ]
+            },
+            {
+              "title": "Area of Combined Figures",
+              "points": [
+                "Divide complex shapes into simpler ones",
+                "Calculate area of each part separately",
+                "Add or subtract areas as needed"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Area of a Triangle (Heron's Formula)",
+              "formula": "Area = √[s(s-a)(s-b)(s-c)]\nwhere s = (a+b+c)/2 (semi-perimeter)",
+              "explanation": "Used when all three sides of triangle are known"
+            },
+            {
+              "title": "Area of a Rhombus",
+              "formula": "Area = ½ × d₁ × d₂\nwhere d₁ and d₂ are lengths of diagonals",
+              "explanation": "Product of diagonals divided by 2"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Flooring and Carpeting",
+              "concept": "Room Area Calculation",
+              "description": "Calculating area to determine amount of flooring material needed"
+            },
+            {
+              "title": "Agriculture",
+              "concept": "Land Measurement",
+              "description": "Measuring field areas for crop planning and irrigation"
+            }
+          ]
+        },
+        {
+          "name": "Surface Area of Solids",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Total area of all faces/surfaces of a 3D shape",
+                "Measured in square units (cm², m², etc.)",
+                "Different formulas for different solids"
+              ]
+            },
+            {
+              "title": "Types of Surface Areas",
+              "points": [
+                "Lateral Surface Area (LSA): Area of vertical faces only",
+                "Total Surface Area (TSA): LSA + Area of bases",
+                "Curved Surface Area (CSA): For curved surfaces like cylinders and cones"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Cuboid",
+              "formula": "LSA = 2h(l + b)\nTSA = 2(lb + bh + hl)",
+              "explanation": "l = length, b = breadth, h = height"
+            },
+            {
+              "title": "Cylinder",
+              "formula": "CSA = 2πrh\nTSA = 2πr(r + h)",
+              "explanation": "r = radius, h = height"
+            },
+            {
+              "title": "Cone",
+              "formula": "CSA = πrl\nTSA = πr(r + l)\nwhere l = √(r² + h²) is slant height",
+              "explanation": "r = radius, h = height, l = slant height"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Packaging",
+              "concept": "Box Design",
+              "description": "Calculating material needed for product packaging"
+            },
+            {
+              "title": "Construction",
+              "concept": "Material Estimation",
+              "description": "Determining amount of paint or wallpaper needed for walls"
+            }
+          ]
+        },
+        {
+          "name": "Volume of Solids",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Space occupied by a 3D object",
+                "Measured in cubic units (cm³, m³, etc.)",
+                "Different formulas for different solids"
+              ]
+            },
+            {
+              "title": "Volume of Common Solids",
+              "points": [
+                "Cube: Edge³",
+                "Cuboid: Length × Breadth × Height",
+                "Cylinder: πr²h",
+                "Cone: ⅓πr²h",
+                "Sphere: ⁴/₃πr³"
+              ]
+            },
+            {
+              "title": "Capacity",
+              "points": [
+                "Volume of fluid a container can hold",
+                "Common units: liters, milliliters, cubic meters",
+                "1 liter = 1000 cm³ = 0.001 m³"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Volume of a Prism",
+              "formula": "Volume = Base Area × Height",
+              "explanation": "Applies to all prisms including rectangular and triangular prisms"
+            },
+            {
+              "title": "Volume of a Pyramid",
+              "formula": "Volume = ⅓ × Base Area × Height",
+              "explanation": "Applies to all pyramids including square and triangular pyramids"
+            },
+            {
+              "title": "Volume of a Hemisphere",
+              "formula": "Volume = ⅔πr³\nCurved Surface Area = 2πr²\nTotal Surface Area = 3πr²",
+              "explanation": "Half of a sphere with radius r"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Liquid Storage",
+              "concept": "Tank Capacity",
+              "description": "Calculating storage capacity of water tanks and containers"
+            },
+            {
+              "title": "Manufacturing",
+              "concept": "Material Usage",
+              "description": "Determining amount of material needed to manufacture solid objects"
+            },
+            {
+              "title": "Transportation",
+              "concept": "Cargo Space",
+              "description": "Calculating how much cargo can fit in shipping containers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Statistics",
+      "class": "Class 9",
+      "id": 6,
+      "title": "Unit 6: Statistics",
+      "topics": [
+        {
+          "name": "Collection of Data",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Statistics is the science of collecting, organizing, analyzing, and interpreting data",
+                "Data: Collection of facts and figures for analysis",
+                "Primary Data: Collected directly from the source for specific purpose",
+                "Secondary Data: Collected by someone else for their purpose"
+              ]
+            },
+            {
+              "title": "Methods of Data Collection",
+              "points": [
+                "Direct Personal Investigation",
+                "Indirect Oral Investigation",
+                "Questionnaire Method",
+                "Through Local Sources",
+                "Government Publications"
+              ]
+            },
+            {
+              "title": "Types of Data",
+              "points": [
+                "Raw Data: Unorganized collection of observations",
+                "Array: Arrangement of data in ascending/descending order",
+                "Ungrouped Data: Individual data points",
+                "Grouped Data: Data organized into classes or intervals"
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Market Research",
+              "concept": "Consumer Preferences",
+              "description": "Companies collect data to understand customer needs and preferences"
+            },
+            {
+              "title": "Census",
+              "concept": "Population Data",
+              "description": "Government collects demographic data for policy making and resource allocation"
+            }
+          ]
+        },
+        {
+          "name": "Tabulation of Data",
+          "notes": [
+            {
+              "title": "Frequency Distribution",
+              "points": [
+                "Frequency: Number of times an observation occurs",
+                "Class Interval: Grouping of data into ranges",
+                "Class Limits: Lower and upper values of a class",
+                "Class Mark: Mid-value of a class interval"
+              ]
+            },
+            {
+              "title": "Types of Frequency Distribution",
+              "points": [
+                "Ungrouped Frequency Distribution",
+                "Grouped Frequency Distribution",
+                "Cumulative Frequency Distribution",
+                "Relative Frequency Distribution"
+              ]
+            },
+            {
+              "title": "Construction of Frequency Table",
+              "points": [
+                "Determine range (Max - Min)",
+                "Decide number of classes (5-20)",
+                "Calculate class width (Range/Number of classes)",
+                "Prepare frequency table with tally marks"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Class Mark",
+              "formula": "Class Mark = (Lower Limit + Upper Limit) / 2",
+              "explanation": "Mid-point of a class interval"
+            },
+            {
+              "title": "Class Size",
+              "formula": "Class Size = Upper Limit - Lower Limit",
+              "explanation": "Width of each class interval"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Education",
+              "concept": "Student Performance Analysis",
+              "description": "Schools tabulate exam scores to analyze performance patterns"
+            },
+            {
+              "title": "Healthcare",
+              "concept": "Patient Records",
+              "description": "Hospitals organize patient data by age groups, conditions, etc."
+            }
+          ]
+        },
+        {
+          "name": "Graphical Representation of Data",
+          "notes": [
+            {
+              "title": "Types of Graphs",
+              "points": [
+                "Bar Graph: Compares categories using rectangular bars",
+                "Histogram: Represents frequency distribution of continuous data",
+                "Frequency Polygon: Line graph showing frequency distribution",
+                "Pie Chart: Circular graph showing proportions"
+              ]
+            },
+            {
+              "title": "Choosing the Right Graph",
+              "points": [
+                "Bar Graph: For categorical data comparison",
+                "Histogram: For continuous data distribution",
+                "Line Graph: For trends over time",
+                "Pie Chart: For showing parts of a whole"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Angle for Pie Chart",
+              "formula": "Angle = (Frequency/Total Frequency) × 360°",
+              "explanation": "Calculates the angle for each sector in a pie chart"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Business Analytics",
+              "concept": "Sales Reports",
+              "description": "Companies use graphs to visualize sales trends and performance"
+            },
+            {
+              "title": "Weather Forecasting",
+              "concept": "Climate Data",
+              "description": "Meteorologists use graphs to show temperature and rainfall patterns"
+            }
+          ]
+        },
+        {
+          "name": "Mean, Median and Mode",
+          "notes": [
+            {
+              "title": "Measures of Central Tendency",
+              "points": [
+                "Mean: Average of all observations (Sum of all values/Number of values)",
+                "Median: Middle value when data is arranged in order",
+                "Mode: Most frequently occurring value in the data"
+              ]
+            },
+            {
+              "title": "When to Use Which Measure",
+              "points": [
+                "Mean: For data with no extreme values",
+                "Median: When data has outliers",
+                "Mode: For categorical data or most common value"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mean (Ungrouped Data)",
+              "formula": "Mean = (Sum of all observations) / (Number of observations)",
+              "explanation": "Arithmetic average of all data points"
+            },
+            {
+              "title": "Median (Ungrouped Data)",
+              "formula": "For odd n: Value at (n+1)/2 position\nFor even n: Average of values at n/2 and (n/2)+1 positions",
+              "explanation": "Middle value of ordered data set"
+            },
+            {
+              "title": "Mode (Ungrouped Data)",
+              "formula": "Value that appears most frequently in the data set",
+              "explanation": "Most common observation"
+            },
+            {
+              "title": "Mean (Grouped Data)",
+              "formula": "Mean = (Σfᵢxᵢ) / (Σfᵢ)\nwhere fᵢ = frequency, xᵢ = class mark",
+              "explanation": "Weighted average using class marks and frequencies"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Education",
+              "concept": "Exam Analysis",
+              "description": "Schools calculate mean, median, and mode of exam scores to evaluate overall performance"
+            },
+            {
+              "title": "Economics",
+              "concept": "Income Analysis",
+              "description": "Economists use median income to understand the typical earnings in a population"
+            },
+            {
+              "title": "Retail",
+              "concept": "Inventory Management",
+              "description": "Stores track the mode of product sales to manage stock levels effectively"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Probability",
+      "class": "Class 9",
+      "id": 7,
+      "title": "Unit 7: Probability",
+      "topics": [
+        {
+          "name": "Concept of Probability",
+          "notes": [
+            {
+              "title": "Basic Definitions",
+              "points": [
+                "Probability measures the likelihood of an event occurring",
+                "Range: 0 (impossible) to 1 (certain)",
+                "Trial: A single performance of a random experiment",
+                "Outcome: Possible result of a trial",
+                "Event: One or more outcomes of an experiment"
+              ]
+            },
+            {
+              "title": "Key Concepts",
+              "points": [
+                "Sample Space (S): Set of all possible outcomes",
+                "Favorable Outcomes: Outcomes that satisfy the event",
+                "Equally Likely Outcomes: All outcomes have same chance",
+                "Probability = (Number of favorable outcomes) / (Total number of possible outcomes)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Probability Formula",
+              "formula": "P(E) = n(E)/n(S)\nwhere:\nP(E) = Probability of event E\nn(E) = Number of favorable outcomes\nn(S) = Total number of possible outcomes",
+              "explanation": "Basic probability formula for equally likely outcomes"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Weather Forecasting",
+              "concept": "Chance of Rain",
+              "description": "Meteorologists use probability to predict weather conditions"
+            },
+            {
+              "title": "Games",
+              "concept": "Dice and Cards",
+              "description": "Probability helps in understanding chances in games of chance"
+            }
+          ]
+        },
+        {
+          "name": "Experimental Probability",
+          "notes": [
+            {
+              "title": "Understanding Experimental Probability",
+              "points": [
+                "Based on actual experiments and observations",
+                "Also called Empirical Probability",
+                "Formula: P(E) = (Number of trials where event occurred) / (Total number of trials)",
+                "May vary with number of trials",
+                "Tends to theoretical probability with large number of trials"
+              ]
+            },
+            {
+              "title": "Important Points",
+              "points": [
+                "More trials give better estimates",
+                "Experimental probability approaches theoretical probability as number of trials increases (Law of Large Numbers)",
+                "Useful when theoretical probability is difficult to calculate"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Experimental Probability Formula",
+              "formula": "P'(E) = (Number of times event E occurs) / (Total number of trials)",
+              "explanation": "Experimental probability is based on actual experimental data"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Quality Control",
+              "concept": "Defect Rate",
+              "description": "Manufacturers use experimental probability to determine defect rates"
+            },
+            {
+              "title": "Medical Research",
+              "concept": "Drug Effectiveness",
+              "description": "Clinical trials use experimental probability to test new treatments"
+            }
+          ]
+        },
+        {
+          "name": "Simple Probability Problems",
+          "notes": [
+            {
+              "title": "Types of Problems",
+              "points": [
+                "Coin Tossing Problems",
+                "Dice Throwing Problems",
+                "Deck of Cards Problems",
+                "Spinner Problems",
+                "Word Problems"
+              ]
+            },
+            {
+              "title": "Problem Solving Approach",
+              "points": [
+                "Identify total number of possible outcomes",
+                "Determine number of favorable outcomes",
+                "Apply probability formula",
+                "Simplify the fraction if possible",
+                "Convert to percentage if required"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Probability of Complementary Event",
+              "formula": "P(E') = 1 - P(E)\nwhere E' is the complement of event E",
+              "explanation": "Probability of an event not occurring"
+            },
+            {
+              "title": "Probability of Sure and Impossible Events",
+              "formula": "P(sure event) = 1\nP(impossible event) = 0",
+              "explanation": "Probabilities of certain and impossible events"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Risk Assessment",
+              "concept": "Insurance",
+              "description": "Insurance companies use probability to calculate premiums and risks"
+            },
+            {
+              "title": "Sports",
+              "concept": "Game Strategies",
+              "description": "Coaches use probability to develop game strategies and make decisions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Science": [
+
+    {
+      "chapterName": "Measurements and Measuring Instruments",
+      "class": "Class 9",
+      "id": 8,
+      "title": "Physics: Measurements",
+      "topics": [
+        {
+          "name": "Physical Quantities",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Physical Quantity: Any measurable property of a material or system",
+                "Fundamental Quantities: Cannot be defined in terms of other quantities (e.g., length, mass, time)",
+                "Derived Quantities: Expressed in terms of fundamental quantities (e.g., speed, force, energy)",
+                "Scalar Quantities: Have only magnitude (e.g., mass, distance, speed)",
+                "Vector Quantities: Have both magnitude and direction (e.g., velocity, force, acceleration)"
+              ]
+            },
+            {
+              "title": "Systems of Measurement",
+              "points": [
+                "CGS System: Centimeter-Gram-Second system",
+                "MKS System: Meter-Kilogram-Second system",
+                "FPS System: Foot-Pound-Second system",
+                "SI System: International System of Units (modern form of metric system)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Density",
+              "formula": "Density (ρ) = Mass (m) / Volume (V)\nUnits: kg/m³ (SI), g/cm³ (CGS)",
+              "explanation": "Mass per unit volume of a substance"
+            },
+            {
+              "title": "Speed",
+              "formula": "Speed = Distance / Time\nUnits: m/s (SI), cm/s (CGS)",
+              "explanation": "Distance traveled per unit time"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Construction",
+              "concept": "Material Estimation",
+              "description": "Using density to calculate required quantities of construction materials"
+            }
+          ]
+        },
+        {
+          "name": "SI Units",
+          "notes": [
+            {
+              "title": "Fundamental SI Units",
+              "points": [
+                "Length: meter (m)",
+                "Mass: kilogram (kg)",
+                "Time: second (s)",
+                "Electric current: ampere (A)",
+                "Temperature: kelvin (K)",
+                "Amount of substance: mole (mol)",
+                "Luminous intensity: candela (cd)"
+              ]
+            },
+            {
+              "title": "Derived SI Units",
+              "points": [
+                "Area: square meter (m²)",
+                "Volume: cubic meter (m³)",
+                "Speed: meter per second (m/s)",
+                "Force: newton (N = kg·m/s²)",
+                "Energy: joule (J = N·m)",
+                "Power: watt (W = J/s)"
+              ]
+            },
+            {
+              "title": "SI Prefixes",
+              "points": [
+                "Kilo (k): 10³ (1000)",
+                "Centi (c): 10⁻² (0.01)",
+                "Milli (m): 10⁻³ (0.001)",
+                "Micro (μ): 10⁻⁶ (0.000001)",
+                "Nano (n): 10⁻⁹ (0.000000001)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Unit Conversion",
+              "formula": "1 m = 100 cm\n1 kg = 1000 g\n1 hour = 3600 s\n1 km/h = (5/18) m/s",
+              "explanation": "Common unit conversions in measurements"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "International Trade",
+              "concept": "Standardization",
+              "description": "Using SI units for consistency in global trade and communication"
+            }
+          ]
+        },
+        {
+          "name": "Measuring Instruments",
+          "notes": [
+            {
+              "title": "Length Measurement",
+              "points": [
+                "Meter Scale: For measuring lengths from 1 mm to 1 m",
+                "Vernier Calipers: Measures up to 0.1 mm accuracy",
+                "Screw Gauge: Measures up to 0.01 mm accuracy",
+                "Measuring Tape: For longer distances (e.g., 5m, 10m)"
+              ]
+            },
+            {
+              "title": "Mass Measurement",
+              "points": [
+                "Beam Balance: Compares unknown mass with known masses",
+                "Electronic Balance: Digital display, high precision",
+                "Spring Balance: Measures weight (force due to gravity)"
+              ]
+            },
+            {
+              "title": "Time Measurement",
+              "points": [
+                "Stopwatch: Measures time intervals",
+                "Digital Clock: For precise time measurement",
+                "Pendulum Clock: Based on periodic motion"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Vernier Caliper Reading",
+              "formula": "Total Reading = Main Scale Reading + (Vernier Scale Reading × Least Count)",
+              "explanation": "For precise length measurement using Vernier Calipers"
+            },
+            {
+              "title": "Screw Gauge Reading",
+              "formula": "Total Reading = Pitch Scale Reading + (Circular Scale Reading × Least Count)",
+              "explanation": "For very precise measurements using Screw Gauge"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Laboratory Work",
+              "concept": "Precision Measurement",
+              "description": "Using appropriate instruments for different levels of measurement precision"
+            }
+          ]
+        },
+        {
+          "name": "Errors in Measurement",
+          "notes": [
+            {
+              "title": "Types of Errors",
+              "points": [
+                "Systematic Errors: Consistent, can be corrected (e.g., zero error in instruments)",
+                "Random Errors: Unpredictable variations (e.g., parallax error)",
+                "Gross Errors: Mistakes in measurement (e.g., wrong reading)"
+              ]
+            },
+            {
+              "title": "Minimizing Errors",
+              "points": [
+                "Taking multiple readings and calculating average",
+                "Avoiding parallax error by proper eye position",
+                "Using instruments with appropriate least count",
+                "Checking for zero error and applying corrections"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Absolute Error",
+              "formula": "Absolute Error = |Measured Value - True Value|",
+              "explanation": "Magnitude of difference between measured and true value"
+            },
+            {
+              "title": "Relative Error",
+              "formula": "Relative Error = (Absolute Error / True Value) × 100%",
+              "explanation": "Expressed as percentage of true value"
+            },
+            {
+              "title": "Mean Absolute Error",
+              "formula": "Mean Absolute Error = (Σ|Δxᵢ|) / n",
+              "explanation": "Average of absolute errors in multiple measurements"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Quality Control",
+              "concept": "Tolerance Levels",
+              "description": "Manufacturers set acceptable error margins for products"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Motion",
+      "class": "Class 9",
+      "id": 9,
+      "title": "Physics: Motion",
+      "topics": [
+        {
+          "name": "Distance and Displacement",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Distance: Total path length covered by an object (scalar quantity)",
+                "Displacement: Shortest distance between initial and final positions (vector quantity)",
+                "Distance is always ≥ Displacement",
+                "Unit: meter (m) in SI system"
+              ]
+            },
+            {
+              "title": "Key Differences",
+              "points": [
+                "Distance depends on path, Displacement depends only on initial and final positions",
+                "Distance is always positive, Displacement can be positive/negative/zero",
+                "Distance is a scalar, Displacement is a vector"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Displacement in 1D",
+              "formula": "Δx = x_f - x_i\nwhere:\nΔx = Displacement\nx_f = Final position\nx_i = Initial position",
+              "explanation": "Displacement is the change in position"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Navigation",
+              "concept": "GPS Systems",
+              "description": "GPS calculates displacement for navigation, not just distance"
+            }
+          ]
+        },
+        {
+          "name": "Speed and Velocity",
+          "notes": [
+            {
+              "title": "Definitions",
+              "points": [
+                "Speed: Distance traveled per unit time (scalar)",
+                "Velocity: Displacement per unit time (vector)",
+                "Average speed = Total distance / Total time",
+                "Average velocity = Total displacement / Total time"
+              ]
+            },
+            {
+              "title": "Types of Speed",
+              "points": [
+                "Uniform Speed: Constant speed (no acceleration)",
+                "Variable Speed: Changing speed",
+                "Instantaneous Speed: Speed at a particular instant"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Average Speed",
+              "formula": "Average Speed = Total Distance / Total Time\nUnits: m/s, km/h",
+              "explanation": "Total distance covered divided by total time taken"
+            },
+            {
+              "title": "Average Velocity",
+              "formula": "Average Velocity = Total Displacement / Total Time\nUnits: m/s (with direction)",
+              "explanation": "Net displacement divided by total time"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Transportation",
+              "concept": "Speed Limits",
+              "description": "Speed limits are set based on average speed for safety"
+            }
+          ]
+        },
+        {
+          "name": "Acceleration",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Rate of change of velocity with time",
+                "Vector quantity (has both magnitude and direction)",
+                "Can be positive (speeding up) or negative (slowing down)",
+                "Zero acceleration means constant velocity"
+              ]
+            },
+            {
+              "title": "Types of Acceleration",
+              "points": [
+                "Uniform Acceleration: Constant rate of change of velocity",
+                "Non-uniform Acceleration: Changing rate of change of velocity",
+                "Retardation/Deceleration: Negative acceleration"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Average Acceleration",
+              "formula": "a = (v - u) / t\nwhere:\na = acceleration\nv = final velocity\nu = initial velocity\nt = time",
+              "explanation": "Change in velocity per unit time"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Vehicle Safety",
+              "concept": "Braking Distance",
+              "description": "Understanding acceleration helps design safer braking systems"
+            }
+          ]
+        },
+        {
+          "name": "Equations of Motion",
+          "notes": [
+            {
+              "title": "First Equation of Motion",
+              "points": [
+                "v = u + at",
+                "Relates final velocity to initial velocity, acceleration, and time",
+                "Applicable for uniformly accelerated motion"
+              ]
+            },
+            {
+              "title": "Second Equation of Motion",
+              "points": [
+                "s = ut + ½at²",
+                "Relates displacement to initial velocity, acceleration, and time",
+                "Used to calculate distance covered"
+              ]
+            },
+            {
+              "title": "Third Equation of Motion",
+              "points": [
+                "v² = u² + 2as",
+                "Relates final velocity to initial velocity, acceleration, and displacement",
+                "Time-independent equation"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "First Equation",
+              "formula": "v = u + at\nwhere:\nv = final velocity\nu = initial velocity\na = acceleration\nt = time",
+              "explanation": "Final velocity after time t"
+            },
+            {
+              "title": "Second Equation",
+              "formula": "s = ut + ½at²\nwhere:\ns = displacement\nu = initial velocity\na = acceleration\nt = time",
+              "explanation": "Displacement in time t"
+            },
+            {
+              "title": "Third Equation",
+              "formula": "v² = u² + 2as\nwhere:\nv = final velocity\nu = initial velocity\na = acceleration\ns = displacement",
+              "explanation": "Relates velocities to displacement"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Projectile Motion",
+              "concept": "Sports Physics",
+              "description": "Used in sports like basketball and cricket to predict ball trajectory"
+            },
+            {
+              "title": "Transportation",
+              "concept": "Vehicle Design",
+              "description": "Helps in designing safer vehicles and traffic systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Laws of Motion",
+      "class": "Class 9",
+      "id": 10,
+      "title": "Physics: Laws of Motion",
+      "topics": [
+        {
+          "name": "Force",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Force is a push or pull that can change the state of motion of an object",
+                "It is a vector quantity (has both magnitude and direction)",
+                "SI unit: Newton (N)",
+                "1 N = 1 kg·m/s²"
+              ]
+            },
+            {
+              "title": "Types of Forces",
+              "points": [
+                "Contact Forces: Applied, Normal, Tension, Friction",
+                "Non-contact Forces: Gravitational, Magnetic, Electrostatic",
+                "Balanced Forces: Net force is zero (no acceleration)",
+                "Unbalanced Forces: Net force is not zero (causes acceleration)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Force Formula",
+              "formula": "F = m × a\nwhere:\nF = Force (N)\nm = mass (kg)\na = acceleration (m/s²)",
+              "explanation": "Newton's Second Law of Motion"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Sports",
+              "concept": "Cricket",
+              "description": "Batsman applies force to hit the ball"
+            },
+            {
+              "title": "Transportation",
+              "concept": "Car Acceleration",
+              "description": "Engine applies force to move the car forward"
+            }
+          ]
+        },
+        {
+          "name": "Newton's Laws of Motion",
+          "notes": [
+            {
+              "title": "First Law (Law of Inertia)",
+              "points": [
+                "An object at rest stays at rest, and an object in motion stays in motion with the same speed and direction unless acted upon by an unbalanced force",
+                "Also called the Law of Inertia",
+                "Inertia is the tendency of an object to resist changes in its state of motion"
+              ]
+            },
+            {
+              "title": "Second Law (Force and Acceleration)",
+              "points": [
+                "The acceleration of an object depends on the net force acting on it and its mass",
+                "F = m × a",
+                "Acceleration is in the same direction as the net force"
+              ]
+            },
+            {
+              "title": "Third Law (Action-Reaction)",
+              "points": [
+                "For every action, there is an equal and opposite reaction",
+                "Forces always occur in pairs",
+                "Action and reaction forces act on different objects"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Newton's Second Law",
+              "formula": "ΣF = m × a\nwhere:\nΣF = Net force (N)\nm = mass (kg)\na = acceleration (m/s²)",
+              "explanation": "Net force equals mass times acceleration"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Rocket Launch",
+              "concept": "Action-Reaction",
+              "description": "Rocket pushes exhaust gases down (action), gases push rocket up (reaction)"
+            },
+            {
+              "title": "Seatbelts",
+              "concept": "Inertia",
+              "description": "Prevent passengers from continuing to move forward when a car stops suddenly"
+            }
+          ]
+        },
+        {
+          "name": "Momentum",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Momentum is the product of an object's mass and velocity",
+                "Vector quantity (has both magnitude and direction)",
+                "SI unit: kg·m/s",
+                "p = m × v"
+              ]
+            },
+            {
+              "title": "Impulse",
+              "points": [
+                "Change in momentum of an object",
+                "Impulse = Force × Time = Change in momentum",
+                "Impulse is a vector quantity",
+                "Unit: N·s (same as kg·m/s)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Momentum",
+              "formula": "p = m × v\nwhere:\np = momentum (kg·m/s)\nm = mass (kg)\nv = velocity (m/s)",
+              "explanation": "Momentum is mass times velocity"
+            },
+            {
+              "title": "Impulse-Momentum Theorem",
+              "formula": "F × t = mΔv = Δp\nwhere:\nF = Force (N)\nt = time (s)\nm = mass (kg)\nΔv = change in velocity (m/s)\nΔp = change in momentum (kg·m/s)",
+              "explanation": "Impulse equals change in momentum"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Sports",
+              "concept": "Catching a Ball",
+              "description": "Moving hands back while catching increases time of impact, reducing force"
+            },
+            {
+              "title": "Vehicle Safety",
+              "concept": "Airbags",
+              "description": "Increase impact time to reduce force on passengers"
+            }
+          ]
+        },
+        {
+          "name": "Conservation of Momentum",
+          "notes": [
+            {
+              "title": "Law of Conservation of Momentum",
+              "points": [
+                "In an isolated system, the total momentum remains constant",
+                "Total momentum before collision = Total momentum after collision",
+                "Applies to both elastic and inelastic collisions",
+                "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂"
+              ]
+            },
+            {
+              "title": "Types of Collisions",
+              "points": [
+                "Elastic Collision: Both momentum and kinetic energy are conserved",
+                "Inelastic Collision: Only momentum is conserved, some kinetic energy is converted to other forms",
+                "Perfectly Inelastic Collision: Objects stick together after collision"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Conservation of Momentum",
+              "formula": "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂\nwhere:\nm = mass\nu = initial velocity\nv = final velocity",
+              "explanation": "Total momentum before equals total momentum after collision"
+            },
+            {
+              "title": "Perfectly Inelastic Collision",
+              "formula": "m₁u₁ + m₂u₂ = (m₁ + m₂)v\nwhere:\nv = common velocity after collision",
+              "explanation": "Objects stick together after collision"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Space Exploration",
+              "concept": "Docking",
+              "description": "Spacecraft use conservation of momentum for docking maneuvers"
+            },
+            {
+              "title": "Sports",
+              "concept": "Billiards",
+              "description": "Collisions between billiard balls demonstrate conservation of momentum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Matter Around Us",
+      "class": "Class 9",
+      "id": 11,
+      "title": "Chemistry: Matter",
+      "topics": [
+        {
+          "name": "Classification of Matter",
+          "notes": [
+            {
+              "title": "Basic Classification",
+              "points": [
+                "Matter is anything that has mass and occupies space",
+                "Pure Substances: Elements and compounds with fixed composition",
+                "Mixtures: Combination of two or more substances in any proportion"
+              ]
+            },
+            {
+              "title": "Types of Mixtures",
+              "points": [
+                "Homogeneous Mixtures: Uniform composition throughout (e.g., salt water, air)",
+                "Heterogeneous Mixtures: Non-uniform composition (e.g., soil, salad)",
+                "Solutions: Homogeneous mixtures of solute and solvent"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mass Percentage",
+              "formula": "Mass % = (Mass of component / Total mass of mixture) × 100",
+              "explanation": "Expresses concentration of a component in a mixture"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Cooking",
+              "concept": "Solution Preparation",
+              "description": "Making salt water or sugar solutions in cooking"
+            }
+          ]
+        },
+        {
+          "name": "States of Matter",
+          "notes": [
+            {
+              "title": "Solid State",
+              "points": [
+                "Definite shape and volume",
+                "Particles are closely packed in fixed positions",
+                "Vibrate about fixed points",
+                "High density and low compressibility"
+              ]
+            },
+            {
+              "title": "Liquid State",
+              "points": [
+                "Definite volume but no fixed shape",
+                "Particles are close but can move past each other",
+                "Take the shape of container",
+                "Moderate density and compressibility"
+              ]
+            },
+            {
+              "title": "Gaseous State",
+              "points": [
+                "No definite shape or volume",
+                "Particles are far apart and move freely",
+                "Fill container completely",
+                "Low density and high compressibility"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Density",
+              "formula": "Density = Mass / Volume\nUnits: g/cm³ or kg/m³",
+              "explanation": "Mass per unit volume of a substance"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Weather",
+              "concept": "Water Cycle",
+              "description": "Water changes states between solid, liquid, and gas in nature"
+            }
+          ]
+        },
+        {
+          "name": "Physical and Chemical Changes",
+          "notes": [
+            {
+              "title": "Physical Changes",
+              "points": [
+                "No new substance is formed",
+                "Reversible changes",
+                "Examples: Melting of ice, boiling of water, dissolving salt",
+                "Involves changes in physical properties only"
+              ]
+            },
+            {
+              "title": "Chemical Changes",
+              "points": [
+                "New substances with different properties are formed",
+                "Mostly irreversible changes",
+                "Examples: Burning of paper, rusting of iron, cooking food",
+                "Involves changes in chemical composition"
+              ]
+            },
+            {
+              "title": "Signs of Chemical Changes",
+              "points": [
+                "Change in color",
+                "Formation of gas",
+                "Formation of precipitate",
+                "Change in temperature",
+                "Emission of light or sound"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Chemical Equation",
+              "formula": "Reactants → Products\nExample: 2H₂ + O₂ → 2H₂O",
+              "explanation": "Represents a chemical change"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Cooking",
+              "concept": "Chemical Changes",
+              "description": "Cooking food involves chemical changes that make it more digestible and flavorful"
+            },
+            {
+              "title": "Photography",
+              "concept": "Chemical Reactions",
+              "description": "Traditional photography uses light-sensitive chemicals that undergo chemical changes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Atomic Structure",
+      "class": "Class 9",
+      "id": 12,
+      "title": "Chemistry: Atomic Structure",
+      "topics": [
+        {
+          "name": "Atoms and Molecules",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Atom: Smallest unit of matter that retains the properties of an element",
+                "Molecule: Group of two or more atoms chemically bonded together",
+                "Element: Pure substance made of only one type of atom",
+                "Compound: Substance formed by chemical combination of two or more elements"
+              ]
+            },
+            {
+              "title": "Atomic Theory",
+              "points": [
+                "Dalton's Atomic Theory (1808): First scientific theory of atoms",
+                "Modern Atomic Theory: Incorporates subatomic particles and quantum mechanics",
+                "Atoms are divisible and can be transformed in nuclear reactions"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Molecular Mass",
+              "formula": "Molecular Mass = Sum of atomic masses of all atoms in the molecule\nExample: H₂O = (2×1) + 16 = 18 u",
+              "explanation": "Expressed in atomic mass units (u)"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Water Purification",
+              "concept": "Molecular Structure",
+              "description": "Understanding water's molecular structure helps in designing effective purification methods"
+            }
+          ]
+        },
+        {
+          "name": "Subatomic Particles",
+          "notes": [
+            {
+              "title": "Protons",
+              "points": [
+                "Positively charged (+1.6 × 10⁻¹⁹ C)",
+                "Mass: 1.67 × 10⁻²⁷ kg (1 atomic mass unit)",
+                "Located in the nucleus",
+                "Determines the atomic number"
+              ]
+            },
+            {
+              "title": "Neutrons",
+              "points": [
+                "Neutral (no charge)",
+                "Mass: 1.67 × 10⁻²⁷ kg (slightly more than proton)",
+                "Located in the nucleus",
+                "Contributes to atomic mass"
+              ]
+            },
+            {
+              "title": "Electrons",
+              "points": [
+                "Negatively charged (-1.6 × 10⁻¹⁹ C)",
+                "Mass: 9.11 × 10⁻³¹ kg (1/1837th of proton)",
+                "Orbit the nucleus in specific energy levels",
+                "Involved in chemical bonding"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Atomic Number (Z)",
+              "formula": "Z = Number of protons = Number of electrons (in neutral atom)",
+              "explanation": "Identifies the element"
+            },
+            {
+              "title": "Mass Number (A)",
+              "formula": "A = Number of protons + Number of neutrons",
+              "explanation": "Total number of nucleons in the nucleus"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Imaging",
+              "concept": "Subatomic Particles",
+              "description": "PET scans use positrons (antimatter electrons) for medical imaging"
+            }
+          ]
+        },
+        {
+          "name": "Atomic Models",
+          "notes": [
+            {
+              "title": "Thomson's Model (Plum Pudding Model)",
+              "points": [
+                "Proposed by J.J. Thomson (1897)",
+                "Atoms as positively charged spheres with embedded electrons",
+                "Couldn't explain Rutherford's gold foil experiment results"
+              ]
+            },
+            {
+              "title": "Rutherford's Nuclear Model",
+              "points": [
+                "Proposed by Ernest Rutherford (1911)",
+                "Dense, positively charged nucleus at center",
+                "Electrons orbit the nucleus like planets around the sun",
+                "Most of the atom is empty space"
+              ]
+            },
+            {
+              "title": "Bohr's Model",
+              "points": [
+                "Proposed by Niels Bohr (1913)",
+                "Electrons move in fixed circular orbits (energy levels)",
+                "Electrons can jump between energy levels by absorbing/emitting energy",
+                "Explained hydrogen spectrum but had limitations for larger atoms"
+              ]
+            },
+            {
+              "title": "Quantum Mechanical Model",
+              "points": [
+                "Developed by Schrödinger and Heisenberg",
+                "Electrons exist in probability clouds (orbitals)",
+                "Uses quantum numbers to describe electron locations",
+                "Most accurate model of atomic structure"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Bohr's Energy Levels",
+              "formula": "Eₙ = -13.6/n² eV\nwhere n = principal quantum number (1,2,3...)",
+              "explanation": "Energy of electron in nth orbit of hydrogen atom"
+            },
+            {
+              "title": "De Broglie Wavelength",
+              "formula": "λ = h/mv\nwhere:\nλ = wavelength\nh = Planck's constant (6.626 × 10⁻³⁴ Js)\nm = mass\nv = velocity",
+              "explanation": "Matter waves concept in quantum mechanics"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Lasers",
+              "concept": "Quantum Transitions",
+              "description": "Based on electron transitions between energy levels"
+            },
+            {
+              "title": "Electronics",
+              "concept": "Semiconductors",
+              "description": "Understanding atomic structure led to development of transistors and computer chips"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Living World of Animals",
+      "class": "Class 9",
+      "id": 14,
+      "title": "Biology: Animals",
+      "topics": [
+        {
+          "name": "Animal Tissues",
+          "notes": [
+            {
+              "title": "Epithelial Tissue",
+              "points": [
+                "Covers body surfaces and lines cavities",
+                "Types: Squamous, Cuboidal, Columnar, Ciliated, Glandular",
+                "Functions: Protection, absorption, secretion, sensation",
+                "Found in skin, digestive tract, glands"
+              ]
+            },
+            {
+              "title": "Connective Tissue",
+              "points": [
+                "Most abundant and widely distributed tissue",
+                "Types: Areolar, Adipose, Bone, Cartilage, Blood, Lymph",
+                "Functions: Support, protection, binding, transport",
+                "Contains cells, fibers, and ground substance"
+              ]
+            },
+            {
+              "title": "Muscular Tissue",
+              "points": [
+                "Responsible for movement",
+                "Types: Skeletal (voluntary), Smooth (involuntary), Cardiac (heart)",
+                "Contains contractile proteins: Actin and Myosin"
+              ]
+            },
+            {
+              "title": "Nervous Tissue",
+              "points": [
+                "Makes up brain, spinal cord, and nerves",
+                "Consists of neurons and neuroglia",
+                "Functions: Rapid communication and coordination"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Neuron Conduction Speed",
+              "formula": "Speed = Distance / Time (m/s)",
+              "explanation": "Speed of nerve impulse conduction varies with axon diameter and myelination"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Field",
+              "concept": "Tissue Engineering",
+              "description": "Growing artificial tissues for medical transplants and research"
+            }
+          ]
+        },
+        {
+          "name": "Nutrition in Animals",
+          "notes": [
+            {
+              "title": "Human Digestive System",
+              "points": [
+                "Alimentary Canal: Mouth, esophagus, stomach, small intestine, large intestine",
+                "Accessory Organs: Salivary glands, liver, pancreas",
+                "Processes: Ingestion, digestion, absorption, assimilation, egestion"
+              ]
+            },
+            {
+              "title": "Types of Nutrition",
+              "points": [
+                "Holozoic: Ingestion of complex organic matter (e.g., humans)",
+                "Saprophytic: Feeding on dead and decaying matter",
+                "Parasitic: Deriving nutrition from host organisms"
+              ]
+            },
+            {
+              "title": "Digestive Enzymes",
+              "points": [
+                "Amylase: Breaks down carbohydrates (saliva, pancreas)",
+                "Pepsin: Breaks down proteins (stomach)",
+                "Lipase: Breaks down fats (pancreas, small intestine)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Basal Metabolic Rate (BMR)",
+              "formula": "BMR (kcal/day) = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)",
+              "explanation": "Estimates daily energy expenditure at rest (for males; different formula for females)"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Health & Nutrition",
+              "concept": "Balanced Diet",
+              "description": "Understanding nutrition helps in planning balanced meals for different age groups"
+            }
+          ]
+        },
+        {
+          "name": "Respiration in Animals",
+          "notes": [
+            {
+              "title": "Respiratory Organs",
+              "points": [
+                "Humans: Lungs (pulmonary respiration)",
+                "Fish: Gills (branchial respiration)",
+                "Frogs: Skin, mouth, lungs (cutaneous, buccopharyngeal, pulmonary)",
+                "Insects: Tracheal system"
+              ]
+            },
+            {
+              "title": "Human Respiratory System",
+              "points": [
+                "Pathway: Nostrils → Nasal cavity → Pharynx → Larynx → Trachea → Bronchi → Bronchioles → Alveoli",
+                "Diaphragm: Main muscle for breathing",
+                "Gaseous exchange occurs in alveoli"
+              ]
+            },
+            {
+              "title": "Mechanism of Breathing",
+              "points": [
+                "Inspiration: Diaphragm contracts, rib cage moves up and out (inhalation)",
+                "Expiration: Diaphragm relaxes, rib cage moves down and in (exhalation)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Tidal Volume",
+              "formula": "Average Tidal Volume = 500 mL (in adults)",
+              "explanation": "Volume of air inhaled/exhaled during normal breathing"
+            },
+            {
+              "title": "Vital Capacity",
+              "formula": "VC = TV + IRV + ERV\n(TV = Tidal Volume, IRV = Inspiratory Reserve Volume, ERV = Expiratory Reserve Volume)",
+              "explanation": "Maximum air that can be exhaled after maximum inhalation"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Field",
+              "concept": "Pulmonary Function Tests",
+              "description": "Used to diagnose and monitor respiratory conditions like asthma and COPD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Living World of Animals",
+      "class": "Class 9",
+      "id": 14,
+      "title": "Biology: Animals",
+      "topics": [
+        {
+          "name": "Animal Tissues",
+          "notes": [
+            {
+              "title": "Types of Animal Tissues",
+              "points": [
+                "Epithelial Tissue: Covers body surfaces and lines cavities",
+                "Connective Tissue: Supports and connects body parts (e.g., bone, cartilage, blood)",
+                "Muscular Tissue: Responsible for movement (skeletal, smooth, cardiac)",
+                "Nervous Tissue: Transmits nerve impulses"
+              ]
+            },
+            {
+              "title": "Functions of Animal Tissues",
+              "points": [
+                "Epithelial: Protection, absorption, secretion",
+                "Connective: Support, binding, transport (blood)",
+                "Muscular: Movement, posture, heat production",
+                "Nervous: Control and coordination"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Tissue Growth Rate",
+              "formula": "Growth Rate = (Final Mass - Initial Mass) / Time Period",
+              "explanation": "Measures how quickly animal tissues grow over time"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Science",
+              "concept": "Tissue Engineering",
+              "description": "Scientists grow animal tissues in labs for medical research and transplantation"
+            }
+          ]
+        },
+        {
+          "name": "Nutrition in Animals",
+          "notes": [
+            {
+              "title": "Types of Nutrition",
+              "points": [
+                "Holozoic: Ingestion of complex organic matter (humans, dogs)",
+                "Saprophytic: Feeding on dead and decaying matter (fungi, some bacteria)",
+                "Parasitic: Deriving nutrition from other living organisms (tapeworms, leeches)"
+              ]
+            },
+            {
+              "title": "Human Digestive System",
+              "points": [
+                "Alimentary canal: Mouth → Oesophagus → Stomach → Small intestine → Large intestine",
+                "Associated glands: Salivary glands, Liver, Pancreas",
+                "Processes: Ingestion, Digestion, Absorption, Assimilation, Egestion"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Energy from Food",
+              "formula": "Energy (kcal) = (Protein × 4) + (Carbs × 4) + (Fats × 9)",
+              "explanation": "Calculates energy obtained from macronutrients in food"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Animal Husbandry",
+              "concept": "Balanced Feed",
+              "description": "Proper nutrition is crucial for livestock health and productivity"
+            }
+          ]
+        },
+        {
+          "name": "Respiration in Animals",
+          "notes": [
+            {
+            "title": "Types of Respiration",
+              "points": [
+                "Aerobic: Uses oxygen (most animals)",
+                "Anaerobic: Without oxygen (some parasites, muscle cells during heavy exercise)",
+                "Cutaneous: Through skin (earthworms, frogs)",
+                "Tracheal: Through tracheae (insects)",
+                "Pulmonary: Through lungs (mammals, birds, reptiles)"
+              ]
+            },
+            {
+              "title": "Human Respiratory System",
+              "points": [
+                "Nostrils → Nasal cavity → Pharynx → Larynx → Trachea → Bronchi → Bronchioles → Alveoli",
+                "Diaphragm: Main muscle for breathing",
+                "Lungs: Main respiratory organs"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Respiratory Quotient (RQ)",
+              "formula": "RQ = CO₂ produced / O₂ consumed",
+              "explanation": "Ratio of CO₂ produced to O₂ consumed during respiration"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Science",
+              "concept": "Pulmonary Function Tests",
+              "description": "Measure lung capacity and function to diagnose respiratory disorders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Health and Hygiene",
+      "class": "Class 9",
+      "id": 20,
+      "title": "Biology: Health and Hygiene",
+      "topics": [
+        {
+          "name": "Personal Hygiene",
+          "notes": [
+            {
+              "title": "Daily Hygiene Practices",
+              "points": [
+                "Hand washing: Before meals, after using toilet, and when dirty",
+                "Oral hygiene: Brushing twice daily, flossing, and tongue cleaning",
+                "Bathing: Daily with soap, especially in tropical climates",
+                "Nail care: Regular trimming and cleaning"
+              ]
+            },
+            {
+              "title": "Hygiene During Adolescence",
+              "points": [
+                "Increased sweat and body odor management",
+                "Menstrual hygiene for girls",
+                "Facial and body hair care",
+                "Acne prevention and care"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Hand Washing Effectiveness",
+              "formula": "Effectiveness = (Time Spent × Technique × Soap Use) / Contamination Level",
+              "explanation": "Proper hand washing requires at least 20 seconds with soap and proper technique"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Public Health",
+              "concept": "Disease Prevention",
+              "description": "Regular hand washing can reduce diarrheal diseases by 30-48%"
+            }
+          ]
+        },
+        {
+          "name": "Balanced Diet and Nutrition",
+          "notes": [
+            {
+              "title": "Essential Nutrients",
+              "points": [
+                "Carbohydrates: Main energy source (rice, wheat, potatoes)",
+                "Proteins: Growth and repair (pulses, eggs, meat)",
+                "Fats: Energy reserve (oils, nuts, dairy)",
+                "Vitamins & Minerals: Various metabolic functions"
+              ]
+            },
+            {
+              "title": "Balanced Diet Components",
+              "points": [
+                "50-60% carbohydrates",
+                "10-15% proteins",
+                "20-30% fats",
+                "Adequate fiber and water"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Body Mass Index (BMI)",
+              "formula": "BMI = Weight (kg) / (Height (m))²",
+              "explanation": "Measures body fat based on height and weight"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Nutrition",
+              "concept": "MyPlate",
+              "description": "Visual guide showing ideal portions of different food groups for a balanced meal"
+            }
+          ]
+        },
+        {
+          "name": "Communicable Diseases",
+          "notes": [
+            {
+              "title": "Types and Transmission",
+              "points": [
+                "Airborne: Common cold, influenza, tuberculosis",
+                "Water/food-borne: Cholera, typhoid, hepatitis A",
+                "Vector-borne: Malaria, dengue, chikungunya",
+                "Direct contact: HIV/AIDS, skin infections"
+              ]
+            },
+            {
+              "title": "Common Symptoms",
+              "points": [
+                "Fever, cough, fatigue",
+                "Diarrhea, vomiting",
+                "Rashes or skin lesions",
+                "Body ache and headache"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Basic Reproduction Number (R₀)",
+              "formula": "R₀ = Transmission rate × Contact rate × Duration of infectiousness",
+              "explanation": "Estimates how many people one infected person can spread the disease to"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Public Health",
+              "concept": "Vaccination Programs",
+              "description": "Preventive measures like immunization help control communicable diseases"
+            }
+          ]
+        },
+        {
+          "name": "Non-Communicable Diseases",
+          "notes": [
+            {
+              "title": "Major Types",
+              "points": [
+                "Cardiovascular diseases: Heart attacks, strokes",
+                "Diabetes: Type 1 and Type 2",
+                "Cancer: Various types",
+                "Chronic respiratory diseases: Asthma, COPD"
+              ]
+            },
+            {
+              "title": "Risk Factors",
+              "points": [
+                "Unhealthy diet and obesity",
+                "Physical inactivity",
+                "Tobacco and alcohol use",
+                "Genetic predisposition"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Heart Rate Zones",
+              "formula": "Maximum Heart Rate = 220 - Age\nTarget Heart Rate = 50-85% of Maximum Heart Rate",
+              "explanation": "Helps in maintaining optimal exercise intensity"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Healthcare",
+              "concept": "Lifestyle Medicine",
+              "description": "Focus on preventing and managing NCDs through lifestyle changes"
+            }
+          ]
+        },
+        {
+          "name": "Prevention and Control of Diseases",
+          "notes": [
+            {
+              "title": "Preventive Measures",
+              "points": [
+                "Vaccination and immunization",
+                "Safe drinking water and sanitation",
+                "Vector control measures",
+                "Health education and awareness"
+              ]
+            },
+            {
+              "title": "Government Initiatives",
+              "points": [
+                "National Health Mission (NHM)",
+                "Ayushman Bharat Scheme",
+                "Pulse Polio Program",
+                "Tamil Nadu Health Systems Reform Program"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Herd Immunity Threshold",
+              "formula": "HIT = 1 - (1/R₀)\nwhere R₀ is basic reproduction number",
+              "explanation": "Percentage of population that needs to be immune to stop disease spread"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Public Health",
+              "concept": "Disease Surveillance",
+              "description": "Monitoring disease patterns to implement timely control measures"
+            },
+            {
+              "title": "Community Health",
+              "concept": "ASHA Workers",
+              "description": "Accredited Social Health Activists play crucial role in rural healthcare delivery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Environmental Science",
+      "class": "Class 9",
+      "id": 21,
+      "title": "Biology: Environmental Science",
+      "topics": [
+        {
+          "name": "Ecosystem and Its Components",
+          "notes": [
+            {
+              "title": "Definition and Types",
+              "points": [
+                "Ecosystem: A community of living organisms interacting with their physical environment",
+                "Natural Ecosystems: Forests, grasslands, deserts, aquatic",
+                "Artificial Ecosystems: Crop fields, gardens, aquariums"
+              ]
+            },
+            {
+              "title": "Structural Components",
+              "points": [
+                "Biotic Components: Producers, consumers, decomposers",
+                "Abiotic Components: Air, water, soil, sunlight, temperature",
+                "Energy flow and nutrient cycling"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Net Primary Productivity (NPP)",
+              "formula": "NPP = GPP - R\nwhere:\nGPP = Gross Primary Production\nR = Respiratory loss",
+              "explanation": "Amount of biomass available for consumers in an ecosystem"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Conservation",
+              "concept": "Biodiversity Hotspots",
+              "description": "Identifying and protecting ecologically rich areas"
+            }
+          ]
+        },
+        {
+          "name": "Biotic and Abiotic Factors",
+          "notes": [
+            {
+              "title": "Biotic Factors",
+              "points": [
+                "Producers: Plants, algae, phytoplankton",
+                "Consumers: Herbivores, carnivores, omnivores",
+                "Decomposers: Bacteria, fungi",
+                "Scavengers and Detritivores"
+              ]
+            },
+            {
+              "title": "Abiotic Factors",
+              "points": [
+                "Climatic: Temperature, rainfall, wind",
+                "Edaphic: Soil type, pH, mineral content",
+                "Topographic: Altitude, slope, aspect",
+                "Geographic: Latitude, longitude"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "pH Scale",
+              "formula": "pH = -log₁₀[H⁺]\nwhere [H⁺] is hydrogen ion concentration",
+              "explanation": "Measures acidity (0-7) or alkalinity (7-14) of soil/water"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Agriculture",
+              "concept": "Soil Testing",
+              "description": "Measuring abiotic factors for optimal crop production"
+            }
+          ]
+        },
+        {
+          "name": "Food Chain and Food Web",
+          "notes": [
+            {
+              "title": "Food Chain",
+              "points": [
+                "Linear sequence of energy transfer",
+                "Trophic levels: Producers → Primary consumers → Secondary consumers → Tertiary consumers",
+                "Energy loss at each level (10% rule)"
+              ]
+            },
+            {
+              "title": "Food Web",
+              "points": [
+                "Interconnected food chains",
+                "Increases ecosystem stability",
+                "Multiple feeding relationships"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Energy Transfer Efficiency",
+              "formula": "Energy at Trophic Level n+1 = Energy at Trophic Level n × 0.1",
+              "explanation": "Only 10% of energy is transferred between trophic levels"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Wildlife Management",
+              "concept": "Keystone Species",
+              "description": "Understanding food webs to protect ecologically important species"
+            }
+          ]
+        },
+        {
+          "name": "Natural Resources",
+          "notes": [
+            {
+              "title": "Types of Resources",
+              "points": [
+                "Renewable: Solar, wind, water, forests",
+                "Non-renewable: Fossil fuels, minerals",
+                "Inexhaustible: Solar energy, wind energy"
+              ]
+            },
+            {
+              "title": "Resource Management",
+              "points": [
+                "Sustainable use practices",
+                "Conservation methods",
+                "Alternative energy sources",
+                "Rainwater harvesting"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Water Footprint",
+              "formula": "WF = Direct Water Use + Virtual Water Use",
+              "explanation": "Total volume of freshwater used to produce goods and services"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Urban Planning",
+              "concept": "Green Buildings",
+              "description": "Incorporating sustainable resource use in construction"
+            }
+          ]
+        },
+        {
+          "name": "Environmental Pollution",
+          "notes": [
+            {
+              "title": "Types of Pollution",
+              "points": [
+                "Air Pollution: Smog, greenhouse gases, particulates",
+                "Water Pollution: Industrial waste, sewage, oil spills",
+                "Soil Pollution: Pesticides, heavy metals, waste disposal",
+                "Noise Pollution: Traffic, industries, construction"
+              ]
+            },
+            {
+              "title": "Effects and Control",
+              "points": [
+                "Global warming and climate change",
+                "Ozone layer depletion",
+                "Eutrophication of water bodies",
+                "Waste management strategies"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Air Quality Index (AQI)",
+              "formula": "AQI = (I_high - I_low)/(C_high - C_low) × (C - C_low) + I_low",
+              "explanation": "Numerical scale for reporting air quality (0-500)"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Public Health",
+              "concept": "Pollution Monitoring",
+              "description": "Using AQI to issue health advisories"
+            }
+          ]
+        },
+        {
+          "name": "Conservation of Environment",
+          "notes": [
+            {
+              "title": "Conservation Methods",
+              "points": [
+                "In-situ Conservation: National parks, wildlife sanctuaries, biosphere reserves",
+                "Ex-situ Conservation: Zoos, botanical gardens, seed banks",
+                "Community participation in conservation",
+                "Environmental laws and policies"
+              ]
+            },
+            {
+              "title": "Sustainable Development",
+              "points": [
+                "Meeting present needs without compromising future generations",
+                "Sustainable Development Goals (SDGs)",
+                "Role of individuals in conservation",
+                "Eco-friendly practices"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Ecological Footprint",
+              "formula": "EF = (Σ (Amount of resource consumed / World average yield)) × Equivalence Factor × Yield Factor",
+              "explanation": "Measures human demand on Earth's ecosystems"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Corporate Responsibility",
+              "concept": "Carbon Credits",
+              "description": "Market-based approach to controlling greenhouse gas emissions"
+            },
+            {
+              "title": "Education",
+              "concept": "Eco-Clubs",
+              "description": "School programs promoting environmental awareness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Light",
+      "class": "Class 9",
+      "id": 22,
+      "title": "Physics: Light",
+      "topics": [
+        {
+          "name": "Nature of Light",
+          "notes": [
+            {
+              "title": "Properties of Light",
+              "points": [
+                "Light is a form of electromagnetic radiation",
+                "Travels in straight lines (rectilinear propagation)",
+                "Speed in vacuum: 3 × 10⁸ m/s",
+                "Exhibits wave-particle duality"
+              ]
+            },
+            {
+              "title": "Electromagnetic Spectrum",
+              "points": [
+                "Visible light: 400 nm (violet) to 700 nm (red)",
+                "Other types: Radio waves, microwaves, infrared, ultraviolet, X-rays, gamma rays",
+                "Order of increasing frequency: Radio < Microwaves < IR < Visible < UV < X-rays < Gamma"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Wave Equation",
+              "formula": "v = fλ\nwhere:\nv = velocity of light (m/s)\nf = frequency (Hz)\nλ = wavelength (m)",
+              "explanation": "Relates speed, frequency, and wavelength of light"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Optical Communication",
+              "concept": "Fiber Optics",
+              "description": "Uses total internal reflection to transmit data as light pulses"
+            }
+          ]
+        },
+        {
+          "name": "Reflection of Light",
+          "notes": [
+            {
+              "title": "Laws of Reflection",
+              "points": [
+                "First Law: Incident ray, reflected ray, and normal all lie in the same plane",
+                "Second Law: Angle of incidence (i) = Angle of reflection (r)",
+                "Regular vs. Diffuse reflection"
+              ]
+            },
+            {
+              "title": "Types of Reflection",
+              "points": [
+                "Regular Reflection: From smooth surfaces (mirrors)",
+                "Diffuse Reflection: From rough surfaces (paper, walls)",
+                "Multiple Reflections: In multiple mirror systems"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Law of Reflection",
+              "formula": "∠i = ∠r\nwhere:\n∠i = angle of incidence\n∠r = angle of reflection",
+              "explanation": "The angle of incidence equals the angle of reflection"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Safety",
+              "concept": "Rear-view Mirrors",
+              "description": "Convex mirrors provide wider field of view in vehicles"
+            }
+          ]
+        },
+        {
+          "name": "Refraction of Light",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Bending of light when passing between different media",
+                "Due to change in speed of light",
+                "Causes: Twinkling of stars, apparent depth, mirages"
+              ]
+            },
+            {
+              "title": "Laws of Refraction",
+              "points": [
+                "First Law: Incident ray, refracted ray, and normal lie in same plane",
+                "Second Law: Snell's Law (n₁sinθ₁ = n₂sinθ₂)",
+                "Critical angle and total internal reflection"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Refractive Index",
+              "formula": "n = c/v = sin i / sin r\nwhere:\nn = refractive index\nc = speed of light in vacuum\nv = speed of light in medium\ni = angle of incidence\nr = angle of refraction",
+              "explanation": "Measure of how much light bends when entering a medium"
+            },
+            {
+              "title": "Critical Angle",
+              "formula": "sin C = 1/n\nwhere:\nC = critical angle\nn = refractive index of denser medium",
+              "explanation": "Angle of incidence beyond which total internal reflection occurs"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Optical Instruments",
+              "concept": "Lenses",
+              "description": "Used in cameras, microscopes, and eyeglasses to bend light"
+            }
+          ]
+        },
+        {
+          "name": "Images Formed by Mirrors",
+          "notes": [
+            {
+              "title": "Plane Mirrors",
+              "points": [
+                "Virtual, erect, and same size as object",
+                "Image distance = Object distance",
+                "Lateral inversion occurs"
+              ]
+            },
+            {
+              "title": "Spherical Mirrors",
+              "points": [
+                "Concave Mirror: Converging mirror, can form real and virtual images",
+                "Convex Mirror: Diverging mirror, always forms virtual, erect, and diminished images",
+                "Uses: Headlights, shaving mirrors, security mirrors"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mirror Formula",
+              "formula": "1/f = 1/v + 1/u\nwhere:\nf = focal length\nv = image distance\nu = object distance",
+              "explanation": "Relates object distance, image distance, and focal length"
+            },
+            {
+              "title": "Magnification",
+              "formula": "m = -v/u = h'/h\nwhere:\nm = magnification\nv = image distance\nu = object distance\nh' = image height\nh = object height",
+              "explanation": "Ratio of image height to object height"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Medical Field",
+              "concept": "Dental Mirrors",
+              "description": "Concave mirrors provide magnified images of teeth"
+            }
+          ]
+        },
+        {
+          "name": "Applications of Reflection and Refraction",
+          "notes": [
+            {
+              "title": "Optical Instruments",
+              "points": [
+                "Microscopes: Compound and simple microscopes",
+                "Telescopes: Refracting and reflecting types",
+                "Cameras: Lens systems for image formation",
+                "Human Eye: Natural optical instrument"
+              ]
+            },
+            {
+              "title": "Everyday Applications",
+              "points": [
+                "Periscopes: Uses plane mirrors for seeing around corners",
+                "Kaleidoscopes: Multiple reflections create patterns",
+                "Spectacles: Corrective lenses for vision defects",
+                "Binoculars: Prism-based light path folding"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Lens Power",
+              "formula": "P = 1/f\nwhere:\nP = power in diopters (D)\nf = focal length in meters",
+              "explanation": "Measure of the degree of convergence or divergence of light"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Astronomy",
+              "concept": "Telescopes",
+              "description": "Use mirrors and lenses to observe distant celestial objects"
+            },
+            {
+              "title": "Entertainment",
+              "concept": "Cinema Projectors",
+              "description": "Use lenses to project enlarged images on screens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Gravitation",
+      "class": "Class 9",
+      "id": 23,
+      "title": "Physics: Gravitation",
+      "topics": [
+        {
+          "name": "Universal Law of Gravitation",
+          "notes": [
+            {
+              "title": "Newton's Law of Gravitation",
+              "points": [
+                "Every object in the universe attracts every other object with a force",
+                "Force is directly proportional to the product of their masses",
+                "Force is inversely proportional to the square of the distance between them",
+                "F = G (m₁m₂)/r² where G = 6.67 × 10⁻¹¹ Nm²/kg²"
+              ]
+            },
+            {
+              "title": "Characteristics",
+              "points": [
+                "Always attractive in nature",
+                "Independent of the medium between objects",
+                "Follows Newton's Third Law of Motion",
+                "Weakest of all fundamental forces"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Gravitational Force",
+              "formula": "F = G (m₁m₂)/r²\nwhere:\nF = Gravitational force\nG = Universal gravitational constant (6.67 × 10⁻¹¹ Nm²/kg²)\nm₁, m₂ = Masses of two objects\nr = Distance between centers of masses",
+              "explanation": "Calculates the force of attraction between any two objects with mass"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Astronomy",
+              "concept": "Planetary Motion",
+              "description": "Explains the motion of planets around the Sun and satellites around planets"
+            }
+          ]
+        },
+        {
+          "name": "Mass and Weight",
+          "notes": [
+            {
+              "title": "Mass",
+              "points": [
+                "Amount of matter in a body",
+                "SI unit: kilogram (kg)",
+                "Constant everywhere in the universe",
+                "Measured using beam balance"
+              ]
+            },
+            {
+              "title": "Weight",
+              "points": [
+                "Force with which a body is attracted towards Earth",
+                "W = mg (m = mass, g = acceleration due to gravity)",
+                "SI unit: newton (N)",
+                "Measured using spring balance",
+                "Varies with location (altitude and depth)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Weight Calculation",
+              "formula": "W = m × g\nwhere:\nW = Weight (N)\nm = Mass (kg)\ng = Acceleration due to gravity (9.8 m/s² on Earth's surface)",
+              "explanation": "Calculates the weight of an object based on its mass and local gravitational acceleration"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Space Exploration",
+              "concept": "Microgravity",
+              "description": "Astronauts experience weightlessness in space due to free-fall conditions, though their mass remains the same"
+            }
+          ]
+        },
+        {
+          "name": "Free Fall",
+          "notes": [
+            {
+              "title": "Concepts",
+              "points": [
+                "Motion under the influence of gravity alone",
+                "Acceleration due to gravity (g) = 9.8 m/s² (on Earth's surface)",
+                "All objects, regardless of mass, fall with same acceleration (in vacuum)",
+                "Equations of motion apply with a = g"
+              ]
+            },
+            {
+              "title": "Terminal Velocity",
+              "points": [
+                "Maximum velocity attained by a falling object",
+                "Occurs when air resistance equals weight",
+                "Depends on shape and size of object",
+                "Parachutes use this principle"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Free Fall Equations",
+              "formula": "v = u + gt\nh = ut + ½gt²\nv² = u² + 2gh\nwhere:\nv = final velocity\nu = initial velocity\ng = acceleration due to gravity\nt = time\nh = height",
+              "explanation": "Equations to calculate various parameters of an object in free fall"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Sports",
+              "concept": "Skydiving",
+              "description": "Skydivers reach terminal velocity during free fall before deploying parachutes"
+            }
+          ]
+        },
+        {
+          "name": "Thrust and Pressure",
+          "notes": [
+            {
+              "title": "Thrust",
+              "points": [
+                "Force acting normally on a surface",
+                "SI unit: newton (N)",
+                "Example: Weight of an object is thrust on the surface it rests"
+              ]
+            },
+            {
+              "title": "Pressure",
+              "points": [
+                "Force per unit area (P = F/A)",
+                "SI unit: pascal (Pa) or N/m²",
+                "Increases with decreasing area for same force",
+                "Liquids and gases exert pressure in all directions"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Pressure Calculation",
+              "formula": "P = F/A\nwhere:\nP = Pressure (Pa)\nF = Force (N)\nA = Area (m²)",
+              "explanation": "Pressure is inversely proportional to the area on which force is applied"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Engineering",
+              "concept": "Foundation Design",
+              "description": "Wider foundations reduce pressure on soil to prevent sinking"
+            }
+          ]
+        },
+        {
+          "name": "Buoyancy",
+          "notes": [
+            {
+              "title": "Archimedes' Principle",
+              "points": [
+                "When a body is immersed in a fluid, it experiences an upward force called buoyant force",
+                "Buoyant force equals the weight of the fluid displaced",
+                "Explains why objects float or sink",
+                "Apparent loss in weight = weight of fluid displaced"
+              ]
+            },
+            {
+              "title": "Applications",
+              "points": [
+                "Ships and submarines",
+                "Hydrometers and lactometers",
+                "Hot air balloons",
+                "Hydraulic systems"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Buoyant Force",
+              "formula": "F_b = ρVg\nwhere:\nF_b = Buoyant force (N)\nρ = Density of fluid (kg/m³)\nV = Volume of displaced fluid (m³)\ng = Acceleration due to gravity (m/s²)",
+              "explanation": "Calculates the upward force exerted by a fluid on an immersed object"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Marine Engineering",
+              "concept": "Ship Design",
+              "description": "Ships are designed to displace a volume of water whose weight is equal to the ship's weight, allowing them to float"
+            },
+            {
+              "title": "Medical",
+              "concept": "Density Measurement",
+              "description": "Lactometers use buoyancy principle to measure milk purity"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Social Science": [
+    {
+      "chapterName": "Evolution of Humans and Society",
+      "class": "Class 9",
+      "id": 15,
+      "title": "History: Human Evolution",
+      "topics": [
+        {
+          "name": "Early Humans",
+          "notes": [
+            {
+              "title": "Human Evolution Timeline",
+              "points": [
+                "Australopithecus (4-2 million years ago): Bipedal, small brain",
+                "Homo habilis (2.4-1.4 mya): First tool users",
+                "Homo erectus (1.9 mya-143,000 ya): First to use fire, migrated out of Africa",
+                "Homo neanderthalensis (400,000-40,000 ya): Lived in Europe and Asia",
+                "Homo sapiens (300,000 ya-present): Modern humans"
+              ]
+            },
+            {
+              "title": "Key Discoveries",
+              "points": [
+                "Lucy (Australopithecus afarensis) - 1974, Ethiopia",
+                "Java Man (Homo erectus) - 1891, Indonesia",
+                "Neanderthal remains - 1856, Germany",
+                "Bhimbetka rock shelters - India, showing early human life"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Dating Methods",
+              "formula": "Carbon-14 Dating: t = [ln(Nf/No)/(-0.693)] × t1/2",
+              "explanation": "Used to determine the age of organic materials up to 50,000 years old"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Anthropology",
+              "concept": "Human Migration",
+              "description": "Tracing human migration patterns through DNA analysis and fossil records"
+            }
+          ]
+        },
+        {
+          "name": "Stone Age Civilisation",
+          "notes": [
+            {
+              "title": "Paleolithic Age (2.5 mya - 10,000 BCE)",
+              "points": [
+                "Old Stone Age: Hunter-gatherer lifestyle",
+                "Cave paintings (e.g., Bhimbetka, Lascaux)",
+                "Simple stone tools (choppers, hand axes)"
+              ]
+            },
+            {
+              "title": "Mesolithic Age (10,000 - 8,000 BCE)",
+              "points": [
+                "Middle Stone Age: Development of microliths",
+                "Domestication of dogs",
+                "Beginning of settled life"
+              ]
+            },
+            {
+              "title": "Neolithic Age (8,000 - 3,000 BCE)",
+              "points": [
+                "New Stone Age: Agriculture and animal domestication",
+                "Pottery and weaving",
+                "Megalithic structures (e.g., Stonehenge)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Population Growth",
+              "formula": "Population Growth Rate = (Births - Deaths) + (Immigration - Emigration)",
+              "explanation": "Shows how human populations changed with the advent of agriculture"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Archaeology",
+              "concept": "Excavation Techniques",
+              "description": "Modern methods like ground-penetrating radar help uncover ancient settlements"
+            }
+          ]
+        },
+        {
+          "name": "Development of Society",
+          "notes": [
+            {
+              "title": "Social Organization",
+              "points": [
+                "From nomadic bands to settled communities",
+                "Development of social hierarchies",
+                "Emergence of specialized occupations"
+              ]
+            },
+            {
+              "title": "Cultural Advancements",
+              "points": [
+                "Development of language and art",
+                "Religious beliefs and rituals",
+                "Early trade networks",
+                "Invention of writing systems"
+              ]
+            },
+            {
+              "title": "Technological Progress",
+              "points": [
+                "From stone to metal tools (Copper, Bronze, Iron Ages)",
+                "Invention of the wheel",
+                "Development of agriculture and irrigation"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Cultural Development Index",
+              "formula": "CDI = (Education + Technology + Social Organization) / 3",
+              "explanation": "Measures the level of cultural development in early societies"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Modern Society",
+              "concept": "Cultural Heritage",
+              "description": "Preservation of ancient sites and traditions helps us understand human development"
+            },
+            {
+              "title": "Education",
+              "concept": "History Curriculum",
+              "description": "Studying human evolution helps us understand our shared heritage and cultural diversity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Ancient Civilisations",
+      "class": "Class 9",
+      "id": 16,
+      "title": "History: Ancient Civilisations",
+      "topics": [
+        {
+          "name": "Indus Valley Civilisation",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Flourished around 2600-1900 BCE in present-day Pakistan and northwest India",
+                "Major cities: Mohenjo-Daro, Harappa, Dholavira, Rakhigarhi",
+                "Advanced urban planning with grid system and drainage",
+                "Writing system remains undeciphered"
+              ]
+            },
+            {
+              "title": "Achievements",
+              "points": [
+                "Standardized weights and measures",
+                "Advanced water management systems",
+                "Pottery, beads, and jewelry making",
+                "Trade with Mesopotamia and other regions"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Urban Planning Ratio",
+              "formula": "City Area : Residential Area : Public Space ≈ 1 : 0.7 : 0.3",
+              "explanation": "Shows the planned distribution of space in Indus cities"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Modern Urban Planning",
+              "concept": "Sanitation Systems",
+              "description": "Ancient Indus drainage systems inspire modern sanitation solutions"
+            }
+          ]
+        },
+        {
+          "name": "Egyptian Civilisation",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Developed along the Nile River (3100-332 BCE)",
+                "Known for pyramids, pharaohs, and mummification",
+                "Hieroglyphic writing system",
+                "Complex religious beliefs and mythology"
+              ]
+            },
+            {
+              "title": "Achievements",
+              "points": [
+                "Architecture: Pyramids, temples, and obelisks",
+                "Mathematics and astronomy",
+                "Medicine and surgery",
+                "Solar calendar (365 days)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Pyramid Construction",
+              "formula": "Volume = (Base Area × Height) / 3",
+              "explanation": "Formula used in pyramid construction, showing advanced mathematical knowledge"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Modern Architecture",
+              "concept": "Monumental Structures",
+              "description": "Egyptian engineering principles influence modern large-scale construction"
+            }
+          ]
+        },
+        {
+          "name": "Mesopotamian Civilisation",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Between Tigris and Euphrates rivers (3500-500 BCE)",
+                "Cradle of civilization with first cities (Ur, Uruk, Babylon)",
+                "Cuneiform writing on clay tablets",
+                "Code of Hammurabi (early law code)"
+              ]
+            },
+            {
+              "title": "Achievements",
+              "points": [
+                "Invention of the wheel",
+                "Base-60 number system (time and angles)",
+                "Astronomy and astrology",
+                "Ziggurats (temple complexes)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Cuneiform Tablet Production",
+              "formula": "Tablet Size (cm²) ≈ Content Complexity × 2 + 10",
+              "explanation": "Relationship between tablet size and content complexity in cuneiform writing"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Modern Law",
+              "concept": "Legal Systems",
+              "description": "Hammurabi's Code influences modern legal principles of justice and evidence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Civics and Constitution",
+      "class": "Class 9",
+      "id": 18,
+      "title": "Civics: Constitution",
+      "topics": [
+        {
+          "name": "Meaning of Constitution",
+          "notes": [
+            {
+              "title": "Definition and Importance",
+              "points": [
+                "Supreme law of the land that defines the political principles, structure, and powers of government",
+                "Establishes the relationship between the government and citizens",
+                "Provides framework for governance and protects citizens' rights",
+                "Indian Constitution is the world's longest written constitution"
+              ]
+            },
+            {
+              "title": "Key Features",
+              "points": [
+                "Federal system with unitary features",
+                "Parliamentary form of government",
+                "Independent judiciary",
+                "Fundamental Rights and Directive Principles",
+                "Secular and democratic principles"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Constitutional Framework",
+              "formula": "Constitution = Preamble + Parts + Schedules + Amendments",
+              "explanation": "Structure of the Indian Constitution with its key components"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Democratic Governance",
+              "concept": "Constitutional Law",
+              "description": "Forms the basis for all laws and governance in the country"
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Rights",
+          "notes": [
+            {
+              "title": "Types of Fundamental Rights",
+              "points": [
+                "Right to Equality (Articles 14-18)",
+                "Right to Freedom (Articles 19-22)",
+                "Right against Exploitation (Articles 23-24)",
+                "Right to Freedom of Religion (Articles 25-28)",
+                "Cultural and Educational Rights (Articles 29-30)",
+                "Right to Constitutional Remedies (Article 32)"
+              ]
+            },
+            {
+              "title": "Significance",
+              "points": [
+                "Protect individual liberties against state action",
+                "Justiciable in courts of law",
+                "Not absolute - subject to reasonable restrictions",
+                "Can be suspended during emergency (except Articles 20-21)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Right to Equality",
+              "formula": "Equality = Equal Protection + No Discrimination + Equal Opportunity",
+              "explanation": "Core components of the Right to Equality"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Social Justice",
+              "concept": "Public Interest Litigation (PIL)",
+              "description": "Allows citizens to approach courts for enforcement of fundamental rights"
+            }
+          ]
+        },
+        {
+          "name": "Duties of Citizens",
+          "notes": [
+            {
+              "title": "Fundamental Duties (Article 51A)",
+              "points": [
+                "To abide by the Constitution and respect its ideals and institutions",
+                "To cherish and follow noble ideals of freedom struggle",
+                "To uphold and protect sovereignty, unity and integrity of India",
+                "To defend the country and render national service when called upon",
+                "To promote harmony and spirit of common brotherhood"
+              ]
+            },
+            {
+              "title": "Additional Duties",
+              "points": [
+                "To protect and improve natural environment",
+                "To develop scientific temper and spirit of inquiry",
+                "To safeguard public property",
+                "To strive for excellence in all spheres"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Duty Fulfillment Index",
+              "formula": "DFI = (Duties Fulfilled / Total Duties) × 100",
+              "explanation": "Measures the extent to which citizens fulfill their constitutional duties"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Civic Responsibility",
+              "concept": "Swachh Bharat Abhiyan",
+              "description": "Example of citizens fulfilling their duty to maintain cleanliness and protect the environment"
+            },
+            {
+              "title": "National Integration",
+              "concept": "Ek Bharat Shreshtha Bharat",
+              "description": "Initiative promoting national unity and cultural exchange among states"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Civics and Constitution",
+      "class": "Class 9",
+      "id": 18,
+      "title": "Civics: Constitution",
+      "topics": [
+        {
+          "name": "Meaning of Constitution",
+          "notes": [
+            {
+              "title": "Definition and Purpose",
+              "points": [
+                "A constitution is the supreme law of a country",
+                "It defines the structure of government and its organs",
+                "Establishes the relationship between the government and citizens",
+                "Guarantees fundamental rights and freedoms",
+                "Provides a framework for governance and rule of law"
+              ]
+            },
+            {
+              "title": "Salient Features of Indian Constitution",
+              "points": [
+                "Longest written constitution in the world",
+                "Federal system with unitary features",
+                "Parliamentary form of government",
+                "Independent judiciary",
+                "Fundamental Rights and Duties",
+                "Directive Principles of State Policy"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Constitutional Amendment Process",
+              "formula": "Amendment = (Proposal + Special Majority) + (Ratification by States if required)",
+              "explanation": "The process to amend the Indian Constitution requires special majority in Parliament and in some cases, ratification by state legislatures"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Constitutional Governance",
+              "concept": "Rule of Law",
+              "description": "The Indian Constitution ensures that all citizens, including government officials, are subject to and accountable under the law"
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Rights",
+          "notes": [
+            {
+              "title": "Types of Fundamental Rights",
+              "points": [
+                "Right to Equality (Articles 14-18)",
+                "Right to Freedom (Articles 19-22)",
+                "Right against Exploitation (Articles 23-24)",
+                "Right to Freedom of Religion (Articles 25-28)",
+                "Cultural and Educational Rights (Articles 29-30)",
+                "Right to Constitutional Remedies (Article 32)"
+              ]
+            },
+            {
+              "title": "Significance",
+              "points": [
+                "Protect individual liberties against state action",
+                "Justiciable - can be enforced in courts",
+                "Not absolute - subject to reasonable restrictions",
+                "Can be suspended during National Emergency (except Articles 20-21)"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Writ Jurisdiction",
+              "formula": "Habeas Corpus + Mandamus + Prohibition + Certiorari + Quo Warranto = Complete Protection",
+              "explanation": "The five types of writs available under Article 32 for enforcement of Fundamental Rights"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Landmark Judgments",
+              "concept": "Kesavananda Bharati Case (1973)",
+              "description": "Established the 'Basic Structure Doctrine' that Parliament cannot alter the basic structure of the Constitution"
+            }
+          ]
+        },
+        {
+          "name": "Duties of Citizens",
+          "notes": [
+            {
+              "title": "Fundamental Duties (Article 51A)",
+              "points": [
+                "To abide by the Constitution and respect its ideals and institutions",
+                "To cherish and follow the noble ideals of the freedom struggle",
+                "To uphold and protect the sovereignty, unity and integrity of India",
+                "To defend the country and render national service when called upon",
+                "To promote harmony and spirit of common brotherhood"
+              ]
+            },
+            {
+              "title": "Significance of Duties",
+              "points": [
+                "Added by 42nd Amendment (1976) on recommendation of Swaran Singh Committee",
+                "Remind citizens of their responsibilities while enjoying rights",
+                "Help in promoting a sense of discipline and commitment",
+                "Strengthen democratic processes and national integration"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Rights-Duties Relationship",
+              "formula": "Rights + Duties = Responsible Citizenship",
+              "explanation": "Fundamental Rights and Duties are two sides of the same coin - one cannot exist without the other in a democracy"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Civic Engagement",
+              "concept": "Swachh Bharat Abhiyan",
+              "description": "A practical example of citizens fulfilling their fundamental duty to protect and improve the natural environment"
+            },
+            {
+              "title": "National Integration",
+              "concept": "Ek Bharat Shreshtha Bharat",
+              "description": "Reflects the duty to promote harmony and spirit of common brotherhood among all Indians"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Economics – Production and Employment",
+      "class": "Class 9",
+      "id": 19,
+      "title": "Economics: Production",
+      "topics": [
+        {
+          "name": "Factors of Production",
+          "notes": [
+            {
+              "title": "Land",
+              "points": [
+                "Natural resources used in production",
+                "Characteristics: Fixed supply, immobile, differs in fertility",
+                "Reward: Rent",
+                "Example: Agricultural land, mineral deposits"
+              ]
+            },
+            {
+              "title": "Labor",
+              "points": [
+                "Human effort in production",
+                "Types: Skilled, semi-skilled, unskilled",
+                "Reward: Wages/Salaries",
+                "Factors affecting labor productivity"
+              ]
+            },
+            {
+              "title": "Capital",
+              "points": [
+                "Man-made resources used in production",
+                "Types: Fixed and working capital",
+                "Reward: Interest",
+                "Role in economic growth"
+              ]
+            },
+            {
+              "title": "Entrepreneurship",
+              "points": [
+                "Organizes other factors of production",
+                "Bears risk and uncertainty",
+                "Reward: Profit",
+                "Role in innovation and development"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Production Function",
+              "formula": "Q = f(L, K, N, E)\nwhere:\nQ = Quantity of output\nL = Labor\nK = Capital\nN = Land\nE = Entrepreneurship",
+              "explanation": "Shows relationship between inputs and outputs in production"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Business",
+              "concept": "Startup Ecosystem",
+              "description": "How factors of production come together in new business ventures"
+            }
+          ]
+        },
+        {
+          "name": "Types of Employment",
+          "notes": [
+            {
+              "title": "Primary Sector",
+              "points": [
+                "Involves extraction of raw materials",
+                "Examples: Agriculture, mining, fishing",
+                "Characteristics: Seasonal employment, lower wages",
+                "Contribution to GDP in developing countries"
+              ]
+            },
+            {
+              "title": "Secondary Sector",
+              "points": [
+                "Manufacturing and construction",
+                "Examples: Factories, construction sites",
+                "Characteristics: Regular employment, higher wages",
+                "Industrial development indicator"
+              ]
+            },
+            {
+              "title": "Tertiary Sector",
+              "points": [
+                "Service sector",
+                "Examples: Banking, education, healthcare",
+                "Characteristics: Knowledge-based, highest wages",
+                "Largest contributor to GDP in developed nations"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Employment Rate",
+              "formula": "Employment Rate = (Employed People / Total Labor Force) × 100",
+              "explanation": "Percentage of working-age population that is employed"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Economic Development",
+              "concept": "Structural Change",
+              "description": "Shift from primary to tertiary sector employment as economies develop"
+            }
+          ]
+        },
+        {
+          "name": "Unemployment",
+          "notes": [
+            {
+              "title": "Types of Unemployment",
+              "points": [
+                "Seasonal: Due to seasonal nature of work (e.g., farming)",
+                "Disguised: More people employed than needed",
+                "Structural: Mismatch of skills and job requirements",
+                "Cyclical: Due to economic downturns",
+                "Technological: Job losses due to automation"
+              ]
+            },
+            {
+              "title": "Causes and Effects",
+              "points": [
+                "Rapid population growth",
+                "Slow industrial growth",
+                "Inappropriate education system",
+                "Effects: Poverty, social unrest, economic burden"
+              ]
+            },
+            {
+              "title": "Government Measures",
+              "points": [
+                "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)",
+                "Skill development programs",
+                "Promotion of small-scale industries",
+                "Encouragement to self-employment"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Unemployment Rate",
+              "formula": "Unemployment Rate = (Number of Unemployed / Labor Force) × 100",
+              "explanation": "Percentage of labor force that is jobless and seeking employment"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Government Policy",
+              "concept": "Make in India",
+              "description": "Initiative to boost manufacturing and create employment opportunities"
+            },
+            {
+              "title": "Education",
+              "concept": "Skill India",
+              "description": "Program to enhance employability through skill development"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Medieval Indian History",
+      "class": "Class 9",
+      "id": 24,
+      "title": "History: Medieval India",
+      "topics": [
+        {
+          "name": "Delhi Sultanate",
+          "notes": [
+            {
+              "title": "Major Dynasties",
+              "points": [
+                "Slave Dynasty (1206-1290): Founded by Qutb-ud-din Aibak",
+                "Khilji Dynasty (1290-1320): Notable ruler Alauddin Khilji",
+                "Tughlaq Dynasty (1320-1414): Muhammad bin Tughlaq's administrative experiments",
+                "Sayyid and Lodi Dynasties (1414-1526): Last of the Delhi Sultans"
+              ]
+            },
+            {
+              "title": "Administration",
+              "points": [
+                "Centralized administration with Sultan as supreme authority",
+                "Iqta system: Land revenue system",
+                "Diwan-i-Arz: Military department",
+                "Diwan-i-Insha: Correspondence department"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Revenue Collection",
+              "formula": "Land Revenue = (Total Agricultural Output - Cost of Cultivation) × Tax Rate",
+              "explanation": "Basic structure of revenue collection during Delhi Sultanate"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Urban Development",
+              "concept": "Qutb Minar Complex",
+              "description": "Example of Indo-Islamic architecture from the Delhi Sultanate period"
+            }
+          ]
+        },
+        {
+          "name": "Mughal Empire",
+          "notes": [
+            {
+              "title": "Great Mughals",
+              "points": [
+                "Babur (1526-1530): Founded Mughal Empire, First Battle of Panipat (1526)",
+                "Akbar (1556-1605): Religious tolerance, Din-i-Ilahi, Mansabdari system",
+                "Shah Jahan (1628-1658): Golden Age of architecture, Taj Mahal",
+                "Aurangzeb (1658-1707): Expansion to Deccan, religious policies"
+              ]
+            },
+            {
+              "title": "Administration",
+              "points": [
+                "Mansabdari system: Military and civil administration",
+                "Zabt system: Revenue system under Akbar",
+                "Jagirdari system: Land revenue assignment",
+                "Subas: Provinces divided into sarkars and parganas"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mansab Rank Calculation",
+              "formula": "Zat (Personal Rank) × 10 = Sawar (Cavalrymen)\nDagh (Branding) + Chehra (Descriptive Roll) = Army Organization",
+              "explanation": "Military-administrative system under the Mughals"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Cultural Heritage",
+              "concept": "Mughal Architecture",
+              "description": "Influence seen in modern Indian architecture and urban planning"
+            }
+          ]
+        },
+        {
+          "name": "Administration and Society",
+          "notes": [
+            {
+              "title": "Administrative Structure",
+              "points": [
+                "Centralized administration with king/emperor at the top",
+                "Wazir: Prime Minister, headed revenue and finance",
+                "Diwan-i-Kul: Chief finance minister",
+                "Mir Bakshi: Head of military department"
+              ]
+            },
+            {
+              "title": "Social Structure",
+              "points": [
+                "Feudal system with kings, nobles, and peasants",
+                "Caste system continued but with some flexibility",
+                "Position of women: Purdah system, limited rights",
+                "Sufi and Bhakti movements influenced society"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Revenue Assessment",
+              "formula": "Land Revenue = (Total Land × Crop Yield × Government Share) - Remissions",
+              "explanation": "Basic structure of land revenue assessment in medieval India"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Governance",
+              "concept": "Decentralization",
+              "description": "Lessons from medieval administration in modern governance"
+            }
+          ]
+        },
+        {
+          "name": "Art and Culture",
+          "notes": [
+            {
+              "title": "Architecture",
+              "points": [
+                "Indo-Islamic architecture: Blend of Indian and Persian styles",
+                "Key features: Arches, domes, minarets, calligraphy",
+                "Examples: Qutub Minar, Taj Mahal, Red Fort",
+                "Regional styles: Bengal, Gujarat, Deccan"
+              ]
+            },
+            {
+              "title": "Literature and Music",
+              "points": [
+                "Development of regional languages: Hindi, Bengali, Marathi",
+                "Persian as court language",
+                "Sufi and Bhakti literature",
+                "Hindustani classical music development"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Architectural Ratio",
+              "formula": "Dome Height : Minaret Height : Building Width ≈ 1 : 2 : 3",
+              "explanation": "Common proportional relationships in Indo-Islamic architecture"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Cultural Tourism",
+              "concept": "World Heritage Sites",
+              "description": "Many medieval Indian monuments are UNESCO World Heritage Sites"
+            },
+            {
+              "title": "Performing Arts",
+              "concept": "Classical Music",
+              "description": "Continuation of medieval musical traditions in modern Indian classical music"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Modern Indian History",
+      "class": "Class 9",
+      "id": 25,
+      "title": "History: Modern India",
+      "topics": [
+        {
+          "name": "Arrival of Europeans",
+          "notes": [
+            {
+              "title": "Portuguese",
+              "points": [
+                "Vasco da Gama arrived in Calicut (1498)",
+                "Established colonies in Goa, Daman, and Diu",
+                "Introduced new crops: Potato, tobacco, maize",
+                "Decline due to Dutch and British competition"
+              ]
+            },
+            {
+              "title": "Dutch, French, and British",
+              "points": [
+                "Dutch: Focused on spice trade from Southeast Asia",
+                "French: Established Pondicherry, Chandannagar",
+                "British: East India Company (1600), established Madras, Bombay, Calcutta",
+                "Carnatic Wars led to British dominance"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Trade Monopoly",
+              "formula": "Trade Power = (Naval Strength × Trading Posts) - Competition",
+              "explanation": "Factors determining European dominance in Indian trade"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Culinary Influence",
+              "concept": "Indo-Portuguese Cuisine",
+              "description": "Introduction of chili, potato, and bread to Indian cuisine"
+            }
+          ]
+        },
+        {
+          "name": "British Administration in India",
+          "notes": [
+            {
+              "title": "Administrative Structure",
+              "points": [
+                "Governor-General (later Viceroy) as head",
+                "Civil Services (ICS): Steel frame of British rule",
+                "Police and judicial systems established",
+                "Revenue systems: Permanent, Ryotwari, Mahalwari"
+              ]
+            },
+            {
+              "title": "Economic Policies",
+              "points": [
+                "Drain of Wealth theory by Dadabhai Naoroji",
+                "Deindustrialization of Indian handicrafts",
+                "Commercialization of agriculture",
+                "Railways and communication networks"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Drain of Wealth",
+              "formula": "Drain = (Home Charges + Interest on Debt) - (Value of Services + Capital Inflow)",
+              "explanation": "Calculation of economic drain from India to Britain"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Civil Services",
+              "concept": "Indian Administrative Service (IAS)",
+              "description": "Modern successor to the ICS, continuing the administrative framework"
+            }
+          ]
+        },
+        {
+          "name": "Socio-Religious Reforms",
+          "notes": [
+            {
+              "title": "Reform Movements",
+              "points": [
+                "Brahmo Samaj (Raja Ram Mohan Roy): Against Sati, for women's education",
+                "Arya Samaj (Dayanand Saraswati): Back to Vedas, against idol worship",
+                "Prarthana Samaj (Atmaram Pandurang): Social reform in Maharashtra",
+                "Aligarh Movement (Sir Syed Ahmed Khan): Modern education for Muslims"
+              ]
+            },
+            {
+              "title": "Impact",
+              "points": [
+                "Abolition of Sati (1829)",
+                "Widow Remarriage Act (1856)",
+                "Women's education promoted",
+                "Rise of modern Indian languages and literature"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Reform Impact Index",
+              "formula": "Impact = (Social Awareness + Legal Reforms + Education) / 3",
+              "explanation": "Measuring the effectiveness of reform movements"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Education",
+              "concept": "Modern School System",
+              "description": "Legacy of 19th century educational reforms"
+            }
+          ]
+        },
+        {
+          "name": "Early Resistance Movements",
+          "notes": [
+            {
+              "title": "Tribal Uprisings",
+              "points": [
+                "Santhal Rebellion (1855-56): Against British land policies",
+                "Munda Ulgulan (1899-1900): Birsa Munda's movement",
+                "Ramosi Uprising (1822-29): Against British administration"
+              ]
+            },
+            {
+              "title": "Peasant Movements",
+              "points": [
+                "Indigo Revolt (1859-60): Against forced indigo cultivation",
+                "Deccan Riots (1875): Against moneylenders",
+                "Pabna Movement (1873-76): Against zamindari oppression"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Resistance Strength",
+              "formula": "Resistance = (Grievances × Organization) / Repression",
+              "explanation": "Factors determining the intensity of resistance movements"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Social Justice",
+              "concept": "Tribal Rights",
+              "description": "Continuation of tribal rights movements in independent India"
+            },
+            {
+              "title": "Agriculture",
+              "concept": "Farmers' Movements",
+              "description": "Historical roots of contemporary farmers' issues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Resources and Development",
+      "class": "Class 9",
+      "id": 26,
+      "title": "Geography: Resources",
+      "topics": [
+        {
+          "name": "Types of Resources",
+          "notes": [
+            {
+              "title": "Classification of Resources",
+              "points": [
+                "Natural Resources: Air, water, soil, minerals",
+                "Human-made Resources: Buildings, roads, machinery",
+                "Human Resources: People and their skills",
+                "Renewable vs. Non-renewable resources"
+              ]
+            },
+            {
+              "title": "Resource Development",
+              "points": [
+                "Sustainable development concept",
+                "Resource planning and management",
+                "Intergenerational equity",
+                "Gandhian philosophy of resource use"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Resource Sustainability Index",
+              "formula": "RSI = (Renewable Resources Used / Total Resources Used) × 100",
+              "explanation": "Measures the sustainability of resource usage"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Environmental Policy",
+              "concept": "Circular Economy",
+              "description": "Modern approach to sustainable resource use"
+            }
+          ]
+        },
+        {
+          "name": "Natural Resources of India",
+          "notes": [
+            {
+              "title": "Land Resources",
+              "points": [
+                "Total geographical area: 3.28 million sq km",
+                "Land use pattern: Net sown area, forests, wasteland",
+                "Major soil types: Alluvial, Black, Red, Laterite, Arid, Forest",
+                "Land degradation and conservation measures"
+              ]
+            },
+            {
+              "title": "Water Resources",
+              "points": [
+                "Annual precipitation: 4000 BCM (Billion Cubic Meters)",
+                "Major river systems: Ganga, Brahmaputra, Godavari, etc.",
+                "Groundwater resources and depletion issues",
+                "Multi-purpose river valley projects"
+              ]
+            },
+            {
+              "title": "Mineral and Energy Resources",
+              "points": [
+                "Coal reserves: Jharkhand, Odisha, Chhattisgarh",
+                "Petroleum: Mumbai High, Assam, Gujarat",
+                "Renewable energy potential: Solar, wind, hydro",
+                "Conservation of mineral resources"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Water Availability",
+              "formula": "Per Capita Water Availability = Total Usable Water / Population",
+              "explanation": "Measures water availability per person in cubic meters per year"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Agriculture",
+              "concept": "Soil Health Cards",
+              "description": "Government initiative for sustainable soil management"
+            }
+          ]
+        },
+        {
+          "name": "Conservation of Resources",
+          "notes": [
+            {
+              "title": "Conservation Methods",
+              "points": [
+                "3R Principle: Reduce, Reuse, Recycle",
+                "Rainwater harvesting",
+                "Afforestation and social forestry",
+                "Sustainable agricultural practices"
+              ]
+            },
+            {
+              "title": "Government Initiatives",
+              "points": [
+                "National Forest Policy",
+                "Watershed Development Programmes",
+                "National Mission for Sustainable Agriculture",
+                "Renewable Energy Development"
+              ]
+            },
+            {
+              "title": "Individual Responsibility",
+              "points": [
+                "Water and energy conservation at home",
+                "Waste segregation and management",
+                "Use of public transport and carpooling",
+                "Adoption of renewable energy sources"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Ecological Footprint",
+              "formula": "EF = (Carbon + Food + Housing + Goods + Services) / Earth's Capacity",
+              "explanation": "Measures human demand on Earth's ecosystems"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Urban Development",
+              "concept": "Smart Cities Mission",
+              "description": "Integrating resource conservation in urban planning"
+            },
+            {
+              "title": "Education",
+              "concept": "Environmental Education",
+              "description": "Creating awareness about resource conservation in schools"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Indian Constitution",
+      "class": "Class 9",
+      "id": 27,
+      "title": "Civics: Indian Constitution",
+      "topics": [
+        {
+          "name": "Preamble of the Constitution",
+          "notes": [
+            {
+              "title": "Key Components",
+              "points": [
+                "Sovereign: India is an independent nation",
+                "Socialist: Social and economic equality",
+                "Secular: No official religion, equal respect for all religions",
+                "Democratic: Government of the people, by the people, for the people",
+                "Republic: Head of state (President) is elected, not hereditary"
+              ]
+            },
+            {
+              "title": "Significance",
+              "points": [
+                "Philosophical foundation of the Constitution",
+                "Source of authority: \"We, the people of India...\"",
+                "Contains objectives: Justice, Liberty, Equality, Fraternity",
+                "Reflects the basic structure of the Constitution"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Preamble Analysis",
+              "formula": "Preamble = Ideals + Objectives + Source of Authority",
+              "explanation": "The Preamble combines the core ideals, objectives, and source of the Constitution's authority"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Legal Interpretation",
+              "concept": "Basic Structure Doctrine",
+              "description": "Preamble used by Supreme Court to interpret constitutional provisions"
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Rights",
+          "notes": [
+            {
+              "title": "Types of Fundamental Rights",
+              "points": [
+                "Right to Equality (Articles 14-18): Equality before law, prohibition of discrimination",
+                "Right to Freedom (Articles 19-22): Freedom of speech, assembly, movement, etc.",
+                "Right against Exploitation (Articles 23-24): Prohibition of human trafficking, child labor",
+                "Right to Freedom of Religion (Articles 25-28): Freedom of conscience and religion",
+                "Cultural and Educational Rights (Articles 29-30): Protection of minority interests",
+                "Right to Constitutional Remedies (Article 32): Right to approach Supreme Court"
+              ]
+            },
+            {
+              "title": "Features",
+              "points": [
+                "Justiciable: Can be enforced in courts",
+                "Not absolute: Subject to reasonable restrictions",
+                "Suspension during Emergency (except Articles 20-21)",
+                "Protection against state action, not private individuals"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Right to Freedom Restrictions",
+              "formula": "Freedom = Right - Reasonable Restrictions",
+              "explanation": "Fundamental freedoms are subject to reasonable restrictions in public interest"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Social Justice",
+              "concept": "Right to Education",
+              "description": "Article 21A making education a fundamental right for children aged 6-14"
+            }
+          ]
+        },
+        {
+          "name": "Directive Principles of State Policy",
+          "notes": [
+            {
+              "title": "Nature and Importance",
+              "points": [
+                "Non-justiciable guidelines for government (Articles 36-51)",
+                "Aim to establish social and economic democracy",
+                "Based on Gandhian, Socialist, and Liberal principles",
+                "Helpful in interpreting the Constitution"
+              ]
+            },
+            {
+              "title": "Key Principles",
+              "points": [
+                "Equal pay for equal work for men and women",
+                "Right to work and education",
+                "Promotion of cottage industries",
+                "Protection of environment and wildlife",
+                "Separation of judiciary from executive"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "DPSP Implementation",
+              "formula": "DPSP + Political Will + Resources = Social Welfare",
+              "explanation": "Implementation of Directive Principles requires political will and resources"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Government Schemes",
+              "concept": "MGNREGA",
+              "description": "Implementation of right to work principle from DPSP"
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Duties",
+          "notes": [
+            {
+              "title": "List of Duties (Article 51A)",
+              "points": [
+                "To abide by the Constitution and respect its ideals",
+                "To cherish and follow noble ideals of freedom struggle",
+                "To uphold and protect sovereignty, unity and integrity of India",
+                "To defend the country and render national service",
+                "To promote harmony and spirit of common brotherhood",
+                "To protect and improve natural environment",
+                "To develop scientific temper and spirit of inquiry",
+                "To safeguard public property",
+                "To strive for excellence in all spheres"
+              ]
+            },
+            {
+              "title": "Significance",
+              "points": [
+                "Added by 42nd Amendment (1976)",
+                "Moral obligations of citizens",
+                "Help in maintaining discipline and national unity",
+                "Judicial interpretations have given them importance"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Duty Fulfillment Index",
+              "formula": "DFI = (Duties Practiced / Total Duties) × 100",
+              "explanation": "Measures the extent to which citizens fulfill their fundamental duties"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Civic Responsibility",
+              "concept": "Swachh Bharat Abhiyan",
+              "description": "Reflects the fundamental duty to maintain cleanliness"
+            },
+            {
+              "title": "Education",
+              "concept": "Value Education",
+              "description": "Schools incorporating fundamental duties in curriculum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterName": "Indian Economy",
+      "class": "Class 9",
+      "id": 28,
+      "title": "Economics: Indian Economy",
+      "topics": [
+        {
+          "name": "Basic Concepts of Economics",
+          "notes": [
+            {
+              "title": "Fundamental Concepts",
+              "points": [
+                "Scarcity and Choice: Limited resources vs unlimited wants",
+                "Opportunity Cost: Cost of next best alternative foregone",
+                "Production Possibility Curve (PPC): Shows maximum production possibilities",
+                "Types of Goods: Consumer goods, capital goods, public goods"
+              ]
+            },
+            {
+              "title": "Economic Systems",
+              "points": [
+                "Capitalist Economy: Private ownership, profit motive",
+                "Socialist Economy: State ownership, welfare motive",
+                "Mixed Economy: Coexistence of public and private sectors (India's model)",
+                "Features of Indian Mixed Economy"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Opportunity Cost",
+              "formula": "Opportunity Cost = Return of Best Foregone Option - Return of Chosen Option",
+              "explanation": "Calculates the cost of choosing one option over another"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Economic Planning",
+              "concept": "Five Year Plans",
+              "description": "India's approach to economic development through planned investments"
+            }
+          ]
+        },
+        {
+          "name": "Sectors of the Economy",
+          "notes": [
+            {
+              "title": "Primary Sector",
+              "points": [
+                "Agriculture and allied activities",
+                "Contribution to GDP: ~15%",
+                "Employment: ~42% of workforce",
+                "Challenges: Low productivity, dependence on monsoons"
+              ]
+            },
+            {
+              "title": "Secondary Sector",
+              "points": [
+                "Manufacturing and construction",
+                "Contribution to GDP: ~25%",
+                "Key industries: Textiles, automobiles, pharmaceuticals",
+                "Make in India initiative"
+              ]
+            },
+            {
+              "title": "Tertiary/Service Sector",
+              "points": [
+                "Services like IT, banking, tourism",
+                "Contribution to GDP: ~60%",
+                "Fastest growing sector",
+                "IT-BPM industry as global leader"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Sectoral Contribution",
+              "formula": "Sector's % in GDP = (Sector's GVA / Total GVA) × 100",
+              "explanation": "Calculates a sector's contribution to Gross Value Added (GVA)"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Employment",
+              "concept": "Gig Economy",
+              "description": "Rise of platform-based work in service sector"
+            }
+          ]
+        },
+        {
+          "name": "Role of Government in Economic Development",
+          "notes": [
+            {
+              "title": "Economic Functions",
+              "points": [
+                "Provision of public goods: Defense, law and order",
+                "Redistribution of income: Progressive taxation, subsidies",
+                "Economic stability: Monetary and fiscal policies",
+                "Regulation and control: Preventing monopolies, consumer protection"
+              ]
+            },
+            {
+              "title": "Development Initiatives",
+              "points": [
+                "Infrastructure development: Roads, ports, digital India",
+                "Social sector spending: Education, healthcare",
+                "Poverty alleviation: MGNREGA, PM-KISAN",
+                "Skill development: PMKVY, National Skill Development Mission"
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Fiscal Multiplier",
+              "formula": "Fiscal Multiplier = 1 / (1 - MPC)\nwhere MPC = Marginal Propensity to Consume",
+              "explanation": "Measures the effect of government spending on national income"
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Digital India",
+              "concept": "JAM Trinity",
+              "description": "Jan Dhan, Aadhaar, Mobile - Government's financial inclusion initiative"
+            },
+            {
+              "title": "Infrastructure",
+              "concept": "Bharatmala and Sagarmala",
+              "description": "Flagship programs for road and port connectivity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

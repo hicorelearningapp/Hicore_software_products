@@ -1,0 +1,327 @@
+[2026-01-13 09:38:10] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 09:38:10] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 09:38:10] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 09:38:10] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 09:38:10] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 09:58:17] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 09:58:17] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 09:58:17] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 09:58:17] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 09:58:17] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 09:59:29] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 09:59:29] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 09:59:29] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 09:59:29] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 09:59:29] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 09:59:31] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 113, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 105, in loader
+    progress = calculate_progress(data, completed_topics)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 25, in calculate_progress
+    all_topics = extract_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 19, in extract_topics
+    print("topics",topic)
+UnboundLocalError: local variable 'topic' referenced before assignment
+[2026-01-13 09:59:42] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 113, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 105, in loader
+    progress = calculate_progress(data, completed_topics)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 25, in calculate_progress
+    all_topics = extract_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 19, in extract_topics
+    print("topics",topic)
+UnboundLocalError: local variable 'topic' referenced before assignment
+[2026-01-13 10:01:31] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:01:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:01:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:01:32] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:01:32] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:03:47] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:03:47] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:03:47] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:03:47] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:03:47] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:14:22] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:14:22] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:14:22] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:14:22] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:14:22] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:15:05] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:15:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:15:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:15:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:15:05] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:29:04] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:29:04] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:29:04] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:29:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:29:05] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:29:09] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:29:09] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:29:09] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:29:09] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:29:09] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 10:31:31] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 10:31:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 10:31:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 10:31:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 10:31:31] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:27:05] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:27:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:27:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:27:05] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:27:05] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:29:17] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:29:17] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:29:17] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:29:18] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:29:18] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:31:12] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:31:12] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:31:12] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:31:12] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:31:12] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:31:31] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 116, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 105, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 32, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 11, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:33:15] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:33:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:33:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:33:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:33:15] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:33:19] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 116, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 112, in loader
+    "data": full_json["data"],
+KeyError: 'data'
+[2026-01-13 12:33:29] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 116, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 112, in loader
+    "data": full_json["data"],
+KeyError: 'data'
+[2026-01-13 12:34:44] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:34:44] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:34:44] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:34:44] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:34:44] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:34:54] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 116, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 105, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 63, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 17, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:35:05] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 116, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 105, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 63, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 17, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:37:34] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:37:34] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:37:34] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:37:34] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:37:34] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:38:54] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:38:54] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:38:54] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:38:54] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:38:54] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:39:13] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 12:39:13] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 12:39:13] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 12:39:13] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 12:39:13] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 12:39:17] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 115, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 104, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 46, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 18, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:39:18] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 115, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 104, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 46, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 18, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:39:19] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 115, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 104, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 46, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 18, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 12:39:19] [ERROR] [app.modules.exams.routers.exams] Unexpected content retrieval error
+Traceback (most recent call last):
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 19, in safe_fetch
+    return ok(func())
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\routers\exams.py", line 87, in <lambda>
+    return safe_fetch(lambda: service.get_learn(exam_id))
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 115, in get_learn
+    return self._with_cache(f"learn:{exam_id}", loader)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 60, in _with_cache
+    data = loader()
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\content_service.py", line 104, in loader
+    progress = calculate_full_progress(
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 46, in calculate_full_progress
+    exam_data = extract_exam_class_topics(api_response)
+  File "D:\AI_career_studio_backend\exam_app\app\modules\exams\services\progress_service.py", line 18, in extract_exam_class_topics
+    for exam_name, units in learn_data.items():
+AttributeError: 'list' object has no attribute 'items'
+[2026-01-13 18:02:46] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:02:46] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:02:46] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:02:46] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:02:46] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:03:18] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:03:18] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:03:18] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:03:18] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:03:18] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:03:31] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:03:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:03:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:03:31] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:03:31] [ERROR] [app.core.startup] Failed to include router app.modules.week_exams.routers.admin: No module named 'app.modules.exams.services.exam_service'
+[2026-01-13 18:03:31] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:04:39] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:04:39] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:04:39] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:04:39] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:04:39] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:04:39] [ERROR] [app.core.startup] Failed to include router app.modules.week_exams.routers.student: No module named 'app.modules.exams.services.exam_service'
+[2026-01-13 18:04:39] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:05:15] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.student
+[2026-01-13 18:05:15] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:10:25] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.student
+[2026-01-13 18:10:25] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:12:57] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.student
+[2026-01-13 18:12:57] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:16:41] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.student
+[2026-01-13 18:16:41] [INFO] [app.core.startup] 🎉 Startup complete!
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.auth.routers.auth_router
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.exams.routers.analyzer
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.exams.routers.exams
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.exams.routers.upload
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.admin
+[2026-01-13 18:27:58] [INFO] [app.core.startup] Router included: app.modules.week_exams.routers.student
+[2026-01-13 18:27:58] [INFO] [app.core.startup] 🎉 Startup complete!

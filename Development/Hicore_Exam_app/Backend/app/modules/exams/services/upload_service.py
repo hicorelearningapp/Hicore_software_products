@@ -32,7 +32,7 @@ class UploadService:
     }
 
     ALLOWED_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg", ".webp"}
-    MAX_UPLOAD_MB = 10
+    MAX_UPLOAD_MB = 50
 
     HOMEPAGE_FILE = "homepage.json"
 
