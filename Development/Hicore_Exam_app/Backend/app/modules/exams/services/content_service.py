@@ -4,6 +4,8 @@ import os
 import time
 import logging
 
+from fastapi.responses import FileResponse
+
 from app.database.local_json import LocalJSONRepository
 from app.database.base import BaseRepository
 
@@ -170,6 +172,29 @@ class ContentService:
                 # "images": ImageManager.REFERENCE,
                 "data": self.exams.get_file(exam_id, "reference.json"),
             },
+        )
+
+    def download_reference_file(self, exam_id: str, file_path: str) -> FileResponse:
+        _ = self.exams.get_detail(exam_id)
+        
+        if file_path.startswith("/"):
+            file_path = file_path[1:]
+        
+        if ".." in file_path:
+            raise ValueError("Invalid file path")
+        
+        data_root = Path(self.repo.data_root)
+        full_path = data_root / file_path
+        
+        if not full_path.exists() or not full_path.is_file():
+            raise FileNotFoundError(f"File not found: {file_path}")
+        
+        filename = full_path.name
+        
+        return FileResponse(
+            path=str(full_path),
+            filename=filename,
+            media_type="application/pdf"
         )
 
     def get_all_courses(self) -> Dict[str, list[str]]:

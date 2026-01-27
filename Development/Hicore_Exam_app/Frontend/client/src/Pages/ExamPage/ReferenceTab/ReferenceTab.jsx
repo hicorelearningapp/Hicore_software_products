@@ -56,10 +56,9 @@ const ReferenceTab = () => {
                 key={tab}
                 onClick={() => setActiveTab(tab)}
                 className={`py-3 text-sm font-medium text-center transition
-                  ${
-                    activeTab === tab
-                      ? "bg-[#b7cdfd] text-[#1d3b8b]"
-                      : "bg-white text-gray-500 hover:bg-gray-50"
+                  ${activeTab === tab
+                    ? "bg-[#b7cdfd] text-[#1d3b8b]"
+                    : "bg-white text-gray-500 hover:bg-gray-50"
                   }
                 `}
               >

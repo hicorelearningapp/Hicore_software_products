@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
+from fastapi.responses import FileResponse
 from typing import Dict, Any
 import logging
 
@@ -105,3 +106,29 @@ async def get_revision(exam_id: str):
 @router.get("/{exam_id}/reference")
 async def get_reference(exam_id: str):
     return safe_fetch(lambda: service.get_reference(exam_id))
+
+
+@router.get("/{exam_id}/reference/download")
+async def download_reference_file(exam_id: str, file_path: str):
+    try:
+        file_response = service.download_reference_file(exam_id, file_path)
+        return file_response
+    
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail="File not found"
+        )
+    
+    except ValueError as e:
+        raise HTTPException(
+            status_code=400,
+            detail=str(e)
+        )
+    
+    except Exception:
+        logger.exception("Failed to download reference file")
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to download file"
+        )
