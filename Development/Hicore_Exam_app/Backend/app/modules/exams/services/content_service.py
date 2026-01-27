@@ -163,6 +163,15 @@ class ContentService:
             },
         )
 
+    def get_reference(self, exam_id: str):
+        return self._with_cache(
+            f"reference:{exam_id}",
+            lambda: {
+                # "images": ImageManager.REFERENCE,
+                "data": self.exams.get_file(exam_id, "reference.json"),
+            },
+        )
+
     def get_all_courses(self) -> Dict[str, list[str]]:
         return self._with_cache(
             "courses",

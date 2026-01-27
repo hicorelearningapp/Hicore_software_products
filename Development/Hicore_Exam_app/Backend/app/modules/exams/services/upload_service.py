@@ -29,6 +29,7 @@ class UploadService:
         "practice.json",
         "test.json",
         "revision.json",
+        "reference.json",
     }
 
     ALLOWED_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg", ".webp"}

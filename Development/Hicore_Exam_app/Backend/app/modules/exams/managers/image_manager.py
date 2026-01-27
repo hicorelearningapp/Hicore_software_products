@@ -59,3 +59,10 @@ class ImageManager:
         {"name": "leftArrowIcon", "url": "/assets/TestTab/left-arrow.png"},
         {"name": "rightArrowIcon", "url": "/assets/TestTab/right-arrow.png"},
     ]
+
+    REFERENCE = [
+        {"name": "pdfIcon", "url": "/assets/Reference/pdf-icon.png"},
+        {"name": "videoIcon", "url": "/assets/Reference/video-icon.png"},
+        {"name": "articleIcon", "url": "/assets/Reference/article-icon.png"},
+        {"name": "downloadIcon", "url": "/assets/Reference/download-icon.png"},
+    ]

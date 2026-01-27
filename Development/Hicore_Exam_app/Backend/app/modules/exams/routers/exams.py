@@ -100,3 +100,8 @@ async def get_test(exam_id: str):
 @router.get("/{exam_id}/revision")
 async def get_revision(exam_id: str):
     return safe_fetch(lambda: service.get_revision(exam_id))
+
+
+@router.get("/{exam_id}/reference")
+async def get_reference(exam_id: str):
+    return safe_fetch(lambda: service.get_reference(exam_id))
