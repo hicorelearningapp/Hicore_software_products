@@ -6,14 +6,190 @@
       "id": 1,
       "title": "Unit 1: Force, Work, Power and Energy",
       "topics": [
-        { "name": "Contact and Non-contact Forces", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Newton’s Laws of Motion", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Momentum and Its Conservation", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Work Done by a Force", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Energy and Its Forms", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Potential and Kinetic Energy", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Law of Conservation of Energy", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Power and Commercial Unit of Energy", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Contact and Non-contact Forces",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Contact Forces: Frictional force, Normal reaction force, Tension force.",
+                "Non-contact Forces: Gravitational force, Magnetic force, Electrostatic force."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Newton’s Laws of Motion",
+          "notes": [
+            {
+              "title": "Laws",
+              "points": [
+                "First Law (Law of Inertia): An object remains at rest or in uniform motion unless acted upon by an external force.",
+                "Second Law: Rate of change of momentum is proportional to applied force (F = ma).",
+                "Third Law: For every action, there is an equal and opposite reaction."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Second Law",
+              "formula": "F = ma",
+              "explanation": "Force = mass * acceleration."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Seatbelts",
+              "concept": "Inertia",
+              "description": "Seatbelts prevent passengers from continuing forward motion (inertia) when a car stops suddenly."
+            }
+          ]
+        },
+        {
+          "name": "Momentum and Its Conservation",
+          "notes": [
+            {
+              "title": "Conservation Principle",
+              "points": [
+                "In an isolated system, the total momentum remains constant.",
+                "m1u1 + m2u2 = m1v1 + m2v2."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Momentum",
+              "formula": "p = mv",
+              "explanation": "Momentum is the product of mass and velocity."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Rocket Propulsion",
+              "concept": "Conservation of Momentum",
+              "description": "Exhaust gases pushed backward propel the rocket forward with equal momentum."
+            }
+          ]
+        },
+        {
+          "name": "Work Done by a Force",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Work is done when a force applied on a body produces displacement.",
+                "Zero Work: When displacement is zero or force is perpendicular to displacement."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Work",
+              "formula": "W = Fs cos θ",
+              "explanation": "F=Force, s=Displacement, θ=Angle between Force and Displacement."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Porter carrying load",
+              "concept": "Zero Work",
+              "description": "A porter carrying a load on his head and walking horizontally does zero work against gravity (angle is 90°)."
+            }
+          ]
+        },
+        {
+          "name": "Energy and Its Forms",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Energy is the capacity to do work.",
+                "SI Unit: Joule (J)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Potential and Kinetic Energy",
+          "notes": [
+            {
+              "title": "Mechanical Energy",
+              "points": [
+                "Potential Energy (PE): Energy possessed by a body due to its position or configuration.",
+                "Kinetic Energy (KE): Energy possessed by a body due to its motion."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Potential Energy",
+              "formula": "PE = mgh",
+              "explanation": "Gravitational potential energy at height h."
+            },
+            {
+              "title": "Kinetic Energy",
+              "formula": "KE = ½ mv²",
+              "explanation": "Energy of a moving object."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Dam Water",
+              "concept": "Potential Energy",
+              "description": "Water stored at a height in a dam possesses potential energy used to generate electricity."
+            }
+          ]
+        },
+        {
+          "name": "Law of Conservation of Energy",
+          "notes": [
+            {
+              "title": "Statement",
+              "points": [
+                "Energy can neither be created nor destroyed, only transformed from one form to another.",
+                "Total mechanical energy (PE + KE) of a freely falling body remains constant."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Power and Commercial Unit of Energy",
+          "notes": [
+            {
+              "title": "Power",
+              "points": [
+                "Rate of doing work.",
+                "SI Unit: Watt (W) or J/s.",
+                "Commercial Unit of Energy: Kilowatt-hour (kWh)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Power",
+              "formula": "P = W/t = Fv",
+              "explanation": "Power related to Work and Velocity."
+            },
+            {
+              "title": "Kilowatt-hour",
+              "formula": "1 kWh = 3.6 × 10⁶ J",
+              "explanation": "Conversion factor."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Electricity Bill",
+              "concept": "kWh",
+              "description": "Household electricity consumption is measured in 'units', where 1 unit = 1 kWh."
+            }
+          ]
+        }
       ]
     },
     {
@@ -22,14 +198,122 @@
       "id": 2,
       "title": "Unit 2: Light",
       "topics": [
-        { "name": "Nature of Light", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Reflection of Light", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Plane Mirrors", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Refraction of Light", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Refraction Through Glass Slab", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Lenses and Image Formation", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Magnification", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Applications of Lenses", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Reflection of Light",
+          "notes": [
+            {
+              "title": "Laws of Reflection",
+              "points": [
+                "Angle of Incidence = Angle of Reflection (i = r).",
+                "Incident ray, Reflected ray and Normal all lie in the same plane."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Plane Mirrors",
+          "notes": [
+            {
+              "title": "Image Characteristics",
+              "points": [
+                "Virtual and Erect.",
+                "Laterally inverted (Left appears Right).",
+                "Same size as object.",
+                "Distance of image behind mirror = Distance of object in front."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Periscope",
+              "concept": "Reflection",
+              "description": "Uses two plane mirrors at 45° to see objects above the line of sight (e.g., in submarines)."
+            }
+          ]
+        },
+        {
+          "name": "Refraction of Light",
+          "notes": [
+            {
+              "title": "Laws of Refraction",
+              "points": [
+                "Snell's Law: ratio of sine of angle of incidence to sine of angle of refraction is constant (Refractive Index).",
+                "Light bends towards normal when moving from rarer to denser medium, and away when moving denser to rarer."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Snell's Law",
+              "formula": "μ = sin i / sin r",
+              "explanation": "μ = Refractive Index."
+            },
+            {
+              "title": "Refractive Index (Speed)",
+              "formula": "μ = c / v",
+              "explanation": "c = Speed of light in vacuum, v = Speed of light in medium."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Twinkling of Stars",
+              "concept": "Atmospheric Refraction",
+              "description": "Starlight undergoes continuous refraction through changing atmospheric layers, causing twinkling."
+            }
+          ]
+        },
+        {
+          "name": "Lenses and Image Formation",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Convex Lens: Converging lens, thicker at center.",
+                "Concave Lens: Diverging lens, thinner at center."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Lens Formula",
+              "formula": "1/f = 1/v - 1/u",
+              "explanation": "f=focal length, v=image distance, u=object distance."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Magnification",
+          "notes": [],
+          "formulas": [
+            {
+              "title": "Magnification",
+              "formula": "m = hi/ho = v/u",
+              "explanation": "Ratio of image height to object height."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Applications of Lenses",
+          "notes": [],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Spectacles",
+              "concept": "Vision Correction",
+              "description": "Convex lenses correct Hypermetropia (Long-sightedness), Concave lenses correct Myopia (Short-sightedness)."
+            },
+            {
+              "title": "Camera",
+              "concept": "Convex Lens",
+              "description": "Uses a convex lens to focus real images onto a film or sensor."
+            }
+          ]
+        }
       ]
     },
     {
@@ -38,11 +322,94 @@
       "id": 3,
       "title": "Unit 3: Sound",
       "topics": [
-        { "name": "Production of Sound", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Propagation of Sound Waves", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Characteristics of Sound", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Audible and Inaudible Sounds", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Ultrasound and Its Applications", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Production and Propagation",
+          "notes": [
+            {
+              "title": "Mechanism",
+              "points": [
+                "Sound is produced by vibrating bodies.",
+                "Requires a material medium (solid, liquid, gas) for propagation.",
+                "Cannot travel through vacuum."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Speed of Sound",
+              "formula": "v = fλ",
+              "explanation": "v = Speed, f = Frequency, λ = Wavelength."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Echoes",
+          "notes": [
+            {
+              "title": "Conditions",
+              "points": [
+                "Reflection of sound from a distant obstacle.",
+                "Minimum distance for distinct echo in air is approx 17m (since sensation of sound persists for 0.1s)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Echo Distance",
+              "formula": "d = vt / 2",
+              "explanation": "Distance to obstacle."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "SONAR",
+              "concept": "Echo",
+              "description": "Sound Navigation And Ranging uses ultrasonic echoes to measure depth of ocean or locate underwater objects."
+            }
+          ]
+        },
+        {
+          "name": "Characteristics of Sound",
+          "notes": [
+            {
+              "title": "Subjective vs Objective",
+              "points": [
+                "Loudness: Depends on Amplitude. Measured in Decibels (dB).",
+                "Pitch: Depends on Frequency (Shrillness).",
+                "Quality (Timbre): Depends on Waveform (distinguishes same note from different instruments)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Guitar vs Flute",
+              "concept": "Quality",
+              "description": "We can distinguish a guitar and a flute playing the same note due to difference in quality (wave patterns)."
+            }
+          ]
+        },
+        {
+          "name": "Ultrasound",
+          "notes": [
+            {
+              "title": "Uses",
+              "points": [
+                "Frequency > 20,000 Hz.",
+                "Used in medical imaging (Ultrasound scan), drilling holes, cleaning parts."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Bats",
+              "concept": "Echolocation",
+              "description": "Bats emit ultrasonic squeaks to navigate and find prey in the dark."
+            }
+          ]
+        }
       ]
     },
     {
@@ -51,14 +418,145 @@
       "id": 4,
       "title": "Unit 4: Electricity and Magnetism",
       "topics": [
-        { "name": "Electric Charge and Current", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Ohm’s Law", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Electrical Resistance", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Electrical Energy and Power", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Magnetic Effect of Electric Current", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Electromagnets and Permanent Magnets", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Electromagnetic Induction", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Domestic Electric Circuits", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Current and Voltage",
+          "notes": [
+            {
+              "title": "Ohm's Law",
+              "points": [
+                "Current flowing through a conductor is directly proportional to potential difference across its ends, provided temperature remains constant.",
+                "V ∝ I or V = IR."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Ohm's Law",
+              "formula": "V = IR",
+              "explanation": "Relation between Voltage, Current, and Resistance."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Electrical Resistance",
+          "notes": [
+            {
+              "title": "Factors Affecting Resistance",
+              "points": [
+                "Material of conductor.",
+                "Length (R ∝ L).",
+                "Area of Cross-section (R ∝ 1/A).",
+                "Temperature."
+              ]
+            },
+            {
+              "title": "Combination",
+              "points": [
+                "Series: Total R = R1 + R2 + ... (Current same).",
+                "Parallel: 1/R = 1/R1 + 1/R2 + ... (Voltage same)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Resistivity",
+              "formula": "R = ρ L/A",
+              "explanation": "ρ (rho) is specific resistance."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Household Wiring",
+              "concept": "Parallel Circuits",
+              "description": "Appliances in homes are connected in parallel so each operates independently at the same voltage."
+            }
+          ]
+        },
+        {
+          "name": "Electrical Power and Energy",
+          "notes": [],
+          "formulas": [
+            {
+              "title": "Electric Power",
+              "formula": "P = VI = I²R = V²/R",
+              "explanation": "Rate of electrical energy consumption."
+            },
+            {
+              "title": "Heating Effect (Joule's Law)",
+              "formula": "H = I²Rt",
+              "explanation": "Heat produced in a resistor."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Electric Iron",
+              "concept": "Heating Effect",
+              "description": "Uses high resistance coil (Nichrome) to convert large amount of electrical energy into heat."
+            }
+          ]
+        },
+        {
+          "name": "Magnetic Effect of Current",
+          "notes": [
+            {
+              "title": "Electromagnetism",
+              "points": [
+                "A current carrying conductor produces a magnetic field around it (Oersted).",
+                "Direction given by Right Hand Thumb Rule."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Electric Bell",
+              "concept": "Electromagnet",
+              "description": "Uses an electromagnet to repeatedly strike a gong."
+            }
+          ]
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "notes": [
+            {
+              "title": "Principles",
+              "points": [
+                "Change in magnetic flux linked with a coil induces an EMF (Faraday's Laws).",
+                "Direction of induced current opposes the cause (Lenz's Law)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Generator",
+              "concept": "Induction",
+              "description": "AC Generator converts mechanical energy to electrical energy using EM induction."
+            }
+          ]
+        },
+        {
+          "name": "Domestic Circuits",
+          "notes": [
+            {
+              "title": "Components",
+              "points": [
+                "Live (Phase), Neutral, and Earth wires.",
+                "Fuse: Safety device (series) with low melting point.",
+                "Switch: Connected in live wire."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Earthing",
+              "concept": "Safety",
+              "description": "Earth wire connects metal case of appliances to ground to prevent electric shock."
+            }
+          ]
+        }
       ]
     },
     {
@@ -67,13 +565,181 @@
       "id": 5,
       "title": "Unit 5: Heat",
       "topics": [
-        { "name": "Heat and Temperature", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Modes of Heat Transfer", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Conduction", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Convection", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Radiation", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Specific Heat Capacity", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Latent Heat", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Heat and Temperature",
+          "notes": [
+            {
+              "title": "Difference",
+              "points": [
+                "Heat: A form of energy which flows from a hotter body to a colder body. SI Unit: Joule (J).",
+                "Temperature: The degree of hotness or coldness of a body. Determine direction of heat flow. SI Unit: Kelvin (K)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Temperature Conversion",
+              "formula": "K = °C + 273",
+              "explanation": "Relation between Kelvin and Celsius scales."
+            },
+            {
+              "title": "Fahrenheit Conversion",
+              "formula": "C/5 = (F-32)/9",
+              "explanation": "Relation between Celsius and Fahrenheit."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Thermometer",
+              "concept": "Measurement",
+              "description": "Mercury expands with rise in temperature, allowing us to measure body temperature."
+            }
+          ]
+        },
+        {
+          "name": "Modes of Heat Transfer",
+          "notes": [
+            {
+              "title": "Comparison",
+              "points": [
+                "Conduction: In solids, no actual movement of medium particles.",
+                "Convection: In fluids (liquids/gases), actual movement of medium particles.",
+                "Radiation: No medium required, electromagnetic waves."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Conduction",
+          "notes": [
+            {
+              "title": "Mechanism",
+              "points": [
+                "Heat transfer through molecular vibrations and free electron diffusion in solids.",
+                "Good Conductors: Metals (Copper, Silver).",
+                "Bad Conductors (Insulators): Wood, Glass, Plastic, Air."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cooking Utensils",
+              "concept": "Conduction",
+              "description": "Pans are made of metal to conduct heat to food, while handles are made of plastic (insulator) to protect hands."
+            }
+          ]
+        },
+        {
+          "name": "Convection",
+          "notes": [
+            {
+              "title": "Convection Current",
+              "points": [
+                "Process where heated fluid becomes less dense and rises, while cooler, denser fluid moves down to take its place.",
+                "Responsible for Land Breeze and Sea Breeze."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Ventilation",
+              "concept": "Convection",
+              "description": "Ventilators are placed high in rooms because warm, stale air rises and escapes, while fresh cool air enters from below."
+            }
+          ]
+        },
+        {
+          "name": "Calorimetry",
+          "notes": [
+            {
+              "title": "Principle",
+              "points": [
+                "Heat Lost = Heat Gained (if no heat is lost to surroundings).",
+                "Based on the Law of Conservation of Energy."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Radiation",
+          "notes": [
+            {
+              "title": "Properties",
+              "points": [
+                "Heat transfer that requires no medium.",
+                "Travels at the speed of light.",
+                "Black surfaces are good absorbers and radiators of heat."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Solar Cooker",
+              "concept": "Absorption",
+              "description": "Solar cookers are painted black inside to maximize heat absorption from sunlight."
+            }
+          ]
+        },
+        {
+          "name": "Specific Heat Capacity",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "The amount of heat energy required to raise the temperature of unit mass of a substance by 1°C (or 1 K).",
+                "SI Unit: J/kg K.",
+                "Water has a very high specific heat capacity (4200 J/kg K)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Heat Energy",
+              "formula": "Q = mcΔT",
+              "explanation": "m = mass, c = specific heat capacity, ΔT = Change in temperature."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Car Radiator Coolant",
+              "concept": "High Specific Heat",
+              "description": "Water is used as a coolant because it can absorb a lot of heat without a large rise in temperature."
+            }
+          ]
+        },
+        {
+          "name": "Latent Heat",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Latent Heat of Fusion: Solid to Liquid change at constant temperature (melting point).",
+                "Latent Heat of Vaporization: Liquid to Gas change at constant temperature (boiling point)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Change of State",
+              "formula": "Q = mL",
+              "explanation": "L = Specific Latent Heat."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Steam Burns",
+              "concept": "Latent Heat of Vaporization",
+              "description": "Steam causes more severe burns than boiling water because it contains extra latent heat energy."
+            }
+          ]
+        }
       ]
     },
     {
@@ -82,10 +748,96 @@
       "id": 6,
       "title": "Unit 6: Modern Physics",
       "topics": [
-        { "name": "Atomic Structure", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Radioactivity", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Types of Nuclear Radiations", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Uses and Hazards of Nuclear Energy", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Atomic Structure",
+          "notes": [
+            {
+              "title": "Nucleus",
+              "points": [
+                "Central positively charged electric core.",
+                "Contains Protons (p+) and Neutrons (n0).",
+                "Nucleons: Protons + Neutrons."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Radioactivity",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Spontaneous emission of radiations (Alpha, Beta, Gamma) from the nucleus of an unstable atom.",
+                "It is a nuclear phenomenon.",
+                "Unaffected by physical or chemical changes."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Carbon Dating",
+              "concept": "Radioactivity",
+              "description": "Using C-14 isotope to determine the age of ancient fossils and artifacts."
+            }
+          ]
+        },
+        {
+          "name": "Types of Nuclear Radiations",
+          "notes": [
+            {
+              "title": "Comparison",
+              "points": [
+                "Alpha (α): Helium nucleus (He2+). Positive charge. Low penetrating power, high ionizing power.",
+                "Beta (β): Fast moving electron (e-). Negative charge. Moderate penetrating power.",
+                "Gamma (γ): Electromagnetic wave. Neutral. High penetrating power, low ionizing power."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cancer Treatment",
+              "concept": "Gamma Rays",
+              "description": "Cobalt-60 emits gamma rays which are used to kill cancer cells (Radiotherapy)."
+            }
+          ]
+        },
+        {
+          "name": "Uses and Hazards of Nuclear Energy",
+          "notes": [
+            {
+              "title": "Hazards",
+              "points": [
+                "Biological damage: Genetic mutations, skin burns, cancer.",
+                "Safety: Lead shielding, thick concrete walls, dosimeters for workers."
+              ]
+            },
+            {
+              "title": "Nuclear Fission vs Fusion",
+              "points": [
+                "Fission: Splitting of heavy nucleus (Uranium). Principle of Atom Bomb and Nuclear Reactiors.",
+                "Fusion: Combining light nuclei (Hydrogen). Principle of Hydrogen Bomb and Sun's energy."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mass-Energy Equivalence",
+              "formula": "E = mc²",
+              "explanation": "Einstein's equation relating mass defect to energy released."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Nuclear Power Plants",
+              "concept": "Energy Generation",
+              "description": "Controlled chain reaction of Uranium fission is used to generate electricity."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -96,13 +848,136 @@
       "id": 7,
       "title": "Unit 1: Periodic Table",
       "topics": [
-        { "name": "Modern Periodic Law", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Structure of the Periodic Table", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Groups and Periods", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Periodic Trends", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Atomic Size and Atomic Radius", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Valency", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Metallic and Non-metallic Character", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Modern Periodic Law",
+          "notes": [
+            {
+              "title": "Statement",
+              "points": [
+                "The physical and chemical properties of elements are a periodic function of their atomic numbers (Moseley)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Structure of the Periodic Table",
+          "notes": [
+            {
+              "title": "Features",
+              "points": [
+                "7 Horizontal rows called Periods.",
+                "18 Vertical columns called Groups.",
+                "Elements in the same group have the same number of valence electrons and similar chemical properties."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Kitchen Organization",
+              "concept": "Classification",
+              "description": "Just as spices are arranged by type in a kitchen for easy access, elements are arranged by properties in the periodic table."
+            }
+          ]
+        },
+        {
+          "name": "Groups and Periods",
+          "notes": [
+            {
+              "title": "Special Groups",
+              "points": [
+                "Group 1: Alkali Metals (Highly reactive).",
+                "Group 2: Alkaline Earth Metals.",
+                "Group 17: Halogens (Salt formers).",
+                "Group 18: Noble/Inert Gases (Stable octet)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Neon Lights",
+              "concept": "Noble Gases",
+              "description": "Noble gases like Neon and Argon are used in advertising signs and light bulbs due to their unreactive nature."
+            }
+          ]
+        },
+        {
+          "name": "Periodic Trends",
+          "notes": [
+            {
+              "title": "Trends across Period (Left to Right)",
+              "points": [
+                "Atomic Size: Decreases.",
+                "Ionization Potential: Increases.",
+                "Electron Affinity: Increases.",
+                "Electronegativity: Increases.",
+                "Metallic Character: Decreases."
+              ]
+            },
+            {
+              "title": "Trends down a Group (Top to Bottom)",
+              "points": [
+                "Atomic Size: Increases.",
+                "Ionization Potential: Decreases.",
+                "Electron Affinity: Decreases.",
+                "Electronegativity: Decreases.",
+                "Metallic Character: Increases."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Atomic Size and Atomic Radius",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Distance from the center of the nucleus to the outermost shell of electrons."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Valency",
+          "notes": [
+            {
+              "title": "Variation",
+              "points": [
+                "Across Period: Increases from 1 to 4, then decreases to 0.",
+                "Down Group: Remains the same."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Metallic and Non-metallic Character",
+          "notes": [
+            {
+              "title": "Nature",
+              "points": [
+                "Metals: Electron donors (Electropositive).",
+                "Non-metals: Electron acceptors (Electronegative)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Wires and Insulators",
+              "concept": "Metals vs Non-metals",
+              "description": "Copper (metal) is used for conducting electricity, while PVC (polymer/non-metal) is used as an insulator coating."
+            }
+          ]
+        }
       ]
     },
     {
@@ -111,12 +986,130 @@
       "id": 8,
       "title": "Unit 2: Chemical Bonding",
       "topics": [
-        { "name": "Octet Rule", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Ionic Bonding", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Covalent Bonding", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Polar and Non-polar Covalent Bonds", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Properties of Ionic Compounds", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Properties of Covalent Compounds", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Octet Rule",
+          "notes": [
+            {
+              "title": "Concept",
+              "points": [
+                "Atoms tend to lose, gain, or share electrons to attain a stable electronic configuration of the nearest noble gas.",
+                "Octet: 8 electrons in valence shell.",
+                "Duplet: 2 electrons in valence shell (e.g., H, He, Li)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Ionic Bonding",
+          "notes": [
+            {
+              "title": "Formation",
+              "points": [
+                "Formed by complete transfer of electrons from a metal atom (electropositive) to a non-metal atom (electronegative).",
+                "Results in formation of Cations (+) and Anions (-).",
+                "Held together by strong electrostatic force of attraction (Electrovalent bond)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Sodium Chloride Formation",
+              "formula": "Na (2,8,1) -> Na+ (2,8) + e-; Cl (2,8,7) + e- -> Cl- (2,8,8)",
+              "explanation": "Formation of NaCl."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Table Salt",
+              "concept": "Ionic Compound",
+              "description": "Common salt (NaCl) forms cubic crystals due to the regular arrangement of ions."
+            }
+          ]
+        },
+        {
+          "name": "Covalent Bonding",
+          "notes": [
+            {
+              "title": "Formation",
+              "points": [
+                "Formed by mutual sharing of electron pairs between two non-metal atoms.",
+                "Single Bond: Sharing 1 pair (e.g., H-H).",
+                "Double Bond: Sharing 2 pairs (e.g., O=O).",
+                "Triple Bond: Sharing 3 pairs (e.g., N≡N)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Diamond",
+              "concept": "Covalent Network",
+              "description": "Hardest natural substance, formed by a strong network of covalent bonds between Carbon atoms."
+            }
+          ]
+        },
+        {
+          "name": "Polar and Non-polar Covalent Bonds",
+          "notes": [
+            {
+              "title": "Non-polar",
+              "points": [
+                "Shared pair is equally distributed between two identical atoms.",
+                "No charge separation. (e.g., H2, Cl2, O2)."
+              ]
+            },
+            {
+              "title": "Polar",
+              "points": [
+                "Shared pair is shifted towards the more electronegative atom.",
+                "Results in partial positive (δ+) and partial negative (δ-) charges.",
+                "Example: HCl, H2O."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Water as Solvent",
+              "concept": "Polarity",
+              "description": "Water dissolves many substances because its polar nature allows it to interact with ions and polar molecules."
+            }
+          ]
+        },
+        {
+          "name": "Properties of Ionic Compounds",
+          "notes": [
+            {
+              "title": "General Properties",
+              "points": [
+                "Crystalline solids.",
+                "High melting and boiling points (Strong forces).",
+                "Soluble in water, insoluble in organic solvents.",
+                "Conduct electricity in molten or aqueous state (Ions are free to move)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Properties of Covalent Compounds",
+          "notes": [
+            {
+              "title": "General Properties",
+              "points": [
+                "Gases, liquids, or soft solids.",
+                "Low melting and boiling points (Weak Van der Waals forces).",
+                "Insoluble in water (except polar ones), soluble in organic solvents.",
+                "Non-conductors of electricity (No free ions)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        }
       ]
     },
     {
@@ -125,12 +1118,135 @@
       "id": 9,
       "title": "Unit 3: Acids, Bases and Salts",
       "topics": [
-        { "name": "Definitions of Acids, Bases and Salts", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Strong and Weak Acids and Bases", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "pH Scale", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Indicators", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Preparation of Salts", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Uses of Common Salts", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Definitions of Acids, Bases and Salts",
+          "notes": [
+            {
+              "title": "Arrhenius Theory",
+              "points": [
+                "Acids: Substances that dissociate in water to give Hydrogen ions (H+) or Hydronium ions (H3O+). Example: HCl, H2SO4.",
+                "Bases: Substances that dissociate in water to give Hydroxyl ions (OH-). Example: NaOH, KOH.",
+                "Alkalis: Bases that are soluble in water."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Stomach Acid",
+              "concept": "Hydrochloric Acid",
+              "description": "Our stomach produces dilute HCl to help digest food and kill bacteria."
+            }
+          ]
+        },
+        {
+          "name": "Strong and Weak Acids and Bases",
+          "notes": [
+            {
+              "title": "Dissociation",
+              "points": [
+                "Strong Acid/Base: Dissociates almost completely in aqueous solution, producing a high concentration of ions. (e.g., HCl, NaOH).",
+                "Weak Acid/Base: Dissociates only partially in aqueous solution, producing a low concentration of ions. (e.g., CH3COOH, NH4OH)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Vinegar",
+              "concept": "Weak Acid",
+              "description": "Vinegar contains Acetic Acid (CH3COOH), a weak acid used in cooking and preservation."
+            }
+          ]
+        },
+        {
+          "name": "pH Scale",
+          "notes": [
+            {
+              "title": "Concept",
+              "points": [
+                "A scale for measuring hydrogen ion concentration in a solution.",
+                "Range: 0 to 14.",
+                "pH < 7: Acidic.",
+                "pH = 7: Neutral.",
+                "pH > 7: Basic/Alkaline."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "pH Definition",
+              "formula": "pH = -log[H+]",
+              "explanation": "Negative logarithm of hydrogen ion concentration."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Tooth Decay",
+              "concept": "pH Change",
+              "description": "Tooth decay starts when the pH of the mouth is lower than 5.5, corroding the enamel."
+            }
+          ]
+        },
+        {
+          "name": "Indicators",
+          "notes": [
+            {
+              "title": "Color Changes",
+              "points": [
+                "Litmus: Blue to Red (Acid), Red to Blue (Base).",
+                "Methyl Orange: Pink (Acid), Yellow (Base).",
+                "Phenolphthalein: Colorless (Acid), Pink (Base)."
+              ]
+            },
+            {
+              "title": "Olfactory Indicators",
+              "points": [
+                "Substances whose odor changes in acidic or basic media (e.g., Onion, Vanilla)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Preparation of Salts",
+          "notes": [
+            {
+              "title": "Methods",
+              "points": [
+                "Neutralization: Acid + Base -> Salt + Water.",
+                "Displacement: Active Metal + Acid -> Salt + Hydrogen.",
+                "Double Decomposition (Precipitation): Mixing two soluble salt solutions to get a precipitate."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Neutralization",
+              "formula": "NaOH + HCl -> NaCl + H2O",
+              "explanation": "Formation of Sodium Chloride."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Uses of Common Salts",
+          "notes": [],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Baking Soda",
+              "concept": "Sodium Bicarbonate",
+              "description": "Used in baking powder to make cakes rise (releases CO2)."
+            },
+            {
+              "title": "Plaster of Paris",
+              "concept": "Calcium Sulphate Hemihydrate",
+              "description": "Used by doctors for supporting fractured bones in the right position."
+            }
+          ]
+        }
       ]
     },
     {
@@ -139,11 +1255,90 @@
       "id": 10,
       "title": "Unit 4: Analytical Chemistry",
       "topics": [
-        { "name": "Qualitative Analysis", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Detection of Cations", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Detection of Anions", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Flame Tests", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Precipitation Reactions", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Qualitative Analysis",
+          "notes": [
+            {
+              "title": "Action of Alkalis",
+              "points": [
+                "Sodium Hydroxide (NaOH) and Ammonium Hydroxide (NH4OH) are strong and weak alkalis respectively.",
+                "They are used to identify metal cations based on the color and solubility of the precipitate formed."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Water Treatment",
+              "concept": "Precipitation",
+              "description": "Removal of heavy metals from industrial waste water often involves precipitation using alkalis."
+            }
+          ]
+        },
+        {
+          "name": "Detection of Cations",
+          "notes": [
+            {
+              "title": "Using NaOH and NH4OH",
+              "points": [
+                "Calcium (Ca2+): White pkt (insoluble in excess).",
+                "Copper (Cu2+): Blue ppt (insoluble in excess NaOH, soluble in excess NH4OH forming deep blue solution).",
+                "Iron (Fe2+): Dirty Green ppt.",
+                "Iron (Fe3+): Reddish Brown ppt.",
+                "Zinc (Zn2+): White gelatinous ppt (soluble in excess of both).",
+                "Lead (Pb2+): White chalky ppt (soluble in excess NaOH, insoluble in excess NH4OH)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Detection of Anions",
+          "notes": [],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Flame Tests",
+          "notes": [
+            {
+              "title": "Colors",
+              "points": [
+                "Sodium (Na+): Golden Yellow.",
+                "Potassium (K+): Lilac (Violet).",
+                "Calcium (Ca2+): Brick Red."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Fireworks",
+              "concept": "Flame Colors",
+              "description": "The vibrant colors in fireworks are produced by metal salts (e.g., Strontium for red, Barium for green)."
+            }
+          ]
+        },
+        {
+          "name": "Precipitation Reactions",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "A double displacement reaction where two soluble salts react to form an insoluble solid (precipitate)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Example",
+              "formula": "CuSO4 + 2NaOH -> Cu(OH)2 (ppt) + Na2SO4",
+              "explanation": "Blue precipitate of Copper Hydroxide."
+            }
+          ],
+          "realworld": []
+        }
       ]
     },
     {
@@ -152,11 +1347,146 @@
       "id": 11,
       "title": "Unit 5: Metallurgy",
       "topics": [
-        { "name": "Occurrence of Metals", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Concentration of Ores", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Extraction of Metals", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Refining of Metals", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Alloys and Their Uses", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Occurrence of Metals",
+          "notes": [
+            {
+              "title": "Terms",
+              "points": [
+                "Minerals: Naturally occurring compounds of metals.",
+                "Ores: Minerals from which metals can be extracted profitably.",
+                "Gangue/Matrix: Earthy impurities (sand, mud) present in the ore."
+              ]
+            },
+            {
+              "title": "Common Ores",
+              "points": [
+                "Aluminium: Bauxite (Al2O3.2H2O).",
+                "Iron: Haematite (Fe2O3).",
+                "Zinc: Zinc Blende (ZnS)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Mining",
+              "concept": "Extraction",
+              "description": "Large scale mining operations extract ores like Bauxite to produce Aluminium for aircraft bodies."
+            }
+          ]
+        },
+        {
+          "name": "Concentration of Ores",
+          "notes": [
+            {
+              "title": "Methods",
+              "points": [
+                "Gravity Separation (Hydraulic Washing): For heavy oxide ores (e.g., Haematite).",
+                "Froth Floatation: For light sulphide ores (e.g., Zinc Blende). Pine oil creates froth.",
+                "Magnetic Separation: For magnetic ores (e.g., Magnetite)."
+              ]
+            },
+            {
+              "title": "Chemical Method (Bayer's Process)",
+              "points": [
+                "Concentration of Bauxite using Sodium Hydroxide."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Bayer's Process",
+              "formula": "Al2O3.2H2O + 2NaOH -> 2NaAlO2 + 3H2O (at 150-200°C)",
+              "explanation": "Conversion of Bauxite to Sodium Aluminate."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Extraction of Metals",
+          "notes": [
+            {
+              "title": "Roasting vs Calcination",
+              "points": [
+                "Roasting: Heating ore in PRESENCE of excess air (for Sulphide ores). ZnS + O2 -> ZnO + SO2.",
+                "Calcination: Heating ore in ABSENCE/LIMITED air (for Carbonate/Hydrated ores). ZnCO3 -> ZnO + CO2."
+              ]
+            },
+            {
+              "title": "Reduction",
+              "points": [
+                "Reduction of Metal Oxide to Metal using Coke (Carbon), CO, or Electrolysis."
+              ]
+            },
+            {
+              "title": "Extraction of Aluminium (Hall-Heroult Process)",
+              "points": [
+                "Electrolyte: Fused Alumina (Al2O3) + Cryolite (Na3AlF6) + Fluorspar (CaF2).",
+                "Cathode: Carbon lining (Al produced here).",
+                "Anode: Graphite rods (O2 produced here, burns as CO2)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Hall-Heroult Process Reactions",
+              "formula": "Cathode: Al3+ + 3e- -> Al, Anode: O2- - 2e- -> [O]; C + 2[O] -> CO2",
+              "explanation": "Reduction of Aluminium ions and oxidation of Oxygen ions."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Refining of Metals",
+          "notes": [
+            {
+              "title": "Electro-refining",
+              "points": [
+                "Anode: Impure metal block.",
+                "Cathode: Thin strip of pure metal.",
+                "Electrolyte: Soluble salt of the metal.",
+                "Result: Pure metal deposits on Cathode; impurities settle as Anode Mud."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Copper Wiring",
+              "concept": "Purity",
+              "description": "Electrical wires require 99.99% pure Copper, obtained via electrolytic refining."
+            }
+          ]
+        },
+        {
+          "name": "Alloys and Their Uses",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Homogeneous mixture of two or more metals, or a metal and a non-metal."
+              ]
+            },
+            {
+              "title": "Common Alloys",
+              "points": [
+                "Brass (Cu + Zn): Utensils, cartridges.",
+                "Bronze (Cu + Sn): Statues, medals.",
+                "Stainless Steel (Fe + Ni + Cr): Cutlery, surgical instruments.",
+                "Duralumin (Al + Cu + Mg + Mn): Aircraft bodies (light and strong)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Stainless Steel",
+              "concept": "Corrosion Resistance",
+              "description": "Kitchen cutlery is made of stainless steel to prevent rusting despite constant exposure to water."
+            }
+          ]
+        }
       ]
     },
     {
@@ -165,13 +1495,147 @@
       "id": 12,
       "title": "Unit 6: Organic Chemistry",
       "topics": [
-        { "name": "Introduction to Organic Compounds", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Homologous Series", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Nomenclature of Organic Compounds", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Alkanes", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Alkenes", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Alkynes", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Uses of Organic Compounds", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Introduction to Organic Compounds",
+          "notes": [
+            {
+              "title": "Characteristics of Carbon",
+              "points": [
+                "Tetravalency: Carbon has a valency of 4.",
+                "Catenation: Typical property of carbon atoms to form bonds with other carbon atoms forming long chains/rings.",
+                "Isomerism: Compounds having same molecular formula but different structural formula."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Homologous Series",
+          "notes": [
+            {
+              "title": "Features",
+              "points": [
+                "Same general formula for all members.",
+                "Same functional group.",
+                "Successive members differ by -CH₂- group and 14u mass.",
+                "Similar chemical properties but gradation in physical properties."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Nomenclature of Organic Compounds",
+          "notes": [
+            {
+              "title": "IUPAC Rules",
+              "points": [
+                "Select longest carbon chain (Root word: Meth, Eth, Prop...).",
+                "Number the chain to give lowest number to substituents/functional groups.",
+                "Arrange prefixes alphabetically."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Alkanes",
+          "notes": [
+            {
+              "title": "Properties",
+              "points": [
+                "Saturated hydrocarbons (Single bonds).",
+                "Undergo substitution reactions (e.g., Chlorination)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "General Formula",
+              "formula": "CnH2n+2",
+              "explanation": "n = 1 (Methane), n = 2 (Ethane)..."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Natural Gas",
+              "concept": "Fuel",
+              "description": "Methane is the primary component of natural gas used for cooking."
+            }
+          ]
+        },
+        {
+          "name": "Alkenes",
+          "notes": [
+            {
+              "title": "Properties",
+              "points": [
+                "Unsaturated hydrocarbons (Double bond).",
+                "Undergo addition reactions (e.g., Hydrogenation)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "General Formula",
+              "formula": "CnH2n",
+              "explanation": "n = 2 (Ethene), n = 3 (Propene)..."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Fruit Ripening",
+              "concept": "Ethene",
+              "description": "Ethene gas is used commercially to ripen fruits like bananas and mangoes."
+            }
+          ]
+        },
+        {
+          "name": "Alkynes",
+          "notes": [
+            {
+              "title": "Properties",
+              "points": [
+                "Unsaturated hydrocarbons (Triple bond).",
+                "Acidic nature of terminal alkynes."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "General Formula",
+              "formula": "CnH2n-2",
+              "explanation": "n = 2 (Ethyne)..."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Welding",
+              "concept": "Oxy-acetylene flame",
+              "description": "Ethyne (Acetylene) produces a very hot flame used for welding metals."
+            }
+          ]
+        },
+        {
+          "name": "Uses of Organic Compounds",
+          "notes": [],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Ethanol",
+              "concept": "Solvent/Fuel",
+              "description": "Used in medicines (tinctures), sanitizers, and as an additive to petrol."
+            },
+            {
+              "title": "Acetic Acid",
+              "concept": "Vinegar",
+              "description": "Dilute acetic acid is used as vinegar for food preservation."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -182,15 +1646,139 @@
       "id": 13,
       "title": "Unit 1: Cell Structure and Function",
       "topics": [
-        { "name": "Cell Theory", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Types of Cells", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Plant Cell and Animal Cell", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Cell Membrane", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Nucleus", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Mitochondria", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Endoplasmic Reticulum", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Golgi Apparatus", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Ribosomes and Lysosomes", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Cell Theory",
+          "notes": [
+            {
+              "title": "Key Points",
+              "points": [
+                "All living organisms are composed of cells.",
+                "The cell is the fundamental unit of structure and function in living things.",
+                "omnis cellula e cellula: All cells come from pre-existing cells (Virchow)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Types of Cells",
+          "notes": [
+            {
+              "title": "Classification",
+              "points": [
+                "Prokaryotic: No well-defined nucleus (e.g., Bacteria).",
+                "Eukaryotic: True nucleus with membrane-bound organelles (e.g., Plants, Animals)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Plant Cell and Animal Cell",
+          "notes": [
+            {
+              "title": "Differences",
+              "points": [
+                "Plant Cell: Cell wall present, Large vacuole, Plastids (Chloroplasts) present.",
+                "Animal Cell: No cell wall, Small/no vacuoles, Centrosomes present."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Cell Membrane",
+          "notes": [
+            {
+              "title": "Structure",
+              "points": [
+                "Lipid bilayer with embedded proteins (Fluid Mosaic Model).",
+                "Selectively permeable: Regulates entry and exit of substances."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Nucleus",
+          "notes": [
+            {
+              "title": "Function",
+              "points": [
+                "Control center of the cell.",
+                "Contains genetic material (DNA in chromosomes)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Mitochondria",
+          "notes": [
+            {
+              "title": "Powerhouse",
+              "points": [
+                "Site of cellular respiration.",
+                "Generates energy in the form of ATP (Adenosine Triphosphate)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Endoplasmic Reticulum",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Rough ER (RER): With ribosomes, synthesizes proteins.",
+                "Smooth ER (SER): No ribosomes, synthesizes lipids."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Golgi Apparatus",
+          "notes": [
+            {
+              "title": "Function",
+              "points": [
+                "Packaging and dispatching unit of the cell.",
+                "Formation of Lysosomes."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Ribosomes and Lysosomes",
+          "notes": [
+            {
+              "title": "Ribosomes",
+              "points": [
+                "Site of protein synthesis."
+              ]
+            },
+            {
+              "title": "Lysosomes",
+              "points": [
+                "Suicide bags of the cell.",
+                "Contain digestive enzymes to destroy worn-out organelles or foreign material."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        }
       ]
     },
     {
@@ -199,12 +1787,117 @@
       "id": 14,
       "title": "Unit 2: Plant Physiology",
       "topics": [
-        { "name": "Absorption of Water by Roots", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Transpiration", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Photosynthesis", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Respiration in Plants", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Translocation of Food", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Mineral Nutrition", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Absorption of Water by Roots",
+          "notes": [
+            {
+              "title": "Mechanisms",
+              "points": [
+                "Imbibition: Absorption of water by solid particles.",
+                "Diffusion: Movement from higher to lower concentration.",
+                "Osmosis: Movement of water across a semi-permeable membrane from dilute to concentrated solution.",
+                "Active Transport: Movement against concentration gradient using energy (ATP)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Raisins in Water",
+              "concept": "Endosmosis",
+              "description": "Raisins swell up when kept in water due to endosmosis."
+            }
+          ]
+        },
+        {
+          "name": "Transpiration",
+          "notes": [
+            {
+              "title": "Process",
+              "points": [
+                "Loss of water in the form of vapor from the aerial parts of the plant.",
+                "Occurs mainly through Stomata.",
+                "Significance: Cooling effect, creates Transpiration Pull (Ascent of Sap)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cooling under Tree",
+              "concept": "Transpiration",
+              "description": "It feels cooler under a tree during summer due to the cooling effect of transpiration."
+            }
+          ]
+        },
+        {
+          "name": "Photosynthesis",
+          "notes": [
+            {
+              "title": "Phases",
+              "points": [
+                "Light Reaction (Hill Reaction): Occurs in Grana. Photolysis of water, production of ATP and NADPH.",
+                "Dark Reaction (Calvin Cycle): Occurs in Stroma. Reduction of CO2 to Glucose using ATP and NADPH."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Chemical Equation",
+              "formula": "6CO2 + 12H2O -> (light/chlorophyll) -> C6H12O6 + 6H2O + 6O2",
+              "explanation": "Overall reaction of photosynthesis."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Respiration in Plants",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Aerobic: Complete breakdown of glucose in presence of oxygen. End products: CO2, H2O, Energy (38 ATP).",
+                "Anaerobic: Incomplete breakdown in absence of oxygen. End products: Ethanol, CO2, Energy (2 ATP)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Translocation of Food",
+          "notes": [
+            {
+              "title": "Mechanism",
+              "points": [
+                "Transport of food from leaves to other parts via Phloem.",
+                "Bidirectional flow."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Mineral Nutrition",
+          "notes": [
+            {
+              "title": "Nutrients",
+              "points": [
+                "Macronutrients: Required in large quantities (N, P, K, Mg, Ca).",
+                "Micronutrients: Required in traces (Fe, Mn, Zn, Cu)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Fertilizers",
+              "concept": "Agriculture",
+              "description": "NPK fertilizers are commonly used to supply Nitrogen, Phosphorus, and Potassium to crops."
+            }
+          ]
+        }
       ]
     },
     {
@@ -213,12 +1906,142 @@
       "id": 15,
       "title": "Unit 3: Human Anatomy and Physiology",
       "topics": [
-        { "name": "Digestive System", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Respiratory System", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Circulatory System", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Excretory System", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Nervous System", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Endocrine System", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Digestive System",
+          "notes": [
+            {
+              "title": "Enzymes",
+              "points": [
+                "Saliva: Salivary Amylase (Starch -> Maltose).",
+                "Gastric Juice: Pepsin (Proteins -> Peptides), HCl (Activates Pepsin, kills germs).",
+                "Pancreatic Juice: Trypsin, Amylase, Lipase.",
+                "Intestinal Juice: Erepsin, Maltase, Lactase, sucrase."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Antacids",
+              "concept": "Acidity",
+              "description": "Magnesium hydroxide (Milk of Magnesia) neutralizes excess stomach acid."
+            }
+          ]
+        },
+        {
+          "name": "Respiratory System",
+          "notes": [
+            {
+              "title": "Mechanism",
+              "points": [
+                "Inspiration: Diaphragm contracts (flattens), Ribs move out, thoracic volume increases, pressure decreases, air rushes in.",
+                "Expiration: Diaphragm relaxes (dome shape), Ribs move in, thoracic volume decreases, pressure increases, air rushes out."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Circulatory System",
+          "notes": [
+            {
+              "title": "The Heart",
+              "points": [
+                "Four chambers: 2 Auricles, 2 Ventricles.",
+                "Double Circulation: Pulmonary (Heart-Lungs-Heart) and Systemic (Heart-Body-Heart).",
+                "Systole (Contraction) and Diastole (Relaxation)."
+              ]
+            },
+            {
+              "title": "Blood",
+              "points": [
+                "RBCs (Transport O2), WBCs (Immunity), Platelets (Clotting).",
+                "Plasma: Liquid part."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Blood Pressure",
+              "concept": "Vitals",
+              "description": "Normal BP is 120/80 mmHg. High BP is Hypertension."
+            }
+          ]
+        },
+        {
+          "name": "Excretory System",
+          "notes": [
+            {
+              "title": "Nephron",
+              "points": [
+                "Structural and functional unit of kidney.",
+                "Ultrafiltration: Occurs in Glomerulus.",
+                "Selective Reabsorption: Useful substances (glucose, water) reabsorbed in PCT/Loop of Henle.",
+                "Tubular Secretion: Waste added to filtrate."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Dialysis",
+              "concept": "Artificial Kidney",
+              "description": "Used for patients with kidney failure to filter waste from blood."
+            }
+          ]
+        },
+        {
+          "name": "Nervous System",
+          "notes": [
+            {
+              "title": "Divisions",
+              "points": [
+                "CNS: Brain and Spinal Cord.",
+                "PNS: Cranial and Spinal nerves.",
+                "ANS: Sympathetic (Fight or Flight) and Parasympathetic (Rest and Digest)."
+              ]
+            },
+            {
+              "title": "Reflex Action",
+              "points": [
+                "Automatic, involuntary response to a stimulus.",
+                "Reflex Arc: Stimulus -> Receptor -> Sensory Neuron -> Spinal Cord -> Motor Neuron -> Effector -> Response."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Touching Hot Object",
+              "concept": "Reflex",
+              "description": "Withdrawing hand immediately upon touching a hot pan is a reflex action."
+            }
+          ]
+        },
+        {
+          "name": "Endocrine System",
+          "notes": [
+            {
+              "title": "Glands and Hormones",
+              "points": [
+                "Pituitary: Growth Hormone (GH). Master Gland.",
+                "Thyroid: Thyroxine (Basal Metabolism). Deficiency causes Goitre.",
+                "Pancreas: Insulin (Lowers blood sugar), Glucagon (Raises blood sugar).",
+                "Adrenal: Adrenaline (Emergency hormone)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Iodized Salt",
+              "concept": "Nutrition",
+              "description": "Iodine is essential for Thyroxine synthesis; iodized salt prevents Goitre."
+            }
+          ]
+        }
       ]
     },
     {
@@ -227,11 +2050,154 @@
       "id": 16,
       "title": "Unit 4: Health and Hygiene",
       "topics": [
-        { "name": "Personal and Community Health", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Communicable Diseases", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Non-Communicable Diseases", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Immunity and Vaccination", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "First Aid", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Personal and Community Health",
+          "notes": [
+            {
+              "title": "Definition of Health",
+              "points": [
+                "WHO Definition: Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity."
+              ]
+            },
+            {
+              "title": "Hygiene",
+              "points": [
+                "Personal Hygiene: Cleanliness of body, oral hygiene, eye care, sleep, and physical exercise.",
+                "Social/Community Hygiene: Clean surroundings, proper disposal of waste, control of disease vectors (mosquitoes, flies), and clean drinking water."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Public Sanitation",
+              "concept": "Community Health",
+              "description": "Municipal garbage collection and sewage treatment plants are essential for maintaining community health to prevent outbreaks like cholera."
+            }
+          ]
+        },
+        {
+          "name": "Communicable Diseases",
+          "notes": [
+            {
+              "title": "Bacterial Diseases",
+              "points": [
+                "Cholera: Caused by *Vibrio cholerae*. Symptoms: Severe diarrhea, dehydration. Spread by contaminated water.",
+                "Typhoid: Caused by *Salmonella typhi*. Symptoms: Constant fever, headache. Spread by contaminated food/water.",
+                "Tuberculosis (TB): Caused by *Mycobacterium tuberculosis*. affects lungs. BCG Vaccine prevents it."
+              ]
+            },
+            {
+              "title": "Viral Diseases",
+              "points": [
+                "AIDS (Acquired Immuno Deficiency Syndrome): Caused by HIV. Attacks immune system.",
+                "COVID-19: Caused by SARS-CoV-2.",
+                "Dengue/Chikungunya: Spread by *Aedes* mosquito."
+              ]
+            },
+            {
+              "title": "Protozoan Diseases",
+              "points": [
+                "Malaria: Caused by *Plasmodium*. Vector: Female *Anopheles* mosquito. Symptoms: Recurring fever with chills."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Mosquito Nets",
+              "concept": "Prevention",
+              "description": "Using pesticide-treated mosquito nets is a primary strategy to combat malaria in endemic regions."
+            }
+          ]
+        },
+        {
+          "name": "Non-Communicable Diseases",
+          "notes": [
+            {
+              "title": "Examples",
+              "points": [
+                "Diabetes Mellitus: Caused by insufficient insulin (pancreas). Symptoms: High blood sugar, excessive thirst.",
+                "Cardiovascular Diseases: Hypertension (High BP), Heart attack.",
+                "Cancer: Uncontrolled division of cells.",
+                "Allergies: Hypersensitivity of the immune system."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Insulin Injections",
+              "concept": "Management",
+              "description": "Type 1 Diabetics need daily insulin injections to manage blood sugar levels."
+            }
+          ]
+        },
+        {
+          "name": "Immunity and Vaccination",
+          "notes": [
+            {
+              "title": "Types of Immunity",
+              "points": [
+                "Innate Immunity: Present from birth (Skin barriers, tears, stomach acid).",
+                "Acquired Immunity: Developed during lifetime.",
+                "Active Immunity: Body produces its own antibodies (after infection or vaccination).",
+                "Passive Immunity: Ready-made antibodies introduced (e.g., Mother's milk, Antivenom)."
+              ]
+            },
+            {
+              "title": "Vaccination",
+              "points": [
+                "Introducing weakened or killed germs to stimulate antibody production.",
+                "Vaccines: BCG (TB), DPT (Diphtheria, Pertussis, Tetanus), OPV (Polio), MMR (Measles, Mumps, Rubella)."
+              ]
+            },
+            {
+              "title": "Antiseptics vs Disinfectants",
+              "points": [
+                "Antiseptics: Mild chemical applied on body (e.g., Iodine, Spirit).",
+                "Disinfectants: Strong chemical applied on spots/floors (e.g., Phenol, Lysol)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Pulse Polio Programme",
+              "concept": "Eradication",
+              "description": "Mass immunization campaign in India to eradicate poliomyelitis by vaccinating all children under 5 years."
+            }
+          ]
+        },
+        {
+          "name": "First Aid",
+          "notes": [
+            {
+              "title": "Principles",
+              "points": [
+                "Definition: Immediate help given to a victim before medical aid arrives.",
+                "ABC Rule: Airway, Breathing, Circulation."
+              ]
+            },
+            {
+              "title": "Common Scenarios",
+              "points": [
+                "Burns: Pour cold water immediately.",
+                "Fracture: Do not move the limb; use a splint.",
+                "Bleeding: Apply pressure on the wound.",
+                "Snake Bite: Keep patient calm, keep bitten part below heart level, do not suck poison."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "CPR",
+              "concept": "Life Saving",
+              "description": "Cardiopulmonary Resuscitation is a technique used in emergencies like heart attack to manually preserve brain function."
+            }
+          ]
+        }
       ]
     },
     {
@@ -240,11 +2206,159 @@
       "id": 17,
       "title": "Unit 5: Genetics and Evolution",
       "topics": [
-        { "name": "Variation", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Heredity", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Mendel’s Laws of Inheritance", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Chromosomes and Genes", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Evolution and Natural Selection", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Variation",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "Small differences among individuals of the same species are called variations.",
+                "Causes: Genetic recombination (Meiosis), Mutation, Environment."
+              ]
+            },
+            {
+              "title": "Types",
+              "points": [
+                "Somatic Variations: Acquired during lifetime, non-heritable.",
+                "Germinal Variations: Occur in germ cells, heritable (passed to offspring)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Height Differences",
+              "concept": "Continuous Variation",
+              "description": "Height in humans is a range, not just tall or short, showing continuous variation."
+            },
+            {
+              "title": "Earlobe Attachment",
+              "concept": "Discontinuous Variation",
+              "description": "Attached vs Free earlobes is a distinct trait with no intermediate forms."
+            }
+          ]
+        },
+        {
+          "name": "Heredity",
+          "notes": [
+            {
+              "title": "Concept",
+              "points": [
+                "The transmission of genetically based characteristics from parents to offspring.",
+                "Genetics: The study of heredity and variation."
+              ]
+            },
+            {
+              "title": "Terminologies",
+              "points": [
+                "Gene: Functional unit of heredity.",
+                "Allele: Alternative forms of a gene (e.g., T and t).",
+                "Genotype: Genetic makeup (e.g., TT, Tt, tt).",
+                "Phenotype: Physical observable characteristic (e.g., Tall, Dwarf).",
+                "Homozygous: Identical alleles (TT or tt).",
+                "Heterozygous: Different alleles (Tt)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Eye Color",
+              "concept": "Inheritance",
+              "description": "Children often inherit eye color from their parents, though it follows complex patterns."
+            }
+          ]
+        },
+        {
+          "name": "Mendel’s Laws of Inheritance",
+          "notes": [
+            {
+              "title": "Monohybrid Cross",
+              "points": [
+                "A cross considering only one pair of contrasting characters.",
+                "Law of Dominance: In a heterozygous individual, the dominant allele expresses itself.",
+                "Law of Segregation: During gamete formation, the two alleles separate so that each gamete receives only one."
+              ]
+            },
+            {
+              "title": "Dihybrid Cross",
+              "points": [
+                "A cross considering two pairs of contrasting characters.",
+                "Law of Independent Assortment: Alleles of different genes segregate independently of one another during gamete formation."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Monohybrid Ratio",
+              "formula": "Phenotypic: 3:1, Genotypic: 1:2:1",
+              "explanation": "Result of F2 generation."
+            },
+            {
+              "title": "Dihybrid Ratio",
+              "formula": "Phenotypic: 9:3:3:1",
+              "explanation": "Result of F2 generation (e.g., Round Yellow : Round Green : Wrinkled Yellow : Wrinkled Green)."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Chromosomes and Genes",
+          "notes": [
+            {
+              "title": "Sex Determination",
+              "points": [
+                "Humans have 23 pairs of chromosomes (22 autosomes + 1 pair sex chromosomes).",
+                "Male: XY, Female: XX.",
+                "The sex of the child is determined by the sperm (carrying X or Y)."
+              ]
+            },
+            {
+              "title": "Sex-Linked Inheritance",
+              "points": [
+                "Genes located on X-chromosome are X-linked.",
+                "Examples: Color Blindness, Haemophilia (more common in males as they have only one X chromosome)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Color Blindness Testing",
+              "concept": "X-linked Recessive",
+              "description": "Ishihara plates are used to test for red-green color blindness, a genetic condition."
+            }
+          ]
+        },
+        {
+          "name": "Evolution and Natural Selection",
+          "notes": [
+            {
+              "title": "Darwin's Theory",
+              "points": [
+                "Overproduction: Organisms produce more offspring than can survive.",
+                "Struggle for Existence: Competition for food, space, mate.",
+                "Variation: Useful variations help in survival.",
+                "Survival of the Fittest: Nature selects the best adapted.",
+                "Origin of New Species: Accumulation of favorable variations over generations."
+              ]
+            },
+            {
+              "title": "Human Evolution",
+              "points": [
+                "Australopithecus -> Homo habilis -> Homo erectus -> Neanderthal -> Cro-Magnon -> Homo sapiens (Modern Man)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Peppered Moth",
+              "concept": "Industrial Melanism",
+              "description": "Light moths were camouflaged on lichen-covered trees. During industrial revolution, trees turned black, and dark moths survived better (Natural Selection)."
+            }
+          ]
+        }
       ]
     },
     {
@@ -253,11 +2367,124 @@
       "id": 18,
       "title": "Unit 6: Environmental Science",
       "topics": [
-        { "name": "Ecosystem", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Food Chains and Food Webs", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Natural Resources", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Pollution", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Conservation of Environment", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Ecosystem",
+          "notes": [
+            {
+              "title": "Components",
+              "points": [
+                "Biotic Components: All living organisms (Plants, Animals, Microorganisms).",
+                "Abiotic Components: Non-living factors (Temperature, Light, Soil, Water).",
+                "Interaction: Biotic and Abiotic components interact to form a stable ecosystem."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Pond Ecosystem",
+              "concept": "Ecosystem",
+              "description": "A garden pond with fish, frogs (biotic) and water, rocks, sunlight (abiotic) functioning as a self-sustaining unit."
+            }
+          ]
+        },
+        {
+          "name": "Food Chains and Food Webs",
+          "notes": [
+            {
+              "title": "Trophic Levels",
+              "points": [
+                "Producers (Autotrophs): Green plants that make their own food.",
+                "Consumers (Heterotrophs): Primary (Herbivores), Secondary (Carnivores), Tertiary (Top Carnivores).",
+                "Decomposers: Break down dead organic matter."
+              ]
+            },
+            {
+              "title": "Energy Flow",
+              "points": [
+                "Unidirectional flow of energy from Sun -> Producers -> Consumers.",
+                "10% Law: Only 10% of energy is transferred to the next trophic level."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Forest Food Web",
+              "concept": "Interdependence",
+              "description": "Grass -> Deer -> Tiger. If deer population decreases, tigers starve and grass overgrows, disrupting balance."
+            }
+          ]
+        },
+        {
+          "name": "Natural Resources",
+          "notes": [
+            {
+              "title": "Classification",
+              "points": [
+                "Renewable Resources: Replenished naturally (Solar energy, Wind, Water).",
+                "Non-Renewable Resources: Finite stock (Coal, Petroleum, Minerals)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Solar Panels",
+              "concept": "Renewable Energy",
+              "description": "Homes using solar panels to generate electricity reduce dependence on fossil fuels."
+            }
+          ]
+        },
+        {
+          "name": "Pollution",
+          "notes": [
+            {
+              "title": "Types",
+              "points": [
+                "Air Pollution: Burning fossil fuels, industrial emissions (SO2, NO2). Causes Acid Rain, Global Warming.",
+                "Water Pollution: Sewage, Industrial effluents. Causes Eutrophication, waterborne diseases.",
+                "Soil Pollution: Pesticides, Plastic waste.",
+                "Noise Pollution: Traffic, Loudspeakers."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Delhi Smog",
+              "concept": "Air Pollution",
+              "description": "Severe smog in Delhi during winters due to vehicle emissions and stubble burning affects respiratory health."
+            }
+          ]
+        },
+        {
+          "name": "Conservation of Environment",
+          "notes": [
+            {
+              "title": "Waste Management",
+              "points": [
+                "Segregation: Biodegradable (Wet waste) vs Non-biodegradable (Dry waste).",
+                "3Rs: Reduce, Reuse, Recycle.",
+                "Composting: Turning organic waste into manure."
+              ]
+            },
+            {
+              "title": "Swachh Bharat Abhiyan",
+              "points": [
+                "Clean India Mission to ensure hygiene, waste management and sanitation."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Ban on Single-use Plastic",
+              "concept": "Conservation",
+              "description": "Many cities have banned plastic bags and straws to reduce non-biodegradable waste."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -268,10 +2495,146 @@
       "id": 19,
       "title": "Unit 1: Commercial Mathematics",
       "topics": [
-        { "name": "Banking", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Shares and Dividends", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Linear Inequations", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Linear Programming", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Goods and Services Tax (GST)",
+          "notes": [
+            {
+              "title": "Basics",
+              "points": [
+                "GST is a destination-based consumption tax.",
+                "Intra-state transaction: Within the same state (CGST + SGST apply).",
+                "Inter-state transaction: From one state to another (IGST applies).",
+                "Input GST: Tax paid on purchase (Input Credit).",
+                "Output GST: Tax collected on sale.",
+                "Net GST Payable = Output GST - Input GST."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Intra-state Tax Calculation",
+              "formula": "CGST = SGST = (Rate/2)% of Taxable Value",
+              "explanation": "If rate is 18%, CGST = 9%, SGST = 9%."
+            },
+            {
+              "title": "Inter-state Tax Calculation",
+              "formula": "IGST = Rate% of Taxable Value",
+              "explanation": "Full rate goes to Central Govt."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Restaurant Bill",
+              "concept": "Taxation",
+              "description": "Seeing CGST and SGST on a food bill illustrates how taxes are split between Center and State."
+            }
+          ]
+        },
+        {
+          "name": "Banking",
+          "notes": [
+            {
+              "title": "Recurring Deposit Account",
+              "points": [
+                "Account holder deposits a specific amount every month for a fixed period.",
+                "At maturity, the depositor gets the principal deposited plus interest.",
+                "Principal (P) = Monthly Installment.",
+                "n = Number of months."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Interest",
+              "formula": "I = P * [n(n+1) / (2 * 12)] * (r / 100)",
+              "explanation": "P=Monthly Deposit, n=Months, r=Rate of Interest (p.a)."
+            },
+            {
+              "title": "Maturity Value",
+              "formula": "MV = (P * n) + I",
+              "explanation": "Total amount received at the end of the term."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Savings Goal",
+              "concept": "Investment",
+              "description": "Planning to buy a bike by saving a fixed amount monthly in an RD account to earn interest."
+            }
+          ]
+        },
+        {
+          "name": "Shares and Dividends",
+          "notes": [
+            {
+              "title": "Terminology",
+              "points": [
+                "Nominal Value (NV) / Face Value (FV): Original value of a share printed on the share certificate.",
+                "Market Value (MV): Price at which share is traded in the market (At par, At premium/above par, At discount/below par).",
+                "Dividend: Profit distributed to shareholders, always calculated on Face Value.",
+                "Rate of Dividend: Percentage of FV given as profit."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Dividend",
+              "formula": "Annual Dividend = (Dividend% / 100) * FV * No. of Shares",
+              "explanation": "Dividend is independent of Market Value."
+            },
+            {
+              "title": "Return on Investment (ROI)",
+              "formula": "Return% = (Annual Income / Total Investment) * 100",
+              "explanation": "Use to compare profitability."
+            },
+            {
+              "title": "Investment Relation",
+              "formula": "No. of Shares * MV = Invested Amount",
+              "explanation": "Cost to buy shares."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Stock Market",
+              "concept": "Trading",
+              "description": "Buying shares of companies like Reliance or Tata Motors to benefit from their growth and dividends."
+            }
+          ]
+        },
+        {
+          "name": "Linear Inequations",
+          "notes": [
+            {
+              "title": "Rules",
+              "points": [
+                "Adding/Subtracting same number to both sides doesn't change inequality sign.",
+                "Multiplying/Dividing by positive number doesn't change inequality sign.",
+                "Multiplying/Dividing by NEGATIVE number REVERSES the inequality sign.",
+                "Solution Set: The set of values which satisfy the inequation."
+              ]
+            },
+            {
+              "title": "Number Line Representation",
+              "points": [
+                "Hollow circle: For < or > (value not included).",
+                "Solid circle: For ≤ or ≥ (value included)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Budgeting",
+              "concept": "Limits",
+              "description": "Spending ≤ Earnings. This constraint is a linear inequation essential for financial health."
+            },
+            {
+              "title": "Safety Limits",
+              "concept": "Constraints",
+              "description": "Elevator capacity ≤ 1000kg. Exceeding this poses a risk."
+            }
+          ]
+        }
       ]
     },
     {
@@ -280,11 +2643,235 @@
       "id": 20,
       "title": "Unit 2: Algebra",
       "topics": [
-        { "name": "Polynomials", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Factorisation of Polynomials", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Quadratic Equations", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Solving Quadratic Equations", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Arithmetic Progression", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Polynomials",
+          "notes": [
+            {
+              "title": "Definitions",
+              "points": [
+                "A polynomial is an algebraic expression consisting of variables and coefficients, that involves only the operations of addition, subtraction, multiplication, and non-negative integer exponents of variables.",
+                "Degree of a polynomial: The highest power of the variable in the polynomial."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Factorisation of Polynomials",
+          "notes": [
+            {
+              "title": "Remainder Theorem",
+              "points": [
+                "If a polynomial f(x) is divided by (x - a), the remainder is f(a).",
+                "If divided by (ax + b), remainder is f(-b/a)."
+              ]
+            },
+            {
+              "title": "Factor Theorem",
+              "points": [
+                "If f(a) = 0, then (x - a) is a factor of the polynomial f(x).",
+                "Conversely, if (x - a) is a factor of f(x), then f(a) = 0."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cryptography",
+              "concept": "Coding",
+              "description": "Polynomial factorization is a key concept used in error correcting codes and some cryptographic algorithms."
+            }
+          ]
+        },
+        {
+          "name": "Quadratic Equations",
+          "notes": [
+            {
+              "title": "Standard Form",
+              "points": [
+                "An equation of the form ax² + bx + c = 0, where a, b, c are real numbers and a ≠ 0."
+              ]
+            },
+            {
+              "title": "Nature of Roots",
+              "points": [
+                "Discriminant (D) = b² - 4ac.",
+                "If D > 0: Two distinct real roots.",
+                "If D = 0: Two equal real roots.",
+                "If D < 0: No real roots (Imaginary)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Discriminant",
+              "formula": "D = b² - 4ac",
+              "explanation": "Determines the nature of the roots."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Projectile Motion",
+              "concept": "Physics",
+              "description": "The path of a projectile (like a thrown ball) is parabolic and can be modeled by a quadratic equation."
+            }
+          ]
+        },
+        {
+          "name": "Solving Quadratic Equations",
+          "notes": [
+            {
+              "title": "Methods",
+              "points": [
+                "Factorisation Method: Splitting the middle term.",
+                "Quadratic Formula (Sridharacharya's Rule)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Quadratic Formula",
+              "formula": "x = [-b ± √(b² - 4ac)] / 2a",
+              "explanation": "Used to find the roots of any quadratic equation ax² + bx + c = 0."
+            },
+            {
+              "title": "Sum and Product of Roots",
+              "formula": "Sum (α+β) = -b/a, Product (αβ) = c/a",
+              "explanation": "Relationship between roots and coefficients."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Arithmetic Progression",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "A sequence of numbers in which the difference between any two consecutive terms is constant.",
+                "Common Difference (d) = a₂ - a₁."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "General Term (nth term)",
+              "formula": "an = a + (n-1)d",
+              "explanation": "a = first term, n = number of terms, d = common difference."
+            },
+            {
+              "title": "Sum of n terms",
+              "formula": "Sn = n/2 [2a + (n-1)d] OR Sn = n/2 (a + l)",
+              "explanation": "l is the last term (an)."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Savings Schemes",
+              "concept": "Finance",
+              "description": "Calculating total savings over time where a fixed amount is added periodically (Simple Interest) follows an AP."
+            },
+            {
+              "title": "Seating Arrangement",
+              "concept": "Logistics",
+              "description": "Stadium seats often increase by a fixed number in each successive row."
+            }
+          ]
+        },
+        {
+          "name": "Matrices",
+          "notes": [
+            {
+              "title": "Basics",
+              "points": [
+                "Order of a matrix: m x n (m rows, n columns).",
+                "Types: Row matrix, Column matrix, Square matrix (m=n), Zero/Null matrix, Identity/Unit matrix (I)."
+              ]
+            },
+            {
+              "title": "Operations",
+              "points": [
+                "Addition/Subtraction: Possible only if orders are same. Add/Subtract corresponding elements.",
+                "Multiplication: Matrix A (m x n) and B (n x p) -> Product AB is of order m x p."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Multiplication Rule",
+              "formula": "Row by Column",
+              "explanation": "Element c_ij is sum of products of elements of ith row of A and jth column of B."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Computer Graphics",
+              "concept": "Transformations",
+              "description": "Matrices are used to represent and manipulate 3D models, rotation, scaling, and translation in video games."
+            }
+          ]
+        },
+        {
+          "name": "Co-ordinate Geometry",
+          "notes": [
+            {
+              "title": "Reflection",
+              "points": [
+                "Reflection in x-axis: P(x, y) -> P'(x, -y).",
+                "Reflection in y-axis: P(x, y) -> P'(-x, y).",
+                "Reflection in origin: P(x, y) -> P'(-x, -y).",
+                "Invariant Point: A point which remains unchanged after reflection (lies on the line of reflection)."
+              ]
+            },
+            {
+              "title": "Section Formula",
+              "points": [
+                "Internal Division: Point P(x, y) divides segment AB in ratio m:n.",
+                "Mid-point Formula: Special case where m:n = 1:1."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Distance Formula",
+              "formula": "d = √[(x₂ - x₁)² + (y₂ - y₁)²]",
+              "explanation": "Distance between two points."
+            },
+            {
+              "title": "Section Formula",
+              "formula": "x = (mx₂ + nx₁)/(m+n), y = (my₂ + ny₁)/(m+n)",
+              "explanation": "Coordinates of point dividing line segment internally in ratio m:n."
+            },
+            {
+              "title": "Mid-point Formula",
+              "formula": "x = (x₁ + x₂)/2, y = (y₁ + y₂)/2",
+              "explanation": "Coordinates of the midpoint of a line segment."
+            },
+            {
+              "title": "Equation of a Line",
+              "formula": "y = mx + c (Slope-Intercept form)",
+              "explanation": "m = slope (tan θ), c = y-intercept."
+            },
+            {
+              "title": "Slope Formula",
+              "formula": "m = (y₂ - y₁) / (x₂ - x₁)",
+              "explanation": "Slope of a line passing through two points."
+            },
+            {
+              "title": "Point-Slope form",
+              "formula": "y - y₁ = m(x - x₁)",
+              "explanation": "Equation of line with slope m passing through (x₁, y₁)."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "GPS",
+              "concept": "Location",
+              "description": "Global Positioning System uses coordinates to pinpoint locations on the Earth's surface."
+            }
+          ]
+        }
       ]
     },
     {
@@ -293,11 +2880,148 @@
       "id": 21,
       "title": "Unit 3: Geometry",
       "topics": [
-        { "name": "Similarity of Triangles", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Circles", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Tangents to Circles", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Chord Properties", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Theorems on Circles", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Similarity of Triangles",
+          "notes": [
+            {
+              "title": "Tests for Similarity",
+              "points": [
+                "Two triangles are similar if their corresponding angles are equal (Equiangular).",
+                "AA / AAA Similarity: If two angles of one triangle are equal to two angles of another triangle, then the two triangles are similar.",
+                "SAS Similarity: If one angle of a triangle is equal to one angle of another triangle and the sides including these angles are proportional.",
+                "SSS Similarity: If the three sides of one triangle are proportional to the three corresponding sides of another triangle."
+              ]
+            },
+            {
+              "title": "Basic Proportionality Theorem (BPT/Thales Theorem)",
+              "points": [
+                "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Areas of Similar Triangles",
+              "formula": "Area(ΔABC) / Area(ΔDEF) = (AB/DE)² = (BC/EF)² = (AC/DF)²",
+              "explanation": "The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Map Scales",
+              "concept": "Scaling",
+              "description": "Maps use similarity principles to represent large areas on small paper, maintaining correct proportions."
+            },
+            {
+              "title": "Photography",
+              "concept": "Zoom",
+              "description": "Enlarging or reducing a photo maintains the same shape but changes size, a perfect example of similarity."
+            }
+          ]
+        },
+        {
+          "name": "Circles",
+          "notes": [
+            {
+              "title": "Angle Properties",
+              "points": [
+                "The angle subtended by an arc at the center is double the angle subtended by it at any point on the remaining part of the circle.",
+                "Angles in the same segment of a circle are equal.",
+                "Angle in a semi-circle is a right angle (90°)."
+              ]
+            },
+            {
+              "title": "Cyclic Properties",
+              "points": [
+                "Cyclic Quadrilateral: A quadrilateral whose vertices lie on a circle.",
+                "The opposite angles of a cyclic quadrilateral are supplementary (sum is 180°).",
+                "The exterior angle of a cyclic quadrilateral is equal to the interior opposite angle."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Tangents to Circles",
+          "notes": [
+            {
+              "title": "Tangent and Radius",
+              "points": [
+                "The tangent at any point of a circle is perpendicular to the radius through the point of contact."
+              ]
+            },
+            {
+              "title": "Tangents from Exterior Point",
+              "points": [
+                "Two tangents can be drawn from an external point to a circle.",
+                "The lengths of two tangents drawn from an external point to a circle are equal.",
+                "They subtend equal angles at the center."
+              ]
+            },
+            {
+              "title": "Touching Circles",
+              "points": [
+                "If two circles touch each other, the point of contact lies on the straight line joining their centers."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Gears and Pulleys",
+              "concept": "Tangents",
+              "description": "Belts connecting two pulleys act as common tangents to the two circles (pulleys)."
+            }
+          ]
+        },
+        {
+          "name": "Chord Properties",
+          "notes": [
+            {
+              "title": "Properties",
+              "points": [
+                "A straight line drawn from the center of a circle to bisect a chord (which is not a diameter) is perpendicular to the chord.",
+                "Conversely, the perpendicular from the center of a circle to a chord bisects the chord.",
+                "Equal chords are equidistant from the center.",
+                "Chords equidistant from the center are equal in length."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Theorems on Circles",
+          "notes": [
+            {
+              "title": "Alternate Segment Theorem",
+              "points": [
+                "If a line touches a circle and from the point of contact a chord is drawn, the angles which this chord makes with the given line are equal respectively to the angles formed in the corresponding alternate segments."
+              ]
+            },
+            {
+              "title": "Intersecting Chords",
+              "points": [
+                "If two chords intersects internally or externally, then the product of the lengths of their segments is equal (PA × PB = PC × PD)."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Tangent-Secant Theorem",
+              "formula": "PA × PB = PT²",
+              "explanation": "If PAB is a secant to a circle intersecting the circle at A and B, and PT is a tangent segment, then PA × PB = PT²."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Arch Bridges",
+              "concept": "Arcs",
+              "description": "The design of arch bridges relies on the properties of circular arcs to distribute weight evenly."
+            }
+          ]
+        }
       ]
     },
     {
@@ -306,10 +3030,127 @@
       "id": 22,
       "title": "Unit 4: Trigonometry",
       "topics": [
-        { "name": "Trigonometric Ratios", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Trigonometric Identities", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Heights and Distances", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Angle of Elevation and Depression", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Trigonometric Ratios",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "The ratios of the sides of a right-angled triangle with respect to its acute angles are called trigonometric ratios.",
+                "In a right triangle with angle θ: Perpendicular (Opposite), Base (Adjacent), Hypotenuse."
+              ]
+            },
+            {
+              "title": "Values of Standard Angles",
+              "points": [
+                "Angles: 0°, 30°, 45°, 60°, 90°.",
+                "sin 30° = 1/2, sin 45° = 1/√2, sin 60° = √3/2.",
+                "cos 30° = √3/2, cos 45° = 1/√2, cos 60° = 1/2.",
+                "tan 30° = 1/√3, tan 45° = 1, tan 60° = √3."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Basic Ratios",
+              "formula": "sin θ = P/H, cos θ = B/H, tan θ = P/B",
+              "explanation": "P=Perpendicular, B=Base, H=Hypotenuse (SOH CAH TOA)."
+            },
+            {
+              "title": "Reciprocal Ratios",
+              "formula": "cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ",
+              "explanation": "Reciprocal relationships."
+            },
+            {
+              "title": "Quotient Ratios",
+              "formula": "tan θ = sin θ / cos θ, cot θ = cos θ / sin θ",
+              "explanation": "Relationship between tan, cot with sin and cos."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Trigonometric Identities",
+          "notes": [
+            {
+              "title": "Concept",
+              "points": [
+                "An equation involving trigonometric ratios of an angle is called a trigonometric identity if it is true for all values of the angle."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Square Identities",
+              "formula": "sin²θ + cos²θ = 1",
+              "explanation": "Fundamental identity derived from Pythagoras theorem."
+            },
+            {
+              "title": "Sec-Tan Identity",
+              "formula": "sec²θ - tan²θ = 1",
+              "explanation": "Valid for 0° ≤ θ < 90°."
+            },
+            {
+              "title": "Cosec-Cot Identity",
+              "formula": "cosec²θ - cot²θ = 1",
+              "explanation": "Valid for 0° < θ ≤ 90°."
+            }
+          ],
+          "realworld": []
+        },
+        {
+          "name": "Heights and Distances",
+          "notes": [
+            {
+              "title": "Application",
+              "points": [
+                "Trigonometry is used to find heights of objects (towers, mountains) and distances between points without directly measuring them.",
+                "Line of Sight: The line drawn from the eye of an observer to the point in the object viewed by the observer."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Navigation",
+              "concept": "Positioning",
+              "description": "Used in GPS and satellite systems to calculate positions and distances on Earth."
+            },
+            {
+              "title": "Architecture",
+              "concept": "Construction",
+              "description": "Architects use trigonometry to calculate roof slopes, light angles, and structural loads."
+            }
+          ]
+        },
+        {
+          "name": "Angle of Elevation and Depression",
+          "notes": [
+            {
+              "title": "Angle of Elevation",
+              "points": [
+                "The angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level.",
+                "Observer looks upwards."
+              ]
+            },
+            {
+              "title": "Angle of Depression",
+              "points": [
+                "The angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal level.",
+                "Observer looks downwards.",
+                "Numerically, Angle of Elevation = Angle of Depression (Alternate Interior Angles)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Aviation",
+              "concept": "Landing",
+              "description": "Pilots use angles of depression to calculate the correct descent path for landing on a runway."
+            }
+          ]
+        }
       ]
     },
     {
@@ -318,10 +3159,138 @@
       "id": 23,
       "title": "Unit 5: Statistics",
       "topics": [
-        { "name": "Mean", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Median", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Mode", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Cumulative Frequency Curve", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Mean",
+          "notes": [
+            {
+              "title": "Methods to find Mean",
+              "points": [
+                "Direct Method: Used when frequencies and values are small.",
+                "Short-cut (Assumed Mean) Method: Used to simplify calculations when values are large.",
+                "Step-deviation Method: Used when class sizes are equal and values are large, to further simplify calculations."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Direct Method",
+              "formula": "Mean (x̄) = (Σfx) / (Σf)",
+              "explanation": "Where f is frequency and x is the variate (or mid-value of class)."
+            },
+            {
+              "title": "Short-cut Method",
+              "formula": "Mean (x̄) = A + (Σfd) / (Σf)",
+              "explanation": "Where A is Assumed Mean, and d = x - A (deviation)."
+            },
+            {
+              "title": "Step-deviation Method",
+              "formula": "Mean (x̄) = A + [(Σfu) / (Σf)] × h",
+              "explanation": "Where u = (x - A) / h, and h is the class size (width)."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Average Score",
+              "concept": "Performance Analysis",
+              "description": "Calculating the average marks of a class to understand the general performance level."
+            }
+          ]
+        },
+        {
+          "name": "Median",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "The middlemost value of a distribution which divides it into two equal parts.",
+                "It is a positional average."
+              ]
+            },
+            {
+              "title": "Finding Median",
+              "points": [
+                "For individual discrete series: Arrange in ascending order. If n is odd, Median = ((n+1)/2)th term. If n is even, Median = Average of (n/2)th and ((n/2)+1)th terms.",
+                "For grouped data: Can be found graphically using Ogive or by formula."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Median Formula (Grouped Data)",
+              "formula": "Median = L + [(n/2 - cf) / f] × h",
+              "explanation": "L=Lower limit of median class, n=Total frequency, cf=Cumulative frequency of preceding class, f=Frequency of median class, h=Class size."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Real Estate Prices",
+              "concept": "Market Trends",
+              "description": "Median price is often used instead of mean for house prices because it is not skewed by extremely expensive mansions."
+            }
+          ]
+        },
+        {
+          "name": "Mode",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "The value which occurs most frequently in a data set.",
+                "A distribution can be unimodal, bimodal, or multimodal."
+              ]
+            },
+            {
+              "title": "Finding Mode",
+              "points": [
+                "For ungrouped data: The observation with the maximum frequency.",
+                "For grouped data: Found graphically using a Histogram or by formula."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Mode Formula (Grouped Data)",
+              "formula": "Mode = L + [(f1 - f0) / (2f1 - f0 - f2)] × h",
+              "explanation": "L=Lower limit of modal class, f1=Frequency of modal class, f0=Frequency of class preceding modal class, f2=Frequency of class succeeding it, h=Class size."
+            },
+            {
+              "title": "Empirical Relationship",
+              "formula": "Mode = 3 Median - 2 Mean",
+              "explanation": "Relationship between Mean, Median and Mode for a moderately skewed distribution."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Retail",
+              "concept": "Inventory Management",
+              "description": "Shopkeepers stock shoe sizes based on the mode (most popular size) to maximize sales."
+            }
+          ]
+        },
+        {
+          "name": "Cumulative Frequency Curve",
+          "notes": [
+            {
+              "title": "Ogive",
+              "points": [
+                "A curve obtained by plotting cumulative frequencies against the upper limits (Less than Ogive) or lower limits (More than Ogive) of class intervals.",
+                "Less than Ogive: Plot points (Upper Limit, Corresponding Cumulative Frequency).",
+                "Intersection: The point where 'Less than' and 'More than' Ogives intersect gives the Median on the x-axis."
+              ]
+            },
+            {
+              "title": "Finding Quartiles",
+              "points": [
+                "Median (Q2): Value at N/2 on y-axis projected to curve and then to x-axis.",
+                "Lower Quartile (Q1): Value at N/4 on y-axis projected to x-axis.",
+                "Upper Quartile (Q3): Value at 3N/4 on y-axis projected to x-axis.",
+                "Inter Quartile Range: Q3 - Q1."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        }
       ]
     },
     {
@@ -330,9 +3299,101 @@
       "id": 24,
       "title": "Unit 6: Probability",
       "topics": [
-        { "name": "Random Experiments", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Theoretical Probability", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Simple Probability Problems", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Random Experiments",
+          "notes": [
+            {
+              "title": "Basic Concepts",
+              "points": [
+                "Random Experiment: An experiment in which all possible outcomes are known and the exact outcome cannot be predicted in advance.",
+                "Sample Space (S): The set of all possible outcomes of a random experiment.",
+                "Event (E): Any subset of a sample space.",
+                "Elementary Event: An event having only one outcome.",
+                "Sure Event: An event that is certain to happen (Probability = 1).",
+                "Impossible Event: An event that cannot happen (Probability = 0)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Theoretical Probability",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "The theoretical probability of an event E is defined as the ratio of the number of outcomes favorable to the event to the total number of all possible outcomes of the experiment."
+              ]
+            }
+          ],
+          "formulas": [
+            {
+              "title": "Probability Formula",
+              "formula": "P(E) = n(E) / n(S)",
+              "explanation": "Where n(E) is the number of favorable outcomes and n(S) is the total number of possible outcomes."
+            },
+            {
+              "title": "Range of Probability",
+              "formula": "0 ≤ P(E) ≤ 1",
+              "explanation": "Probability of an event always lies between 0 and 1 (inclusive)."
+            },
+            {
+              "title": "Complementary Event",
+              "formula": "P(E) + P(not E) = 1",
+              "explanation": "The sum of the probability of an event happening and not happening is 1."
+            }
+          ],
+          "realworld": [
+            {
+              "title": "Weather Forecasting",
+              "concept": "Prediction",
+              "description": "Meteorologists use probability to predict the percentage chance of rain or snow for a specific day."
+            }
+          ]
+        },
+        {
+          "name": "Simple Probability Problems",
+          "notes": [
+            {
+              "title": "Coins",
+              "points": [
+                "One Coin: S = {H, T}, Total = 2.",
+                "Two Coins: S = {HH, HT, TH, TT}, Total = 4.",
+                "Three Coins: S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}, Total = 8."
+              ]
+            },
+            {
+              "title": "Dice",
+              "points": [
+                "One Die: S = {1, 2, 3, 4, 5, 6}, Total = 6.",
+                "Two Dice: Total outcomes = 36 (e.g., (1,1), (1,2)...(6,6))."
+              ]
+            },
+            {
+              "title": "Playing Cards",
+              "points": [
+                "Total cards: 52.",
+                "Suits: 4 (Spades, Clubs, Hearts, Diamonds), each has 13 cards.",
+                "Colors: 26 Red (Hearts, Diamonds), 26 Black (Spades, Clubs).",
+                "Face Cards: 12 (4 Kings, 4 Queens, 4 Jacks)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Insurance",
+              "concept": "Risk Assessment",
+              "description": "Insurance companies use probability statistics to determine premiums based on the likelihood of a claim."
+            },
+            {
+              "title": "Sports Strategies",
+              "concept": "Decision Making",
+              "description": "Coaches and analysts use probability to decide plays, such as whether to go for a 2-point conversion in football."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -343,13 +3404,188 @@
       "id": 25,
       "title": "History: Indian National Movement",
       "topics": [
-        { "name": "The First War of Independence (1857)", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Growth of Nationalism", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Formation of the Indian National Congress", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Partition of Bengal", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Gandhian Era", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Quit India Movement", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Independence and Partition (1947)", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "The First War of Independence (1857)",
+          "notes": [
+            {
+              "title": "Causes",
+              "points": [
+                "Political: Doctrine of Lapse (Dalhousie), Annexation of Awadh.",
+                "Social & Religious: Interference in customs (Sati abolition, Widow Remarriage Act), Fear of mass conversion.",
+                "Economic: Ruin of trade and handicrafts, Heavy taxation, Drain of Wealth.",
+                "Military: Lower salaries for Indian soldiers, General Service Enlistment Act, Introduction of Enfield Rifles (Greased Cartridges)."
+              ]
+            },
+            {
+              "title": "Consequences",
+              "points": [
+                "End of East India Company's rule; Power transferred to the British Crown (Govt of India Act 1858).",
+                "Queen's Proclamation: Promise of religious non-interference, equal treatment.",
+                "Reorganization of the Army (Divide and Rule policy)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Mangal Pandey",
+              "concept": "The Spark",
+              "description": "Mangal Pandey's revolt at Barrackpore is often cited as the immediate spark that ignited the uprising."
+            },
+            {
+              "title": "Rani Lakshmibai",
+              "concept": "Resistance",
+              "description": "Queen of Jhansi who became a symbol of resistance against British rule, famous for dying in battle."
+            }
+          ]
+        },
+        {
+          "name": "Growth of Nationalism",
+          "notes": [
+            {
+              "title": "Factors Promoting Nationalism",
+              "points": [
+                "Economic Exploitation: Famines, poverty, and destruction of industries.",
+                "Repressive Policies: Vernacular Press Act (1878), Arms Act (1878) by Lord Lytton.",
+                "Socio-Religious Reforms: Efforts by Raja Rammohan Roy, Swami Vivekananda to unite society.",
+                "Western Education: Spread of democratic ideas (Liberty, Equality).",
+                "Role of Press: Newspapers like 'The Hindu', 'Amrita Bazar Patrika' criticized British policies."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Formation of the Indian National Congress",
+          "notes": [
+            {
+              "title": "Foundation",
+              "points": [
+                "Founded: December 1885 by A.O. Hume (retired civil servant).",
+                "First Session: Bombay, presided by W.C. Bonnerjee, attended by 72 delegates."
+              ]
+            },
+            {
+              "title": "Phases",
+              "points": [
+                "Early Nationalists (Moderates) (1885-1905): Believed in constitutional methods (3Ps - Petition, Prayer, Protest). Leaders: Dadabhai Naoroji, G.K. Gokhale.",
+                "Assertive Nationalists (Extremists) (1905-1919): Demanded Swaraj, believed in mass action. Leaders: Bal Gangadhar Tilak, Bipin Chandra Pal, Lala Lajpat Rai (Lal-Bal-Pal)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "INC Today",
+              "concept": "Political Legacy",
+              "description": "The Indian National Congress remains a major political party in India, tracing its roots back to this movement."
+            }
+          ]
+        },
+        {
+          "name": "Partition of Bengal",
+          "notes": [
+            {
+              "title": "The Event (1905)",
+              "points": [
+                "Proposed by Lord Curzon.",
+                "Official Reason: Administrative convenience to govern a large province.",
+                "Real Motive: To curb the rising tide of nationalism in Bengal and divide Hindus and Muslims."
+              ]
+            },
+            {
+              "title": "Anti-Partition Movement",
+              "points": [
+                "Swadeshi Movement: Use of Indian goods, promotion of indigenous industries.",
+                "Boycott Movement: Boycott of British goods, schools, and courts."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Gandhian Era",
+          "notes": [
+            {
+              "title": "Ideology",
+              "points": [
+                "Satyagraha: Truth-force, non-violent resistance.",
+                "Ahimsa: Non-violence."
+              ]
+            },
+            {
+              "title": "Major Movements",
+              "points": [
+                "Non-Cooperation Movement (1920-1922): Triggered by Rowlatt Act, Jallianwala Bagh massacre, Khilafat issue. Suspended after Chauri Chaura incident.",
+                "Civil Disobedience Movement (1930): Started with the Dandi March (Salt Satyagraha). Breaking of Salt Laws.",
+                "Gandhi-Irwin Pact (1931): Suspension of movement for Round Table Conference."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Sabarmati Ashram",
+              "concept": "Gandhian Life",
+              "description": "Gandhi's base for his activism, serving as a school for non-violence and self-reliance."
+            }
+          ]
+        },
+        {
+          "name": "Quit India Movement",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Launched: August 1942.",
+                "Resolution: Passed at Bombay session of AICC.",
+                "Slogan: 'Do or Die' given by Mahatma Gandhi.",
+                "Causes: Failure of Cripps Mission (no guarantee of immediate independence), Threat of Japanese invasion during WWII."
+              ]
+            },
+            {
+              "title": "Significance",
+              "points": [
+                "Mass uprising without leadership (leaders arrested early).",
+                "Establishment of parallel governments in some areas.",
+                "Demonstrated that British could no longer rule India against its will."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Independence and Partition (1947)",
+          "notes": [
+            {
+              "title": "Mountbatten Plan",
+              "points": [
+                "June 3 Plan: Proposed partition of India into two dominions - India and Pakistan.",
+                "Accepted by both Congress and Muslim League."
+              ]
+            },
+            {
+              "title": "Indian Independence Act 1947",
+              "points": [
+                "Ended British rule on August 15, 1947.",
+                "Abolished the office of Viceroy.",
+                "Constituent Assemblies of both dominions empowered to frame constitutions.",
+                "Princely states given choice to join either dominion."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Wagah Border",
+              "concept": "Partition Legacy",
+              "description": "The daily retreat ceremony at the Wagah border symbolizes the rivalry and shared history resulting from the Partition."
+            }
+          ]
+        }
       ]
     },
     {
@@ -358,10 +3594,119 @@
       "id": 26,
       "title": "History: World History",
       "topics": [
-        { "name": "First World War", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Rise of Dictatorships", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Second World War", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "United Nations Organisation", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "First World War",
+          "notes": [
+            {
+              "title": "Causes",
+              "points": [
+                "Aggressive Nationalism and Imperialism.",
+                "System of Alliances: Triple Alliance (Germany, Austria-Hungary, Italy) vs Triple Entente (Britain, France, Russia).",
+                "Sarajevo Crisis (Immediate Cause): Assassination of Archduke Franz Ferdinand (June 28, 1914)."
+              ]
+            },
+            {
+              "title": "Results",
+              "points": [
+                "Treaty of Versailles (1919): Imposed harsh terms on Germany (War guilt clause, heavy reparations, territorial loss).",
+                "Territorial Changes: Disintegration of Ottoman, Austro-Hungarian empires.",
+                "Formation of League of Nations."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Trench Warfare",
+              "concept": "Warfare",
+              "description": "WWI is famous for trench warfare on the Western Front, leading to a stalemate and massive casualties."
+            }
+          ]
+        },
+        {
+          "name": "Rise of Dictatorships",
+          "notes": [
+            {
+              "title": "Fascism (Italy)",
+              "points": [
+                "Leader: Benito Mussolini.",
+                "Ideology: Ultra-nationalism, anti-communist, one-party rule, suppression of dissent.",
+                "Aims: Restore the glory of the Roman Empire."
+              ]
+            },
+            {
+              "title": "Nazism (Germany)",
+              "points": [
+                "Leader: Adolf Hitler.",
+                "Ideology: Racial supremacy (Aryans), Anti-Semitism, abrogation of Treaty of Versailles.",
+                "Means: Gestapo (Secret police), Propaganda, Concentration camps."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Second World War",
+          "notes": [
+            {
+              "title": "Causes",
+              "points": [
+                "Weimar Republic's failure and Rise of Hitler.",
+                "Failure of League of Nations to check aggression (Manchuria, Abyssinia).",
+                "Invasion of Poland: Germany attacked Poland on Sept 1, 1939 (Immediate Cause).",
+                "Japanese Policy of Expansion."
+              ]
+            },
+            {
+              "title": "Consequences",
+              "points": [
+                "Defeat of Axis Powers (Germany, Italy, Japan).",
+                "Formation of United Nations (1945).",
+                "Beginning of Cold War (USA vs USSR)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Hiroshima Peace Memorial",
+              "concept": "Nuclear Impact",
+              "description": "Preserves the Genbaku Dome as a reminder of the atomic bombing on August 6, 1945."
+            }
+          ]
+        },
+        {
+          "name": "United Nations Organisation",
+          "notes": [
+            {
+              "title": "Objectives",
+              "points": [
+                "Maintain international peace and security.",
+                "Develop friendly relations among nations.",
+                "Achieve international cooperation in solving problems."
+              ]
+            },
+            {
+              "title": "Principal Organs",
+              "points": [
+                "General Assembly: Deliberative body, all members have one vote.",
+                "Security Council: Enforcement body, 5 permanent members (veto power) and 10 non-permanent.",
+                "International Court of Justice (ICJ): Hague, Netherlands. Settles legal disputes.",
+                "Secretariat: Administrative wing headed by Secretary-General.",
+                "Economic and Social Council (ECOSOC)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "UN Peacekeeping",
+              "concept": "Global Peace",
+              "description": "Blue Helmets deployed to conflict zones to protect civilians and maintain peace."
+            }
+          ]
+        }
       ]
     },
     {
@@ -370,11 +3715,151 @@
       "id": 27,
       "title": "Civics: Indian Constitution",
       "topics": [
-        { "name": "Meaning and Need for a Constitution", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Salient Features of the Indian Constitution", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Fundamental Rights", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Directive Principles of State Policy", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Fundamental Duties", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Meaning and Need for a Constitution",
+          "notes": [
+            {
+              "title": "Definition",
+              "points": [
+                "A comprehensive document containing the set of rules according to which the government of a country runs.",
+                "It regulates the position and powers of the three organs of the government: Legislature, Executive, and Judiciary."
+              ]
+            },
+            {
+              "title": "Need",
+              "points": [
+                "Defines the nature of the country's political system.",
+                "Protects citizens from arbitrary exercise of power.",
+                "Ensures minority rights are protected.",
+                "Established the Rule of Law."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Salient Features of the Indian Constitution",
+          "notes": [
+            {
+              "title": "Key Features",
+              "points": [
+                "Single Citizenship: Unlike USA, Indians have only one citizenship.",
+                "Universal Adult Franchise: Right to vote for all citizens above 18 years (61st Amendment reduced it from 21 to 18).",
+                "Fundamental Rights and Duties: Guarantees rights and prescribes duties.",
+                "Welfare State: Through Directive Principles.",
+                "Lengthiest Written Constitution: Originally 395 Articles, now more than 448."
+              ]
+            },
+            {
+              "title": "Rigidity and Flexibility",
+              "points": [
+                "Rigid: Some provisions require special majority + ratification by states (e.g., Election of President).",
+                "Flexible: Some provisions can be amended by simple majority (e.g., Changing state boundaries)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Voter ID Card",
+              "concept": "Universal Adult Franchise",
+              "description": "The Elector's Photo Identity Card (EPIC) allows every adult citizen to participate in democracy."
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Rights",
+          "notes": [
+            {
+              "title": "Nature",
+              "points": [
+                "Enshrined in Part III (Articles 12-35).",
+                "Justiciable: Enforceable by courts (Writs can be issued).",
+                "Not absolute: Reasonable restrictions apply."
+              ]
+            },
+            {
+              "title": "The Six Rights",
+              "points": [
+                "Right to Equality (Art 14-18).",
+                "Right to Freedom (Art 19-22): Speech, Assembly, Association, Movement, Residence, Profession.",
+                "Right against Exploitation (Art 23-24): Ban on forced labor and child labor.",
+                "Right to Freedom of Religion (Art 25-28).",
+                "Cultural and Educational Rights (Art 29-30).",
+                "Right to Constitutional Remedies (Art 32): Heart and Soul of Constitution."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "RTI Act",
+              "concept": "Right to Freedom",
+              "description": "Right to Information Act (2005) empowers citizens to question the government, derived from freedom of speech."
+            }
+          ]
+        },
+        {
+          "name": "Directive Principles of State Policy",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Part IV (Articles 36-51).",
+                "Non-Justiciable: Cannot be enforced by courts.",
+                "Aim: To establish a Welfare State and insure social and economic democracy."
+              ]
+            },
+            {
+              "title": "Classifications",
+              "points": [
+                "Socialistic Principles: Equal pay, decent standard of living.",
+                "Gandhian Principles: Village Panchayats, prohibition of intoxicating drinks.",
+                "Liberal-Intellectual Principles: Uniform Civil Code, separation of judiciary from executive."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "MGNREGA",
+              "concept": "Right to Work",
+              "description": "Aimed at guaranteeing the 'right to work', implementing the directive principle of securing livelihood."
+            }
+          ]
+        },
+        {
+          "name": "Fundamental Duties",
+          "notes": [
+            {
+              "title": "Details",
+              "points": [
+                "Part IV-A (Article 51A).",
+                "Added by 42nd Amendment (1976) on Swaran Singh Committee recommendation.",
+                "Total 11 duties (11th added by 86th Amendment - education for children 6-14)."
+              ]
+            },
+            {
+              "title": "Key Duties",
+              "points": [
+                "Respect the Constitution, Flag, and Anthem.",
+                "Cherish and follow noble ideals of freedom struggle.",
+                "Uphold sovereignty, unity, and integrity of India.",
+                "Protect natural environment.",
+                "Scietific temper and spirit of inquiry."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cinema Halls Anthem",
+              "concept": "Respecting Ideals",
+              "description": "Standing up for the National Anthem in various public spheres is a practice of this fundamental duty."
+            }
+          ]
+        }
       ]
     },
     {
@@ -383,10 +3868,117 @@
       "id": 28,
       "title": "Civics: Union Government",
       "topics": [
-        { "name": "The President and Vice-President", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "The Prime Minister and Council of Ministers", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "The Parliament", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Supreme Court of India", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "The President and Vice-President",
+          "notes": [
+            {
+              "title": "The President",
+              "points": [
+                "Head of State and Supreme Commander of Defence Forces.",
+                "Qualifications: Citizen of India, 35 years of age, qualified for election to Lok Sabha.",
+                "Election: By an Electoral College (Elected members of Parliament and State Assemblies).",
+                "Powers: Executive appointments, Legislative (summoning sessions), Financial (Budget), Judicial (Pardoning), Emergency powers."
+              ]
+            },
+            {
+              "title": "The Vice-President",
+              "points": [
+                "Ex-officio Chairman of Rajya Sabha.",
+                "Qualifications: Citizen of India, 35 years of age, qualified for election to Rajya Sabha.",
+                "Function: Acts as President in their absence."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Rashtrapati Bhavan",
+              "concept": "Residence of Power",
+              "description": "The official residence of the President of India, located in New Delhi, symbolizing the highest office in the land."
+            }
+          ]
+        },
+        {
+          "name": "The Prime Minister and Council of Ministers",
+          "notes": [
+            {
+              "title": "The Prime Minister",
+              "points": [
+                "Head of Government and leader of the majority party in Lok Sabha.",
+                "Appointment: By the President.",
+                "Functions: Advises President on appointment of ministers, coordinates government policy, link between President and Cabinet."
+              ]
+            },
+            {
+              "title": "Council of Ministers",
+              "points": [
+                "Composition: Cabinet Ministers, Ministers of State, Deputy Ministers.",
+                "Collective Responsibility: The entire ministry resigns if a Vote of No Confidence is passed in the Lok Sabha."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "The Parliament",
+          "notes": [
+            {
+              "title": "Lok Sabha (Lower House)",
+              "points": [
+                "Composition: Max 550 members elected by Universal Adult Franchise.",
+                "Term: 5 years (can be dissolved earlier).",
+                "Speaker: Presides over sessions, maintains order, certifies Money Bills."
+              ]
+            },
+            {
+              "title": "Rajya Sabha (Upper House)",
+              "points": [
+                "Composition: Max 250 members (12 nominated by President).",
+                "Nature: Permanent body, not subject to dissolution. 1/3rd members retire every 2 years.",
+                "Election: By elected members of State Legislative Assemblies (Single Transferable Vote)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "New Parliament Building",
+              "concept": "Democratic Infrastructure",
+              "description": "Part of the Central Vista Redevelopment Project, representing a modern India."
+            }
+          ]
+        },
+        {
+          "name": "Supreme Court of India",
+          "notes": [
+            {
+              "title": "Overview",
+              "points": [
+                "Apex court of India, guardian of the Constitution.",
+                "Composition: Chief Justice of India (CJI) and other judges (max 34).",
+                "Appointment: By President in consultation with judges (Collegium System)."
+              ]
+            },
+            {
+              "title": "Jurisdiction",
+              "points": [
+                "Original: Disputes between Centre and States or between States.",
+                "Appellate: Appeals against High Court judgments.",
+                "Advisory: President seeks opinion on law/fact.",
+                "Writ Jurisdiction: Enforcement of Fundamental Rights (Article 32)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Basic Structure Doctrine",
+              "concept": "Judicial Review",
+              "description": "Kesavananda Bharati case (1973) ruling that Parliament cannot alter the basic features of the Constitution."
+            }
+          ]
+        }
       ]
     },
     {
@@ -395,10 +3987,143 @@
       "id": 29,
       "title": "Geography: Physical Geography",
       "topics": [
-        { "name": "Physiographic Divisions of India", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Climate of India", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Natural Vegetation", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Soil Types of India", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Physiographic Divisions of India",
+          "notes": [
+            {
+              "title": "The Himalayas",
+              "points": [
+                "Fold mountains in the north.",
+                "Three parallel ranges: Himadri (Great Himalayas), Himachal (Lesser Himalayas), Shiwaliks (Outer Himalayas).",
+                "Significance: Climatic barrier, source of rivers, defense."
+              ]
+            },
+            {
+              "title": "The Northern Plains",
+              "points": [
+                "Formed by depositional work of Indus, Ganga, Brahmaputra.",
+                "Region of rich alluvial soil, high population density, and intensive agriculture."
+              ]
+            },
+            {
+              "title": "The Peninsular Plateau",
+              "points": [
+                "Oldest stable landmass (Gondwanaland).",
+                "divided into Central Highlands (Malwa) and Deccan Plateau.",
+                "Rich in minerals."
+              ]
+            },
+            {
+              "title": "Coastal Plains",
+              "points": [
+                "Western Coastal Plain: Narrow, estuaries (Konkan, Kannad, Malabar).",
+                "Eastern Coastal Plain: Wide, deltas (Northern Circars, Coromandel)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Climate of India",
+          "notes": [
+            {
+              "title": "Characteristics",
+              "points": [
+                "Tropical Monsoon type.",
+                "Factors: Latitude, Altitude, Distance from sea, Himalayas, Jet Streams."
+              ]
+            },
+            {
+              "title": "Seasons",
+              "points": [
+                "Hot Weather (Summer): March to May. Loo winds.",
+                "South West Monsoon (Rainy): June to September. Arabian Sea and Bay of Bengal branches.",
+                "Retreating Monsoon: October-November. Cyclones in Odisha/Andhra.",
+                "Cold Weather (Winter): December to February. Western Disturbances cause rain in North."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Cherrapunji/Mawsynram",
+              "concept": "Heavy Rainfall",
+              "description": "These places in Meghalaya record the highest rainfall in the world due to the funnel-shaped hills trapping moisture-laden winds."
+            }
+          ]
+        },
+        {
+          "name": "Natural Vegetation",
+          "notes": [
+            {
+              "title": "Tropical Evergreen Forests",
+              "points": [
+                "Rainfall > 200 cm. Dense, trees do not shed leaves together.",
+                "Trees: Rosewood, Ebony, Mahogany.",
+                "Region: Western Ghats, North East India, Andaman & Nicobar."
+              ]
+            },
+            {
+              "title": "Tropical Deciduous Forests (Monsoon Forests)",
+              "points": [
+                "Rainfall 100-200 cm. Shed leaves in summer to save water.",
+                "Trees: Teak, Sal, Sandalwood.",
+                "Most widespread in India."
+              ]
+            },
+            {
+              "title": "Littoral/Mangrove Forests",
+              "points": [
+                "Found in deltas and tidal creeks.",
+                "Roots: Pneumatophores (Breathing roots).",
+                "Trees: Sundari (Sundarbans)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        },
+        {
+          "name": "Soil Types of India",
+          "notes": [
+            {
+              "title": "Alluvial Soil",
+              "points": [
+                "Transported soil by rivers.",
+                "Rich in Potash, poor in Phosphorus.",
+                "Crops: Rice, Wheat, Sugarcane.",
+                "Types: Khadar (New), Bhangar (Old)."
+              ]
+            },
+            {
+              "title": "Black Soil (Regur)",
+              "points": [
+                "Volcanic origin (Deccan Trap).",
+                "Rich in Lime, Iron; retains moisture.",
+                "Crops: Cotton, Sugarcane."
+              ]
+            },
+            {
+              "title": "Red Soil",
+              "points": [
+                "Formed by weathering of crystalline igneous rocks.",
+                "Red colour due to iron oxide.",
+                "Crops: Millets, Pulses."
+              ]
+            },
+            {
+              "title": "Laterite Soil",
+              "points": [
+                "Formed by Leaching (hight temp + high rain).",
+                "Acidic, poor fertility.",
+                "Crops: Tea, Coffee, Cashew."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": []
+        }
       ]
     },
     {
@@ -407,10 +4132,206 @@
       "id": 30,
       "title": "Geography: Resources",
       "topics": [
-        { "name": "Natural Resources", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Mineral Resources", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Agriculture in India", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Industries in India", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Natural Resources",
+          "notes": [
+            {
+              "title": "Water Resources",
+              "points": [
+                "Importance of water: Essential for life, agriculture, industries, and maintaining ecological balance.",
+                "Sources of water: Surface water (rivers, lakes), groundwater, and rainwater.",
+                "Need for conservation: Over-exploitation, pollution, and unequal distribution require sustainable management.",
+                "Rainwater Harvesting: Method of collecting and storing rainwater for future use, reducing dependence on groundwater.",
+                "Irrigation: Artificial application of water to soil (Canal, Tank, Well, Furrow, Drip, Sprinkler)."
+              ]
+            },
+            {
+              "title": "Forest Resources",
+              "points": [
+                "Importance: Prevention of soil erosion, regulation of climate, habitat for wildlife, and source of timber/medicinal plants.",
+                "Conservation methods: Afforestation, Reforestation, Social Forestry, and checking deforestation.",
+                "Forest Cover in India: Target is 33% of geographical area (National Forest Policy, 1988)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Rainwater Harvesting in Tamil Nadu",
+              "concept": "Water Conservation",
+              "description": "Tamil Nadu was the first Indian state to make rainwater harvesting compulsory for all buildings to combat groundwater depletion."
+            },
+            {
+              "title": "Chipko Movement",
+              "concept": "Forest Conservation",
+              "description": "A grassroots movement in the Himalayas where villagers hugged trees to prevent them from being cut down, highlighting community-led conservation."
+            }
+          ]
+        },
+        {
+          "name": "Mineral Resources",
+          "notes": [
+            {
+              "title": "Types of Minerals",
+              "points": [
+                "Metallic Minerals: Ferrous (Iron ore, Manganese) and Non-Ferrous (Copper, Bauxite, Gold).",
+                "Non-Metallic Minerals: Mica, Limestone.",
+                "Energy Minerals: Coal, Petroleum, Natural Gas (Conventional) and Solar, Wind, Biogas (Non-conventional)."
+              ]
+            },
+            {
+              "title": "Iron Ore",
+              "points": [
+                "Types: Magnetite (Highest quality, 70% iron), Hematite (Most important industrial ore, 50-60% iron), Limonite, Siderite.",
+                "Distribution: Odisha (Mayurbhanj, Kendujhar), Jharkhand (Singhbhum), Chhattisgarh (Bailadila), Karnataka (Kudremukh)."
+              ]
+            },
+            {
+              "title": "Manganese",
+              "points": [
+                "Uses: Manufacturing of steel (makes it tough), bleaching powder, insecticides, and batteries.",
+                "Distribution: Odisha (Largest producer), Madhya Pradesh, Karnataka."
+              ]
+            },
+            {
+              "title": "Bauxite",
+              "points": [
+                "Use: Ore of Aluminium; lightweight, conductive, malleable.",
+                "Distribution: Odisha (Koraput, Kalahandi), Gujarat, Jharkhand."
+              ]
+            },
+            {
+              "title": "Coal (Black Gold)",
+              "points": [
+                "Varieties: Anthracite (Best quality, >80% carbon), Bituminous (Commercial use, 60-80% carbon), Lignite (Brown coal), Peat.",
+                "Distribution: Gondwana Coal Fields (Damodar Valley - Jharia, Bokaro in Jharkhand, Raniganj in WB) and Tertiary Coal Fields (North East India)."
+              ]
+            },
+            {
+              "title": "Petroleum (Liquid Gold)",
+              "points": [
+                "Occurrence: Found in sedimentary rocks (anticlines/fault traps).",
+                "Distribution: Mumbai High (Offshore), Gujarat (Ankleshwar), Assam (Digboi - oldest field)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Kudremukh Mines",
+              "concept": "Iron Ore Mining",
+              "description": "Kudremukh (Horse Face) in Karnataka is one of the largest iron ore mines in the world, exporting ore as slurry through pipelines to Mangalore port."
+            },
+            {
+              "title": "Mumbai High",
+              "concept": "Offshore Oil Drilling",
+              "description": "Accounts for a significant portion of India's petroleum production, demonstrating advanced offshore drilling technology."
+            }
+          ]
+        },
+        {
+          "name": "Agriculture in India",
+          "notes": [
+            {
+              "title": "Cropping Seasons",
+              "points": [
+                "Kharif: Sown in June/July (Monsoon), Harvested in Sept/Oct. Crops: Rice, Maize, Cotton, Jute, Groundnut.",
+                "Rabi: Sown in Oct/Nov (Winter), Harvested in April/May. Crops: Wheat, Gram, Mustard, Barley.",
+                "Zaid: Short season between Rabi and Kharif. Crops: Watermelon, Cucumber, Vegetables."
+              ]
+            },
+            {
+              "title": "Major Crops",
+              "points": [
+                "Rice: Staple food. Requirements: High temp (above 25°C), High humidity, Rainfall > 100cm. Areas: WB, UP, Punjab, Andhra.",
+                "Wheat: Staple in North. Requirements: Cool growing season, bright sunshine at ripening, 50-75cm rainfall. Areas: Punjab, Haryana, UP.",
+                "Millets (Coarse Grains): Jowar, Bajra, Ragi. Hardy crops, grow in dry regions.",
+                "Pulses: Gram, Tur, Urad. Leguminous crops (fix nitrogen). India is largest producer and consumer.",
+                "Sugarcane: Cash crop. Hot and humid climate (21-27°C, 75-100cm rain). India is 2nd largest producer. Areas: UP, Maharashtra.",
+                "Tea: Beverage crop. Warm, moist, frost-free climate, well-drained loamy soil (slopes). Areas: Assam, Darjeeling, Kerala.",
+                "Coffee: Arabica variety. Hot and humid, shade required. Areas: Karnataka (Baba Budan Hills), Kerala, Tamil Nadu.",
+                "Cotton: Industrial crop. High temp, light rainfall, 210 frost-free days, Black soil. Areas: Maharashtra, Gujarat.",
+                "Jute (Golden Fibre): Hot and humid, fertile floodplains. Areas: West Bengal, Bihar."
+              ]
+            },
+            {
+              "title": "Problems of Indian Agriculture",
+              "points": [
+                "Dependence on erratic monsoon.",
+                "Small and fragmented landholdings.",
+                "Lack of modern inputs and technology in some regions.",
+                "Over-dependence on chemical fertilizers affecting soil health."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Green Revolution",
+              "concept": "Agricultural Modernization",
+              "description": "Introduction of High Yielding Variety (HYV) seeds, irrigation, and fertilizers in the 1960s transformed India from food-deficient to food-surplus."
+            },
+            {
+              "title": "Organic Farming in Sikkim",
+              "concept": "Sustainable Agriculture",
+              "description": "Sikkim became India's first fully organic state, banning chemical fertilizers and pesticides to preserve potential soil health and biodiversity."
+            }
+          ]
+        },
+        {
+          "name": "Industries in India",
+          "notes": [
+            {
+              "title": "Classification of Industries",
+              "points": [
+                "Agro-based: Cotton, Jute, Sugar.",
+                "Mineral-based: Iron and Steel, Aluminium, Cement.",
+                "Public Sector (BHEL, SAIL) vs Private Sector (TISCO, Bajaj).",
+                "Basic Industries (Iron & Steel) vs Consumer Industries (Soap, Toothpaste)."
+              ]
+            },
+            {
+              "title": "Iron and Steel Industry",
+              "points": [
+                "Backbone of industrial development.",
+                "Tata Steel (TISCO): Jamshedpur. oldest, private. Raw material from nearby Odisha/Jharkhand.",
+                "Bhilai Steel Plant: Chhattisgarh (Russian collaboration).",
+                "Rourkela Steel Plant: Odisha (German collaboration).",
+                "Visakhapatnam Steel Plant: Coastal location (port advantages)."
+              ]
+            },
+            {
+              "title": "Cotton Textile Industry",
+              "points": [
+                "Largest agro-based industry.",
+                "Mumbai: 'Cottonopolis of India' due to humid climate, port, skilled labor, and market access.",
+                "Ahmedabad: 'Manchester of India'.",
+                "Coimbatore: 'Manchester of South India'."
+              ]
+            },
+            {
+              "title": "Information Technology (IT)",
+              "points": [
+                "Knowledge-based industry.",
+                "Bengaluru (Bangalore): 'Silicon Valley of India'. Advantages: Mild climate, educational institutions, government policy.",
+                "Other hubs: Hyderabad (Cyberabad), Pune, Chennai, Gurgaon."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Jamshedpur Industrial City",
+              "concept": "Industrial Location Factors",
+              "description": "Jamshedpur was chosen for TISCO due to proximity to iron ore (Noamundi), coal (Jharia), and water (Subarnarekha river), illustrating ideal industrial location factors."
+            },
+            {
+              "title": "Bengaluru IT Hub",
+              "concept": "Software Technology Parks",
+              "description": "The concentration of global tech giants and startups in Bengaluru drives India's software exports and economic growth."
+            }
+          ]
+        }
       ]
     },
     {
@@ -419,10 +4340,177 @@
       "id": 31,
       "title": "Geography: Map Work",
       "topics": [
-        { "name": "Location of Physical Features", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Rivers and Mountains", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Soils and Crops", "notes": [], "formulas": [], "realworld": [] },
-        { "name": "Industries and Minerals", "notes": [], "formulas": [], "realworld": [] }
+        {
+          "name": "Location of Physical Features",
+          "notes": [
+            {
+              "title": "Mountains and Peaks",
+              "points": [
+                "Himalayas: Mark the entire arc from J&K to Arunachal Pradesh.",
+                "Karakoram Range & Mt. K2 (Godwin-Austen): North of Himalayas.",
+                "Aravalli Range: Rajasthan (Oldest fold mountains).",
+                "Vindhya & Satpura Ranges: Central India, parallel to Narmada/Tapi.",
+                "Western Ghats & Eastern Ghats: Along the western and eastern coasts.",
+                "Nilgiri Hills: Junction of Western and Eastern Ghats.",
+                "Mt. Kanchenjunga: Sikkim/Nepal border.",
+                "Garo, Khasi, Jaintia Hills: Meghalaya (Heavy rainfall region)."
+              ]
+            },
+            {
+              "title": "Plateaus and Plains",
+              "points": [
+                "Deccan Plateau: Triangular landmass south of Narmada.",
+                "Chota Nagpur Plateau: Mineral-rich region (Jharkhand/WB).",
+                "Gangetic Plains: Fertile plains of North India.",
+                "Coastal Plains: Konkan, Malabar (West); Coromandel, Northern Circars (East)."
+              ]
+            },
+            {
+              "title": "Water Bodies",
+              "points": [
+                "Arabian Sea (West), Bay of Bengal (East), Indian Ocean (South).",
+                "Gulf of Kutch & Gulf of Khambhat: Gujarat coast.",
+                "Palk Strait/Gulf of Mannar: Between India and Sri Lanka.",
+                "Chilika Lake (Odisha), Wular Lake (J&K)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Strategic Importance of Palk Strait",
+              "concept": "Map Locations",
+              "description": "Palk Strait creates a narrow channel separating India and Sri Lanka, a critical maritime checkpoint."
+            },
+            {
+              "title": "Aravallis and Rainfall",
+              "concept": "Climate Control",
+              "description": "The Aravallis run parallel to the Arabian Sea branch of monsoons, causing no obstruction and leading to minimal rainfall in Rajasthan."
+            }
+          ]
+        },
+        {
+          "name": "Rivers and Mountains",
+          "notes": [
+            {
+              "title": "Himalayan Rivers",
+              "points": [
+                "Indus: Flows through Ladakh into Pakistan.",
+                "Jhelum, Chenab, Ravi, Beas, Sutlej: Tributaries of Indus (Punjab).",
+                "Ganga: Originates from Gangotri, flows eastwards.",
+                "Yamuna: Important tributary of Ganga.",
+                "Brahmaputra: Enters Arunachal (Dihang), flows through Assam."
+              ]
+            },
+            {
+              "title": "Peninsular Rivers",
+              "points": [
+                "Narmada & Tapi: West flowing rivers, flow in rift valleys.",
+                "Mahanadi: Flows through Odisha (Hirakud Dam).",
+                "Godavari: Dakshin Ganga, longest peninsular river.",
+                "Krishna & Tungabhadra: Flow eastwards.",
+                "Kaveri: Southernmost major river."
+              ]
+            },
+            {
+              "title": "Passes",
+              "points": [
+                "Karakoram Pass: J&K (Ladakh).",
+                "Nathu La: Sikkim (Trade route to China).",
+                "Palghat Gap: Western Ghats (Kerala-Tamil Nadu)."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "River Interlinking",
+              "concept": "Water Management",
+              "description": "Proposals to link Himalayan and Peninsular rivers to manage drought and flood situations effectively."
+            },
+            {
+              "title": "Narmada Rift Valley",
+              "concept": "Geological Features",
+              "description": "Narmada flows through a rift valley between the Vindhya and Satpura ranges, unlike most other Indian rivers."
+            }
+          ]
+        },
+        {
+          "name": "Soils and Crops",
+          "notes": [
+            {
+              "title": "Soil Distribution",
+              "points": [
+                "Alluvial Soil: Indo-Gangetic plains, Coastal deltas (Most fertile).",
+                "Black Soil (Regur): Deccan trap (Maharashtra, Gujarat, MP) - Good for Cotton.",
+                "Red Soil: Periphery of Deccan Plateau (Iron rich, less fertile).",
+                "Laterite Soil: High leaching areas (Western Ghats summits, Meghalaya)."
+              ]
+            },
+            {
+              "title": "Crop Production Areas",
+              "points": [
+                "Rice: West Bengal, Andhra Pradesh coasts.",
+                "Wheat: Punjab, Haryana, UP.",
+                "Cotton: Maharashtra (Black soil belt), Gujarat.",
+                "Jute: West Bengal (Hugli basin).",
+                "Tea: Assam, Nilgiris.",
+                "Coffee: Karnataka (Coorg/Chikmagalur).",
+                "Sugarcane: Uttar Pradesh, Maharashtra."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Black Soil and Cotton",
+              "concept": "Soil-Crop Relation",
+              "description": "The moisture-retentive capacity of Black Soil makes it ideal for rain-fed cotton cultivation in the Deccan region."
+            }
+          ]
+        },
+        {
+          "name": "Industries and Minerals",
+          "notes": [
+            {
+              "title": "Mineral Distribution (Map)",
+              "points": [
+                "Iron Ore: Singhbhum (Jharkhand), Mayurbhanj (Odisha).",
+                "Coal: Jharia (Jharkhand), Raniganj (WB).",
+                "Oil Fields: Digboi (Assam), Mumbai High (Arabian Sea)."
+              ]
+            },
+            {
+              "title": "Industrial Centres (Map)",
+              "points": [
+                "Steel Plants: Jamshedpur (TISCO), Bhilai, Visakhapatnam.",
+                "Cotton Textile: Mumbai, Ahmedabad.",
+                "Electronic City: Bengaluru.",
+                "Automobile: Chennai (Detroit of India), Gurgaon."
+              ]
+            },
+            {
+              "title": "Population Density (Map)",
+              "points": [
+                "Densely Populated: Gangetic Plains, Kerala Coast.",
+                "Sparsely Populated: Thar Desert, North-Eastern Hills, Ladakh."
+              ]
+            }
+          ],
+          "formulas": [],
+          "realworld": [
+            {
+              "title": "Mumbai High Location",
+              "concept": "Economic Geography",
+              "description": "Located approx 160km off the coast of Mumbai, it is India's largest oil field and requires specific map identification."
+            },
+            {
+              "title": "Chota Nagpur Plateau",
+              "concept": "Mineral Heartland",
+              "description": "Often called the 'Ruhr of India' due to its rich concentration of minerals like coal, iron ore, and mica."
+            }
+          ]
+        }
       ]
     }
   ]

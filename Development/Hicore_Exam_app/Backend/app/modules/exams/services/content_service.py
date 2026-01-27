@@ -73,6 +73,40 @@ class ContentService:
             },
         )
 
+    def _calculate_topic_totals(self, learn_data: dict) -> dict:
+        """
+        Calculates total topics using UNIT NAME instead of unit id.
+        Progress unit = topic
+        """
+
+        totals = {
+            "examTotal": 0,
+            "units": {}
+        }
+
+        # learn_data = { "Exam Name": [unit, unit, ...] }
+        for units in learn_data.values():
+            if not isinstance(units, list):
+                continue
+
+            for unit in units:
+                if not isinstance(unit, dict):
+                    continue
+
+                # ✅ pick best human-readable unit name
+                unit_name = (
+                        unit.get("title")
+                        or unit.get("chapterName")
+                        or f"Unit-{unit.get('id')}"
+                )
+
+                topic_count = len(unit.get("topics", []))
+
+                totals["units"][unit_name] = topic_count
+                totals["examTotal"] += topic_count
+
+        return totals
+
     # ------------- EXAMS ------------- #
 
     def get_exam_detail(self, exam_id: str):
@@ -91,13 +125,17 @@ class ContentService:
         )
 
     def get_learn(self, exam_id: str):
-        return self._with_cache(
-            f"learn:{exam_id}",
-            lambda: {
+        def loader():
+            learn_data = self.exams.get_file(exam_id, "learn.json")
+            totals = self._calculate_topic_totals(learn_data)
+
+            return {
                 "images": ImageManager.LEARN,
-                "data": self.exams.get_file(exam_id, "learn.json"),
-            },
-        )
+                "data": learn_data,
+                "totals": totals
+            }
+
+        return self._with_cache(f"learn:{exam_id}", loader)
 
     def get_practice(self, exam_id: str):
         return self._with_cache(

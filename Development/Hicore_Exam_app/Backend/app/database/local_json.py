@@ -5,19 +5,19 @@ from typing import Any, Dict, Optional, List
 
 class LocalJSONRepository:
     """
-    Read-only repository for structured JSON content.
+    JSON repository for structured content and user progress.
 
     Guarantees:
     - Safe path resolution
     - Helpful errors for missing / corrupted files
-    - Stable, defensive access
+    - Controlled read & write access
     """
 
     def __init__(self, data_root: Optional[str] = None):
         self.data_root = Path(data_root).resolve()
         self.data_root.mkdir(parents=True, exist_ok=True)
 
-    # ---------- internal helpers ---------- #
+    # ---------- INTERNAL HELPERS ---------- #
 
     def _resolve(self, relative: Path) -> Path:
         """
@@ -34,15 +34,38 @@ class LocalJSONRepository:
         path = self._resolve(path)
 
         if not path.exists():
-            raise FileNotFoundError(f"JSON not found: {path.name}")
+            raise FileNotFoundError(f"JSON not found: {path}")
 
         try:
             with path.open("r", encoding="utf-8") as f:
                 return json.load(f)
         except json.JSONDecodeError:
-            raise ValueError(f"Corrupted JSON: {path.name}")
+            raise ValueError(f"Corrupted JSON: {path}")
 
-    # ---------- PUBLIC READ METHODS ---------- #
+    def _write_json(self, path: Path, data: Dict[str, Any]) -> None:
+        path = self._resolve(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+    # ---------- PUBLIC GENERIC READ / WRITE ---------- #
+
+    def get_json(self, relative_path: str) -> Dict[str, Any]:
+        """
+        Read any JSON safely under data_root.
+        Used for user progress, preferences, etc.
+        """
+        return self._read_json(Path(relative_path))
+
+    def save_json(self, relative_path: str, data: Dict[str, Any]) -> None:
+        """
+        Save JSON safely under data_root.
+        Used for user progress, preferences, etc.
+        """
+        self._write_json(Path(relative_path), data)
+
+    # ---------- CONTENT READ METHODS ---------- #
 
     def get_homepage(self) -> Dict[str, Any]:
         return self._read_json(Path("homepage.json"))
